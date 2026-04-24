@@ -1,0 +1,193 @@
+{
+  "_meta": {
+    "title": "Kitchen Appliance Buying Guide 2026",
+    "last_updated": "2026-04-24",
+    "philosophy": "Reliability > features. Right-size for your actual cooking, not the kitchen you imagine. Match the brand's service network to your zip code."
+  },
+  "categories": {
+    "refrigerators": {
+      "headline": "What to know before you buy",
+      "key_questions": [
+        { "q": "What style fits your kitchen and life?", "a": "French door dominates because it puts fresh food at eye level. Side-by-side is easier in narrow walkways. Top-freezer is the most reliable, cheapest, and most efficient — and dorky. Bottom-freezer is the rental-grade default that quietly outperforms everything else on cost-of-ownership." },
+        { "q": "Counter-depth or standard-depth?", "a": "Counter-depth (24–28\" deep) sits flush with cabinets and looks intentional, but you lose 5–8 cu ft. Standard-depth (30–36\") sticks out 6\" but holds a lot more. If you cook for 4+ regularly, take the depth. If you're plating dinner parties, take the look." },
+        { "q": "Built-in or freestanding?", "a": "Built-in means panel-ready, flush with cabinets, $7k+. Sub-Zero, Thermador Freedom, Miele MasterCool, and Monogram are the players. Freestanding (~$2-3k) does 90% of the job. Built-in is a kitchen-design decision, not an appliance decision." },
+        { "q": "Through-the-door dispenser?", "a": "Top failure point on every fridge ever made. If you don't need it, skip it. If you do, internal dispensers (LG, Bosch 800) cut failure rates noticeably." },
+        { "q": "Smart features?", "a": "Wi-Fi for diagnostics is genuinely useful for service calls. Cameras inside the fridge are gimmicks. Family Hub is for kids. Craft ice is real but slow (1 cube/hour)." }
+      ],
+      "decision_tree": [
+        { "if": "Budget < $1,200", "then": "Whirlpool top-freezer (WRT311FZDM) or LG LTCS20020S. Best $/year you can spend." },
+        { "if": "Budget $1,500–$2,500", "then": "LG LRFXC2606S counter-depth or GE PFE28KYNFS standard-depth French door. Both Wirecutter picks." },
+        { "if": "Budget $2,500–$4,000 (premium look)", "then": "Bosch 800 Series B36CT80SNS — best temp stability, dual compressors, 39 dB silence." },
+        { "if": "Budget $5,000+ (built-in dreams)", "then": "Sub-Zero BI-36U if status matters, Miele MasterCool if engineering matters, Thermador Freedom if you want a coordinated suite, Gaggenau if you want jewelry." },
+        { "if": "Apartment / 24-30\" cavity", "then": "LG LBNC15231V (24\" bottom-freezer), Bosch 24\" column, or Miele 30\" column." }
+      ],
+      "red_flags": [
+        "Service rate >15% (Yale data) — Café and Samsung trending here",
+        "External through-door dispenser on a brand without strong service network",
+        "First-year model with new compressor design",
+        "Linear compressors out of warranty (LG class action history)"
+      ],
+      "what_pros_buy": "Bosch 800 (counter-depth) or Sub-Zero (built-in). For backup beverage fridges, undercounter Sub-Zero UC-24R. Almost no pro recommends Samsung past the showroom floor.",
+      "installation": {
+        "cavity": "Freestanding: 33-36\" W × 68-72\" H × 32-36\" D (standard) or 24-27\" D (counter-depth). Built-in columns integrate into 24\" deep cabinetry. Leave 1/2\" side clearance and 1\" rear for airflow.",
+        "electrical": "Dedicated 120V/15A circuit. Outlet typically behind the unit, within 6 ft.",
+        "plumbing": "Ice/water models: 1/4\" flexible copper or braided line with shutoff. Avoid softened water — causes ice-quality problems and can void warranty.",
+        "professional_install_cost": "$80–200 freestanding delivery+swap; $300–600 counter-depth with water hookup; $600–1,500 built-in with panel.",
+        "diy_difficulty": "Freestanding: easy. Counter-depth: moderate (leveling + water). Built-in: professional only — requires cabinet carpentry.",
+        "common_issues": [
+          "Door-swing clearance blocked by adjacent cabinetry — crisper drawers can't extend.",
+          "Floor out of level by >1/4\" causes door misalignment and seal failure.",
+          "Rear hinge clearance missing on counter-depth — need 1–2\" rear gap for doors to open past 90°.",
+          "Water line kinks when pushed hard against the wall — check after install."
+        ]
+      },
+      "common_pitfalls": [
+        { "pitfall": "Buying max capacity without checking the delivery path.", "avoid": "Measure every doorway from truck to kitchen; doors can be removed in ~15 min if needed." },
+        { "pitfall": "Assuming counter-depth is flush with cabinets.", "avoid": "Counter-depth bodies are 24–27\" deep but doors stick out another 2–3\" with handles. True flush = built-in column." },
+        { "pitfall": "Trading standard-depth for counter-depth and losing 30% of storage.", "avoid": "If you cook for 4+ regularly, keep standard-depth. Aesthetics are expensive in cubic feet." },
+        { "pitfall": "Getting a through-door water/ice dispenser without knowing it's the #1 failure point on every fridge.", "avoid": "Internal dispenser (LG, Bosch 800) or skip it. If you need through-door, extended warranty is often rational." },
+        { "pitfall": "Buying a Samsung Family Hub thinking the touchscreen will earn its price.", "avoid": "It won't. Pay for the fridge you want, not the app." }
+      ]
+    },
+
+    "dishwashers": {
+      "headline": "What to know before you buy",
+      "key_questions": [
+        { "q": "How quiet is quiet enough?", "a": "Anything below 44 dB is functionally silent (you can hold a conversation next to it). 45–48 dB is notable but acceptable. 50+ dB will annoy you in an open-plan kitchen. Bosch 800/Benchmark and Miele are the quiet kings." },
+        { "q": "Third rack: which kind matters", "a": "A flat 3rd rack holds spatulas. Bosch MyWay (deeper, V-shaped) holds mugs and cereal bowls — a real capacity boost. KitchenAid FreeFlex tilts. Miele 3D MultiFlex moves everything. If you're buying premium and skipping MyWay or 3D, you're missing the point." },
+        { "q": "Drying matters more than people think", "a": "Bosch CrystalDry (zeolite mineral) and Miele AutoOpen are the gold standards. Heated-dry burns plastic and is ancient. Stainless tubs hold heat, dry better than plastic." },
+        { "q": "Panel-ready vs stainless front", "a": "Panel-ready ($+300-500) lets the door match cabinetry. Worth it for design-forward kitchens. Custom panel + handle adds another $300-1000." },
+        { "q": "Smart features?", "a": "Bosch Home Connect is genuinely helpful for cycle finish notifications and remote start. Miele AutoDos automatic detergent dispensing (PowerDisk cartridge lasts ~20 cycles) is the rare smart feature that justifies itself." }
+      ],
+      "decision_tree": [
+        { "if": "Budget < $700", "then": "Bosch 100 Series SHXM4AY55N — entry Bosch reliability + stainless tub. Better than any sub-$700 alternative." },
+        { "if": "Budget $700–$1,200", "then": "Bosch 500 Series SGE78C55UC or LG LDTS5552S TrueSteam. Both 44 dB, both with usable 3rd rack." },
+        { "if": "Budget $1,200–$2,000", "then": "Bosch 800 Series SHP78CM5N (panel-ready) — the value sweet spot. CrystalDry, MyWay rack, 42 dB. Wirecutter pick for years." },
+        { "if": "Budget $2,000+", "then": "Miele G 7366 SCVi (AutoDos, 40 dB, 20-yr lifespan) or Bosch Benchmark SHV88PZ63N (39 dB, panel-ready). Thermador Star Sapphire if matching a Thermador suite." },
+        { "if": "ADA height required", "then": "Bosch SHA9PT55UC or SHV9PT53UC — full Benchmark features at ADA height." },
+        { "if": "Two small loads/day, or no garbage disposal", "then": "Fisher & Paykel DD24DCX9N DishDrawer Double — run one drawer at a time, perfect for couples or small households." }
+      ],
+      "red_flags": [
+        "Plastic tub under any condition — leaks heat, retains odor, dries poorly",
+        "Manufacturer-claimed dB rating without independent verification (CR tests these)",
+        "Café 19.6% Yale service rate — concerning for the price",
+        "Samsung repair times have hit 4-6 weeks in some markets"
+      ],
+      "what_pros_buy": "Bosch 800 Series, every time. Or Miele if budget allows. Neither is exciting; both are correct.",
+      "installation": {
+        "cavity": "24\" W × 34\" H × 24\" D standard; 18\" narrow available. Panel-ready adds 1/4–3/4\" to front depth depending on panel thickness.",
+        "electrical": "120V/15A dedicated. Most new installs hard-wire via junction box under the sink.",
+        "plumbing": "1/2\" hot-water supply with shutoff. Drain to garbage disposal or high-loop + air gap. Air gap required by code in CA, HI, MN, WA.",
+        "professional_install_cost": "$200–400 same-brand swap; $500–900 first-time install; +$300–600 for panel-ready panel mounting.",
+        "diy_difficulty": "Moderate. A DIYer with plumbing/electrical basics can swap a DW in 2–3 hours. New rough-in is pro territory.",
+        "common_issues": [
+          "Garbage-disposal knockout plug not removed — causes immediate drain failure on a new install.",
+          "High-loop drain missing — dirty water siphons back. Loop the drain at least 32\" before disposal connection.",
+          "Long hot-water line from heater — cold first-cycle wash underperforms.",
+          "Kick plate height mismatch when brand-swapping."
+        ]
+      },
+      "common_pitfalls": [
+        { "pitfall": "Buying panel-ready and not budgeting for the custom panel.", "avoid": "$200–700 for a custom panel + handle. Factor it before committing to panel-ready." },
+        { "pitfall": "Ignoring the decibel spec because 'all dishwashers are loud.'", "avoid": "42 dB is a whisper; 50 dB is unacceptable in an open-plan kitchen. Pay up for ≤44 dB — you'll hear it every day for 10 years." },
+        { "pitfall": "Assuming third rack = useful third rack.", "avoid": "Basic third racks fit only spatulas. Bosch MyWay and Miele 3D MultiFlex add real capacity — worth the premium." },
+        { "pitfall": "Trusting manufacturer-claimed dB spec.", "avoid": "CR and Reviewed independently test. Use their numbers when they disagree with the marketing sticker." },
+        { "pitfall": "Samsung/LG smart DW bought without checking local service network.", "avoid": "Call two local shops. If both refuse to service the brand, your warranty is theoretical." }
+      ]
+    },
+
+    "ranges_ovens_cooktops": {
+      "headline": "What to know before you buy",
+      "key_questions": [
+        { "q": "Gas, electric, induction, or dual-fuel?", "a": "Induction is the right answer for most new buyers in 2026. It's faster than gas, more precise, and the federal HEAR rebate covers up to $840. Gas dies harder than people think — banned in new construction in NY, CA, parts of MA. Dual-fuel (gas burners + electric oven) is the chef's choice but $$$. Pure electric coil is for rentals." },
+        { "q": "Slide-in, freestanding, or pro?", "a": "Slide-in (controls on front) looks built-in, no backsplash gap, dominates premium. Freestanding is cheaper and has a backsplash. Pro-style (Wolf, Thermador, Viking, BlueStar) is freestanding on steroids — 36–48\" wide, 18–25k BTU burners, $8k–$20k." },
+        { "q": "Range vs. cooktop + wall oven?", "a": "Cooktop + wall oven separates cooking from baking and lets the wall oven be at adult height. Adds $1,500–$3,000 vs. a range. If you have the cabinet space and bake often, do it." },
+        { "q": "Convection: how serious?", "a": "True convection (separate heating element + fan) cooks evenly, browns better. Basic convection (just a fan) is half-measures. European true convection (Bosch, Miele) is the gold standard. Air-fry mode is convection + a perforated rack — useful but not a category." },
+        { "q": "Self-clean: which kind", "a": "Pyrolytic (high-heat ash) is the only real self-clean — Bosch, Miele, Thermador. Steam clean barely works. AquaLift is essentially water + scrubbing. If self-clean matters, buy pyrolytic or accept manual cleaning." }
+      ],
+      "decision_tree": [
+        { "if": "Budget < $1,000 (electric)", "then": "GE JBS60DKBB coil + GE JTS5000SNSS wall oven if separate. Boring, reliable." },
+        { "if": "Budget $1,500–$2,500 (induction range)", "then": "LG LSEL6337F — Wirecutter top induction pick, $2,299 street, ProBake convection." },
+        { "if": "Budget $2,500–$4,000 (induction)", "then": "GE Profile PHS930YPFS or Bosch HII8057U. Bosch wins on oven, GE wins on surface ergonomics." },
+        { "if": "Budget $2,000–$3,500 (gas slide-in)", "then": "Whirlpool WFG775H0HZ (value) or Samsung NX60BB871112 (Flex Duo divider, 22k BTU power burner)." },
+        { "if": "Pro-style budget ($8k–$15k)", "then": "Wolf DF36450C (dual-fuel, charbroiler), Thermador Pro Grand 48\" with steam, or BlueStar RNB if you want 25k BTU open burners and 750 colors." },
+        { "if": "Wall oven (single)", "then": "Bosch 800 HBL8453UC ($2,800, pyrolytic) or Miele H 7780 BP ($4,500, best in class)." },
+        { "if": "Wall oven (double)", "then": "GE Profile PTD9000SNSS ($3,700, 10 cf, air fry) or KitchenAid KODE507ESS ($3,500, no Wi-Fi but solid)." }
+      ],
+      "induction_caveats": [
+        "Cookware: must be magnetic (cast iron, magnetic stainless). Aluminum, copper, glass don't work without converter disk.",
+        "Electrical: 240V/40-50A circuit required. ~$500-1,500 if you don't already have one. Factor into total cost.",
+        "Pacemakers: stand 2 feet away (modern pacemakers are usually fine; check with cardiologist).",
+        "Audible buzz at high power with cheap pans — not a defect, change pans.",
+        "Glass scratches if you slide pots. Lift, don't drag."
+      ],
+      "rebates_2026": [
+        "Federal HEAR (Inflation Reduction Act): up to $840 for induction range/cooktop, income-qualified.",
+        "State programs (CA, NY, MA, WA, CO): often stacked on top, $200-1,500 more.",
+        "Utility rebates: $50-500, varies. Check your electric utility's website.",
+        "25C tax credit doesn't cover ranges directly but covers panel upgrades up to $600."
+      ],
+      "what_pros_buy": "Working chefs at home: Wolf dual-fuel range or BlueStar gas range, paired with a Wolf or Miele wall oven. Bakers: Miele wall oven, every time. Anyone building a new kitchen in 2026: induction cooktop + electric wall oven, full stop.",
+      "installation": {
+        "cavity_range": "30\", 36\", or 48\" slot. Slide-ins need ~1/4\" side clearance; freestanding fit 30\" flush. Pro-style 36\"+ (Wolf, Thermador, Viking, BlueStar) need 6–12\" rear clearance per spec.",
+        "cavity_cooktop": "Cutouts are model-specific — download the spec sheet BEFORE buying. A Bosch 36\" induction cuts at 34-13/16\" × 19-3/4\"; a Wolf 36\" gas at 33-1/2\" × 20-1/2\". Not interchangeable.",
+        "cavity_wall_oven": "30\" single wall oven ~28.5\" × 28.5\" × 23.5\". Double ~28.5\" × 50\" × 23.5\". Each brand varies by 1–2 inches and rough-carpentry labor.",
+        "electrical_gas": "120V/15A for ignition + controls. Gas: 1/2\" black iron with shutoff (3/4\" often needed for 36\" pro with 50,000+ BTU total).",
+        "electrical_electric_induction": "240V/40A or 50A dedicated. Induction ranges typically draw 36–42A at peak. Panel must have space for a double-pole breaker.",
+        "electrical_dual_fuel": "240V/30–50A for the oven + 120V/15A for ignition. Gas supply same as gas range.",
+        "professional_install_cost": "$150–300 like-for-like swap. $1,000–2,500 gas-to-induction conversion (new circuit + likely panel work). $300–800 wall oven. Pro-style 36\"+ up to $1,500 for rear-clearance + anti-tip work.",
+        "diy_difficulty": "Gas: professional (code). Electric swap: DIY if outlet matches. Induction: electrician recommended for panel work. Cooktop: DIY-moderate. Wall oven: heavy + precise fit, hard.",
+        "common_issues": [
+          "240V/40A present but the range needs 50A — requires breaker and possibly wire upgrade.",
+          "Electrical panel full — no space for a new double-pole breaker. $400–1,500 to upgrade or $500 for a load-management device.",
+          "Gas line too small for a pro range with high total BTU output.",
+          "Rear clearance insufficient for pro-style — many older cabinet runs allow only 3–4\" instead of required 6\"+."
+        ]
+      },
+      "common_pitfalls": [
+        { "pitfall": "Buying a 36\" pro gas range and discovering your gas line is 1/2\" (insufficient).", "avoid": "Have a plumber verify line sizing first. Upgrading 1/2\" → 3/4\" in a finished home runs $500–1,500." },
+        { "pitfall": "Buying induction without confirming cookware compatibility.", "avoid": "Magnet test: a fridge magnet must stick firmly to the pan's bottom. Aluminum, copper, most glass won't work without a converter disk." },
+        { "pitfall": "Assuming 'convection' is 'convection'.", "avoid": "True convection has a third heating element around the fan. Plain convection just moves air. Bosch/Miele 'European true convection' is the standard." },
+        { "pitfall": "Pro range installed on undersized wiring.", "avoid": "Check breaker amperage AND wire gauge. A 40A-rated wire can't safely carry a 50A load." },
+        { "pitfall": "Wall oven cutout mismatch on a brand swap.", "avoid": "Download the spec sheet and compare to existing cavity. Budget carpentry labor into the appliance cost." },
+        { "pitfall": "Self-clean on AquaLift — it doesn't work like pyrolytic.", "avoid": "AquaLift is a steam-assist scrub, not true self-clean. If self-clean matters, buy pyrolytic (Bosch, Miele, Thermador)." }
+      ]
+    }
+  },
+
+  "cross_category_principles": [
+    { "title": "Service network beats spec sheet", "body": "A 12% Yale service rate on a brand with 5,000 techs nationwide (GE, Whirlpool) is operationally better than 8% on a brand with 200 techs (Beko, Hisense). Check who repairs your zip code BEFORE buying — call two local shops and ask which brands they refuse to work on." },
+    { "title": "Buy the previous generation", "body": "First-year models have 2-3x the failure rate of mature models. Wait 12-18 months after launch. The 'new' model in the showroom is usually a UI refresh." },
+    { "title": "Don't buy from a big-box for premium", "body": "Sub-Zero, Wolf, Miele, Thermador, Gaggenau — buy from authorized regional dealers (Yale, Bray & Scarff, etc.). They handle install, registration, and warranty service. Big-box stores subcontract these and it shows." },
+    { "title": "Extended warranties: case-by-case", "body": "Worth it on Samsung, LG (compressors), Café, anything with through-door dispenser. Skip on Bosch DW, Miele anything, Whirlpool top-freezer." },
+    { "title": "Energy Star isn't enough", "body": "Most appliances are Energy Star now. Look at kWh/year on the yellow EnergyGuide. A 700 kWh/yr fridge vs. 500 kWh/yr is ~$25/year at average US rates. Over 12 years, $300." }
+  ],
+
+  "brand_report_card": [
+    { "brand_id": "bosch", "one_liner": "Best dishwashers, period. Premium counter-depth fridges with dual compressors and near-silent operation.", "you_want_this_if": "Quiet, reliable, understated — engineering over features.", "avoid_if": "You want a big feature-laden American fridge or a showy pro range." },
+    { "brand_id": "miele", "one_liner": "German ultra-premium — tested to 20 years of use. Limited US service network.", "you_want_this_if": "Maximum reliability at any price AND you live within 50 miles of a Miele service rep.", "avoid_if": "You're rural; parts and service are a 2–3 week wait." },
+    { "brand_id": "sub-zero", "one_liner": "Built-in specialist — $14k+ entry. The kitchen-design appliance; service network is excellent.", "you_want_this_if": "Premium remodel wanting flush built-in look with industrial-grade build quality.", "avoid_if": "You want value; freestanding Bosch 800 or Thermador Freedom cover 90% for a third the price." },
+    { "brand_id": "lg", "one_liner": "Best mainstream value — smart-inverter linear compressors, induction ranges under $2,500. Features that actually work.", "you_want_this_if": "Feature-rich mid-premium at a fair price with broad service.", "avoid_if": "You want maximum simplicity — Whirlpool or Bosch avoid LG's failure-mode breadth." },
+    { "brand_id": "samsung", "one_liner": "Best-looking Bespoke panels. Flex Zone, Family Hub. Weakest US repair network of major brands.", "you_want_this_if": "Aesthetics matter and you're buying the extended warranty.", "avoid_if": "You want low-friction service over 10 years." },
+    { "brand_id": "ge-profile", "one_liner": "Broad US service network, Autofill pitcher, good-value induction ranges. Service rate trending up recently.", "you_want_this_if": "Service availability matters more than engineering pedigree.", "avoid_if": "You're cross-shopping Bosch 800 — Bosch wins on reliability and quietness." },
+    { "brand_id": "cafe", "one_liner": "Customizable matte finishes and brass hardware — genuinely beautiful. Yale 2026 service rate ~19% is concerning.", "you_want_this_if": "Design trumps reliability in your priority stack.", "avoid_if": "You want Café looks AND Café prices AND reliability — LG Studio or SKS pair looks with lower service rates." },
+    { "brand_id": "whirlpool", "one_liner": "Workhorse reliability in basic configurations. Best top-freezer fridges. Legendary parts availability.", "you_want_this_if": "'It just works for 15 years' and you don't care about Wi-Fi.", "avoid_if": "You want quiet dishwashers or style-forward fridges." },
+    { "brand_id": "kitchenaid", "one_liner": "Whirlpool DNA at premium prices. Pro-look handles, PrintShield finish.", "you_want_this_if": "Whirlpool reliability with better interior finishes.", "avoid_if": "You want Bosch-quiet or Samsung-smart — cross-shop those instead." },
+    { "brand_id": "maytag", "one_liner": "Whirlpool sub-brand. 10-year parts warranty on select motors/compressors.", "you_want_this_if": "Whirlpool reliability with heavier-duty positioning and a longer parts warranty.", "avoid_if": "You want quiet, smart, or premium — none apply here." },
+    { "brand_id": "thermador", "one_liner": "BSH group (Bosch engineering) at ultra-premium. Freedom Collection for coordinated built-ins.", "you_want_this_if": "Full-suite build, Sub-Zero-adjacent design, Bosch-adjacent reliability.", "avoid_if": "You want a single appliance — Freedom's value is coordination." },
+    { "brand_id": "wolf", "one_liner": "Pro-style ranges and wall ovens. Sister brand to Sub-Zero. Industrial aesthetic.", "you_want_this_if": "Serious home cook wanting visible flame and red-knob credibility.", "avoid_if": "You want low-maintenance — pro ranges need more attention and rear clearance than people expect." },
+    { "brand_id": "fisher-paykel", "one_liner": "New Zealand engineering. DishDrawer double-drawer is unique. Niche but solid.", "you_want_this_if": "You specifically want a two-drawer dishwasher or F&P columns.", "avoid_if": "You live in a market with few F&P installers — service will be painful." },
+    { "brand_id": "gaggenau", "one_liner": "BSH group's architectural ultra-premium. $15k+ entry.", "you_want_this_if": "Magazine-cover kitchen.", "avoid_if": "You care about ROI." },
+    { "brand_id": "jennair", "one_liner": "Whirlpool's luxury line. Rise (stainless) + Noir (black). Obsidian clear ice.", "you_want_this_if": "Sub-Zero look with a Whirlpool chassis underneath.", "avoid_if": "You want proven ultra-premium reliability." },
+    { "brand_id": "monogram", "one_liner": "GE's luxury/built-in line. GE service network at a step-up price point.", "you_want_this_if": "Built-in aesthetics with GE's broad national service.", "avoid_if": "Cross-shopping Sub-Zero — SZ wins except on service footprint." },
+    { "brand_id": "viking", "one_liner": "Pro-style with 750+ colors. Reliability history polarizing.", "you_want_this_if": "You want a specific color of pro range more than anything else.", "avoid_if": "10-year reliability matters — Wolf or Thermador are safer pro picks." },
+    { "brand_id": "bluestar", "one_liner": "Commercial-grade open-burner gas, 25,000 BTU max. Hand-built USA.", "you_want_this_if": "Wok/high-temp cooking where BTU output is the deciding factor.", "avoid_if": "You don't cook at industrial temperatures — you'll pay for capability you won't use." },
+    { "brand_id": "sks", "one_liner": "Signature Kitchen Suite — LG's ultra-premium. Sous vide module in their range. LG reliability DNA.", "you_want_this_if": "Sub-Zero / Wolf look and sous vide for less money.", "avoid_if": "You want showroom/dealer density — SKS is thinly distributed." },
+    { "brand_id": "frigidaire", "one_liner": "Budget mainstream. Gallery line is mid-tier. Reliability middling.", "you_want_this_if": "Tight budget and need 7–10 years.", "avoid_if": "You want quiet, premium, or feature-rich." },
+    { "brand_id": "electrolux", "one_liner": "Swedish parent of Frigidaire. Strong counter-depth fridges at mid-premium.", "you_want_this_if": "Counter-depth at mid-premium without Bosch spend.", "avoid_if": "You want Bosch's reliability margin." },
+    { "brand_id": "beko", "one_liner": "Turkish budget brand. Very energy-efficient. US service network thin.", "you_want_this_if": "Energy efficiency and low price are top priorities and you can tolerate long service waits.", "avoid_if": "You want next-day service." },
+    { "brand_id": "hisense", "one_liner": "Chinese value brand. Expanding US lineup. Service thin.", "you_want_this_if": "Price is the only thing that matters.", "avoid_if": "You want a 10-year appliance." },
+    { "brand_id": "zline", "one_liner": "Pro-style on a budget, Autograph Edition hardware (brass/black/gold). Newer brand.", "you_want_this_if": "Pro look at half Wolf/Thermador price and you accept early-adopter risk.", "avoid_if": "Proven long-term reliability is required." },
+    { "brand_id": "forno", "one_liner": "Italian-designed, US-sold pro-style. Mid-premium price.", "you_want_this_if": "Italian aesthetic at mid-premium.", "avoid_if": "You need an extensive service network." }
+  ]
+}

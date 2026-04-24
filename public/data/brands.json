@@ -1,0 +1,376 @@
+{
+  "_meta": {
+    "note": "Brand-level reliability data. Only values we could independently verify from 2026 primary sources are populated; unverified fields are null. service_rate_overall = first-year service call rate from Yale Appliance's Dec 2025 / 2026 report (33,190 calls, Greater Boston / Cape Cod / Southern NH). cr_best_brand_2026 = categories in which Consumer Reports named the brand 'Best' in its Feb 2026 press release. Lower service rate = better.",
+    "sources": {
+      "yale_2026": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+      "cr_2026_kitchen_brands": "https://www.consumerreports.org/media-room/press-releases/2026/02/consumer-reports-reveals-2026-best-kitchen-brands-for-cooktops-dishwashers-ranges-refrigerators-and-wall-ovens/",
+      "yale_2026_dw": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+    },
+    "last_updated": "2026-04-24"
+  },
+  "brands": [
+    {
+      "id": "lg",
+      "name": "LG",
+      "tier": "mainstream",
+      "country": "South Korea",
+      "service_rate_overall": 5.5,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [
+        "gas_cooktop",
+        "electric_cooktop",
+        "top_freezer_fridge",
+        "wall_oven"
+      ],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 5.5% service rate — front-load washers and wall ovens lead; linear compressors fail ~1.1% within 5 years (Yale). CR 2026 best brand: gas cooktop, electric cooktop, top-freezer fridge, and wall oven. Builds its own components.",
+      "service_rate_dishwasher": 11.6,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "lg-studio",
+      "name": "LG Studio",
+      "tier": "premium",
+      "country": "South Korea",
+      "service_rate_overall": 8.2,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 8.2% service rate. Upscale LG line with upgraded wall ovens, dishwashers, and speed-over-steam-assist ovens. Differentiation vs LG and SKS is not always clear-cut."
+    },
+    {
+      "id": "miele",
+      "name": "Miele",
+      "tier": "ultra-premium",
+      "country": "Germany",
+      "service_rate_overall": 7.4,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 7.4% overall; dishwasher service rate improved from 10% to 5.5% year-over-year. Tested to 20 years of use. 15–20% price increases announced for 2026. Limited US fridge lineup (mostly integrated).",
+      "service_rate_dishwasher": 5.6,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "bosch",
+      "name": "Bosch",
+      "tier": "premium",
+      "country": "Germany",
+      "service_rate_overall": 8.7,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [
+        "dishwasher",
+        "french_door_fridge"
+      ],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 8.7% service rate — dishwashers are the core strength. CR 2026 best brand for dishwashers and French-door fridges. Expanding 100 Series entry tier. Cooktops manufactured in Spain (shared with Gaggenau / Thermador).",
+      "service_rate_dishwasher": 7.8,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "bosch-benchmark",
+      "name": "Bosch Benchmark",
+      "tier": "premium",
+      "country": "Germany",
+      "service_rate_overall": 7.8,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 7.8% service rate. Bosch's flagship line — dishwashers and induction cooktops. Premium pricing with modest feature upgrades over 800 Series.",
+      "service_rate_dishwasher": 7.7,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "gaggenau",
+      "name": "Gaggenau",
+      "tier": "ultra-premium",
+      "country": "Germany",
+      "service_rate_overall": 7.7,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 7.7% service rate. BSH-owned (same parent as Bosch, Thermador). Strongest in wall ovens and induction cooktops — cooktops service-free for the first two years per Yale."
+    },
+    {
+      "id": "ge-profile",
+      "name": "GE Profile",
+      "tier": "premium",
+      "country": "USA (Haier)",
+      "service_rate_overall": 8.0,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 8.0% service rate. Mid-premium positioning with significant overlap with the Café line. New 5.3 cu ft washer launched 2026.",
+      "service_rate_dishwasher": 10.3,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "ge",
+      "name": "GE Appliances",
+      "tier": "mainstream",
+      "country": "USA (Haier)",
+      "service_rate_overall": 9.2,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [
+        "gas_range",
+        "side_by_side_fridge"
+      ],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 9.2% service rate — 'one of the best values' per Yale. CR 2026 best brand for gas ranges and side-by-side fridges. Operates its own national service network.",
+      "service_rate_dishwasher": 8.9,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "cafe",
+      "name": "Café Appliances",
+      "tier": "premium",
+      "country": "USA (Haier)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "GE's design-forward line — customizable hardware, matte finishes, Wi-Fi standard. Not in Yale 2026 top-11 reliability list; service rate not independently verified for 2026.",
+      "service_rate_dishwasher": 16.6,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "monogram",
+      "name": "Monogram",
+      "tier": "ultra-premium",
+      "country": "USA (Haier)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "GE's luxury / built-in line, positioned against Sub-Zero and Wolf. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "sks",
+      "name": "Signature Kitchen Suite (SKS)",
+      "tier": "ultra-premium",
+      "country": "South Korea (LG)",
+      "service_rate_overall": 8.8,
+      "service_rate_source": "yale_2026",
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Yale 2026: 8.8% service rate. LG's ultra-premium line with pro-style ranges and induction with Sous Vide. New 7,000W induction element boils a gallon in under 3.5 min. Thinly distributed outside metro markets."
+    },
+    {
+      "id": "whirlpool",
+      "name": "Whirlpool",
+      "tier": "mainstream",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Workhorse reputation, simple designs, strong parts availability. Not listed in Yale 2026 top-11; Yale notes it doesn't always carry Whirlpool, so no Yale rate. No independently verified 2026 service rate."
+    },
+    {
+      "id": "maytag",
+      "name": "Maytag",
+      "tier": "mainstream",
+      "country": "USA (Whirlpool)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Whirlpool sub-brand with heavy-duty marketing. Shares parts with Whirlpool. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "kitchenaid",
+      "name": "KitchenAid",
+      "tier": "premium",
+      "country": "USA (Whirlpool)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Whirlpool's premium kitchen brand — shares reliability DNA with Whirlpool at higher price. Not in Yale 2026 top-11; no independently verified 2026 service rate.",
+      "service_rate_dishwasher": 8.2,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "tier": "mainstream",
+      "country": "South Korea",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Leader in smart features (Bespoke, Family Hub, Flex Duo). Historically critiqued for US repair network depth, especially for ice makers. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "frigidaire",
+      "name": "Frigidaire",
+      "tier": "budget",
+      "country": "USA (Electrolux)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [
+        "electric_range"
+      ],
+      "cr_reliability": null,
+      "notes": "Budget mainstream — Gallery line is the mid-tier. CR 2026 best brand for electric ranges. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "electrolux",
+      "name": "Electrolux",
+      "tier": "premium",
+      "country": "Sweden",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Swedish parent of Frigidaire. Strong counter-depth refrigerator lineup. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "fisher-paykel",
+      "name": "Fisher & Paykel",
+      "tier": "premium",
+      "country": "New Zealand",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Niche, innovative (DishDrawer double-drawer DW). Not in Yale 2026 top-11; no independently verified 2026 service rate.",
+      "service_rate_dishwasher": 16.6,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "sub-zero",
+      "name": "Sub-Zero",
+      "tier": "ultra-premium",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Built-in refrigeration specialist — dual compressors, $10k+ entry, designed for 20+ year service life. Not in Yale 2026 top-11 (Yale sells Sub-Zero but didn't publish a 2026 rate in its top-11 report); no independently verified 2026 service rate."
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "tier": "ultra-premium",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Sister brand to Sub-Zero — pro-style ranges, cooktops, wall ovens. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "thermador",
+      "name": "Thermador",
+      "tier": "ultra-premium",
+      "country": "USA (BSH)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "BSH-owned (same parent as Bosch, Gaggenau). Freedom Collection for coordinated built-ins. Not in Yale 2026 top-11; no independently verified 2026 service rate.",
+      "service_rate_dishwasher": 8.1,
+      "service_rate_dishwasher_source": "yale_2026_dw"
+    },
+    {
+      "id": "jennair",
+      "name": "JennAir",
+      "tier": "ultra-premium",
+      "country": "USA (Whirlpool)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Whirlpool's luxury line — Rise (stainless) and Noir (black) aesthetics. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "viking",
+      "name": "Viking",
+      "tier": "ultra-premium",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Pro-style ranges, colors. Reliability history is polarizing. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "bluestar",
+      "name": "BlueStar",
+      "tier": "ultra-premium",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Commercial-grade open-burner pro ranges, hand-built USA. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "beko",
+      "name": "Beko",
+      "tier": "budget",
+      "country": "Turkey",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "European budget brand expanding in the US — energy-efficient, basic features. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "hisense",
+      "name": "Hisense",
+      "tier": "budget",
+      "country": "China",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Value tier, expanding US lineup. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "haier",
+      "name": "Haier",
+      "tier": "budget",
+      "country": "China",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Parent company of GE Appliances. Compact / apartment units dominate the US Haier-branded lineup. Not in Yale 2026 top-11 under the Haier name; no independently verified 2026 service rate."
+    },
+    {
+      "id": "zline",
+      "name": "ZLINE",
+      "tier": "premium",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Pro-style on a budget, Autograph Edition hardware. Newer brand with fast-growing lineup; long-term reliability track record still short. No independently verified 2026 service rate."
+    },
+    {
+      "id": "forno",
+      "name": "Forno",
+      "tier": "premium",
+      "country": "USA/Italy",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Italian-styled ranges and refrigerators, newer US importer. No independently verified 2026 service rate."
+    },
+    {
+      "id": "hotpoint",
+      "name": "Hotpoint",
+      "tier": "budget",
+      "country": "USA (Haier)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "GE Appliances sub-brand — stripped-down top-freezers and basic ranges. Reviewed.com picked Hotpoint HPS16BTNRWW as best 2026 top-freezer. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    }
+  ]
+}

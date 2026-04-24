@@ -1,0 +1,1799 @@
+{
+  "_meta": {
+    "category": "dishwashers",
+    "note": "Dishwasher seed DB. Bosch dominates premium; Miele is ultra-premium. Key specs: decibel rating (lower=quieter, <44 is luxury), place settings, 3rd rack, energy use (kWh/yr), water use (gal/cycle), tub material (stainless usually preferred).",
+    "sources": [
+      "Consumer Reports Best Dishwashers 2026",
+      "Yale Appliance reliability 2026",
+      "Reviewed 2026",
+      "Wirecutter"
+    ],
+    "last_updated": "2026-04-24",
+    "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls."
+  },
+  "models": [
+    {
+      "id": "bosch-shp78cm5n",
+      "brand": "bosch",
+      "model": "SHP78CM5N",
+      "name": "Bosch 800 Series SHP78CM5N Panel-Ready",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "MyWay",
+      "wash_cycles": 8,
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 1599,
+      "street_price": 1299,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null,
+        "rtings": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-800-series-shp78cm5n/m412472/",
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
+        },
+        "reviewed_status": "Editor's Choice · Best Overall 2026"
+      },
+      "pros": [
+        "CR 2026 #1 of 130 dishwashers tested",
+        "Reviewed.com lab: 99.97% dish cleanliness",
+        "MyWay 3rd rack for deep items",
+        "42 dB very quiet",
+        "Panel-ready"
+      ],
+      "cons": [
+        "No interior light on this trim",
+        "Premium price",
+        "2.5–3h typical cycle time"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-shxm4ay55n",
+      "brand": "bosch",
+      "model": "SHXM4AY55N",
+      "name": "Bosch 100 Series SHXM4AY55N",
+      "tub": "stainless",
+      "decibels": 50,
+      "place_settings": 14,
+      "third_rack": "basic",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 849,
+      "street_price": 699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Entry Bosch reliability",
+        "Stainless tub",
+        "Great value"
+      ],
+      "cons": [
+        "50 dB noticeable",
+        "No Wi-Fi"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "bosch-shv88pz63n",
+      "brand": "bosch",
+      "model": "SHV88PZ63N",
+      "name": "Bosch Benchmark SHV88PZ63N",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 16,
+      "third_rack": "MyWay",
+      "energy_kwh_yr": 230,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2299,
+      "street_price": 1899,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "39 dB flagship quiet",
+        "CrystalDry zeolite drying",
+        "Panel-ready w/ towel handle"
+      ],
+      "cons": [
+        "Expensive",
+        "Cycle times long"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-sge78c55uc",
+      "brand": "bosch",
+      "model": "SGE78C55UC",
+      "name": "Bosch 500 Series SGE78C55UC",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": "MyWay",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1199,
+      "street_price": 999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "44 dB quiet",
+        "MyWay 3rd rack",
+        "AutoAir door auto-opens"
+      ],
+      "cons": [
+        "Interior feels plastic at edges"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-g7366scvi",
+      "brand": "miele",
+      "model": "G 7366 SCVi",
+      "name": "Miele G 7366 SCVi Panel-Ready",
+      "tub": "stainless",
+      "decibels": 40,
+      "place_settings": 16,
+      "third_rack": "3D MultiFlex",
+      "energy_kwh_yr": 230,
+      "water_gal_cycle": 2.4,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2699,
+      "street_price": 2399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Tested to 20-year lifespan",
+        "AutoDos automatic detergent",
+        "KnockToOpen door"
+      ],
+      "cons": [
+        "Very expensive",
+        "US service limited"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-g5008scu",
+      "brand": "miele",
+      "model": "G 5008 SCU",
+      "name": "Miele G 5008 SCU Active",
+      "tub": "stainless",
+      "decibels": 46,
+      "place_settings": 14,
+      "third_rack": "basic",
+      "energy_kwh_yr": 245,
+      "water_gal_cycle": 2.8,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 1699,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Entry Miele reliability",
+        "Stainless tub",
+        "Built to last"
+      ],
+      "cons": [
+        "No Wi-Fi",
+        "46 dB not luxury-quiet"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "kitchenaid-kdtm604kps",
+      "brand": "kitchenaid",
+      "model": "KDTM604KPS",
+      "name": "KitchenAid KDTM604KPS",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 14,
+      "third_rack": "FreeFlex",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.1,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1499,
+      "street_price": 1099,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "FreeFlex 3rd rack fits mugs",
+        "44 dB",
+        "Bold pro look"
+      ],
+      "cons": [
+        "Whirlpool reliability OK not great"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-profile-pdt785synfs",
+      "brand": "ge-profile",
+      "model": "PDT785SYNFS",
+      "name": "GE Profile PDT785SYNFS",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 16,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1299,
+      "street_price": 999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "39 dB ultra quiet",
+        "Microban interior",
+        "Bottle wash jets"
+      ],
+      "cons": [
+        "GE reliability watchlist",
+        "Long cycles"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-gdt665synfs",
+      "brand": "ge",
+      "model": "GDT665SYNFS",
+      "name": "GE GDT665SYNFS",
+      "tub": "stainless",
+      "decibels": 45,
+      "place_settings": 16,
+      "third_rack": "basic",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 899,
+      "street_price": 699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Good value",
+        "Hidden controls",
+        "Reliable"
+      ],
+      "cons": [
+        "Plastic 3rd rack"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "whirlpool-wdt970sahz",
+      "brand": "whirlpool",
+      "model": "WDT970SAHZ",
+      "name": "Whirlpool WDT970SAHZ",
+      "tub": "stainless",
+      "decibels": 47,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.8,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 899,
+      "street_price": 699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Whirlpool reliability",
+        "Simple"
+      ],
+      "cons": [
+        "47 dB notable",
+        "No Wi-Fi"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "samsung-dw80r9950us",
+      "brand": "samsung",
+      "model": "DW80R9950US",
+      "name": "Samsung DW80R9950US Linear Wash",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 15,
+      "third_rack": "3rd + AutoRelease",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1499,
+      "street_price": 1099,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Linear Wash spray bar",
+        "39 dB",
+        "Auto-open door"
+      ],
+      "cons": [
+        "Samsung repair concerns",
+        "Smart features feel gimmicky"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "samsung-dw80b7070us",
+      "brand": "samsung",
+      "model": "DW80B7070US",
+      "name": "Samsung DW80B7070US Bespoke",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 15,
+      "third_rack": "StormWash+",
+      "energy_kwh_yr": 250,
+      "water_gal_cycle": 2.8,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1199,
+      "street_price": 899,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Bespoke customizable panel",
+        "AutoRelease door",
+        "StormWash+"
+      ],
+      "cons": [
+        "Samsung service"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-ldfn4542s",
+      "brand": "lg",
+      "model": "LDFN4542S",
+      "name": "LG LDFN4542S QuadWash",
+      "tub": "stainless",
+      "decibels": 46,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 258,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 899,
+      "street_price": 699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": 3.6,
+        "reviewed": null,
+        "source_urls": {
+          "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+        }
+      },
+      "pros": [
+        "Good value",
+        "QuadWash arms",
+        "Wi-Fi"
+      ],
+      "cons": [
+        "46 dB moderate"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "lg-ldts5552s",
+      "brand": "lg",
+      "model": "LDTS5552S",
+      "name": "LG LDTS5552S TrueSteam",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 15,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.1,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1299,
+      "street_price": 999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "TrueSteam sanitization",
+        "42 dB",
+        "TrueSteam"
+      ],
+      "cons": [
+        "Long cycles"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "kitchenaid-kdpm804kbs",
+      "brand": "kitchenaid",
+      "model": "KDPM804KBS",
+      "name": "KitchenAid KDPM804KBS Panel-Ready",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 16,
+      "third_rack": "FreeFlex",
+      "energy_kwh_yr": 230,
+      "water_gal_cycle": 2.8,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 1899,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null,
+        "reviewed_status": "Recommended · Best Drying 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+        }
+      },
+      "pros": [
+        "39 dB",
+        "Panel-ready",
+        "ProWash sensor"
+      ],
+      "cons": [
+        "Premium pricing"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "thermador-dwhd770cfp",
+      "brand": "thermador",
+      "model": "DWHD770CFP",
+      "name": "Thermador Star Sapphire DWHD770CFP",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 16,
+      "third_rack": "ChefsTool",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 2.8,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2799,
+      "street_price": 2399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Star-Speed 20-min cycle",
+        "Chef's Tool Drawer",
+        "Stellar interior lighting"
+      ],
+      "cons": [
+        "$2k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "cafe-cdt875p4nw2",
+      "brand": "cafe",
+      "model": "CDT875P4NW2",
+      "name": "Café CDT875P4NW2 Matte",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 16,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1599,
+      "street_price": 1299,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Matte finish + custom hardware",
+        "39 dB",
+        "Bottle jets"
+      ],
+      "cons": [
+        "Yale service rate concerning"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "fp-dd24dcx9n",
+      "brand": "fisher-paykel",
+      "model": "DD24DCX9N",
+      "name": "Fisher & Paykel DishDrawer Double",
+      "tub": "stainless",
+      "decibels": 43,
+      "place_settings": 14,
+      "third_rack": "n/a (two drawers)",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.0,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2199,
+      "street_price": 1899,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Two independent drawers (run small loads)",
+        "ADA-friendly heights",
+        "Panel-ready"
+      ],
+      "cons": [
+        "Less capacity per drawer",
+        "Unique = niche repair"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "miele-g7156scvi",
+      "brand": "miele",
+      "model": "G 7156 SCVi",
+      "name": "Miele G 7156 SCVi",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "3D MultiFlex",
+      "energy_kwh_yr": 235,
+      "water_gal_cycle": 2.4,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2299,
+      "street_price": 1999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Miele reliability",
+        "AutoOpen Drying",
+        "MultiFlex 3rd rack"
+      ],
+      "cons": [
+        "No AutoDos on this trim"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-shv9pcm53n",
+      "brand": "bosch",
+      "model": "SHV9PCM53N",
+      "name": "Bosch Benchmark SHV9PCM53N",
+      "tub": "stainless",
+      "decibels": 40,
+      "place_settings": 16,
+      "third_rack": "MyWay + RackMatic",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2499,
+      "street_price": 2099,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "CrystalDry + Zeolite",
+        "40 dB",
+        "RackMatic height adjust"
+      ],
+      "cons": [
+        "$2k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "frigidaire-fgid2479sf",
+      "brand": "frigidaire",
+      "model": "FGID2479SF",
+      "name": "Frigidaire Gallery FGID2479SF",
+      "tub": "stainless",
+      "decibels": 49,
+      "place_settings": 14,
+      "third_rack": "basic",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 799,
+      "street_price": 599,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheap stainless tub",
+        "OrbitClean arm"
+      ],
+      "cons": [
+        "49 dB noticeable",
+        "Reliability middling"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "whirlpool-wdta50sakz",
+      "brand": "whirlpool",
+      "model": "WDTA50SAKZ",
+      "name": "Whirlpool WDTA50SAKZ",
+      "tub": "stainless",
+      "decibels": 47,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 849,
+      "street_price": 649,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Whirlpool reliable chassis",
+        "Wash bottles on top",
+        "Tall tub"
+      ],
+      "cons": [
+        "47 dB"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "maytag-mdb8959skz",
+      "brand": "maytag",
+      "model": "MDB8959SKZ",
+      "name": "Maytag MDB8959SKZ",
+      "tub": "stainless",
+      "decibels": 47,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 949,
+      "street_price": 749,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Dual Power Filtration",
+        "10-yr parts warranty on motor/tub"
+      ],
+      "cons": [
+        "No Wi-Fi"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-gdp665synfs",
+      "brand": "ge",
+      "model": "GDP665SYNFS",
+      "name": "GE GDP665SYNFS",
+      "tub": "stainless",
+      "decibels": 47,
+      "place_settings": 16,
+      "third_rack": "basic",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 799,
+      "street_price": 599,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Great value",
+        "Wi-Fi at this price"
+      ],
+      "cons": [
+        "47 dB moderate"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "bosch-sha9pt55uc",
+      "brand": "bosch",
+      "model": "SHA9PT55UC",
+      "name": "Bosch 800 Series SHA9PT55UC ADA",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 15,
+      "third_rack": "MyWay",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1699,
+      "street_price": 1399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "ADA-compliant height",
+        "42 dB",
+        "Home Connect"
+      ],
+      "cons": [
+        "Slightly less interior"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "sks-sdwb24st",
+      "brand": "sks",
+      "model": "SDWB24ST",
+      "name": "Signature Kitchen Suite SDWB24ST",
+      "tub": "stainless",
+      "decibels": 40,
+      "place_settings": 16,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 245,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2299,
+      "street_price": 1999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "LG DNA + premium build",
+        "40 dB",
+        "Panel-ready"
+      ],
+      "cons": [
+        "Niche brand"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-ldfs4542s",
+      "brand": "lg",
+      "model": "LDFS4542S",
+      "name": "LG LDFS4542S TrueSteam",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 15,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.0,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1099,
+      "street_price": 849,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Strong value",
+        "TrueSteam",
+        "44 dB"
+      ],
+      "cons": [
+        "Plastic finish on rack"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "kitchenaid-kdte204kps",
+      "brand": "kitchenaid",
+      "model": "KDTE204KPS",
+      "name": "KitchenAid KDTE204KPS",
+      "tub": "stainless",
+      "decibels": 46,
+      "place_settings": 14,
+      "third_rack": "basic",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 1099,
+      "street_price": 849,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "PrintShield finish",
+        "Heavy-duty wash"
+      ],
+      "cons": [
+        "No Wi-Fi at price"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "miele-g7106scube",
+      "brand": "miele",
+      "model": "G 7106 SCU",
+      "name": "Miele G 7106 SCU Active Plus",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": "3D MultiFlex",
+      "energy_kwh_yr": 245,
+      "water_gal_cycle": 2.5,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1999,
+      "street_price": 1799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Miele-grade reliability at entry-mid trim",
+        "Stainless tub edge-to-edge"
+      ],
+      "cons": [
+        "No panel-ready"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-shx78cm5n",
+      "brand": "bosch",
+      "model": "SHX78CM5N",
+      "name": "Bosch 800 Series SHX78CM5N",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "MyWay",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1399,
+      "street_price": 1099,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "CrystalDry",
+        "42 dB",
+        "Reliable"
+      ],
+      "cons": [
+        "Long cycle times"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "cafe-cdt845p2ns1",
+      "brand": "cafe",
+      "model": "CDT845P2NS1",
+      "name": "Café CDT845P2NS1",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "basic",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1399,
+      "street_price": 1099,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Matte options",
+        "Bottle wash jets"
+      ],
+      "cons": [
+        "Service rate concerning"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-profile-pdt715synfs",
+      "brand": "ge-profile",
+      "model": "PDT715SYNFS",
+      "name": "GE Profile PDT715SYNFS",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 3.3,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1099,
+      "street_price": 849,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "42 dB at mid price",
+        "Wi-Fi"
+      ],
+      "cons": [
+        "GE reliability trending"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "whirlpool-wdt740salz",
+      "brand": "whirlpool",
+      "model": "WDT740SALZ",
+      "name": "Whirlpool WDT740SALZ",
+      "tub": "stainless",
+      "decibels": 47,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 749,
+      "street_price": 599,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Good value",
+        "Reliable"
+      ],
+      "cons": [
+        "47 dB"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "samsung-dw80cg4051ss",
+      "brand": "samsung",
+      "model": "DW80CG4051SS",
+      "name": "Samsung DW80CG4051SS Budget",
+      "tub": "stainless",
+      "decibels": 48,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 599,
+      "street_price": 449,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheapest stainless tub"
+      ],
+      "cons": [
+        "48 dB",
+        "Samsung service"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "beko-ddfn38530x",
+      "brand": "beko",
+      "model": "DDFN38530X",
+      "name": "Beko DDFN38530X",
+      "tub": "stainless",
+      "decibels": 45,
+      "place_settings": 14,
+      "third_rack": "basic",
+      "energy_kwh_yr": 220,
+      "water_gal_cycle": 2.6,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 849,
+      "street_price": 699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Very energy efficient",
+        "Cork+SelfDry",
+        "Good value"
+      ],
+      "cons": [
+        "Service network limited"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-g5892scuss",
+      "brand": "miele",
+      "model": "G 5892 SCU SS",
+      "name": "Miele G 5892 SCU SS Crystal",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": "3D",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 2.4,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1799,
+      "street_price": 1599,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Tested to 20yr",
+        "AutoOpen",
+        "Hidden controls"
+      ],
+      "cons": [
+        "No panel-ready"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "bosch-shp9pcm5n",
+      "brand": "bosch",
+      "model": "SHP9PCM5N",
+      "name": "Bosch 800 Series SHP9PCM5N Panel-Ready",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "MyWay",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 1799,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "reviewed_status": "Editor's Choice · Best Upgrade 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
+        }
+      },
+      "pros": [
+        "Panel-ready + CrystalDry",
+        "42 dB",
+        "Home Connect"
+      ],
+      "cons": [
+        "Towel-bar handle required separately"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "thermador-dwhd560cfp",
+      "brand": "thermador",
+      "model": "DWHD560CFP",
+      "name": "Thermador Emerald DWHD560CFP",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 15,
+      "third_rack": "ChefsTool",
+      "energy_kwh_yr": 250,
+      "water_gal_cycle": 3.0,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1799,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Thermador styling at entry",
+        "Chef's Tool Drawer",
+        "44 dB"
+      ],
+      "cons": [
+        "Less quiet than Sapphire"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "sks-sdwb24s3",
+      "brand": "sks",
+      "model": "SDWB24S3",
+      "name": "SKS SDWB24S3 TopControl",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 2.8,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1999,
+      "street_price": 1799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Hidden controls",
+        "TrueSteam",
+        "42 dB"
+      ],
+      "cons": [
+        "Fewer dealers"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "fp-dw60uc6i1",
+      "brand": "fisher-paykel",
+      "model": "DW60UC6I1",
+      "name": "Fisher & Paykel DW60UC6I1 Series 7",
+      "tub": "stainless",
+      "decibels": 43,
+      "place_settings": 15,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 2.8,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 1699,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Panel-ready single tub",
+        "43 dB"
+      ],
+      "cons": [
+        "Niche brand"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "gaggenau-df481700f",
+      "brand": "gaggenau",
+      "model": "DF481700F",
+      "name": "Gaggenau 400 Series DF481700F",
+      "tub": "stainless",
+      "decibels": 40,
+      "place_settings": 16,
+      "third_rack": "3-level",
+      "energy_kwh_yr": 230,
+      "water_gal_cycle": 2.4,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 3499,
+      "street_price": 3199,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Architectural design",
+        "Push-to-open",
+        "Built-in-look perfection"
+      ],
+      "cons": [
+        "$3k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-gdf550psnss",
+      "brand": "ge",
+      "model": "GDF550PSNSS",
+      "name": "GE GDF550PSNSS Budget",
+      "tub": "stainless",
+      "decibels": 50,
+      "place_settings": 14,
+      "third_rack": "none",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.8,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 599,
+      "street_price": 449,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheap and reliable"
+      ],
+      "cons": [
+        "No 3rd rack",
+        "Loud"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "monogram-zdt985sinii",
+      "brand": "monogram",
+      "model": "ZDT985SINII",
+      "name": "Monogram ZDT985SINII",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 16,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2699,
+      "street_price": 2399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "39 dB",
+        "Monogram built-in aesthetic",
+        "Pro wash"
+      ],
+      "cons": [
+        "GE service questions"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-shv88pz63n-ada",
+      "brand": "bosch",
+      "model": "SHV9PT53UC",
+      "name": "Bosch Benchmark SHV9PT53UC ADA",
+      "tub": "stainless",
+      "decibels": 40,
+      "place_settings": 15,
+      "third_rack": "MyWay",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2299,
+      "street_price": 1999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "ADA height + Benchmark features",
+        "40 dB"
+      ],
+      "cons": [
+        "Lower capacity"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-g7316scuautodos",
+      "brand": "miele",
+      "model": "G 7316 SCU AutoDos",
+      "name": "Miele G 7316 SCU AutoDos",
+      "tub": "stainless",
+      "decibels": 43,
+      "place_settings": 16,
+      "third_rack": "3D MultiFlex",
+      "energy_kwh_yr": 235,
+      "water_gal_cycle": 2.4,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 2399,
+      "street_price": 2199,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "AutoDos automatic detergent cartridge",
+        "43 dB",
+        "Miele reliability"
+      ],
+      "cons": [
+        "PowerDisk refills add cost"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-ldth7972s",
+      "brand": "lg",
+      "model": "LDTH7972S",
+      "name": "LG Studio LDTH7972S Signature",
+      "tub": "stainless",
+      "decibels": 40,
+      "place_settings": 15,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 2.8,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1699,
+      "street_price": 1399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null,
+        "reviewed_status": "Editor's Choice · Best Drying 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes",
+          "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+        },
+        "yale_reliability_pct": 6.3
+      },
+      "pros": [
+        "40 dB",
+        "LG reliability",
+        "QuadWash + TrueSteam"
+      ],
+      "cons": [
+        "Pricey for LG"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "samsung-dw80cg5451ss",
+      "brand": "samsung",
+      "model": "DW80CG5451SS",
+      "name": "Samsung DW80CG5451SS Smart Linear",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 15,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 255,
+      "water_gal_cycle": 3.0,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1099,
+      "street_price": 849,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "AutoRelease door",
+        "42 dB"
+      ],
+      "cons": [
+        "Samsung service"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "whirlpool-wdt750sakv",
+      "brand": "whirlpool",
+      "model": "WDT750SAKV",
+      "name": "Whirlpool WDT750SAKV Black Stainless",
+      "tub": "stainless",
+      "decibels": 47,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "msrp": 949,
+      "street_price": 749,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Black stainless at mid price",
+        "Reliable"
+      ],
+      "cons": [
+        "47 dB"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "cafe-cdt858p4pw2",
+      "brand": "cafe",
+      "model": "CDT858P4PW2",
+      "name": "Café CDT858P4PW2 Matte White",
+      "tub": "stainless",
+      "decibels": 41,
+      "place_settings": 16,
+      "third_rack": "adjustable",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.3,
+      "energy_star": true,
+      "wifi": true,
+      "msrp": 1599,
+      "street_price": 1299,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Matte white + custom hardware",
+        "41 dB"
+      ],
+      "cons": [
+        "Café reliability concern"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-sgx78c55uc",
+      "brand": "bosch",
+      "model": "SGX78C55UC",
+      "name": "Bosch 800 Series SGX78C55UC ADA-Compliant",
+      "tub": "stainless",
+      "msrp": null,
+      "street_price": 1399,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best ADA 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
+        }
+      },
+      "pros": [
+        "Reviewed.com prior-model testing: ~99% stain removal on Heavy cycle",
+        "Express cycle: 98.3% stain removal in 30 min",
+        "ADA-compliant height"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-she3aem2n",
+      "brand": "bosch",
+      "model": "SHE3AEM2N",
+      "name": "Bosch 100 Series SHE3AEM2N",
+      "tub": "stainless",
+      "msrp": null,
+      "street_price": 748,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Value 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'Removes >90% of ultra-tough food stains on Quick cycle'",
+        "Entry Bosch reliability at sub-$800"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-she53c85n",
+      "brand": "bosch",
+      "model": "SHE53C85N",
+      "name": "Bosch 300 Series SHE53C85N",
+      "tub": "stainless",
+      "msrp": null,
+      "street_price": 1099,
+      "ratings": {
+        "reviewed_status": "Editor's Choice 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'Great balance between price and performance'",
+        "Strong cleaning + customizable features"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-shp65cm5n",
+      "brand": "bosch",
+      "model": "SHP65CM5N",
+      "name": "Bosch 500 Series SHP65CM5N",
+      "tub": "stainless",
+      "msrp": null,
+      "street_price": 999,
+      "ratings": {
+        "reviewed_status": "Recommended · Best Drying (500 Series) 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+        }
+      },
+      "pros": [
+        "AutoAir door-pop for condensation drying",
+        "Reviewed.com: 'good cleaning power', slightly behind 800 Series"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "miele-g5266scvi-sfp",
+      "brand": "miele",
+      "model": "G 5266 SCVi SFP",
+      "name": "Miele G 5266 SCVi SFP Panel-Ready",
+      "tub": "stainless",
+      "panel_ready": true,
+      "msrp": null,
+      "street_price": 1779,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Upgrade Drying 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+        }
+      },
+      "pros": [
+        "AutoOpen Drying (door pops automatically post-cycle)",
+        "Miele's 20-year tested lifespan reputation"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "maytag-mdb4949skz",
+      "brand": "maytag",
+      "model": "MDB4949SKZ",
+      "name": "Maytag MDB4949SKZ Dishwasher",
+      "tub": "stainless",
+      "msrp": null,
+      "street_price": 569,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Budget Pick 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'Auto and Normal cycles scrub out most stains'",
+        "Budget pick: starting at $569"
+      ],
+      "cons": [
+        "Reviewed.com: 'cleaning performance is commensurate with price'",
+        "Heated dry (older tech)"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "samsung-dw90f89p0usr",
+      "brand": "samsung",
+      "model": "DW90F89P0USR",
+      "name": "Samsung Bespoke DW90F89P0USR Panel-Ready",
+      "tub": "stainless",
+      "decibels": 38,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": null,
+      "street_price": 999,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Open-Kitchen Pick 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+        }
+      },
+      "pros": [
+        "Ultra-quiet at 38 dB (Reviewed lab measured)",
+        "Auto-open door",
+        "Extensive wash cycle options"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-profile-pdp755syvfs",
+      "brand": "ge-profile",
+      "model": "PDP755SYVFS",
+      "name": "GE Profile PDP755SYVFS Large-Family Dishwasher",
+      "tub": "stainless",
+      "place_settings": 16,
+      "third_rack": "dedicated third-rack jets",
+      "wifi": true,
+      "msrp": null,
+      "street_price": 879,
+      "ratings": {
+        "reviewed_status": "Best for Large Families 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+        }
+      },
+      "pros": [
+        "16 place settings",
+        "Dedicated third-rack jets",
+        "Twin Turbo Dry Boost for plastics"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "maytag-mdfs3924rz",
+      "brand": "maytag",
+      "model": "MDFS3924RZ",
+      "name": "Maytag MDFS3924RZ Eco Series",
+      "tub": "stainless",
+      "msrp": null,
+      "street_price": 549,
+      "ratings": {
+        "reviewed_status": "Recommended · Affordable 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+        }
+      },
+      "pros": [
+        "Reviewed.com: listed among best affordable DWs at $549",
+        "Eco-focused water/energy use"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wdt750sakz",
+      "brand": "whirlpool",
+      "model": "WDT750SAKZ",
+      "name": "Whirlpool WDT750SAKZ Black Stainless",
+      "tub": "stainless",
+      "msrp": null,
+      "street_price": 649,
+      "ratings": {
+        "reviewed_status": "Affordable pick 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+        }
+      },
+      "pros": [
+        "Black-stainless finish",
+        "Reviewed.com best-affordable list at $649"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "samsung-dw80cg4021sr",
+      "brand": "samsung",
+      "model": "DW80CG4021SR",
+      "name": "Samsung DW80CG4021SR Budget Smart DW",
+      "tub": "stainless",
+      "wifi": true,
+      "msrp": null,
+      "street_price": 399,
+      "ratings": {
+        "reviewed_status": "Best Under $500 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'Best Under $500'",
+        "Adjustable-height upper rack + stemware holders",
+        "SmartThings integration"
+      ],
+      "cons": [],
+      "release_year": null
+    }
+  ]
+}

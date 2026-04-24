@@ -1,0 +1,2009 @@
+{
+  "_meta": {
+    "category": "ranges_ovens_cooktops",
+    "note": "Mixed cooking-appliance DB: ranges (slide-in/freestanding), wall ovens, cooktops. Fuel: induction is the major 2025-26 trend (DOE rebates up to $840). gas | electric | induction | dual_fuel. Yale 2026 reliability: induction service rates higher than gas due to electronics complexity. Output BTU for gas burners; wattage for induction.",
+    "sources": [
+      "Consumer Reports Best Ranges 2026",
+      "Yale Appliance reliability 2026",
+      "Wirecutter Induction Range Guide",
+      "DOE HEAR Rebates"
+    ],
+    "last_updated": "2026-04-24",
+    "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls."
+  },
+  "models": [
+    {
+      "id": "lg-lsel6337f",
+      "brand": "lg",
+      "model": "LSEL6337F",
+      "name": "LG LSEL6337F Induction Slide-in",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.3,
+      "burners": 5,
+      "max_burner_w": 4300,
+      "convection": "true (ProBake)",
+      "air_fry": true,
+      "self_clean": "EasyClean + steam",
+      "wifi": true,
+      "msrp": 2999,
+      "street_price": 2299,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": "top pick",
+        "reviewed": null,
+        "rtings": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-induction-ranges/",
+          "yale": "https://blog.yaleappliance.com/most-reliable-induction-ranges",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Wirecutter top induction pick (2024–2026)",
+        "Yale 2026 most-reliable induction range (4.6% service rate)",
+        "ProBake convection",
+        "Air Sous Vide mode",
+        "InstaView window"
+      ],
+      "cons": [
+        "Heavy (delivery quirk)",
+        "Glass scratches if pots are dragged — lift, don't slide"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-profile-phs930ypfs",
+      "brand": "ge-profile",
+      "model": "PHS930YPFS",
+      "name": "GE Profile PHS930YPFS Induction Slide-in",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 5.3,
+      "burners": 4,
+      "max_burner_w": 3700,
+      "convection": "true (no-preheat air fry)",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 3299,
+      "street_price": 2599,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": 9.2,
+        "wirecutter": null,
+        "reviewed": null,
+        "source_urls": {
+          "yale": "https://blog.yaleappliance.com/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Excellent induction surface",
+        "GE service network",
+        "True convection"
+      ],
+      "cons": [
+        "Smaller oven",
+        "Yale service rate climbing"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-hii8057u",
+      "brand": "bosch",
+      "model": "HII8057U",
+      "name": "Bosch 800 Series HII8057U Induction Slide-in",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 4.6,
+      "burners": 4,
+      "max_burner_w": 3700,
+      "convection": "European true convection",
+      "air_fry": false,
+      "self_clean": "pyrolytic",
+      "wifi": true,
+      "msrp": 4199,
+      "street_price": 3499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Bosch oven precision",
+        "Pyrolytic self-clean",
+        "FlexInduction zones"
+      ],
+      "cons": [
+        "Small oven (4.6 cf)",
+        "No air fry mode"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "samsung-ne63bb871112",
+      "brand": "samsung",
+      "model": "NE63BB871112",
+      "name": "Samsung Bespoke NE63BB871112 Induction",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.3,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "convection": "Air Sous Vide + Air Fry",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 3499,
+      "street_price": 2799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Flex Duo divider",
+        "Bespoke panels",
+        "Air Sous Vide"
+      ],
+      "cons": [
+        "Samsung repair concerns"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "kitchenaid-kfid500ess",
+      "brand": "kitchenaid",
+      "model": "KFID500ESS",
+      "name": "KitchenAid KFID500ESS Dual-Fuel",
+      "type": "range",
+      "fuel": "dual_fuel",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.7,
+      "burners": 5,
+      "max_burner_btu": 17000,
+      "convection": "Even-Heat True",
+      "air_fry": false,
+      "self_clean": "AquaLift",
+      "wifi": false,
+      "msrp": 3499,
+      "street_price": 2799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Gas burners + electric oven (best of both)",
+        "Big 6.7 cf oven"
+      ],
+      "cons": [
+        "AquaLift weak vs pyrolytic",
+        "No Wi-Fi"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "wolf-df36450c",
+      "brand": "wolf",
+      "model": "DF36450C/S/P",
+      "name": "Wolf 36\" Dual-Fuel Pro Range w/ 4 Burners + Charbroiler",
+      "type": "range",
+      "fuel": "dual_fuel",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "oven_capacity_cf": 5.5,
+      "burners": 4,
+      "max_burner_btu": 20000,
+      "convection": "Dual VertiCross",
+      "air_fry": false,
+      "self_clean": "self-clean",
+      "wifi": false,
+      "msrp": 13495,
+      "street_price": 12500,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro-grade build",
+        "Charbroiler add-on",
+        "Iconic red knobs"
+      ],
+      "cons": [
+        "$12k+",
+        "No self-clean on charbroiler models"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "wolf-ir36450",
+      "brand": "wolf",
+      "model": "IR365TF/S/LP",
+      "name": "Wolf 36\" Sealed Burner Gas Rangetop",
+      "type": "cooktop",
+      "fuel": "gas",
+      "style": "rangetop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_btu": 20000,
+      "wifi": false,
+      "msrp": 6595,
+      "street_price": 6195,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro burners + simmer ring",
+        "Iconic look"
+      ],
+      "cons": [
+        "$6k+"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "thermador-pgr486gdg",
+      "brand": "thermador",
+      "model": "PRG486WDG",
+      "name": "Thermador 48\" Pro Grand Steam Range",
+      "type": "range",
+      "fuel": "dual_fuel",
+      "style": "freestanding-pro",
+      "width_in": 48,
+      "oven_capacity_cf": 4.4,
+      "burners": 6,
+      "max_burner_btu": 22000,
+      "convection": "True + Steam Oven",
+      "air_fry": false,
+      "self_clean": "self",
+      "wifi": true,
+      "msrp": 16999,
+      "street_price": 14999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Steam oven + standard oven",
+        "ExtraLow simmer",
+        "Star burners"
+      ],
+      "cons": [
+        "Cult-favorite or you-hate-it controls",
+        "$15k"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "viking-vgr5366bss",
+      "brand": "viking",
+      "model": "VGR5366BSS",
+      "name": "Viking 5 Series 36\" Pro Gas Range",
+      "type": "range",
+      "fuel": "gas",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "oven_capacity_cf": 5.6,
+      "burners": 6,
+      "max_burner_btu": 18500,
+      "convection": "ProFlow",
+      "air_fry": false,
+      "self_clean": "self",
+      "wifi": false,
+      "msrp": 9999,
+      "street_price": 8999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro look",
+        "Color options",
+        "Big oven"
+      ],
+      "cons": [
+        "Reliability history mixed"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "bluestar-rnb364gv2",
+      "brand": "bluestar",
+      "model": "RNB364GV2",
+      "name": "BlueStar RNB 36\" Open-Burner Gas Range",
+      "type": "range",
+      "fuel": "gas",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "oven_capacity_cf": 4.5,
+      "burners": 4,
+      "max_burner_btu": 25000,
+      "convection": "true",
+      "air_fry": false,
+      "self_clean": "no",
+      "wifi": false,
+      "msrp": 8999,
+      "street_price": 8499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "25,000 BTU open burners (highest commercial)",
+        "750+ color options",
+        "Hand-built USA"
+      ],
+      "cons": [
+        "No self-clean",
+        "Weak fridge sibling reputation"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-hr1934-3df",
+      "brand": "miele",
+      "model": "HR 1934-3 DF",
+      "name": "Miele HR1934-3DF M-Touch Dual-Fuel",
+      "type": "range",
+      "fuel": "dual_fuel",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "oven_capacity_cf": 4.4,
+      "burners": 4,
+      "max_burner_btu": 19500,
+      "convection": "MasterChef + Moisture Plus",
+      "air_fry": false,
+      "self_clean": "pyrolytic",
+      "wifi": true,
+      "msrp": 12499,
+      "street_price": 11499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Miele reliability",
+        "M-Touch screen",
+        "Pyrolytic self-clean"
+      ],
+      "cons": [
+        "Smaller oven",
+        "Premium price"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-jbs60dkbb",
+      "brand": "ge",
+      "model": "JBS60DKBB",
+      "name": "GE JBS60DKBB Electric Coil Freestanding",
+      "type": "range",
+      "fuel": "electric",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 5.0,
+      "burners": 4,
+      "convection": "no",
+      "air_fry": false,
+      "self_clean": "yes",
+      "wifi": false,
+      "msrp": 749,
+      "street_price": 549,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheapest reliable electric",
+        "Replaceable coils",
+        "Self-clean at price"
+      ],
+      "cons": [
+        "Coil tops dated",
+        "No convection"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "whirlpool-wfg775h0hz",
+      "brand": "whirlpool",
+      "model": "WFG775H0HZ",
+      "name": "Whirlpool WFG775H0HZ Gas Slide-in",
+      "type": "range",
+      "fuel": "gas",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 5.8,
+      "burners": 5,
+      "max_burner_btu": 17000,
+      "convection": "true",
+      "air_fry": false,
+      "self_clean": "AquaLift + steam",
+      "wifi": false,
+      "msrp": 1899,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Whirlpool reliability",
+        "5 burners",
+        "Big oven"
+      ],
+      "cons": [
+        "AquaLift mediocre"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "samsung-nx60bb871112",
+      "brand": "samsung",
+      "model": "NX60BB871112",
+      "name": "Samsung Bespoke NX60BB871112 Gas",
+      "type": "range",
+      "fuel": "gas",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.0,
+      "burners": 5,
+      "max_burner_btu": 22000,
+      "convection": "Dual + Air Fry",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 2199,
+      "street_price": 1799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Flex Duo divider",
+        "22k BTU power burner",
+        "Bespoke panels"
+      ],
+      "cons": [
+        "Samsung service"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-lreg6033st",
+      "brand": "lg",
+      "model": "LREG6033ST",
+      "name": "LG LREG6033ST Slide-in Gas Range",
+      "type": "range",
+      "fuel": "gas",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.3,
+      "burners": 5,
+      "max_burner_btu": 18500,
+      "convection": "ProBake + Air Fry",
+      "air_fry": true,
+      "self_clean": "EasyClean + steam",
+      "wifi": true,
+      "msrp": 2199,
+      "street_price": 1699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "LG reliability",
+        "InstaView",
+        "ProBake"
+      ],
+      "cons": [
+        "EasyClean weak"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "cafe-chs900p2ms1",
+      "brand": "cafe",
+      "model": "CHS900P2MS1",
+      "name": "Café CHS900P2MS1 Induction Slide-in",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 5.7,
+      "burners": 4,
+      "max_burner_w": 3700,
+      "convection": "true + Air Fry",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 4499,
+      "street_price": 3699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "reviewed_status": "Editor's Choice · Best Upgrade Induction 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Customizable hardware",
+        "True induction",
+        "Smart features"
+      ],
+      "cons": [
+        "Café service rates worrying"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "frigidaire-gcre3060af",
+      "brand": "frigidaire",
+      "model": "GCRE3060AF",
+      "name": "Frigidaire Gallery GCRE3060AF Electric Range",
+      "type": "range",
+      "fuel": "electric",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 5.7,
+      "burners": 5,
+      "convection": "true + Air Fry",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": false,
+      "msrp": 1199,
+      "street_price": 899,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Air fry at $1k",
+        "Wide power burner"
+      ],
+      "cons": [
+        "Reliability mixed"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "sks-srpf3640s",
+      "brand": "sks",
+      "model": "SKSRT360S",
+      "name": "Signature Kitchen Suite 36\" Pro Dual-Fuel Range",
+      "type": "range",
+      "fuel": "dual_fuel",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "oven_capacity_cf": 5.8,
+      "burners": 6,
+      "max_burner_btu": 23000,
+      "convection": "ProHeat + Sous Vide",
+      "air_fry": false,
+      "self_clean": "ProClean (steam)",
+      "wifi": true,
+      "msrp": 12999,
+      "street_price": 11499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Built-in sous vide module",
+        "23k BTU UltraHeat burner",
+        "LG reliability DNA"
+      ],
+      "cons": [
+        "Niche brand"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "bosch-hbl8453uc",
+      "brand": "bosch",
+      "model": "HBL8453UC",
+      "name": "Bosch 800 Series 30\" Single Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single",
+      "width_in": 30,
+      "oven_capacity_cf": 4.6,
+      "convection": "European true",
+      "air_fry": false,
+      "self_clean": "pyrolytic",
+      "wifi": true,
+      "msrp": 3499,
+      "street_price": 2799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pyrolytic self-clean",
+        "Genuine European convection",
+        "Home Connect"
+      ],
+      "cons": [
+        "$2.8k for single"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-h7780bp",
+      "brand": "miele",
+      "model": "H 7780 BP",
+      "name": "Miele H 7780 BP Single Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single",
+      "width_in": 30,
+      "oven_capacity_cf": 5.0,
+      "convection": "MasterChef + Moisture Plus",
+      "air_fry": false,
+      "self_clean": "pyrolytic",
+      "wifi": true,
+      "msrp": 4999,
+      "street_price": 4499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Best in class",
+        "Wireless food probe",
+        "Miele reliability"
+      ],
+      "cons": [
+        "$4k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "cafe-cts70dp2ns1",
+      "brand": "cafe",
+      "model": "CTS70DP2NS1",
+      "name": "Café CTS70DP2NS1 Smart Double Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "double",
+      "width_in": 30,
+      "oven_capacity_cf": 10.0,
+      "convection": "true + Air Fry",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 5999,
+      "street_price": 4999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "10 cf total",
+        "Air fry both ovens",
+        "Customizable handles"
+      ],
+      "cons": [
+        "Café service rates"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-jts5000snss",
+      "brand": "ge",
+      "model": "JTS5000SNSS",
+      "name": "GE JTS5000SNSS Single Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single",
+      "width_in": 30,
+      "oven_capacity_cf": 5.0,
+      "convection": "true",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 1799,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Best value wall oven",
+        "Air fry",
+        "Wi-Fi"
+      ],
+      "cons": [
+        "Plastic interior trim"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-profile-ptd9000snss",
+      "brand": "ge-profile",
+      "model": "PTD9000SNSS",
+      "name": "GE Profile PTD9000SNSS 30\" Smart Double Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "double",
+      "width_in": 30,
+      "oven_capacity_cf": 10.0,
+      "convection": "True + No-Preheat AirFry",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 4499,
+      "street_price": 3699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Massive 10 cf",
+        "Built-in air fry rack",
+        "WiFi precision cooking"
+      ],
+      "cons": [
+        "GE service trending"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "kitchenaid-kode507ess",
+      "brand": "kitchenaid",
+      "model": "KODE507ESS",
+      "name": "KitchenAid KODE507ESS Double Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "double",
+      "width_in": 30,
+      "oven_capacity_cf": 10.0,
+      "convection": "Even-Heat true",
+      "air_fry": false,
+      "self_clean": "EasyConvect + steam",
+      "wifi": false,
+      "msrp": 4499,
+      "street_price": 3499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Big double oven",
+        "Even-Heat thermal sensor"
+      ],
+      "cons": [
+        "No Wi-Fi at price",
+        "No air fry"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "thermador-pod301wn",
+      "brand": "thermador",
+      "model": "PODS301W",
+      "name": "Thermador 30\" Pro Single Wall Oven w/ Steam",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single-steam",
+      "width_in": 30,
+      "oven_capacity_cf": 4.6,
+      "convection": "True + Steam",
+      "air_fry": false,
+      "self_clean": "self",
+      "wifi": true,
+      "msrp": 7299,
+      "street_price": 6499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Steam + convection combo",
+        "Pro design"
+      ],
+      "cons": [
+        "$6k single"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "wolf-do30pesph",
+      "brand": "wolf",
+      "model": "DO30PE/S/PH",
+      "name": "Wolf 30\" E Series Pro Double Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "double",
+      "width_in": 30,
+      "oven_capacity_cf": 10.2,
+      "convection": "Dual VertiCross",
+      "air_fry": false,
+      "self_clean": "self",
+      "wifi": true,
+      "msrp": 9495,
+      "street_price": 8995,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro convection",
+        "10-mode oven",
+        "Sub-Zero match"
+      ],
+      "cons": [
+        "$9k"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "miele-cm6160",
+      "brand": "miele",
+      "model": "CM 6160 MilkPerfection",
+      "name": "Miele CM 6160 Built-in Coffee Maker",
+      "type": "specialty",
+      "fuel": "electric",
+      "style": "coffee_built_in",
+      "width_in": 24,
+      "wifi": true,
+      "msrp": 3499,
+      "street_price": 3199,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Bean-to-cup built-in",
+        "MilkPerfection frother",
+        "Self-cleaning"
+      ],
+      "cons": [
+        "Niche",
+        "$3k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-net8669uc",
+      "brand": "bosch",
+      "model": "NET8669UC",
+      "name": "Bosch 800 Series 36\" Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "wifi": true,
+      "msrp": 2999,
+      "street_price": 2499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "FlexInduction zones",
+        "AutoChef temp control",
+        "Quiet"
+      ],
+      "cons": [
+        "Glass scratches"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-profile-php9036djbb",
+      "brand": "ge-profile",
+      "model": "PHP9036DJBB",
+      "name": "GE Profile PHP9036DJBB 36\" Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "wifi": true,
+      "msrp": 2799,
+      "street_price": 2199,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "SyncBurner",
+        "Wide bridge",
+        "Sleek"
+      ],
+      "cons": [
+        "GE service"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "frigidaire-gcci3667ab",
+      "brand": "frigidaire",
+      "model": "GCCI3667AB",
+      "name": "Frigidaire Gallery 36\" Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_w": 3500,
+      "wifi": false,
+      "msrp": 1799,
+      "street_price": 1399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheapest 36\" induction",
+        "Bridge zone"
+      ],
+      "cons": [
+        "Reliability mixed"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "samsung-nz36k7880us",
+      "brand": "samsung",
+      "model": "NZ36K7880US",
+      "name": "Samsung NZ36K7880US 36\" Induction",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "wifi": true,
+      "msrp": 2999,
+      "street_price": 2399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Flex Zone Plus",
+        "Virtual flame LEDs",
+        "Wi-Fi"
+      ],
+      "cons": [
+        "Samsung service"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "wolf-cg365ts",
+      "brand": "wolf",
+      "model": "CG365TS/S",
+      "name": "Wolf 36\" Sealed Burner Gas Cooktop",
+      "type": "cooktop",
+      "fuel": "gas",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_btu": 20000,
+      "wifi": false,
+      "msrp": 3795,
+      "street_price": 3595,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Sealed burners + simmer",
+        "Continuous grates",
+        "Iconic knobs"
+      ],
+      "cons": [
+        "No Wi-Fi"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "thermador-pcg366w",
+      "brand": "thermador",
+      "model": "PCG366W",
+      "name": "Thermador 36\" Pro Gas Cooktop w/ Star Burners",
+      "type": "cooktop",
+      "fuel": "gas",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_btu": 22000,
+      "wifi": false,
+      "msrp": 4299,
+      "street_price": 3899,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Star burner shape",
+        "ExtraLow simmer",
+        "QuickClean base"
+      ],
+      "cons": [
+        "$4k"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "bosch-ngm5055uc",
+      "brand": "bosch",
+      "model": "NGM5055UC",
+      "name": "Bosch 500 Series 30\" Gas Cooktop",
+      "type": "cooktop",
+      "fuel": "gas",
+      "style": "cooktop",
+      "width_in": 30,
+      "burners": 5,
+      "max_burner_btu": 18000,
+      "wifi": false,
+      "msrp": 1199,
+      "street_price": 999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Centered 18k power burner",
+        "Continuous grates",
+        "Bosch reliability"
+      ],
+      "cons": [
+        "No Wi-Fi"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-jp5036sjss",
+      "brand": "ge",
+      "model": "JP5036SJSS",
+      "name": "GE JP5036SJSS 36\" Electric Cooktop",
+      "type": "cooktop",
+      "fuel": "electric",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "wifi": false,
+      "msrp": 999,
+      "street_price": 799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheapest 36\" radiant",
+        "Bridge element"
+      ],
+      "cons": [
+        "Slow vs induction"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "miele-km7414fl",
+      "brand": "miele",
+      "model": "KM 7414 FL",
+      "name": "Miele KM 7414 FL Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 4,
+      "max_burner_w": 3700,
+      "wifi": true,
+      "msrp": 4499,
+      "street_price": 4099,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "PowerFlex zones (any pot anywhere)",
+        "Built-in extractor optional",
+        "Miele reliability"
+      ],
+      "cons": [
+        "$4k"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "thermador-cit365ybb",
+      "brand": "thermador",
+      "model": "CIT365YB",
+      "name": "Thermador 36\" Liberty Induction (Free-form)",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": "freeform 4 zones",
+      "max_burner_w": 4600,
+      "wifi": true,
+      "msrp": 4799,
+      "street_price": 4399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Liberty = pots placed anywhere on full glass",
+        "Highest peak power",
+        "Pro Bridge"
+      ],
+      "cons": [
+        "$4k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-cbis3618s",
+      "brand": "lg",
+      "model": "CBIS3618S",
+      "name": "LG Studio 36\" Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "wifi": true,
+      "msrp": 2599,
+      "street_price": 1999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "LG reliability",
+        "SmoothTouch controls",
+        "Power burner"
+      ],
+      "cons": [
+        "Glass scratches easily"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "kitchenaid-kctd606ess",
+      "brand": "kitchenaid",
+      "model": "KCTI306ESS",
+      "name": "KitchenAid KCTI306ESS 30\" Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 30,
+      "burners": 4,
+      "max_burner_w": 3700,
+      "wifi": false,
+      "msrp": 1899,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Even-Heat induction",
+        "Black glass"
+      ],
+      "cons": [
+        "No Wi-Fi"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "fp-ci365dtb4",
+      "brand": "fisher-paykel",
+      "model": "CI365DTB4",
+      "name": "Fisher & Paykel CI365DTB4 36\" Induction",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "wifi": true,
+      "msrp": 2999,
+      "street_price": 2599,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "FlexZone bridge",
+        "Auto pan detect"
+      ],
+      "cons": [
+        "Niche brand"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "gaggenau-vi492614",
+      "brand": "gaggenau",
+      "model": "VI492614",
+      "name": "Gaggenau 400 Series 36\" Flex Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": "flex (4 zones)",
+      "max_burner_w": 4600,
+      "wifi": true,
+      "msrp": 4999,
+      "street_price": 4699,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Architectural design",
+        "Flex zones",
+        "BSH engineering"
+      ],
+      "cons": [
+        "$4.6k"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "monogram-zhu36rspss",
+      "brand": "monogram",
+      "model": "ZHU36RSPSS",
+      "name": "Monogram 36\" Induction Cooktop",
+      "type": "cooktop",
+      "fuel": "induction",
+      "style": "cooktop",
+      "width_in": 36,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "wifi": true,
+      "msrp": 3299,
+      "street_price": 2899,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Premium Monogram styling",
+        "Sync Burner pairs"
+      ],
+      "cons": [
+        "GE service"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "samsung-nq70t5511ds",
+      "brand": "samsung",
+      "model": "NQ70T5511DS",
+      "name": "Samsung NQ70T5511DS 30\" Microwave Combination Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "combo-microwave",
+      "width_in": 30,
+      "oven_capacity_cf": 7.0,
+      "convection": "Dualcook + Air Fry",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 3899,
+      "street_price": 2999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Top is microwave + bottom is full convection",
+        "Air fry",
+        "Saves space"
+      ],
+      "cons": [
+        "Samsung repair"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "lg-wcep6423d",
+      "brand": "lg",
+      "model": "WCEP6423D",
+      "name": "LG WCEP6423D 30\" Combination Microwave Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "combo-microwave",
+      "width_in": 30,
+      "oven_capacity_cf": 6.4,
+      "convection": "ProBake + Air Fry",
+      "air_fry": true,
+      "self_clean": "EasyClean + steam",
+      "wifi": true,
+      "msrp": 3499,
+      "street_price": 2799,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "LG reliability",
+        "ProBake + Air Sous Vide"
+      ],
+      "cons": [
+        "EasyClean weak"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-profile-pt7800shss",
+      "brand": "ge-profile",
+      "model": "PT7800SHSS",
+      "name": "GE Profile PT7800SHSS 30\" Combination Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "combo-microwave",
+      "width_in": 30,
+      "oven_capacity_cf": 6.7,
+      "convection": "true + Air Fry + Advantium",
+      "air_fry": true,
+      "self_clean": "steam + self",
+      "wifi": true,
+      "msrp": 4799,
+      "street_price": 3999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Advantium speedcook + full oven",
+        "Halogen + microwave"
+      ],
+      "cons": [
+        "Complex = service risk"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "whirlpool-wos51ec0hs",
+      "brand": "whirlpool",
+      "model": "WOS51EC0HS",
+      "name": "Whirlpool WOS51EC0HS Single Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single",
+      "width_in": 30,
+      "oven_capacity_cf": 5.0,
+      "convection": "true",
+      "air_fry": false,
+      "self_clean": "self",
+      "wifi": false,
+      "msrp": 1499,
+      "street_price": 1199,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Whirlpool reliability",
+        "Cheap wall oven",
+        "True convection"
+      ],
+      "cons": [
+        "No Wi-Fi",
+        "No air fry"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "miele-h7464bp",
+      "brand": "miele",
+      "model": "H 7464 BP",
+      "name": "Miele H 7464 BP 30\" Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single",
+      "width_in": 30,
+      "oven_capacity_cf": 4.6,
+      "convection": "MasterChef + Moisture Plus",
+      "air_fry": false,
+      "self_clean": "pyrolytic",
+      "wifi": true,
+      "msrp": 4299,
+      "street_price": 3899,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pyrolytic self-clean",
+        "Wireless probe",
+        "Best-in-class oven"
+      ],
+      "cons": [
+        "$4k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "subzero-builtin-iw30",
+      "brand": "wolf",
+      "model": "M Series IW-30",
+      "name": "Wolf M Series Convection Steam 30\" Wall Oven",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single-steam",
+      "width_in": 30,
+      "oven_capacity_cf": 5.1,
+      "convection": "Dual + Steam",
+      "air_fry": false,
+      "self_clean": "self",
+      "wifi": true,
+      "msrp": 6995,
+      "street_price": 6495,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Steam + convection combo",
+        "Wolf chef-style"
+      ],
+      "cons": [
+        "$6.5k single"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "thermador-mes301hs",
+      "brand": "thermador",
+      "model": "MES301HS",
+      "name": "Thermador 30\" Steam Convection Oven (Built-in)",
+      "type": "wall_oven",
+      "fuel": "electric",
+      "style": "single-steam",
+      "width_in": 30,
+      "oven_capacity_cf": 2.4,
+      "convection": "Steam + Convection",
+      "air_fry": false,
+      "self_clean": "self",
+      "wifi": true,
+      "msrp": 4999,
+      "street_price": 4499,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Compact secondary steam oven",
+        "Pairs with main oven"
+      ],
+      "cons": [
+        "Small interior"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "zline-rai-36",
+      "brand": "zline",
+      "model": "RAIND-36",
+      "name": "ZLINE 36\" Induction Range with Black Stainless",
+      "type": "range",
+      "fuel": "induction",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "oven_capacity_cf": 4.6,
+      "burners": 5,
+      "max_burner_w": 3700,
+      "convection": "true",
+      "air_fry": false,
+      "self_clean": "no",
+      "wifi": false,
+      "msrp": 4799,
+      "street_price": 4299,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro-style induction at half Wolf price",
+        "Black stainless"
+      ],
+      "cons": [
+        "No self-clean",
+        "Newer brand"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "forno-fffsgs9337-36",
+      "brand": "forno",
+      "model": "FFFSGS9337-36",
+      "name": "Forno Capriasca 36\" Pro Gas Range",
+      "type": "range",
+      "fuel": "gas",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "oven_capacity_cf": 6.0,
+      "burners": 6,
+      "max_burner_btu": 18000,
+      "convection": "true",
+      "air_fry": false,
+      "self_clean": "no",
+      "wifi": false,
+      "msrp": 4999,
+      "street_price": 3999,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro look at value",
+        "Italian-made",
+        "Brass options"
+      ],
+      "cons": [
+        "Service network sparse"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "samsung-nsi6db990012aa",
+      "brand": "samsung",
+      "model": "NSI6DB990012AA",
+      "name": "Samsung Bespoke NSI6DB990012AA Induction Slide-in",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 2700,
+      "ratings": {
+        "reviewed_status": "Best Induction Range Overall 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'fast boiling', 'steady oven temperatures', 'even baking on multiple racks'",
+        "Internal oven camera"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-his8655u",
+      "brand": "bosch",
+      "model": "HIS8655U",
+      "name": "Bosch 800 Series HIS8655U 36-inch Induction Range",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 36,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 6799,
+      "ratings": {
+        "reviewed_status": "Best 36-inch Induction Range 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'impressively even heating' on spacious 36\" cooktop"
+      ],
+      "cons": [
+        "Reviewed.com noted intense initial off-gassing"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "ge-profile-phs700ayfs",
+      "brand": "ge-profile",
+      "model": "PHS700AYFS",
+      "name": "GE Profile PHS700AYFS 30-inch Smart Slide-in Induction",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 1394,
+      "ratings": {
+        "reviewed_status": "Best Value Induction Range 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "EasyWash oven tray",
+        "Griddle Zone on cooktop"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-gcfi3060bf",
+      "brand": "frigidaire",
+      "model": "GCFI3060BF",
+      "name": "Frigidaire Gallery GCFI3060BF 30-inch Induction Range",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "msrp": null,
+      "street_price": 1499,
+      "ratings": {
+        "reviewed_status": "Best Entry-Level Induction 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'Boils fast', 'excellent value', 'precise temperature control'"
+      ],
+      "cons": [
+        "Reviewed.com: touch controls 'can be finicky'"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "ge-profile-phs93xypfs",
+      "brand": "ge-profile",
+      "model": "PHS93XYPFS",
+      "name": "GE Profile PHS93XYPFS 5-Burner Slide-in Induction",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "burners": 5,
+      "convection": "True European Convection",
+      "wifi": true,
+      "msrp": null,
+      "street_price": 3499,
+      "ratings": {
+        "reviewed_status": "Best for Baking Induction 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "True European Convection",
+        "Reviewed.com: 'oven efficiently baked cookies evenly'"
+      ],
+      "cons": [
+        "Reviewed.com: air-fry setting underperformed"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "miele-hr1632-3i",
+      "brand": "miele",
+      "model": "HR 1632-3 I",
+      "name": "Miele HR 1632-3 I 36-inch Induction Range",
+      "type": "range",
+      "fuel": "induction",
+      "style": "freestanding-pro",
+      "width_in": 36,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 13699,
+      "ratings": {
+        "reviewed_status": "Best Smart Induction Range 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
+          "yale": "https://blog.yaleappliance.com/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Moisture Plus steam injection",
+        "Wireless precision probe"
+      ],
+      "cons": [
+        "Premium pricing ($13,699)"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "lg-studio-lsis6338fe",
+      "brand": "lg-studio",
+      "model": "LSIS6338FE",
+      "name": "LG Studio LSIS6338FE 30-inch Smart Slide-in Induction",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.3,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 2799,
+      "ratings": {
+        "reviewed_status": "Best Induction for Families 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "6.3 cu ft oven — one of the largest in class",
+        "InstaView window"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "cafe-chs950p2ms1",
+      "brand": "cafe",
+      "model": "CHS950P2MS1",
+      "name": "Café CHS950P2MS1 30-inch Smart Slide-in Double-Oven Induction",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.7,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 4499,
+      "ratings": {
+        "reviewed_status": "Best Double Oven Induction 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Dual independent ovens (6.7 cu ft total)",
+        "Reviewed.com: 'consistent temperature performance on burners'"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-gcfi3070bf",
+      "brand": "frigidaire",
+      "model": "GCFI3070BF",
+      "name": "Frigidaire Gallery GCFI3070BF Induction w/ Pizza Kit",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "msrp": null,
+      "street_price": 1699,
+      "ratings": {
+        "reviewed_status": "Best for Pizza Induction 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Reaches 750°F+ for Neapolitan-style pizza",
+        "Includes stone, shield, and peel"
+      ],
+      "cons": [
+        "Reviewed.com: touch controls may be 'temperamental'"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "lg-lsil6336xe",
+      "brand": "lg",
+      "model": "LSIL6336XE",
+      "name": "LG LSIL6336XE 6.3 cu ft Induction Slide-in",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 6.3,
+      "burners": 5,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 1899,
+      "ratings": {
+        "yale_reliability_pct": 4.6,
+        "source_urls": {
+          "yale": "https://blog.yaleappliance.com/best-induction-ranges"
+        }
+      },
+      "pros": [
+        "Yale 2026 'most reliable induction range' (4.6% service rate)",
+        "InstaView oven window"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-grs600avfs",
+      "brand": "ge",
+      "model": "GRS600AVFS",
+      "name": "GE GRS600AVFS 30-inch Electric Slide-in Range",
+      "type": "range",
+      "fuel": "electric",
+      "style": "slide-in",
+      "width_in": 30,
+      "convection": "convection + air fry",
+      "air_fry": true,
+      "msrp": null,
+      "street_price": 964,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Electric Range 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+        }
+      },
+      "pros": [
+        "Reviewed.com: removable dishwasher-safe oven bottom tray",
+        "Convection with air-fry capability",
+        "Strong value at sub-$1,000"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrgl5825f",
+      "brand": "lg",
+      "model": "LRGL5825F",
+      "name": "LG LRGL5825F 30-inch Gas Slide-in Range",
+      "type": "range",
+      "fuel": "gas",
+      "style": "slide-in",
+      "width_in": 30,
+      "convection": "true convection",
+      "air_fry": true,
+      "msrp": null,
+      "street_price": 1349,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Gas Range 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'excellent baking performance'",
+        "Effective air-fryer mode",
+        "True convection oven"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kitchenaid-ksdb900ess",
+      "brand": "kitchenaid",
+      "model": "KSDB900ESS",
+      "name": "KitchenAid KSDB900ESS Dual-Fuel Double-Oven Slide-in",
+      "type": "range",
+      "fuel": "dual_fuel",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 7.0,
+      "self_clean": "AquaLift",
+      "msrp": null,
+      "street_price": 2925,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Dual-Fuel Range 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+        }
+      },
+      "pros": [
+        "7 cu ft combined double-oven capacity",
+        "Steam rack included",
+        "Gas burners + electric oven (dual-fuel)"
+      ],
+      "cons": [
+        "AquaLift self-clean is weaker than pyrolytic"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wge745c0fs",
+      "brand": "whirlpool",
+      "model": "WGE745C0FS",
+      "name": "Whirlpool WGE745C0FS Double-Oven Electric Range",
+      "type": "range",
+      "fuel": "electric",
+      "style": "freestanding",
+      "width_in": 30,
+      "msrp": null,
+      "street_price": 1473,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Double-Oven Range 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'effective burners' and large multitasking capacity",
+        "Double-oven configuration"
+      ],
+      "cons": [],
+      "release_year": null
+    }
+  ]
+}

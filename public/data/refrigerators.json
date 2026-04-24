@@ -1,0 +1,2477 @@
+{
+  "_meta": {
+    "category": "refrigerators",
+    "note": "Seed database for refrigerator models. Prices are MSRP or typical street price as of Q1 2026 (US). Ratings: CR score 0-100 (Overall Score from member or public reporting; null if paywalled/unknown). Yale rates 0-10. Reviewed rates 0-10. Wirecutter = pick-status. Reddit sentiment qualitative. Energy figures are kWh/yr per Energy Guide where known. Capacity in cubic feet. Dimensions WxDxH in inches.",
+    "fields": {
+      "style": "french_door | side_by_side | top_freezer | bottom_freezer | built_in | column",
+      "depth": "standard | counter | built_in",
+      "reliability_source": "yale | cr | aggregated"
+    },
+    "last_updated": "2026-04-24",
+    "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls."
+  },
+  "models": [
+    {
+      "id": "lg-lrfxc2606s",
+      "brand": "lg",
+      "model": "LRFXC2606S",
+      "name": "LG 26 cu ft Counter-Depth MAX French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 25.5,
+      "msrp": 2899,
+      "street_price": 2199,
+      "energy_kwh_yr": 673,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "dual internal + craft ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter linear (10yr warranty)",
+      "finishes": [
+        "stainless",
+        "printproof stainless",
+        "black stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Best-in-class counter-depth capacity",
+        "Zero-clearance hinges",
+        "Strong Yale reliability"
+      ],
+      "cons": [
+        "Through-door dispenser increases failure risk",
+        "Craft ice maker slow"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "lg-lrmvs2806s",
+      "brand": "lg",
+      "model": "LRMVS2806S",
+      "name": "LG InstaView Door-in-Door 28 cu ft",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.8,
+      "msrp": 3699,
+      "street_price": 2499,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "dual + craft ice",
+      "water_dispenser": "external",
+      "wifi": true,
+      "finishes": [
+        "printproof stainless",
+        "matte black"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "InstaView glass panel",
+        "Huge capacity",
+        "Craft ice"
+      ],
+      "cons": [
+        "External dispenser = top failure point",
+        "Fingerprint magnet even printproof"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-lrfls2703s",
+      "brand": "lg",
+      "model": "LRFLS2703S",
+      "name": "LG 27 cu ft Counter-Depth MAX",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 26.5,
+      "msrp": 3299,
+      "street_price": 2499,
+      "energy_kwh_yr": 680,
+      "energy_star": true,
+      "noise_db": 41,
+      "icemaker": "internal dual",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "matte black",
+        "panel-ready (2026)"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Standard-depth capacity in counter-depth body",
+        "Panel-ready variant coming 2026",
+        "Quiet"
+      ],
+      "cons": [
+        "Premium price",
+        "No craft ice on this model"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "lg-lbnc15231v",
+      "brand": "lg",
+      "model": "LBNC15231V",
+      "name": "LG 14.7 cu ft Bottom-Freezer Counter-Depth",
+      "style": "bottom_freezer",
+      "depth": "counter",
+      "width_in": 24,
+      "capacity_cf": 14.7,
+      "msrp": 1899,
+      "street_price": 1599,
+      "energy_kwh_yr": 420,
+      "energy_star": true,
+      "noise_db": 40,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Apartment-friendly 24\"",
+        "No dispenser = highly reliable",
+        "Strong temp control"
+      ],
+      "cons": [
+        "Tiny freezer",
+        "No ice"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-ltcs20020s",
+      "brand": "lg",
+      "model": "LTCS20020S",
+      "name": "LG 20 cu ft Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": 20.2,
+      "msrp": 999,
+      "street_price": 849,
+      "energy_kwh_yr": 427,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "manual tray",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless",
+        "white"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheap",
+        "Very reliable config",
+        "Energy-efficient"
+      ],
+      "cons": [
+        "No icemaker",
+        "Basic features"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "bosch-b36ct80sns",
+      "brand": "bosch",
+      "model": "B36CT80SNS",
+      "name": "Bosch 800 Series Counter-Depth French Door 36\"",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 20.8,
+      "msrp": 4199,
+      "street_price": 3499,
+      "energy_kwh_yr": 660,
+      "energy_star": true,
+      "noise_db": 39,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "dual inverter (FarmFresh)",
+      "finishes": [
+        "stainless",
+        "black stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null,
+        "rtings": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-b36ct80sns/m399238/",
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/counter-depth"
+        },
+        "reviewed_status": "Editor's Choice · Best Counter-Depth 2026"
+      },
+      "pros": [
+        "Rtings 2026 #1 counter-depth pick",
+        "Best-in-class temperature stability (<1°F variance)",
+        "Dual compressors eliminate odor transfer",
+        "Near-silent operation (39 dB)"
+      ],
+      "cons": [
+        "Smaller freezer than class average",
+        "Lower capacity for a 36\" fridge"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-b36bt935ns",
+      "brand": "bosch",
+      "model": "B36BT935NS",
+      "name": "Bosch 500 Series Bottom Freezer 36\"",
+      "style": "bottom_freezer",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 20.0,
+      "msrp": 3499,
+      "street_price": 2999,
+      "energy_kwh_yr": 640,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Bottom freezer = more reliable than French door",
+        "Flush counter-depth install",
+        "Excellent temp control"
+      ],
+      "cons": [
+        "No water dispenser",
+        "Premium price for basic features"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-b36it905np",
+      "brand": "bosch",
+      "model": "B36IT905NP",
+      "name": "Bosch Benchmark Panel-Ready 36\" Built-in French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.5,
+      "msrp": 10999,
+      "street_price": 9499,
+      "energy_kwh_yr": 690,
+      "energy_star": true,
+      "noise_db": 38,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "True built-in at half Sub-Zero price",
+        "Custom panel",
+        "Dual compressor"
+      ],
+      "cons": [
+        "Very expensive",
+        "Small freezer"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-pfe28kynfs",
+      "brand": "ge-profile",
+      "model": "PFE28KYNFS",
+      "name": "GE Profile 27.7 cu ft French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.7,
+      "msrp": 3299,
+      "street_price": 2299,
+      "energy_kwh_yr": 776,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "dual (Autofill pitcher)",
+      "water_dispenser": "external",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless",
+        "slate"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Huge capacity",
+        "Autofill water pitcher",
+        "Strong CR score"
+      ],
+      "cons": [
+        "Yale service rate climbed in 2025",
+        "External dispenser adds failure risk"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-cafe-cvetc28d",
+      "brand": "cafe",
+      "model": "CVE28DP4NW2",
+      "name": "Café 27.8 cu ft Customizable French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.8,
+      "msrp": 3899,
+      "street_price": 3199,
+      "energy_kwh_yr": 770,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "dual (Autofill, hot water)",
+      "water_dispenser": "external (hot+cold+filtered)",
+      "wifi": true,
+      "finishes": [
+        "matte white",
+        "matte black",
+        "stainless",
+        "custom hardware"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Matte white / matte black options",
+        "Hot water dispenser",
+        "Swappable hardware"
+      ],
+      "cons": [
+        "Service rate is concerning",
+        "Feature-heavy = more failure points"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-gne27jymfs",
+      "brand": "ge",
+      "model": "GNE27JYMFS",
+      "name": "GE 27 cu ft Bottom Freezer French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.0,
+      "msrp": 2799,
+      "street_price": 1899,
+      "energy_kwh_yr": 780,
+      "energy_star": true,
+      "noise_db": 45,
+      "icemaker": "internal",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Good value French door",
+        "Widely serviceable",
+        "Internal icemaker"
+      ],
+      "cons": [
+        "Noisy vs class",
+        "Basic features"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-gts22kynrs",
+      "brand": "ge",
+      "model": "GTS22KYNRS",
+      "name": "GE 21.9 cu ft Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 33,
+      "capacity_cf": 21.9,
+      "msrp": 999,
+      "street_price": 799,
+      "energy_kwh_yr": 412,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "optional",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless",
+        "slate",
+        "white"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheapest reliable fridge",
+        "Boring = reliable",
+        "Energy efficient"
+      ],
+      "cons": [
+        "No ice standard",
+        "Dated aesthetics"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-pys22mskss",
+      "brand": "ge-profile",
+      "model": "PYS22MSKSS",
+      "name": "GE Profile 22.1 cu ft Counter-Depth Side-by-Side",
+      "style": "side_by_side",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.1,
+      "msrp": 2599,
+      "street_price": 1999,
+      "energy_kwh_yr": 686,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "external",
+      "water_dispenser": "external",
+      "wifi": true,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Narrow-door side-by-side works in small kitchens",
+        "Decent price for counter-depth"
+      ],
+      "cons": [
+        "Side-by-side layout dated",
+        "Through-door dispenser = top failure point"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "whirlpool-wrf555sdfz",
+      "brand": "whirlpool",
+      "model": "WRF555SDFZ",
+      "name": "Whirlpool 24.7 cu ft French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 24.7,
+      "msrp": 2299,
+      "street_price": 1599,
+      "energy_kwh_yr": 766,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "external",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Legendary reliability reputation",
+        "Simple, serviceable design",
+        "Parts everywhere"
+      ],
+      "cons": [
+        "No Wi-Fi",
+        "Basic interior"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "whirlpool-wrt311fzdm",
+      "brand": "whirlpool",
+      "model": "WRT311FZDM",
+      "name": "Whirlpool 20 cu ft Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": 20.0,
+      "msrp": 849,
+      "street_price": 699,
+      "energy_kwh_yr": 418,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "optional",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless",
+        "white",
+        "monochromatic"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Failure rate of 8% over 5 years per repair data",
+        "Cheapest reliable option",
+        "Rentals + rental-grade darling"
+      ],
+      "cons": [
+        "No ice",
+        "Plain interior"
+      ],
+      "release_year": 2020
+    },
+    {
+      "id": "whirlpool-wrs588fihz",
+      "brand": "whirlpool",
+      "model": "WRS588FIHZ",
+      "name": "Whirlpool 28 cu ft Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 28.4,
+      "msrp": 2199,
+      "street_price": 1499,
+      "energy_kwh_yr": 750,
+      "energy_star": true,
+      "noise_db": 45,
+      "icemaker": "external",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Huge capacity",
+        "Solid build"
+      ],
+      "cons": [
+        "Dispenser = reliability risk",
+        "Dated layout"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "kitchenaid-krff507hps",
+      "brand": "kitchenaid",
+      "model": "KRFF507HPS",
+      "name": "KitchenAid 26.8 cu ft French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 26.8,
+      "msrp": 3599,
+      "street_price": 2699,
+      "energy_kwh_yr": 755,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "external",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "printshield stainless",
+        "black stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Nice interior finishes",
+        "Reliable Whirlpool chassis underneath",
+        "Pro-look handles"
+      ],
+      "cons": [
+        "No Wi-Fi despite price",
+        "External dispenser"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "kitchenaid-krbr109ess",
+      "brand": "kitchenaid",
+      "model": "KRBR109ESS",
+      "name": "KitchenAid 19 cu ft Bottom-Freezer Counter-Depth",
+      "style": "bottom_freezer",
+      "depth": "counter",
+      "width_in": 30,
+      "capacity_cf": 19.0,
+      "msrp": 2999,
+      "street_price": 2399,
+      "energy_kwh_yr": 620,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "printshield stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "30\" counter-depth bottom freezer is rare",
+        "No dispenser = reliable",
+        "Nice fit & finish"
+      ],
+      "cons": [
+        "Tight freezer",
+        "Limited colors"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "samsung-rf29bb8600ap",
+      "brand": "samsung",
+      "model": "RF29BB8600AP",
+      "name": "Samsung Bespoke 29 cu ft 4-Door French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 29.0,
+      "msrp": 3999,
+      "street_price": 2799,
+      "energy_kwh_yr": 742,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "dual + auto-pitcher",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "customizable Bespoke panels (10+ colors)"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null,
+        "wirecutter": null
+      },
+      "pros": [
+        "Stunning customizable colors",
+        "FlexZone convertible drawer",
+        "Huge 4-door layout"
+      ],
+      "cons": [
+        "Samsung repair network weak",
+        "Ice maker complaints common",
+        "Expensive parts"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "samsung-rf23a9071sr",
+      "brand": "samsung",
+      "model": "RF23A9071SR",
+      "name": "Samsung 23 cu ft Counter-Depth Family Hub",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.5,
+      "msrp": 3999,
+      "street_price": 2699,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "21.5\" Family Hub touchscreen",
+        "Interior cameras",
+        "View Inside app"
+      ],
+      "cons": [
+        "Software-driven = more to break",
+        "Family Hub is gimmicky for many"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "samsung-rf18a5101sr",
+      "brand": "samsung",
+      "model": "RF18A5101SR",
+      "name": "Samsung 17.5 cu ft 33\" Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 33,
+      "capacity_cf": 17.5,
+      "msrp": 2399,
+      "street_price": 1899,
+      "energy_kwh_yr": 635,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "One of few true 33\" counter-depth options",
+        "Twin cooling system",
+        "Good for tight kitchens"
+      ],
+      "cons": [
+        "Small capacity for the price",
+        "Samsung service concerns"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "subzero-bi-36u",
+      "brand": "sub-zero",
+      "model": "BI-36U/S/TH",
+      "name": "Sub-Zero Classic 36\" Built-in French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.8,
+      "msrp": 14995,
+      "street_price": 13500,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 38,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "dual (NASA-grade)",
+      "finishes": [
+        "stainless",
+        "panel-ready",
+        "custom overlay"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Dual compressor magnetic seals",
+        "Best food preservation in industry",
+        "20+ year design life",
+        "High resale value"
+      ],
+      "cons": [
+        "$14k+ entry",
+        "Requires professional install",
+        "Small freezer"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "subzero-pro-48",
+      "brand": "sub-zero",
+      "model": "PRO 48",
+      "name": "Sub-Zero PRO 48 Stainless",
+      "style": "side_by_side",
+      "depth": "built_in",
+      "width_in": 48,
+      "capacity_cf": 29.9,
+      "msrp": 22999,
+      "street_price": 21500,
+      "energy_kwh_yr": 810,
+      "energy_star": false,
+      "noise_db": 42,
+      "icemaker": "dual (cube + crushed)",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Industrial pro aesthetic",
+        "Glass shelves + interior lighting art piece",
+        "Dual compressors"
+      ],
+      "cons": [
+        "$20k+",
+        "Needs 48\" cavity",
+        "Heavy - structural check required"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "thermador-t36bb915ss",
+      "brand": "thermador",
+      "model": "T36BB915SS",
+      "name": "Thermador Freedom 36\" Built-in Bottom Freezer",
+      "style": "bottom_freezer",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.8,
+      "msrp": 9999,
+      "street_price": 8999,
+      "energy_kwh_yr": 680,
+      "energy_star": true,
+      "noise_db": 38,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Part of Freedom Collection (modular built-in system)",
+        "Dual compressors",
+        "Quieter than Sub-Zero"
+      ],
+      "cons": [
+        "Still $9k+",
+        "Smaller freezer than competitors"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "thermador-t36ft820ns",
+      "brand": "thermador",
+      "model": "T36FT820NS",
+      "name": "Thermador Freedom 36\" Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 20.8,
+      "msrp": 5499,
+      "street_price": 4699,
+      "energy_kwh_yr": 700,
+      "energy_star": true,
+      "noise_db": 40,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": true,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro looks without built-in install",
+        "Dual compressors",
+        "ThermaFresh system"
+      ],
+      "cons": [
+        "Premium price",
+        "No water dispenser"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-kf2982vi",
+      "brand": "miele",
+      "model": "KF 2982 Vi",
+      "name": "Miele MasterCool 36\" Panel-Ready French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 19.4,
+      "msrp": 11999,
+      "street_price": 10999,
+      "energy_kwh_yr": 650,
+      "energy_star": true,
+      "noise_db": 37,
+      "icemaker": "internal + water",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "panel-ready",
+        "stainless front"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Tested for 20 years of use",
+        "Lowest service rate in premium",
+        "MasterSensor cameras (optional)"
+      ],
+      "cons": [
+        "US service network limited vs Sub-Zero",
+        "Less showroom presence"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "miele-k2802vi",
+      "brand": "miele",
+      "model": "K 2802 Vi",
+      "name": "Miele 30\" Fully Integrated Column Refrigerator",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 30,
+      "capacity_cf": 16.8,
+      "msrp": 10499,
+      "street_price": 9499,
+      "energy_kwh_yr": 520,
+      "energy_star": true,
+      "noise_db": 35,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "wifi": true,
+      "finishes": [
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pair with matching freezer column",
+        "Invisible install",
+        "Silent (35dB)"
+      ],
+      "cons": [
+        "Expensive",
+        "No ice/water",
+        "Pair with freezer = $20k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "jennair-jffcc72efs",
+      "brand": "jennair",
+      "model": "JFFCC72EFS",
+      "name": "JennAir Rise 72\" Column Pair (Fridge+Freezer)",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 72,
+      "capacity_cf": 30.0,
+      "msrp": 15999,
+      "street_price": 14499,
+      "energy_kwh_yr": 780,
+      "energy_star": true,
+      "noise_db": 40,
+      "icemaker": "internal + Obsidian ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "Rise stainless",
+        "Noir black stainless",
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Obsidian (clear) ice cubes",
+        "Noir aesthetic unique",
+        "Whirlpool service network"
+      ],
+      "cons": [
+        "Expensive",
+        "Requires 72\" cavity"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "sks-srpnb3042ss",
+      "brand": "sks",
+      "model": "SRPNB3042SS",
+      "name": "Signature Kitchen Suite 30\" Built-in French Door Fridge Column",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 30,
+      "capacity_cf": 16.3,
+      "msrp": 9999,
+      "street_price": 8999,
+      "energy_kwh_yr": 560,
+      "energy_star": true,
+      "noise_db": 38,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Auto-open door (kick sensor)",
+        "Wine column option",
+        "LG reliability DNA"
+      ],
+      "cons": [
+        "Niche brand, fewer installers",
+        "Premium pricing"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "fp-rf201acjsx1",
+      "brand": "fisher-paykel",
+      "model": "RF201ACJSX1",
+      "name": "Fisher & Paykel 36\" French Door Counter-Depth",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 20.1,
+      "msrp": 4299,
+      "street_price": 3699,
+      "energy_kwh_yr": 670,
+      "energy_star": true,
+      "noise_db": 40,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "black stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Rare NZ engineering in US market",
+        "ActiveSmart tech",
+        "CR rates better reliability than most French doors"
+      ],
+      "cons": [
+        "Service techs rare in parts of US",
+        "Premium for mid-tier features"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "frigidaire-frqg1721av",
+      "brand": "frigidaire",
+      "model": "FRQG1721AV",
+      "name": "Frigidaire Gallery 17.6 cu ft Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 32,
+      "capacity_cf": 17.6,
+      "msrp": 2299,
+      "street_price": 1799,
+      "energy_kwh_yr": 615,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "brushed steel"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "32\" width fits older homes",
+        "EvenTemp cooling",
+        "Auto-close doors"
+      ],
+      "cons": [
+        "Small capacity",
+        "Middling reliability history"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "frigidaire-frss2623as",
+      "brand": "frigidaire",
+      "model": "FRSS2623AS",
+      "name": "Frigidaire 25.6 cu ft Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 25.6,
+      "msrp": 1799,
+      "street_price": 1299,
+      "energy_kwh_yr": 740,
+      "energy_star": true,
+      "noise_db": 47,
+      "icemaker": "external",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheap",
+        "Decent capacity"
+      ],
+      "cons": [
+        "Loud",
+        "Side-by-side dispenser reliability issues"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "electrolux-ercc1732as",
+      "brand": "electrolux",
+      "model": "ERCC1732AS",
+      "name": "Electrolux 17.4 cu ft Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 32,
+      "capacity_cf": 17.4,
+      "msrp": 3599,
+      "street_price": 2799,
+      "energy_kwh_yr": 630,
+      "energy_star": true,
+      "noise_db": 41,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Premium design",
+        "Good temp uniformity",
+        "Fits 32\" openings"
+      ],
+      "cons": [
+        "Pricey for 17 cu ft",
+        "Reliability history mixed"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "maytag-mfi2570fez",
+      "brand": "maytag",
+      "model": "MFI2570FEZ",
+      "name": "Maytag 24.7 cu ft French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 24.7,
+      "msrp": 2499,
+      "street_price": 1699,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "external",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "10-year limited parts warranty on compressor",
+        "Whirlpool DNA",
+        "Heavy-duty image"
+      ],
+      "cons": [
+        "No Wi-Fi",
+        "External dispenser"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "hisense-rf18a3fse",
+      "brand": "hisense",
+      "model": "RF18A3FSE",
+      "name": "Hisense 17.8 cu ft Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 33,
+      "capacity_cf": 17.8,
+      "msrp": 1799,
+      "street_price": 1299,
+      "energy_kwh_yr": 605,
+      "energy_star": true,
+      "noise_db": 45,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheapest counter-depth French door",
+        "Decent temp performance"
+      ],
+      "cons": [
+        "Service network thin",
+        "Plastic interior feel"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "beko-brffd2577wss",
+      "brand": "beko",
+      "model": "BRFFD2577WSS",
+      "name": "Beko 17 cu ft Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 17.0,
+      "msrp": 2199,
+      "street_price": 1799,
+      "energy_kwh_yr": 580,
+      "energy_star": true,
+      "noise_db": 40,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": true,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Super energy efficient",
+        "HarvestFresh produce light",
+        "Quiet (40 dB)"
+      ],
+      "cons": [
+        "Small capacity",
+        "Service network very thin in US"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-gfe28gynfs",
+      "brand": "ge",
+      "model": "GFE28GYNFS",
+      "name": "GE 27.7 cu ft Standard French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.7,
+      "msrp": 2599,
+      "street_price": 1799,
+      "energy_kwh_yr": 776,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "internal + external",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Good capacity for price",
+        "GE service network huge"
+      ],
+      "cons": [
+        "No Wi-Fi",
+        "Dispenser = failure risk"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "lg-lrmxs2806s",
+      "brand": "lg",
+      "model": "LRMXS2806S",
+      "name": "LG Craft Ice InstaView 28 cu ft Counter-Depth MAX",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 27.8,
+      "msrp": 3999,
+      "street_price": 2999,
+      "energy_kwh_yr": 695,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "dual + craft ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "printproof stainless",
+        "matte black"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Standard-depth capacity, counter-depth body",
+        "InstaView + Craft Ice",
+        "Smart inverter linear compressor"
+      ],
+      "cons": [
+        "Feature-heavy = more to break",
+        "Craft ice is slow"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "cafe-cye22tp4mw2",
+      "brand": "cafe",
+      "model": "CYE22TP4MW2",
+      "name": "Café 22.1 cu ft Counter-Depth French Door Matte White",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.1,
+      "msrp": 4199,
+      "street_price": 3399,
+      "energy_kwh_yr": 700,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "matte white",
+        "matte black",
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Matte colors unique",
+        "Counter-depth + Wi-Fi + autofill",
+        "Beautiful"
+      ],
+      "cons": [
+        "Yale flagged higher service rate",
+        "Pricey"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "subzero-uc-24r",
+      "brand": "sub-zero",
+      "model": "UC-24R",
+      "name": "Sub-Zero 24\" Panel-Ready Undercounter Refrigerator",
+      "style": "bottom_freezer",
+      "depth": "built_in",
+      "width_in": 24,
+      "capacity_cf": 5.3,
+      "msrp": 5199,
+      "street_price": 4899,
+      "energy_kwh_yr": 320,
+      "energy_star": true,
+      "noise_db": 38,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "panel-ready",
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Sub-Zero reliability in small format",
+        "Panel-ready",
+        "Ideal for butler's pantry or islands"
+      ],
+      "cons": [
+        "Tiny (5.3 cf)",
+        "$5k for a mini"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "forno-ffffd1948-36sb",
+      "brand": "forno",
+      "model": "FFFFD1948-36SB",
+      "name": "Forno Rizzuto 36\" French Door Refrigerator",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 19.2,
+      "msrp": 3499,
+      "street_price": 2999,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless",
+        "brass accents"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Italian pro-style look at mid price",
+        "Brass hardware accents",
+        "Dual compressors"
+      ],
+      "cons": [
+        "Very new brand = unknown reliability",
+        "Service network tiny"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "zline-refop-36",
+      "brand": "zline",
+      "model": "RBIV-BR-36",
+      "name": "ZLINE 36\" Built-in French Door with Brass Trim",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.0,
+      "msrp": 6999,
+      "street_price": 5999,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "Autograph Edition brass/black/gold handles"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Built-in look at Bosch price",
+        "Autograph hardware options",
+        "Panel-ready"
+      ],
+      "cons": [
+        "Very new to built-in category",
+        "Unproven long-term reliability"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "whirlpool-wrb329dmbm",
+      "brand": "whirlpool",
+      "model": "WRB329DMBM",
+      "name": "Whirlpool 18.7 cu ft Counter-Depth Bottom Freezer",
+      "style": "bottom_freezer",
+      "depth": "counter",
+      "width_in": 30,
+      "capacity_cf": 18.7,
+      "msrp": 2199,
+      "street_price": 1699,
+      "energy_kwh_yr": 545,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Reliable + simple",
+        "No dispenser = no dispenser problems",
+        "Counter-depth in 30\""
+      ],
+      "cons": [
+        "No ice/water through door",
+        "Basic interior"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-pye22kynfs",
+      "brand": "ge-profile",
+      "model": "PYE22KYNFS",
+      "name": "GE Profile 22.1 cu ft Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.1,
+      "msrp": 3299,
+      "street_price": 2499,
+      "energy_kwh_yr": 685,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "dual (internal) + autofill pitcher",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless",
+        "black slate"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Autofill water pitcher is genuinely useful",
+        "Internal dispenser = more reliable",
+        "Hands-free voice"
+      ],
+      "cons": [
+        "Yale service rate rising",
+        "Complex = more to fix"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "monogram-zwe23esnss",
+      "brand": "monogram",
+      "model": "ZWE23ESNSS",
+      "name": "Monogram 23.1 cu ft Built-in Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 23.1,
+      "msrp": 8999,
+      "street_price": 7999,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 40,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Counter-depth + built-in trim kit",
+        "GE service network",
+        "Statement brand"
+      ],
+      "cons": [
+        "$8k+",
+        "Less iconic than Sub-Zero"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "samsung-rf65a967fsr",
+      "brand": "samsung",
+      "model": "RF65A967FSR",
+      "name": "Samsung 23 cu ft French Door with Beverage Center",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 23.0,
+      "msrp": 3499,
+      "street_price": 2599,
+      "energy_kwh_yr": 720,
+      "energy_star": true,
+      "noise_db": 41,
+      "icemaker": "dual (cubed + craft-ice equivalent)",
+      "water_dispenser": "internal + beverage center",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Beverage Center dispenser saves door opens",
+        "AutoFill pitcher",
+        "Counter-depth"
+      ],
+      "cons": [
+        "Samsung service concerns",
+        "Beverage center = more to break"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "fp-rs3684wruvk1",
+      "brand": "fisher-paykel",
+      "model": "RS3684WRUVK1",
+      "name": "Fisher & Paykel 36\" Column Refrigerator (Integrated)",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 16.3,
+      "msrp": 7499,
+      "street_price": 6999,
+      "energy_kwh_yr": 540,
+      "energy_star": true,
+      "noise_db": 38,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "wifi": true,
+      "finishes": [
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Modular column system",
+        "Energy efficient",
+        "F&P quality"
+      ],
+      "cons": [
+        "No ice/water",
+        "Pair with freezer = $14k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-gts18gtnrww",
+      "brand": "ge",
+      "model": "GTS18GTNRWW",
+      "name": "GE 17.5 cu ft Top-Freezer (White)",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 28,
+      "capacity_cf": 17.5,
+      "msrp": 749,
+      "street_price": 649,
+      "energy_kwh_yr": 395,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "white",
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Cheapest on the list",
+        "Apartment-size (28\")",
+        "Very reliable"
+      ],
+      "cons": [
+        "No ice",
+        "Small"
+      ],
+      "release_year": 2021
+    },
+    {
+      "id": "haier-hrb15n3bgs",
+      "brand": "haier",
+      "model": "HRB15N3BGS",
+      "name": "Haier 15 cu ft Counter-Depth Bottom Freezer",
+      "style": "bottom_freezer",
+      "depth": "counter",
+      "width_in": 28,
+      "capacity_cf": 15.0,
+      "msrp": 1799,
+      "street_price": 1499,
+      "energy_kwh_yr": 480,
+      "energy_star": true,
+      "noise_db": 40,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "28\" counter-depth",
+        "Quiet",
+        "Apartment-friendly"
+      ],
+      "cons": [
+        "Haier service is basically GE",
+        "Basic features"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "lg-lrtls2403s",
+      "brand": "lg",
+      "model": "LRTLS2403S",
+      "name": "LG 24 cu ft Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 33,
+      "capacity_cf": 23.8,
+      "msrp": 1199,
+      "street_price": 949,
+      "energy_kwh_yr": 450,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "auto",
+      "water_dispenser": "none",
+      "wifi": false,
+      "finishes": [
+        "printproof stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Largest top-freezer on list",
+        "Automatic icemaker",
+        "Bright LED"
+      ],
+      "cons": [
+        "Still a top-freezer aesthetically",
+        "Basic"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "whirlpool-wrfa32smhz",
+      "brand": "whirlpool",
+      "model": "WRFA32SMHZ",
+      "name": "Whirlpool 32.2 cu ft 36\" French Door (Standard Depth)",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 32.2,
+      "msrp": 2899,
+      "street_price": 2199,
+      "energy_kwh_yr": 790,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "dual + pitcher",
+      "water_dispenser": "external",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Largest capacity on the list (32 cu ft)",
+        "Flexi-Slide bin",
+        "Whirlpool reliability"
+      ],
+      "cons": [
+        "Large footprint",
+        "Dispenser failure risk"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-b36fd50snb",
+      "brand": "bosch",
+      "model": "B36FD50SNB",
+      "name": "Bosch 500 Series 36\" Standard-Depth French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 26.0,
+      "msrp": 3299,
+      "street_price": 2799,
+      "energy_kwh_yr": 710,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "external",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "black stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Bosch reliability at standard depth",
+        "Bigger than counter-depth siblings",
+        "Quiet"
+      ],
+      "cons": [
+        "External dispenser (vs internal on 800 series)"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "ge-profile-pvd28bynfs",
+      "brand": "ge-profile",
+      "model": "PVD28BYNFS",
+      "name": "GE Profile 27.9 cu ft 4-Door French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.9,
+      "msrp": 3799,
+      "street_price": 2999,
+      "energy_kwh_yr": 755,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "internal",
+      "water_dispenser": "internal + autofill",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "FlexZone convertible middle drawer",
+        "Internal dispenser",
+        "Autofill pitcher"
+      ],
+      "cons": [
+        "Feature-heavy = service risk",
+        "Yale flagged"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "bosch-b24cb50ess",
+      "brand": "bosch",
+      "model": "B24CB50ESS",
+      "name": "Bosch 500 Series 24\" Integrated Column Fridge",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 24,
+      "capacity_cf": 12.8,
+      "msrp": 5999,
+      "street_price": 5299,
+      "energy_kwh_yr": 480,
+      "energy_star": true,
+      "noise_db": 36,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "wifi": true,
+      "finishes": [
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Slim 24\" column for small kitchens",
+        "Panel-ready",
+        "Whisper quiet"
+      ],
+      "cons": [
+        "Pair with freezer column = $10k+"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "viking-vcff7360ss",
+      "brand": "viking",
+      "model": "VCFF7360SS",
+      "name": "Viking 7 Series 36\" Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 20.0,
+      "msrp": 5999,
+      "street_price": 5299,
+      "energy_kwh_yr": 730,
+      "energy_star": true,
+      "noise_db": 42,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "Viking color options"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Pro-look from a pro brand",
+        "Viking color options",
+        "Plasma Cluster cooling"
+      ],
+      "cons": [
+        "Reliability history polarizing",
+        "Expensive for counter-depth"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "gaggenau-rb472704",
+      "brand": "gaggenau",
+      "model": "RB472704",
+      "name": "Gaggenau 400 Series 36\" Built-in French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.8,
+      "msrp": 16999,
+      "street_price": 15499,
+      "energy_kwh_yr": 660,
+      "energy_star": true,
+      "noise_db": 38,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "anthracite",
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "Architectural-level design",
+        "BSH engineering (Bosch DNA)",
+        "Lowest service rate in ultra-premium"
+      ],
+      "cons": [
+        "$15k+",
+        "Gaggenau repair network sparse"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "sks-srpnb4201",
+      "brand": "sks",
+      "model": "SRPNB4201",
+      "name": "SKS 42\" Panel-Ready Built-in French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 42,
+      "capacity_cf": 24.5,
+      "msrp": 12999,
+      "street_price": 11999,
+      "energy_kwh_yr": 750,
+      "energy_star": true,
+      "noise_db": 39,
+      "icemaker": "dual internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "stainless",
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "42\" built-in competitor to Sub-Zero at lower price",
+        "Door-in-door",
+        "LG-level reliability"
+      ],
+      "cons": [
+        "Requires 42\" cavity",
+        "Brand recognition low"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "lg-lsxs26366d",
+      "brand": "lg",
+      "model": "LSXS26366D",
+      "name": "LG 26 cu ft Side-by-Side InstaView",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 26.2,
+      "msrp": 2399,
+      "street_price": 1799,
+      "energy_kwh_yr": 700,
+      "energy_star": true,
+      "noise_db": 44,
+      "icemaker": "external",
+      "water_dispenser": "external",
+      "wifi": true,
+      "finishes": [
+        "black stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "InstaView glass panel on side-by-side (unusual)",
+        "Big capacity",
+        "LG reliability"
+      ],
+      "cons": [
+        "Side-by-side layout inherently limiting",
+        "Through-door dispenser"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "lg-lrfds3016s",
+      "brand": "lg",
+      "model": "LRFDS3016S",
+      "name": "LG 30 cu ft 4-Door French Door w/ FlexZone",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 29.5,
+      "msrp": 3299,
+      "street_price": 2499,
+      "energy_kwh_yr": 770,
+      "energy_star": true,
+      "noise_db": 43,
+      "icemaker": "dual + craft ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "printproof stainless",
+        "matte black"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "reviewed": null
+      },
+      "pros": [
+        "4-door format with convertible middle drawer",
+        "Big capacity",
+        "Craft ice"
+      ],
+      "cons": [
+        "Complex = service risk over 10 years"
+      ],
+      "release_year": 2023
+    },
+    {
+      "id": "lg-lrflc2706s",
+      "brand": "lg",
+      "model": "LRFLC2706S",
+      "name": "LG 26.5 cu ft Counter-Depth MAX French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 26.5,
+      "msrp": 2899,
+      "street_price": 1899,
+      "energy_kwh_yr": 678,
+      "energy_star": true,
+      "noise_db": 41,
+      "icemaker": "internal dual",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter linear (10yr warranty)",
+      "finishes": [
+        "printproof stainless"
+      ],
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": null,
+        "yale_reliability_pct": null,
+        "wirecutter": "top pick 2026",
+        "reviewed": null,
+        "rtings": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/counter-depth"
+        }
+      },
+      "pros": [
+        "Current Wirecutter top pick (2026)",
+        "Counter-Depth MAX delivers standard-depth capacity in counter-depth body",
+        "Internal water dispenser = more reliable than through-door",
+        "Smart inverter linear compressor with 10-year parts warranty"
+      ],
+      "cons": [
+        "MSRP high but street is frequently under $2k",
+        "LG class-action history on older linear compressors (does not apply to 2023+ units)"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "hisense-hrm260n6tse",
+      "brand": "hisense",
+      "model": "HRM260N6TSE",
+      "name": "Hisense HRM260N6TSE 25.6 cu ft Smart French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "capacity_cf": 25.6,
+      "water_dispenser": "external",
+      "msrp": null,
+      "street_price": 1399,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Overall 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+        }
+      },
+      "pros": [
+        "Reviewed.com lab: 'steady temperatures' and 'excellent temperature control'",
+        "Editor's Choice Best Value at $1,399 (Lowe's)"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "samsung-rf90f29aecr",
+      "brand": "samsung",
+      "model": "RF90F29AECR",
+      "name": "Samsung Bespoke 4-Door RF90F29AECR 28.6 cu ft w/ AI Family Hub+",
+      "style": "french_door",
+      "depth": "standard",
+      "capacity_cf": 28.6,
+      "water_dispenser": "internal",
+      "msrp": null,
+      "street_price": 3299,
+      "ratings": {
+        "reviewed_status": "Best Full-Size French Door 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2"
+        }
+      },
+      "pros": [
+        "32-inch touchscreen with AI Family Hub+",
+        "Reviewed.com: 'Best Full-Size' French door 2026"
+      ],
+      "cons": [
+        "Reviewed.com: 'AI Vision may not always be accurate'"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "cafe-cae28dm5ts5",
+      "brand": "cafe",
+      "model": "CAE28DM5TS5",
+      "name": "Café Smart Quad-Door CAE28DM5TS5 28.3 cu ft",
+      "style": "french_door",
+      "depth": "standard",
+      "capacity_cf": 28.3,
+      "water_dispenser": "internal",
+      "msrp": null,
+      "street_price": 4589,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Quad-Style 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'Near-perfect temperature performance'",
+        "LED-lit back wall"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lt18s2100w",
+      "brand": "lg",
+      "model": "LT18S2100W",
+      "name": "LG LT18S2100W 18 cu ft Garage-Ready Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "capacity_cf": 18.0,
+      "icemaker": "none",
+      "water_dispenser": "none",
+      "msrp": null,
+      "street_price": 649,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best No-Frills Fridge 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'excellent temperature control'",
+        "Garage-ready — rated to operate in wider temperature range",
+        "No ice maker / no smart = fewer failure points"
+      ],
+      "cons": [
+        "No features — basic top-freezer only"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "bosch-b36fd50sns",
+      "brand": "bosch",
+      "model": "B36FD50SNS",
+      "name": "Bosch B36FD50SNS 26 cu ft French-Door Smart Refrigerator",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 26.0,
+      "wifi": true,
+      "msrp": null,
+      "street_price": 2699,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best French-Door 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'temperatures in both fridge and freezer are exactly spot on'",
+        "Abundant storage",
+        "Home Connect smart integration"
+      ],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "hisense-hrb171n6ase",
+      "brand": "hisense",
+      "model": "HRB171N6ASE",
+      "name": "Hisense HRB171N6ASE 17.2 cu ft Bottom-Freezer",
+      "style": "bottom_freezer",
+      "depth": "standard",
+      "capacity_cf": 17.2,
+      "msrp": null,
+      "street_price": 799,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Bottom-Freezer 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'remarkably consistent temperatures'",
+        "'One of the best values' per Reviewed"
+      ],
+      "cons": [
+        "Reviewed.com: requires calibration on setup"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "samsung-rs28cb760012",
+      "brand": "samsung",
+      "model": "RS28CB760012",
+      "name": "Samsung Bespoke RS28CB760012 28 cu ft Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "capacity_cf": 28.0,
+      "msrp": null,
+      "street_price": null,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Side-by-Side 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+        }
+      },
+      "pros": [
+        "Reviewed.com: 'excels in performance tests' and has 'ample storage'",
+        "Bespoke customizable panels"
+      ],
+      "cons": [
+        "Reviewed.com: 'crispers don't retain humidity effectively'"
+      ],
+      "release_year": null
+    },
+    {
+      "id": "hotpoint-hps16btnrww",
+      "brand": "hotpoint",
+      "model": "HPS16BTNRWW",
+      "name": "Hotpoint HPS16BTNRWW 15.6 cu ft Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "capacity_cf": 15.6,
+      "msrp": null,
+      "street_price": 599,
+      "ratings": {
+        "reviewed_status": "Editor's Choice · Best Top-Freezer 2026",
+        "source_urls": {
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+        }
+      },
+      "pros": [
+        "Reviewed.com: temperature variance under 2°F",
+        "'Great value' despite minimal features"
+      ],
+      "cons": [
+        "Minimal features (by design)"
+      ],
+      "release_year": null
+    }
+  ]
+}

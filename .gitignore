@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node — node_modules is regenerated from package-lock.json on npm install.
+# package-lock.json IS committed so installs are reproducible.
+node_modules/
+.npm/
+
+# Python (local dev server cache)
+__pycache__/
+*.pyc
+
+# Local dev / scratch
+*.log
+.env
+.env.local
+.cache/
+
+# Build outputs — dist/ is Vite's default, we use docs/ for GH Pages
+# so docs/ IS committed. dist/ stays out if anyone uses it locally.
+dist/
+build/
+
+# Claude Code session state (user-local)
+.claude/
