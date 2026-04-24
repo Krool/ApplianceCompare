@@ -2,7 +2,9 @@
 
 A public research tool for comparing kitchen appliances — refrigerators, dishwashers, and ranges/ovens/cooktops — with aggregated ratings and a transparent, tweakable composite score.
 
-**Live site:** _(add GitHub Pages URL once deployed)_
+**Live site:** [krool.github.io/ApplianceCompare](https://krool.github.io/ApplianceCompare/)
+
+**Repo:** [github.com/Krool/ApplianceCompare](https://github.com/Krool/ApplianceCompare)
 
 ## What's inside
 
