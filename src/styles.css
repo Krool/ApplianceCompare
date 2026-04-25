@@ -141,6 +141,10 @@ tr:focus-visible { outline-offset: -2px; }
   background: var(--bg-elev); font: inherit; font-size: 12px;
   color: var(--ink); font-variant-numeric: tabular-nums;
 }
+.range-hint {
+  margin-top: 6px; font-size: 11.5px; color: var(--warn);
+  line-height: 1.35;
+}
 .clear-filters {
   background: none; border: 1px solid var(--line-2);
   padding: 6px 10px; border-radius: 5px; font-size: 12px;
@@ -178,6 +182,69 @@ tr:focus-visible { outline-offset: -2px; }
 }
 .search-clear:hover { background: var(--bg-sunk); color: var(--ink); }
 
+/* Refrigerator location toggle — Kitchen vs Garage. Pill segmented control
+   that lives in the toolbar next to search. Garage filters down to models the
+   manufacturer rates as Garage Ready (wider ambient temp range). */
+.loc-toggle {
+  display: inline-flex; align-items: center; gap: 2px;
+  padding: 3px; padding-left: 10px;
+  background: var(--bg-sunk);
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  margin-left: auto;
+}
+.loc-toggle-label {
+  font-size: 10px; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--ink-3);
+  font-weight: 500;
+  padding-right: 4px;
+}
+.loc-toggle button {
+  position: relative;
+  border: 0; background: transparent;
+  padding: 6px 14px; border-radius: 5px;
+  font-family: var(--sans); font-size: 12.5px; font-weight: 500;
+  color: var(--ink-3); cursor: pointer;
+  letter-spacing: 0.01em;
+  transition: background 0.12s, color 0.12s, box-shadow 0.12s;
+}
+.loc-toggle button:hover { color: var(--ink); }
+.loc-toggle button.active {
+  background: var(--bg-elev); color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
+/* Tooltip styling within the toggle reuses the .th-tip class. Override
+   positioning here so it pops out below the pill instead of the table cell. */
+.loc-toggle button .th-tip {
+  position: absolute;
+  top: calc(100% + 6px); left: 50%;
+  transform: translate(-50%, -4px);
+  z-index: 40;
+  background: var(--ink); color: #f8f4ec;
+  font-size: 11.5px; font-weight: 400;
+  text-transform: none; letter-spacing: 0.005em;
+  line-height: 1.45;
+  padding: 8px 11px; border-radius: 7px;
+  width: max-content; max-width: 260px;
+  white-space: normal; pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  box-shadow: var(--shadow-md);
+  text-align: left;
+}
+.loc-toggle button .th-tip::before {
+  content: "";
+  position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-bottom-color: var(--ink);
+}
+.loc-toggle button:hover .th-tip,
+.loc-toggle button:focus-visible .th-tip,
+.loc-toggle button:focus .th-tip {
+  opacity: 1; transform: translate(-50%, 0);
+  transition-delay: 0.2s;
+}
+
 .results-meta {
   display: flex; justify-content: space-between; align-items: baseline;
   margin-bottom: 12px; font-size: 12px; color: var(--ink-3);
@@ -201,6 +268,7 @@ table.appliance-table {
   color: var(--ink-3);
   padding: 10px 12px; border-bottom: 1px solid var(--line);
   white-space: nowrap; cursor: pointer; user-select: none;
+  position: relative;
 }
 .appliance-table thead th:hover { color: var(--ink); }
 /* Sortable columns (those with aria-sort) get an idle ↕ indicator so the
@@ -211,6 +279,47 @@ table.appliance-table {
 .appliance-table thead th.sorted { color: var(--accent); }
 .appliance-table thead th[aria-sort="descending"]::after { content: " ↓"; opacity: 0.8; }
 .appliance-table thead th[aria-sort="ascending"]::after { content: " ↑"; opacity: 0.8; }
+
+/* Header tooltip — appears on hover/focus to explain what the column means.
+   The label span is here so the sort arrows (rendered via th::after) sit
+   outside the tip's positioning context. */
+.appliance-table thead th .th-label { display: inline; }
+.appliance-table thead th .th-tip {
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 8px;
+  z-index: 40;
+  background: var(--ink);
+  color: #f8f4ec;
+  font-size: 11.5px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.005em;
+  line-height: 1.45;
+  padding: 8px 11px;
+  border-radius: 7px;
+  width: max-content;
+  max-width: 280px;
+  white-space: normal;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  box-shadow: var(--shadow-md);
+  text-align: left;
+}
+.appliance-table thead th .th-tip::before {
+  content: "";
+  position: absolute; bottom: 100%; left: 14px;
+  border: 5px solid transparent;
+  border-bottom-color: var(--ink);
+}
+.appliance-table thead th:hover .th-tip,
+.appliance-table thead th:focus-visible .th-tip,
+.appliance-table thead th:focus .th-tip {
+  opacity: 1; transform: translateY(0);
+  transition-delay: 0.15s;
+}
 .appliance-table tbody tr {
   border-bottom: 1px solid var(--line);
   transition: background 0.08s;
@@ -252,6 +361,47 @@ table.appliance-table {
 .score-bar .bar > div { height: 100%; background: var(--accent); border-radius: 999px; }
 .score-bar.muted .num, .score-bar.muted { color: var(--ink-3); }
 .score-bar.muted .bar > div { background: var(--ink-3); }
+.score-bar .conf {
+  font-size: 10px; color: var(--ink-3); letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.score-bar.conf-thin .num { color: var(--ink-2); }
+.score-bar.conf-thin .bar > div {
+  background: repeating-linear-gradient(
+    45deg, var(--ink-3) 0 4px, transparent 4px 8px
+  );
+}
+.score-bar.conf-limited .bar > div { background: #b58a3c; }
+.score-bar.conf-solid   .bar > div { background: var(--accent); }
+.score-bar.conf-strong  .bar > div { background: #1f7a4a; }
+.score-bar.conf-thin    .conf { color: #a05a3a; }
+.score-bar.conf-limited .conf { color: #8a6420; }
+.score-bar.conf-solid   .conf { color: var(--ink-2); }
+.score-bar.conf-strong  .conf { color: #1f7a4a; font-weight: 600; }
+
+/* Confidence pill in drawer */
+.conf-pill {
+  display: inline-block; padding: 1px 7px; border-radius: 999px;
+  font-size: 10px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.06em; margin-right: 6px;
+}
+.conf-pill.conf-thin    { background: #f4e6df; color: #a05a3a; }
+.conf-pill.conf-limited { background: #f4ebd6; color: #8a6420; }
+.conf-pill.conf-solid   { background: #e7eee5; color: #3e6b3e; }
+.conf-pill.conf-strong  { background: #d8ecdc; color: #1f7a4a; }
+.conf-detail { font-size: 10.5px; color: var(--ink-3); }
+
+/* Source disagreement marker — silent averages can hide reviewer disputes */
+.score-bar .contested {
+  font-size: 11px; color: var(--warn); cursor: help;
+  margin-left: 2px;
+}
+.contested-note {
+  margin-top: 6px; padding: 4px 8px;
+  background: #fff3df; border-left: 2px solid var(--warn);
+  border-radius: 3px;
+  font-size: 11px; color: var(--warn); font-weight: 500;
+}
 
 /* Generic utilities */
 .dim { color: var(--ink-3); }

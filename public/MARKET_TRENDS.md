@@ -2,7 +2,7 @@
 
 _A plain-English read on what has actually changed in refrigerators, dishwashers, and cooking appliances over the last six years — and what to weigh if you're buying in 2026._
 
-**Last updated:** 2026-04-24
+**Last updated:** 2026-04-25
 
 ---
 
@@ -103,7 +103,7 @@ Has the appliance industry actually become more reliable in the last decade? The
 
 **Brands with flat-to-rising service rates:**
 - Samsung refrigerators (ice maker and compressor complaints persistent)
-- Café (Haier/GE's design-forward line — Yale has flagged ~19% service rate)
+- Café (Haier/GE's design-forward line — Yale 2026 dishwasher service rate is 16.6%, near the bottom of the dishwasher category)
 - Viking (polarizing reputation persists despite Middleby ownership)
 - Whirlpool dishwashers (good but not Bosch-good)
 

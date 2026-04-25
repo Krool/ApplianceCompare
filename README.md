@@ -72,13 +72,27 @@ The score shown in the table is a weighted blend of:
 
 | Axis | Default weight | What it pulls from |
 | --- | --- | --- |
-| Quality | 25 | Mean of available 0–100-normalized sources: CR overall, Reviewed, Rtings, CNET, GH (numeric), and retailer star averages |
+| Quality | 30 | Mean of available 0–100-normalized sources: CR overall, Reviewed, Rtings, CNET, GH (numeric), and retailer star averages |
 | Reliability | 30 | Yale service rate (model-specific, falls back to brand rate) |
-| Price | 20 | Log curve on street price, anchored around $500 |
-| Energy | 10 | kWh/yr (fridges, DW) — neutral for cooking |
-| Quietness | 15 | Noise dB (fridges, DW) — neutral for cooking |
+| Price | 25 | Log curve on street price, anchored around $500 |
+| Repairability | 15 | 0–100 ease-of-repair score (model-specific, falls back to brand) — sourced from Yale tech notes, parts-availability, and design factors (modular vs. board-driven) |
+| Energy | 5 | kWh/yr — treated as ongoing-cost contributor (fridges, DW); neutral for cooking |
+| Quietness | 10 | Noise dB (fridges, DW) — neutral for cooking |
 
 Readers adjust these weights from the Tweaks panel and the ranking recalculates live. The goal is an honest, transparent score — not a hidden editorial ranking.
+
+### Score confidence
+
+Because the no-fake-data rule means many models start with most rating fields `null`, every score is paired with a **confidence tier** so readers can tell a 4-source consensus from a thin price-driven number:
+
+| Tier | Meaning |
+| --- | --- |
+| `thin` | 0 review signals and no brand reliability data — score is essentially price/energy/quietness specs |
+| `limited` | 1 review signal, OR only a brand-level Yale fallback |
+| `solid` | 2 independent review signals |
+| `strong` | 3+ review signals |
+
+A "review signal" is any of: a quality source (CR / Reviewed / Rtings / CNET / GH-numeric / retailer star aggregate), a model-specific Yale service rate, or a Wirecutter pick. The tier is shown next to every score in the table and called out in the model drawer.
 
 ## Deployment
 

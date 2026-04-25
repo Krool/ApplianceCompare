@@ -7,8 +7,9 @@
       "depth": "standard | counter | built_in",
       "reliability_source": "yale | cr | aggregated"
     },
-    "last_updated": "2026-04-24",
-    "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls."
+    "last_updated": "2026-04-25",
+    "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls.",
+    "garage_ready_pass": "Initial garage_ready backfill 2026-04-25 — only models with explicit manufacturer Garage Ready marketing flagged true; field omitted on unverified models rather than guessed. Cite under ratings.source_urls.garage_ready."
   },
   "models": [
     {
@@ -462,6 +463,7 @@
       "icemaker": "optional",
       "water_dispenser": "none",
       "wifi": false,
+      "garage_ready": true,
       "finishes": [
         "stainless",
         "slate",
@@ -471,7 +473,10 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "garage_ready": "https://www.geappliances.com/appliance/GE-21-9-Cu-Ft-Garage-Ready-Top-Freezer-Refrigerator-GTS22KGNRWW"
+        }
       },
       "pros": [
         "Cheapest reliable fridge",
@@ -574,6 +579,7 @@
       "icemaker": "optional",
       "water_dispenser": "none",
       "wifi": false,
+      "garage_ready": true,
       "finishes": [
         "stainless",
         "white",
@@ -583,7 +589,10 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "garage_ready": "https://www.whirlpool.com/content/dam/global/documents/202001/specification-sheet-wrt311fzdspecsheetv01.pdf"
+        }
       },
       "pros": [
         "Failure rate of 8% over 5 years per repair data",
@@ -1871,6 +1880,7 @@
       "icemaker": "auto",
       "water_dispenser": "none",
       "wifi": false,
+      "garage_ready": true,
       "finishes": [
         "printproof stainless"
       ],
@@ -1878,7 +1888,10 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "garage_ready": "https://www.lowes.com/pd/LG-Garage-Ready-Internal-Water-Dispenser-23-8-cu-ft-Top-Freezer-Refrigerator-Stainless-Steel-ENERGY-STAR/5001931889"
+        }
       },
       "pros": [
         "Largest top-freezer on list",
@@ -2354,12 +2367,14 @@
       "capacity_cf": 18.0,
       "icemaker": "none",
       "water_dispenser": "none",
+      "garage_ready": true,
       "msrp": null,
       "street_price": 649,
       "ratings": {
         "reviewed_status": "Editor's Choice · Best No-Frills Fridge 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
+          "garage_ready": "https://www.lg.com/us/refrigerators/lg-lt18s2100w-top-freezer-refrigerator"
         }
       },
       "pros": [

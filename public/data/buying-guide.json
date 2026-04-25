@@ -1,7 +1,7 @@
 {
   "_meta": {
     "title": "Kitchen Appliance Buying Guide 2026",
-    "last_updated": "2026-04-24",
+    "last_updated": "2026-04-25",
     "philosophy": "Reliability > features. Right-size for your actual cooking, not the kitchen you imagine. Match the brand's service network to your zip code."
   },
   "categories": {
@@ -177,7 +177,7 @@
     { "brand_id": "lg", "one_liner": "Best mainstream value — smart-inverter linear compressors, induction ranges under $2,500. Features that actually work.", "you_want_this_if": "Feature-rich mid-premium at a fair price with broad service.", "avoid_if": "You want maximum simplicity — Whirlpool or Bosch avoid LG's failure-mode breadth." },
     { "brand_id": "samsung", "one_liner": "Best-looking Bespoke panels. Flex Zone, Family Hub. Weakest US repair network of major brands.", "you_want_this_if": "Aesthetics matter and you're buying the extended warranty.", "avoid_if": "You want low-friction service over 10 years." },
     { "brand_id": "ge-profile", "one_liner": "Broad US service network, Autofill pitcher, good-value induction ranges. Service rate trending up recently.", "you_want_this_if": "Service availability matters more than engineering pedigree.", "avoid_if": "You're cross-shopping Bosch 800 — Bosch wins on reliability and quietness." },
-    { "brand_id": "cafe", "one_liner": "Customizable matte finishes and brass hardware — genuinely beautiful. Yale 2026 service rate ~19% is concerning.", "you_want_this_if": "Design trumps reliability in your priority stack.", "avoid_if": "You want Café looks AND Café prices AND reliability — LG Studio or SKS pair looks with lower service rates." },
+    { "brand_id": "cafe", "one_liner": "Customizable matte finishes and brass hardware — genuinely beautiful. Yale 2026 dishwasher service rate of 16.6% is well above category average; no overall 2026 rate published.", "you_want_this_if": "Design trumps reliability in your priority stack.", "avoid_if": "You want Café looks AND Café prices AND reliability — LG Studio or SKS pair looks with lower service rates." },
     { "brand_id": "whirlpool", "one_liner": "Workhorse reliability in basic configurations. Best top-freezer fridges. Legendary parts availability.", "you_want_this_if": "'It just works for 15 years' and you don't care about Wi-Fi.", "avoid_if": "You want quiet dishwashers or style-forward fridges." },
     { "brand_id": "kitchenaid", "one_liner": "Whirlpool DNA at premium prices. Pro-look handles, PrintShield finish.", "you_want_this_if": "Whirlpool reliability with better interior finishes.", "avoid_if": "You want Bosch-quiet or Samsung-smart — cross-shop those instead." },
     { "brand_id": "maytag", "one_liner": "Whirlpool sub-brand. 10-year parts warranty on select motors/compressors.", "you_want_this_if": "Whirlpool reliability with heavier-duty positioning and a longer parts warranty.", "avoid_if": "You want quiet, smart, or premium — none apply here." },

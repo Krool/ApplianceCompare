@@ -3,18 +3,21 @@ import { useState, useEffect, useMemo } from 'react';
 import { Sidebar } from './sidebar.jsx';
 import { ApplianceTable, Drawer, CompareBar, CompareModal } from './table-views.jsx';
 import { GuidePage } from './guide-page.jsx';
+import { getScoreConfidence } from './helpers.jsx';
 import {
-  useTweaks, TweaksPanel, TweakSection, TweakSlider, TweakRadio,
+  useTweaks, TweaksPanel, TweakSection, TweakSlider, TweakRadio, TweakToggle,
 } from './tweaks-panel.jsx';
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "weight_quality": 25,
+  "weight_quality": 30,
   "weight_reliability": 30,
-  "weight_price": 20,
-  "weight_energy": 10,
-  "weight_quiet": 15,
+  "weight_price": 25,
+  "weight_repairability": 15,
+  "weight_energy": 5,
+  "weight_quiet": 10,
   "density": "comfortable",
-  "showRetiredScores": true
+  "showRetiredScores": true,
+  "hideThinConfidence": false
 }/*EDITMODE-END*/;
 
 function App({ data }) {
@@ -31,6 +34,7 @@ function App({ data }) {
     quality: tweaks.weight_quality,
     reliability: tweaks.weight_reliability,
     price: tweaks.weight_price,
+    repairability: tweaks.weight_repairability,
     energy: tweaks.weight_energy,
     quiet: tweaks.weight_quiet,
   };
@@ -57,22 +61,33 @@ function App({ data }) {
       if (filters.tier?.length && !filters.tier.includes(b?.tier)) return false;
       if (filters.style?.length && !filters.style.includes(m.style)) return false;
       if (filters.depth?.length && !filters.depth.includes(m.depth)) return false;
+      if (filters.width?.length && !filters.width.includes(m.width_in)) return false;
       if (filters.fuel?.length && !filters.fuel.includes(m.fuel)) return false;
       if (filters.type?.length && !filters.type.includes(m.type)) return false;
       if (filters.reliability?.length && !filters.reliability.includes(m.ratings?.cr_reliability)) return false;
+      if (filters.tub?.length && !filters.tub.includes(m.tub)) return false;
       if (filters.energyStar && !m.energy_star) return false;
       if (filters.wifi && !m.wifi) return false;
       if (filters.panelReady && !m.panel_ready) return false;
+      if (filters.airFry && !m.air_fry) return false;
+      if (filters.location === 'garage' && !m.garage_ready) return false;
       const price = m.street_price ?? m.msrp;
       if (filters.priceMin != null && price < filters.priceMin) return false;
       if (filters.priceMax != null && price > filters.priceMax) return false;
+      if (filters.dbMax != null) {
+        const db = m.decibels ?? m.noise_db;
+        // Strict: a quietness threshold should hide models with no dB data,
+        // since we can't verify they meet it.
+        if (db == null || db > filters.dbMax) return false;
+      }
       if (search) {
         const q = search.toLowerCase();
         if (!(m.name + ' ' + m.model + ' ' + (b?.name || '')).toLowerCase().includes(q)) return false;
       }
+      if (tweaks.hideThinConfidence && getScoreConfidence(m, b).tier === 'thin') return false;
       return true;
     });
-  }, [allModels, filters, brandsById, search]);
+  }, [allModels, filters, brandsById, search, tweaks.hideThinConfidence]);
 
   // Reset filters, search, and sort when changing tab — sort keys are category-specific
   useEffect(() => { setFilters({}); setSearch(''); setSort({ key: 'score', dir: 'desc' }); }, [tab]);
@@ -141,7 +156,14 @@ function App({ data }) {
         </div>
       ) : (
         <div className="app">
-          <Sidebar category={category} models={allModels} brands={data.brands} filters={filters} setFilters={setFilters} />
+          <Sidebar
+            category={category}
+            models={allModels}
+            brands={data.brands}
+            filters={filters}
+            setFilters={setFilters}
+            onClearAll={() => { setFilters({}); setSearch(''); }}
+          />
           <div className="main">
             <div className="toolbar">
               <div className="search-box">
@@ -150,6 +172,12 @@ function App({ data }) {
                   <button type="button" className="search-clear" aria-label="Clear search" onClick={() => setSearch('')}>✕</button>
                 )}
               </div>
+              {category === 'refrigerators' && (
+                <LocationToggle
+                  value={filters.location || 'kitchen'}
+                  onChange={v => setFilters({ ...filters, location: v === 'kitchen' ? null : v })}
+                />
+              )}
             </div>
             <div className="results-meta">
               <span>Showing <strong>{filteredModels.length}</strong> of {allModels.length} models</span>
@@ -206,15 +234,47 @@ function App({ data }) {
           <TweakSlider label="Quality (review aggregate)" value={tweaks.weight_quality} onChange={v => setTweaks('weight_quality', v)} min={0} max={50} step={5} />
           <TweakSlider label="Reliability (Yale service rate)" value={tweaks.weight_reliability} onChange={v => setTweaks('weight_reliability', v)} min={0} max={50} step={5} />
           <TweakSlider label="Price" value={tweaks.weight_price} onChange={v => setTweaks('weight_price', v)} min={0} max={50} step={5} />
-          <TweakSlider label="Energy efficiency" value={tweaks.weight_energy} onChange={v => setTweaks('weight_energy', v)} min={0} max={50} step={5} />
+          <TweakSlider label="Repairability" value={tweaks.weight_repairability} onChange={v => setTweaks('weight_repairability', v)} min={0} max={50} step={5} />
+          <TweakSlider label="Energy (ongoing cost)" value={tweaks.weight_energy} onChange={v => setTweaks('weight_energy', v)} min={0} max={50} step={5} />
           <TweakSlider label="Quietness" value={tweaks.weight_quiet} onChange={v => setTweaks('weight_quiet', v)} min={0} max={50} step={5} />
         </TweakSection>
         <TweakSection label="Display">
           <TweakRadio label="Density" value={tweaks.density} onChange={v => setTweaks('density', v)}
             options={[{ value: 'comfortable', label: 'Comfortable' }, { value: 'compact', label: 'Compact' }]} />
+          <TweakToggle label="Hide thin-confidence rows" value={tweaks.hideThinConfidence}
+            onChange={v => setTweaks('hideThinConfidence', v)} />
         </TweakSection>
       </TweaksPanel>
     </>
+  );
+}
+
+// Refrigerator location toggle — Kitchen (default, all fridges) vs Garage
+// (filters to manufacturer-rated garage_ready models). Garage-ready means the
+// fridge is rated for a wider ambient temperature range (typically 38–110°F)
+// so it keeps working in unconditioned spaces.
+function LocationToggle({ value, onChange }) {
+  const opts = [
+    { id: 'kitchen', label: 'Kitchen', tip: 'All refrigerators — kitchens have stable indoor temps, so any fridge works.' },
+    { id: 'garage',  label: 'Garage',  tip: 'Only models the manufacturer rates as Garage Ready (wider ambient temp range, typically 38–110°F).' },
+  ];
+  return (
+    <div className="loc-toggle" role="tablist" aria-label="Where will this fridge live?">
+      <span className="loc-toggle-label" aria-hidden="true">Location</span>
+      {opts.map(o => (
+        <button
+          key={o.id}
+          role="tab"
+          type="button"
+          aria-selected={value === o.id}
+          className={value === o.id ? 'active' : ''}
+          onClick={() => onChange(o.id)}
+        >
+          <span className="th-label">{o.label}</span>
+          <span className="th-tip" role="tooltip">{o.tip}</span>
+        </button>
+      ))}
+    </div>
   );
 }
 

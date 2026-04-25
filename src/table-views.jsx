@@ -3,7 +3,8 @@ import { useEffect, useMemo, useRef } from 'react';
 import {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
   relClass, tierClass,
-  computeScore, getRatingSources, aggregateRetailerStars, totalRetailerReviewCount,
+  computeScore, getScoreConfidence, getSourceDisagreement,
+  getRatingSources, aggregateRetailerStars, totalRetailerReviewCount,
 } from './helpers.jsx';
 
 // Shared: closes a surface when Escape is pressed. Also moves focus into the
@@ -28,12 +29,22 @@ function useDismissableSurface(onClose) {
   return rootRef;
 }
 
-function ScoreBar({ value }) {
+function ScoreBar({ value, confidence, disagreement }) {
   if (value == null) return <span className="score-bar muted"><span className="num">—</span></span>;
+  const tier = confidence?.tier;
+  const label = confidence
+    ? (confidence.signals === 0
+        ? (tier === 'limited' ? 'spec only' : 'no sources')
+        : confidence.signals + ' src')
+    : null;
   return (
-    <span className="score-bar">
+    <span className={"score-bar conf-" + (tier || 'unknown')}>
       <span className="num">{value}</span>
       <span className="bar"><div style={{width: value + '%'}} /></span>
+      {label && <span className="conf" title={`Confidence: ${tier}`}>{label}</span>}
+      {disagreement?.contested && (
+        <span className="contested" title={`Reviewers disagree by ${Math.round(disagreement.spread)} points across ${disagreement.sourceCount} sources`}>⚠</span>
+      )}
     </span>
   );
 }
@@ -62,7 +73,7 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
     return arr;
   }, [models, sort, weights, brandsById]);
 
-  const sortHead = (key, label) => {
+  const sortHead = (key, label, tip) => {
     const isSorted = sort.key === key;
     const ariaSort = isSorted ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none';
     const toggle = () => setSort({ key, dir: isSorted && sort.dir === 'desc' ? 'asc' : 'desc' });
@@ -73,9 +84,33 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
           role="columnheader"
           onClick={toggle}
           onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } }}>
-        {label}
+        <span className="th-label">{label}</span>
+        {tip && <span className="th-tip" role="tooltip">{tip}</span>}
       </th>
     );
+  };
+
+  // Static (non-sortable) header with the same tooltip affordance.
+  const plainHead = (label, tip, props = {}) => (
+    <th tabIndex={tip ? 0 : -1} {...props}>
+      <span className="th-label">{label}</span>
+      {tip && <span className="th-tip" role="tooltip">{tip}</span>}
+    </th>
+  );
+
+  const TIPS = {
+    score: 'Composite 0–100 weighted across quality, reliability, price, repairability, energy, and quietness. Adjust weights from the Tweaks panel. The small caption next to each score shows how many independent rating sources back it — "no sources" or "spec only" means the score is essentially a price/spec read.',
+    model: 'Manufacturer name and SKU. Click any row for full specs.',
+    brand: 'Manufacturer.',
+    capacity: 'Total interior volume in cubic feet (fresh food + freezer).',
+    db: 'Decibels at the normal cycle. Lower is quieter — under 44 dB is luxury territory.',
+    typeFuel: 'Range / cooktop / wall oven, plus fuel type.',
+    price: 'Typical street price. MSRP shown below in light grey if higher.',
+    cr: 'Consumer Reports overall test score, 0–100. Blank when CR has not tested or the score is paywalled.',
+    yale: 'Yale Appliance first-year service-call rate. Lower is better. Falls back to brand-level rate when model-specific data is missing.',
+    energy: 'Annual electricity use per the federal Energy Guide label. Lower is better.',
+    tier: 'Brand price/positioning tier — budget, mainstream, premium, or ultra-premium.',
+    compare: 'Tick up to 4 rows, then click Compare in the bottom bar for a side-by-side view.',
   };
 
   return (
@@ -83,18 +118,18 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
       <table className="appliance-table">
         <thead>
           <tr>
-            <th className="compare-cell">⊕</th>
-            {sortHead('score', 'Score')}
-            {sortHead('name', 'Model')}
-            {sortHead('brand', 'Brand')}
-            {category === 'refrigerators' && sortHead('capacity', 'Capacity')}
-            {category === 'dishwashers' && sortHead('db', 'Quietness')}
-            {category === 'ranges_ovens_cooktops' && <th>Type / Fuel</th>}
-            {sortHead('price', 'Price')}
-            {sortHead('cr', 'CR')}
-            {sortHead('reliability', 'Yale Svc%')}
-            {(category !== 'ranges_ovens_cooktops') && sortHead('energy', 'Energy')}
-            <th>Tier</th>
+            {plainHead('⊕', TIPS.compare, { className: 'compare-cell' })}
+            {sortHead('score', 'Score', TIPS.score)}
+            {sortHead('name', 'Model', TIPS.model)}
+            {sortHead('brand', 'Brand', TIPS.brand)}
+            {category === 'refrigerators' && sortHead('capacity', 'Capacity', TIPS.capacity)}
+            {category === 'dishwashers' && sortHead('db', 'Quietness', TIPS.db)}
+            {category === 'ranges_ovens_cooktops' && plainHead('Type / Fuel', TIPS.typeFuel)}
+            {sortHead('price', 'Price', TIPS.price)}
+            {sortHead('cr', 'CR', TIPS.cr)}
+            {sortHead('reliability', 'Yale Svc%', TIPS.yale)}
+            {(category !== 'ranges_ovens_cooktops') && sortHead('energy', 'Energy', TIPS.energy)}
+            {plainHead('Tier', TIPS.tier)}
           </tr>
         </thead>
         <tbody>
@@ -111,6 +146,8 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
           {sorted.map(m => {
             const b = brandsById[m.brand];
             const score = computeScore(m, b, weights);
+            const confidence = getScoreConfidence(m, b);
+            const disagreement = getSourceDisagreement(m);
             const isSel = selected.includes(m.id);
             return (
               <tr key={m.id} className={isSel ? 'selected' : ''}
@@ -122,7 +159,7 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
                 <td className="compare-cell" onClick={e => e.stopPropagation()}>
                   <input type="checkbox" checked={isSel} onChange={() => toggleCompare(m.id)} />
                 </td>
-                <td><ScoreBar value={score} /></td>
+                <td><ScoreBar value={score} confidence={confidence} disagreement={disagreement} /></td>
                 <td>
                   <div className="cell-name">
                     <span className="name">{m.name}</span>
@@ -156,8 +193,27 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
   const surfaceRef = useDismissableSurface(onClose);
   if (!model) return null;
   const score = computeScore(model, brand, weights);
+  const confidence = getScoreConfidence(model, brand);
+  const disagreement = getSourceDisagreement(model);
   const yaleRate = model.ratings?.yale_reliability_pct ?? brand?.service_rate_overall;
   const reviewed = model.ratings?.reviewed;
+  const confSubtitle = (() => {
+    if (!score) return 'no data';
+    if (confidence.signals === 0) {
+      const fallbacks = [];
+      if (confidence.hasReliabilityFallback) fallbacks.push('brand reliability');
+      if (confidence.hasRepairabilityFallback) fallbacks.push('brand repairability');
+      return fallbacks.length
+        ? 'spec sheet + ' + fallbacks.join(', ')
+        : 'spec sheet only';
+    }
+    const parts = [];
+    if (confidence.qualitySources) parts.push(confidence.qualitySources + ' review source' + (confidence.qualitySources === 1 ? '' : 's'));
+    if (confidence.hasReliabilityDirect) parts.push('Yale reliability');
+    if (confidence.hasRepairabilityDirect) parts.push('repairability');
+    if (confidence.hasEditorialPick) parts.push('editorial pick');
+    return parts.join(' · ');
+  })();
 
   const specs = [];
   if (model.capacity_cf) specs.push(['Capacity', fmtCapacity(model.capacity_cf)]);
@@ -179,6 +235,7 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
   if (model.tub) specs.push(['Tub', model.tub]);
   if (model.icemaker) specs.push(['Ice maker', model.icemaker]);
   if (model.water_dispenser) specs.push(['Water', model.water_dispenser]);
+  if (model.garage_ready) specs.push(['Garage rating', 'Manufacturer-rated for garage temp range']);
   if (model.compressor) specs.push(['Compressor', model.compressor]);
   if (model.energy_kwh_yr) specs.push(['Energy', fmtKwh(model.energy_kwh_yr)]);
   if (model.water_gal_cycle) specs.push(['Water/cycle', model.water_gal_cycle + ' gal']);
@@ -198,10 +255,13 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
             <span className="drawer-model">{brand?.name} · {model.model}</span>
             <div className="drawer-pillrow">
               <span className={"pill " + tierClass(brand?.tier)}>{brand?.tier?.replace('-', ' ')}</span>
-              <span className={"pill " + relClass(model.ratings?.cr_reliability)}>{(model.ratings?.cr_reliability || 'unrated').replace('-', ' ')}</span>
+              {model.ratings?.cr_reliability && model.ratings.cr_reliability !== 'unrated' && (
+                <span className={"pill " + relClass(model.ratings.cr_reliability)}>{model.ratings.cr_reliability.replace('-', ' ')}</span>
+              )}
               {model.energy_star && <span className="pill rel-very-good">Energy Star</span>}
               {model.wifi && <span className="pill rel-good">Wi-Fi</span>}
               {model.panel_ready && <span className="pill rel-good">Panel-ready</span>}
+              {model.garage_ready && <span className="pill rel-good" title="Manufacturer-rated for garage temperature range">Garage-rated</span>}
             </div>
           </div>
           <button className="drawer-close" onClick={onClose}>✕</button>
@@ -211,10 +271,18 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
           <div className="drawer-section">
             <h3>Composite score</h3>
             <div className="score-grid">
-              <div className="score-card">
+              <div className={"score-card conf-" + confidence.tier}>
                 <div className="lbl">Our score</div>
                 <div className={"val" + (score == null ? " muted" : "")}>{score ?? '—'}</div>
-                <div className="src">based on weights</div>
+                <div className="src">
+                  <span className={"conf-pill conf-" + confidence.tier}>{confidence.tier}</span>
+                  <span className="conf-detail">{confSubtitle}</span>
+                </div>
+                {disagreement.contested && (
+                  <div className="contested-note" title="Reviewer disagreement">
+                    ⚠ Sources disagree by {Math.round(disagreement.spread)} pts
+                  </div>
+                )}
               </div>
               <div className="score-card">
                 <div className="lbl">Consumer Reports</div>
@@ -374,6 +442,7 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
     { label: 'Brand', get: m => brandsById[m.brand]?.name },
     { label: 'Tier', get: m => brandsById[m.brand]?.tier?.replace('-', ' ') },
     { label: 'Our score', get: m => computeScore(m, brandsById[m.brand], weights), best: 'high', fmt: v => v ?? '—' },
+    { label: 'Confidence', get: m => getScoreConfidence(m, brandsById[m.brand]).tier, fmt: v => v || '—' },
     { label: 'Street price', get: m => m.street_price ?? m.msrp, best: 'low', fmt: fmtPrice },
     { label: 'MSRP', get: m => m.msrp, fmt: fmtPrice },
     { label: 'CR overall', get: m => m.ratings?.cr_overall, best: 'high', fmt: v => v ?? '—' },

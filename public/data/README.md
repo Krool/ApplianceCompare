@@ -32,10 +32,12 @@ Every file here is a seed database consumed by the site at runtime via `fetch()`
     "reviewed": 9.2,                    // 0-10 Reviewed.com numeric score
     "reviewed_status": "Editor's Choice · Best Counter-Depth 2026",  // Reviewed status string (independent of numeric)
     "rtings": 8.4,                      // 0-10 Rtings.com score (many categories unsupported, leave null)
+    "repairability_score": 72,          // 0-100, higher = easier to repair; falls back to brand value when null
     "source_urls": {                    // machine-readable back-links
-      "wirecutter": "https://www.nytimes.com/wirecutter/...",
-      "cr":         "https://www.consumerreports.org/...",
-      "reviewed":   "https://reviewed.usatoday.com/..."
+      "wirecutter":     "https://www.nytimes.com/wirecutter/...",
+      "cr":             "https://www.consumerreports.org/...",
+      "reviewed":       "https://reviewed.usatoday.com/...",
+      "repairability":  "https://www.yaleappliance.com/..."
     }
   },
   "pros": ["...", "..."],
@@ -84,6 +86,7 @@ The app's `helpers.jsx` also reads the following rating shapes when present; the
 | `water_dispenser` | `none` \| `internal` \| `external` \| description |
 | `compressor` | Optional description (inverter, dual, linear, etc.) |
 | `finishes` | Array of finish strings (e.g. `["stainless", "black stainless", "panel-ready"]`) |
+| `garage_ready` | `true` only when the manufacturer explicitly markets the model as garage-ready (rated for wider ambient temp range, typically ~38–110°F). Cite the source in `ratings.source_urls.garage_ready`. Use `null` (or omit) when unverified. |
 
 ### Dishwashers
 
@@ -128,6 +131,9 @@ The app's `helpers.jsx` also reads the following rating shapes when present; the
   "service_rate_source": "yale_2026",   // provenance tag for the overall rate
   "service_rate_dishwasher": 6.2,       // category-specific breakout, optional
   "service_rate_dishwasher_source": "yale_2026",
+  "repairability_score": 65,            // 0-100, brand-level fallback when a model lacks its own
+  "repairability_source": "yale_2026",  // provenance tag for repairability
+  "repairability_notes": "Modular control boards; parts widely stocked through national distributors.",
   "cr_reliability": "very-good",        // poor | fair | good | very-good | excellent | unrated | null
   "cr_best_brand_2026": ["dishwasher"]  // array of CR 2026 "best brand" category awards, optional
 }

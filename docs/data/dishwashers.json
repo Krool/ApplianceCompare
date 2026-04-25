@@ -8,7 +8,7 @@
       "Reviewed 2026",
       "Wirecutter"
     ],
-    "last_updated": "2026-04-24",
+    "last_updated": "2026-04-25",
     "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls."
   },
   "models": [
@@ -205,12 +205,17 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "wirecutter": "top pick",
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwasher/"
+        }
       },
       "pros": [
         "Entry Miele reliability",
         "Stainless tub",
-        "Built to last"
+        "Built to last",
+        "Wirecutter: \"the first dishwasher you should consider\" (2026)"
       ],
       "cons": [
         "No Wi-Fi",

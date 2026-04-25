@@ -74,6 +74,10 @@ function computeScore(item, brand, weights) {
   const yale = r.yale_reliability_pct ?? brand?.service_rate_overall ?? null;
   const yaleScore = yale == null ? null : Math.max(0, Math.min(100, 100 - (yale - 5) * 5));
 
+  // --- Repairability (0–100, higher = easier to fix; model overrides brand) ---
+  const repair = r.repairability_score ?? brand?.repairability_score ?? null;
+  const repairScore = repair == null ? null : Math.max(0, Math.min(100, repair));
+
   // --- Price (cheaper = better, log curve; rough cap at $15k) ---
   const priceVal = item.street_price ?? item.msrp;
   const priceScore = priceVal == null ? null : Math.max(0, 100 - Math.log10(priceVal / 500) * 35);
@@ -91,6 +95,7 @@ function computeScore(item, brand, weights) {
     { v: qualityScore, w: weights.quality },
     { v: yaleScore,    w: weights.reliability },
     { v: priceScore,   w: weights.price },
+    { v: repairScore,  w: weights.repairability },
     { v: energyScore,  w: weights.energy },
     { v: quietScore,   w: weights.quiet },
   ].filter(c => c.v != null && c.w > 0);
@@ -98,6 +103,95 @@ function computeScore(item, brand, weights) {
   if (!components.length) return null;
   const totalW = components.reduce((s, c) => s + c.w, 0);
   return Math.round(components.reduce((s, c) => s + c.v * c.w, 0) / totalW);
+}
+
+// Confidence in the composite score, derived from how many independent rating
+// signals back it. The composite still computes from price/energy/quiet specs
+// even when no review sources exist, so this lets the UI distinguish a score
+// backed by 4 reviewer agreements from one that's effectively a spec sheet.
+//
+//   tier 'thin'    — 0 review signals, no brand reliability fallback either
+//   tier 'limited' — 1 review signal, OR only a brand-level reliability fallback
+//   tier 'solid'   — 2 review signals
+//   tier 'strong'  — 3+ review signals
+//
+// "Review signals" = quality sources (CR, Reviewed, Rtings, CNET, GH numeric,
+// retailer-star-aggregate counts as one) + direct Yale rate + direct
+// repairability score + Wirecutter pick. Brand-level reliability and
+// repairability are fallbacks — they bump 'thin' to 'limited' but don't count
+// as full signals on their own.
+function getScoreConfidence(item, brand) {
+  const r = item.ratings || {};
+  const rr = r.retailer_ratings || {};
+
+  let qualitySources = 0;
+  if (r.cr_overall != null) qualitySources++;
+  // Reviewed contributes one signal whether it's a numeric score or an
+  // editorial pick label ("Best Overall 2026"); avoid double-counting when both.
+  if (r.reviewed != null || r.reviewed_status != null) qualitySources++;
+  if (r.rtings != null) qualitySources++;
+  if (r.cnet != null) qualitySources++;
+  // Same treatment for Good Housekeeping — a "Best Tested" tag is a signal even
+  // when GH didn't publish a numeric score.
+  if (r.good_housekeeping != null) qualitySources++;
+  const retailerCount = ['home_depot', 'lowes', 'best_buy', 'aj_madison']
+    .filter(k => rr[k]?.stars != null).length;
+  if (retailerCount > 0) qualitySources++;
+
+  const hasReliabilityDirect = r.yale_reliability_pct != null;
+  const hasReliabilityFallback = !hasReliabilityDirect && brand?.service_rate_overall != null;
+  const hasRepairabilityDirect = r.repairability_score != null;
+  const hasRepairabilityFallback = !hasRepairabilityDirect && brand?.repairability_score != null;
+  const hasEditorialPick = r.wirecutter != null;
+
+  const signals = qualitySources
+    + (hasReliabilityDirect ? 1 : 0)
+    + (hasRepairabilityDirect ? 1 : 0)
+    + (hasEditorialPick ? 1 : 0);
+
+  const hasAnyFallback = hasReliabilityFallback || hasRepairabilityFallback;
+
+  let tier;
+  if (signals === 0) tier = hasAnyFallback ? 'limited' : 'thin';
+  else if (signals === 1) tier = 'limited';
+  else if (signals === 2) tier = 'solid';
+  else tier = 'strong';
+
+  return {
+    qualitySources, retailerCount,
+    hasReliabilityDirect, hasReliabilityFallback,
+    hasRepairabilityDirect, hasRepairabilityFallback,
+    hasEditorialPick,
+    signals, tier,
+  };
+}
+
+// Source disagreement: how much the available quality sources spread across the
+// 0-100 scale. The composite score silently averages CR/Reviewed/Rtings/etc.,
+// which can mask cases where reviewers genuinely disagree (e.g. CR 92 vs.
+// Reviewed 60 — a 32-point spread that the average would hide as "76").
+//
+// Returns { spread, contested, sourceCount }.
+//   - spread: max-min across normalized quality sources (null if <2 sources)
+//   - contested: spread > 15 with 2+ sources — a meaningful editorial dispute
+//   - sourceCount: number of populated quality sources
+function getSourceDisagreement(item) {
+  const r = item.ratings || {};
+  const retailerAvg = aggregateRetailerStars(r);
+  const normalized = [
+    r.cr_overall,
+    r.reviewed != null ? r.reviewed * 10 : null,
+    r.rtings != null ? r.rtings * 10 : null,
+    r.cnet != null ? r.cnet * 10 : null,
+    typeof r.good_housekeeping === 'number' ? r.good_housekeeping * 10 : null,
+    retailerAvg != null ? retailerAvg * 20 : null,
+  ].filter(v => v != null && !Number.isNaN(v));
+
+  if (normalized.length < 2) {
+    return { spread: null, contested: false, sourceCount: normalized.length };
+  }
+  const spread = Math.max(...normalized) - Math.min(...normalized);
+  return { spread, contested: spread > 15, sourceCount: normalized.length };
 }
 
 // For the detail drawer: a flat, renderable list of every rating source with its value.
@@ -123,6 +217,7 @@ function getRatingSources(item) {
     else push({ name: "Good Housekeeping", status: r.good_housekeeping, url: safeUrl(r.source_urls?.good_housekeeping) });
   }
   if (r.yale_reliability_pct != null) push({ name: "Yale service rate", score: r.yale_reliability_pct, unit: "%", inverted: true, url: safeUrl(r.source_urls?.yale) });
+  if (r.repairability_score != null) push({ name: "Repairability", score: r.repairability_score, max: 100, url: safeUrl(r.source_urls?.repairability) });
 
   const rr = r.retailer_ratings || {};
   const retailers = [
@@ -143,6 +238,13 @@ function getRatingSources(item) {
       url: safeUrl(r.reddit_sentiment_detail?.threads?.[0]),
     });
   }
+  if (item.garage_ready === true) {
+    push({
+      name: "Garage-rated",
+      status: "manufacturer-rated for wider temp range",
+      url: safeUrl(r.source_urls?.garage_ready),
+    });
+  }
   return out;
 }
 
@@ -155,5 +257,5 @@ export {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
   relClass, tierClass, safeUrl,
   meanOfAvail, aggregateRetailerStars, totalRetailerReviewCount,
-  computeScore, getRatingSources, enrichModel,
+  computeScore, getScoreConfidence, getSourceDisagreement, getRatingSources, enrichModel,
 };
