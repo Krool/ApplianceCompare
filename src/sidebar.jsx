@@ -28,6 +28,18 @@ function Sidebar({ category, models, brands, filters, setFilters }) {
   const tierOrder = ["budget", "mainstream", "premium", "ultra-premium"];
   const reliOrder = ["excellent", "very-good", "good", "fair", "poor"];
 
+  // Active-count badge for a filter group heading. Scalar truthy filters
+  // (energyStar, wifi, panelReady) count as 1; array filters show length.
+  const filterCount = (key) => {
+    const v = filters[key];
+    if (Array.isArray(v)) return v.length;
+    return v ? 1 : 0;
+  };
+  const GroupHeading = ({ children, keys }) => {
+    const n = (Array.isArray(keys) ? keys : [keys]).reduce((s, k) => s + filterCount(k), 0);
+    return <h3>{children}{n > 0 && <span className="filter-count">{n}</span>}</h3>;
+  };
+
   const facetSection = (label, key, dict, order) => {
     const entries = order
       ? order.filter(k => dict[k]).map(k => [k, dict[k]])
@@ -35,7 +47,7 @@ function Sidebar({ category, models, brands, filters, setFilters }) {
     if (!entries.length) return null;
     return (
       <div className="filter-group">
-        <h3>{label}</h3>
+        <GroupHeading keys={key}>{label}</GroupHeading>
         <div className="filter-list">
           {entries.map(([val, n]) => (
             <label key={val} className="filter-item">
@@ -52,7 +64,7 @@ function Sidebar({ category, models, brands, filters, setFilters }) {
   return (
     <aside className="sidebar">
       <div className="filter-group">
-        <h3>Price (street)</h3>
+        <GroupHeading keys={['priceMin', 'priceMax']}>Price (street)</GroupHeading>
         <div className="range-group">
           <div className="range-row">
             <input type="number" placeholder="Min" value={filters.priceMin || ''} onChange={e => setF('priceMin', e.target.value ? +e.target.value : null)} />
@@ -68,7 +80,7 @@ function Sidebar({ category, models, brands, filters, setFilters }) {
       {(category === 'ranges_ovens_cooktops') && facetSection("Fuel", "fuel", fuels, ["induction", "gas", "electric", "dual_fuel"])}
 
       <div className="filter-group">
-        <h3>Tier</h3>
+        <GroupHeading keys="tier">Tier</GroupHeading>
         <div className="filter-list">
           {tierOrder.map(t => {
             const n = visibleBrands.filter(b => b.tier === t).reduce((s, b) => s + (brandCounts[b.id] || 0), 0);
@@ -85,7 +97,7 @@ function Sidebar({ category, models, brands, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <h3>Reliability</h3>
+        <GroupHeading keys="reliability">Reliability</GroupHeading>
         <div className="filter-list">
           {reliOrder.map(r => {
             const n = models.filter(m => (m.ratings?.cr_reliability) === r).length;
@@ -102,7 +114,7 @@ function Sidebar({ category, models, brands, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <h3>Brand</h3>
+        <GroupHeading keys="brand">Brand</GroupHeading>
         <div className="filter-list" style={{maxHeight: 280, overflowY: 'auto'}}>
           {visibleBrands.sort((a,b) => brandCounts[b.id] - brandCounts[a.id]).map(b => (
             <label key={b.id} className="filter-item">
@@ -115,7 +127,7 @@ function Sidebar({ category, models, brands, filters, setFilters }) {
       </div>
 
       <div className="filter-group">
-        <h3>Features</h3>
+        <GroupHeading keys={['energyStar', 'wifi', 'panelReady']}>Features</GroupHeading>
         <div className="filter-list">
           <label className="filter-item">
             <input type="checkbox" checked={!!filters.energyStar} onChange={e => setF('energyStar', e.target.checked)} />

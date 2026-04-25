@@ -1,10 +1,32 @@
 // Table, Drawer, Compare bar/modal
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
   relClass, tierClass,
   computeScore, getRatingSources, aggregateRetailerStars, totalRetailerReviewCount,
 } from './helpers.jsx';
+
+// Shared: closes a surface when Escape is pressed. Also moves focus into the
+// surface on mount and restores it to the previously-focused element on unmount
+// so keyboard users aren't dropped at the top of the page. onClose is tracked
+// by ref so inline-callback callers don't re-bind the keydown on every render.
+function useDismissableSurface(onClose) {
+  const rootRef = useRef(null);
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
+  useEffect(() => {
+    const prevFocus = document.activeElement;
+    const onKey = (e) => { if (e.key === 'Escape') { e.stopPropagation(); onCloseRef.current(); } };
+    window.addEventListener('keydown', onKey);
+    const el = rootRef.current?.querySelector('button, [href], input, [tabindex]:not([tabindex="-1"])');
+    el?.focus();
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      if (prevFocus && typeof prevFocus.focus === 'function') prevFocus.focus();
+    };
+  }, []);
+  return rootRef;
+}
 
 function ScoreBar({ value }) {
   if (value == null) return <span className="score-bar muted"><span className="num">—</span></span>;
@@ -16,7 +38,7 @@ function ScoreBar({ value }) {
   );
 }
 
-function ApplianceTable({ category, models, brandsById, weights, sort, setSort, selected, toggleCompare, onOpen }) {
+function ApplianceTable({ category, models, brandsById, weights, sort, setSort, selected, toggleCompare, onOpen, onClearFilters }) {
   const sorted = useMemo(() => {
     const arr = [...models];
     arr.sort((a, b) => {
@@ -77,7 +99,14 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
         </thead>
         <tbody>
           {sorted.length === 0 && (
-            <tr><td colSpan="11" className="empty">No models match the current filters.</td></tr>
+            <tr>
+              <td colSpan={category === 'ranges_ovens_cooktops' ? 9 : 10} className="empty">
+                <div>No models match the current filters.</div>
+                {onClearFilters && (
+                  <button className="empty-clear" onClick={onClearFilters}>Clear all filters</button>
+                )}
+              </td>
+            </tr>
           )}
           {sorted.map(m => {
             const b = brandsById[m.brand];
@@ -111,7 +140,9 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
                 <td>{m.ratings?.cr_overall ?? '—'}</td>
                 <td>{fmtPct(m.ratings?.yale_reliability_pct ?? b?.service_rate_overall)}</td>
                 {(category !== 'ranges_ovens_cooktops') && <td>{fmtKwh(m.energy_kwh_yr)}</td>}
-                <td><span className={"pill " + tierClass(b?.tier)}>{b?.tier?.replace('-', ' ') || '—'}</span></td>
+                <td>{b?.tier
+                  ? <span className={"pill " + tierClass(b.tier)}>{b.tier.replace('-', ' ')}</span>
+                  : <span className="dim">—</span>}</td>
               </tr>
             );
           })}
@@ -122,6 +153,7 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
 }
 
 function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
+  const surfaceRef = useDismissableSurface(onClose);
   if (!model) return null;
   const score = computeScore(model, brand, weights);
   const yaleRate = model.ratings?.yale_reliability_pct ?? brand?.service_rate_overall;
@@ -159,7 +191,7 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
   return (
     <>
       <div className="drawer-overlay" onClick={onClose}></div>
-      <aside className="drawer">
+      <aside className="drawer" ref={surfaceRef} role="dialog" aria-modal="true" aria-label={`Details for ${model.name}`}>
         <div className="drawer-header">
           <div className="drawer-title-block">
             <h2 className="drawer-title">{model.name}</h2>
@@ -234,7 +266,7 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
                           {numeric
                             ? <span className={"source-score" + (invertedGood ? " inverted" : "")}>{scoreText}{s.count ? <span className="source-count"> {fmtCount(s.count)}</span> : null}</span>
                             : <span className="source-status">{s.status}</span>}
-                          {s.url && <a className="source-link" href={s.url} target="_blank" rel="noreferrer" onClick={e => e.stopPropagation()} title="Open source">↗</a>}
+                          {s.url && <a className="source-link" href={s.url} target="_blank" rel="noreferrer" onClick={e => e.stopPropagation()} title={`Open ${s.name} source`} aria-label={`Open ${s.name} source in new tab`}>↗</a>}
                         </span>
                         {s.detail && <span className="source-detail">{s.detail}</span>}
                       </div>
@@ -295,11 +327,10 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
           )}
 
           <div className="drawer-section">
-            <button onClick={() => onAddCompare(model.id)} style={{
-              padding: '10px 18px', background: isCompared ? 'var(--bg-sunk)' : 'var(--accent)',
-              color: isCompared ? 'var(--ink-2)' : '#fff',
-              border: 0, borderRadius: 7, fontSize: 13, fontWeight: 600
-            }}>
+            <button
+              className={"btn-primary " + (isCompared ? 'is-active' : '')}
+              onClick={() => onAddCompare(model.id)}
+            >
               {isCompared ? '✓ In comparison' : '+ Add to comparison'}
             </button>
           </div>
@@ -320,7 +351,7 @@ function CompareBar({ ids, models, brandsById, onRemove, onClear, onOpen }) {
         return (
           <span key={id} className="compare-chip">
             {brandsById[m.brand]?.name || m.brand} {m.model}
-            <button onClick={() => onRemove(id)} title="Remove">×</button>
+            <button onClick={() => onRemove(id)} title="Remove" aria-label={`Remove ${brandsById[m.brand]?.name || m.brand} ${m.model} from comparison`}>✕</button>
           </span>
         );
       })}
@@ -331,6 +362,7 @@ function CompareBar({ ids, models, brandsById, onRemove, onClear, onOpen }) {
 }
 
 function CompareModal({ ids, models, brandsById, weights, onClose }) {
+  const surfaceRef = useDismissableSurface(onClose);
   if (!ids.length) return null;
   const items = ids.map(id => models.find(m => m.id === id)).filter(Boolean);
 
@@ -376,7 +408,7 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
 
   return (
     <div className="compare-modal-overlay" onClick={onClose}>
-      <div className="compare-modal" onClick={e => e.stopPropagation()}>
+      <div className="compare-modal" ref={surfaceRef} role="dialog" aria-modal="true" aria-label="Side-by-side comparison" onClick={e => e.stopPropagation()}>
         <div className="compare-modal-header">
           <h2>Side-by-side comparison</h2>
           <button className="drawer-close" onClick={onClose}>✕</button>

@@ -133,14 +133,27 @@ const __TWEAKS_STYLE = `
   .twk-swatch::-moz-color-swatch{border:0;border-radius:5.5px}
 `;
 
+// The design-tool bridge (EDITMODE protocol) only makes sense when this app is
+// embedded in the Claude design host. In production (GitHub Pages) we're not
+// in a frame, so posting to window.parent with '*' would leak state to anyone
+// embedding the deployed site. Gate every post on actual embedding.
+const isEmbedded = () => typeof window !== 'undefined' && window.parent !== window;
+
 // ── useTweaks ───────────────────────────────────────────────────────────────
 // Single source of truth for tweak values. setTweak persists via the host
 // (__edit_mode_set_keys → host rewrites the EDITMODE block on disk).
 function useTweaks(defaults) {
   const [values, setValues] = React.useState(defaults);
-  const setTweak = React.useCallback((key, val) => {
-    setValues((prev) => ({ ...prev, [key]: val }));
-    window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { [key]: val } }, '*');
+  // Accepts either (key, val) or a patch object. Patch form is friendlier when
+  // a component owns multiple tweaks and wants to batch updates.
+  const setTweak = React.useCallback((keyOrPatch, val) => {
+    const patch = typeof keyOrPatch === 'object' && keyOrPatch !== null
+      ? keyOrPatch
+      : { [keyOrPatch]: val };
+    setValues((prev) => ({ ...prev, ...patch }));
+    if (isEmbedded()) {
+      window.parent.postMessage({ type: '__edit_mode_set_keys', edits: patch }, '*');
+    }
   }, []);
   return [values, setTweak];
 }
@@ -186,18 +199,25 @@ function TweaksPanel({ title = 'Tweaks', children }) {
 
   React.useEffect(() => {
     const onMsg = (e) => {
+      // Only trust messages from our direct parent window. Prevents any other
+      // frame or opener from toggling the panel.
+      if (e.source !== window.parent) return;
       const t = e?.data?.type;
       if (t === '__activate_edit_mode') setOpen(true);
       else if (t === '__deactivate_edit_mode') setOpen(false);
     };
     window.addEventListener('message', onMsg);
-    window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+    if (isEmbedded()) {
+      window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+    }
     return () => window.removeEventListener('message', onMsg);
   }, []);
 
   const dismiss = () => {
     setOpen(false);
-    window.parent.postMessage({ type: '__edit_mode_dismissed' }, '*');
+    if (isEmbedded()) {
+      window.parent.postMessage({ type: '__edit_mode_dismissed' }, '*');
+    }
   };
 
   const onDragStart = (e) => {

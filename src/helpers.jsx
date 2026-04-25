@@ -19,6 +19,11 @@ const fmtCount = (n) => {
 const relClass = (r) => "rel-" + (r || "unrated").replace(/[ _]/g, "-");
 const tierClass = (t) => "tier-" + (t || "mainstream").replace(/[ _]/g, "-");
 
+// Only allow http/https URLs to reach an <a href>. Defends against javascript:
+// URLs sneaking in from data files if they're ever populated from a scraper
+// or untrusted source. Returns null for anything else so callers can fall back.
+const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//i.test(u.trim()) ? u : null);
+
 // Mean of available (non-null) numbers; null if none
 function meanOfAvail(vals) {
   const xs = vals.filter(v => v != null && !Number.isNaN(v));
@@ -106,18 +111,18 @@ function getRatingSources(item) {
   const out = [];
   const push = (obj) => out.push(obj);
 
-  if (r.cr_overall != null) push({ name: "Consumer Reports", score: r.cr_overall, max: 100, url: r.source_urls?.cr });
-  if (r.cr_reliability && r.cr_reliability !== 'unrated') push({ name: "CR predicted reliability", status: r.cr_reliability, url: r.source_urls?.cr });
-  if (r.wirecutter != null) push({ name: "Wirecutter", status: r.wirecutter, url: r.source_urls?.wirecutter });
-  if (r.reviewed_status != null) push({ name: "Reviewed.com", status: r.reviewed_status, url: r.source_urls?.reviewed });
-  if (r.reviewed != null) push({ name: "Reviewed score", score: r.reviewed, max: 10, url: r.source_urls?.reviewed });
-  if (r.rtings != null) push({ name: "Rtings", score: r.rtings, max: 10, url: r.source_urls?.rtings });
-  if (r.cnet != null) push({ name: "CNET", score: r.cnet, max: 10, url: r.source_urls?.cnet });
+  if (r.cr_overall != null) push({ name: "Consumer Reports", score: r.cr_overall, max: 100, url: safeUrl(r.source_urls?.cr) });
+  if (r.cr_reliability && r.cr_reliability !== 'unrated') push({ name: "CR predicted reliability", status: r.cr_reliability, url: safeUrl(r.source_urls?.cr) });
+  if (r.wirecutter != null) push({ name: "Wirecutter", status: r.wirecutter, url: safeUrl(r.source_urls?.wirecutter) });
+  if (r.reviewed_status != null) push({ name: "Reviewed.com", status: r.reviewed_status, url: safeUrl(r.source_urls?.reviewed) });
+  if (r.reviewed != null) push({ name: "Reviewed score", score: r.reviewed, max: 10, url: safeUrl(r.source_urls?.reviewed) });
+  if (r.rtings != null) push({ name: "Rtings", score: r.rtings, max: 10, url: safeUrl(r.source_urls?.rtings) });
+  if (r.cnet != null) push({ name: "CNET", score: r.cnet, max: 10, url: safeUrl(r.source_urls?.cnet) });
   if (r.good_housekeeping != null) {
-    if (typeof r.good_housekeeping === 'number') push({ name: "Good Housekeeping", score: r.good_housekeeping, max: 10, url: r.source_urls?.good_housekeeping });
-    else push({ name: "Good Housekeeping", status: r.good_housekeeping, url: r.source_urls?.good_housekeeping });
+    if (typeof r.good_housekeeping === 'number') push({ name: "Good Housekeeping", score: r.good_housekeeping, max: 10, url: safeUrl(r.source_urls?.good_housekeeping) });
+    else push({ name: "Good Housekeeping", status: r.good_housekeeping, url: safeUrl(r.source_urls?.good_housekeeping) });
   }
-  if (r.yale_reliability_pct != null) push({ name: "Yale service rate", score: r.yale_reliability_pct, unit: "%", inverted: true, url: r.source_urls?.yale });
+  if (r.yale_reliability_pct != null) push({ name: "Yale service rate", score: r.yale_reliability_pct, unit: "%", inverted: true, url: safeUrl(r.source_urls?.yale) });
 
   const rr = r.retailer_ratings || {};
   const retailers = [
@@ -127,7 +132,7 @@ function getRatingSources(item) {
     ['aj_madison', 'AJ Madison'],
   ];
   retailers.forEach(([key, label]) => {
-    if (rr[key]?.stars != null) push({ name: label, score: rr[key].stars, max: 5, count: rr[key].count, url: rr[key].url });
+    if (rr[key]?.stars != null) push({ name: label, score: rr[key].stars, max: 5, count: rr[key].count, url: safeUrl(rr[key].url) });
   });
 
   if (r.reddit_sentiment) {
@@ -135,7 +140,7 @@ function getRatingSources(item) {
       name: "r/appliances sentiment",
       status: r.reddit_sentiment,
       detail: r.reddit_sentiment_detail?.summary,
-      url: r.reddit_sentiment_detail?.threads?.[0],
+      url: safeUrl(r.reddit_sentiment_detail?.threads?.[0]),
     });
   }
   return out;
@@ -148,7 +153,7 @@ function enrichModel(model, brandsById) {
 
 export {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
-  relClass, tierClass,
+  relClass, tierClass, safeUrl,
   meanOfAvail, aggregateRetailerStars, totalRetailerReviewCount,
   computeScore, getRatingSources, enrichModel,
 };

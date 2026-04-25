@@ -114,6 +114,13 @@
         { "if": "Wall oven (single)", "then": "Bosch 800 HBL8453UC ($2,800, pyrolytic) or Miele H 7780 BP ($4,500, best in class)." },
         { "if": "Wall oven (double)", "then": "GE Profile PTD9000SNSS ($3,700, 10 cf, air fry) or KitchenAid KODE507ESS ($3,500, no Wi-Fi but solid)." }
       ],
+      "red_flags": [
+        "'Convection' with no third heating element — it's just a fan, not true convection",
+        "AquaLift / steam 'self-clean' sold as equivalent to pyrolytic",
+        "Pro-style range quoted without rear-clearance and gas-line sizing verified",
+        "Induction range purchased without confirming cookware compatibility and 240V/40-50A service",
+        "First-year pro-style models from newer entrants (ZLINE, Forno) — wait 18 months"
+      ],
       "induction_caveats": [
         "Cookware: must be magnetic (cast iron, magnetic stainless). Aluminum, copper, glass don't work without converter disk.",
         "Electrical: 240V/40-50A circuit required. ~$500-1,500 if you don't already have one. Factor into total cost.",

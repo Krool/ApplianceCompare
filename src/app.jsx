@@ -74,8 +74,8 @@ function App({ data }) {
     });
   }, [allModels, filters, brandsById, search]);
 
-  // Reset filters when changing tab
-  useEffect(() => { setFilters({}); setSearch(''); }, [tab]);
+  // Reset filters, search, and sort when changing tab — sort keys are category-specific
+  useEffect(() => { setFilters({}); setSearch(''); setSort({ key: 'score', dir: 'desc' }); }, [tab]);
 
   const openModel = filteredModels.find(m => m.id === openId) || allModels.find(m => m.id === openId);
   const openBrand = openModel ? brandsById[openModel.brand] : null;
@@ -91,6 +91,20 @@ function App({ data }) {
     { id: 'guide', label: 'Buying Guide' },
   ];
 
+  const totalModels = useMemo(
+    () => data.categories.refrigerators.models.length
+        + data.categories.dishwashers.models.length
+        + data.categories.ranges_ovens_cooktops.models.length,
+    [data]
+  );
+
+  // Reserve bottom padding while the fixed Compare bar is visible
+  useEffect(() => {
+    if (compareIds.length) document.body.classList.add('has-compare');
+    else document.body.classList.remove('has-compare');
+    return () => document.body.classList.remove('has-compare');
+  }, [compareIds.length]);
+
   return (
     <>
       <header className="site-header">
@@ -99,35 +113,30 @@ function App({ data }) {
             <span className="brand-mark">Chef's <em>Choice</em></span>
             <span className="brand-tag">Kitchen appliance research · 2026</span>
           </div>
-          <nav className="tabs">
+          <nav className="tabs" role="tablist">
             {tabs.map(t => (
-              <button key={t.id} className={"tab-btn " + (tab === t.id ? 'active' : '')} onClick={() => setTab(t.id)}>
-                {t.label}{t.n ? <span style={{opacity: 0.5, marginLeft: 6, fontVariantNumeric: 'tabular-nums'}}>{t.n}</span> : null}
+              <button
+                key={t.id}
+                role="tab"
+                aria-selected={tab === t.id}
+                aria-current={tab === t.id ? 'page' : undefined}
+                className={"tab-btn " + (tab === t.id ? 'active' : '')}
+                onClick={() => setTab(t.id)}
+              >
+                {t.label}{t.n ? <span className="tab-count">{t.n}</span> : null}
               </button>
             ))}
           </nav>
           <div className="header-right">
             <span className="header-stats">
-              <strong>{data.brands.length}</strong> brands · <strong>{data.categories.refrigerators.models.length + data.categories.dishwashers.models.length + data.categories.ranges_ovens_cooktops.models.length}</strong> models
+              <strong>{data.brands.length}</strong> brands · <strong>{totalModels}</strong> models
             </span>
           </div>
         </div>
       </header>
 
       {isGuide ? (
-        <div style={{maxWidth: 1600, margin: '0 auto', padding: '0 24px'}}>
-          <div style={{display: 'flex', gap: 16, padding: '20px 0 0'}}>
-            {['refrigerators', 'dishwashers', 'ranges_ovens_cooktops'].map(c => (
-              <button key={c} onClick={() => { setTab('guide'); window.scrollTo(0, 0); /* hack: page rerenders */ }}
-                style={{
-                  background: 'transparent', border: '1px solid var(--line-2)', padding: '6px 14px',
-                  borderRadius: 999, fontSize: 12, color: 'var(--ink-2)', textTransform: 'capitalize'
-                }}
-                onClickCapture={() => setGuideCat(c)}>
-                {c.replace(/_/g, ' ').replace('ranges ovens cooktops', 'ranges, ovens & cooktops')}
-              </button>
-            ))}
-          </div>
+        <div className="guide-wrap">
           <GuideTabbed guide={data.guide} brandsById={brandsById} />
         </div>
       ) : (
@@ -137,25 +146,14 @@ function App({ data }) {
             <div className="toolbar">
               <div className="search-box">
                 <input value={search} onChange={e => setSearch(e.target.value)} placeholder={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}…`} />
+                {search && (
+                  <button type="button" className="search-clear" aria-label="Clear search" onClick={() => setSearch('')}>✕</button>
+                )}
               </div>
-              <select className="sort-select" value={sort.key + '-' + sort.dir} onChange={e => {
-                const [k, d] = e.target.value.split('-');
-                setSort({ key: k, dir: d });
-              }}>
-                <option value="score-desc">Sort: Score (high → low)</option>
-                <option value="price-asc">Price (low → high)</option>
-                <option value="price-desc">Price (high → low)</option>
-                <option value="reliability-asc">Reliability (best → worst)</option>
-                <option value="cr-desc">CR score (high → low)</option>
-                {(category === 'refrigerators') && <option value="capacity-desc">Capacity (large → small)</option>}
-                {(category === 'dishwashers') && <option value="db-asc">Quietest first</option>}
-                {(category !== 'ranges_ovens_cooktops') && <option value="energy-asc">Most efficient first</option>}
-                <option value="name-asc">Name (A → Z)</option>
-              </select>
             </div>
             <div className="results-meta">
               <span>Showing <strong>{filteredModels.length}</strong> of {allModels.length} models</span>
-              <span>Use the column headers to sort. Click any row to see full specs and pros/cons.</span>
+              <span>Click a column header to sort. Click any row for full specs.</span>
             </div>
             <ApplianceTable
               category={category}
@@ -167,6 +165,7 @@ function App({ data }) {
               selected={compareIds}
               toggleCompare={toggleCompare}
               onOpen={(m) => setOpenId(m.id)}
+              onClearFilters={() => { setFilters({}); setSearch(''); }}
             />
           </div>
         </div>
@@ -203,15 +202,15 @@ function App({ data }) {
       )}
 
       <TweaksPanel title="Tweaks">
-        <TweakSection title="Score weights" subtitle="How much each factor counts in the composite score">
-          <TweakSlider label="Quality (review aggregate)" value={tweaks.weight_quality} onChange={v => setTweaks({ weight_quality: v })} min={0} max={50} step={5} />
-          <TweakSlider label="Reliability (Yale service rate)" value={tweaks.weight_reliability} onChange={v => setTweaks({ weight_reliability: v })} min={0} max={50} step={5} />
-          <TweakSlider label="Price" value={tweaks.weight_price} onChange={v => setTweaks({ weight_price: v })} min={0} max={50} step={5} />
-          <TweakSlider label="Energy efficiency" value={tweaks.weight_energy} onChange={v => setTweaks({ weight_energy: v })} min={0} max={50} step={5} />
-          <TweakSlider label="Quietness" value={tweaks.weight_quiet} onChange={v => setTweaks({ weight_quiet: v })} min={0} max={50} step={5} />
+        <TweakSection label="Score weights">
+          <TweakSlider label="Quality (review aggregate)" value={tweaks.weight_quality} onChange={v => setTweaks('weight_quality', v)} min={0} max={50} step={5} />
+          <TweakSlider label="Reliability (Yale service rate)" value={tweaks.weight_reliability} onChange={v => setTweaks('weight_reliability', v)} min={0} max={50} step={5} />
+          <TweakSlider label="Price" value={tweaks.weight_price} onChange={v => setTweaks('weight_price', v)} min={0} max={50} step={5} />
+          <TweakSlider label="Energy efficiency" value={tweaks.weight_energy} onChange={v => setTweaks('weight_energy', v)} min={0} max={50} step={5} />
+          <TweakSlider label="Quietness" value={tweaks.weight_quiet} onChange={v => setTweaks('weight_quiet', v)} min={0} max={50} step={5} />
         </TweakSection>
-        <TweakSection title="Display">
-          <TweakRadio label="Density" value={tweaks.density} onChange={v => setTweaks({ density: v })}
+        <TweakSection label="Display">
+          <TweakRadio label="Density" value={tweaks.density} onChange={v => setTweaks('density', v)}
             options={[{ value: 'comfortable', label: 'Comfortable' }, { value: 'compact', label: 'Compact' }]} />
         </TweakSection>
       </TweaksPanel>
@@ -222,18 +221,22 @@ function App({ data }) {
 // Guide page with internal sub-tabs
 function GuideTabbed({ guide, brandsById }) {
   const [cat, setCat] = useState('refrigerators');
+  const catOptions = [
+    ['refrigerators', 'Refrigerators'],
+    ['dishwashers', 'Dishwashers'],
+    ['ranges_ovens_cooktops', 'Ranges, Ovens & Cooktops'],
+  ];
   return (
     <>
-      <div style={{display: 'flex', gap: 8, padding: '20px 0 0'}}>
-        {[['refrigerators', 'Refrigerators'], ['dishwashers', 'Dishwashers'], ['ranges_ovens_cooktops', 'Ranges, Ovens & Cooktops']].map(([id, label]) => (
-          <button key={id} onClick={() => setCat(id)}
-            style={{
-              background: cat === id ? 'var(--ink)' : 'transparent',
-              color: cat === id ? '#fff' : 'var(--ink-2)',
-              border: '1px solid ' + (cat === id ? 'var(--ink)' : 'var(--line-2)'),
-              padding: '7px 14px', borderRadius: 999, fontSize: 12.5, fontWeight: 500,
-              cursor: 'pointer'
-            }}>
+      <div className="guide-cat-tabs" role="tablist">
+        {catOptions.map(([id, label]) => (
+          <button
+            key={id}
+            role="tab"
+            aria-selected={cat === id}
+            className={"guide-cat-tab " + (cat === id ? 'active' : '')}
+            onClick={() => setCat(id)}
+          >
             {label}
           </button>
         ))}
@@ -245,12 +248,17 @@ function GuideTabbed({ guide, brandsById }) {
 
 // === Bootstrap ===
 async function loadAll() {
+  const fetchJson = async (path) => {
+    const r = await fetch(path);
+    if (!r.ok) throw new Error(`${path}: ${r.status} ${r.statusText}`);
+    return r.json();
+  };
   const [brandsRes, fridges, dws, ovens, guide] = await Promise.all([
-    fetch('data/brands.json').then(r => r.json()),
-    fetch('data/refrigerators.json').then(r => r.json()),
-    fetch('data/dishwashers.json').then(r => r.json()),
-    fetch('data/ovens.json').then(r => r.json()),
-    fetch('data/buying-guide.json').then(r => r.json()),
+    fetchJson('data/brands.json'),
+    fetchJson('data/refrigerators.json'),
+    fetchJson('data/dishwashers.json'),
+    fetchJson('data/ovens.json'),
+    fetchJson('data/buying-guide.json'),
   ]);
   return {
     brands: brandsRes.brands,

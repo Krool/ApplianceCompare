@@ -20,7 +20,7 @@ Induction cooking entered the 2020s as a niche premium choice — roughly 3–4%
 
 1. **Regulatory pressure.** New York became the first state in the country to pass a statewide all-electric mandate for new construction — the law [takes effect January 1, 2026 for buildings seven stories or less](https://www.newmanlickstein.com/new-york-states-fossil-fuel-ban-for-new-construction-takes-effect-in-2026/), and 2029 for taller buildings. A federal court upheld the law in [July 2025](https://www.nahb.org/blog/2025/07/federal-court-upholds-ny-gas-ban). Similar local ordinances exist in California (Berkeley 2019, San Francisco 2020, parts of LA and the Bay Area), Washington state, Massachusetts municipalities, NYC itself, and Montgomery County, Maryland (the latter taking effect end of 2026). Roughly seven states have cities with some form of gas restriction on new construction as of early 2026. State-level rollback attempts have mostly failed in court.
 
-2. **The HEAR rebate.** The Inflation Reduction Act's Home Electrification and Appliance Rebates program provides up to $840 toward ENERGY STAR induction ranges and cooktops for income-qualified households. Rollout has been state-by-state — as of April 2026, New York and Colorado have active consumer-facing programs, New Hampshire and Minnesota are launching mid-2026, and Ohio's $249M allocation is DOE-approved but not yet open. See the [rebates section below](#rebates-as-of-april-2026) for the working list.
+2. **The HEAR rebate.** The Inflation Reduction Act's Home Electrification and Appliance Rebates program provides up to $840 toward ENERGY STAR induction ranges and cooktops for income-qualified households. Rollout has been state-by-state — as of April 2026, New York, Colorado, and California have active consumer-facing programs, New Hampshire and Minnesota are launching mid-2026, and Ohio's $249M allocation is DOE-approved but not yet open. See the [rebates section below](#rebates-as-of-april-2026) for the working list.
 
 3. **Price compression.** In 2020 the cheapest credible induction range was around $2,200. By 2024 every major mainstream brand — LG, Samsung, GE, Whirlpool, Frigidaire — had induction ranges under $1,500, and good ones at $1,700–$2,300. Bosch's 800 Series induction range sits around $3,500. The Wolf/Thermador/Miele pro-induction tier still lives north of $8,000 but is visibly growing.
 
@@ -142,7 +142,7 @@ The federal-state rebate picture is in motion. As of this update:
 
 ## Tariffs and 2026 pricing pressure
 
-The 2025–2026 US tariff environment has pushed up prices on some Korean (LG, Samsung, SKS) and European (Bosch, Thermador, Miele, Gaggenau) appliances. Order-of-magnitude: 5–12% pass-through on affected SKUs, with premium models hit harder than commodity ones (because they have less room to absorb on thinner margins are actually more protected — varies by brand strategy). US-assembled models from GE, Whirlpool, and Maytag are relatively insulated. This is a live situation that changes quarter to quarter; check pricing at the time of purchase.
+The 2025–2026 US tariff environment has pushed up prices on some Korean (LG, Samsung, SKS) and European (Bosch, Thermador, Miele, Gaggenau) appliances. Order-of-magnitude: 5–12% pass-through on affected SKUs — the split between which tier absorbs more versus passes through varies by brand strategy. US-assembled models from GE, Whirlpool, and Maytag are relatively insulated. This is a live situation that changes quarter to quarter; check pricing at the time of purchase.
 
 ---
 

@@ -5,7 +5,7 @@
   --bg-sunk: #f1ede5;
   --ink: #1a1814;
   --ink-2: #4a463e;
-  --ink-3: #807a6e;
+  --ink-3: #6b6557;
   --line: #e6e0d4;
   --line-2: #d4cdbc;
   --accent: #b8431f; /* paprika */
@@ -167,25 +167,16 @@ tr:focus-visible { outline-offset: -2px; }
 .search-box::before {
   content: ""; position: absolute; left: 11px; top: 50%;
   transform: translateY(-50%); width: 13px; height: 13px;
-  background: no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23807a6e' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.3-4.3'/%3E%3C/svg%3E");
+  background: no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b6557' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.3-4.3'/%3E%3C/svg%3E");
 }
-.sort-select {
-  padding: 8px 12px;
-  border: 1px solid var(--line-2); border-radius: 7px;
-  background: var(--bg-elev); font: inherit; font-size: 13px;
-  color: var(--ink);
+.search-box input { padding-right: 30px; }
+.search-clear {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  width: 22px; height: 22px; border: 0; background: transparent;
+  color: var(--ink-3); font-size: 12px; line-height: 1;
+  border-radius: 4px; display: grid; place-items: center;
 }
-.view-toggle {
-  display: flex; gap: 0; margin-left: auto;
-  border: 1px solid var(--line-2); border-radius: 7px; overflow: hidden;
-}
-.view-toggle button {
-  padding: 7px 11px; border: 0; background: var(--bg-elev);
-  color: var(--ink-3); font-size: 12px;
-  border-right: 1px solid var(--line-2);
-}
-.view-toggle button:last-child { border-right: 0; }
-.view-toggle button.active { background: var(--bg-sunk); color: var(--ink); }
+.search-clear:hover { background: var(--bg-sunk); color: var(--ink); }
 
 .results-meta {
   display: flex; justify-content: space-between; align-items: baseline;
@@ -212,11 +203,14 @@ table.appliance-table {
   white-space: nowrap; cursor: pointer; user-select: none;
 }
 .appliance-table thead th:hover { color: var(--ink); }
-.appliance-table thead th.sorted { color: var(--accent); }
-.appliance-table thead th.sorted::after {
-  content: " ↓"; opacity: 0.7;
+/* Sortable columns (those with aria-sort) get an idle ↕ indicator so the
+   affordance is discoverable — the active column's ↑/↓ is rendered stronger. */
+.appliance-table thead th[aria-sort]::after {
+  content: " ↕"; opacity: 0.35; margin-left: 2px;
 }
-.appliance-table thead th.sorted.asc::after { content: " ↑"; }
+.appliance-table thead th.sorted { color: var(--accent); }
+.appliance-table thead th[aria-sort="descending"]::after { content: " ↓"; opacity: 0.8; }
+.appliance-table thead th[aria-sort="ascending"]::after { content: " ↑"; opacity: 0.8; }
 .appliance-table tbody tr {
   border-bottom: 1px solid var(--line);
   transition: background 0.08s;
@@ -247,17 +241,53 @@ table.appliance-table {
   text-decoration: line-through; margin-left: 4px;
 }
 .score-bar {
-  display: inline-flex; align-items: center; gap: 8px;
+  display: inline-flex; align-items: center; gap: 10px;
   font-variant-numeric: tabular-nums;
 }
-.score-bar .num { width: 24px; font-weight: 600; font-size: 13px; color: var(--ink); }
+.score-bar .num { min-width: 22px; font-weight: 600; font-size: 14px; color: var(--ink); }
 .score-bar .bar {
-  width: 60px; height: 5px; background: var(--bg-sunk); border-radius: 3px;
+  width: 84px; height: 6px; background: var(--bg-sunk); border-radius: 999px;
   overflow: hidden;
 }
-.score-bar .bar > div { height: 100%; background: var(--accent); }
+.score-bar .bar > div { height: 100%; background: var(--accent); border-radius: 999px; }
 .score-bar.muted .num, .score-bar.muted { color: var(--ink-3); }
 .score-bar.muted .bar > div { background: var(--ink-3); }
+
+/* Generic utilities */
+.dim { color: var(--ink-3); }
+.btn-primary {
+  appearance: none; border: 0; cursor: pointer;
+  padding: 10px 18px; border-radius: 7px;
+  background: var(--accent); color: #fff;
+  font: inherit; font-size: 13px; font-weight: 600;
+  transition: background 0.12s;
+}
+.btn-primary:hover { background: #a0381a; }
+.btn-primary.is-active { background: var(--bg-sunk); color: var(--ink-2); }
+.btn-primary.is-active:hover { background: var(--line); color: var(--ink); }
+
+.tab-count {
+  margin-left: 6px; font-size: 11.5px; color: var(--ink-3);
+  font-variant-numeric: tabular-nums; font-weight: 500;
+}
+.tab-btn.active .tab-count { color: var(--ink-2); }
+
+.filter-count {
+  margin-left: 6px; padding: 1px 6px; border-radius: 999px;
+  background: var(--accent); color: #fff;
+  font-size: 9.5px; font-weight: 600; letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums; text-transform: none;
+  vertical-align: middle;
+}
+
+.empty-clear {
+  margin-top: 14px;
+  background: var(--bg-elev); border: 1px solid var(--line-2);
+  padding: 7px 14px; border-radius: 6px;
+  font-size: 12px; font-weight: 500; color: var(--ink-2);
+  cursor: pointer;
+}
+.empty-clear:hover { background: var(--bg-sunk); color: var(--ink); }
 
 .pill {
   display: inline-block; padding: 2px 7px;
@@ -434,6 +464,9 @@ table.appliance-table {
 }
 
 /* === Compare bar === */
+/* When the compare bar is mounted, body gets `has-compare` so content reserves
+   space and the last row isn't hidden behind the fixed bar. */
+body.has-compare { padding-bottom: 72px; }
 .compare-bar {
   position: fixed; bottom: 0; left: 0; right: 0;
   background: var(--ink); color: #fff;
@@ -504,6 +537,20 @@ table.appliance-table {
 .compare-table .worst { color: var(--ink-3); }
 
 /* === Guide page === */
+.guide-wrap { max-width: 1600px; margin: 0 auto; padding: 0 24px; }
+.guide-cat-tabs { display: flex; gap: 8px; padding: 20px 0 0; flex-wrap: wrap; }
+.guide-cat-tab {
+  background: transparent; color: var(--ink-2);
+  border: 1px solid var(--line-2);
+  padding: 7px 14px; border-radius: 999px;
+  font: inherit; font-size: 12.5px; font-weight: 500;
+  cursor: pointer; transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+.guide-cat-tab:hover { color: var(--ink); border-color: var(--ink-3); }
+.guide-cat-tab.active {
+  background: var(--ink); color: #fff; border-color: var(--ink);
+}
+
 .guide-page {
   max-width: 880px; margin: 0 auto; padding: 32px 0 80px;
   font-family: var(--serif); font-size: 17px; line-height: 1.6;
@@ -701,6 +748,15 @@ table.appliance-table {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  /* Hint that rows expand for full details — the hidden mobile columns still
+     show up in the Drawer, so this surfaces the recovery path. */
+  .table-wrap::after {
+    content: "Tap a row for full specs";
+    display: block; padding: 10px; text-align: center;
+    font-size: 11px; color: var(--ink-3);
+    border-top: 1px dashed var(--line);
+    background: var(--bg-sunk);
+  }
   .appliance-table { font-size: 12.5px; }
   .appliance-table th, .appliance-table td { padding: 10px 8px; }
   /* Hide category column (5), CR column (7), Energy (9), Tier (10) — keep Compare/Score/Model/Brand/Price/Yale */
@@ -762,7 +818,8 @@ table.appliance-table {
   }
 
   /* Guide page: compact editorial */
-  .guide-page { padding: 20px 14px 60px; font-size: 15px; max-width: none; }
+  .guide-wrap { padding: 0 14px; }
+  .guide-page { padding: 20px 0 60px; font-size: 15px; max-width: none; }
   .guide-page h1 { font-size: 28px; }
   .guide-page h2 { font-size: 22px; margin: 36px 0 12px; }
   .guide-page h3 { font-size: 16px; }

@@ -8,8 +8,8 @@ A public research tool for comparing kitchen appliances — refrigerators, dishw
 
 ## What's inside
 
-- **~150 models across 3 categories** with full specs, pricing, and ratings from multiple review sources (Consumer Reports, Wirecutter, Reviewed, Yale Appliance, Rtings, CNET, Good Housekeeping, retailer stars, Reddit sentiment).
-- **28 brands** profiled with reliability data (Yale 2026 service rates, CR 2026 predicted reliability) and tier classification.
+- **~200 models across 3 categories** with full specs, pricing, and ratings from multiple review sources (Consumer Reports, Wirecutter, Reviewed, Yale Appliance, Rtings). The schema also carries slots for CNET, Good Housekeeping, retailer stars, and Reddit sentiment — populated as future data passes land.
+- **30 brands** profiled with reliability data (Yale 2026 service rates, CR 2026 predicted reliability) and tier classification.
 - **Filterable / sortable table** with a detail drawer and side-by-side compare (2–4 models).
 - **Weighted composite scoring** across five axes — quality, reliability, price, energy, quietness — which the reader can retune live from the Tweaks panel.
 - **Buying guide** with per-category decision trees, red flags, and pro recommendations.
@@ -56,7 +56,7 @@ src/
   helpers.jsx         scoring, formatting, aggregators
   styles.css          all styles (no framework)
 public/
-  data/               JSON database — served at /data/ (see data/README.md)
+  data/               JSON database — served at /data/ (see public/data/README.md)
   MARKET_TRENDS.md    editorial doc linked from the buying guide
 docs/                 Vite build output — committed; GitHub Pages serves from here
 scripts/              data-maintenance Python scripts (honesty_pass, backfill)
@@ -72,10 +72,10 @@ The score shown in the table is a weighted blend of:
 
 | Axis | Default weight | What it pulls from |
 | --- | --- | --- |
-| Quality | 25 | CR overall, Reviewed 0–10, Rtings/CNET/GH when available |
-| Reliability | 30 | Yale service rate + CR reliability tier |
-| Price | 20 | Street price normalized within the category |
-| Energy | 10 | kWh/yr (fridges, DW) or efficiency class (cooking) |
+| Quality | 25 | Mean of available 0–100-normalized sources: CR overall, Reviewed, Rtings, CNET, GH (numeric), and retailer star averages |
+| Reliability | 30 | Yale service rate (model-specific, falls back to brand rate) |
+| Price | 20 | Log curve on street price, anchored around $500 |
+| Energy | 10 | kWh/yr (fridges, DW) — neutral for cooking |
 | Quietness | 15 | Noise dB (fridges, DW) — neutral for cooking |
 
 Readers adjust these weights from the Tweaks panel and the ranking recalculates live. The goal is an honest, transparent score — not a hidden editorial ranking.
@@ -101,7 +101,7 @@ GitHub Pages serves the built output from the `docs/` folder on `main`.
 
 ## Contributing data
 
-The model database lives in `data/*.json`. Schema is documented in [data/README.md](data/README.md). Rules of the road:
+The model database lives in `public/data/*.json`. Schema is documented in [public/data/README.md](public/data/README.md). Rules of the road:
 
 - Only US-market models (for now).
 - Cite the source when adding a rating — URL goes into the `ratings.source_urls` map (see schema).

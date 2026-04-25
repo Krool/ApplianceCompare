@@ -54,7 +54,7 @@ function GuidePage({ guide, category, brandsById }) {
       </div>
 
       <h2 id="questions">{cat.headline}</h2>
-      {cat.key_questions.map((kq, i) => (
+      {(cat.key_questions || []).map((kq, i) => (
         <div key={i}>
           <h3>{kq.q}</h3>
           <p>{kq.a}</p>
@@ -64,7 +64,7 @@ function GuidePage({ guide, category, brandsById }) {
       <h2 id="tree">Decision tree</h2>
       <div className="guide-card tip">
         <p style={{marginTop: 0}}>Read top-down — the first row that matches your budget is your starting point. Use the tweak controls to bias the score toward what matters to you.</p>
-        {cat.decision_tree.map((d, i) => (
+        {(cat.decision_tree || []).map((d, i) => (
           <div key={i} className="guide-decision-row">
             <div className="if">{d.if}</div>
             <div className="then">{d.then}</div>
@@ -75,7 +75,7 @@ function GuidePage({ guide, category, brandsById }) {
       <h2 id="redflags">Red flags</h2>
       <div className="guide-card warn">
         <ul style={{margin: 0, paddingLeft: 20}}>
-          {cat.red_flags.map((r, i) => <li key={i}>{r}</li>)}
+          {(cat.red_flags || []).map((r, i) => <li key={i}>{r}</li>)}
         </ul>
       </div>
 
@@ -138,7 +138,7 @@ function GuidePage({ guide, category, brandsById }) {
       )}
 
       <h2 id="cross">Cross-category principles</h2>
-      {guide.cross_category_principles.map((p, i) => (
+      {(guide.cross_category_principles || []).map((p, i) => (
         <div key={i} className="guide-card">
           <strong style={{display: 'block', marginBottom: 4, fontSize: 15, color: 'var(--ink)'}}>{p.title}</strong>
           {p.body}

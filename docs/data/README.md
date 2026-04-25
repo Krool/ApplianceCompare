@@ -4,12 +4,12 @@ Every file here is a seed database consumed by the site at runtime via `fetch()`
 
 ## Files
 
-| File | Purpose | Record count target |
+| File | Purpose | Current count |
 | --- | --- | --- |
-| `refrigerators.json` | Fridge models | ~50 |
-| `dishwashers.json` | Dishwasher models | ~50 |
-| `ovens.json` | Ranges + wall ovens + cooktops + specialty cooking | ~50 |
-| `brands.json` | Brand-level reliability, tier, parent-company | ~30 |
+| `refrigerators.json` | Fridge models | 68 |
+| `dishwashers.json` | Dishwasher models | 60 |
+| `ovens.json` | Ranges + wall ovens + cooktops + specialty cooking | 65 |
+| `brands.json` | Brand-level reliability, tier, parent-company | 30 |
 | `buying-guide.json` | Decision trees and editorial guidance | 1 document |
 
 ## Common fields across model files
@@ -24,27 +24,14 @@ Every file here is a seed database consumed by the site at runtime via `fetch()`
   "street_price": 1299,                 // USD typical transaction price
   "wifi": true,
   "release_year": 2023,
-  "finishes": ["stainless", "black stainless", "panel-ready"],
   "ratings": {
     "cr_overall": 89,                   // 0-100 Consumer Reports overall score
     "cr_reliability": "very-good",      // poor | fair | good | very-good | excellent | unrated
     "yale_reliability_pct": 8.7,        // first-year service rate %, lower is better
     "wirecutter": "top pick",           // status string or null
-    "reviewed": 9.2,                    // 0-10 Reviewed.com score
+    "reviewed": 9.2,                    // 0-10 Reviewed.com numeric score
+    "reviewed_status": "Editor's Choice · Best Counter-Depth 2026",  // Reviewed status string (independent of numeric)
     "rtings": 8.4,                      // 0-10 Rtings.com score (many categories unsupported, leave null)
-    "cnet": 8.8,                        // 0-10 CNET score
-    "good_housekeeping": "top tested",  // GH Institute status string or score
-    "retailer_ratings": {
-      "home_depot":   { "stars": 4.6, "count": 1247, "url": "..." },
-      "lowes":        { "stars": 4.4, "count":  892, "url": "..." },
-      "best_buy":     { "stars": 4.5, "count":  514, "url": "..." },
-      "aj_madison":   { "stars": 4.7, "count":  306, "url": "..." }
-    },
-    "reddit_sentiment": "mostly positive",   // one-line qualitative tag
-    "reddit_sentiment_detail": {             // optional richer context
-      "summary": "Owners praise 3rd rack capacity; common complaint is long cycle times.",
-      "threads": ["https://reddit.com/r/appliances/..."]
-    },
     "source_urls": {                    // machine-readable back-links
       "wirecutter": "https://www.nytimes.com/wirecutter/...",
       "cr":         "https://www.consumerreports.org/...",
@@ -57,6 +44,28 @@ Every file here is a seed database consumed by the site at runtime via `fetch()`
 ```
 
 Any rating field may be `null` when unverified — do not fabricate. The site renders absent sources gracefully and excludes them from the composite score.
+
+### Aspirational ratings fields (schema-supported, not yet populated)
+
+The app's `helpers.jsx` also reads the following rating shapes when present; they appear in the schema so that a future data pass can add them without code changes. No model carries them today — leave them out rather than stubbing nulls.
+
+```jsonc
+{
+  "cnet": 8.8,                          // 0-10 CNET score
+  "good_housekeeping": "top tested",    // GH Institute status string or numeric 0-10
+  "retailer_ratings": {
+    "home_depot":   { "stars": 4.6, "count": 1247, "url": "..." },
+    "lowes":        { "stars": 4.4, "count":  892, "url": "..." },
+    "best_buy":     { "stars": 4.5, "count":  514, "url": "..." },
+    "aj_madison":   { "stars": 4.7, "count":  306, "url": "..." }
+  },
+  "reddit_sentiment": "mostly positive",
+  "reddit_sentiment_detail": {
+    "summary": "Owners praise 3rd rack capacity; common complaint is long cycle times.",
+    "threads": ["https://reddit.com/r/appliances/..."]
+  }
+}
+```
 
 ## Category-specific fields
 
@@ -74,6 +83,7 @@ Any rating field may be `null` when unverified — do not fabricate. The site re
 | `icemaker` | Free-text describing location/type |
 | `water_dispenser` | `none` \| `internal` \| `external` \| description |
 | `compressor` | Optional description (inverter, dual, linear, etc.) |
+| `finishes` | Array of finish strings (e.g. `["stainless", "black stainless", "panel-ready"]`) |
 
 ### Dishwashers
 
@@ -83,8 +93,10 @@ Any rating field may be `null` when unverified — do not fabricate. The site re
 | `decibels` | Integer dB (lower = quieter; <44 is luxury) |
 | `place_settings` | Integer |
 | `third_rack` | Description (`basic`, `MyWay`, `FreeFlex`, `3D MultiFlex`, etc.) |
+| `wash_cycles` | Integer count of programmed cycles |
 | `energy_kwh_yr` | Per Energy Guide |
 | `water_gal_cycle` | Gallons per normal cycle |
+| `energy_star` | Boolean |
 | `panel_ready` | Boolean |
 
 ### Ovens / ranges / cooktops (mixed file)
@@ -94,6 +106,7 @@ Any rating field may be `null` when unverified — do not fabricate. The site re
 | `type` | `range` \| `cooktop` \| `wall_oven` \| `specialty` |
 | `fuel` | `gas` \| `electric` \| `induction` \| `dual_fuel` |
 | `style` | `slide-in` \| `freestanding` \| `freestanding-pro` \| `rangetop` \| `cooktop` \| `single` \| `double` \| `combo-microwave` \| `single-steam` \| `coffee_built_in` |
+| `width_in` | Integer inches (24, 30, 36, 48) — ranges, cooktops, wall ovens |
 | `oven_capacity_cf` | Total cubic feet (ranges, wall ovens) |
 | `burners` | Integer or descriptive ("freeform 4 zones") |
 | `max_burner_btu` | Gas/dual-fuel peak |
@@ -112,14 +125,26 @@ Any rating field may be `null` when unverified — do not fabricate. The site re
   "country": "Germany",
   "notes": "Best-in-class dishwashers...",
   "service_rate_overall": 8.7,          // Yale first-year service call %
-  "service_rate_fridge_counter_depth": 12.7,  // category-specific breakout, optional
-  "cr_reliability": "very-good"         // poor | fair | good | very-good | excellent | unrated
+  "service_rate_source": "yale_2026",   // provenance tag for the overall rate
+  "service_rate_dishwasher": 6.2,       // category-specific breakout, optional
+  "service_rate_dishwasher_source": "yale_2026",
+  "cr_reliability": "very-good",        // poor | fair | good | very-good | excellent | unrated | null
+  "cr_best_brand_2026": ["dishwasher"]  // array of CR 2026 "best brand" category awards, optional
 }
 ```
 
+Additional category breakouts follow the same `service_rate_<category>` + `service_rate_<category>_source` pattern (e.g. `service_rate_fridge_counter_depth`) and are optional.
+
 ## `buying-guide.json` schema
 
-Top-level object with `categories` (keyed by category id), plus a `cross_category_principles` array. Each category has `headline`, `key_questions` (q/a pairs), `decision_tree` (if/then pairs), `red_flags`, and `what_pros_buy`. See the file itself for the canonical structure.
+Top-level object with four keys:
+
+- `_meta` — `last_updated`, `philosophy`, etc.
+- `categories` — keyed by category id (`refrigerators`, `dishwashers`, `ranges_ovens_cooktops`). Each category has `headline`, `key_questions` (q/a pairs), `decision_tree` (if/then pairs), `red_flags`, `what_pros_buy`, `installation`, and `common_pitfalls`.
+- `cross_category_principles` — array of general buying principles shared across categories.
+- `brand_report_card` — array of brand-level editorial summaries used on the guide page.
+
+See the file itself for the canonical structure.
 
 ## Source priority when data conflicts
 
