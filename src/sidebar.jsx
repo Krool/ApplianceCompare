@@ -64,7 +64,8 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
     const entries = Object.keys(widths)
       .map(k => [Number(k), widths[k]])
       .sort((a, b) => a[0] - b[0]);
-    if (!entries.length) return null;
+    // A single-option facet offers no narrowing — hide it.
+    if (entries.length < 2) return null;
     return (
       <div className="filter-group">
         <GroupHeading keys="width">Width</GroupHeading>
@@ -85,7 +86,8 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
     const entries = order
       ? order.filter(k => dict[k]).map(k => [k, dict[k]])
       : Object.entries(dict).sort((a,b) => b[1] - a[1]);
-    if (!entries.length) return null;
+    // A single-option facet offers no narrowing — hide it.
+    if (entries.length < 2) return null;
     return (
       <div className="filter-group">
         <GroupHeading keys={key}>{label}</GroupHeading>

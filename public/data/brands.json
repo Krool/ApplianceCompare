@@ -111,7 +111,7 @@
       "name": "GE Profile",
       "tier": "premium",
       "country": "USA (Haier)",
-      "service_rate_overall": 8.0,
+      "service_rate_overall": 8,
       "service_rate_source": "yale_2026",
       "cr_best_brand_2026": [],
       "cr_reliability": null,
@@ -398,6 +398,160 @@
       "cr_best_brand_2026": [],
       "cr_reliability": null,
       "notes": "GE Appliances sub-brand — stripped-down top-freezers and basic ranges. Reviewed.com picked Hotpoint HPS16BTNRWW as best 2026 top-freezer. Not in Yale 2026 top-11; no independently verified 2026 service rate."
+    },
+    {
+      "id": "amana",
+      "name": "Amana",
+      "tier": "budget",
+      "country": "USA (Whirlpool)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Whirlpool budget sub-brand. Shares parts/platform with Whirlpool. Added 2026-04-25 to support CR Buying Guide coverage."
+    },
+    {
+      "id": "asko",
+      "name": "Asko",
+      "tier": "premium",
+      "country": "Sweden",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Scandinavian premium dishwasher specialist. Limited US distribution."
+    },
+    {
+      "id": "bertazzoni",
+      "name": "Bertazzoni",
+      "tier": "premium",
+      "country": "Italy",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Italian range and dishwasher importer. Pro-style aesthetics."
+    },
+    {
+      "id": "dacor",
+      "name": "Dacor",
+      "tier": "ultra-premium",
+      "country": "USA (Samsung)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Samsung-owned ultra-premium line. Built-in fridges, ranges, ovens."
+    },
+    {
+      "id": "galanz",
+      "name": "Galanz",
+      "tier": "budget",
+      "country": "China",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Budget Chinese brand expanding US retail-channel distribution."
+    },
+    {
+      "id": "ikea",
+      "name": "Ikea",
+      "tier": "budget",
+      "country": "Sweden (rebadged)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Ikea rebadges Whirlpool, Electrolux, and others under house names. Worth checking the underlying OEM."
+    },
+    {
+      "id": "insignia",
+      "name": "Insignia",
+      "tier": "budget",
+      "country": "USA (Best Buy)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Best Buy house brand. Generally rebadged from various OEMs at value pricing."
+    },
+    {
+      "id": "kenmore",
+      "name": "Kenmore",
+      "tier": "mainstream",
+      "country": "USA (Transformco)",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Sears legacy brand, now Transformco. Sub-brand of various OEMs depending on model."
+    },
+    {
+      "id": "kucht",
+      "name": "Kucht",
+      "tier": "premium",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Pro-style ranges. Newer brand; long-term reliability unverified."
+    },
+    {
+      "id": "midea",
+      "name": "Midea",
+      "tier": "budget",
+      "country": "China",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Chinese mid-tier brand expanding US dishwasher and microwave distribution. Strong value per CR testing."
+    },
+    {
+      "id": "sharp",
+      "name": "Sharp",
+      "tier": "mainstream",
+      "country": "Japan",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Japanese electronics maker; expanding US dishwasher line."
+    },
+    {
+      "id": "summit",
+      "name": "Summit Appliances",
+      "tier": "mainstream",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Compact and specialty appliance specialist (small kitchens, ADA, RV)."
+    },
+    {
+      "id": "thor-kitchen",
+      "name": "Thor Kitchen",
+      "tier": "premium",
+      "country": "USA",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Pro-style on a budget. Newer brand; long-term reliability unverified."
+    },
+    {
+      "id": "unique-appliances",
+      "name": "Unique Appliances",
+      "tier": "mainstream",
+      "country": "Canada",
+      "service_rate_overall": null,
+      "service_rate_source": null,
+      "cr_best_brand_2026": [],
+      "cr_reliability": null,
+      "notes": "Canadian specialty maker (off-grid, propane, retro styling)."
     }
   ]
 }

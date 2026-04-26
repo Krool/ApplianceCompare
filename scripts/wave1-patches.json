@@ -1,0 +1,531 @@
+{
+  "bosch-shx5aem5n": {
+    "tub": "stainless", "decibels": 46, "place_settings": 15, "third_rack": "basic",
+    "wash_cycles": 5, "energy_kwh_yr": 269, "energy_star": true, "wifi": true,
+    "panel_ready": false, "msrp": 999, "finishes": ["stainless"],
+    "retailer_ratings": {
+      "lowes": {"url": "https://www.lowes.com/pd/Bosch-100-Series-Premium-Top-Control-24-in-Smart-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-46-dBA/5014401277"},
+      "best_buy": {"url": "https://www.bestbuy.com/site/bosch-100-series-premium-24-top-control-smart-built-in-hybrid-stainless-steel-tub-dishwasher-with-3rd-rack-46-dba-stainless-steel/6543005.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.bosch-home.com/us/en/mkt-product/dishwashers/top-controls/SHX5AEM5N",
+      "lowes": "https://www.lowes.com/pd/Bosch-100-Series-Premium-Top-Control-24-in-Smart-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-46-dBA/5014401277"
+    }
+  },
+  "miele-g7196scvisf": {
+    "tub": "stainless", "decibels": 42, "place_settings": 16, "third_rack": "3D MultiFlex",
+    "wash_cycles": 9, "energy_kwh_yr": 210, "water_gal_cycle": 3.2, "energy_star": true,
+    "wifi": true, "panel_ready": false, "msrp": 2399, "finishes": ["stainless"],
+    "source_urls": {
+      "manufacturer": "https://www.mieleusa.com/product/12496710/fully-integrated-dishwashers-in-standard-size-g-7196-scvi-sf-autodos-stainless-steel",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2679743"
+    }
+  },
+  "miele-g7176scvi": {
+    "tub": "stainless", "decibels": 43, "place_settings": 16, "third_rack": "3D MultiFlex",
+    "energy_kwh_yr": 230, "water_gal_cycle": 3.2, "energy_star": true,
+    "wifi": true, "panel_ready": true, "msrp": 1849, "finishes": ["panel-ready", "stainless"],
+    "retailer_ratings": {
+      "lowes": {"url": "https://www.lowes.com/pd/Miele-Top-Control-24-in-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-43-Decibel/5013768997"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.mieleusa.com/e/fully-integrated-dishwasher-xxl-g-7176-scvi-xxl-sf-autodos-stainless-steel-12021290-p",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508387"
+    }
+  },
+  "thermador-dwhd661efp": {
+    "tub": "stainless", "decibels": 42, "place_settings": 16, "third_rack": "Chef's Tool Drawer",
+    "wash_cycles": 7, "energy_kwh_yr": 213, "water_gal_cycle": 2.35, "energy_star": true,
+    "wifi": true, "panel_ready": false, "msrp": 2499, "finishes": ["stainless"],
+    "source_urls": {
+      "manufacturer": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/3398257"
+    }
+  },
+  "lg-adfd5448at": {
+    "tub": "stainless", "decibels": 48, "place_settings": 14, "wash_cycles": 9,
+    "energy_kwh_yr": 258, "energy_star": true, "wifi": true, "panel_ready": false,
+    "msrp": 1049, "finishes": ["stainless"],
+    "retailer_ratings": {
+      "best_buy": {"stars": 3.9, "count": 41, "url": "https://www.bestbuy.com/site/lg-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-quadwash-and-48dba-stainless-steel/6432240.p"},
+      "home_depot": {"url": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/dishwashers/lg-adfd5448at-front-control-dishwasher",
+      "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
+    }
+  },
+  "lg-ldfc353ls": {
+    "tub": "stainless", "decibels": 50, "place_settings": 15, "third_rack": "basic",
+    "wash_cycles": 5, "energy_kwh_yr": 238, "energy_star": true, "panel_ready": false,
+    "finishes": ["stainless"],
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfc353ls-front-control-dishwasher",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/3360716",
+      "lowes": "https://www.lowes.com/pd/LG-LoDecibel-Built-In-Dishwasher/5014911909"
+    }
+  },
+  "kitchenaid-kdfe204kps": {
+    "tub": "stainless", "decibels": 39, "place_settings": 13, "third_rack": "basic",
+    "wash_cycles": 5, "energy_kwh_yr": 240, "water_gal_cycle": 3.2, "energy_star": true,
+    "wifi": false, "panel_ready": false, "msrp": 1379,
+    "finishes": ["stainless", "white", "black", "black-stainless"],
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.6, "count": 701, "url": "https://www.bestbuy.com/site/kitchenaid-24-front-control-built-in-dishwasher-with-stainless-steel-tub-printshield-finish-3rd-rack-39-dba-stainless-steel/6420936.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/front-controls/p.39-dba-dishwasher-in-printshield-finish-with-third-level-utensil-rack.kdfe204kps.html",
+      "home_depot": "https://www.homedepot.com/p/KitchenAid-24-in-PrintShield-Stainless-Steel-Front-Control-Tall-Tub-Dishwasher-with-Stainless-Steel-Tub-39-DBA-KDFE204KPS/313572055",
+      "lowes": "https://www.lowes.com/pd/KitchenAid-39-Decibel-Front-Control-24-in-Built-In-Dishwasher-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR/5000001255"
+    }
+  },
+  "lg-ldth555ns": {
+    "tub": "stainless", "decibels": 46, "place_settings": 15, "third_rack": "basic",
+    "wash_cycles": 9, "energy_kwh_yr": 238, "energy_star": true, "wifi": true,
+    "panel_ready": false, "msrp": 1199, "finishes": ["stainless", "black-stainless"],
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.5, "count": 207, "url": "https://www.bestbuy.com/product/lg-24-top-control-smart-built-in-tub-dishwasher-with-3rd-rack-quadwash-pro-and-46db-stainless-steel/J7G56588H4"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldth555ns-top-control-dishwasher",
+      "home_depot": "https://www.homedepot.com/p/LG-24-in-Top-Control-Smart-Wi-Fi-Enabled-Dishwasher-QuadWash-Pro-Dynamic-Heat-Dry-3rd-Rack-in-PrintProof-Stainless-Steel-LDTH555NS/333439434"
+    }
+  },
+  "miele-g7186scvi": {
+    "tub": "stainless", "decibels": 42, "place_settings": 16, "third_rack": "3D MultiFlex",
+    "wash_cycles": 9, "energy_kwh_yr": 210, "water_gal_cycle": 3.2, "energy_star": true,
+    "wifi": true, "panel_ready": true, "msrp": 2199, "finishes": ["panel-ready"],
+    "source_urls": {
+      "manufacturer": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2679740"
+    }
+  },
+  "thermador-dwhd640efm": {
+    "tub": "stainless", "decibels": 48, "place_settings": 16, "third_rack": "Chef's Tool Drawer",
+    "wash_cycles": 6, "energy_kwh_yr": 240, "water_gal_cycle": 3.2, "energy_star": true,
+    "wifi": true, "panel_ready": false, "msrp": 1399, "finishes": ["stainless"],
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.3, "count": 8, "url": "https://www.bestbuy.com/site/searchpage.jsp?st=DWHD640EFM"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM"
+    }
+  },
+  "bosch-nit8060uc": {
+    "burners": 4, "max_burner_w": 3600, "width_in": 30, "wifi": true,
+    "finishes": ["black ceramic glass"],
+    "source_urls": {
+      "manufacturer": "https://www.bosch-home.com/us/en/product/cooking-baking/induction-electric-cooktops/induction-cooktops/NIT8060UC",
+      "spec_sheet": "https://media3.bosch-home.com/Documents/20011263_NIT8060UC%20Spec%20Sheet.pdf",
+      "best_buy": "https://www.bestbuy.com/product/bosch-800-series-30-built-in-electric-induction-cooktop-with-4-elements-and-wifi-frameless-black/J3P322S6YV",
+      "home_depot": "https://www.homedepot.com/p/Bosch-800-30-in-Induction-Cooktop-in-Black-with-4-Elements-NIT8060UC/320451009"
+    }
+  },
+  "lg-cbih3613be": {
+    "burners": 5, "max_burner_w": 4300, "width_in": 36, "wifi": true,
+    "finishes": ["black ceramic glass"],
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-cbih3613be",
+      "spec_sheet": "https://www.lg.com/us/business/download/resources/CT00021979/CBIH3613BE_LG_Pro_Builder_Spec_Sheet%5B20250426_002018%5D.pdf",
+      "home_depot": "https://www.homedepot.com/p/LG-36-in-5-Burner-Element-Induction-Cooktop-in-Black-with-Power-Element-and-SmoothTouch-Controls-CBIH3613BE/328289001"
+    }
+  },
+  "lg-studio-cbis3618be": {
+    "burners": 5, "max_burner_w": 3700, "width_in": 36, "wifi": true,
+    "finishes": ["black ceramic glass"],
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-cbis3618be-electric-cooktop",
+      "home_depot": "https://www.homedepot.com/p/LG-STUDIO-36-in-5-Elements-Glass-Top-SMART-Induction-Cooktop-in-Black-with-Dual-Center-Zone-Energy-Star-CBIS3618BE/330562710"
+    }
+  },
+  "lg-cbih3013be": {
+    "burners": 4, "max_burner_w": 4300, "width_in": 30, "wifi": true,
+    "finishes": ["black ceramic glass"],
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-cbih3013be",
+      "spec_sheet": "https://www.lg.com/us/business/download/resources/CT00021979/CBIH3013BE%20LG%20Pro%20Builder%20Spec%20Sheet%5B20250426_000851%5D.pdf",
+      "home_depot": "https://www.homedepot.com/p/LG-30-in-4-Burner-Element-Induction-Cooktop-in-Black-with-Power-Element-and-SmoothTouch-Controls-CBIH3013BE/328289010"
+    }
+  },
+  "electrolux-ecci3068as": {
+    "burners": 4, "max_burner_w": 3600, "width_in": 30,
+    "finishes": ["stainless steel"], "msrp": 2499,
+    "source_urls": {
+      "manufacturer": "https://www.electrolux.com/en/p/kitchen/cooktops/induction-cooktops/ECCI3068AS"
+    }
+  },
+  "monogram-zhu36rstss": {
+    "burners": 5, "max_burner_w": 3000, "width_in": 36, "wifi": true,
+    "finishes": ["stainless steel"], "msrp": 3600,
+    "source_urls": {
+      "manufacturer": "https://appliances.monogram.com/us/specs/ZHU36RSTSS",
+      "best_buy": "https://www.bestbuy.com/site/monogram-36-built-in-induction-cooktop-silver/6523100.p?skuId=6523100"
+    }
+  },
+  "cafe-chp90362tss": {
+    "burners": 5, "max_burner_w": 3700, "width_in": 36, "wifi": true,
+    "finishes": ["flagstone gray", "stainless trim"], "release_year": 2022,
+    "source_urls": {
+      "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-Series-ENERGY-STAR-36-Built-In-Touch-Control-Induction-Cooktop-CHP90362TSS",
+      "spec_sheet": "https://www.us-appliance.com/content/pdf/c/CHP90362TSS_Specs.pdf",
+      "home_depot": "https://www.homedepot.com/p/Cafe-36-in-5-Burner-Element-Smart-Induction-Touch-Control-Cooktop-in-Stainless-Steel-CHP90362TSS/323644628"
+    }
+  },
+  "thermador-cit30ywbb": {
+    "burners": "freeform 48 inductors / 5 simultaneous pans",
+    "width_in": 30, "wifi": true, "finishes": ["dark gray glass"], "msrp": 5799,
+    "source_urls": {
+      "manufacturer": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/induction-cooktops/CIT30YWBB",
+      "best_buy": "https://www.bestbuy.com/site/thermador-freedom-series-30-built-in-electric-induction-cooktop-with-5-elements-wifi-and-frameless-design-dark-gray/6493203.p?skuId=6493203"
+    }
+  },
+  "miele-km7730fr": {
+    "burners": 4, "max_burner_w": 3700, "width_in": 30, "wifi": true,
+    "finishes": ["black ceramic glass", "stainless steel frame"],
+    "source_urls": {
+      "manufacturer": "https://www.mieleusa.com/product/12074200/30-inch-induction-cooktop-operated-with-its-own-controls-km-7730-fr",
+      "spec_sheet": "https://www.us-appliance.com/content/pdf/c/KM7730FR_Specs.pdf"
+    }
+  },
+  "frigidaire-pcci3080af": {
+    "burners": 4, "max_burner_w": 3600, "width_in": 30,
+    "finishes": ["smudge-proof stainless steel"],
+    "source_urls": {
+      "manufacturer": "https://www.frigidaire.com/en/p/kitchen/cooktops/induction-cooktops/PCCI3080AF",
+      "home_depot": "https://www.homedepot.com/p/Frigidaire-Professional-30-in-4-Elements-Induction-Cooktop-in-Stainless-Steel-PCCI3080AF/333346150"
+    }
+  },
+  "frigidaire-gcfi3060bf": {
+    "oven_capacity_cf": 6.2, "burners": 5, "convection": "true convection",
+    "air_fry": true, "self_clean": "steam + self", "wifi": false,
+    "finishes": ["smudge-proof stainless"], "msrp": 2299,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.2, "count": 85, "url": "https://www.bestbuy.com/product/frigidaire-gallery-6-2-cu-ft-freestanding-electric-induction-total-convection-range-with-self-cleaning-stainless-steel/J7CJ3RCV2Z"},
+      "aj_madison": {"stars": 4.7, "count": 121, "url": "https://www.ajmadison.com/cgi-bin/ajmadison/GCFI3060BF.html"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/GCFI3060BF",
+      "home_depot": "https://www.homedepot.com/p/Frigidaire-Gallery-30-in-6-2-cu-ft-5-Burner-Element-Slide-In-Induction-Range-w-Total-Convection-Air-Fry-SmudgeProof-Stainless-GCFI3060BF/325645579"
+    }
+  },
+  "ge-profile-phs93xypfs": {
+    "oven_capacity_cf": 5.3, "burners": 5, "max_burner_w": 3700,
+    "convection": "true European convection", "air_fry": true, "self_clean": "steam clean",
+    "wifi": true, "energy_star": false, "finishes": ["fingerprint resistant stainless"],
+    "release_year": 2024, "msrp": 4599,
+    "retailer_ratings": {
+      "best_buy": {"stars": 3.6, "count": 14, "url": "https://www.bestbuy.com/site/ge-profile-5-3-cu-ft-slide-in-electric-induction-true-convection-range-with-no-preheat-air-fry-and-wifi-stainless-steel/6452205.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Induction-Fingerprint-Resistant-Range-with-In-Oven-Camera-PHS93XYPFS",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-electric-cooking-products/details/3542843"
+    }
+  },
+  "lg-lsil6334fe": {
+    "oven_capacity_cf": 6.3, "burners": 4, "max_burner_w": 3900,
+    "convection": "ProBake convection", "air_fry": true, "self_clean": "EasyClean + self",
+    "wifi": true, "energy_star": true, "finishes": ["printproof stainless"],
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.5, "count": 28, "url": "https://www.bestbuy.com/site/lg-6-3-cu-ft-smart-freestanding-electric-induction-true-convection-range-with-easyclean-and-air-fry-printproof-stainless-steel/6561841.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsil6334fe-slide-in-induction-range"
+    }
+  },
+  "lg-lsil6332fe": {
+    "oven_capacity_cf": 6.3, "burners": 4, "max_burner_w": 3900,
+    "convection": "fan convection", "air_fry": true, "self_clean": "EasyClean + self",
+    "wifi": true, "energy_star": true, "finishes": ["printproof stainless"], "msrp": 2099,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.6, "count": 108, "url": "https://www.bestbuy.com/site/lg-6-3-cu-ft-smart-slide-in-electric-induction-true-convection-range-with-easyclean-and-air-fry-stainless-steel/6575019.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsil6332fe-slide-in-induction-range"
+    }
+  },
+  "frigidaire-fcfi3082bs": {
+    "oven_capacity_cf": 5.3, "burners": 4, "convection": "convection bake",
+    "air_fry": true, "self_clean": "steam clean", "wifi": false, "energy_star": true,
+    "finishes": ["stainless"], "msrp": 1699,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.4, "count": 17, "url": "https://www.bestbuy.com/product/frigidaire-5-3-cu-ft-slide-in-electric-induction-range-with-air-fry-convection-bake-and-steam-clean-stainless-steel/J3GWLTCQ4Q"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/FCFI3082BS"
+    }
+  },
+  "frigidaire-gcfe3060bf": {
+    "oven_capacity_cf": 6.2, "burners": 5, "convection": "true convection",
+    "air_fry": true, "self_clean": "steam + self", "wifi": false,
+    "finishes": ["smudge-proof stainless"], "msrp": 1999,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.6, "count": 105, "url": "https://www.bestbuy.com/product/frigidaire-gallery-6-2-cu-ft-freestanding-electric-total-convection-range-with-self-cleaning-and-air-fry-stainless-steel/J7CJ3R27WT"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCFE3060BF"
+    }
+  },
+  "ge-profile-pss93ypfs": {
+    "oven_capacity_cf": 5.3, "burners": 4, "convection": "true European convection",
+    "air_fry": true, "self_clean": "steam + self", "wifi": true,
+    "finishes": ["fingerprint resistant stainless"], "release_year": 2020, "msrp": 2499,
+    "source_urls": {
+      "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PSS93YPFS"
+    }
+  },
+  "lg-lrel6321s": {
+    "oven_capacity_cf": 6.3, "burners": 5, "convection": "no", "air_fry": false,
+    "self_clean": "EasyClean", "wifi": true, "finishes": ["stainless"], "msrp": 1049,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.4, "count": 100, "url": "https://www.bestbuy.com/site/lg-6-3-cu-ft-freestanding-single-electric-range-with-easyclean-and-wideview-window-stainless-steel/6401957.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lrel6321s-electric-range"
+    }
+  },
+  "frigidaire-gcre3060bf": {
+    "oven_capacity_cf": 5.3, "burners": 5, "convection": "true convection",
+    "air_fry": true, "self_clean": "steam + self", "wifi": false,
+    "finishes": ["smudge-proof stainless"], "msrp": 1399,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.4, "count": 14, "url": "https://www.bestbuy.com/site/frigidaire-gallery-5-3-cu-ft-freestanding-electric-total-convection-range-with-no-preheat-and-air-fry-stainless-steel/6560833.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCRE3060BF"
+    }
+  },
+  "lg-lrel6325f": {
+    "oven_capacity_cf": 6.3, "burners": 5, "max_burner_w": 3200,
+    "convection": "true convection", "air_fry": true, "self_clean": "EasyClean + self",
+    "wifi": true, "finishes": ["printproof stainless", "black stainless"], "msrp": 1499,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.5, "count": 1055, "url": "https://www.bestbuy.com/site/lg-6-3-cu-ft-smart-freestanding-electric-convection-range-with-easyclean-and-instaview-stainless-steel/6401874.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lrel6325f-electric-range-with-air-fryer"
+    }
+  },
+  "dacor-drf485300ap": {
+    "capacity_cf": 27.7, "energy_kwh_yr": 629, "energy_star": true,
+    "icemaker": "dual ice maker with cocktail ice", "water_dispenser": "internal",
+    "wifi": true, "compressor": "digital inverter",
+    "finishes": ["panel-ready", "silver stainless", "graphite stainless"],
+    "source_urls": {
+      "manufacturer": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/48-inch-french-door-refrigerator-panel-ready-drf485300ap/"
+    }
+  },
+  "dacor-drf367500ap": {
+    "capacity_cf": 21.3, "energy_kwh_yr": 549, "energy_star": true,
+    "icemaker": "dual ice maker with cocktail ice", "water_dispenser": "internal",
+    "wifi": true, "compressor": "digital inverter",
+    "finishes": ["panel-ready", "silver stainless"], "msrp": 9999,
+    "source_urls": {
+      "manufacturer": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-built-in-french-door-with-steelcool-panel-ready-drf367500ap/"
+    }
+  },
+  "thermador-t36it100np": {
+    "capacity_cf": 20.1, "energy_kwh_yr": 584, "energy_star": true,
+    "icemaker": "internal (diamond ice)", "water_dispenser": "internal",
+    "wifi": true, "finishes": ["panel-ready"], "release_year": 2024, "msrp": 11599,
+    "source_urls": {
+      "manufacturer": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3423272"
+    }
+  },
+  "sks-sksfd4826p": {
+    "capacity_cf": 26.0, "energy_kwh_yr": 654, "energy_star": true,
+    "icemaker": "dual ice maker with Craft Ice", "water_dispenser": "internal",
+    "wifi": true, "compressor": "dual smart inverter",
+    "finishes": ["panel-ready"], "msrp": 15999,
+    "source_urls": {
+      "manufacturer": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator"
+    }
+  },
+  "lg-lrdcs2603s": {
+    "capacity_cf": 25.5, "width_in": 33, "energy_kwh_yr": 562, "energy_star": true,
+    "icemaker": "internal", "water_dispenser": "none", "wifi": true,
+    "compressor": "smart inverter",
+    "finishes": ["printproof stainless steel", "printproof black stainless steel"],
+    "msrp": 2199,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.6, "count": 1514, "url": "https://www.bestbuy.com/site/lg-25-5-cu-ft-bottom-freezer-refrigerator-with-ice-maker-printproof-stainless-steel/6395330.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrdcs2603s-bottom-freezer-refrigerator"
+    }
+  },
+  "miele-kfn4776ed": {
+    "capacity_cf": 15.29, "energy_kwh_yr": 305, "energy_star": true,
+    "water_dispenser": "none", "wifi": true,
+    "finishes": ["stainless steel/CleanSteel"], "msrp": 3199,
+    "source_urls": {
+      "manufacturer": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3387631"
+    }
+  },
+  "samsung-rt70f18lrsr": {
+    "capacity_cf": 18.0, "energy_kwh_yr": 343, "energy_star": true,
+    "icemaker": "optional (ice maker ready)", "water_dispenser": "none", "wifi": true,
+    "finishes": ["fingerprint resistant stainless steel"],
+    "garage_ready": true, "msrp": 699,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.9, "count": 60, "url": "https://www.bestbuy.com/product/samsung-18-cu-ft-garage-ready-top-freezer-refrigerator-with-all-around-cooling-stainless-steel/J3ZYG2VSHY"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/top-freezer/18-cu-ft-top-freezer-refrigerator-with-all-around-cooling-in-stainless-steel-rt70f18lrsraa/"
+    }
+  },
+  "bosch-benchmark-b30ib905sp": {
+    "capacity_cf": 16.0, "energy_kwh_yr": 470, "energy_star": true,
+    "icemaker": "internal", "water_dispenser": "none", "wifi": true,
+    "finishes": ["panel-ready"], "msrp": 8799,
+    "source_urls": {
+      "manufacturer": "https://www.bosch-home.com/us/en/product/B30IB905SP",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2365289"
+    }
+  },
+  "ge-gye22gynfs": {
+    "capacity_cf": 22.1, "energy_kwh_yr": 665, "energy_star": true,
+    "icemaker": "internal (space-saving in-door)", "water_dispenser": "external",
+    "wifi": true, "finishes": ["fingerprint resistant stainless steel", "slate"],
+    "msrp": 3699,
+    "retailer_ratings": {
+      "lowes": {"stars": 3.9, "count": 3748, "url": "https://www.lowes.com/pd/GE-22-2-cu-ft-Counter-Depth-French-Door-Refrigerator-with-Ice-Maker-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR/1002619170"},
+      "best_buy": {"stars": 3.9, "count": 240, "url": "https://www.bestbuy.com/site/ge-22-1-cu-ft-french-door-counter-depth-refrigerator-with-space-saving-ice-maker-stainless-steel/6403422.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-22-1-Cu-Ft-Counter-Depth-Fingerprint-Resistant-French-Door-Refrigerator-GYE22GYNFS"
+    }
+  },
+  "bosch-b36fd50sns": {
+    "capacity_cf": 26.0, "energy_kwh_yr": 702, "energy_star": true,
+    "icemaker": "QuickIce Pro System (internal, 12 lb/day)", "water_dispenser": "external",
+    "wifi": true, "finishes": ["stainless steel", "black stainless steel"], "msrp": 3299,
+    "retailer_ratings": {
+      "best_buy": {"stars": 4.3, "count": 134, "url": "https://www.bestbuy.com/site/bosch-500-series-26-cu-ft-french-door-smart-refrigerator-with-quickicepro-stainless-steel/6461076.p"}
+    },
+    "source_urls": {
+      "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD50SNS",
+      "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2373112",
+      "spec_sheet": "https://media3.bosch-home.com/Documents/17197307_B36FD50SNS_Spec_Sheet.pdf"
+    }
+  },
+  "lg-lsdl6336f": {
+    "oven_capacity_cf": 6.3, "burners": 5, "max_burner_btu": 22000,
+    "convection": "ProBake Convection (true convection)", "air_fry": true,
+    "self_clean": "EasyClean + self", "wifi": true,
+    "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"],
+    "msrp": 2799,
+    "ratings": {
+      "retailer_ratings": {"home_depot": {"stars": 4.0, "count": 161, "url": "https://www.homedepot.com/p/reviews/LG-6-3-cu-ft-30-in-Smart-ProBake-Slide-in-Dual-Fuel-Range-with-Gas-Stove-and-Electric-Oven-in-PrintProof-Stainless-Steel-LSDL6336F/320548728/4"}},
+      "source_urls": {
+        "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsdl6336f-dual-fuel-slide-in-range-with-air-fryer"
+      }
+    }
+  },
+  "lg-lsgl6335d": {
+    "oven_capacity_cf": 6.3, "burners": 5, "max_burner_btu": 20000,
+    "convection": "ProBake Convection (true convection)", "air_fry": true,
+    "self_clean": "EasyClean + self", "wifi": true,
+    "finishes": ["PrintProof Stainless Steel", "Black Stainless Steel"], "msrp": 2499,
+    "ratings": {
+      "retailer_ratings": {"best_buy": {"stars": 4.6, "count": 742, "url": "https://www.bestbuy.com/site/reviews/lg-6-3-cu-ft-smart-slide-in-gas-true-convection-range-with-easyclean-and-air-fry-black-stainless-steel/6450220"}},
+      "source_urls": {
+        "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsgl6335d-slide-in-gas-range-with-air-fryer"
+      }
+    }
+  },
+  "ge-profile-pgs930ypfs": {
+    "oven_capacity_cf": 5.6, "burners": 5, "max_burner_btu": 21000,
+    "convection": "true convection", "air_fry": true, "self_clean": "self + steam",
+    "wifi": true, "finishes": ["Fingerprint Resistant Stainless Steel"], "msrp": 2799,
+    "ratings": {
+      "retailer_ratings": {"lowes": {"stars": 4.5, "count": 3150, "url": "https://www.lowes.com/pd/GE-Profile-30-in-5-Burners-5-6-cu-ft-Self-Cleaning-Air-Fry-Convection-Oven-Slide-In-Gas-Range-Fingerprint-Stainless-Steel/5005479623"}},
+      "source_urls": {
+        "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Gas-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PGS930YPFS"
+      }
+    }
+  },
+  "lg-studio-lsgs6338f": {
+    "oven_capacity_cf": 6.3, "burners": 5, "max_burner_btu": 22000,
+    "convection": "ProBake Convection (true convection)", "air_fry": true,
+    "self_clean": "EasyClean + self", "wifi": true,
+    "finishes": ["Stainless Steel", "Essence White"], "msrp": 3199,
+    "ratings": {
+      "retailer_ratings": {"best_buy": {"stars": 4.7, "count": 48, "url": "https://www.bestbuy.com/site/reviews/lg-studio-6-3-cu-ft-smart-slide-in-gas-true-convection-range-with-easyclean-and-sous-vide-stainless-steel/6477502"}},
+      "source_urls": {
+        "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsgs6338f-slide-in-gas-range"
+      }
+    }
+  },
+  "cafe-c2s900p2ms1": {
+    "oven_capacity_cf": 5.7, "burners": 6, "max_burner_btu": 21000,
+    "convection": "European convection (true convection with Precise Air)",
+    "air_fry": true, "self_clean": "self + steam", "wifi": true,
+    "finishes": ["Stainless Steel"],
+    "ratings": {
+      "source_urls": {
+        "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Dual-Fuel-Range-with-Warming-Drawer-C2S900P2MS1"
+      }
+    }
+  },
+  "monogram-zgp304ntss": {
+    "oven_capacity_cf": 5.7, "burners": 4, "max_burner_btu": 21000,
+    "convection": "true convection (Precise Air)", "self_clean": "steam",
+    "wifi": true, "finishes": ["Stainless Steel"], "msrp": 6270,
+    "ratings": {
+      "source_urls": {
+        "manufacturer": "https://appliances.monogram.com/us/specs/ZGP304NTSS"
+      }
+    }
+  },
+  "lg-ltel7337f": {
+    "oven_capacity_cf": 7.3, "burners": 5, "max_burner_w": 3600,
+    "convection": "ProBake Convection (true convection)", "air_fry": true,
+    "self_clean": "EasyClean + self", "wifi": true,
+    "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"],
+    "release_year": 2022, "msrp": 3599,
+    "ratings": {
+      "source_urls": {
+        "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-ltel7337f-double-oven-slide-in-electric-range"
+      }
+    }
+  },
+  "samsung-ne63t8751sg": {
+    "oven_capacity_cf": 6.3, "burners": 5, "max_burner_w": 3600,
+    "convection": "true convection", "air_fry": true, "self_clean": "self + steam",
+    "wifi": true, "energy_star": true,
+    "finishes": ["Fingerprint Resistant Black Stainless Steel", "Fingerprint Resistant Stainless Steel"],
+    "release_year": 2021, "msrp": 3049,
+    "ratings": {
+      "source_urls": {
+        "manufacturer": "https://www.samsung.com/us/home-appliances/ranges/electric/6-3-cu--ft--front-control-slide-in-electric-range-with-smart-dial--air-fry---wi-fi-in-black-stainless-steel-ne63t8751sg-aa/v2/"
+      }
+    }
+  },
+  "lg-lde4413st": {
+    "oven_capacity_cf": 7.3, "burners": 5, "max_burner_w": 3200,
+    "convection": "ProBake Convection (true convection, lower oven only)",
+    "air_fry": false, "self_clean": "EasyClean + self", "wifi": false,
+    "finishes": ["Stainless Steel"],
+    "ratings": {
+      "retailer_ratings": {"best_buy": {"stars": 4.4, "count": 598, "url": "https://www.bestbuy.com/site/reviews/lg-7-3-cu-ft-freestanding-double-oven-electric-range-with-easyclean-and-probake-convection-stainless-steel/4299703"}},
+      "source_urls": {
+        "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lde4413st-double-oven-electric-range"
+      }
+    }
+  },
+  "lg-ltgl6937f": {
+    "oven_capacity_cf": 6.9, "burners": 5, "max_burner_btu": 22000,
+    "convection": "ProBake Convection (true convection, upper oven only)",
+    "air_fry": true, "self_clean": "EasyClean + self", "wifi": true,
+    "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"],
+    "msrp": 3799,
+    "ratings": {
+      "retailer_ratings": {"best_buy": {"stars": 4.6, "count": 158, "url": "https://www.bestbuy.com/site/lg-6-9-cu-ft-smart-slide-in-double-oven-gas-true-convection-range-with-easyclean-and-instaview-stainless-steel/6511371.p"}},
+      "source_urls": {
+        "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-ltgl6937f-double-oven-slide-in-gas-range"
+      }
+    }
+  }
+}

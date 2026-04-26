@@ -7,19 +7,33 @@ import {
   getRatingSources, aggregateRetailerStars, totalRetailerReviewCount,
 } from './helpers.jsx';
 
-// Shared: closes a surface when Escape is pressed. Also moves focus into the
-// surface on mount and restores it to the previously-focused element on unmount
-// so keyboard users aren't dropped at the top of the page. onClose is tracked
-// by ref so inline-callback callers don't re-bind the keydown on every render.
+// Shared: closes a surface when Escape is pressed, traps Tab focus inside the
+// surface so keyboard users can't tab out of an open modal, and restores focus
+// to the previously-focused element on unmount. onClose is tracked by ref so
+// inline-callback callers don't re-bind the keydown on every render.
+const FOCUSABLE_SEL = 'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
 function useDismissableSurface(onClose) {
   const rootRef = useRef(null);
   const onCloseRef = useRef(onClose);
   onCloseRef.current = onClose;
   useEffect(() => {
     const prevFocus = document.activeElement;
-    const onKey = (e) => { if (e.key === 'Escape') { e.stopPropagation(); onCloseRef.current(); } };
+    const onKey = (e) => {
+      if (e.key === 'Escape') { e.stopPropagation(); onCloseRef.current(); return; }
+      if (e.key === 'Tab' && rootRef.current?.contains(document.activeElement)) {
+        const items = rootRef.current.querySelectorAll(FOCUSABLE_SEL);
+        if (!items.length) return;
+        const first = items[0];
+        const last = items[items.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault(); last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault(); first.focus();
+        }
+      }
+    };
     window.addEventListener('keydown', onKey);
-    const el = rootRef.current?.querySelector('button, [href], input, [tabindex]:not([tabindex="-1"])');
+    const el = rootRef.current?.querySelector(FOCUSABLE_SEL);
     el?.focus();
     return () => {
       window.removeEventListener('keydown', onKey);
@@ -118,7 +132,7 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
       <table className="appliance-table">
         <thead>
           <tr>
-            {plainHead('⊕', TIPS.compare, { className: 'compare-cell' })}
+            {plainHead('Compare', TIPS.compare, { className: 'compare-cell' })}
             {sortHead('score', 'Score', TIPS.score)}
             {sortHead('name', 'Model', TIPS.model)}
             {sortHead('brand', 'Brand', TIPS.brand)}
@@ -135,7 +149,7 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
         <tbody>
           {sorted.length === 0 && (
             <tr>
-              <td colSpan={category === 'ranges_ovens_cooktops' ? 9 : 10} className="empty">
+              <td colSpan={99} className="empty">
                 <div>No models match the current filters.</div>
                 {onClearFilters && (
                   <button className="empty-clear" onClick={onClearFilters}>Clear all filters</button>
@@ -254,7 +268,9 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
             <h2 className="drawer-title">{model.name}</h2>
             <span className="drawer-model">{brand?.name} · {model.model}</span>
             <div className="drawer-pillrow">
-              <span className={"pill " + tierClass(brand?.tier)}>{brand?.tier?.replace('-', ' ')}</span>
+              {brand?.tier && (
+                <span className={"pill " + tierClass(brand.tier)}>{brand.tier.replace('-', ' ')}</span>
+              )}
               {model.ratings?.cr_reliability && model.ratings.cr_reliability !== 'unrated' && (
                 <span className={"pill " + relClass(model.ratings.cr_reliability)}>{model.ratings.cr_reliability.replace('-', ' ')}</span>
               )}
@@ -350,7 +366,7 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
             <div style={{display: 'flex', gap: 18, alignItems: 'baseline'}}>
               <div style={{fontFamily: 'var(--serif)', fontSize: 32, fontWeight: 500, color: 'var(--ink)'}}>{fmtPrice(model.street_price ?? model.msrp)}</div>
               {model.msrp && model.street_price && model.msrp > model.street_price && (
-                <div style={{color: 'var(--ink-3)'}}>MSRP {fmtPrice(model.msrp)} <span style={{color: 'var(--good)', fontWeight: 600}}>·  save ${model.msrp - model.street_price}</span></div>
+                <div style={{color: 'var(--ink-3)'}}>MSRP {fmtPrice(model.msrp)} <span style={{color: 'var(--good)', fontWeight: 600}}>· save ${model.msrp - model.street_price}</span></div>
               )}
             </div>
           </div>

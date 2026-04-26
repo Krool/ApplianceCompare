@@ -66,6 +66,7 @@ function computeScore(item, brand, weights) {
     r.rtings != null ? r.rtings * 10 : null,
     r.cnet != null ? r.cnet * 10 : null,
     typeof r.good_housekeeping === 'number' ? r.good_housekeeping * 10 : null,
+    typeof r.toms_guide === 'number' ? r.toms_guide * 20 : null,
     retailerAvg != null ? retailerAvg * 20 : null,
   ];
   const qualityScore = meanOfAvail(qualitySources);
@@ -134,6 +135,7 @@ function getScoreConfidence(item, brand) {
   // Same treatment for Good Housekeeping — a "Best Tested" tag is a signal even
   // when GH didn't publish a numeric score.
   if (r.good_housekeeping != null) qualitySources++;
+  if (r.toms_guide != null) qualitySources++;
   const retailerCount = ['home_depot', 'lowes', 'best_buy', 'aj_madison']
     .filter(k => rr[k]?.stars != null).length;
   if (retailerCount > 0) qualitySources++;
@@ -143,11 +145,16 @@ function getScoreConfidence(item, brand) {
   const hasRepairabilityDirect = r.repairability_score != null;
   const hasRepairabilityFallback = !hasRepairabilityDirect && brand?.repairability_score != null;
   const hasEditorialPick = r.wirecutter != null;
+  // Endorsements (YouTube, Reddit, etc.) — qualitative only, never a number.
+  // Presence of one or more counts as a single signal regardless of count, so
+  // ten YT mentions don't outweigh one Yale lab test.
+  const hasEndorsements = Array.isArray(r.endorsements) && r.endorsements.length > 0;
 
   const signals = qualitySources
     + (hasReliabilityDirect ? 1 : 0)
     + (hasRepairabilityDirect ? 1 : 0)
-    + (hasEditorialPick ? 1 : 0);
+    + (hasEditorialPick ? 1 : 0)
+    + (hasEndorsements ? 1 : 0);
 
   const hasAnyFallback = hasReliabilityFallback || hasRepairabilityFallback;
 
@@ -161,7 +168,7 @@ function getScoreConfidence(item, brand) {
     qualitySources, retailerCount,
     hasReliabilityDirect, hasReliabilityFallback,
     hasRepairabilityDirect, hasRepairabilityFallback,
-    hasEditorialPick,
+    hasEditorialPick, hasEndorsements,
     signals, tier,
   };
 }
@@ -205,7 +212,14 @@ function getRatingSources(item) {
   const out = [];
   const push = (obj) => out.push(obj);
 
-  if (r.cr_overall != null) push({ name: "Consumer Reports", score: r.cr_overall, max: 100, url: safeUrl(r.source_urls?.cr) });
+  // CR scores are proprietary; we use them as input to our composite but do not
+  // republish the raw 0-100 number in the UI. Show only a status pill that
+  // reflects the recommendation tier with attribution + link to CR for readers
+  // who subscribe.
+  if (r.cr_overall != null) {
+    const status = r.cr_overall >= 75 ? 'Recommended' : r.cr_overall >= 50 ? 'Tested' : 'Less dependable';
+    push({ name: "Consumer Reports", status, url: safeUrl(r.source_urls?.cr) });
+  }
   if (r.cr_reliability && r.cr_reliability !== 'unrated') push({ name: "CR predicted reliability", status: r.cr_reliability, url: safeUrl(r.source_urls?.cr) });
   if (r.wirecutter != null) push({ name: "Wirecutter", status: r.wirecutter, url: safeUrl(r.source_urls?.wirecutter) });
   if (r.reviewed_status != null) push({ name: "Reviewed.com", status: r.reviewed_status, url: safeUrl(r.source_urls?.reviewed) });
@@ -218,6 +232,7 @@ function getRatingSources(item) {
   }
   if (r.yale_reliability_pct != null) push({ name: "Yale service rate", score: r.yale_reliability_pct, unit: "%", inverted: true, url: safeUrl(r.source_urls?.yale) });
   if (r.repairability_score != null) push({ name: "Repairability", score: r.repairability_score, max: 100, url: safeUrl(r.source_urls?.repairability) });
+  if (r.toms_guide != null) push({ name: "Tom's Guide", score: r.toms_guide, max: 5, url: safeUrl(r.source_urls?.toms_guide) });
 
   const rr = r.retailer_ratings || {};
   const retailers = [
@@ -237,6 +252,13 @@ function getRatingSources(item) {
       detail: r.reddit_sentiment_detail?.summary,
       url: safeUrl(r.reddit_sentiment_detail?.threads?.[0]),
     });
+  }
+  if (Array.isArray(r.endorsements)) {
+    r.endorsements.forEach(e => push({
+      name: e.channel || e.source || 'Endorsement',
+      status: e.label || e.summary || 'endorsed',
+      url: safeUrl(e.url),
+    }));
   }
   if (item.garage_ready === true) {
     push({

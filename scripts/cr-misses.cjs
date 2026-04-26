@@ -1,0 +1,103 @@
+// Report CR-tested models that aren't in our dataset, grouped by category
+// and sorted by CR overall score (high first). Helps prioritize what to add.
+const fs = require('fs');
+const path = require('path');
+const ROOT = path.resolve(__dirname, '..');
+const norm = s => (s || '').replace(/[\s.\-_]/g, '').toLowerCase();
+
+// Mirror the rows from cr-backfill.cjs, with category context
+const CATS = {
+  dishwashers: [
+    ['SHP9PCM5N',85],['SHX78CM5N',84],['SHX5AEM5N',81],['SHE53C85N',80],
+    ['G7196SCVISF',80],['G7176SCVI',79],['SHP65CM5N',79],['DWHD661EFP',78],
+    ['ADFD5448AT',78],['LDFC353LS',77],['KDFE204KPS',77],['LDTH555NS',76],
+    ['SDWB24S3',76],['G7186SCVI',76],['KDTF924PPS',76],['MDT24P3CST',76],
+    ['LDFC2423V',76],['LDPN454HT',76],['LDPH5554S',76],['MDF24P2BWW',75],
+    ['MDT24P5AST',75],['SHE43C75N',75],['LDTH7972S',75],['DWHD640EFM',74],
+    ['WDP730HAMZ',74],['G5051SCVI',74],['SHE41CM5N',74],['DW80B7070US',74],
+    ['G5056SCVISF',73],['UGP-24CRDW',72],['GDSH4715AF',71],['NS-DWR3SS1',71],
+    ['WDT550SAPZ',71],['MDTS4224PZ',71],['KDPM604KPS',70],['DW80BB707012',70],
+    ['SDW6506JS',70],['WDTA50SAKZ',69],['DBI564IXXLS',69],['NS-DWRF2SS3',69],
+    ['SDW6767HS',69],['KDTM704KPS',69],['SDW6757ES',68],['DW80R9950UG',68],
+    ['GDSP471TAF',68],['FDSH4501AS',67],['WDPS7024RZ',66],['DW80CG5451SR',66],
+    ['DW90F89P0USRAA',66],['MDB8959SKZ',66],['DW80R9950US',66],['SDW6888JS',66],
+    ['WDF341PAPM',66],['PDSH4816AF',66],['CDP888M5VS5',65],['WDP540HAMZ',65],
+    ['KDTE104KPS',65],['DD24DTX6HI1',65],['WDT750SAKZ',65],['DW24S3IPV',65],
+  ],
+  ovens: [
+    // Ranges
+    ['GCFE3060BF',88],['PSS93YPFS',88],['LREL6321S',87],['GCFE3059BF',86],
+    ['GCRE3060BF',86],['LREL6325F',85],['PCFE3080AF',84],['LSEL6333F',83],
+    ['NE63A6711SS',82],['HEI8056U',81],['FCFE3083AS',81],['PB900YVFS',81],
+    ['NSE6DG8700SR',80],['HBE3501CPS',76],['NSE6DG8100SR',75],['LTEL7337F',81],
+    ['NE63T8751SG',81],['LDE4413ST',81],['LDEL7324SE',80],['NE63A6751SS',79],
+    ['KFED500EBS',79],['CES750P4MW2',77],['JBS86SPSS',77],
+    ['GCFI3060BF',93],['PHS93XYPFS',89],['LSIL6334FE',88],['LSIL6332FE',88],
+    ['FCFI3082BS',87],['HR1422-3I',86],['DOP30T940IS',85],['PCFI3080AF',85],
+    ['NSI6DG9100SR',85],['LSIL6336FE',84],['NSI6DG9900SRAA',84],['Tvarsaker',83],
+    ['NSI6DG9500SR',81],['FCFI3083AS',81],['CHS90XP2MS1',76],
+    ['LSDL6336F',85],['LSGL6335D',80],['PGS930YPFS',80],['LSGS6338F',78],
+    ['C2S900P2MS1',77],['NX60T8711SS',76],['GGF600AVSS',76],['JGS760SPSS',76],
+    ['JGBS30DEKWW',75],['JGSS61SPSS',74],['JGBS66REKSS',74],['JGBS61RPSS',73],
+    ['LRGL5823S',72],
+    ['PGB965YPFS',80],['LTGL6937F',79],['LUTD4919SN',77],['JGBS86SPSS',75],
+    ['CGS750P4MW2',75],['C2S950P2MS1',75],['JGSS86SPSS',74],['LDGL6924S',72],
+    ['ECFD3668AS',69],['ZGP304NTSS',81],['KFDC500JSS',68],
+    // Cooktops
+    ['NA36N7755TG',89],['CBGS3628S',88],['CBGJ3623S',83],['ZGU36RSLSS',82],
+    ['SGSX365TS',79],['UPCG3654ST',75],['PGP7036SLSS',75],['JGP5036SLSS',72],
+    ['CGP70362NS1',71],['PGP9036SLSS',71],['NGM8659UC',67],
+    ['NA30N7755TG',89],['NA30N6555TS',86],['CBGJ3023S',83],['ZGU30RSLSS',82],
+    ['CBGJ3027S',80],['SGSX305TS',79],['NGMP059UC',76],['NA30R5310FS',75],
+    ['PGP7030SLSS',75],
+    ['KCED606GBL',90],['WCE55US6HB',85],['PCCE3680AF',82],
+    ['KCED600GSS',90],['KCES550HBL',89],['LCE3010SB',88],['MEC8830HB',88],
+    ['JEP5030DTBB',88],['SCR3041GB',87],['CET305YB',85],['KM5624',82],
+    ['WCE77US0HB',81],['FFEC3025UB',81],['NZ30FG5332RKAA',79],['JP3030DWBB',77],
+    ['WCE55US0HB',77],
+    ['CBIH3613BE',96],['CBIS3618BE',96],['ZHU36RSTSS',94],['CHP90362TSS',93],
+    ['KCIG556JBL',80],
+    ['NIT8060UC',98],['CBIH3013BE',96],['ECCI3068AS',95],['CIT30YWBB',93],
+    ['KM7730FR',91],['DTI30P876BB',90],['NZ30A3060UK',90],['RVIC3304BBG',85],
+  ],
+  refrigerators: [
+    ['LRTLS2403S',76],['LTCS20030S',76],['RT18DG6700SRAA',75],['FRTD2021AW',68],
+    ['FFHT2022AW',67],['HRT180N6ABE',66],['ARTX3028PB',64],['WRTX5028PB',63],
+    ['FFTR1835VW',63],['FFTR2045VB',62],['NS-RTM20SS3',61],
+    ['RT70F18LRSR',82],['RT16A6195SR',78],['LT11C2000V',75],['WRT112CZJZ',74],
+    ['FFHT1425VV',70],['HPS16BTNRWW',69],['NS-RTM14SS5',66],['GTE17DTNRWW',66],
+    ['WRT313CZLZ',65],['DFF101B2WDB',62],
+    ['LRDCS2603S',84],['KFN4776ED',84],['LBNC15231V',77],['KFN4799DDE',77],
+    ['GDE21EYKFS',76],['Valgrundad',74],['ABB1924BRM',74],['GRBN2012AF',74],
+    ['HRB15N3BGS',70],
+    ['GYE22GYNFS',79],['LRMXS2806S',77],['LF29S8365S',77],['LRFS28XBS',76],
+    ['GWE23GENDS',76],['LRFWS2906S',75],['B36FD50SNS',75],['LRFLS3206S',75],
+    ['LRMDS3006S',75],['GFE28GYNFS',75],['LRFCS29D6S',75],['LF30S8210S',75],
+    ['LF29S8330D',75],['LMXS28626S',75],['LRFWS2906V',74],['LRFLS3216S',74],
+    ['B36CL81ENW',74],['B36CD52SNS',74],['LRYKS3106S',74],['LF29H8330S',73],
+    ['LRMDC2306S',73],['PGD29BYTFS',73],['PGE29BYTFS',73],['SRFB27W3',73],
+    ['DRF36C500SR',72],['LRFOC2606S',72],['KRFC704FBS',72],['LRFLC2716S',72],
+    ['HRM260N6TSE',72],['LRFXS3106S',71],['RVFFR336SS',71],['Overskadlig',71],
+    ['LF25G8330S',71],['KR900X',70],['GWE22JYMFS',70],['WRX735SDHZ',70],
+    ['KRQC506MPS',70],['KRMF706EBS',70],['KRMF536RPS',70],['RFM-W-36',70],
+    ['LF25H6330S',76],['LF25H6200S',73],['LF21G6200S',73],
+    ['DRF485300AP',83],['DRF367500AP',82],['T36IT100NP',79],['SKSFD4826P',79],
+    ['T30IB905SP',77],['RBIV-304-30',73],['DET3050CIID',70],['KBBR306ESS',67],
+    ['FDBB5364L',67],
+  ],
+};
+
+const datasets = {};
+['dishwashers','ovens','refrigerators'].forEach(c => {
+  datasets[c] = JSON.parse(fs.readFileSync(path.join(ROOT,'public','data',c+'.json'),'utf8'));
+});
+
+console.log('CR-tested models NOT in our dataset (highest scores first):\n');
+for (const [cat, rows] of Object.entries(CATS)) {
+  const misses = rows
+    .filter(([model]) => !datasets[cat].models.find(x => norm(x.model) === norm(model)))
+    .sort((a,b) => b[1] - a[1]);
+  console.log('=== ' + cat.toUpperCase() + ' (' + misses.length + ' missing) ===');
+  misses.forEach(([m,s]) => console.log('  CR ' + String(s).padStart(2) + '  ' + m));
+  console.log('');
+}

@@ -36,6 +36,13 @@
         "wirecutter": null,
         "reviewed": null,
         "rtings": null,
+        "retailer_ratings": {
+          "home_depot": {
+            "stars": 4.5,
+            "count": 4783,
+            "url": "https://www.homedepot.com/p/Bosch-800-Series-24-in-Stainless-Steel-Top-Control-Tall-Tub-Bar-Handle-42-dBA-Dishwasher-with-Stainless-Steel-Tub-SHP78CM5N/325602602"
+          }
+        },
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-800-series-shp78cm5n/m412472/",
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
@@ -94,6 +101,8 @@
       "brand": "bosch",
       "model": "SHV88PZ63N",
       "name": "Bosch Benchmark SHV88PZ63N",
+      "retired": true,
+      "retired_reason": "Discontinued by Bosch (2026 verification); product page is /out-of-stock/ on bosch-home.com and /archived-products/ on bosch-home.ca. Current Benchmark flagship is SHP9PCM5N / SHV9PCM53N.",
       "tub": "stainless",
       "decibels": 39,
       "place_settings": 16,
@@ -110,7 +119,10 @@
         "cr_reliability": null,
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.bosch-home.com/us/en/mkt-product/out-of-stock/SHV88PZ63N"
+        }
       },
       "pros": [
         "39 dB flagship quiet",
@@ -121,7 +133,11 @@
         "Expensive",
         "Cycle times long"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "wash_cycles": 7,
+      "finishes": [
+        "panel-ready"
+      ]
     },
     {
       "id": "bosch-sge78c55uc",
@@ -242,7 +258,17 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 818,
+            "url": "https://www.bestbuy.com/site/reviews/kitchenaid-24-top-control-built-in-tub-dishwasher-with-3rd-rack-fan-enabled-prodry-44-dba-stainless-steel/6398729"
+          }
+        },
+        "source_urls": {
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.360%C2%B0-max-jets-third-rack-dishwasher-with-fan-enabled-prodry-system,-44-dba.kdtm604kps.html"
+        }
       },
       "pros": [
         "FreeFlex 3rd rack fits mugs",
@@ -252,7 +278,13 @@
       "cons": [
         "Whirlpool reliability OK not great"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "wash_cycles": 5,
+      "panel_ready": false,
+      "finishes": [
+        "PrintShield Stainless Steel",
+        "Black Stainless with PrintShield"
+      ]
     },
     {
       "id": "ge-profile-pdt785synfs",
@@ -274,7 +306,10 @@
         "cr_reliability": null,
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Fingerprint-Resistant-Top-Control-with-Stainless-Steel-Interior-Dishwasher-with-Sanitize-Cycle-Twin-Turbo-Dry-Boost-PDT785SYNFS"
+        }
       },
       "pros": [
         "39 dB ultra quiet",
@@ -285,7 +320,13 @@
         "GE reliability watchlist",
         "Long cycles"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "wash_cycles": 5,
+      "panel_ready": false,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel",
+        "Black Stainless Steel"
+      ]
     },
     {
       "id": "ge-gdt665synfs",
@@ -306,7 +347,10 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://products.geappliances.com/appliance/gea-specs/GDT665SYNFS"
+        }
       },
       "pros": [
         "Good value",
@@ -316,13 +360,20 @@
       "cons": [
         "Plastic 3rd rack"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "wash_cycles": 5,
+      "panel_ready": false,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ]
     },
     {
       "id": "whirlpool-wdt970sahz",
       "brand": "whirlpool",
       "model": "WDT970SAHZ",
       "name": "Whirlpool WDT970SAHZ",
+      "retired": true,
+      "retired_reason": "Discontinued by Whirlpool (2026 verification); replaced by WDT970SAKZ / WDT750SAKZ generation.",
       "tub": "stainless",
       "decibels": 47,
       "place_settings": 15,
@@ -337,7 +388,17 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 457,
+            "url": "https://www.bestbuy.com/site/reviews/whirlpool-24-built-in-dishwasher-stainless-steel/5796528"
+          }
+        },
+        "source_urls": {
+          "manufacturer": "https://www.whirlpool.com/owners-center-pdp.WDT970SAHZ.html"
+        }
       },
       "pros": [
         "Whirlpool reliability",
@@ -347,7 +408,12 @@
         "47 dB notable",
         "No Wi-Fi"
       ],
-      "release_year": 2021
+      "release_year": 2021,
+      "wash_cycles": 5,
+      "panel_ready": false,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ]
     },
     {
       "id": "samsung-dw80r9950us",
@@ -365,9 +431,20 @@
       "msrp": 1499,
       "street_price": 1099,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
-        "reviewed": null
+        "cr_overall": 66,
+        "cr_reliability": "fair",
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/linear-wash-39dba-dishwasher-in-stainless-steel-dw80r9950us-aa/"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 3534,
+            "url": "https://www.bestbuy.com/site/samsung-linear-wash-24-top-control-built-in-dishwasher-with-autorelease-dry-39-dba-stainless-steel/6329899.p"
+          }
+        }
       },
       "pros": [
         "Linear Wash spray bar",
@@ -378,7 +455,13 @@
         "Samsung repair concerns",
         "Smart features feel gimmicky"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "wash_cycles": 7,
+      "panel_ready": false,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel",
+        "Black Stainless"
+      ]
     },
     {
       "id": "samsung-dw80b7070us",
@@ -396,9 +479,25 @@
       "msrp": 1199,
       "street_price": 899,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
-        "reviewed": null
+        "cr_overall": 74,
+        "cr_reliability": "fair",
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/smart-42dba-dishwasher-with-stormwash-and-smart-dry-in-stainless-steel-dw80b7070us-aa/"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "stars": 4.2,
+            "count": 1106,
+            "url": "https://www.lowes.com/pd/Samsung-Top-Control-24-in-Smart-Built-In-Dishwasher-With-Third-Rack-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR-42-dBA/5013068595"
+          },
+          "best_buy": {
+            "stars": 4.3,
+            "count": 1018,
+            "url": "https://www.bestbuy.com/site/reviews/samsung-24-autorelease-dry-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-stormwash--42-dba-stainless-steel/6491913"
+          }
+        }
       },
       "pros": [
         "Bespoke customizable panel",
@@ -408,7 +507,12 @@
       "cons": [
         "Samsung service"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "wash_cycles": 7,
+      "panel_ready": false,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ]
     },
     {
       "id": "lg-ldfn4542s",
@@ -431,7 +535,8 @@
         "yale_reliability_pct": 3.6,
         "reviewed": null,
         "source_urls": {
-          "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+          "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher"
         }
       },
       "pros": [
@@ -442,7 +547,15 @@
       "cons": [
         "46 dB moderate"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "wash_cycles": 9,
+      "panel_ready": false,
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel",
+        "White",
+        "Smooth Black"
+      ]
     },
     {
       "id": "lg-ldts5552s",
@@ -463,7 +576,10 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher"
+        }
       },
       "pros": [
         "TrueSteam sanitization",
@@ -473,7 +589,13 @@
       "cons": [
         "Long cycles"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "wash_cycles": 10,
+      "panel_ready": false,
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ]
     },
     {
       "id": "kitchenaid-kdpm804kbs",
@@ -497,7 +619,8 @@
         "reviewed": null,
         "reviewed_status": "Recommended · Best Drying 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes",
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.KDPM804KBS.html"
         }
       },
       "pros": [
@@ -508,7 +631,11 @@
       "cons": [
         "Premium pricing"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "wash_cycles": 5,
+      "finishes": [
+        "Black Stainless Steel with PrintShield"
+      ]
     },
     {
       "id": "thermador-dwhd770cfp",
@@ -529,7 +656,10 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.thermador.com/us/en/mkt-product/DWHD770CFP"
+        }
       },
       "pros": [
         "Star-Speed 20-min cycle",
@@ -539,13 +669,19 @@
       "cons": [
         "$2k+"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "wash_cycles": 7,
+      "finishes": [
+        "Stainless Steel"
+      ]
     },
     {
       "id": "cafe-cdt875p4nw2",
       "brand": "cafe",
       "model": "CDT875P4NW2",
       "name": "Café CDT875P4NW2 Matte",
+      "retired": true,
+      "retired_reason": "Discontinued by manufacturer (2026 verification); listed as discontinued by Town Appliance / Best Buy / US Appliance. Inventory may still flow at some retailers.",
       "tub": "stainless",
       "decibels": 39,
       "place_settings": 16,
@@ -582,7 +718,7 @@
       "place_settings": 14,
       "third_rack": "n/a (two drawers)",
       "energy_kwh_yr": 270,
-      "water_gal_cycle": 3.0,
+      "water_gal_cycle": 3,
       "energy_star": true,
       "wifi": true,
       "panel_ready": true,
@@ -714,10 +850,13 @@
       "msrp": 849,
       "street_price": 649,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 69,
+        "cr_reliability": "very-good",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
       },
       "pros": [
         "Whirlpool reliable chassis",
@@ -734,6 +873,8 @@
       "brand": "maytag",
       "model": "MDB8959SKZ",
       "name": "Maytag MDB8959SKZ",
+      "retired": true,
+      "retired_reason": "Discontinued by manufacturer (2026 verification); listed as discontinued by Town Appliance / Plessers / Best Buy / Lowe's.",
       "tub": "stainless",
       "decibels": 47,
       "place_settings": 15,
@@ -745,10 +886,13 @@
       "msrp": 949,
       "street_price": 749,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 66,
+        "cr_reliability": "very-good",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
       },
       "pros": [
         "Dual Power Filtration",
@@ -862,7 +1006,7 @@
       "place_settings": 15,
       "third_rack": "adjustable",
       "energy_kwh_yr": 240,
-      "water_gal_cycle": 3.0,
+      "water_gal_cycle": 3,
       "energy_star": true,
       "wifi": true,
       "msrp": 1099,
@@ -901,7 +1045,22 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 1194,
+            "url": "https://www.bestbuy.com/site/reviews/kitchenaid-24-front-control-built-in-dishwasher-with-stainless-steel-tub-prowash-cycle-3rd-rack-39-dba-stainless-steel/6423224"
+          },
+          "walmart": {
+            "stars": 4.4,
+            "count": 3168,
+            "url": "https://www.walmart.com/reviews/product/826121585"
+          }
+        },
+        "source_urls": {
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.third-level-utensil-rack-dishwasher-with-30+-total-wash-jets,-39-dba.kdte204kps.html"
+        }
       },
       "pros": [
         "PrintShield finish",
@@ -910,7 +1069,12 @@
       "cons": [
         "No Wi-Fi at price"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "wash_cycles": 5,
+      "panel_ready": false,
+      "finishes": [
+        "Stainless Steel with PrintShield"
+      ]
     },
     {
       "id": "miele-g7106scube",
@@ -958,16 +1122,20 @@
       "msrp": 1399,
       "street_price": 1099,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 84,
+        "cr_reliability": "excellent",
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/most-reliable-products/index.htm"
+        }
       },
       "pros": [
         "CrystalDry",
         "42 dB",
-        "Reliable"
+        "Reliable",
+        "CR May/Jun 2026 reliability survey: top dishwasher pick from a top-rated brand"
       ],
       "cons": [
         "Long cycle times"
@@ -979,6 +1147,8 @@
       "brand": "cafe",
       "model": "CDT845P2NS1",
       "name": "Café CDT845P2NS1",
+      "retired": true,
+      "retired_reason": "Discontinued by manufacturer (2026 verification); successor is CDT858P2VS1.",
       "tub": "stainless",
       "decibels": 42,
       "place_settings": 16,
@@ -1170,24 +1340,32 @@
       "msrp": 1799,
       "street_price": 1499,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 85,
+        "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "reviewed_status": "Editor's Choice · Best Upgrade 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
+          "cr": "https://www.consumerreports.org/toppicks/",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2407874"
         }
       },
       "pros": [
         "Panel-ready + CrystalDry",
         "42 dB",
-        "Home Connect"
+        "Home Connect",
+        "CR Nov/Dec 2025 Top Picks: top-rated dishwasher"
       ],
       "cons": [
         "Towel-bar handle required separately"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "wash_cycles": 9,
+      "finishes": [
+        "stainless"
+      ]
     },
     {
       "id": "thermador-dwhd560cfp",
@@ -1199,7 +1377,7 @@
       "place_settings": 15,
       "third_rack": "ChefsTool",
       "energy_kwh_yr": 250,
-      "water_gal_cycle": 3.0,
+      "water_gal_cycle": 3,
       "energy_star": true,
       "wifi": true,
       "msrp": 1799,
@@ -1235,9 +1413,12 @@
       "msrp": 1999,
       "street_price": 1799,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
-        "reviewed": null
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
       },
       "pros": [
         "Hidden controls",
@@ -1447,13 +1628,14 @@
       "msrp": 1699,
       "street_price": 1399,
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 75,
+        "cr_reliability": "very-good",
         "reviewed": null,
         "reviewed_status": "Editor's Choice · Best Drying 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes",
-          "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers",
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
         },
         "yale_reliability_pct": 6.3
       },
@@ -1477,7 +1659,7 @@
       "place_settings": 15,
       "third_rack": "adjustable",
       "energy_kwh_yr": 255,
-      "water_gal_cycle": 3.0,
+      "water_gal_cycle": 3,
       "energy_star": true,
       "wifi": true,
       "msrp": 1099,
@@ -1560,12 +1742,14 @@
       "model": "SGX78C55UC",
       "name": "Bosch 800 Series SGX78C55UC ADA-Compliant",
       "tub": "stainless",
-      "msrp": null,
+      "msrp": 1449,
       "street_price": 1399,
       "ratings": {
         "reviewed_status": "Editor's Choice · Best ADA 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SGX78C55UC",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2624394"
         }
       },
       "pros": [
@@ -1574,7 +1758,19 @@
         "ADA-compliant height"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "decibels": 42,
+      "place_settings": 15,
+      "third_rack": "MyWay",
+      "wash_cycles": 6,
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 3.18,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "finishes": [
+        "stainless"
+      ]
     },
     {
       "id": "bosch-she3aem2n",
@@ -1608,8 +1804,11 @@
       "ratings": {
         "reviewed_status": "Editor's Choice 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers"
-        }
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        },
+        "cr_overall": 80,
+        "cr_reliability": "very-good"
       },
       "pros": [
         "Reviewed.com: 'Great balance between price and performance'",
@@ -1624,20 +1823,39 @@
       "model": "SHP65CM5N",
       "name": "Bosch 500 Series SHP65CM5N",
       "tub": "stainless",
-      "msrp": null,
+      "msrp": 1299,
       "street_price": 999,
       "ratings": {
         "reviewed_status": "Recommended · Best Drying (500 Series) 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
-        }
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes",
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/SHP65CM5N",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2407861"
+        },
+        "cr_overall": 79,
+        "cr_reliability": "very-good"
       },
       "pros": [
         "AutoAir door-pop for condensation drying",
         "Reviewed.com: 'good cleaning power', slightly behind 800 Series"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": "MyWay",
+      "wash_cycles": 8,
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "finishes": [
+        "stainless",
+        "white",
+        "black"
+      ]
     },
     {
       "id": "miele-g5266scvi-sfp",
@@ -1694,12 +1912,13 @@
       "decibels": 38,
       "wifi": true,
       "panel_ready": true,
-      "msrp": null,
+      "msrp": 999,
       "street_price": 999,
       "ratings": {
         "reviewed_status": "Editor's Choice · Open-Kitchen Pick 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/38-dba-bespoke-smart-dishwasher-with-3rd-rack-washing-system-in-fingerprint-resistant-stainless-steel-dw90f89p0usraa/"
         }
       },
       "pros": [
@@ -1708,7 +1927,15 @@
         "Extensive wash cycle options"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "place_settings": 16,
+      "third_rack": "StormWash+ 3rd Rack",
+      "wash_cycles": 10,
+      "energy_kwh_yr": 225,
+      "energy_star": true,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ]
     },
     {
       "id": "ge-profile-pdp755syvfs",
@@ -1767,8 +1994,11 @@
       "ratings": {
         "reviewed_status": "Affordable pick 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
-        }
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers",
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        },
+        "cr_overall": 65,
+        "cr_reliability": "very-good"
       },
       "pros": [
         "Black-stainless finish",
@@ -1789,16 +2019,1665 @@
       "ratings": {
         "reviewed_status": "Best Under $500 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
-        }
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers",
+          "cr": "https://www.consumerreports.org/cro/most-reliable-products/index.htm"
+        },
+        "cr_reliability": "fair"
       },
       "pros": [
         "Reviewed.com: 'Best Under $500'",
         "Adjustable-height upper rack + stemware holders",
-        "SmartThings integration"
+        "SmartThings integration",
+        "CR May/Jun 2026: flagged as less dependable in CR survey"
       ],
       "cons": [],
       "release_year": null
+    },
+    {
+      "id": "bosch-shx5aem5n",
+      "brand": "bosch",
+      "model": "SHX5AEM5N",
+      "name": "Bosch 100 Series SHX5AEM5N",
+      "tub": "stainless",
+      "decibels": 46,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 999,
+      "street_price": 899,
+      "ratings": {
+        "cr_overall": 81,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/mkt-product/dishwashers/top-controls/SHX5AEM5N",
+          "lowes": "https://www.lowes.com/pd/Bosch-100-Series-Premium-Top-Control-24-in-Smart-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-46-dBA/5014401277"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "url": "https://www.lowes.com/pd/Bosch-100-Series-Premium-Top-Control-24-in-Smart-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-46-dBA/5014401277"
+          },
+          "best_buy": {
+            "url": "https://www.bestbuy.com/site/bosch-100-series-premium-24-top-control-smart-built-in-hybrid-stainless-steel-tub-dishwasher-with-3rd-rack-46-dba-stainless-steel/6543005.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "stainless"
+      ]
+    },
+    {
+      "id": "miele-g7196scvisf",
+      "brand": "miele",
+      "model": "G7196SCVISF",
+      "name": "Miele G 7196 SCVi SF Panel-Ready",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "3D MultiFlex",
+      "energy_kwh_yr": 210,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 2399,
+      "street_price": 2174,
+      "ratings": {
+        "cr_overall": 80,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.mieleusa.com/product/12496710/fully-integrated-dishwashers-in-standard-size-g-7196-scvi-sf-autodos-stainless-steel",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2679743"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 9,
+      "finishes": [
+        "stainless"
+      ]
+    },
+    {
+      "id": "miele-g7176scvi",
+      "brand": "miele",
+      "model": "G7176SCVI",
+      "name": "Miele G 7176 SCVi Panel-Ready",
+      "tub": "stainless",
+      "decibels": 43,
+      "place_settings": 16,
+      "third_rack": "3D MultiFlex",
+      "energy_kwh_yr": 230,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 1849,
+      "street_price": 1849,
+      "ratings": {
+        "cr_overall": 79,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.mieleusa.com/e/fully-integrated-dishwasher-xxl-g-7176-scvi-xxl-sf-autodos-stainless-steel-12021290-p",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508387"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "url": "https://www.lowes.com/pd/Miele-Top-Control-24-in-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-43-Decibel/5013768997"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "finishes": [
+        "panel-ready",
+        "stainless"
+      ]
+    },
+    {
+      "id": "thermador-dwhd661efp",
+      "brand": "thermador",
+      "model": "DWHD661EFP",
+      "name": "Thermador Star Sapphire DWHD661EFP",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "Chef's Tool Drawer",
+      "energy_kwh_yr": 213,
+      "water_gal_cycle": 2.35,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 2499,
+      "street_price": 2499,
+      "ratings": {
+        "cr_overall": 78,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/3398257"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 7,
+      "finishes": [
+        "stainless"
+      ]
+    },
+    {
+      "id": "lg-adfd5448at",
+      "brand": "lg",
+      "model": "ADFD5448AT",
+      "name": "LG ADFD5448AT QuadWash Pro",
+      "tub": "stainless",
+      "decibels": 48,
+      "place_settings": 14,
+      "third_rack": null,
+      "energy_kwh_yr": 258,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 1049,
+      "street_price": 749,
+      "ratings": {
+        "cr_overall": 78,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/dishwashers/lg-adfd5448at-front-control-dishwasher",
+          "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 3.9,
+            "count": 41,
+            "url": "https://www.bestbuy.com/site/lg-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-quadwash-and-48dba-stainless-steel/6432240.p"
+          },
+          "home_depot": {
+            "url": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 9,
+      "finishes": [
+        "stainless"
+      ]
+    },
+    {
+      "id": "lg-ldfc353ls",
+      "brand": "lg",
+      "model": "LDFC353LS",
+      "name": "LG LDFC353LS Front Control",
+      "tub": "stainless",
+      "decibels": 50,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 238,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": null,
+      "panel_ready": false,
+      "msrp": null,
+      "street_price": 830,
+      "ratings": {
+        "cr_overall": 77,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfc353ls-front-control-dishwasher",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/3360716",
+          "lowes": "https://www.lowes.com/pd/LG-LoDecibel-Built-In-Dishwasher/5014911909"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "stainless"
+      ]
+    },
+    {
+      "id": "kitchenaid-kdfe204kps",
+      "brand": "kitchenaid",
+      "model": "KDFE204KPS",
+      "name": "KitchenAid KDFE204KPS Front Control",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 13,
+      "third_rack": "basic",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 1379,
+      "street_price": 849,
+      "ratings": {
+        "cr_overall": 77,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/front-controls/p.39-dba-dishwasher-in-printshield-finish-with-third-level-utensil-rack.kdfe204kps.html",
+          "home_depot": "https://www.homedepot.com/p/KitchenAid-24-in-PrintShield-Stainless-Steel-Front-Control-Tall-Tub-Dishwasher-with-Stainless-Steel-Tub-39-DBA-KDFE204KPS/313572055",
+          "lowes": "https://www.lowes.com/pd/KitchenAid-39-Decibel-Front-Control-24-in-Built-In-Dishwasher-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR/5000001255"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 701,
+            "url": "https://www.bestbuy.com/site/kitchenaid-24-front-control-built-in-dishwasher-with-stainless-steel-tub-printshield-finish-3rd-rack-39-dba-stainless-steel/6420936.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "stainless",
+        "white",
+        "black",
+        "black-stainless"
+      ]
+    },
+    {
+      "id": "lg-ldth555ns",
+      "brand": "lg",
+      "model": "LDTH555NS",
+      "name": "LG LDTH555NS QuadWash Pro",
+      "tub": "stainless",
+      "decibels": 46,
+      "place_settings": 15,
+      "third_rack": "basic",
+      "energy_kwh_yr": 238,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 1199,
+      "street_price": 974,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldth555ns-top-control-dishwasher",
+          "home_depot": "https://www.homedepot.com/p/LG-24-in-Top-Control-Smart-Wi-Fi-Enabled-Dishwasher-QuadWash-Pro-Dynamic-Heat-Dry-3rd-Rack-in-PrintProof-Stainless-Steel-LDTH555NS/333439434"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 207,
+            "url": "https://www.bestbuy.com/product/lg-24-top-control-smart-built-in-tub-dishwasher-with-3rd-rack-quadwash-pro-and-46db-stainless-steel/J7G56588H4"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 9,
+      "finishes": [
+        "stainless",
+        "black-stainless"
+      ]
+    },
+    {
+      "id": "miele-g7186scvi",
+      "brand": "miele",
+      "model": "G7186SCVI",
+      "name": "Miele G 7186 SCVi Panel-Ready",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "3D MultiFlex",
+      "energy_kwh_yr": 210,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 2199,
+      "street_price": 1949,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2679740"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 9,
+      "finishes": [
+        "panel-ready"
+      ]
+    },
+    {
+      "id": "kitchenaid-kdtf924pps",
+      "brand": "kitchenaid",
+      "model": "KDTF924PPS",
+      "name": "KitchenAid KDTF924PPS Wash & Dry",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 1798,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "midea-mdt24p3cst",
+      "brand": "midea",
+      "model": "MDT24P3CST",
+      "name": "Midea MDT24P3CST Smart",
+      "tub": null,
+      "decibels": 47,
+      "place_settings": 16,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 649,
+      "street_price": 529,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-24--top-control-dishwasher-with-3-stage-total-drying.mdt24p3cst",
+          "lowes": "https://www.lowes.com/pd/Midea-24-built-in-dishwasher-47dBA-SS/5015622687"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "stars": 4.4,
+            "count": 678,
+            "url": "https://www.lowes.com/pd/Midea-24-built-in-dishwasher-47dBA-SS/5015622687"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Stainless Steel"
+      ]
+    },
+    {
+      "id": "lg-ldfc2423v",
+      "brand": "lg",
+      "model": "LDFC2423V",
+      "name": "LG LDFC2423V Front Control",
+      "tub": "stainless",
+      "decibels": 52,
+      "place_settings": 15,
+      "third_rack": null,
+      "energy_kwh_yr": 238,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 699,
+      "street_price": 445,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfc2423v-front-control-dishwasher",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2406462"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Stainless Look",
+        "Black",
+        "White"
+      ]
+    },
+    {
+      "id": "lg-ldpn454ht",
+      "brand": "lg",
+      "model": "LDPN454HT",
+      "name": "LG LDPN454HT (Home Depot)",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 619,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-ldph5554s",
+      "brand": "lg",
+      "model": "LDPH5554S",
+      "name": "LG LDPH5554S Hybrid",
+      "tub": "stainless",
+      "decibels": 46,
+      "place_settings": 15,
+      "third_rack": null,
+      "energy_kwh_yr": 238,
+      "water_gal_cycle": 2.9,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 1199,
+      "street_price": 749,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher",
+          "spec_sheet": "https://static.pcrichard.com/docs/LDPH5554S_Specifications-Sheet_01.pdf"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 197,
+            "url": "https://www.bestbuy.com/site/lg-24-top-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-quadwash-pro-and-46db-stainless-steel/6570943.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 9,
+      "finishes": [
+        "Print Proof Stainless Steel",
+        "Print Proof Black Stainless Steel"
+      ]
+    },
+    {
+      "id": "midea-mdf24p2bww",
+      "brand": "midea",
+      "model": "MDF24P2BWW",
+      "name": "Midea MDF24P2BWW (Lowe's)",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 399,
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "midea-mdt24p5ast",
+      "brand": "midea",
+      "model": "MDT24P5AST",
+      "name": "Midea MDT24P5AST",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 800,
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-she43c75n",
+      "brand": "bosch",
+      "model": "SHE43C75N",
+      "name": "Bosch 300 Series SHE43C75N (Best Buy)",
+      "tub": "stainless",
+      "decibels": 48,
+      "place_settings": 14,
+      "third_rack": null,
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": null,
+      "energy_star": false,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 1000,
+      "street_price": 640,
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/SHE43C75N",
+          "spec_sheet": "https://media3.bosch-home.com/Documents/25331514_SHE43C75N_Spec_Sheet.pdf"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 151,
+            "url": "https://www.bestbuy.com/site/bosch-300-series-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-48-dba/6602423.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "finishes": [
+        "Stainless Steel"
+      ]
+    },
+    {
+      "id": "thermador-dwhd640efm",
+      "brand": "thermador",
+      "model": "DWHD640EFM",
+      "name": "Thermador Emerald DWHD640EFM",
+      "tub": "stainless",
+      "decibels": 48,
+      "place_settings": 16,
+      "third_rack": "Chef's Tool Drawer",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 1399,
+      "street_price": 1475,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 8,
+            "url": "https://www.bestbuy.com/site/searchpage.jsp?st=DWHD640EFM"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 6,
+      "finishes": [
+        "stainless"
+      ]
+    },
+    {
+      "id": "whirlpool-wdp730hamz",
+      "brand": "whirlpool",
+      "model": "WDP730HAMZ",
+      "name": "Whirlpool WDP730HAMZ",
+      "tub": null,
+      "decibels": 51,
+      "place_settings": 14,
+      "third_rack": null,
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 829,
+      "street_price": 738,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.quiet-dishwasher-with-3rd-rack-and-pocket-handle.wdp730hamz.html",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2448382"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ]
+    },
+    {
+      "id": "miele-g5051scvi",
+      "brand": "miele",
+      "model": "G5051SCVI",
+      "name": "Miele G 5051 SCVi",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": null,
+      "energy_kwh_yr": 230,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": true,
+      "msrp": 1349,
+      "street_price": 1299,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508391"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Panel Ready"
+      ]
+    },
+    {
+      "id": "bosch-she41cm5n",
+      "brand": "bosch",
+      "model": "SHE41CM5N",
+      "name": "Bosch 300 Series SHE41CM5N",
+      "tub": "stainless",
+      "decibels": 48,
+      "place_settings": 12,
+      "third_rack": null,
+      "energy_kwh_yr": 269,
+      "water_gal_cycle": 3.5,
+      "energy_star": false,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 849,
+      "street_price": 699,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N",
+          "spec_sheet": "https://media3.bosch-home.com/Documents/24579307_SHE41CM5N_Spec_Sheet.pdf"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 61,
+            "url": "https://www.bestbuy.com/site/bosch-300-series-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-precisionwash-48-dba-stainless-steel/6582505.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Stainless Steel"
+      ]
+    },
+    {
+      "id": "miele-g5056scvisf",
+      "brand": "miele",
+      "model": "G5056SCVISF",
+      "name": "Miele G 5056 SCVi SF Panel-Ready",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": null,
+      "energy_kwh_yr": 230,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": null,
+      "street_price": 1499,
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.mieleusa.com/product/11695330/fully-integrated-dishwashers-in-standard-size-g-5056-scvi-sf-stainless-steel",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508393"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Stainless Steel"
+      ]
+    },
+    {
+      "id": "unique-appliances-ugp-24crdw",
+      "brand": "unique-appliances",
+      "model": "UGP-24CRDW",
+      "name": "Unique Appliances UGP-24CR DW",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 1599,
+      "ratings": {
+        "cr_overall": 72,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-gdsh4715af",
+      "brand": "frigidaire",
+      "model": "GDSH4715AF",
+      "name": "Frigidaire GDSH4715AF",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 748,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "insignia-ns-dwr3ss1",
+      "brand": "insignia",
+      "model": "NS-DWR3SS1",
+      "name": "Insignia NS-DWR3SS1",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 550,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wdt550sapz",
+      "brand": "whirlpool",
+      "model": "WDT550SAPZ",
+      "name": "Whirlpool WDT550SAPZ",
+      "tub": null,
+      "decibels": 44,
+      "place_settings": 14,
+      "third_rack": null,
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 1049,
+      "street_price": 938,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.44-dba-ada-compliant-dishwasher-flush-with-cabinets-with-3rd-rack.wdt550sapz.html",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2635759"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "stars": 4.2,
+            "count": 88,
+            "url": "https://www.lowes.com/pd/Whirlpool-Top-Control-24-in-Built-In-Dishwasher-With-Third-Rack-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR-44-dBA/5015030633"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel",
+        "Black",
+        "White"
+      ]
+    },
+    {
+      "id": "maytag-mdts4224pz",
+      "brand": "maytag",
+      "model": "MDTS4224PZ",
+      "name": "Maytag MDTS4224PZ",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 698,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kitchenaid-kdpm604kps",
+      "brand": "kitchenaid",
+      "model": "KDPM604KPS",
+      "name": "KitchenAid KDPM604KPS",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": "FreeFlex",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": 3.5,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 1304,
+      "street_price": 1156,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.44-dba-dishwasher-in-printshield-finish-with-freeflex-third-rack.kdpm604kps.html"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": 2020,
+      "wash_cycles": 5,
+      "finishes": [
+        "PrintShield Stainless Steel"
+      ]
+    },
+    {
+      "id": "samsung-dw80bb707012",
+      "brand": "samsung",
+      "model": "DW80BB707012",
+      "name": "Samsung Bespoke DW80BB707012",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 15,
+      "third_rack": "FlexLoad 3rd Rack",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 929,
+      "street_price": 749,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/bespoke-smart-42dba-dishwasher-with-stormwash-and-smart-dry-in-white-glass-dw80bb707012aa/"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 7,
+      "finishes": [
+        "White Glass"
+      ]
+    },
+    {
+      "id": "sharp-sdw6506js",
+      "brand": "sharp",
+      "model": "SDW6506JS",
+      "name": "Sharp SDW6506JS",
+      "tub": "plastic",
+      "decibels": 49,
+      "place_settings": 14,
+      "third_rack": "3rd rack for utensils",
+      "energy_kwh_yr": 240,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 899,
+      "street_price": 700,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2485662"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Stainless Steel"
+      ]
+    },
+    {
+      "id": "asko-dbi564ixxls",
+      "brand": "asko",
+      "model": "DBI564IXXLS",
+      "name": "Asko DBI564IXXLS",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 16,
+      "third_rack": "Three-level Flexi Racks",
+      "energy_kwh_yr": 220,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 1499,
+      "street_price": 1249,
+      "ratings": {
+        "cr_overall": 69,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://us.asko.com/products/kitchen/dishwashers/touchproof-stainless-steel/DISHWASH-DW60-2-DBI564IXXLS-U-ASK/p/000000000000740106"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 9,
+      "finishes": [
+        "Stainless Steel"
+      ]
+    },
+    {
+      "id": "insignia-ns-dwrf2ss3",
+      "brand": "insignia",
+      "model": "NS-DWRF2SS3",
+      "name": "Insignia NS-DWRF2SS3",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 450,
+      "ratings": {
+        "cr_overall": 69,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "sharp-sdw6767hs",
+      "brand": "sharp",
+      "model": "SDW6767HS",
+      "name": "Sharp SDW6767HS",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 729,
+      "ratings": {
+        "cr_overall": 69,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kitchenaid-kdtm704kps",
+      "brand": "kitchenaid",
+      "model": "KDTM704KPS",
+      "name": "KitchenAid KDTM704KPS",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 16,
+      "third_rack": "FreeFlex",
+      "energy_kwh_yr": 270,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 1449,
+      "street_price": 1478,
+      "ratings": {
+        "cr_overall": 69,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.360%C2%B0-max-jets-third-rack-dishwasher-with-ultra-bright-led-lighting,-44-dba.kdtm704kps.html"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "PrintShield Stainless Steel"
+      ]
+    },
+    {
+      "id": "sharp-sdw6757es",
+      "brand": "sharp",
+      "model": "SDW6757ES",
+      "name": "Sharp SDW6757ES",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 679,
+      "ratings": {
+        "cr_overall": 68,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "samsung-dw80r9950ug",
+      "brand": "samsung",
+      "model": "DW80R9950UG",
+      "name": "Samsung DW80R9950UG",
+      "tub": "stainless",
+      "decibels": 39,
+      "place_settings": 15,
+      "third_rack": "Flexible 3rd Rack",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 1299,
+      "street_price": 814,
+      "ratings": {
+        "cr_overall": 68,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/linear-wash/linear-wash-39dba-dishwasher-in-black-stainless-steel-dw80r9950ug-aa/"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 7,
+      "finishes": [
+        "Fingerprint Resistant Black Stainless Steel"
+      ]
+    },
+    {
+      "id": "frigidaire-gdsp471taf",
+      "brand": "frigidaire",
+      "model": "GDSP471TAF",
+      "name": "Frigidaire GDSP471TAF (Home Depot)",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 678,
+      "ratings": {
+        "cr_overall": 68,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-fdsh4501as",
+      "brand": "frigidaire",
+      "model": "FDSH4501AS",
+      "name": "Frigidaire FDSH4501AS",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 649,
+      "ratings": {
+        "cr_overall": 67,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wdps7024rz",
+      "brand": "whirlpool",
+      "model": "WDPS7024RZ",
+      "name": "Whirlpool WDPS7024RZ (Home Depot)",
+      "tub": "stainless",
+      "decibels": 41,
+      "place_settings": 15,
+      "third_rack": "Washing 3rd Rack",
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": false,
+      "wifi": false,
+      "panel_ready": false,
+      "msrp": 797,
+      "street_price": 698,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/comparison-chart.html"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 5,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ]
+    },
+    {
+      "id": "samsung-dw80cg5451sr",
+      "brand": "samsung",
+      "model": "DW80CG5451SR",
+      "name": "Samsung DW80CG5451SR",
+      "tub": "stainless",
+      "decibels": 46,
+      "place_settings": 15,
+      "third_rack": "3rd Rack",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 3.2,
+      "energy_star": true,
+      "wifi": true,
+      "panel_ready": false,
+      "msrp": 899,
+      "street_price": 599,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/all-dishwashers/24-built-in-dishwasher-with-stormwash-in-fingerprint-resistant-stainless-steel-dw80cg5451sr-aa/",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2453103"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 7,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ]
+    },
+    {
+      "id": "sharp-sdw6888js",
+      "brand": "sharp",
+      "model": "SDW6888JS",
+      "name": "Sharp SDW6888JS",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 799,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wdf341papm",
+      "brand": "whirlpool",
+      "model": "WDF341PAPM",
+      "name": "Whirlpool WDF341PAPM",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 399,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-pdsh4816af",
+      "brand": "frigidaire",
+      "model": "PDSH4816AF",
+      "name": "Frigidaire Professional PDSH4816AF",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 898,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "cafe-cdp888m5vs5",
+      "brand": "cafe",
+      "model": "CDP888M5VS5",
+      "name": "Café CDP888M5VS5",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 1715,
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wdp540hamz",
+      "brand": "whirlpool",
+      "model": "WDP540HAMZ",
+      "name": "Whirlpool WDP540HAMZ",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 479,
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kitchenaid-kdte104kps",
+      "brand": "kitchenaid",
+      "model": "KDTE104KPS",
+      "name": "KitchenAid KDTE104KPS",
+      "tub": null,
+      "decibels": null,
+      "place_settings": null,
+      "third_rack": null,
+      "energy_kwh_yr": null,
+      "water_gal_cycle": null,
+      "energy_star": null,
+      "wifi": null,
+      "panel_ready": null,
+      "msrp": null,
+      "street_price": 779,
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "fisher-paykel-dd24dtx6hi1",
+      "brand": "fisher-paykel",
+      "model": "DD24DTX6HI1",
+      "name": "Fisher & Paykel DD24DTX6HI1 DishDrawer",
+      "tub": "stainless",
+      "decibels": 44,
+      "place_settings": 14,
+      "third_rack": "Double DishDrawer (no traditional 3rd rack)",
+      "energy_kwh_yr": 239,
+      "water_gal_cycle": 3.7,
+      "energy_star": null,
+      "wifi": true,
+      "panel_ready": true,
+      "msrp": 3099,
+      "street_price": 2599,
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://www.fisherpaykel.com/us/dishwashing/integrated-dishwashers/series-11-integrated-tall-double-dishdrawer-dishwasher-dd24dtx6hi1-82163.html"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 8,
+      "finishes": [
+        "Panel Ready"
+      ]
+    },
+    {
+      "id": "bertazzoni-dw24s3ipv",
+      "brand": "bertazzoni",
+      "model": "DW24S3IPV",
+      "name": "Bertazzoni Professional DW24S3IPV",
+      "tub": "stainless",
+      "decibels": 42,
+      "place_settings": 15,
+      "third_rack": "flexible 3rd rack with dedicated spray arm",
+      "energy_kwh_yr": 234,
+      "water_gal_cycle": null,
+      "energy_star": true,
+      "wifi": false,
+      "panel_ready": true,
+      "msrp": null,
+      "street_price": 999,
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "manufacturer": "https://us.bertazzoni.com/products/professional-series/dishwashers/24-inch-dishwasher-standard-tube-panel-ready"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "wash_cycles": 6,
+      "finishes": [
+        "Panel Ready"
+      ]
     }
   ]
 }

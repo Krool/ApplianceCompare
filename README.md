@@ -72,7 +72,7 @@ The score shown in the table is a weighted blend of:
 
 | Axis | Default weight | What it pulls from |
 | --- | --- | --- |
-| Quality | 30 | Mean of available 0–100-normalized sources: CR overall, Reviewed, Rtings, CNET, GH (numeric), and retailer star averages |
+| Quality | 30 | Mean of available 0–100-normalized sources: CR overall, Reviewed, Rtings, CNET, GH (numeric), Tom's Guide, and retailer star averages |
 | Reliability | 30 | Yale service rate (model-specific, falls back to brand rate) |
 | Price | 25 | Log curve on street price, anchored around $500 |
 | Repairability | 15 | 0–100 ease-of-repair score (model-specific, falls back to brand) — sourced from Yale tech notes, parts-availability, and design factors (modular vs. board-driven) |

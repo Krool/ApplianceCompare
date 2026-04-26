@@ -79,7 +79,10 @@
         "cr_reliability": null,
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmvs2806s-french-4-door-refrigerator"
+        }
       },
       "pros": [
         "InstaView glass panel",
@@ -90,7 +93,8 @@
         "External dispenser = top failure point",
         "Fingerprint magnet even printproof"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "compressor": "Linear Inverter"
     },
     {
       "id": "lg-lrfls2703s",
@@ -153,10 +157,14 @@
         "stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 77,
+        "cr_reliability": "very-good",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lbnc15231v-bottom-freezer-refrigerator"
+        }
       },
       "pros": [
         "Apartment-friendly 24\"",
@@ -167,7 +175,8 @@
         "Tiny freezer",
         "No ice"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "compressor": "Inverter Linear"
     },
     {
       "id": "lg-ltcs20020s",
@@ -194,7 +203,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 1982,
+            "url": "https://www.bestbuy.com/product/lg-20-2-cu-ft-top-freezer-refrigerator-stainless-steel/J7G56FP6GX"
+          }
+        },
+        "source_urls": {
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-ltcs20020s-top-freezer-refrigerator",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2346451"
+        }
       },
       "pros": [
         "Cheap",
@@ -205,7 +225,8 @@
         "No icemaker",
         "Basic features"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "compressor": "Inverter"
     },
     {
       "id": "bosch-b36ct80sns",
@@ -230,8 +251,8 @@
         "black stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 73,
+        "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "wirecutter": null,
         "reviewed": null,
@@ -239,7 +260,9 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-b36ct80sns/m399238/",
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2",
-          "rtings": "https://www.rtings.com/refrigerator/reviews/best/counter-depth"
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/counter-depth",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CT80SNS",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2371900"
         },
         "reviewed_status": "Editor's Choice · Best Counter-Depth 2026"
       },
@@ -263,7 +286,7 @@
       "style": "bottom_freezer",
       "depth": "counter",
       "width_in": 36,
-      "capacity_cf": 20.0,
+      "capacity_cf": 20,
       "msrp": 3499,
       "street_price": 2999,
       "energy_kwh_yr": 640,
@@ -279,7 +302,10 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.bosch-home.com/us/en/mkt-product/B36BT935NS"
+        }
       },
       "pros": [
         "Bottom freezer = more reliable than French door",
@@ -290,7 +316,8 @@
         "No water dispenser",
         "Premium price for basic features"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "compressor": "dual"
     },
     {
       "id": "bosch-b36it905np",
@@ -313,10 +340,22 @@
         "panel-ready"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 77,
+        "cr_reliability": "very-good",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/B36IT905NP",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2365294"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 2,
+            "url": "https://www.bestbuy.com/site/reviews/bosch-benchmark-series-19-4-cu-ft-french-door-built-in-smart-refrigerator-custom-panel-ready/6439376"
+          }
+        }
       },
       "pros": [
         "True built-in at half Sub-Zero price",
@@ -327,7 +366,8 @@
         "Very expensive",
         "Small freezer"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "compressor": "dual"
     },
     {
       "id": "ge-pfe28kynfs",
@@ -338,16 +378,17 @@
       "depth": "standard",
       "width_in": 36,
       "capacity_cf": 27.7,
-      "msrp": 3299,
+      "msrp": 3699,
       "street_price": 2299,
-      "energy_kwh_yr": 776,
+      "energy_kwh_yr": 725,
       "energy_star": true,
       "noise_db": 44,
-      "icemaker": "dual (Autofill pitcher)",
-      "water_dispenser": "external",
+      "icemaker": "internal autofill",
+      "water_dispenser": "internal_autofill",
       "wifi": true,
       "finishes": [
-        "fingerprint-resistant stainless",
+        "fingerprint resistant stainless",
+        "black stainless",
         "slate"
       ],
       "ratings": {
@@ -355,7 +396,17 @@
         "cr_reliability": null,
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-27-7-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-with-Hands-Free-AutoFill-PFE28KYNFS"
+        },
+        "retailer_ratings": {
+          "home_depot": {
+            "stars": 4.2,
+            "count": 3930,
+            "url": "https://www.homedepot.com/p/reviews/GE-Profile-27-7-cu-ft-French-Door-Refrigerator-with-Autofill-in-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR-PFE28KYNFS/312648548"
+          }
+        }
       },
       "pros": [
         "Huge capacity",
@@ -379,24 +430,24 @@
       "capacity_cf": 27.8,
       "msrp": 3899,
       "street_price": 3199,
-      "energy_kwh_yr": 770,
+      "energy_kwh_yr": 757,
       "energy_star": true,
       "noise_db": 43,
-      "icemaker": "dual (Autofill, hot water)",
-      "water_dispenser": "external (hot+cold+filtered)",
+      "icemaker": "internal",
+      "water_dispenser": "internal_autofill",
       "wifi": true,
       "finishes": [
-        "matte white",
-        "matte black",
-        "stainless",
-        "custom hardware"
+        "matte white with brushed bronze"
       ],
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-ENERGY-STAR-27-8-Cu-Ft-Smart-4-Door-French-Door-Refrigerator-CVE28DP4NW2"
+        }
       },
       "pros": [
         "Matte white / matte black options",
@@ -417,7 +468,7 @@
       "style": "french_door",
       "depth": "standard",
       "width_in": 36,
-      "capacity_cf": 27.0,
+      "capacity_cf": 27,
       "msrp": 2799,
       "street_price": 1899,
       "energy_kwh_yr": 780,
@@ -430,10 +481,26 @@
         "fingerprint-resistant stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 73,
+        "cr_reliability": "fair",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-27-0-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-GNE27JYMFS"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "stars": 4.4,
+            "count": 13956,
+            "url": "https://www.lowes.com/pd/GE-27-cu-ft-French-Door-Refrigerator-with-Ice-Maker-Fingerprint-resistant-Stainless-Steel-ENERGY-STAR/5013703269"
+          },
+          "best_buy": {
+            "stars": 4.4,
+            "count": 896,
+            "url": "https://www.bestbuy.com/site/reviews/ge-27-0-cu-ft-french-door-refrigerator-with-internal-water-dispenser-stainless-steel/6498111"
+          }
+        }
       },
       "pros": [
         "Good value French door",
@@ -546,10 +613,22 @@
         "fingerprint-resistant stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 70,
+        "cr_reliability": "fair",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/french-door/p.36-inch-wide-french-door-refrigerator-25-cu.-ft.wrf555sdfz.html",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2263424"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 913,
+            "url": "https://www.bestbuy.com/site/whirlpool-24-7-cu-ft-french-door-refrigerator-stainless-steel/5812015.p"
+          }
+        }
       },
       "pros": [
         "Legendary reliability reputation",
@@ -570,7 +649,7 @@
       "style": "top_freezer",
       "depth": "standard",
       "width_in": 30,
-      "capacity_cf": 20.0,
+      "capacity_cf": 20,
       "msrp": 849,
       "street_price": 699,
       "energy_kwh_yr": 418,
@@ -626,9 +705,12 @@
         "fingerprint-resistant stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
-        "reviewed": null
+        "cr_overall": 60,
+        "cr_reliability": "fair",
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
       },
       "pros": [
         "Huge capacity",
@@ -665,7 +747,10 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/refrigeration/refrigerators/french-door-refrigerators/p.26.8-cu.-ft.-36-inch-width-standard-depth-french-door-refrigerator-with-exterior-ice-and-water-and-printshield-finish.krff507hps.html"
+        }
       },
       "pros": [
         "Nice interior finishes",
@@ -686,7 +771,7 @@
       "style": "bottom_freezer",
       "depth": "counter",
       "width_in": 30,
-      "capacity_cf": 19.0,
+      "capacity_cf": 19,
       "msrp": 2999,
       "street_price": 2399,
       "energy_kwh_yr": 620,
@@ -701,7 +786,10 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/refrigeration/freestanding-refrigerators/freestanding-bottom-freezer/p.19-cu.-ft.-30-inch-width-full-depth-non-dispense-bottom-mount-refrigerator.krbr109ess.html"
+        }
       },
       "pros": [
         "30\" counter-depth bottom freezer is rare",
@@ -722,7 +810,7 @@
       "style": "french_door",
       "depth": "standard",
       "width_in": 36,
-      "capacity_cf": 29.0,
+      "capacity_cf": 29,
       "msrp": 3999,
       "street_price": 2799,
       "energy_kwh_yr": 742,
@@ -738,7 +826,17 @@
         "cr_overall": null,
         "cr_reliability": null,
         "reviewed": null,
-        "wirecutter": null
+        "wirecutter": null,
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.7,
+            "count": 1959,
+            "url": "https://www.bestbuy.com/product/samsung-bespoke-29-cu-ft-4-door-french-door-smart-refrigerator-with-beverage-center-custom-panel-ready/J3ZYG22FFC"
+          }
+        },
+        "source_urls": {
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-4-door-french-door-refrigerator-29-cu-ft-with-beverage-center-in-stainless-steel-rf29bb8600qlaa/"
+        }
       },
       "pros": [
         "Stunning customizable colors",
@@ -750,7 +848,8 @@
         "Ice maker complaints common",
         "Expensive parts"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "compressor": "digital inverter"
     },
     {
       "id": "samsung-rf23a9071sr",
@@ -1060,7 +1159,7 @@
       "style": "column",
       "depth": "built_in",
       "width_in": 72,
-      "capacity_cf": 30.0,
+      "capacity_cf": 30,
       "msrp": 15999,
       "street_price": 14499,
       "energy_kwh_yr": 780,
@@ -1353,7 +1452,7 @@
       "style": "french_door",
       "depth": "counter",
       "width_in": 36,
-      "capacity_cf": 17.0,
+      "capacity_cf": 17,
       "msrp": 2199,
       "street_price": 1799,
       "energy_kwh_yr": 580,
@@ -1402,10 +1501,13 @@
         "fingerprint-resistant stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 75,
+        "cr_reliability": "fair",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
       },
       "pros": [
         "Good capacity for price",
@@ -1439,11 +1541,28 @@
         "matte black"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 77,
+        "cr_reliability": "fair",
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmxs2806s-french-4-door-refrigerator",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2370341"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 96,
+            "url": "https://www.bestbuy.com/site/lg-28-cu-ft-4-door-french-door-smart-refrigerator-with-dual-ice-with-craft-ice-and-double-freezer-stainless-steel/6452814.p"
+          },
+          "lowes": {
+            "stars": 4.4,
+            "count": 2467,
+            "url": "https://www.lowes.com/pd/LG-Craft-Ice-Smart-WiFi-Enabled-27-8-cu-ft-4-Door-French-Door-Refrigerator-with-Dual-Ice-Maker-Fingerprint-Resistant-ENERGY-STAR/5014118855"
+          }
+        }
       },
       "pros": [
         "Standard-depth capacity, counter-depth body",
@@ -1454,7 +1573,8 @@
         "Feature-heavy = more to break",
         "Craft ice is slow"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "compressor": "smart inverter linear"
     },
     {
       "id": "cafe-cye22tp4mw2",
@@ -1577,7 +1697,7 @@
       "style": "french_door",
       "depth": "built_in",
       "width_in": 36,
-      "capacity_cf": 20.0,
+      "capacity_cf": 20,
       "msrp": 6999,
       "street_price": 5999,
       "energy_kwh_yr": 720,
@@ -1725,7 +1845,7 @@
       "style": "french_door",
       "depth": "counter",
       "width_in": 36,
-      "capacity_cf": 23.0,
+      "capacity_cf": 23,
       "msrp": 3499,
       "street_price": 2599,
       "energy_kwh_yr": 720,
@@ -1835,7 +1955,7 @@
       "style": "bottom_freezer",
       "depth": "counter",
       "width_in": 28,
-      "capacity_cf": 15.0,
+      "capacity_cf": 15,
       "msrp": 1799,
       "street_price": 1499,
       "energy_kwh_yr": 480,
@@ -1848,9 +1968,12 @@
         "stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
-        "reviewed": null
+        "cr_overall": 70,
+        "cr_reliability": "unrated",
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
       },
       "pros": [
         "28\" counter-depth",
@@ -1885,12 +2008,14 @@
         "printproof stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "garage_ready": "https://www.lowes.com/pd/LG-Garage-Ready-Internal-Water-Dispenser-23-8-cu-ft-Top-Freezer-Refrigerator-Stainless-Steel-ENERGY-STAR/5001931889"
+          "garage_ready": "https://www.lowes.com/pd/LG-Garage-Ready-Internal-Water-Dispenser-23-8-cu-ft-Top-Freezer-Refrigerator-Stainless-Steel-ENERGY-STAR/5001931889",
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrtls2403s-top-freezer-refrigerator"
         }
       },
       "pros": [
@@ -1902,7 +2027,8 @@
         "Still a top-freezer aesthetically",
         "Basic"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "compressor": "Inverter"
     },
     {
       "id": "whirlpool-wrfa32smhz",
@@ -1948,7 +2074,7 @@
       "style": "french_door",
       "depth": "standard",
       "width_in": 36,
-      "capacity_cf": 26.0,
+      "capacity_cf": 26,
       "msrp": 3299,
       "street_price": 2799,
       "energy_kwh_yr": 710,
@@ -1998,10 +2124,13 @@
         "fingerprint-resistant stainless"
       ],
       "ratings": {
-        "cr_overall": null,
-        "cr_reliability": null,
+        "cr_overall": 73,
+        "cr_reliability": "fair",
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
       },
       "pros": [
         "FlexZone convertible middle drawer",
@@ -2057,7 +2186,7 @@
       "style": "french_door",
       "depth": "counter",
       "width_in": 36,
-      "capacity_cf": 20.0,
+      "capacity_cf": 20,
       "msrp": 5999,
       "street_price": 5299,
       "energy_kwh_yr": 730,
@@ -2297,8 +2426,11 @@
       "ratings": {
         "reviewed_status": "Editor's Choice · Best Overall 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
-        }
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        },
+        "cr_overall": 72,
+        "cr_reliability": "unrated"
       },
       "pros": [
         "Reviewed.com lab: 'steady temperatures' and 'excellent temperature control'",
@@ -2316,22 +2448,33 @@
       "depth": "standard",
       "capacity_cf": 28.6,
       "water_dispenser": "internal",
-      "msrp": null,
+      "msrp": 3299,
       "street_price": 3299,
       "ratings": {
         "reviewed_status": "Best Full-Size French Door 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2"
-        }
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2",
+          "good_housekeeping": "https://www.goodhousekeeping.com/appliances/refrigerator-reviews/",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-29-cu-ft-4-door-french-door-refrigerator-with-ai-family-hub-ai-vision-inside-in-charcoal-glass-and-stainless-steel-rf90f29aecraa/"
+        },
+        "good_housekeeping": "Lab Tested · Smart Investments 2026"
       },
       "pros": [
         "32-inch touchscreen with AI Family Hub+",
-        "Reviewed.com: 'Best Full-Size' French door 2026"
+        "Reviewed.com: 'Best Full-Size' French door 2026",
+        "GH Nov/Dec 2025 Smart Investments: Lab-tested by family of four"
       ],
       "cons": [
         "Reviewed.com: 'AI Vision may not always be accurate'"
       ],
-      "release_year": null
+      "release_year": 2025,
+      "energy_star": true,
+      "icemaker": "dual auto",
+      "wifi": true,
+      "finishes": [
+        "Charcoal Glass + Stainless Steel",
+        "White Glass"
+      ]
     },
     {
       "id": "cafe-cae28dm5ts5",
@@ -2347,8 +2490,11 @@
       "ratings": {
         "reviewed_status": "Editor's Choice · Best Quad-Style 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2"
-        }
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2",
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        },
+        "cr_overall": 66,
+        "cr_reliability": "fair"
       },
       "pros": [
         "Reviewed.com: 'Near-perfect temperature performance'",
@@ -2364,7 +2510,7 @@
       "name": "LG LT18S2100W 18 cu ft Garage-Ready Top-Freezer",
       "style": "top_freezer",
       "depth": "standard",
-      "capacity_cf": 18.0,
+      "capacity_cf": 18,
       "icemaker": "none",
       "water_dispenser": "none",
       "garage_ready": true,
@@ -2374,13 +2520,17 @@
         "reviewed_status": "Editor's Choice · Best No-Frills Fridge 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
-          "garage_ready": "https://www.lg.com/us/refrigerators/lg-lt18s2100w-top-freezer-refrigerator"
-        }
+          "garage_ready": "https://www.lg.com/us/refrigerators/lg-lt18s2100w-top-freezer-refrigerator",
+          "cr": "https://www.consumerreports.org/cro/most-reliable-products/index.htm"
+        },
+        "cr_overall": 79,
+        "cr_reliability": "excellent"
       },
       "pros": [
         "Reviewed.com: 'excellent temperature control'",
         "Garage-ready — rated to operate in wider temperature range",
-        "No ice maker / no smart = fewer failure points"
+        "No ice maker / no smart = fewer failure points",
+        "CR May/Jun 2026: most reliable top-freezer pick"
       ],
       "cons": [
         "No features — basic top-freezer only"
@@ -2395,14 +2545,27 @@
       "style": "french_door",
       "depth": "standard",
       "width_in": 36,
-      "capacity_cf": 26.0,
+      "capacity_cf": 26,
       "wifi": true,
-      "msrp": null,
+      "msrp": 3299,
       "street_price": 2699,
       "ratings": {
         "reviewed_status": "Editor's Choice · Best French-Door 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD50SNS",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2373112",
+          "spec_sheet": "https://media3.bosch-home.com/Documents/17197307_B36FD50SNS_Spec_Sheet.pdf"
+        },
+        "cr_overall": 75,
+        "cr_reliability": "very-good",
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 134,
+            "url": "https://www.bestbuy.com/site/bosch-500-series-26-cu-ft-french-door-smart-refrigerator-with-quickicepro-stainless-steel/6461076.p"
+          }
         }
       },
       "pros": [
@@ -2411,7 +2574,15 @@
         "Home Connect smart integration"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "energy_kwh_yr": 702,
+      "energy_star": true,
+      "icemaker": "QuickIce Pro System (internal, 12 lb/day)",
+      "water_dispenser": "external",
+      "finishes": [
+        "stainless steel",
+        "black stainless steel"
+      ]
     },
     {
       "id": "hisense-hrb171n6ase",
@@ -2445,13 +2616,21 @@
       "name": "Samsung Bespoke RS28CB760012 28 cu ft Side-by-Side",
       "style": "side_by_side",
       "depth": "standard",
-      "capacity_cf": 28.0,
-      "msrp": null,
+      "capacity_cf": 28,
+      "msrp": 2299,
       "street_price": null,
       "ratings": {
         "reviewed_status": "Editor's Choice · Best Side-by-Side 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-side-by-side-28-cu-ft-refrigerator-with-beverage-center-in-white-glass-rs28cb760012aa/"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.8,
+            "count": 271,
+            "url": "https://www.bestbuy.com/site/samsung-bespoke-side-by-side-smart-refrigerator-with-beverage-center-stainless-steel/6529228.p"
+          }
         }
       },
       "pros": [
@@ -2461,7 +2640,16 @@
       "cons": [
         "Reviewed.com: 'crispers don't retain humidity effectively'"
       ],
-      "release_year": null
+      "release_year": 2023,
+      "energy_kwh_yr": 600,
+      "energy_star": true,
+      "icemaker": "dual auto",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "finishes": [
+        "White Glass",
+        "Stainless Steel"
+      ]
     },
     {
       "id": "hotpoint-hps16btnrww",
@@ -2476,8 +2664,11 @@
       "ratings": {
         "reviewed_status": "Editor's Choice · Best Top-Freezer 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators"
-        }
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        },
+        "cr_overall": 69,
+        "cr_reliability": "very-good"
       },
       "pros": [
         "Reviewed.com: temperature variance under 2°F",
@@ -2487,6 +2678,3147 @@
         "Minimal features (by design)"
       ],
       "release_year": null
+    },
+    {
+      "id": "lg-ltcs20030s",
+      "brand": "lg",
+      "model": "LTCS20030S",
+      "name": "LG LTCS20030S Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 899,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "samsung-rt18dg6700sraa",
+      "brand": "samsung",
+      "model": "RT18DG6700SRAA",
+      "name": "Samsung RT18DG6700SRAA Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 895,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-frtd2021aw",
+      "brand": "frigidaire",
+      "model": "FRTD2021AW",
+      "name": "Frigidaire FRTD2021AW Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 885,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 68,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-ffht2022aw",
+      "brand": "frigidaire",
+      "model": "FFHT2022AW",
+      "name": "Frigidaire FFHT2022AW Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 723,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 67,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "hisense-hrt180n6abe",
+      "brand": "hisense",
+      "model": "HRT180N6ABE",
+      "name": "Hisense HRT180N6ABE Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 599,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "samsung-rt70f18lrsr",
+      "brand": "samsung",
+      "model": "RT70F18LRSR",
+      "name": "Samsung RT70F18LRSR Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 28,
+      "capacity_cf": 18,
+      "msrp": 699,
+      "street_price": 579,
+      "energy_kwh_yr": 343,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "optional (ice maker ready)",
+      "water_dispenser": "none",
+      "wifi": true,
+      "compressor": null,
+      "finishes": [
+        "fingerprint resistant stainless steel"
+      ],
+      "ratings": {
+        "cr_overall": 82,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/top-freezer/18-cu-ft-top-freezer-refrigerator-with-all-around-cooling-in-stainless-steel-rt70f18lrsraa/"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.9,
+            "count": 60,
+            "url": "https://www.bestbuy.com/product/samsung-18-cu-ft-garage-ready-top-freezer-refrigerator-with-all-around-cooling-stainless-steel/J3ZYG2VSHY"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null,
+      "garage_ready": true
+    },
+    {
+      "id": "samsung-rt16a6195sr",
+      "brand": "samsung",
+      "model": "RT16A6195SR",
+      "name": "Samsung RT16A6195SR Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 28,
+      "capacity_cf": 15.6,
+      "msrp": 649,
+      "street_price": 762,
+      "energy_kwh_yr": 345,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "ready (kit sold separately)",
+      "water_dispenser": "none",
+      "wifi": true,
+      "compressor": "digital inverter",
+      "finishes": [
+        "Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 78,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/top-freezer/15-6-cu-ft-top-freezer-refrigerator-with-all-around-cooling-in-stainless-steel-rt16a6195sr-aa/"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 476,
+            "url": "https://www.bestbuy.com/site/samsung-15-6-cu-ft-top-freezer-refrigerator-with-all-around-cooling-stainless-steel/6471975.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": 2021,
+      "garage_ready": true
+    },
+    {
+      "id": "lg-lt11c2000v",
+      "brand": "lg",
+      "model": "LT11C2000V",
+      "name": "LG LT11C2000V Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 24,
+      "capacity_cf": 11.1,
+      "msrp": null,
+      "street_price": 645,
+      "energy_kwh_yr": 291,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": "none",
+      "wifi": false,
+      "compressor": "Smart Inverter",
+      "finishes": [
+        "Stainless Look",
+        "White"
+      ],
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lt11c2000v-top-freezer-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wrt112czjz",
+      "brand": "whirlpool",
+      "model": "WRT112CZJZ",
+      "name": "Whirlpool WRT112CZJZ Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 24,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 628,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-ffht1425vv",
+      "brand": "frigidaire",
+      "model": "FFHT1425VV",
+      "name": "Frigidaire FFHT1425VV Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 28,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 623,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "insignia-ns-rtm14ss5",
+      "brand": "insignia",
+      "model": "NS-RTM14SS5",
+      "name": "Insignia NS-RTM14SS5 Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 28,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 490,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-gte17dtnrww",
+      "brand": "ge",
+      "model": "GTE17DTNRWW",
+      "name": "GE GTE17DTNRWW Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 28,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 713,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 66,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wrt313czlz",
+      "brand": "whirlpool",
+      "model": "WRT313CZLZ",
+      "name": "Whirlpool WRT313CZLZ Top-Freezer",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 28,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 668,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "summit-ff1142pllhd",
+      "brand": "summit",
+      "model": "FF1142PLLHD",
+      "name": "Summit Appliances FF1142PLLHD",
+      "style": "top_freezer",
+      "depth": "standard",
+      "width_in": 24,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 968,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 55,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrdcs2603s",
+      "brand": "lg",
+      "model": "LRDCS2603S",
+      "name": "LG LRDCS2603S Easy-Access Bottom-Freezer",
+      "style": "bottom_freezer",
+      "depth": "standard",
+      "width_in": 33,
+      "capacity_cf": 25.5,
+      "msrp": 2199,
+      "street_price": 1599,
+      "energy_kwh_yr": 562,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "printproof stainless steel",
+        "printproof black stainless steel"
+      ],
+      "ratings": {
+        "cr_overall": 84,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrdcs2603s-bottom-freezer-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 1514,
+            "url": "https://www.bestbuy.com/site/lg-25-5-cu-ft-bottom-freezer-refrigerator-with-ice-maker-printproof-stainless-steel/6395330.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "miele-kfn4776ed",
+      "brand": "miele",
+      "model": "KFN4776ED",
+      "name": "Miele KFN 4776 ED Bottom-Freezer Column",
+      "style": "bottom_freezer",
+      "depth": "built_in",
+      "width_in": 24,
+      "capacity_cf": 15.29,
+      "msrp": 3199,
+      "street_price": 2800,
+      "energy_kwh_yr": 305,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": "none",
+      "wifi": true,
+      "compressor": null,
+      "finishes": [
+        "stainless steel/CleanSteel"
+      ],
+      "ratings": {
+        "cr_overall": 84,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3387631"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "miele-kfn4799dde",
+      "brand": "miele",
+      "model": "KFN4799DDE",
+      "name": "Miele KFN 4799 DDE Bottom-Freezer Column",
+      "style": "bottom_freezer",
+      "depth": "built_in",
+      "width_in": 24,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 3599,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 77,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-gde21eykfs",
+      "brand": "ge",
+      "model": "GDE21EYKFS",
+      "name": "GE GDE21EYKFS Bottom-Freezer",
+      "style": "bottom_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": 21,
+      "msrp": 2199,
+      "street_price": 1800,
+      "energy_kwh_yr": 572,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "factory-installed",
+      "water_dispenser": "none",
+      "wifi": true,
+      "compressor": null,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-21-0-Cu-Ft-Bottom-Freezer-Refrigerator-GDE21EYKFS"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 6,
+            "url": "https://www.bestbuy.com/site/ge-21-0-cu-ft-bottom-freezer-refrigerator-stainless-steel/6475409.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ikea-valgrundad",
+      "brand": "ikea",
+      "model": "VALGRUNDAD",
+      "name": "Ikea Valgrundad 704.621.58 Bottom-Freezer",
+      "style": "bottom_freezer",
+      "depth": "counter",
+      "width_in": 24,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 1300,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "amana-abb1924brm",
+      "brand": "amana",
+      "model": "ABB1924BRM",
+      "name": "Amana ABB1924BRM Bottom-Freezer",
+      "style": "bottom_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": 18.5,
+      "msrp": 1899,
+      "street_price": 1449,
+      "energy_kwh_yr": 521,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "optional accessory",
+      "water_dispenser": "none",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.amana.com/refrigerators/bottom-freezer/p.29-inch-wide-bottom-freezer-refrigerator-with-easyfreezer-pull-out-drawer-18-cu.-ft.-capacity.abb1924brm.html"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "frigidaire-grbn2012af",
+      "brand": "frigidaire",
+      "model": "GRBN2012AF",
+      "name": "Frigidaire GRBN2012AF Bottom-Freezer",
+      "style": "bottom_freezer",
+      "depth": "standard",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 1343,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-gye22gynfs",
+      "brand": "ge",
+      "model": "GYE22GYNFS",
+      "name": "GE GYE22GYNFS Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.1,
+      "msrp": 3699,
+      "street_price": 2195,
+      "energy_kwh_yr": 665,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal (space-saving in-door)",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": null,
+      "finishes": [
+        "fingerprint resistant stainless steel",
+        "slate"
+      ],
+      "ratings": {
+        "cr_overall": 79,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-22-1-Cu-Ft-Counter-Depth-Fingerprint-Resistant-French-Door-Refrigerator-GYE22GYNFS"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "stars": 3.9,
+            "count": 3748,
+            "url": "https://www.lowes.com/pd/GE-22-2-cu-ft-Counter-Depth-French-Door-Refrigerator-with-Ice-Maker-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR/1002619170"
+          },
+          "best_buy": {
+            "stars": 3.9,
+            "count": 240,
+            "url": "https://www.bestbuy.com/site/ge-22-1-cu-ft-french-door-counter-depth-refrigerator-with-space-saving-ice-maker-stainless-steel/6403422.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf29s8365s",
+      "brand": "lg",
+      "model": "LF29S8365S",
+      "name": "LG LF29S8365S French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 2700,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 77,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfs28xbs",
+      "brand": "lg",
+      "model": "LRFS28XBS",
+      "name": "LG LRFS28XBS French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.7,
+      "msrp": 2999,
+      "street_price": 1695,
+      "energy_kwh_yr": 726,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal single (Slim SpacePlus)",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel",
+        "PrintProof Matte Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfs28xbs",
+          "spec_sheet": "https://www.us-appliance.com/content/pdf/c/LRFS28XBS_Specs.pdf"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-gwe23gends",
+      "brand": "ge",
+      "model": "GWE23GENDS",
+      "name": "GE GWE23GENDS Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 2783,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfws2906s",
+      "brand": "lg",
+      "model": "LRFWS2906S",
+      "name": "LG LRFWS2906S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 28.6,
+      "msrp": 2221,
+      "street_price": 1700,
+      "energy_kwh_yr": 653,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal automatic",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfws2906s-french-3-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfls3206s",
+      "brand": "lg",
+      "model": "LRFLS3206S",
+      "name": "LG LRFLS3206S French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 31.7,
+      "msrp": null,
+      "street_price": 1795,
+      "energy_kwh_yr": 682,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal automatic",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter linear",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfls3206s-french-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.7,
+            "count": 201,
+            "url": "https://www.bestbuy.com/site/lg-31-7-cu-ft-french-door-smart-refrigerator-with-internal-water-dispenser-stainless-steel/6553174.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrmds3006s",
+      "brand": "lg",
+      "model": "LRMDS3006S",
+      "name": "LG LRMDS3006S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 29.5,
+      "msrp": 4499,
+      "street_price": 2999,
+      "energy_kwh_yr": 799,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual ice with Craft Ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter linear",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmds3006s-french-4-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 303,
+            "url": "https://www.bestbuy.com/site/lg-29-5-cu-ft-4-door-french-door-in-door-smart-refrigerator-with-craft-ice-stainless-steel/6397184.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfcs29d6s",
+      "brand": "lg",
+      "model": "LRFCS29D6S",
+      "name": "LG LRFCS29D6S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 28.7,
+      "msrp": 2288,
+      "street_price": 1499,
+      "energy_kwh_yr": 726,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal IcePlus",
+      "water_dispenser": "none",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfcs29d6s-french-3-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 24,
+            "url": "https://www.bestbuy.com/site/lg-28-7-cu-ft-3-door-french-door-refrigerator-with-ice-plus-stainless-steel/6522323.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf30s8210s",
+      "brand": "lg",
+      "model": "LF30S8210S",
+      "name": "LG LF30S8210S French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 29.6,
+      "msrp": 3299,
+      "street_price": 1835,
+      "energy_kwh_yr": 709,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal automatic",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf30s8210s-french-4-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.7,
+            "count": 224,
+            "url": "https://www.bestbuy.com/site/reviews/lg-standard-depth-max-29-6-cu-ft-4-door-french-door-smart-refrigerator-with-full-convert-drawer-stainless-steel/6553171"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf29s8330d",
+      "brand": "lg",
+      "model": "LF29S8330D",
+      "name": "LG LF29S8330D French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 2697,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lmxs28626s",
+      "brand": "lg",
+      "model": "LMXS28626S",
+      "name": "LG LMXS28626S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 27.8,
+      "msrp": 3499,
+      "street_price": 1524,
+      "energy_kwh_yr": 724,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal Slim SpacePlus",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter linear",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 75,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lmxs28626s-french-4-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 1937,
+            "url": "https://www.bestbuy.com/site/reviews/lg-27-8-4-door-french-door-refrigerator-stainless-steel/5968400"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfws2906v",
+      "brand": "lg",
+      "model": "LRFWS2906V",
+      "name": "LG LRFWS2906V French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 29,
+      "msrp": null,
+      "street_price": 1999,
+      "energy_kwh_yr": 653,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "factory-installed automatic",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfws2906v-french-3-door-refrigerator",
+          "spec_sheet": "https://www.lg.com/us/support/products/documents/LRFWS2906_%20Spec%20Sheet.pdf"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfls3216s",
+      "brand": "lg",
+      "model": "LRFLS3216S",
+      "name": "LG LRFLS3216S French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 31.7,
+      "msrp": 3099,
+      "street_price": 1600,
+      "energy_kwh_yr": 682,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "Single automatic ice maker, cubed",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfls3216s-french-3-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.8,
+            "count": 5,
+            "url": "https://www.bestbuy.com/site/reviews/lg-standard-depth-max-31-7-cu-ft-french-door-smart-refrigerator-with-internal-water-dispenser-printproof-stainless-steel/6617561"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-b36cl81enw",
+      "brand": "bosch",
+      "model": "B36CL81ENW",
+      "name": "Bosch B36CL81ENW Built-in French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.5,
+      "msrp": 5299,
+      "street_price": 4799,
+      "energy_kwh_yr": 568,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "dual",
+      "finishes": [
+        "white"
+      ],
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL81ENW",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details-plus/2371892"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-b36cd52sns",
+      "brand": "bosch",
+      "model": "B36CD52SNS",
+      "name": "Bosch B36CD52SNS Counter-Depth",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 21.6,
+      "msrp": 3649,
+      "street_price": 2970,
+      "energy_kwh_yr": 654,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": null,
+      "finishes": [
+        "stainless"
+      ],
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CD52SNS",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3627208"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": 2024
+    },
+    {
+      "id": "lg-lryks3106s",
+      "brand": "lg",
+      "model": "LRYKS3106S",
+      "name": "LG LRYKS3106S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 30.7,
+      "msrp": 4599,
+      "street_price": 3075,
+      "energy_kwh_yr": null,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "four types (cubed/crushed/mini/Craft Ice)",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter linear BLDC",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lryks3106s-french-4-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.7,
+            "count": 120,
+            "url": "https://www.bestbuy.com/site/lg-standard-depth-max-30-7-cu-ft-french-door-smart-refrigerator-with-instaview-stainless-steel/6540881.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf29h8330s",
+      "brand": "lg",
+      "model": "LF29H8330S",
+      "name": "LG LF29H8330S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 28.6,
+      "msrp": 3699,
+      "street_price": 2199,
+      "energy_kwh_yr": 785,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual (3.0 lbs/day)",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf29h8330s-french-4-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrmdc2306s",
+      "brand": "lg",
+      "model": "LRMDC2306S",
+      "name": "LG LRMDC2306S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.5,
+      "msrp": 4499,
+      "street_price": 2999,
+      "energy_kwh_yr": 716,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual ice with Craft Ice (cubed/crushed/sphere)",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter linear",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmdc2306s-french-4-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 398,
+            "url": "https://www.bestbuy.com/site/lg-22-5-cu-ft-4-door-french-door-counter-depth-refrigerator-with-door-in-door-and-craft-ice-stainless-steel/6397168.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-profile-pgd29bytfs",
+      "brand": "ge-profile",
+      "model": "PGD29BYTFS",
+      "name": "GE Profile PGD29BYTFS French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 2799,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-profile-pge29bytfs",
+      "brand": "ge-profile",
+      "model": "PGE29BYTFS",
+      "name": "GE Profile PGE29BYTFS French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 2599,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-studio-srfb27w3",
+      "brand": "lg-studio",
+      "model": "SRFB27W3",
+      "name": "LG Studio SRFB27W3 French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 3095,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "dacor-drf36c500sr",
+      "brand": "dacor",
+      "model": "DRF36C500SR",
+      "name": "Dacor DRF36C500SR French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 3299,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 72,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfoc2606s",
+      "brand": "lg",
+      "model": "LRFOC2606S",
+      "name": "LG LRFOC2606S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 25.5,
+      "msrp": 3499,
+      "street_price": 3499,
+      "energy_kwh_yr": 699,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual ice with IcePlus",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 72,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfoc2606s-french-3-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kitchenaid-krfc704fbs",
+      "brand": "kitchenaid",
+      "model": "KRFC704FBS",
+      "name": "KitchenAid KRFC704FBS Counter-Depth",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 23.8,
+      "msrp": 4999,
+      "street_price": 4198,
+      "energy_kwh_yr": null,
+      "energy_star": false,
+      "noise_db": null,
+      "icemaker": "exterior dispenser, automatic",
+      "water_dispenser": "external",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "Black Stainless Steel with PrintShield"
+      ],
+      "ratings": {
+        "cr_overall": 72,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.kitchenaid.com/owners-center-pdp.KRFC704FBS00.html",
+          "home_depot": "https://www.homedepot.com/p/KitchenAid-23-8-cu-ft-French-Door-Refrigerator-in-Black-Stainless-with-PrintShield-Counter-Depth-KRFC704FBS/300186637"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 3.9,
+            "count": 1272,
+            "url": "https://www.bestbuy.com/site/reviews/kitchenaid-23-8-cu-ft-french-door-counter-depth-refrigerator-black-stainless-steel/5461000"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrflc2716s",
+      "brand": "lg",
+      "model": "LRFLC2716S",
+      "name": "LG LRFLC2716S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 26.5,
+      "msrp": 1599,
+      "street_price": 1795,
+      "energy_kwh_yr": 632,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "automatic, cubed",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 72,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrflc2716s-french-3-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.7,
+            "count": 1978,
+            "url": "https://www.bestbuy.com/site/lg-26-5-cu-ft-french-door-counter-depth-max-smart-refrigerator-with-internal-water-dispenser-stainless-steel/6617562.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lrfxs3106s",
+      "brand": "lg",
+      "model": "LRFXS3106S",
+      "name": "LG LRFXS3106S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 30.7,
+      "msrp": 3699,
+      "street_price": 2200,
+      "energy_kwh_yr": 755,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual ice with IcePlus",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfxs3106s-french-door-refrigerator"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 102,
+            "url": "https://www.bestbuy.com/site/reviews/lg-standard-depth-max-30-7-cu-ft-french-door-smart-refrigerator-with-dual-ice-maker-stainless-steel/6553176"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "viking-rvffr336ss",
+      "brand": "viking",
+      "model": "RVFFR336SS",
+      "name": "Viking RVFFR336SS French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 4149,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ikea-overskadlig",
+      "brand": "ikea",
+      "model": "OVERSKADLIG",
+      "name": "Ikea Overskadlig 60462154 French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 3000,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf25g8330s",
+      "brand": "lg",
+      "model": "LF25G8330S",
+      "name": "LG LF25G8330S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 24.5,
+      "msrp": null,
+      "street_price": 2395,
+      "energy_kwh_yr": 737,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual (cubed/crushed)",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25g8330s-french-4-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kucht-kr900x",
+      "brand": "kucht",
+      "model": "KR900X",
+      "name": "Kucht Professional KR900X French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 2900,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "ge-gwe22jymfs",
+      "brand": "ge",
+      "model": "GWE22JYMFS",
+      "name": "GE GWE22JYMFS Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 1573,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wrx735sdhz",
+      "brand": "whirlpool",
+      "model": "WRX735SDHZ",
+      "name": "Whirlpool WRX735SDHZ French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 24.5,
+      "msrp": 2999,
+      "street_price": 2098,
+      "energy_kwh_yr": 683,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "factory-installed external",
+      "water_dispenser": "external",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/french-door/p.36-inch-wide-french-door-refrigerator-25-cu.-ft.wrx735sdhz.html",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2292339"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 2229,
+            "url": "https://www.bestbuy.com/site/whirlpool-24-5-cu-ft-4-door-french-door-refrigerator-stainless-steel/5790000.p"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": 2017
+    },
+    {
+      "id": "kitchenaid-krqc506mps",
+      "brand": "kitchenaid",
+      "model": "KRQC506MPS",
+      "name": "KitchenAid KRQC506MPS Counter-Depth",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 2500,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kitchenaid-krmf706ebs",
+      "brand": "kitchenaid",
+      "model": "KRMF706EBS",
+      "name": "KitchenAid KRMF706EBS French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 25.8,
+      "msrp": 3999,
+      "street_price": 3898,
+      "energy_kwh_yr": 767,
+      "energy_star": false,
+      "noise_db": null,
+      "icemaker": "factory-installed external",
+      "water_dispenser": "external",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "Black Stainless Steel with PrintShield"
+      ],
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/refrigeration/refrigerators/french-door-refrigerators/p.25.8-cu.-ft.-36-multi-door-freestanding-refrigerator-with-platinum-interior-design-and-printshield-finish.krmf706ebs.html"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.1,
+            "count": 1921,
+            "url": "https://www.bestbuy.com/site/reviews/kitchenaid-25-8-cu-ft-5-door-french-door-refrigerator-black-stainless-steel/4956326"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": 2018
+    },
+    {
+      "id": "kitchenaid-krmf536rps",
+      "brand": "kitchenaid",
+      "model": "KRMF536RPS",
+      "name": "KitchenAid KRMF536RPS French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 26.2,
+      "msrp": 3999,
+      "street_price": 2998,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": "In-Door-Ice external dispenser",
+      "water_dispenser": "external",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "PrintShield Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.kitchenaid.com/major-appliances/refrigeration/freestanding-refrigerators/freestanding-french-door/p.26.2-cu.-ft.-multi-door-french-door-refrigerator-with-platinum-interior.krmf536rps.html"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 298,
+            "url": "https://www.bestbuy.com/site/reviews/kitchenaid-26-2-cu-ft-multi-door-french-door-refrigerator-with-platinum-interior-stainless-steel/11888097"
+          }
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "zline-rfm-w-36",
+      "brand": "zline",
+      "model": "RFM-W-36",
+      "name": "ZLINE RFM-W-36 French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 4600,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf25h6330s",
+      "brand": "lg",
+      "model": "LF25H6330S",
+      "name": "LG LF25H6330S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 33,
+      "capacity_cf": 24.5,
+      "msrp": 2599,
+      "street_price": 2098,
+      "energy_kwh_yr": 710,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual (5.5 lbs/day with IcePlus)",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25h6330s-french-3-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf25h6200s",
+      "brand": "lg",
+      "model": "LF25H6200S",
+      "name": "LG LF25H6200S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 33,
+      "capacity_cf": 25.1,
+      "msrp": 1899,
+      "street_price": 1399,
+      "energy_kwh_yr": 608,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "single automatic, cubed",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25h6200s-french-3-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "lg-lf21g6200s",
+      "brand": "lg",
+      "model": "LF21G6200S",
+      "name": "LG LF21G6200S French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 33,
+      "capacity_cf": 20.8,
+      "msrp": 2188,
+      "street_price": 1300,
+      "energy_kwh_yr": 574,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "automatic, cubed",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "smart inverter",
+      "finishes": [
+        "Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf21g6200s-french-3-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "dacor-drf485300ap",
+      "brand": "dacor",
+      "model": "DRF485300AP",
+      "name": "Dacor DRF485300AP Built-In French Door 48\"",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 48,
+      "capacity_cf": 27.7,
+      "msrp": null,
+      "street_price": 12499,
+      "energy_kwh_yr": 629,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual ice maker with cocktail ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "digital inverter",
+      "finishes": [
+        "panel-ready",
+        "silver stainless",
+        "graphite stainless"
+      ],
+      "ratings": {
+        "cr_overall": 83,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/48-inch-french-door-refrigerator-panel-ready-drf485300ap/"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "dacor-drf367500ap",
+      "brand": "dacor",
+      "model": "DRF367500AP",
+      "name": "Dacor DRF367500AP Built-In French Door 36\"",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 21.3,
+      "msrp": 9999,
+      "street_price": 9499,
+      "energy_kwh_yr": 549,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual ice maker with cocktail ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "digital inverter",
+      "finishes": [
+        "panel-ready",
+        "silver stainless"
+      ],
+      "ratings": {
+        "cr_overall": 82,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-built-in-french-door-with-steelcool-panel-ready-drf367500ap/"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "thermador-t36it100np",
+      "brand": "thermador",
+      "model": "T36IT100NP",
+      "name": "Thermador Freedom T36IT100NP Built-In",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.1,
+      "msrp": 11599,
+      "street_price": 10799,
+      "energy_kwh_yr": 584,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal (diamond ice)",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": null,
+      "finishes": [
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": 79,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3423272"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": 2024
+    },
+    {
+      "id": "sks-sksfd4826p",
+      "brand": "sks",
+      "model": "SKSFD4826P",
+      "name": "SKS SKSFD4826P Built-In French Door 48\"",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 48,
+      "capacity_cf": 26,
+      "msrp": 15999,
+      "street_price": 16000,
+      "energy_kwh_yr": 654,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "dual ice maker with Craft Ice",
+      "water_dispenser": "internal",
+      "wifi": true,
+      "compressor": "dual smart inverter",
+      "finishes": [
+        "panel-ready"
+      ],
+      "ratings": {
+        "cr_overall": 79,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "thermador-t30ib905sp",
+      "brand": "thermador",
+      "model": "T30IB905SP",
+      "name": "Thermador Freedom T30IB905SP Built-In Column",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 9499,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 77,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "zline-rbiv-304-30",
+      "brand": "zline",
+      "model": "RBIV-304-30",
+      "name": "ZLINE RBIV-304-30 Built-In",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 6799,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "sub-zero-det3050ciid",
+      "brand": "sub-zero",
+      "model": "DET3050CIID",
+      "name": "Sub-Zero Designer DET3050CIID",
+      "style": "column",
+      "depth": "built_in",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 10600,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "kitchenaid-kbbr306ess",
+      "brand": "kitchenaid",
+      "model": "KBBR306ESS",
+      "name": "KitchenAid KBBR306ESS Built-In",
+      "style": "bottom_freezer",
+      "depth": "built_in",
+      "width_in": 30,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 8138,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 67,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "viking-fdbb5364l",
+      "brand": "viking",
+      "model": "FDBB5364L",
+      "name": "Viking FDBB5364L Built-In",
+      "style": "bottom_freezer",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": null,
+      "msrp": null,
+      "street_price": 11260,
+      "energy_kwh_yr": null,
+      "energy_star": null,
+      "noise_db": null,
+      "icemaker": null,
+      "water_dispenser": null,
+      "wifi": null,
+      "compressor": null,
+      "finishes": null,
+      "ratings": {
+        "cr_overall": 67,
+        "cr_reliability": "unrated",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "bosch-benchmark-b30ib905sp",
+      "brand": "bosch-benchmark",
+      "model": "B30IB905SP",
+      "name": "Bosch Benchmark B30IB905SP 30\" Built-In Bottom-Freezer Column",
+      "style": "bottom_freezer",
+      "depth": "built_in",
+      "width_in": 30,
+      "capacity_cf": 16,
+      "energy_kwh_yr": 470,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "internal",
+      "water_dispenser": "none",
+      "wifi": true,
+      "compressor": null,
+      "finishes": [
+        "panel-ready"
+      ],
+      "garage_ready": null,
+      "msrp": 8799,
+      "street_price": 7600,
+      "ratings": {
+        "cr_overall": 74,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/B30IB905SP",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2365289"
+        }
+      },
+      "pros": [],
+      "cons": [],
+      "release_year": null
+    },
+    {
+      "id": "whirlpool-wrb322dmbm",
+      "brand": "whirlpool",
+      "model": "WRB322DMBM",
+      "name": "Whirlpool WRB322DMBM 33\" Bottom-Freezer",
+      "style": "bottom_freezer",
+      "depth": "standard",
+      "width_in": 33,
+      "capacity_cf": 22.1,
+      "energy_kwh_yr": 584,
+      "energy_star": true,
+      "noise_db": null,
+      "icemaker": "factory-installed",
+      "water_dispenser": "none",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "Stainless Steel"
+      ],
+      "garage_ready": null,
+      "msrp": 1999,
+      "street_price": 1490,
+      "release_year": null,
+      "ratings": {
+        "cr_overall": 76,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 1208,
+            "url": "https://www.bestbuy.com/site/reviews/whirlpool-33-inches-wide-bottom-freezer-refrigerator-with-spillguard-glass-shelves-22-cu-ft-stainless-steel/3928039"
+          }
+        },
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/bottom-freezer/p.33-inches-wide-bottom-freezer-refrigerator-with-spillguard-glass-shelves-22-cu.-ft.wrb322dmbm.html",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2208216"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "maytag-mrff4136rz",
+      "brand": "maytag",
+      "model": "MRFF4136RZ",
+      "name": "Maytag MRFF4136RZ 36\" French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 25.2,
+      "energy_kwh_yr": null,
+      "energy_star": true,
+      "icemaker": "factory-installed",
+      "water_dispenser": "external",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ],
+      "garage_ready": null,
+      "msrp": 2399,
+      "street_price": 1748,
+      "release_year": null,
+      "ratings": {
+        "cr_overall": 68,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.maytag.com/kitchen/refrigeration/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4136rz.html"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "maytag-mrff4236rz",
+      "brand": "maytag",
+      "model": "MRFF4236RZ",
+      "name": "Maytag MRFF4236RZ 36\" French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 25.2,
+      "energy_kwh_yr": null,
+      "energy_star": true,
+      "icemaker": "factory-installed",
+      "water_dispenser": "internal",
+      "wifi": null,
+      "compressor": null,
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ],
+      "garage_ready": null,
+      "msrp": null,
+      "street_price": 1798,
+      "release_year": null,
+      "ratings": {
+        "cr_overall": 70,
+        "cr_reliability": "fair",
+        "yale_reliability_pct": null,
+        "reviewed": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.maytag.com/kitchen/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4236rz.html"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "bosch-b36cl80sns",
+      "brand": "bosch",
+      "model": "B36CL80SNS",
+      "name": "Bosch B36CL80SNS Built-In French Door",
+      "style": "french_door",
+      "depth": "built_in",
+      "width_in": 36,
+      "capacity_cf": 20.5,
+      "energy_kwh_yr": 568,
+      "energy_star": true,
+      "wifi": true,
+      "compressor": "dual",
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "finishes": [
+        "stainless"
+      ],
+      "release_year": 2019,
+      "msrp": 3699,
+      "street_price": 3699,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "very-good",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL80SNS",
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2371893"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "bosch-b36fd10ens",
+      "brand": "bosch",
+      "model": "B36FD10ENS",
+      "name": "Bosch 100 Series B36FD10ENS Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 26,
+      "energy_star": true,
+      "wifi": true,
+      "icemaker": "internal",
+      "water_dispenser": "external",
+      "finishes": [
+        "stainless"
+      ],
+      "msrp": 2449,
+      "street_price": 2000,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "very-good",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD10ENS"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "samsung-rf23bb8900aw",
+      "brand": "samsung",
+      "model": "RF23BB8900AW",
+      "name": "Samsung Bespoke RF23BB8900AW 4-Door French Door 23 cu ft",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.5,
+      "energy_kwh_yr": 593,
+      "energy_star": true,
+      "wifi": true,
+      "compressor": "digital inverter",
+      "icemaker": "dual auto",
+      "water_dispenser": "internal",
+      "finishes": [
+        "Bespoke panel-ready"
+      ],
+      "release_year": 2023,
+      "street_price": 1305,
+      "ratings": {
+        "cr_overall": 55,
+        "cr_reliability": "fair",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/business/builder/our-appliances/refrigerators/bespoke/bespoke-4-door-french-door-refrigerator-23-cu-ft-with-family-hub-panel-in-charcoal-glass-with-customizable-panel-colors-rf23bb8900awaa/"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "samsung-rs23cb7600qlaa",
+      "brand": "samsung",
+      "model": "RS23CB7600QLAA",
+      "name": "Samsung Bespoke RS23CB7600QLAA Counter-Depth Side-by-Side",
+      "style": "side_by_side",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 22.6,
+      "energy_kwh_yr": 600,
+      "energy_star": true,
+      "wifi": true,
+      "icemaker": "dual auto",
+      "water_dispenser": "internal",
+      "finishes": [
+        "Stainless Steel",
+        "White Glass"
+      ],
+      "release_year": 2023,
+      "msrp": 2399,
+      "street_price": 2160,
+      "ratings": {
+        "cr_overall": 58,
+        "cr_reliability": "fair",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-counter-depth-side-by-side-23-cu-ft-refrigerator-with-beverage-center-in-stainless-steel-rs23cb7600qlaa/"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "samsung-rs27t5200sr",
+      "brand": "samsung",
+      "model": "RS27T5200SR",
+      "name": "Samsung RS27T5200SR Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.4,
+      "energy_kwh_yr": 728,
+      "energy_star": true,
+      "noise_db": 40,
+      "wifi": false,
+      "compressor": "digital inverter",
+      "icemaker": "in-door auto",
+      "water_dispenser": "external",
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel",
+        "Black Stainless"
+      ],
+      "release_year": 2020,
+      "msrp": 1666,
+      "street_price": 1095,
+      "ratings": {
+        "cr_overall": 62,
+        "cr_reliability": "fair",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/27-4-cu-ft-side-by-side-refrigerator-with-large-capacity-in-stainless-steel-rs27t5200sr-aa/v2/"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "samsung-rs27t5561sr",
+      "brand": "samsung",
+      "model": "RS27T5561SR",
+      "name": "Samsung RS27T5561SR Family Hub Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 26.7,
+      "energy_kwh_yr": 691,
+      "energy_star": true,
+      "wifi": true,
+      "icemaker": "in-door auto",
+      "water_dispenser": "external",
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ],
+      "release_year": 2020,
+      "msrp": 1999,
+      "street_price": 2095,
+      "ratings": {
+        "cr_overall": 61,
+        "cr_reliability": "fair",
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 1481,
+            "url": "https://www.bestbuy.com/site/samsung-26-7-cu-ft-side-by-side-smart-refrigerator-with-21-5-touch-screen-family-hub-stainless-steel/6397590.p"
+          }
+        },
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/26-7-cu-ft-large-capacity-side-by-side-refrigerator-with-touch-screen-family-hub--in-stainless-steel-rs27t5561sr-aa/"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "samsung-rf25c5551sr",
+      "brand": "samsung",
+      "model": "RF25C5551SR",
+      "name": "Samsung RF25C5551SR 3-Door French Door",
+      "style": "french_door",
+      "depth": "standard",
+      "width_in": 33,
+      "capacity_cf": 24.5,
+      "energy_kwh_yr": 643,
+      "energy_star": true,
+      "wifi": true,
+      "compressor": "digital inverter",
+      "icemaker": "dual auto",
+      "water_dispenser": "internal",
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ],
+      "release_year": 2023,
+      "msrp": 1599,
+      "street_price": 1700,
+      "ratings": {
+        "cr_overall": 19,
+        "cr_reliability": "poor",
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 2740,
+            "url": "https://www.bestbuy.com/site/samsung-25-cu-ft-3-door-french-door-smart-refrigerator-with-beverage-center-stainless-steel/6529227.p"
+          }
+        },
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/3-door-french-door/25-cu-ft-33-3-door-french-door-refrigerator-with-beverage-center-and--autofill-water-pitcher-in-stainless-steel-rf25c5551sr-aa/"
+        }
+      },
+      "pros": [],
+      "cons": [
+        "CR 2026 flagged as less dependable (19 reliability)"
+      ]
+    },
+    {
+      "id": "samsung-rs22t5561sr",
+      "brand": "samsung",
+      "model": "RS22T5561SR",
+      "name": "Samsung RS22T5561SR Counter-Depth Family Hub Side-by-Side",
+      "style": "side_by_side",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 21.5,
+      "energy_kwh_yr": 636,
+      "energy_star": true,
+      "wifi": true,
+      "compressor": "digital inverter",
+      "icemaker": "in-door auto",
+      "water_dispenser": "external",
+      "finishes": [
+        "Fingerprint Resistant Stainless Steel"
+      ],
+      "release_year": 2020,
+      "msrp": 2099,
+      "street_price": 2195,
+      "ratings": {
+        "cr_overall": 59,
+        "cr_reliability": "fair",
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 243,
+            "url": "https://www.bestbuy.com/site/samsung-21-5-cu-ft-side-by-side-counter-depth-refrigerator-with-21-5-touchscreen-family-hub-stainless-steel/6397592.p"
+          }
+        },
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/22-cu-ft-counter-depth-side-by-side-refrigerator-with-touch-screen-family-hub-in-stainless-steel-rs22t5561sr-aa/"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "lg-lhsxs2706s",
+      "brand": "lg",
+      "model": "LHSXS2706S",
+      "name": "LG LHSXS2706S Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.2,
+      "energy_kwh_yr": 726,
+      "energy_star": true,
+      "icemaker": "Dual Ice with Craft Ice",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "Smart Inverter Linear",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "msrp": 2143,
+      "ratings": {
+        "cr_overall": 68,
+        "cr_reliability": "fair",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lhsxs2706s-side-by-side-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "lg-lrsds2706s",
+      "brand": "lg",
+      "model": "LRSDS2706S",
+      "name": "LG LRSDS2706S Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.1,
+      "energy_kwh_yr": 694,
+      "energy_star": true,
+      "icemaker": "Dual Ice with Craft Ice (Door-in-Door)",
+      "water_dispenser": "external (UVnano)",
+      "wifi": true,
+      "compressor": "Linear Inverter",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel",
+        "Matte Black Stainless"
+      ],
+      "msrp": 2221,
+      "ratings": {
+        "cr_overall": 71,
+        "cr_reliability": "fair",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrsds2706s-side-by-side-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "lg-lrsos2706s",
+      "brand": "lg",
+      "model": "LRSOS2706S",
+      "name": "LG LRSOS2706S Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.1,
+      "energy_kwh_yr": 694,
+      "energy_star": true,
+      "icemaker": "Dual Ice with Craft Ice",
+      "water_dispenser": "external (UVnano)",
+      "wifi": true,
+      "compressor": "Smart Inverter BLDC",
+      "finishes": [
+        "PrintProof Stainless Steel",
+        "PrintProof Black Stainless Steel"
+      ],
+      "msrp": 2599,
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "fair",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrsos2706s-side-by-side-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "lg-lrsws2806s",
+      "brand": "lg",
+      "model": "LRSWS2806S",
+      "name": "LG LRSWS2806S Side-by-Side",
+      "style": "side_by_side",
+      "depth": "standard",
+      "width_in": 36,
+      "capacity_cf": 27.6,
+      "energy_kwh_yr": 682,
+      "icemaker": "factory-installed (cubed)",
+      "water_dispenser": "external",
+      "wifi": true,
+      "compressor": "Smart Inverter",
+      "finishes": [
+        "PrintProof Stainless Steel"
+      ],
+      "ratings": {
+        "cr_overall": 63,
+        "cr_reliability": "fair",
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrsws2806s-side-by-side-refrigerator"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "whirlpool-wrf767sdhz",
+      "brand": "whirlpool",
+      "model": "WRF767SDHZ",
+      "name": "Whirlpool WRF767SDHZ Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 26.8,
+      "energy_kwh_yr": 710,
+      "energy_star": true,
+      "icemaker": "internal",
+      "water_dispenser": "external",
+      "wifi": false,
+      "finishes": [
+        "fingerprint resistant stainless steel"
+      ],
+      "ratings": {
+        "cr_overall": 65,
+        "cr_reliability": "fair",
+        "retailer_ratings": {
+          "home_depot": {
+            "stars": 4.5,
+            "count": 5023,
+            "url": "https://www.homedepot.com/p/Whirlpool-26-8-cu-ft-French-Door-Refrigerator-in-Fingerprint-Resistant-Stainless-Steel-WRF767SDHZ/305470672"
+          }
+        },
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/french-door/p.36-inch-wide-french-door-refrigerator-27-cu.-ft.wrf767sdhz.html"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "frigidaire-frfg1723av",
+      "brand": "frigidaire",
+      "model": "FRFG1723AV",
+      "name": "Frigidaire FRFG1723AV Counter-Depth French Door 33\"",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 33,
+      "capacity_cf": 17.6,
+      "energy_kwh_yr": 543,
+      "energy_star": true,
+      "icemaker": "internal",
+      "water_dispenser": "internal",
+      "wifi": false,
+      "compressor": "variable speed",
+      "finishes": [
+        "fingerprint-resistant stainless look",
+        "brushed steel"
+      ],
+      "ratings": {
+        "cr_overall": 57,
+        "cr_reliability": "fair",
+        "retailer_ratings": {
+          "home_depot": {
+            "stars": 4.6,
+            "count": 9684,
+            "url": "https://www.homedepot.com/p/reviews/Frigidaire-31-5-in-18-cu-ft-Counter-Depth-French-Door-Refrigerator-in-Fingerprint-Resistant-Stainless-Look-FRFG1723AV/318840093"
+          }
+        },
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.frigidaire.com/en/p/kitchen/refrigerators/french-door-refrigerators/FRFG1723AV"
+        }
+      },
+      "pros": [],
+      "cons": []
+    },
+    {
+      "id": "ge-gye21jymfs",
+      "brand": "ge",
+      "model": "GYE21JYMFS",
+      "name": "GE GYE21JYMFS Counter-Depth French Door",
+      "style": "french_door",
+      "depth": "counter",
+      "width_in": 36,
+      "capacity_cf": 20.6,
+      "energy_kwh_yr": 647,
+      "energy_star": true,
+      "icemaker": "internal",
+      "water_dispenser": "external",
+      "wifi": true,
+      "finishes": [
+        "fingerprint resistant stainless steel"
+      ],
+      "msrp": 2999,
+      "ratings": {
+        "cr_overall": 60,
+        "cr_reliability": "fair",
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 60,
+            "url": "https://www.bestbuy.com/site/reviews/ge-20-6-cu-ft-french-door-counter-depth-refrigerator-with-space-saving-icemaker-stainless-steel/6582113"
+          }
+        },
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-20-6-Cu-Ft-Fingerprint-Resistant-Counter-Depth-French-Door-Refrigerator-GYE21JYMFS"
+        }
+      },
+      "pros": [],
+      "cons": []
     }
   ]
 }

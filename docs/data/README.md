@@ -32,11 +32,17 @@ Every file here is a seed database consumed by the site at runtime via `fetch()`
     "reviewed": 9.2,                    // 0-10 Reviewed.com numeric score
     "reviewed_status": "Editor's Choice · Best Counter-Depth 2026",  // Reviewed status string (independent of numeric)
     "rtings": 8.4,                      // 0-10 Rtings.com score (many categories unsupported, leave null)
+    "toms_guide": 4.5,                  // 0-5 stars from Tom's Guide review (kitchen smart appliances)
     "repairability_score": 72,          // 0-100, higher = easier to repair; falls back to brand value when null
+    "endorsements": [                   // optional qualitative array — YouTube / Reddit / etc.
+      { "channel": "Yale Appliance",  "type": "video",  "label": "Steve Sheinkopf 2026 review", "url": "https://youtube.com/watch?v=..." },
+      { "channel": "r/appliances",    "type": "thread", "label": "consensus pick May 2025",     "url": "https://reddit.com/r/appliances/..." }
+    ],
     "source_urls": {                    // machine-readable back-links
       "wirecutter":     "https://www.nytimes.com/wirecutter/...",
       "cr":             "https://www.consumerreports.org/...",
       "reviewed":       "https://reviewed.usatoday.com/...",
+      "toms_guide":     "https://www.tomsguide.com/...",
       "repairability":  "https://www.yaleappliance.com/..."
     }
   },

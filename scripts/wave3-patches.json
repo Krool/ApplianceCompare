@@ -1,0 +1,176 @@
+{
+  "lg-lrfls3216s": {
+    "capacity_cf": 31.7, "energy_kwh_yr": 682, "energy_star": true, "icemaker": "Single automatic ice maker, cubed", "water_dispenser": "internal", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel"], "msrp": 3099,
+    "retailer_ratings": {"best_buy": {"stars": 4.8, "count": 5, "url": "https://www.bestbuy.com/site/reviews/lg-standard-depth-max-31-7-cu-ft-french-door-smart-refrigerator-with-internal-water-dispenser-printproof-stainless-steel/6617561"}},
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfls3216s-french-3-door-refrigerator"}
+  },
+  "lg-lrfoc2606s": {
+    "capacity_cf": 25.5, "energy_kwh_yr": 699, "energy_star": true, "icemaker": "dual ice with IcePlus", "water_dispenser": "external", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel"], "msrp": 3499,
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfoc2606s-french-3-door-refrigerator"}
+  },
+  "lg-lrflc2716s": {
+    "capacity_cf": 26.5, "energy_kwh_yr": 632, "energy_star": true, "icemaker": "automatic, cubed", "water_dispenser": "internal", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"], "msrp": 1599,
+    "retailer_ratings": {"best_buy": {"stars": 4.7, "count": 1978, "url": "https://www.bestbuy.com/site/lg-26-5-cu-ft-french-door-counter-depth-max-smart-refrigerator-with-internal-water-dispenser-stainless-steel/6617562.p"}},
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lrflc2716s-french-3-door-refrigerator"}
+  },
+  "lg-lrfws2906v": {
+    "capacity_cf": 29.0, "energy_kwh_yr": 653, "energy_star": true, "icemaker": "factory-installed automatic", "water_dispenser": "external", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"],
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfws2906v-french-3-door-refrigerator", "spec_sheet": "https://www.lg.com/us/support/products/documents/LRFWS2906_%20Spec%20Sheet.pdf"}
+  },
+  "lg-lf25g8330s": {
+    "capacity_cf": 24.5, "energy_kwh_yr": 737, "energy_star": true, "icemaker": "dual (cubed/crushed)", "water_dispenser": "external", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel"],
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25g8330s-french-4-door-refrigerator"}
+  },
+  "lg-lf25h6330s": {
+    "capacity_cf": 24.5, "energy_kwh_yr": 710, "energy_star": true, "icemaker": "dual (5.5 lbs/day with IcePlus)", "water_dispenser": "external", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"], "msrp": 2599,
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25h6330s-french-3-door-refrigerator"}
+  },
+  "lg-lf25h6200s": {
+    "capacity_cf": 25.1, "energy_kwh_yr": 608, "energy_star": true, "icemaker": "single automatic, cubed", "water_dispenser": "internal", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel"], "msrp": 1899,
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25h6200s-french-3-door-refrigerator"}
+  },
+  "lg-lf21g6200s": {
+    "capacity_cf": 20.8, "energy_kwh_yr": 574, "energy_star": true, "icemaker": "automatic, cubed", "water_dispenser": "internal", "wifi": true, "compressor": "smart inverter", "finishes": ["Stainless Steel"], "msrp": 2188,
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lf21g6200s-french-3-door-refrigerator"}
+  },
+  "lg-lf29h8330s": {
+    "capacity_cf": 28.6, "energy_kwh_yr": 785, "energy_star": true, "icemaker": "dual (3.0 lbs/day)", "water_dispenser": "external", "wifi": true, "compressor": "smart inverter", "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"], "msrp": 3699,
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lf29h8330s-french-4-door-refrigerator"}
+  },
+  "lg-lrmdc2306s": {
+    "capacity_cf": 22.5, "energy_kwh_yr": 716, "energy_star": true, "icemaker": "dual ice with Craft Ice (cubed/crushed/sphere)", "water_dispenser": "internal", "wifi": true, "compressor": "smart inverter linear", "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"], "msrp": 4499,
+    "retailer_ratings": {"best_buy": {"stars": 4.4, "count": 398, "url": "https://www.bestbuy.com/site/lg-22-5-cu-ft-4-door-french-door-counter-depth-refrigerator-with-door-in-door-and-craft-ice-stainless-steel/6397168.p"}},
+    "source_urls": {"manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmdc2306s-french-4-door-refrigerator"}
+  },
+  "bosch-b36ct80sns": {
+    "capacity_cf": 20.8, "energy_kwh_yr": 570, "energy_star": true, "icemaker": "internal", "water_dispenser": "internal", "wifi": true, "compressor": "dual", "finishes": ["stainless"], "release_year": 2019, "msrp": 3899,
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CT80SNS", "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2371900"}
+  },
+  "bosch-b36cl80sns": {
+    "capacity_cf": 20.5, "energy_kwh_yr": 568, "energy_star": true, "icemaker": "internal", "water_dispenser": "internal", "wifi": true, "compressor": "dual", "finishes": ["stainless"], "release_year": 2019, "msrp": 3699,
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL80SNS", "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2371893"}
+  },
+  "bosch-b36cl81enw": {
+    "capacity_cf": 20.5, "energy_kwh_yr": 568, "energy_star": true, "icemaker": "internal", "water_dispenser": "internal", "wifi": true, "compressor": "dual", "finishes": ["white"], "msrp": 5299,
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL81ENW", "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details-plus/2371892"}
+  },
+  "bosch-b36cd52sns": {
+    "capacity_cf": 21.6, "energy_kwh_yr": 654, "energy_star": true, "icemaker": "internal", "water_dispenser": "external", "wifi": true, "finishes": ["stainless"], "release_year": 2024, "msrp": 3649,
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CD52SNS", "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3627208"}
+  },
+  "bosch-b36fd10ens": {
+    "capacity_cf": 26.0, "energy_star": true, "icemaker": "internal", "water_dispenser": "external", "wifi": true, "finishes": ["stainless"], "msrp": 2449,
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD10ENS"}
+  },
+  "bosch-shp9pcm5n": {
+    "tub": "stainless", "decibels": 38, "place_settings": 16, "third_rack": "MyWay", "wash_cycles": 9, "energy_kwh_yr": 240, "water_gal_cycle": 3.2, "energy_star": true, "wifi": true, "panel_ready": false, "msrp": 2189, "finishes": ["stainless"], "release_year": 2023,
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N", "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2407874"}
+  },
+  "bosch-shp65cm5n": {
+    "tub": "stainless", "decibels": 44, "place_settings": 16, "third_rack": "MyWay", "wash_cycles": 8, "energy_kwh_yr": 240, "water_gal_cycle": 3.2, "energy_star": true, "wifi": true, "panel_ready": false, "msrp": 1299, "finishes": ["stainless", "white", "black"],
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/SHP65CM5N", "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2407861"}
+  },
+  "bosch-sgx78c55uc": {
+    "tub": "stainless", "decibels": 42, "place_settings": 15, "third_rack": "MyWay", "wash_cycles": 6, "energy_kwh_yr": 239, "water_gal_cycle": 3.18, "energy_star": true, "wifi": true, "panel_ready": false, "msrp": 1449, "finishes": ["stainless"],
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SGX78C55UC", "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2624394"}
+  },
+  "bosch-shv88pz63n": {
+    "tub": "stainless", "decibels": 40, "place_settings": 16, "third_rack": "MyWay", "wash_cycles": 7, "energy_kwh_yr": 269, "energy_star": true, "wifi": true, "panel_ready": true, "finishes": ["panel-ready"],
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/mkt-product/out-of-stock/SHV88PZ63N"}
+  },
+  "samsung-rf90f29aecr": {
+    "capacity_cf": 29.0, "energy_star": true, "icemaker": "dual auto", "water_dispenser": "internal", "wifi": true, "finishes": ["Charcoal Glass + Stainless Steel", "White Glass"], "release_year": 2025, "msrp": 3299,
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-29-cu-ft-4-door-french-door-refrigerator-with-ai-family-hub-ai-vision-inside-in-charcoal-glass-and-stainless-steel-rf90f29aecraa/"}
+  },
+  "samsung-rf23bb8900aw": {
+    "capacity_cf": 22.5, "energy_kwh_yr": 593, "energy_star": true, "icemaker": "dual auto", "water_dispenser": "internal", "wifi": true, "compressor": "digital inverter", "finishes": ["Bespoke panel-ready"], "release_year": 2023,
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/business/builder/our-appliances/refrigerators/bespoke/bespoke-4-door-french-door-refrigerator-23-cu-ft-with-family-hub-panel-in-charcoal-glass-with-customizable-panel-colors-rf23bb8900awaa/"}
+  },
+  "samsung-rs28cb760012": {
+    "capacity_cf": 28.0, "energy_kwh_yr": 600, "energy_star": true, "icemaker": "dual auto", "water_dispenser": "internal", "wifi": true, "finishes": ["White Glass", "Stainless Steel"], "release_year": 2023, "msrp": 2299,
+    "retailer_ratings": {"best_buy": {"stars": 4.8, "count": 271, "url": "https://www.bestbuy.com/site/samsung-bespoke-side-by-side-smart-refrigerator-with-beverage-center-stainless-steel/6529228.p"}},
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-side-by-side-28-cu-ft-refrigerator-with-beverage-center-in-white-glass-rs28cb760012aa/"}
+  },
+  "samsung-rs23cb7600qlaa": {
+    "capacity_cf": 22.6, "energy_kwh_yr": 600, "energy_star": true, "icemaker": "dual auto", "water_dispenser": "internal", "wifi": true, "finishes": ["Stainless Steel", "White Glass"], "release_year": 2023, "msrp": 2399,
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-counter-depth-side-by-side-23-cu-ft-refrigerator-with-beverage-center-in-stainless-steel-rs23cb7600qlaa/"}
+  },
+  "samsung-rt16a6195sr": {
+    "capacity_cf": 15.6, "energy_kwh_yr": 345, "energy_star": true, "icemaker": "ready (kit sold separately)", "water_dispenser": "none", "wifi": true, "compressor": "digital inverter", "finishes": ["Stainless Steel"], "garage_ready": true, "release_year": 2021, "msrp": 649,
+    "retailer_ratings": {"best_buy": {"stars": 4.5, "count": 476, "url": "https://www.bestbuy.com/site/samsung-15-6-cu-ft-top-freezer-refrigerator-with-all-around-cooling-stainless-steel/6471975.p"}},
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/top-freezer/15-6-cu-ft-top-freezer-refrigerator-with-all-around-cooling-in-stainless-steel-rt16a6195sr-aa/"}
+  },
+  "samsung-rs27t5200sr": {
+    "capacity_cf": 27.4, "energy_kwh_yr": 728, "energy_star": true, "noise_db": 40, "icemaker": "in-door auto", "water_dispenser": "external", "wifi": false, "compressor": "digital inverter", "finishes": ["Fingerprint Resistant Stainless Steel", "Black Stainless Steel"], "release_year": 2020, "msrp": 1666,
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/27-4-cu-ft-side-by-side-refrigerator-with-large-capacity-in-stainless-steel-rs27t5200sr-aa/v2/"}
+  },
+  "samsung-rs27t5561sr": {
+    "capacity_cf": 26.7, "energy_kwh_yr": 691, "energy_star": true, "icemaker": "in-door auto", "water_dispenser": "external", "wifi": true, "finishes": ["Fingerprint Resistant Stainless Steel"], "release_year": 2020, "msrp": 1999,
+    "retailer_ratings": {"best_buy": {"stars": 4.6, "count": 1481, "url": "https://www.bestbuy.com/site/samsung-26-7-cu-ft-side-by-side-smart-refrigerator-with-21-5-touch-screen-family-hub-stainless-steel/6397590.p"}},
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/26-7-cu-ft-large-capacity-side-by-side-refrigerator-with-touch-screen-family-hub--in-stainless-steel-rs27t5561sr-aa/"}
+  },
+  "samsung-rf25c5551sr": {
+    "capacity_cf": 24.5, "energy_kwh_yr": 643, "energy_star": true, "icemaker": "dual auto", "water_dispenser": "internal", "wifi": true, "compressor": "digital inverter", "finishes": ["Fingerprint Resistant Stainless Steel"], "release_year": 2023, "msrp": 1599,
+    "retailer_ratings": {"best_buy": {"stars": 4.3, "count": 2740, "url": "https://www.bestbuy.com/site/samsung-25-cu-ft-3-door-french-door-smart-refrigerator-with-beverage-center-stainless-steel/6529227.p"}},
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/3-door-french-door/25-cu-ft-33-3-door-french-door-refrigerator-with-beverage-center-and--autofill-water-pitcher-in-stainless-steel-rf25c5551sr-aa/"}
+  },
+  "samsung-rf29bb8600ap": {
+    "capacity_cf": 28.8, "energy_kwh_yr": 685, "energy_star": true, "icemaker": "dual auto", "water_dispenser": "internal", "wifi": true, "compressor": "digital inverter", "finishes": ["Bespoke panel-ready"], "release_year": 2023, "msrp": 3399,
+    "retailer_ratings": {"best_buy": {"stars": 4.7, "count": 1959, "url": "https://www.bestbuy.com/product/samsung-bespoke-29-cu-ft-4-door-french-door-smart-refrigerator-with-beverage-center-custom-panel-ready/J3ZYG22FFC"}},
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-4-door-french-door-refrigerator-29-cu-ft-with-beverage-center-in-stainless-steel-rf29bb8600qlaa/"}
+  },
+  "samsung-rs22t5561sr": {
+    "capacity_cf": 21.5, "energy_kwh_yr": 636, "energy_star": true, "icemaker": "in-door auto", "water_dispenser": "external", "wifi": true, "compressor": "digital inverter", "finishes": ["Fingerprint Resistant Stainless Steel"], "release_year": 2020, "msrp": 2099,
+    "retailer_ratings": {"best_buy": {"stars": 4.4, "count": 243, "url": "https://www.bestbuy.com/site/samsung-21-5-cu-ft-side-by-side-counter-depth-refrigerator-with-21-5-touchscreen-family-hub-stainless-steel/6397592.p"}},
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/22-cu-ft-counter-depth-side-by-side-refrigerator-with-touch-screen-family-hub-in-stainless-steel-rs22t5561sr-aa/"}
+  },
+  "ge-profile-phs930ypfs": {
+    "oven_capacity_cf": 5.3, "convection": "true European convection", "air_fry": true, "self_clean": "self + steam", "wifi": true, "finishes": ["Fingerprint Resistant Stainless Steel"], "msrp": 3349,
+    "source_urls": {"manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Fingerprint-Resistant-Front-Control-Induction-and-Convection-Range-with-No-Preheat-Air-Fry-PHS930YPFS"}
+  },
+  "whirlpool-wee515s0ls": {
+    "oven_capacity_cf": 4.8, "burners": 4, "self_clean": "self", "wifi": false, "finishes": ["Stainless Steel"], "msrp": 1649,
+    "source_urls": {"manufacturer": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.4.8-cu.-ft.-whirlpool-electric-range-with-frozen-bake-technology.wee515s0ls.html"}
+  },
+  "cafe-ces700p2ms1": {
+    "oven_capacity_cf": 5.7, "burners": 5, "max_burner_w": 3600, "convection": "true convection", "air_fry": true, "self_clean": "self", "wifi": true, "finishes": ["Stainless Steel"], "msrp": 2999,
+    "retailer_ratings": {"lowes": {"stars": 4.4, "count": 957, "url": "https://www.lowes.com/pd/Cafe-Smooth-Surface-5-Elements-5-7-cu-ft-Self-Cleaning-True-Convection-Slide-in-Electric-Range-Stainless-Steel-Common-30-in-Actual-29-875-in/1000939262"}, "best_buy": {"stars": 4.5, "count": 81, "url": "https://www.bestbuy.com/site/searchpage.jsp?st=CES700P2MS1"}},
+    "source_urls": {"manufacturer": "https://www.cafeappliances.com/appliance/Cafe-30-Smart-Slide-In-Front-Control-Radiant-and-Convection-Range-CES700P2MS1"}
+  },
+  "bosch-hef1050mu": {
+    "oven_capacity_cf": 5.8, "burners": 5, "max_burner_w": 3000, "convection": "true convection", "air_fry": true, "self_clean": "self", "wifi": false, "finishes": ["Stainless Steel"], "msrp": 1549,
+    "retailer_ratings": {"home_depot": {"stars": 4.6, "count": 15, "url": "https://www.homedepot.com/p/Bosch-100-Series-30-5-8-cu-ft-Slide-In-Electric-Range-in-Stainless-Steel-with-True-Convection-Oven-HEF1050MU/334468424"}},
+    "source_urls": {"manufacturer": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/electric-slide-in-ranges/HEF1050MU"}
+  },
+  "maytag-mer8800fz": {
+    "oven_capacity_cf": 6.4, "burners": 5, "max_burner_w": 3200, "convection": "true convection", "self_clean": "self", "wifi": false, "finishes": ["Fingerprint Resistant Stainless Steel"],
+    "retailer_ratings": {"best_buy": {"stars": 4.3, "count": 188, "url": "https://www.bestbuy.com/site/maytag-6-4-cu-ft-self-cleaning-freestanding-fingerprint-resistant-electric-convection-range-stainless-steel/5509700.p"}},
+    "source_urls": {"manufacturer": "https://www.maytag.com/kitchen/cooking/ranges/electric/p.30-inch-wide-electric-range-with-true-convection-and-power-preheat-6.4-cu.-ft.mer8800fz.html"}
+  },
+  "kitchenaid-kfeg504kps": {
+    "oven_capacity_cf": 6.4, "burners": 5, "max_burner_w": 3000, "convection": "true convection", "self_clean": "self", "wifi": false, "finishes": ["Stainless Steel with PrintShield"],
+    "source_urls": {"manufacturer": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.30-inch-5-element-electric-convection-range-with-printshield-finish.kfeg504kps.html"}
+  },
+  "amana-aer6603sms": {
+    "oven_capacity_cf": 4.8, "burners": 4, "max_burner_w": 3000, "self_clean": "self", "wifi": false, "finishes": ["Stainless Steel"],
+    "source_urls": {"manufacturer": "https://www.amana.com/cooking/ranges/p.30-inch-amana-electric-range-with-extra-large-oven-window.aer6603sms.html"}
+  },
+  "whirlpool-wfes7530rz": {
+    "oven_capacity_cf": 5.3, "burners": 5, "max_burner_w": 3000, "convection": "true convection", "air_fry": true, "self_clean": "steam + self", "wifi": true, "finishes": ["Fingerprint Resistant Stainless Steel"],
+    "source_urls": {"manufacturer": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.30-inch-electric-smart-range-with-air-cooking-technology,-no-preheat-air-fry,-high-speed-preheat-oven,-wipeclean-coating,-and-steam-self-clean.wfes7530rz.html"}
+  },
+  "ge-jgss61spss": {
+    "oven_capacity_cf": 5.3, "burners": 4, "max_burner_btu": 15000, "wifi": true, "finishes": ["Stainless Steel"], "msrp": 1449,
+    "source_urls": {"manufacturer": "https://www.geappliances.com/appliance/GE-30-Slide-In-Front-Control-Gas-Range-JGSS61SPSS"}
+  },
+  "lg-lrgl5823s": {
+    "oven_capacity_cf": 5.8, "burners": 5, "max_burner_btu": 20000, "convection": "true convection", "air_fry": true, "self_clean": "EasyClean + self", "wifi": true, "finishes": ["PrintProof Stainless Steel", "PrintProof Black Stainless Steel"], "msrp": 1499,
+    "retailer_ratings": {"best_buy": {"stars": 4.6, "count": 788, "url": "https://www.bestbuy.com/site/reviews/lg-5-8-cu-ft-smart-freestanding-gas-true-convection-range-with-easyclean-and-airfry-printproof-stainless-steel/6401897"}},
+    "source_urls": {"manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lrgl5823s-gas-range-with-air-fryer"}
+  },
+  "samsung-nsg6dg8700sr": {
+    "oven_capacity_cf": 6.0, "burners": 5, "max_burner_btu": 23000, "convection": "true convection", "air_fry": true, "self_clean": "self", "wifi": true, "finishes": ["Stainless Steel"], "msrp": 2599,
+    "retailer_ratings": {"best_buy": {"stars": 4.7, "count": 108, "url": "https://www.bestbuy.com/site/samsung-bespoke-6-0-cu-ft-slide-in-gas-range-with-smart-oven-camera-stainless-steel/6568989.p"}},
+    "source_urls": {"manufacturer": "https://www.samsung.com/us/cooking-appliances/ranges/bespoke-6-0-cu-ft-smart-slide-in-gas-range-with-smart-oven-camera-illuminated-precision-knobs-in-stainless-steel-sku-nsg6dg8700sraa/"}
+  }
+}

@@ -120,20 +120,25 @@ function App({ data }) {
     return () => document.body.classList.remove('has-compare');
   }, [compareIds.length]);
 
+  // Sync density tweak to body so CSS can respond
+  useEffect(() => {
+    document.body.dataset.density = tweaks.density;
+    return () => { delete document.body.dataset.density; };
+  }, [tweaks.density]);
+
   return (
     <>
+      <a className="skip-link" href="#main">Skip to main content</a>
       <header className="site-header">
         <div className="header-inner">
           <div className="brand">
             <span className="brand-mark">Chef's <em>Choice</em></span>
             <span className="brand-tag">Kitchen appliance research · 2026</span>
           </div>
-          <nav className="tabs" role="tablist">
+          <nav className="tabs" aria-label="Section">
             {tabs.map(t => (
               <button
                 key={t.id}
-                role="tab"
-                aria-selected={tab === t.id}
                 aria-current={tab === t.id ? 'page' : undefined}
                 className={"tab-btn " + (tab === t.id ? 'active' : '')}
                 onClick={() => setTab(t.id)}
@@ -151,11 +156,11 @@ function App({ data }) {
       </header>
 
       {isGuide ? (
-        <div className="guide-wrap">
+        <div className="guide-wrap" id="main" tabIndex={-1}>
           <GuideTabbed guide={data.guide} brandsById={brandsById} />
         </div>
       ) : (
-        <div className="app">
+        <div className="app" id="main" tabIndex={-1}>
           <Sidebar
             category={category}
             models={allModels}
@@ -259,14 +264,14 @@ function LocationToggle({ value, onChange }) {
     { id: 'garage',  label: 'Garage',  tip: 'Only models the manufacturer rates as Garage Ready (wider ambient temp range, typically 38–110°F).' },
   ];
   return (
-    <div className="loc-toggle" role="tablist" aria-label="Where will this fridge live?">
+    <div className="loc-toggle" role="radiogroup" aria-label="Refrigerator location">
       <span className="loc-toggle-label" aria-hidden="true">Location</span>
       {opts.map(o => (
         <button
           key={o.id}
-          role="tab"
+          role="radio"
           type="button"
-          aria-selected={value === o.id}
+          aria-checked={value === o.id}
           className={value === o.id ? 'active' : ''}
           onClick={() => onChange(o.id)}
         >
@@ -288,12 +293,12 @@ function GuideTabbed({ guide, brandsById }) {
   ];
   return (
     <>
-      <div className="guide-cat-tabs" role="tablist">
+      <div className="guide-cat-tabs" role="group" aria-label="Guide category">
         {catOptions.map(([id, label]) => (
           <button
             key={id}
-            role="tab"
-            aria-selected={cat === id}
+            type="button"
+            aria-pressed={cat === id}
             className={"guide-cat-tab " + (cat === id ? 'active' : '')}
             onClick={() => setCat(id)}
           >

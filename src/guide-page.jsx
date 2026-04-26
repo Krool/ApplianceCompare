@@ -130,7 +130,7 @@ function GuidePage({ guide, category, brandsById }) {
               {cat.rebates_2026.map((r, i) => <li key={i}>{r}</li>)}
             </ul>
             <p style={{marginTop: 10, fontSize: 12, color: 'var(--ink-3)'}}>
-              See <a href="MARKET_TRENDS.md" target="_blank" rel="noreferrer">MARKET_TRENDS</a> for
+              See <a href="https://github.com/Krool/ApplianceCompare/blob/main/public/MARKET_TRENDS.md" target="_blank" rel="noreferrer">MARKET_TRENDS</a> for
               the current state-by-state HEAR rollout.
             </p>
           </div>

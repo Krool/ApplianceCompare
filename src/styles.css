@@ -48,6 +48,27 @@ button { font-family: inherit; cursor: pointer; }
 }
 tr:focus-visible { outline-offset: -2px; }
 
+/* Skip link — visible only when focused, jumps past the sticky header */
+.skip-link {
+  position: absolute; left: 8px; top: -48px;
+  z-index: 1000; padding: 8px 14px;
+  background: var(--accent); color: #fff;
+  font-size: 13px; font-weight: 600;
+  border-radius: 0 0 6px 6px;
+  transition: top 0.12s ease;
+}
+.skip-link:focus { top: 0; text-decoration: none; }
+
+/* Honor reduced-motion preference — collapse animations and transitions */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* === Header === */
 .site-header {
   position: sticky; top: 0; z-index: 50;
@@ -142,7 +163,7 @@ tr:focus-visible { outline-offset: -2px; }
   color: var(--ink); font-variant-numeric: tabular-nums;
 }
 .range-hint {
-  margin-top: 6px; font-size: 11.5px; color: var(--warn);
+  margin-top: 6px; font-size: 11.5px; color: var(--bad);
   line-height: 1.35;
 }
 .clear-filters {
@@ -175,8 +196,8 @@ tr:focus-visible { outline-offset: -2px; }
 }
 .search-box input { padding-right: 30px; }
 .search-clear {
-  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
-  width: 22px; height: 22px; border: 0; background: transparent;
+  position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+  width: 28px; height: 28px; border: 0; background: transparent;
   color: var(--ink-3); font-size: 12px; line-height: 1;
   border-radius: 4px; display: grid; place-items: center;
 }
@@ -333,6 +354,13 @@ table.appliance-table {
   padding: 12px; vertical-align: middle;
   font-variant-numeric: tabular-nums;
 }
+
+/* Density: compact — driven by Tweaks panel via body[data-density] */
+body[data-density="compact"] .appliance-table td { padding: 6px 12px; }
+body[data-density="compact"] .appliance-table thead th { padding: 7px 12px; }
+body[data-density="compact"] .filter-item { padding: 3px 8px; font-size: 12.5px; }
+body[data-density="compact"] .filter-group { margin-bottom: 16px; }
+body[data-density="compact"] .score-bar .num { font-size: 13px; }
 .cell-name {
   display: flex; flex-direction: column; gap: 2px;
 }
@@ -457,9 +485,12 @@ table.appliance-table {
 
 .compare-cell {
   text-align: center;
-  width: 50px;
+  width: 80px;
 }
 .compare-cell input { accent-color: var(--accent); }
+/* Suppress the default focus outline on #main when programmatic focus is moved
+   there via the skip link — we only want the outline for true keyboard focus. */
+#main:focus { outline: none; }
 
 /* === Detail drawer === */
 .drawer-overlay {
@@ -488,7 +519,7 @@ table.appliance-table {
 }
 .drawer-close {
   background: var(--bg-sunk); border: 0;
-  width: 30px; height: 30px; border-radius: 6px;
+  width: 36px; height: 36px; border-radius: 6px;
   display: grid; place-items: center;
   color: var(--ink-2);
   margin-left: auto; flex-shrink: 0;
@@ -633,7 +664,8 @@ body.has-compare { padding-bottom: 72px; }
 }
 .compare-chip button {
   background: transparent; border: 0; color: #fff; opacity: 0.6;
-  font-size: 16px; line-height: 1; padding: 0 2px;
+  font-size: 16px; line-height: 1; padding: 4px 6px;
+  border-radius: 4px;
 }
 .compare-chip button:hover { opacity: 1; }
 .compare-go {
@@ -642,6 +674,10 @@ body.has-compare { padding-bottom: 72px; }
   margin-left: auto;
 }
 .compare-go:hover { background: #a0381a; }
+.compare-go:disabled {
+  opacity: 0.45; cursor: not-allowed;
+  background: var(--accent);
+}
 .compare-clear {
   background: transparent; border: 1px solid rgba(255,255,255,0.2);
   color: #fff; padding: 8px 12px; border-radius: 6px; font-size: 12px;
@@ -881,7 +917,7 @@ body.has-compare { padding-bottom: 72px; }
     border-right: 0;
     border-bottom: 1px solid var(--line);
     padding: 12px 14px 6px;
-    max-height: 52vh;
+    max-height: 38vh;
     overflow-y: auto;
   }
   .filter-group { margin-bottom: 14px; }
