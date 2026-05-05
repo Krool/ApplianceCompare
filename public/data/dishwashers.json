@@ -42,7 +42,9 @@
     "batch_round47_mixed_dw_2026_05": "Round 47: 12 more Yale/Reviewed dishwasher endorsements.",
     "batch_round48_yale9_dw_2026_05": "Round 48: 2 more Yale category endorsements.",
     "batch_round49_2026_05": "Round 49: 4 per-model yale_reliability_pct values for LG dishwashers from Yale Most Reliable 2026 article (NEW signal type — expected to upgrade several limited → solid).",
-    "batch_round51_reviewed6_dw_2026_05": "Round 51: 5 more Reviewed category endorsements."
+    "batch_round51_reviewed6_dw_2026_05": "Round 51: 5 more Reviewed category endorsements.",
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 1 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 3 models."
   },
   "models": [
     {
@@ -2847,7 +2849,8 @@
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
           "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-300-series-she53c85n/m410627/",
-          "manufacturer": "https://www.bestbuy.com/product/bosch-300-series-24-front-control-smart-built-in-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46-dba-stainless-steel/J3P3229752"
+          "manufacturer": "https://www.bestbuy.com/product/bosch-300-series-24-front-control-smart-built-in-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46-dba-stainless-steel/J3P3229752",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
         },
         "cr_overall": 80,
         "cr_reliability": "very-good",
@@ -2877,7 +2880,8 @@
             "count": 321,
             "url": "https://www.bestbuy.com/site/bosch-300-series-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46dba-stainless-steel/6542986.p?skuId=6542986"
           }
-        }
+        },
+        "wirecutter": "top pick"
       },
       "pros": [
         "Reviewed.com: 'Great balance between price and performance'",
@@ -4502,7 +4506,8 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N",
-          "spec_sheet": "https://media3.bosch-home.com/Documents/24579307_SHE41CM5N_Spec_Sheet.pdf"
+          "spec_sheet": "https://media3.bosch-home.com/Documents/24579307_SHE41CM5N_Spec_Sheet.pdf",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -4518,7 +4523,8 @@
             "label": "Wirecutter notes the new cheaper SHE41CM5N: \"no third rack… not yet tested\" (Feb 2026)",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
           }
-        ]
+        ],
+        "wirecutter": "Wirecutter pick"
       },
       "pros": [],
       "cons": [],
@@ -5818,7 +5824,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/",
-          "specs": "https://www.cafeappliances.com/appliance/CAFE-Dishwasher-CDT888P2VS1"
+          "specs": "https://www.cafeappliances.com/appliance/CAFE-Dishwasher-CDT888P2VS1",
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
         },
         "endorsements": [
           {
@@ -5839,7 +5846,8 @@
             "label": "Reviewed (Best Quiet Dishwashers): \"Recommended\" — \"impressively quiet 39 dBA\"",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
-        ]
+        ],
+        "reviewed_status": "Editors Choice / Best Upgrade · Best Stainless Steel Dishwashers)"
       },
       "pros": [
         "Wirecutter Best-For-Design pick — 4 finishes × 6 hardware options",
@@ -6066,7 +6074,8 @@
             "label": "Yale 2026: KitchenAid 8.2% dishwasher service rate; M-Series build quality",
             "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
           }
-        ]
+        ],
+        "wirecutter": "Wirecutter pick"
       },
       "pros": [
         "44 dBA + FreeFlex 3rd rack + interior LED at $1,500 street",

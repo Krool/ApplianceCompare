@@ -44,7 +44,10 @@
     "batch_round43_yale7_fridge_2026_05": "Round 43: 1 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
     "batch_round45_reviewed4_fridge_2026_05": "Round 45: 15 more Reviewed category endorsements.",
     "batch_round48_yale9_fridge_2026_05": "Round 48: 3 more Yale category endorsements.",
-    "batch_round51_reviewed6_fridge_2026_05": "Round 51: 6 more Reviewed category endorsements."
+    "batch_round51_reviewed6_fridge_2026_05": "Round 51: 6 more Reviewed category endorsements.",
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 6 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models.",
+    "batch_round54_2026_05": "Round 54: 8 fridges gained rtings field (RTINGS Tested status). NEW signal slot — expected to upgrade some limited→solid."
   },
   "models": [
     {
@@ -388,7 +391,7 @@
         "yale_reliability_pct": 12.7,
         "wirecutter": null,
         "reviewed": null,
-        "rtings": null,
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026",
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-b36ct80sns/m399238/",
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2",
@@ -441,6 +444,12 @@
             "type": "roundup",
             "label": "Reviewed (Best French-Door Refrigerators): \"Editor's Choice\" — \"An all-around fantastic fridge that provides both cold and stable temperatures\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2"
+          },
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
           }
         ],
         "yale_reliability_source": "yale_2026"
@@ -732,7 +741,8 @@
           "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gne27jymfs/m408664/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-27-0-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-GNE27JYMFS",
           "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
-          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door"
         },
         "retailer_ratings": {
           "lowes": {
@@ -753,8 +763,15 @@
             "type": "roundup",
             "label": "Runner-up French-Door 2026: more-flexible layout, isn't smart",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
+          },
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
           }
-        ]
+        ],
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026"
       },
       "pros": [
         "Good value French door",
@@ -804,7 +821,8 @@
         "reviewed": null,
         "source_urls": {
           "garage_ready": "https://www.geappliances.com/appliance/GE-21-9-Cu-Ft-Garage-Ready-Top-Freezer-Refrigerator-GTS22KGNRWW",
-          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
         },
         "wirecutter": "runner-up (garage-ready) 2026",
         "endorsements": [
@@ -820,7 +838,8 @@
             "label": "Reviewed (Best Refrigerators Under $1,000): GTS22K family tested — \"maintains stable temperatures, large freezer, garage-ready\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
           }
-        ]
+        ],
+        "reviewed_status": "Best Refrigerators Under $1,000)"
       },
       "pros": [
         "Cheapest reliable fridge",
@@ -1929,7 +1948,8 @@
         "reviewed": null,
         "source_urls": {
           "water_filter": "https://www.frigidaire.com/en/p/accessories/refrigerator-accessories/refrigerator-accessories-and-consumables/water-filters/EPTWFU012PAK",
-          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-stainless-steel-fridges-under-2000"
         },
         "endorsements": [
           {
@@ -1950,7 +1970,8 @@
             "label": "Reviewed (Best Side-by-Side Refrigerators): \"Best Value\" — \"solid temperatures, lots of storage, through-the-door dispenser\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-side-by-side-fridges-refrigerators"
           }
-        ]
+        ],
+        "reviewed_status": "Best Stainless-Steel Fridges Under $2,000)"
       },
       "pros": [
         "Cheap",
@@ -3041,7 +3062,9 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
-          "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm"
+          "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door"
         },
         "endorsements": [
           {
@@ -3049,8 +3072,16 @@
             "type": "roundup",
             "label": "Reviewed (Best French-Door Refrigerators): tested — \"will be right at home in any kitchen\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2"
+          },
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
           }
-        ]
+        ],
+        "reviewed_status": "Best French-Door Refrigerators)",
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026"
       },
       "pros": [
         "FlexZone convertible middle drawer",
@@ -3411,7 +3442,7 @@
         "yale_reliability_pct": null,
         "wirecutter": "top pick 2026",
         "reviewed": null,
-        "rtings": null,
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026",
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
           "rtings": "https://www.rtings.com/refrigerator/reviews/best/counter-depth",
@@ -3436,6 +3467,12 @@
             "type": "article",
             "label": "Yale (LG Counter-Depth MAX Review): \"27 Cu Ft PrintProof Smart Counter Depth French Door\" — internal water dispenser ($1,799)",
             "url": "https://blog.yaleappliance.com/lg-counter-depth-max-french-door-refrigerator-review"
+          },
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
           }
         ]
       },
@@ -3483,7 +3520,8 @@
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
           "cr": "https://www.consumerreports.org/appliances/refrigerators/hisense-hrm260n6tse/m414038/",
           "specs": "https://www.lowes.com/pd/Hisense-25-6-cu-ft-4-Door-Smart-French-Door-Refrigerator-with-Ice-Maker-Stainless-Steel-ENERGY-STAR/5014777193",
-          "water_filter": "https://www.frigidaire.com/en/p/accessories/refrigerator-accessories/refrigerator-accessories-and-consumables/water-filters/EPTWFU012PAK"
+          "water_filter": "https://www.frigidaire.com/en/p/accessories/refrigerator-accessories/refrigerator-accessories-and-consumables/water-filters/EPTWFU012PAK",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door"
         },
         "cr_overall": 72,
         "cr_reliability": "unrated",
@@ -3523,6 +3561,12 @@
             "type": "roundup",
             "label": "Reviewed (Best French-Door Refrigerators): \"Editor's Choice\" — \"the best mid-range French-door refrigerator we've tested\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2"
+          },
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
           }
         ],
         "retailer_ratings": {
@@ -3531,7 +3575,8 @@
             "count": 55,
             "url": "https://www.lowes.com/pd/Hisense-25-6-cu-ft-4-Door-Smart-French-Door-Refrigerator-with-Ice-Maker-Stainless-Steel-ENERGY-STAR/5014777193"
           }
-        }
+        },
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026"
       },
       "pros": [
         "Reviewed.com lab: 'steady temperatures' and 'excellent temperature control'",
@@ -4550,7 +4595,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
-          "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/top-freezer-refrigerators/FFHT1425VV"
+          "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/top-freezer-refrigerators/FFHT1425VV",
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
         },
         "endorsements": [
           {
@@ -4571,7 +4617,8 @@
             "label": "Reviewed (Best Top-Freezer Refrigerators): \"Editor's Choice\" — \"Great size for smaller spaces\" and \"Good temperature consistency\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-top-freezer-refrigerators"
           }
-        ]
+        ],
+        "reviewed_status": "Best Refrigerators Under $1,000)"
       },
       "pros": [
         "ADA compliant — important for accessible kitchens",
@@ -5800,7 +5847,8 @@
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL81ENW",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details-plus/2371892",
-          "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560"
+          "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-counter-depth-fridges-refrigerators"
         },
         "endorsements": [
           {
@@ -5809,7 +5857,8 @@
             "label": "Reviewed (Best Counter-Depth Refrigerators): \"Best for Wine Lovers\" — \"dedicated wine drawer is a stand-out feature of this stylish and high-performing Bosch fridge\" (B36CL81 family)",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-counter-depth-fridges-refrigerators"
           }
-        ]
+        ],
+        "reviewed_status": "Best Counter-Depth Refrigerators)"
       },
       "pros": [
         "Dual compressors (independent fridge / freezer temp control)",
@@ -6098,8 +6147,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door"
+        },
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026",
+        "endorsements": [
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -7517,8 +7576,18 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "manufacturer": "https://www.maytag.com/kitchen/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4236rz.html",
-          "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html"
-        }
+          "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door"
+        },
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026",
+        "endorsements": [
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -7595,8 +7664,18 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD10ENS",
-          "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560"
-        }
+          "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
+          "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door"
+        },
+        "rtings": "RTINGS Tested · Top-20 French-Door 2026",
+        "endorsements": [
+          {
+            "channel": "RTINGS",
+            "type": "roundup",
+            "label": "RTINGS (Best French-Door Refrigerators): listed in top-20 (full scores require membership)",
+            "url": "https://www.rtings.com/refrigerator/reviews/best/french-door"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -7741,7 +7820,8 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/27-4-cu-ft-side-by-side-refrigerator-with-large-capacity-in-stainless-steel-rs27t5200sr-aa/v2/",
-          "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/"
+          "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/",
+          "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-stainless-steel-fridges-under-2000"
         },
         "endorsements": [
           {
@@ -7756,7 +7836,8 @@
             "label": "Reviewed (Best Side-by-Side Refrigerators): tested — \"tons of storage and won't miss smart features\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-side-by-side-fridges-refrigerators"
           }
-        ]
+        ],
+        "reviewed_status": "Best Stainless-Steel Fridges Under $2,000)"
       },
       "pros": [
         "Quiet (40 dB)",

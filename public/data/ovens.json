@@ -47,7 +47,9 @@
     "batch_round44_reviewed3_oven_2026_05": "Round 44: 15 Reviewed category-roundup endorsements (only exact-SKU in-DB matches).",
     "batch_round46_mixed_oven_2026_05": "Round 46: 6 more Reviewed/Yale category endorsements.",
     "batch_round48_yale9_oven_2026_05": "Round 48: 2 more Yale category endorsements.",
-    "batch_round50_2026_05": "Round 50: 2 Yale reliability-article model citations."
+    "batch_round50_2026_05": "Round 50: 2 Yale reliability-article model citations.",
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 10 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models."
   },
   "models": [
     {
@@ -666,7 +668,8 @@
           }
         ],
         "source_urls": {
-          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -674,7 +677,8 @@
             "count": 467,
             "url": "https://www.bestbuy.com/site/ge-5-3-cu-ft-freestanding-electric-range-with-power-boil-and-ceramic-glass-cooktop-white/4955900.p?skuId=4955900"
           }
-        }
+        },
+        "reviewed_status": "Best Ranges Under $800)"
       },
       "pros": [
         "Cheapest reliable electric",
@@ -1506,7 +1510,8 @@
         "cr_reliability": "fair",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/products/cooktops-28977/electric-induction-cooktops-200764/ge-profile-php9036djbb-406513/"
+          "cr": "https://www.consumerreports.org/products/cooktops-28977/electric-induction-cooktops-200764/ge-profile-php9036djbb-406513/",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -1522,7 +1527,8 @@
             "label": "Reviewed (Best Electric Induction Cooktops): \"Best 36-inch Induction Cooktop\" (PHP9036 family) — \"5-burner with SyncBurner technology and built-in Wi-Fi\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Best Electric Induction Cooktops)"
       },
       "pros": [
         "SyncBurner",
@@ -5442,7 +5448,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
         },
         "endorsements": [
           {
@@ -5451,7 +5458,8 @@
             "label": "Reviewed (Best Double Oven Ranges): tested — \"powerful stove-top elements, True Convection, 10-year limited parts warranty\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
           }
-        ]
+        ],
+        "reviewed_status": "Best Double Oven Ranges)"
       },
       "pros": [],
       "cons": [],
@@ -6738,7 +6746,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "manufacturer": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS66REKSS"
+          "manufacturer": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS66REKSS",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
         },
         "endorsements": [
           {
@@ -6747,7 +6756,8 @@
             "label": "Reviewed (Best Ranges Under $800): tested — \"center-mounted griddle is a nifty addition\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
           }
-        ]
+        ],
+        "reviewed_status": "Best Ranges Under $800)"
       },
       "pros": [],
       "cons": [],
@@ -8175,7 +8185,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
         },
         "wirecutter": "upgrade pick (gas, baking) 2026",
         "endorsements": [
@@ -8191,7 +8202,8 @@
             "label": "Reviewed (Best Gas Ranges): tested",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
           }
-        ]
+        ],
+        "reviewed_status": "Best Gas Ranges)"
       },
       "pros": [],
       "cons": [],
@@ -8549,7 +8561,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
         },
         "endorsements": [
           {
@@ -8558,7 +8571,8 @@
             "label": "Reviewed (Best Double Oven Ranges): KFGD500 family tested — \"Even-Heat True Convection allows your oven to heat up evenly\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
           }
-        ]
+        ],
+        "reviewed_status": "Best Double Oven Ranges)"
       },
       "pros": [],
       "cons": [],
@@ -9031,7 +9045,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
         },
         "endorsements": [
           {
@@ -9052,7 +9067,8 @@
             "label": "Yale (Wolf vs Thermador vs Viking Gas Cooktops): SGSX365TS — \"two intermittent simmers with 16,000 BTU center burner\" ($2,099)",
             "url": "https://blog.yaleappliance.com/wolf-vs-thermador-vs-viking-gas-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Editors Choice · Best 36-inch High-End Gas Cooktops)"
       },
       "pros": [],
       "cons": [],
@@ -9113,7 +9129,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
         },
         "endorsements": [
           {
@@ -9128,7 +9145,8 @@
             "label": "Reviewed (Best 36-inch High-End Gas Cooktops): \"This GE Profile cooktop offers sleek construction, continuous steel grating, and nice features.\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Best 36-inch Gas Cooktops)"
       },
       "pros": [],
       "cons": [],
@@ -10723,7 +10741,8 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/cooktops/frigidaire-professional-pcci3080af/m416949/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/cooktops/induction-cooktops/PCCI3080AF",
-          "home_depot": "https://www.homedepot.com/p/Frigidaire-Professional-30-in-4-Elements-Induction-Cooktop-in-Stainless-Steel-PCCI3080AF/333346150"
+          "home_depot": "https://www.homedepot.com/p/Frigidaire-Professional-30-in-4-Elements-Induction-Cooktop-in-Stainless-Steel-PCCI3080AF/333346150",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -10739,7 +10758,8 @@
             "label": "Reviewed (Best Electric Induction Cooktops): \"powerful 5,200-watt 11-inch PowerPlus burner, plus a bridge burner\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Best Electric Induction Cooktops)"
       },
       "pros": [],
       "cons": [],
@@ -11395,7 +11415,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/",
-          "specs": "https://www.geappliances.com/appliance/GE-Profile-PGB935YPFS"
+          "specs": "https://www.geappliances.com/appliance/GE-Profile-PGB935YPFS",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
         },
         "endorsements": [
           {
@@ -11410,7 +11431,8 @@
             "label": "Reviewed (Best Gas Ranges): tested",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
           }
-        ]
+        ],
+        "reviewed_status": "Best Gas Ranges)"
       },
       "pros": [
         "Wirecutter Upgrade Pick (Gas) — 20,000 BTU power burner is class-leading",
