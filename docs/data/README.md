@@ -6,9 +6,9 @@ Every file here is a seed database consumed by the site at runtime via `fetch()`
 
 | File | Purpose | Current count |
 | --- | --- | --- |
-| `refrigerators.json` | Fridge models | 168 |
+| `refrigerators.json` | Fridge models | 166 |
 | `dishwashers.json` | Dishwasher models | 113 |
-| `ovens.json` | Ranges + wall ovens + cooktops + specialty cooking | 266 |
+| `ovens.json` | Ranges + wall ovens + cooktops + specialty cooking | 265 |
 | `brands.json` | Brand-level reliability, tier, parent-company | 43 |
 | `buying-guide.json` | Decision trees and editorial guidance | 1 document |
 

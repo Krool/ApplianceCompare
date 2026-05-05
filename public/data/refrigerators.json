@@ -30,7 +30,11 @@
     "retailer_ratings_pass_8_2026_05": "Round 21: 1 additional retailer entries.",
     "cr_url_upgrade_2026_05": "Round 22: 18 models had their generic CR buying-guide URL upgraded to the model-specific CR review URL.",
     "retailer_ratings_pass_10_2026_05": "Round 24: 1 additional retailer entries.",
-    "popular_missing_pass_2026_05": "Round 25: added 2 popular missing models (Bosch SHEM63W55N, GE GNE25JSKSS, etc.) sourced from retailer-rating searches."
+    "popular_missing_pass_2026_05": "Round 25: added 2 popular missing models (Bosch SHEM63W55N, GE GNE25JSKSS, etc.) sourced from retailer-rating searches.",
+    "cleanup_pass_2026_05": "Round 27 cleanup: removed 2 models added in round 25 that failed the \"buyable today\" rule (discontinued or finish-only duplicates of existing records). Wirecutter garage-ready endorsement merged from ge-gts22kgnrww into the canonical ge-gts22kynrs record.",
+    "cr_url_upgrade_2_2026_05": "Round 28: 3 more CR model-specific review URLs (existing in-DB models, not new entries).",
+    "cr_url_upgrade_3_2026_05": "Round 29: 2 more CR model-specific review URLs (existing in-DB models only).",
+    "fridge_cr_retailer_pass_2026_05": "Round 31: high-CR fridges — 3 CR URL upgrades, 2 retailer ratings."
   },
   "models": [
     {
@@ -254,7 +258,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lbnc15231v/m399868/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lbnc15231v-bottom-freezer-refrigerator"
         }
       },
@@ -466,7 +470,14 @@
             "label": "Yale 2026: Bosch — 8.7% service rate; CR best dishwasher and french-door brand 2026",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
           }
-        ]
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 2,
+            "url": "https://www.bestbuy.com/product/bosch-benchmark-series-19-4-cu-ft-french-door-built-in-smart-refrigerator-stainless-steel/J3P322SS4R"
+          }
+        }
       },
       "pros": [
         "Bottom freezer = more reliable than French door",
@@ -511,7 +522,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/products/refrigerators-28978/built-in-refrigerator-28720/bosch-benchmark-b36it905np-405010/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/B36IT905NP",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2365294",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560"
@@ -685,7 +696,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gne27jymfs/m408664/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-27-0-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-GNE27JYMFS",
           "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
@@ -767,7 +778,7 @@
           {
             "channel": "Wirecutter",
             "type": "roundup",
-            "label": "Runner-up Garage-Ready 2026: \"five finishes… not quite as big, efficient, or attractive\"",
+            "label": "Runner-up Garage-Ready 2026: \"five finishes, but not quite as big, efficient, or attractive as our top pick\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
           }
         ]
@@ -862,7 +873,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/whirlpool-wrf555sdfz/m387126/",
           "manufacturer": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/french-door/p.36-inch-wide-french-door-refrigerator-25-cu.-ft.wrf555sdfz.html",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2263424",
           "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html"
@@ -2145,7 +2156,7 @@
         "wirecutter": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrmxs2806s/m404731/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmxs2806s-french-4-door-refrigerator",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2370341",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter"
@@ -2879,7 +2890,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "BORPLFTR10",
-      "water_filter_cost_yr": 90
+      "water_filter_cost_yr": 90,
+      "image": {
+        "local": "images/refrigerators/bosch-b36fd50snb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6495/6495114_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pvd28bynfs",
@@ -3236,7 +3252,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "LT1000P",
-      "water_filter_cost_yr": 110
+      "water_filter_cost_yr": 110,
+      "image": {
+        "local": "images/refrigerators/lg-lrfds3016s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6395/6395329_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrflc2706s",
@@ -3536,7 +3557,7 @@
         "source_urls": {
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
           "garage_ready": "https://www.lg.com/us/refrigerators/lg-lt18s2100w-top-freezer-refrigerator",
-          "cr": "https://www.consumerreports.org/cro/most-reliable-products/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lt18s2100w/m414246/",
           "specs": "https://www.lg.com/us/business/download/resources/CT00021979/LT18S2100_LG_Builder_Spec_Sheet%5B20240206_232609%5D.pdf"
         },
         "cr_overall": 79,
@@ -4105,7 +4126,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/samsung-rt70f18lrsr/m417041/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/top-freezer/18-cu-ft-top-freezer-refrigerator-with-all-around-cooling-in-stainless-steel-rt70f18lrsraa/"
         },
         "retailer_ratings": {
@@ -4592,7 +4613,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/miele-kfn4776ed/m417681/",
           "manufacturer": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3387631",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-counter-depth-refrigerators/"
@@ -4605,7 +4626,14 @@
             "label": "Counter-Depth Upgrade Pick 2026: \"Good-looking, smart, and nearly counter-depth\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-counter-depth-refrigerators/"
           }
-        ]
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.8,
+            "count": 4,
+            "url": "https://www.bestbuy.com/site/searchpage.jsp?st=KFN4776ED"
+          }
+        }
       },
       "pros": [],
       "cons": [],
@@ -4683,7 +4711,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/ge-gde21eykfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6475/6475409_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ikea-valgrundad",
@@ -4782,7 +4815,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/frigidaire-grbn2012af.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6605/6605227_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-gye22gynfs",
@@ -4870,7 +4908,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/lg-lf29s8365s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573589_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrfs28xbs",
@@ -4970,7 +5013,12 @@
       "water_filter_cost_yr": 115,
       "height_in": 70,
       "depth_in": 28,
-      "depth_with_handle_in": 31
+      "depth_with_handle_in": 31,
+      "image": {
+        "local": "images/refrigerators/ge-gwe23gends.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6404/6404570_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrfws2906s",
@@ -5071,7 +5119,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrfls3206s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553174_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrmds3006s",
@@ -5170,7 +5223,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrfcs29d6s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522323_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lf30s8210s",
@@ -5220,7 +5278,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lf30s8210s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553171_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lf29s8330d",
@@ -5252,7 +5315,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/lg-lf29s8330d.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553169_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lmxs28626s",
@@ -5304,7 +5372,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lmxs28626s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5968/5968400_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrfws2906v",
@@ -5351,7 +5424,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrfws2906v.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6494/6494792_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrfls3216s",
@@ -5401,7 +5479,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrfls3216s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617561_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-b36cl81enw",
@@ -5537,7 +5620,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lryks3106s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6540/6540881_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lf29h8330s",
@@ -5634,7 +5722,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrmdc2306s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397168_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pgd29bytfs",
@@ -6209,7 +6302,12 @@
       "water_filter_cost_yr": 110,
       "retired": true,
       "retired_reason": "Discontinued by Whirlpool (2026 verification — multiple retailers confirm). Released 2017; product page on whirlpool.com is owners-center only.",
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/whirlpool-wrx735sdhz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5790/5790000_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-krqc506mps",
@@ -8161,120 +8259,6 @@
       "release_year": 2024,
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90
-    },
-    {
-      "id": "ge-gne25jskss",
-      "brand": "ge",
-      "model": "GNE25JSKSS",
-      "name": "GE GNE25JSKSS 24.8 cu ft 33\" French Door",
-      "style": "french_door",
-      "depth": "standard",
-      "width_in": 33,
-      "capacity_cf": 24.8,
-      "energy_star": true,
-      "icemaker": "in-door",
-      "water_dispenser": "external",
-      "wifi": false,
-      "finishes": [
-        "stainless"
-      ],
-      "msrp": 2199,
-      "street_price": 1899,
-      "water_filter_model": "XWFE",
-      "water_filter_cost_yr": 115,
-      "ratings": {
-        "cr_overall": null,
-        "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
-        "reviewed": null,
-        "source_urls": {
-          "cr": "https://www.consumerreports.org/products/refrigerators-28978/french-door-refrigerator-37162/ge-gne25jskss-386062/",
-          "specs": "https://www.bestbuy.com/site/ge-24-8-cu-ft-french-door-refrigerator-stainless-steel/5003906.p?skuId=5003906"
-        },
-        "retailer_ratings": {
-          "best_buy": {
-            "stars": 4.4,
-            "count": 809,
-            "url": "https://www.bestbuy.com/site/reviews/ge-24-8-cu-ft-french-door-refrigerator-stainless-steel/5003906"
-          }
-        },
-        "endorsements": [
-          {
-            "channel": "Yale Appliance",
-            "type": "article",
-            "label": "Yale 2026: GE Appliances — 9.2% service rate; one of the few US brands with its own national service fleet (Bodewell)",
-            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
-          }
-        ]
-      },
-      "pros": [
-        "33\" width fits narrower kitchens than standard 36\" french-doors",
-        "Best Buy 4.4/809 reviews — large customer-validation sample",
-        "GE service network coverage one of the strongest in the US"
-      ],
-      "cons": [
-        "Through-door dispenser adds failure points",
-        "No Wi-Fi/smart features",
-        "Status: \"no longer available in new condition\" at Best Buy as of 2026"
-      ],
-      "release_year": 2020
-    },
-    {
-      "id": "ge-gts22kgnrww",
-      "brand": "ge",
-      "model": "GTS22KGNRWW",
-      "name": "GE GTS22KGNR 21.9 cu ft Garage-Ready Top-Freezer (white)",
-      "style": "top_freezer",
-      "depth": "standard",
-      "width_in": 33,
-      "capacity_cf": 21.9,
-      "energy_star": false,
-      "icemaker": "optional",
-      "water_dispenser": "none",
-      "wifi": false,
-      "finishes": [
-        "white",
-        "stainless",
-        "black"
-      ],
-      "garage_ready": true,
-      "msrp": 949,
-      "street_price": 798,
-      "ratings": {
-        "cr_overall": null,
-        "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
-        "wirecutter": "runner-up (garage-ready) 2026",
-        "source_urls": {
-          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
-          "garage_ready": "https://www.geappliances.com/appliance/GE-21-9-Cu-Ft-Garage-Ready-Top-Freezer-Refrigerator-GTS22KGNRWW"
-        },
-        "endorsements": [
-          {
-            "channel": "Wirecutter",
-            "type": "roundup",
-            "label": "Runner-up Garage-Ready 2026: \"five finishes, but not quite as big, efficient, or attractive as our top pick\"",
-            "url": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
-          },
-          {
-            "channel": "Yale Appliance",
-            "type": "article",
-            "label": "Yale 2026: GE Appliances — 9.2% service rate",
-            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
-          }
-        ]
-      },
-      "pros": [
-        "Wirecutter Runner-up Garage-Ready — five finish options",
-        "Garage-rated to 38°F ambient",
-        "21.9 cu ft is large for a 33\" top-freezer"
-      ],
-      "cons": [
-        "Wirecutter notes it's \"less efficient than our top pick\"",
-        "Not Energy Star certified",
-        "Through-door dispenser not available"
-      ],
-      "release_year": 2023
     }
   ]
 }

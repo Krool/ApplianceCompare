@@ -30,7 +30,12 @@
     "cr_url_upgrade_2026_05": "Round 22: 16 models had their generic CR buying-guide URL upgraded to the model-specific CR review URL.",
     "retailer_ratings_pass_9_2026_05": "Round 23: 2 additional retailer entries.",
     "popular_missing_pass_2026_05": "Round 25: added 1 popular missing models (Bosch SHEM63W55N, GE GNE25JSKSS, etc.) sourced from retailer-rating searches.",
-    "retailer_ratings_pass_11_2026_05": "Round 26: 4 additional retailer entries."
+    "retailer_ratings_pass_11_2026_05": "Round 26: 4 additional retailer entries.",
+    "cleanup_pass_2026_05": "Round 27 cleanup: removed 1 models added in round 25 that failed the \"buyable today\" rule (PHS930SLSS is discontinued; PHS930YPFS is the current model and is already in the DB).",
+    "cr_url_upgrade_2_2026_05": "Round 28: 5 more CR model-specific review URLs (existing in-DB models, not new entries).",
+    "cr_url_upgrade_3_2026_05": "Round 29: 6 more CR model-specific review URLs (existing in-DB models only).",
+    "cooktop_pass_2026_05": "Round 30: high-CR cooktops — 6 model-specific CR URLs upgraded, 4 Best Buy retailer ratings added.",
+    "cr_url_upgrade_4_2026_05": "Round 32: 0 more CR model-specific review URLs."
   },
   "models": [
     {
@@ -1086,7 +1091,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/most-reliable-products/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/wall-ovens/cafe-cts70dp2ns1/m404933/",
           "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Single-Wall-Oven-with-Convection-CTS70DP2NS1",
           "home_depot": "https://www.homedepot.com/p/Cafe-30-in-Smart-Single-Electric-Wall-Oven-in-Stainless-Steel-with-Convection-Cooking-CTS70DP2NS1/308800683"
         }
@@ -1448,7 +1453,7 @@
         "cr_reliability": "fair",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/products/cooktops-28977/electric-induction-cooktops-200764/ge-profile-php9036djbb-406513/"
         }
       },
       "pros": [
@@ -3194,7 +3199,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-pss93ypfs/m402512/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PSS93YPFS"
         }
       },
@@ -3240,7 +3245,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/products/ranges-28974/electric-range-28689/lg-lrel6321s-403097/",
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lrel6321s-electric-range"
         },
         "retailer_ratings": {
@@ -3289,7 +3294,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/appliances/ranges/frigidaire-gallery-gcfe3059bf/m417608/"
         }
       },
       "pros": [],
@@ -3325,7 +3330,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/frigidaire-gallery-gcre3060bf/m417044/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCRE3060BF",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
         },
@@ -3388,7 +3393,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/lg-lrel6325f/m402113/",
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lrel6325f-electric-range-with-air-fryer"
         },
         "retailer_ratings": {
@@ -3536,7 +3541,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/samsung-ne63a6711ss/m403780/",
           "manufacturer": "https://www.samsung.com/us/business/home-appliances/ranges/electric/6-3-cu-ft-smart-freestanding-electric-range-with-no-preheat-air-fry-convection-griddle-in-stainless-steel-ne63a6711ss-aa/"
         }
       },
@@ -3584,7 +3589,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/bosch-hei8056u/m402513/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/electric-slide-in-ranges/HEI8056U",
           "home_depot": "https://www.homedepot.com/p/Bosch-800-Series-30-in-4-6-cu-ft-Slide-In-Electric-Range-with-Self-Cleaning-Convection-Oven-in-Stainless-Steel-HEI8056U/310648563"
         }
@@ -3630,7 +3635,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/frigidaire-fcfe3083as/m409398/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/FCFE3083AS"
         }
       },
@@ -3672,7 +3677,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-pb900yvfs/m413387/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-30-Smart-Free-Standing-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PB900YVFS"
         }
       },
@@ -3742,7 +3747,12 @@
         "Samsung range reliability rated only 'fair' by CR",
         "Touch + knob hybrid interface has a learning curve"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/ovens/samsung-nse6dg8700sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568995_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "hisense-hbe3501cps",
@@ -3829,7 +3839,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-nse6dg8100sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568978_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-ne63a6311ss",
@@ -4065,7 +4080,12 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/bosch-hef1050mu.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6615/6615291_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mer8800fz",
@@ -4291,7 +4311,12 @@
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/whirlpool-wfes7530rz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6614/6614317_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "haier-qss740rnss",
@@ -4353,7 +4378,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/maytag-mfes6030rz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593096_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "amana-aer6303mms",
@@ -4415,7 +4445,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-fcfe3062as.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537897_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfe550s0lz",
@@ -4446,7 +4481,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfe550s0lz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471513_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfe775h0hz",
@@ -4477,7 +4517,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfe775h0hz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6177/6177115_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kseb900ess",
@@ -4508,7 +4553,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kseb900ess.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7500/7500436_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfes3330rz",
@@ -4642,7 +4692,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wee745h0lz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471522_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mer4600ls",
@@ -4673,7 +4728,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/maytag-mer4600ls.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471567_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "jennair-jes1450ml",
@@ -4777,7 +4837,12 @@
         "PrintProof Stainless Steel",
         "PrintProof Black Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-ltel7337f.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511362_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-ne63t8751sg",
@@ -4821,7 +4886,12 @@
         "Fingerprint Resistant Black Stainless Steel",
         "Fingerprint Resistant Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/samsung-ne63t8751sg.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6411/6411897_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lde4413st",
@@ -4868,7 +4938,12 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-lde4413st.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4299/4299703_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-ldel7324se",
@@ -4910,7 +4985,12 @@
       "finishes": [
         "PrintProof Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-ldel7324se.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6574/6574918_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-ne63a6751ss",
@@ -4952,7 +5032,12 @@
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/samsung-ne63a6751ss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468307_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kfed500ebs",
@@ -4992,7 +5077,12 @@
       "finishes": [
         "Black Stainless Steel with PrintShield"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/kitchenaid-kfed500ebs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5732/5732346_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "cafe-ces750p4mw2",
@@ -5034,7 +5124,12 @@
       "finishes": [
         "Matte White (customizable hardware)"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/cafe-ces750p4mw2.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6284/6284218_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jbs86spss",
@@ -5065,7 +5160,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-jbs86spss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6403/6403844_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-met8800fz",
@@ -5096,7 +5196,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/maytag-met8800fz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6113/6113242_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nse6dg8550sr",
@@ -5139,7 +5244,12 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/samsung-nse6dg8550sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6585/6585159_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lsil6334fe",
@@ -5189,7 +5299,12 @@
       "finishes": [
         "printproof stainless"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-lsil6334fe.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6561/6561841_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lsil6332fe",
@@ -5239,7 +5354,12 @@
       "finishes": [
         "printproof stainless"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-lsil6332fe.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6575/6575019_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-fcfi3082bs",
@@ -5289,7 +5409,12 @@
       "finishes": [
         "stainless"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/frigidaire-fcfi3082bs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6619/6619416_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "miele-hr1422-3i",
@@ -5426,7 +5551,12 @@
         "stainless",
         "matte black steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/samsung-nsi6dg9100sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569010_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lsil6336fe",
@@ -5457,7 +5587,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-lsil6336fe.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6575/6575020_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nsi6dg9900sraa",
@@ -5488,7 +5623,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-nsi6dg9900sraa.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569011_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ikea-tvarsaker",
@@ -5560,7 +5700,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-nsi6dg9500sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569005_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-fcfi3083as",
@@ -5591,7 +5736,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-fcfi3083as.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6545/6545616_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "cafe-chs90xp2ms1",
@@ -5622,7 +5772,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/cafe-chs90xp2ms1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360807_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "zline-rainds-sn-30",
@@ -5715,7 +5870,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/bosch-his8055u.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506092_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "jennair-jis1450ml",
@@ -5777,7 +5937,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-ksis730pss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549509_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lsdl6336f",
@@ -5827,7 +5992,12 @@
         "PrintProof Stainless Steel",
         "PrintProof Black Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-lsdl6336f.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506094_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lsgl6335d",
@@ -9419,10 +9589,17 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/cooktops/lg-cbih3613be/m416607/",
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-cbih3613be",
           "spec_sheet": "https://www.lg.com/us/business/download/resources/CT00021979/CBIH3613BE_LG_Pro_Builder_Spec_Sheet%5B20250426_002018%5D.pdf",
           "home_depot": "https://www.homedepot.com/p/LG-36-in-5-Burner-Element-Induction-Cooktop-in-Black-with-Power-Element-and-SmoothTouch-Controls-CBIH3613BE/328289001"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.2,
+            "count": 12,
+            "url": "https://www.bestbuy.com/product/lg-36-built-in-electric-induction-smart-cooktop-with-5-elements-and-ultraheat-4-3kw-power-element-black-ceramic/J7G56583XS"
+          }
         }
       },
       "pros": [
@@ -9461,7 +9638,7 @@
         "yale_reliability_pct": 5.3,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/cooktops/lg-studio-cbis3618be/m410570/",
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-cbis3618be-electric-cooktop",
           "home_depot": "https://www.homedepot.com/p/LG-STUDIO-36-in-5-Elements-Glass-Top-SMART-Induction-Cooktop-in-Black-with-Dual-Center-Zone-Energy-Star-CBIS3618BE/330562710",
           "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
@@ -9474,7 +9651,14 @@
             "label": "Yale 2026: Most affordable smart induction cooktop pick — 5.3% service rate, 7,000W center",
             "url": "https://blog.yaleappliance.com/the-most-reliable-induction-cooktops"
           }
-        ]
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 5,
+            "count": 4,
+            "url": "https://www.bestbuy.com/product/lg-studio-36-built-in-smart-electric-induction-cooktop-with-5-burners-and-flex-cooking-zone-black/JJ8VPZQKSR"
+          }
+        }
       },
       "pros": [
         "Induction (fast, precise, no open flame)",
@@ -9549,7 +9733,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/cooktops/cafe-chp90362tss/m417312/",
           "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-Series-ENERGY-STAR-36-Built-In-Touch-Control-Induction-Cooktop-CHP90362TSS",
           "spec_sheet": "https://www.us-appliance.com/content/pdf/c/CHP90362TSS_Specs.pdf",
           "home_depot": "https://www.homedepot.com/p/Cafe-36-in-5-Burner-Element-Smart-Induction-Touch-Control-Cooktop-in-Stainless-Steel-CHP90362TSS/323644628"
@@ -9628,11 +9812,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/cooktops/bosch-800-series-nit8060uc/m408392/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/cooking-baking/induction-electric-cooktops/induction-cooktops/NIT8060UC",
           "spec_sheet": "https://media3.bosch-home.com/Documents/20011263_NIT8060UC%20Spec%20Sheet.pdf",
           "best_buy": "https://www.bestbuy.com/product/bosch-800-series-30-built-in-electric-induction-cooktop-with-4-elements-and-wifi-frameless-black/J3P322S6YV",
           "home_depot": "https://www.homedepot.com/p/Bosch-800-30-in-Induction-Cooktop-in-Black-with-4-Elements-NIT8060UC/320451009"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 17,
+            "url": "https://www.bestbuy.com/site/bosch-800-series-30-built-in-electric-induction-cooktop-with-4-elements-and-wifi-frameless-black/6496114.p?skuId=6496114"
+          }
         }
       },
       "pros": [],
@@ -9667,7 +9858,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/cooktops/electrolux-ecci3068as/m405552/",
           "manufacturer": "https://www.electrolux.com/en/p/kitchen/cooktops/induction-cooktops/ECCI3068AS"
         }
       },
@@ -10155,9 +10346,16 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/cooktops/lg-cbih3013be/m415023/",
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-cbih3013be",
           "home_depot": "https://www.homedepot.com/p/LG-30-in-4-Burner-Element-Induction-Cooktop-in-Black-with-Power-Element-and-SmoothTouch-Controls-CBIH3013BE/328289010"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 41,
+            "url": "https://www.bestbuy.com/product/lg-30-built-in-electric-induction-smart-cooktop-with-4-elements-and-ultraheat-4-3kw-power-element-black-ceramic/J7G5658329"
+          }
         }
       },
       "pros": [
@@ -10529,70 +10727,6 @@
         "Broiler in bottom drawer (no storage drawer)"
       ],
       "release_year": 2022
-    },
-    {
-      "id": "ge-profile-phs930slss",
-      "brand": "ge-profile",
-      "model": "PHS930SLSS",
-      "name": "GE Profile PHS930SLSS 30\" Smart Slide-In Induction (predecessor to PHS930YPFS)",
-      "type": "range",
-      "fuel": "induction",
-      "style": "slide-in",
-      "width_in": 30,
-      "oven_capacity_cf": 5.3,
-      "burners": 5,
-      "max_burner_btu": null,
-      "max_burner_w": 3700,
-      "convection": "true convection",
-      "air_fry": false,
-      "self_clean": "pyrolytic",
-      "wifi": true,
-      "finishes": [
-        "stainless"
-      ],
-      "msrp": 2799,
-      "street_price": 2399,
-      "ratings": {
-        "cr_overall": null,
-        "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
-        "source_urls": {
-          "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-phs930slss/m393950/",
-          "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Induction-and-Convection-Range-PHS930SLSS"
-        },
-        "retailer_ratings": {
-          "best_buy": {
-            "stars": 4.5,
-            "count": 64,
-            "url": "https://www.bestbuy.com/site/ge-5-3-cu-ft-slide-in-electric-induction-convection-range-stainless-steel/5979216.p?skuId=5979216"
-          }
-        },
-        "endorsements": [
-          {
-            "channel": "Reviewed",
-            "type": "review",
-            "label": "Reviewed.com individual review — GE Profile PHS930SLSS",
-            "url": "https://www.reviewed.com/ovens/content/ge-phs930slss-induction-and-convection-range-review"
-          },
-          {
-            "channel": "Yale Appliance",
-            "type": "article",
-            "label": "Yale 2026: GE Profile 8.0% service rate",
-            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
-          }
-        ]
-      },
-      "pros": [
-        "5 induction zones + true convection oven",
-        "Wi-Fi via SmartHQ + Chef Connect (auto-syncs with GE range hood)",
-        "GE Profile 8.0% Yale service rate is top-quartile",
-        "\"No longer in new condition\" status — buy refurb/open-box at discount"
-      ],
-      "cons": [
-        "No air fry (newer PHS930YPFS adds it)",
-        "Discontinued — succeeded by PHS930YPFS (Wirecutter mention)"
-      ],
-      "release_year": 2020
     }
   ]
 }

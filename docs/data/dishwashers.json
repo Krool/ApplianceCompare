@@ -27,7 +27,10 @@
     "yale_brand_endorsement_pass_2026_05": "Round 17: 31 0-source models received a Yale Appliance brand-article endorsement so the brand-level reliability data has a citable surface on the card.",
     "retailer_ratings_pass_6_2026_05": "Round 19: 1 additional retailer entries.",
     "cr_url_upgrade_2026_05": "Round 22: 9 models had their generic CR buying-guide URL upgraded to the model-specific CR review URL.",
-    "popular_missing_pass_2026_05": "Round 25: added 3 popular missing models (Bosch SHEM63W55N, GE GNE25JSKSS, etc.) sourced from retailer-rating searches."
+    "popular_missing_pass_2026_05": "Round 25: added 3 popular missing models (Bosch SHEM63W55N, GE GNE25JSKSS, etc.) sourced from retailer-rating searches.",
+    "cr_url_upgrade_2_2026_05": "Round 28: 4 more CR model-specific review URLs (existing in-DB models, not new entries).",
+    "cr_url_upgrade_3_2026_05": "Round 29: 4 more CR model-specific review URLs (existing in-DB models only).",
+    "cr_url_upgrade_4_2026_05": "Round 32: 4 more CR model-specific review URLs."
   },
   "models": [
     {
@@ -673,7 +676,7 @@
         "cr_reliability": "fair",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/samsung-dw80b7070us/m406581/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/smart-42dba-dishwasher-with-stormwash-and-smart-dry-in-stainless-steel-dw80b7070us-aa/"
         },
         "retailer_ratings": {
@@ -737,7 +740,8 @@
         "source_urls": {
           "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher",
-          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldfn4542s/m403609/"
         },
         "endorsements": [
           {
@@ -798,7 +802,8 @@
         "reviewed": null,
         "source_urls": {
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher",
-          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldts5552s/m404462/"
         },
         "endorsements": [
           {
@@ -1603,7 +1608,7 @@
         "wirecutter": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/most-reliable-products/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-800-series-shx78cm5n/m410625/",
           "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
         },
         "yale_reliability_source": "yale_2026_dw",
@@ -1931,7 +1936,7 @@
         "reviewed_status": "Editor's Choice · Best Upgrade 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
-          "cr": "https://www.consumerreports.org/toppicks/",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-benchmark-shp9pcm5n/m410623/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2407874",
           "reviewed_individual": "https://www.reviewed.com/products/bosch-benchmark-shp9pcm5n-dishwasher"
@@ -2682,7 +2687,7 @@
         "reviewed_status": "Editor's Choice 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-300-series-she53c85n/m410627/",
           "manufacturer": "https://www.bestbuy.com/product/bosch-300-series-24-front-control-smart-built-in-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46-dba-stainless-steel/J3P3229752"
         },
         "cr_overall": 80,
@@ -2733,7 +2738,7 @@
         "reviewed_status": "Recommended · Best Drying (500 Series) 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes",
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-500-series-shp65cm5n/m410624/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/SHP65CM5N",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2407861"
         },
@@ -3049,7 +3054,7 @@
         "reviewed_status": "Affordable pick 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers",
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/whirlpool-wdt750sakz/m403608/",
           "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.large-capacity-dishwasher-with-3rd-rack.wdt750sakz.html"
         },
         "cr_overall": 65,
@@ -3151,7 +3156,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-100-series-shx5aem5n/m410626/",
           "manufacturer": "https://www.bosch-home.com/us/en/mkt-product/dishwashers/top-controls/SHX5AEM5N",
           "lowes": "https://www.lowes.com/pd/Bosch-100-Series-Premium-Top-Control-24-in-Smart-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-46-dBA/5014401277"
         },
@@ -3250,7 +3255,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/miele-g7176scvi/m410064/",
           "manufacturer": "https://www.mieleusa.com/e/fully-integrated-dishwasher-xxl-g-7176-scvi-xxl-sf-autodos-stainless-steel-12021290-p",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508387"
         },
@@ -3347,7 +3352,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-adfd5448at/m414655/",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-adfd5448at-front-control-dishwasher",
           "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
         },
@@ -3759,7 +3764,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldpn454ht-home-depot/m414654/",
           "specs": "https://www.lg.com/us/dishwashers/lg-ldpn454ht-top-control-dishwasher"
         }
       },
@@ -4926,7 +4931,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/frigidaire-fdsh4501as.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6406/6406750_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wdps7024rz",
@@ -5014,7 +5024,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/samsung-dw80cg5451sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549884_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "sharp-sdw6888js",
@@ -5086,7 +5101,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/whirlpool-wdf341papm.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6564/6564302_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-pdsh4816af",
@@ -5194,7 +5214,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/whirlpool-wdp540hamz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6515/6515793_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kdte104kps",
@@ -5423,7 +5448,12 @@
         "Café reliability rated only \"fair\" by CR",
         "No extended warranty included"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/dishwashers/cafe-cdt888p2vs1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572544_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-shem63w55n",
@@ -5500,7 +5530,12 @@
         "Touch-sensitive controls finickier than older button-based 300 series",
         "No interior light (Bosch reserves that for 800/Benchmark)"
       ],
-      "release_year": 2017
+      "release_year": 2017,
+      "image": {
+        "local": "images/dishwashers/bosch-shem63w55n.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5710/5710286_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-dw80b6060us",
@@ -5558,7 +5593,12 @@
         "CR rates Samsung dishwasher reliability \"fair\"",
         "Higher cycle times when extra-dry option is selected"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/dishwashers/samsung-dw80b6060us.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491920_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kdpm704kps",
@@ -5634,7 +5674,12 @@
         "No Wi-Fi (M-Series KDPM has it; this 700-series does not)",
         "ProDry fan-assist isn't as effective as Bosch CrystalDry / Miele AutoOpen"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/dishwashers/kitchenaid-kdpm704kps.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398229_sd.jpg",
+        "source": "best_buy"
+      }
     }
   ]
 }
