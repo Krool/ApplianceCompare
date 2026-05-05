@@ -31,7 +31,9 @@
     "cr_url_upgrade_2_2026_05": "Round 28: 4 more CR model-specific review URLs (existing in-DB models, not new entries).",
     "cr_url_upgrade_3_2026_05": "Round 29: 4 more CR model-specific review URLs (existing in-DB models only).",
     "cr_url_upgrade_4_2026_05": "Round 32: 4 more CR model-specific review URLs.",
-    "dw_round33_2026_05": "Round 33: 1 CR URL upgrades + 3 retailer ratings."
+    "dw_round33_2026_05": "Round 33: 1 CR URL upgrades + 3 retailer ratings.",
+    "tier_upgrade_dw_2026_05": "Round 38 tier upgrade: 0 CR URL upgrades + 0 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier).",
+    "batch_round41_2026_05": "Round 41: 3 Yale Miele G7000 series article endorsements (exact SKU matches only)."
   },
   "models": [
     {
@@ -3234,7 +3236,15 @@
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.mieleusa.com/product/12496710/fully-integrated-dishwashers-in-standard-size-g-7196-scvi-sf-autodos-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2679743"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Miele G7000 series review): G 7196 SCVi — \"mid-range stainless steel model with top controls\" ($2,149)",
+            "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good"
+          }
+        ]
       },
       "pros": [
         "Ultra-quiet (42 dB)",
@@ -3597,6 +3607,12 @@
             "type": "article",
             "label": "Yale 2026: 'Best racking. Best washing. Cleanest dishes. AutoOpen drying.' — 5.6% service rate",
             "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Miele G7000 series review): G 7186 SCVi — \"panel-ready configuration with top controls\" ($1,949)",
+            "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good"
           }
         ]
       },
@@ -5164,7 +5180,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/frigidaire-pdsh4816af.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6551/6551710_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "cafe-cdp888m5vs5",
@@ -5402,6 +5423,12 @@
             "type": "roundup",
             "label": "Upgrade Pick 2026: \"exceptional cleaner, reliable… delivered the cleanest dishes in the least amount of time, thanks to QuickIntenseWash technology\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Miele G7000 series review): G 7216 SCU — \"stainless steel with front controls\" ($1,749)",
+            "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good"
           }
         ]
       },

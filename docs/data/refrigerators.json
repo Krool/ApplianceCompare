@@ -37,7 +37,9 @@
     "fridge_cr_retailer_pass_2026_05": "Round 31: high-CR fridges — 3 CR URL upgrades, 2 retailer ratings.",
     "reviewed_batch_round36_2026_05": "Round 36: 5 Reviewed.com category-roundup endorsements (best induction cooktops, best 36in gas cooktops, best 36in dual-fuel, best fridges under $1k).",
     "reviewed_batch_round37_2026_05": "Round 37: 5 more Reviewed.com category endorsements (under-$2k stainless, side-by-side, under-$800 ranges, double-oven).",
-    "tier_upgrade_fridge_2026_05": "Round 38 tier upgrade: 1 CR URL upgrades + 3 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier)."
+    "tier_upgrade_fridge_2026_05": "Round 38 tier upgrade: 1 CR URL upgrades + 3 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier).",
+    "batch_round39_2026_05": "Round 39: 3 more Reviewed/Yale category endorsements on in-DB fridges (jennair-jffcc72efs was 0-source before this).",
+    "batch_round40_2026_05": "Round 40: 1 Yale 33-inch counter-depth article endorsement (only exact-match in-DB models)."
   },
   "models": [
     {
@@ -1301,6 +1303,12 @@
             "type": "article",
             "label": "Yale 2026: 33-inch counter-depth alternative pick",
             "url": "https://blog.yaleappliance.com/the-best-counter-depth-refrigerators"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 33-inch Counter-Depth): tested — \"affordable price for a counter-depth French door refrigerator\" ($1,099-$1,499)",
+            "url": "https://blog.yaleappliance.com/33-inch-counter-depth-refrigerators"
           }
         ],
         "retailer_ratings": {
@@ -1570,6 +1578,12 @@
             "type": "article",
             "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Integrated Refrigerators): KF 2982 family — \"Best Temperature Control\" with PerfectFresh Technology allowing humidity adjustment for different produce types",
+            "url": "https://blog.yaleappliance.com/best-integrated-refrigerators"
           }
         ]
       },
@@ -1670,6 +1684,12 @@
             "type": "article",
             "label": "Yale 2026: JennAir — Whirlpool's luxury division; shares manufacturing with KitchenAid",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Largest Counter-Depth French-Door): tested — Preserva Food Care system with ethylene gas filter",
+            "url": "https://blog.yaleappliance.com/largest-counter-depth-french-door-refrigerators"
           }
         ]
       },
@@ -5585,7 +5605,15 @@
           "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL81ENW",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details-plus/2371892",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Counter-Depth Refrigerators): \"Best for Wine Lovers\" — \"dedicated wine drawer is a stand-out feature of this stylish and high-performing Bosch fridge\" (B36CL81 family)",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-counter-depth-fridges-refrigerators"
+          }
+        ]
       },
       "pros": [
         "Dual compressors (independent fridge / freezer temp control)",
@@ -5973,6 +6001,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/refrigerators/content/lg-lrfoc2606s-review"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Largest Counter-Depth French-Door): tested — 25.5 cu ft InstaView with PrintProof finish",
+            "url": "https://blog.yaleappliance.com/largest-counter-depth-french-door-refrigerators"
           }
         ]
       },
@@ -7322,7 +7356,12 @@
       "pros": [],
       "cons": [],
       "water_filter_model": "BORPLFTR10",
-      "water_filter_cost_yr": 90
+      "water_filter_cost_yr": 90,
+      "image": {
+        "local": "images/refrigerators/bosch-b36fd10ens.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6590/6590343_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-rf23bb8900aw",
@@ -7421,7 +7460,12 @@
       "cons": [],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/samsung-rs23cb7600qlaa.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529229_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-rs27t5200sr",
@@ -7479,7 +7523,12 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/samsung-rs27t5200sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397576_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-rs27t5561sr",
@@ -7568,7 +7617,12 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/samsung-rf25c5551sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529227_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-rs22t5561sr",
@@ -7694,7 +7748,12 @@
       "cons": [],
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrsds2706s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468481_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrsos2706s",
@@ -7861,7 +7920,12 @@
       "cons": [],
       "water_filter_model": "EPTWFU01",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/frigidaire-frfg1723av.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6486/6486389_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-gye21jymfs",
@@ -7900,7 +7964,12 @@
       "pros": [],
       "cons": [],
       "water_filter_model": "XWFE",
-      "water_filter_cost_yr": 115
+      "water_filter_cost_yr": 115,
+      "image": {
+        "local": "images/refrigerators/ge-gye21jymfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582113_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-gse25gypfs",
@@ -7951,7 +8020,12 @@
       ],
       "release_year": 2024,
       "water_filter_model": "XWFE",
-      "water_filter_cost_yr": 115
+      "water_filter_cost_yr": 115,
+      "image": {
+        "local": "images/refrigerators/ge-gse25gypfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6475/6475435_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wrs315snhm",
