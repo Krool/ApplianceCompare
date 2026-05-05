@@ -48,8 +48,9 @@
     "batch_round46_mixed_oven_2026_05": "Round 46: 6 more Reviewed/Yale category endorsements.",
     "batch_round48_yale9_oven_2026_05": "Round 48: 2 more Yale category endorsements.",
     "batch_round50_2026_05": "Round 50: 2 Yale reliability-article model citations.",
-    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 10 models. NEW signal slot — expected to upgrade many limited→solid.",
-    "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models."
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models.",
+    "batch_round55_2026_05": "Round 55: 7 more Reviewed oven-category endorsements."
   },
   "models": [
     {
@@ -3098,6 +3099,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"slide-in electric convection range, with its Energy Star rating and removable Easy-wash Oven Tray\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Ranges): \"Editor's Choice / Best Electric Range\" — \"slide-in electric convection range, with its Energy Star rating and removable Easy-wash Oven Tray\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
           }
         ],
         "retailer_ratings": {
@@ -3234,6 +3241,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"If you need fine control for your burners and mostly even baking in the oven, look no further\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best 36-inch Dual-Fuel Ranges): \"Editor's Choice\" — \"the best dual-fuel range we've tested\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/the-best-36-inch-dual-fuel-ranges"
           }
         ]
       },
@@ -3297,6 +3310,18 @@
             "type": "roundup",
             "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"the best double-oven electric range we've tested\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Ranges): \"Editor's Choice / Best Double-Oven Electric Range\" — \"knockout across the board\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Double Oven Ranges 2): \"Editor's Choice / Best Double Oven Range\" — \"the best we've tested because of its effective burners, spacious ovens that evenly bake food, and sleek look\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges-bwamp"
           }
         ],
         "retailer_ratings": {
@@ -4529,6 +4554,12 @@
             "type": "roundup",
             "label": "Recommended — Easy-Clean Cooktop electric range 2026",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Ranges): \"Easy-Clean Cooktop\" — \"Whirlpool combines several advanced features in this range, with Wi-Fi and a proprietary coating that makes the glasstop surface even easier to clean\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
           }
         ]
       },
@@ -5457,6 +5488,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Double Oven Ranges): tested — \"powerful stove-top elements, True Convection, 10-year limited parts warranty\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Double Oven Ranges 2): tested — \"powerful stove-top elements, True Convection heating, and a 10-year limited parts warranty\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges-bwamp"
           }
         ],
         "reviewed_status": "Best Double Oven Ranges)"
@@ -10756,6 +10793,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Reviewed (Best Electric Induction Cooktops): \"powerful 5,200-watt 11-inch PowerPlus burner, plus a bridge burner\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Induction Cooktops): tested — \"features a powerful 11-inch, 5,200-watt PowerPlus burner\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
           }
         ],
