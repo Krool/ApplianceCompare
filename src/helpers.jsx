@@ -223,16 +223,21 @@ function getRatingSources(item) {
   if (r.cr_reliability && r.cr_reliability !== 'unrated') push({ name: "CR predicted reliability", status: r.cr_reliability, url: safeUrl(r.source_urls?.cr) });
   if (r.wirecutter != null) push({ name: "Wirecutter", status: r.wirecutter, url: safeUrl(r.source_urls?.wirecutter) });
   if (r.reviewed_status != null) push({ name: "Reviewed.com", status: r.reviewed_status, url: safeUrl(r.source_urls?.reviewed) });
-  if (r.reviewed != null) push({ name: "Reviewed score", score: r.reviewed, max: 10, url: safeUrl(r.source_urls?.reviewed) });
-  if (r.rtings != null) push({ name: "Rtings", score: r.rtings, max: 10, url: safeUrl(r.source_urls?.rtings) });
-  if (r.cnet != null) push({ name: "CNET", score: r.cnet, max: 10, url: safeUrl(r.source_urls?.cnet) });
-  if (r.good_housekeeping != null) {
-    if (typeof r.good_housekeeping === 'number') push({ name: "Good Housekeeping", score: r.good_housekeeping, max: 10, url: safeUrl(r.source_urls?.good_housekeeping) });
-    else push({ name: "Good Housekeeping", status: r.good_housekeeping, url: safeUrl(r.source_urls?.good_housekeeping) });
-  }
-  if (r.yale_reliability_pct != null) push({ name: "Yale service rate", score: r.yale_reliability_pct, unit: "%", inverted: true, url: safeUrl(r.source_urls?.yale) });
-  if (r.repairability_score != null) push({ name: "Repairability", score: r.repairability_score, max: 100, url: safeUrl(r.source_urls?.repairability) });
-  if (r.toms_guide != null) push({ name: "Tom's Guide", score: r.toms_guide, max: 5, url: safeUrl(r.source_urls?.toms_guide) });
+  // Numeric vs verdict-string keys live in the same field across the data
+  // (e.g. r.rtings is sometimes a 0-10 score, sometimes a "Top-20 …" string).
+  // Render whichever shape it has rather than crashing on .toFixed of a string.
+  const numOrStatus = (val, name, max, extra = {}) => {
+    if (val == null) return;
+    if (typeof val === 'number') push({ name, score: val, max, ...extra });
+    else push({ name, status: val, ...extra });
+  };
+  numOrStatus(r.reviewed, "Reviewed score", 10, { url: safeUrl(r.source_urls?.reviewed) });
+  numOrStatus(r.rtings, "Rtings", 10, { url: safeUrl(r.source_urls?.rtings) });
+  numOrStatus(r.cnet, "CNET", 10, { url: safeUrl(r.source_urls?.cnet) });
+  numOrStatus(r.good_housekeeping, "Good Housekeeping", 10, { url: safeUrl(r.source_urls?.good_housekeeping) });
+  if (r.yale_reliability_pct != null && typeof r.yale_reliability_pct === 'number') push({ name: "Yale service rate", score: r.yale_reliability_pct, unit: "%", inverted: true, url: safeUrl(r.source_urls?.yale) });
+  if (r.repairability_score != null && typeof r.repairability_score === 'number') push({ name: "Repairability", score: r.repairability_score, max: 100, url: safeUrl(r.source_urls?.repairability) });
+  numOrStatus(r.toms_guide, "Tom's Guide", 5, { url: safeUrl(r.source_urls?.toms_guide) });
 
   const rr = r.retailer_ratings || {};
   const retailers = [
