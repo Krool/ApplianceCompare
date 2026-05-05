@@ -39,7 +39,10 @@
     "batch_round44_reviewed3_dw_2026_05": "Round 44: 5 Reviewed category-roundup endorsements (only exact-SKU in-DB matches).",
     "batch_round45_reviewed4_dw_2026_05": "Round 45: 6 more Reviewed category endorsements.",
     "batch_round46_mixed_dw_2026_05": "Round 46: 10 more Reviewed/Yale category endorsements.",
-    "batch_round47_mixed_dw_2026_05": "Round 47: 12 more Yale/Reviewed dishwasher endorsements."
+    "batch_round47_mixed_dw_2026_05": "Round 47: 12 more Yale/Reviewed dishwasher endorsements.",
+    "batch_round48_yale9_dw_2026_05": "Round 48: 2 more Yale category endorsements.",
+    "batch_round49_2026_05": "Round 49: 4 per-model yale_reliability_pct values for LG dishwashers from Yale Most Reliable 2026 article (NEW signal type — expected to upgrade several limited → solid).",
+    "batch_round51_reviewed6_dw_2026_05": "Round 51: 5 more Reviewed category endorsements."
   },
   "models": [
     {
@@ -794,6 +797,12 @@
             "type": "article",
             "label": "Yale 2026: LG — 5.5% overall service rate; the most reliable mainstream brand",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 3.6% (n=309)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
           }
         ]
       },
@@ -1565,7 +1574,15 @@
         },
         "source_urls": {
           "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.third-level-utensil-rack-dishwasher-with-30+-total-wash-jets,-39-dba.kdte204kps.html"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Fastest Dishwasher Cycles 2025): KDTE204KPS — \"Express Wash Cycle: 60 mins\" ($999)",
+            "url": "https://blog.yaleappliance.com/fastest-dishwasher-cycle-times"
+          }
+        ]
       },
       "pros": [
         "PrintShield finish",
@@ -2053,6 +2070,12 @@
             "type": "article",
             "label": "Yale (Bosch vs KitchenAid vs Miele Dishwashers 2026): cited — \"9 cycles, 8 options | Sound Level: 39 dB | CrystalDry | Third Rack: Yes, adjustable\"",
             "url": "https://blog.yaleappliance.com/kitchenaid-vs-bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Miele vs Bosch Benchmark): SHP9PCM5N — \"Pocket handle, 38 dB\" (~$2,000)",
+            "url": "https://blog.yaleappliance.com/miele-vs-bosch-benchmark-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2513,6 +2536,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Quiet Dishwashers): \"Editors' Choice\" — \"at just 42 dBA, this quiet dishwasher certainly won't disrupt your dinner\"",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 6.3% (small sample n=16)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2768,6 +2797,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/bosch-she3aem2n-100-series-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): tested — \"Its good cleaning and drying performance make it a good value.\" ($999)",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -3037,6 +3072,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best Basic No-Frills\" — \"Auto and Normal cycles scrub out most stains\"",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): \"Editor's Choice / Best Affordable Dishwasher\" — \"Auto and Normal cycles scrub out most stains\" ($599)",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -3222,6 +3263,12 @@
             "type": "roundup",
             "label": "Recommended — Affordable Dishwasher 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): \"Recommended\" — \"PowerBlast cycle offers intense cleaning\" ($579)",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -3274,6 +3321,12 @@
             "type": "roundup",
             "label": "Affordable pick 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): tested — \"Dries dishes decently\" ($679)",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ]
       },
@@ -3318,6 +3371,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Best Under $500 2026",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): \"Best Dishwasher Under $500\" — \"Multiple wash cycles and options\" ($399)",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ]
@@ -3580,12 +3639,13 @@
       "ratings": {
         "cr_overall": 78,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-adfd5448at/m414655/",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-adfd5448at-front-control-dishwasher",
-          "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
+          "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -3596,7 +3656,15 @@
           "home_depot": {
             "url": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 0% (small sample n=9)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3738,12 +3806,13 @@
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldth555ns-top-control-dishwasher",
-          "home_depot": "https://www.homedepot.com/p/LG-24-in-Top-Control-Smart-Wi-Fi-Enabled-Dishwasher-QuadWash-Pro-Dynamic-Heat-Dry-3rd-Rack-in-PrintProof-Stainless-Steel-LDTH555NS/333439434"
+          "home_depot": "https://www.homedepot.com/p/LG-24-in-Top-Control-Smart-Wi-Fi-Enabled-Dishwasher-QuadWash-Pro-Dynamic-Heat-Dry-3rd-Rack-in-PrintProof-Stainless-Steel-LDTH555NS/333439434",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -3751,7 +3820,15 @@
             "count": 207,
             "url": "https://www.bestbuy.com/product/lg-24-top-control-smart-built-in-tub-dishwasher-with-3rd-rack-quadwash-pro-and-46db-stainless-steel/J7G56588H4"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 0% (small sample n=2)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3974,13 +4051,22 @@
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfc2423v-front-control-dishwasher",
-          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2406462"
-        }
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2406462",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 0% (small sample n=17)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -4066,12 +4152,13 @@
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 14.3,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher",
-          "spec_sheet": "https://static.pcrichard.com/docs/LDPH5554S_Specifications-Sheet_01.pdf"
+          "spec_sheet": "https://static.pcrichard.com/docs/LDPH5554S_Specifications-Sheet_01.pdf",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -4079,7 +4166,15 @@
             "count": 197,
             "url": "https://www.bestbuy.com/site/lg-24-top-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-quadwash-pro-and-46db-stainless-steel/6570943.p"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 14.3% (small sample n=7)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],

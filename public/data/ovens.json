@@ -45,7 +45,9 @@
     "batch_round42_yale6_oven_2026_05": "Round 42: 4 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
     "batch_round43_yale7_oven_2026_05": "Round 43: 4 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
     "batch_round44_reviewed3_oven_2026_05": "Round 44: 15 Reviewed category-roundup endorsements (only exact-SKU in-DB matches).",
-    "batch_round46_mixed_oven_2026_05": "Round 46: 6 more Reviewed/Yale category endorsements."
+    "batch_round46_mixed_oven_2026_05": "Round 46: 6 more Reviewed/Yale category endorsements.",
+    "batch_round48_yale9_oven_2026_05": "Round 48: 2 more Yale category endorsements.",
+    "batch_round50_2026_05": "Round 50: 2 Yale reliability-article model citations."
   },
   "models": [
     {
@@ -3038,6 +3040,12 @@
             "type": "article",
             "label": "Yale 2026: Most reliable induction range overall — 4.6% service rate",
             "url": "https://blog.yaleappliance.com/best-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Most Reliable Induction Ranges 2025): LSIL6336XE — cited representative model in LG's 4.6% category service rate ($3,299)",
+            "url": "https://blog.yaleappliance.com/most-reliable-induction-ranges"
           }
         ]
       },
@@ -3882,7 +3890,15 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-pb900yvfs/m413387/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-30-Smart-Free-Standing-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PB900YVFS"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Most Reliable Electric Ranges 2025): PB900YVFS — recommended model from GE Profile (8.5% brand service rate)",
+            "url": "https://blog.yaleappliance.com/most-reliable-electric-ranges"
+          }
+        ]
       },
       "pros": [
         "Convection (True Convection (third element + fan))",
@@ -9029,6 +9045,12 @@
             "type": "roundup",
             "label": "Reviewed (Best 36-inch High-End Gas Cooktops): \"Best Gas Cooktop\" / Editor's Choice — \"This five-burner cooktop delivers high temperatures, even cooking, and a stylish look for your kitchen.\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Wolf vs Thermador vs Viking Gas Cooktops): SGSX365TS — \"two intermittent simmers with 16,000 BTU center burner\" ($2,099)",
+            "url": "https://blog.yaleappliance.com/wolf-vs-thermador-vs-viking-gas-cooktops"
           }
         ]
       },
@@ -9142,7 +9164,15 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Wolf vs Thermador vs Viking Gas Cooktops): VGSU5361-6B — \"six more durable brass burners with 66,000 total BTU output\" ($2,649)",
+            "url": "https://blog.yaleappliance.com/wolf-vs-thermador-vs-viking-gas-cooktops"
+          }
+        ]
       },
       "pros": [],
       "cons": [],

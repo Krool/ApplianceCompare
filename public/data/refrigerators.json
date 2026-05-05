@@ -42,7 +42,9 @@
     "batch_round40_2026_05": "Round 40: 1 Yale 33-inch counter-depth article endorsement (only exact-match in-DB models).",
     "batch_round42_yale6_fridge_2026_05": "Round 42: 5 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
     "batch_round43_yale7_fridge_2026_05": "Round 43: 1 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
-    "batch_round45_reviewed4_fridge_2026_05": "Round 45: 15 more Reviewed category endorsements."
+    "batch_round45_reviewed4_fridge_2026_05": "Round 45: 15 more Reviewed category endorsements.",
+    "batch_round48_yale9_fridge_2026_05": "Round 48: 3 more Yale category endorsements.",
+    "batch_round51_reviewed6_fridge_2026_05": "Round 51: 6 more Reviewed category endorsements."
   },
   "models": [
     {
@@ -93,6 +95,12 @@
             "type": "article",
             "label": "Yale 2026: LG counter-depth lineup — lowest service rate (5.5%) among major brands",
             "url": "https://blog.yaleappliance.com/the-best-counter-depth-refrigerators"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (LG Counter-Depth MAX Review): \"25.5 Cu Ft PrintProof Counter-Depth French Door\" — ice and water dispenser, dual ice makers ($1,999)",
+            "url": "https://blog.yaleappliance.com/lg-counter-depth-max-french-door-refrigerator-review"
           }
         ],
         "retailer_ratings": {
@@ -992,6 +1000,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Refrigerators Under $1,000): tested — \"one of the most efficient models we've tested\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Top-Freezer Refrigerators): \"Best Standard-depth\" — \"Energy efficient\" with \"Glass shelves\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-top-freezer-refrigerators"
           }
         ],
         "retailer_ratings": {
@@ -3416,6 +3430,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/refrigerators/content/lg-lrflc2706s-french-door-refrigerator-review"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (LG Counter-Depth MAX Review): \"27 Cu Ft PrintProof Smart Counter Depth French Door\" — internal water dispenser ($1,799)",
+            "url": "https://blog.yaleappliance.com/lg-counter-depth-max-french-door-refrigerator-review"
           }
         ]
       },
@@ -3869,6 +3889,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Refrigerators Under $1,000): \"Editor's Choice\" — \"remarkable temperature consistency for its price range\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Bottom-Freezer Refrigerators): \"Editor's Choice / Best Value\" — \"remarkably consistent temperatures and is one of the best values we've seen\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-bottom-freezer-refrigerators"
           }
         ]
       },
@@ -4018,6 +4044,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Refrigerators Under $1,000): \"Editor's Choice\" — \"doesn't skimp on temperature performance\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Top-Freezer Refrigerators): \"Editor's Choice / Best Overall\" — \"Stable temperatures\" and \"Great value\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-top-freezer-refrigerators"
           }
         ]
       },
@@ -4532,6 +4564,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Refrigerators Under $1,000): \"Editor's Choice\" — \"efficient use of space is truly impressive\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Top-Freezer Refrigerators): \"Editor's Choice\" — \"Great size for smaller spaces\" and \"Good temperature consistency\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-top-freezer-refrigerators"
           }
         ]
       },
@@ -4796,6 +4834,12 @@
             "type": "roundup",
             "label": "Best 33-inch Bottom-Freezer 2026: \"loads of capacity and smart features\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Bottom-Freezer Refrigerators): tested — \"sleek LG bottom-freezer refrigerator delivers just enough features to be a good value\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-bottom-freezer-refrigerators"
           }
         ],
         "wirecutter": "top pick (best 33-inch bottom-freezer) 2026"
@@ -6174,6 +6218,12 @@
             "type": "article",
             "label": "Yale (Largest Counter-Depth French-Door): tested — 25.5 cu ft InstaView with PrintProof finish",
             "url": "https://blog.yaleappliance.com/largest-counter-depth-french-door-refrigerators"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (LG Counter-Depth MAX Review): \"25.5 Cu Ft PrintProof Smart InstaView Counter Depth\" — outside water dispenser, knock-twice InstaView window ($2,199)",
+            "url": "https://blog.yaleappliance.com/lg-counter-depth-max-french-door-refrigerator-review"
           }
         ]
       },
@@ -7377,6 +7427,12 @@
             "type": "roundup",
             "label": "Reviewed (Best Stainless-Steel Fridges Under $2,000): tested — French-door pick noted as solid value",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-stainless-steel-fridges-under-2000"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Bottom-Freezer Refrigerators): \"Editor's Choice\" — \"Its temperature management system keeps both its fridge and freezer compartments at almost the exact ideal temperature\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-bottom-freezer-refrigerators"
           }
         ]
       },
