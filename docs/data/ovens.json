@@ -40,7 +40,8 @@
     "cooktop_round34_2026_05": "Round 34: 1 CR URL upgrades + 3 cooktop retailer ratings.",
     "range_retailer_round35_2026_05": "Round 35: 2 retailer ratings on GE 600-series ranges.",
     "reviewed_batch_round36_2026_05": "Round 36: 5 Reviewed.com category-roundup endorsements (best induction cooktops, best 36in gas cooktops, best 36in dual-fuel, best fridges under $1k).",
-    "reviewed_batch_round37_2026_05": "Round 37: 5 more Reviewed.com category endorsements (under-$2k stainless, side-by-side, under-$800 ranges, double-oven)."
+    "reviewed_batch_round37_2026_05": "Round 37: 5 more Reviewed.com category endorsements (under-$2k stainless, side-by-side, under-$800 ranges, double-oven).",
+    "tier_upgrade_oven_2026_05": "Round 38 tier upgrade: 2 CR URL upgrades + 2 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier)."
   },
   "models": [
     {
@@ -5755,7 +5756,14 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/appliances/ranges/samsung-bespoke-nsi6dg9500sr/m416482/"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 120,
+            "url": "https://www.bestbuy.com/site/samsung-bespoke-6-3-cu-ft-slide-in-electric-induction-range-with-ambient-edge-lighting-stainless-steel/6569005.p?skuId=6569005"
+          }
         }
       },
       "pros": [],
@@ -7601,7 +7609,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfg550s0lz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471514_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "electrolux-ecfg3068as",
@@ -7694,7 +7707,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfg525s0jz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6380/6380844_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-fcfg3062as",
@@ -7725,7 +7743,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-fcfg3062as.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537900_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-fcrg3083as",
@@ -7763,7 +7786,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-fcrg3083as.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576791_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-fcrg3051bs",
@@ -7825,7 +7853,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-weg515s0ls.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471520_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-fcfg3083as",
@@ -7887,7 +7920,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-gcfg3059bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6619/6619421_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-gcrg3060bf",
@@ -7928,7 +7966,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-gcrg3060bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560832_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pgb965ypfs",
@@ -9186,7 +9229,14 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/appliances/cooktops/bosch-benchmark-ngmp059uc/m416254/"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 5,
+            "count": 1,
+            "url": "https://www.bestbuy.com/site/bosch-benchmark-series-30-built-in-gas-cooktop-with-5-burners-with-flameselect-stainless-steel/6571840.p?skuId=6571840"
+          }
         }
       },
       "pros": [],
