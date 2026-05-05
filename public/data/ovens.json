@@ -38,7 +38,9 @@
     "cr_url_upgrade_4_2026_05": "Round 32: 0 more CR model-specific review URLs.",
     "ov_round33_2026_05": "Round 33: 1 CR URL upgrades + 1 retailer ratings.",
     "cooktop_round34_2026_05": "Round 34: 1 CR URL upgrades + 3 cooktop retailer ratings.",
-    "range_retailer_round35_2026_05": "Round 35: 2 retailer ratings on GE 600-series ranges."
+    "range_retailer_round35_2026_05": "Round 35: 2 retailer ratings on GE 600-series ranges.",
+    "reviewed_batch_round36_2026_05": "Round 36: 5 Reviewed.com category-roundup endorsements (best induction cooktops, best 36in gas cooktops, best 36in dual-fuel, best fridges under $1k).",
+    "reviewed_batch_round37_2026_05": "Round 37: 5 more Reviewed.com category endorsements (under-$2k stainless, side-by-side, under-$800 ranges, double-oven)."
   },
   "models": [
     {
@@ -630,6 +632,12 @@
             "type": "article",
             "label": "Yale 2026: GE Appliances — 9.2% service rate; one of the few US brands with its own national service fleet (Bodewell)",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges Under $800): JBS60DKWW family tested — \"lacks special features, but does a good job with baking and roasting\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
           }
         ],
         "source_urls": {
@@ -1464,7 +1472,15 @@
             "count": 34,
             "url": "https://www.bestbuy.com/site/ge-profile-36-built-in-electric-induction-cooktop-black-on-black/7686073.p?skuId=7686073"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Induction Cooktops): \"Best 36-inch Induction Cooktop\" (PHP9036 family) — \"5-burner with SyncBurner technology and built-in Wi-Fi\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
+          }
+        ]
       },
       "pros": [
         "SyncBurner",
@@ -3046,6 +3062,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/ovens/content/kitchenaid-ksdb900ess-dual-fuel-slide-in-range-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best 36-inch Dual-Fuel Ranges): Best 36-inch Dual-Fuel — \"fine control for your burners, mostly even baking\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/the-best-36-inch-dual-fuel-ranges"
           }
         ]
       },
@@ -3097,6 +3119,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/ovens/content/whirlpool-wge745c0fs-electric-range-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Double Oven Ranges): \"Best Double Oven Range\" — \"effective burners, spacious ovens that evenly bake food\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
           }
         ],
         "retailer_ratings": {
@@ -5216,7 +5244,15 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Double Oven Ranges): tested — \"powerful stove-top elements, True Convection, 10-year limited parts warranty\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -6492,7 +6528,15 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
           "manufacturer": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS66REKSS"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges Under $800): tested — \"center-mounted griddle is a nifty addition\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -7009,7 +7053,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-ksgg700ess.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5489/5489036_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-hgi8056uc",
@@ -7040,7 +7089,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/bosch-hgi8056uc.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6355/6355964_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "sharp-ssg3065js",
@@ -7195,7 +7249,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-pcfg3080af.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6583/6583460_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-gcfg3060bf",
@@ -7226,7 +7285,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-gcfg3060bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537537_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "midea-mgr30s2ast",
@@ -7319,7 +7383,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfg505m0ms.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6514/6514411_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mfgs6030rz",
@@ -7357,7 +7426,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/maytag-mfgs6030rz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593094_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "hotpoint-rgbs330drww",
@@ -7419,7 +7493,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-weg745h0lz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471523_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kfgg500ess",
@@ -7486,7 +7565,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfg975h0hv.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6031/6031404_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfg550s0lz",
@@ -8159,7 +8243,15 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Double Oven Ranges): KFGD500 family tested — \"Even-Heat True Convection allows your oven to heat up evenly\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -8608,7 +8700,15 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best 36-inch Gas Cooktops): Best Gas Cooktop — \"five-burner cooktop delivers high temperatures, even cooking, and a stylish look\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -8670,7 +8770,15 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best 36-inch Gas Cooktops): tested — \"sleek construction, continuous steel grating\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -10110,7 +10218,15 @@
             "count": 17,
             "url": "https://www.bestbuy.com/product/frigidaire-professional-30-induction-cooktop-stainless-steel/J7CJ3R2JHQ"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Induction Cooktops): \"powerful 5,200-watt 11-inch PowerPlus burner, plus a bridge burner\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
+          }
+        ]
       },
       "pros": [],
       "cons": [],

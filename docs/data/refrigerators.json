@@ -34,7 +34,9 @@
     "cleanup_pass_2026_05": "Round 27 cleanup: removed 2 models added in round 25 that failed the \"buyable today\" rule (discontinued or finish-only duplicates of existing records). Wirecutter garage-ready endorsement merged from ge-gts22kgnrww into the canonical ge-gts22kynrs record.",
     "cr_url_upgrade_2_2026_05": "Round 28: 3 more CR model-specific review URLs (existing in-DB models, not new entries).",
     "cr_url_upgrade_3_2026_05": "Round 29: 2 more CR model-specific review URLs (existing in-DB models only).",
-    "fridge_cr_retailer_pass_2026_05": "Round 31: high-CR fridges — 3 CR URL upgrades, 2 retailer ratings."
+    "fridge_cr_retailer_pass_2026_05": "Round 31: high-CR fridges — 3 CR URL upgrades, 2 retailer ratings.",
+    "reviewed_batch_round36_2026_05": "Round 36: 5 Reviewed.com category-roundup endorsements (best induction cooktops, best 36in gas cooktops, best 36in dual-fuel, best fridges under $1k).",
+    "reviewed_batch_round37_2026_05": "Round 37: 5 more Reviewed.com category endorsements (under-$2k stainless, side-by-side, under-$800 ranges, double-oven)."
   },
   "models": [
     {
@@ -780,6 +782,12 @@
             "type": "roundup",
             "label": "Runner-up Garage-Ready 2026: \"five finishes, but not quite as big, efficient, or attractive as our top pick\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Refrigerators Under $1,000): GTS22K family tested — \"maintains stable temperatures, large freezer, garage-ready\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
           }
         ]
       },
@@ -949,6 +957,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/refrigerators/content/whirlpool-wrt311fzdm-refrigerator-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Refrigerators Under $1,000): Top-freezer tested — \"energy efficient with glass shelves\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
           }
         ],
         "retailer_ratings": {
@@ -1862,6 +1876,18 @@
             "type": "article",
             "label": "Yale 2026: Frigidaire — Electrolux subsidiary; CR rates dishwasher reliability \"fair\"",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless-Steel Fridges Under $2,000): tested side-by-side",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-stainless-steel-fridges-under-2000"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Side-by-Side Refrigerators): \"Best Value\" — \"solid temperatures, lots of storage, through-the-door dispenser\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-side-by-side-fridges-refrigerators"
           }
         ]
       },
@@ -3699,6 +3725,12 @@
             "type": "review",
             "label": "Hisense HRB171N6ASE individual review",
             "url": "https://www.reviewed.com/refrigerators/content/hisense-hrb171n6ase-bottom-freezer-refrigerator-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Refrigerators Under $1,000): Best Overall — \"steady temperatures in both fridge and freezer; great value\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
           }
         ]
       },
@@ -3824,6 +3856,12 @@
             "type": "review",
             "label": "Hotpoint HPS16BTNRWW individual review",
             "url": "https://www.reviewed.com/refrigerators/content/hotpoint-hps16btnrww-top-freezer-refrigerator-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Refrigerators Under $1,000): Top-freezer tested — \"stable temperatures, great value\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
           }
         ]
       },
@@ -4315,7 +4353,15 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/top-freezer-refrigerators/FFHT1425VV"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Refrigerators Under $1,000): Top-freezer tested — \"great size for smaller spaces, good temperature consistency\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
+          }
+        ]
       },
       "pros": [
         "ADA compliant — important for accessible kitchens",
@@ -7080,6 +7126,12 @@
             "type": "roundup",
             "label": "\"basic bottom-freezer with excellent temperature performance\"",
             "url": "https://www.reviewed.com/refrigerators/best-right-now/best-bottom-freezer-refrigerators"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless-Steel Fridges Under $2,000): tested — French-door pick noted as solid value",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-stainless-steel-fridges-under-2000"
           }
         ]
       },
@@ -7379,7 +7431,21 @@
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/27-4-cu-ft-side-by-side-refrigerator-with-large-capacity-in-stainless-steel-rs27t5200sr-aa/v2/",
           "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless-Steel Fridges Under $2,000): tested side-by-side",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-stainless-steel-fridges-under-2000"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Side-by-Side Refrigerators): tested — \"tons of storage and won't miss smart features\"",
+            "url": "https://www.reviewed.com/refrigerators/best-right-now/best-side-by-side-fridges-refrigerators"
+          }
+        ]
       },
       "pros": [
         "Quiet (40 dB)",
