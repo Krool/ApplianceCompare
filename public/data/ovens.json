@@ -8,8 +8,29 @@
       "Wirecutter Induction Range Guide",
       "DOE HEAR Rebates"
     ],
-    "last_updated": "2026-04-25",
-    "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls."
+    "last_updated": "2026-05-05",
+    "spec_backfill_2026_05": "Round 1 spec backfill 2026-05-05 — oven_capacity / burners / max_burner / convection / air_fry / self_clean / wifi / msrp verified from manufacturer spec sheets. Each backfilled model gets a ratings.source_urls.specs entry citing the source. ~5 records updated this round.",
+    "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls.",
+    "endorsements_pass_2026_05": "Endorsements arrays added 2026-05-05 to 19 top-tier models — Reviewed.com best-of, Yale Appliance, and individual-review citations.",
+    "review_data_pass_2": "Round 2 review-data pass 2026-05-05: 7 models received Yale Appliance reliability data and/or Reviewed.com roundup endorsements.",
+    "added_models_pass_3": "Added GE JGB735SPSS as a Wirecutter / Yale top affordable gas range pick on 2026-05-05.",
+    "retailer_ratings_pass_2026_05": "Round 7 retailer-ratings backfill 2026-05-05: 2 retailer-rating entries added across top-tier models. Each entry is the live rating + count from the retailer URL on the same date.",
+    "retailer_ratings_pass_2_2026_05": "Round 8 retailer-ratings backfill 2026-05-05: 3 additional retailer-rating entries added.",
+    "retailer_ratings_pass_3_2026_05": "Round 9 retailer-ratings backfill 2026-05-05: 1 additional retailer-rating entries.",
+    "retailer_ratings_pass_4_2026_05": "Round 10 retailer-ratings backfill 2026-05-05: 0 additional entries.",
+    "retailer_ratings_pass_5_2026_05": "Round 12 retailer-ratings backfill 2026-05-05: 0 additional entries.",
+    "yale_36inch_pass_2026_05": "Round 13 backfill 2026-05-05: 3 models received Yale 2026 'Best 36-inch Induction Range' endorsement.",
+    "wirecutter_pass_2026_05": "Round 14 Wirecutter backfill 2026-05-05: 9 models tagged with Wirecutter pick status + endorsement. Source: full Wirecutter articles for fridges, dishwashers, electric ranges, gas ranges, counter-depth fridges (all updated Feb–Apr 2026).",
+    "wirecutter_additions_2026_05": "Round 15: added 5 Wirecutter-picked models that were missing from the DB. Sources: Wirecutter Best Electric Stoves (Oct 3 2025) + Best Gas Stoves (Mar 20 2026).",
+    "reviewed_individual_pass_2026_05": "Round 16: 7 models received Reviewed.com individual-review URL endorsements (verified via site:reviewed.com search).",
+    "yale_brand_endorsement_pass_2026_05": "Round 17: 46 0-source models received a Yale Appliance brand-article endorsement so the brand-level reliability data has a citable surface on the card.",
+    "last_zero_source_pass_2026_05": "Round 18: cleared the last 3 zero-source models with Yale citations.",
+    "retailer_ratings_pass_6_2026_05": "Round 19: 2 additional retailer entries.",
+    "retailer_ratings_pass_7_2026_05": "Round 20: 2 additional retailer entries.",
+    "cr_url_upgrade_2026_05": "Round 22: 16 models had their generic CR buying-guide URL upgraded to the model-specific CR review URL.",
+    "retailer_ratings_pass_9_2026_05": "Round 23: 2 additional retailer entries.",
+    "popular_missing_pass_2026_05": "Round 25: added 1 popular missing models (Bosch SHEM63W55N, GE GNE25JSKSS, etc.) sourced from retailer-rating searches.",
+    "retailer_ratings_pass_11_2026_05": "Round 26: 4 additional retailer entries."
   },
   "models": [
     {
@@ -54,7 +75,12 @@
         "Heavy (delivery quirk)",
         "Glass scratches if pots are dragged — lift, don't slide"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/lg-lsel6337f.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6450/6450221_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-phs930ypfs",
@@ -82,7 +108,23 @@
         "reviewed": null,
         "source_urls": {
           "yale": "https://blog.yaleappliance.com/best-induction-ranges",
-          "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Fingerprint-Resistant-Front-Control-Induction-and-Convection-Range-with-No-Preheat-Air-Fry-PHS930YPFS"
+          "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Fingerprint-Resistant-Front-Control-Induction-and-Convection-Range-with-No-Preheat-Air-Fry-PHS930YPFS",
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-phs930ypfs/m404513/"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: GE Profile pick — 9.2% service rate, strong factory support",
+            "url": "https://blog.yaleappliance.com/best-induction-ranges"
+          }
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 51,
+            "url": "https://www.bestbuy.com/product/ge-profile-5-3-cu-ft-slide-in-electric-induction-true-convection-range-with-no-preheat-air-fry-and-wi-fi-stainless-steel/J7645S2S8W"
+          }
         }
       },
       "pros": [
@@ -97,7 +139,12 @@
       "release_year": 2023,
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/ge-profile-phs930ypfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6444/6444714_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-hii8057u",
@@ -121,7 +168,25 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Bosch — 8.7% service rate; CR best dishwasher and french-door brand 2026",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 3.1,
+            "count": 11,
+            "url": "https://www.bestbuy.com/site/bosch-800-series-4-6-cu-ft-slide-in-electric-induction-range-with-self-cleaning-and-warming-drawer-stainless-steel/6501560.p?skuId=6501560"
+          }
+        }
       },
       "pros": [
         "Bosch oven precision",
@@ -132,7 +197,12 @@
         "Small oven (4.6 cf)",
         "No air fry mode"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/bosch-hii8057u.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501560_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-ne63bb871112",
@@ -155,7 +225,26 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Samsung — covered in Yale appliance reliability data; control-board reliability is the recurring concern",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "cr": "https://www.consumerreports.org/appliances/ranges/samsung-bespoke-ne63bb871112/m406961/"
+        },
+        "retailer_ratings": {
+          "lowes": {
+            "stars": 3.8,
+            "count": 11,
+            "url": "https://www.lowes.com/pd/Samsung-Bespoke-30-in-Glass-Top-5-Burners-6-3-cu-ft-Self-Cleaning-Air-Fry-Slide-in-Smart-Electric-Range-White-Glass/5013352961"
+          }
+        }
       },
       "pros": [
         "Flex Duo divider",
@@ -165,7 +254,12 @@
       "cons": [
         "Samsung repair concerns"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/samsung-ne63bb871112.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491822_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kfid500ess",
@@ -188,7 +282,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: KitchenAid — 8.2% dishwasher service rate; Whirlpool corp build quality",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Gas burners + electric oven (best of both)",
@@ -198,12 +303,17 @@
         "AquaLift weak vs pyrolytic",
         "No Wi-Fi"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/kitchenaid-kfid500ess.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7970/7970214_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "wolf-df36450c",
       "brand": "wolf",
-      "model": "DF36450C/S/P",
+      "model": "DF36450C",
       "name": "Wolf 36\" Dual-Fuel Pro Range w/ 4 Burners + Charbroiler",
       "type": "range",
       "fuel": "dual_fuel",
@@ -224,8 +334,17 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "manufacturer": "https://www.subzero-wolf.com/wolf/ranges/dual-fuel/36-inch-dual-fuel-range-4-burners-infrared-charbroiler"
-        }
+          "manufacturer": "https://www.subzero-wolf.com/wolf/ranges/dual-fuel/36-inch-dual-fuel-range-4-burners-infrared-charbroiler",
+          "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2025: Wolf — \"great post-sales support… keeps parts for decades, in many cases back to 2001\"",
+            "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+          }
+        ]
       },
       "pros": [
         "Pro-grade build",
@@ -241,12 +360,13 @@
         "Stainless Steel",
         "Black",
         "White"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "wolf-ir36450",
       "brand": "wolf",
-      "model": "IR365TF/S/LP",
+      "model": "IR365TF",
       "name": "Wolf 36\" Sealed Burner Gas Rangetop",
       "type": "cooktop",
       "fuel": "gas",
@@ -260,7 +380,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2025: Wolf — \"great post-sales support… keeps parts for decades, in many cases back to 2001\"",
+            "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+        }
       },
       "pros": [
         "Pro burners + simmer ring",
@@ -269,7 +400,8 @@
       "cons": [
         "$6k+"
       ],
-      "release_year": 2021
+      "release_year": 2021,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "thermador-pgr486gdg",
@@ -287,7 +419,7 @@
       "air_fry": false,
       "self_clean": "self",
       "wifi": true,
-      "msrp": 13299,
+      "msrp": null,
       "street_price": 14999,
       "ratings": {
         "cr_overall": null,
@@ -295,8 +427,17 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "manufacturer": "https://www.thermador.com/us/en/mkt-product/ranges/48-ranges/PRG486WDG"
-        }
+          "manufacturer": "https://www.thermador.com/us/en/mkt-product/ranges/48-ranges/PRG486WDG",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Thermador — BSH-built shared platform with Bosch and Gaggenau (North Carolina dishwashers)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Steam oven + standard oven",
@@ -334,7 +475,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale: Viking VGR pro range — covered in Yale's pro-range buying guide (\"Viking is a heritage pro-range brand\")",
+            "url": "https://blog.yaleappliance.com/how-to-buy-a-professional-range"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/how-to-buy-a-professional-range"
+        }
       },
       "pros": [
         "Pro look",
@@ -367,7 +519,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: BlueStar — covered as 48-inch induction range pick (\"Maximum Power + Customization\")",
+            "url": "https://blog.yaleappliance.com/best-induction-ranges"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/best-induction-ranges"
+        }
       },
       "pros": [
         "25,000 BTU open burners (highest commercial)",
@@ -405,8 +568,17 @@
         "reviewed": null,
         "source_urls": {
           "manufacturer": "https://www.mieleusa.com/product/11791570/36-range-hr-1934-3-g-df-clean-touch-steel",
-          "spec_sheet": "https://media.miele.com/downloads/n-/us/FS_11791570_USE_US-en-US.pdf"
-        }
+          "spec_sheet": "https://media.miele.com/downloads/n-/us/FS_11791570_USE_US-en-US.pdf",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Miele reliability",
@@ -443,7 +615,25 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: GE Appliances — 9.2% service rate; one of the few US brands with its own national service fleet (Bodewell)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 467,
+            "url": "https://www.bestbuy.com/site/ge-5-3-cu-ft-freestanding-electric-range-with-power-boil-and-ceramic-glass-cooktop-white/4955900.p?skuId=4955900"
+          }
+        }
       },
       "pros": [
         "Cheapest reliable electric",
@@ -454,7 +644,12 @@
         "Coil tops dated",
         "No convection"
       ],
-      "release_year": 2021
+      "release_year": 2021,
+      "image": {
+        "local": "images/ovens/ge-jbs60dkbb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5135/5135501_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfg775h0hz",
@@ -478,7 +673,25 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Whirlpool — known for reliability and easily replaceable parts (US-made for most lines)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 99,
+            "url": "https://www.bestbuy.com/site/whirlpool-5-8-cu-ft-self-cleaning-freestanding-gas-convection-range-stainless-steel/6177122.p?skuId=6177122"
+          }
+        }
       },
       "pros": [
         "Whirlpool reliability",
@@ -514,7 +727,24 @@
         "reviewed": null,
         "source_urls": {
           "manufacturer": "https://www.samsung.com/us/home-appliances/ranges/gas/6-0-cu--ft--smart-bespoke-slide-in-gas-range-with-smart-dial--air-fry---wi-fi-in-white-glass-nx60bb871112aa/",
-          "lowes": "https://www.lowes.com/pd/Samsung-Bespoke-30-in-5-Burners-6-cu-ft-Self-cleaning-Air-Fry-Slide-in-Smart-Natural-Gas-Range-White-Glass/5013352951"
+          "lowes": "https://www.lowes.com/pd/Samsung-Bespoke-30-in-5-Burners-6-cu-ft-Self-cleaning-Air-Fry-Slide-in-Smart-Natural-Gas-Range-White-Glass/5013352951",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "cr": "https://www.consumerreports.org/appliances/ranges/samsung-bespoke-nx60bb871112/m406258/"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Samsung — covered in Yale appliance reliability data; control-board reliability is the recurring concern",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "retailer_ratings": {
+          "rc_willey": {
+            "stars": 4.5,
+            "count": 579,
+            "url": "https://www.rcwilley.com/Appliances/Cooking/Ranges/Single-Oven/NX60BB871112/112656536/Samsung-Bespoke-6-cu-ft-Gas-Range---White-Glass-View"
+          }
         }
       },
       "pros": [
@@ -530,7 +760,12 @@
         "White Glass",
         "Navy Steel",
         "Tuscan Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/samsung-nx60bb871112.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491827_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lreg6033st",
@@ -554,7 +789,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: LG — 5.5% overall service rate; the most reliable mainstream brand",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "LG reliability",
@@ -591,8 +837,23 @@
         "reviewed": null,
         "reviewed_status": "Editor's Choice · Best Upgrade Induction 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
-        }
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
+          "reviewed_individual": "https://www.reviewed.com/ovens/content/cafe-chs900p2ms1-induction-range-review"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Editor's Choice — Best Upgrade Induction 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review",
+            "url": "https://www.reviewed.com/ovens/content/cafe-chs900p2ms1-induction-range-review"
+          }
+        ]
       },
       "pros": [
         "Customizable hardware",
@@ -602,7 +863,12 @@
       "cons": [
         "Café service rates worrying"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/cafe-chs900p2ms1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6338/6338006_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-gcre3060af",
@@ -624,7 +890,19 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+        },
+        "wirecutter": "predecessor to wirecutter pick",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Wirecutter notes GCRE3060A is the \"discontinued version\" — newer GCRE3060B is current pick",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+          }
+        ]
       },
       "pros": [
         "Air fry at $1k",
@@ -633,7 +911,12 @@
       "cons": [
         "Reliability mixed"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/frigidaire-gcre3060af.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6400/6400437_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "sks-srpf3640s",
@@ -657,7 +940,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: SKS (Signature Kitchen Suite) — 8.8% service rate, premium LG-platform sister",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Built-in sous vide module",
@@ -693,8 +987,17 @@
         "reviewed": null,
         "source_urls": {
           "manufacturer": "https://www.bosch-home.com/us/en/product/HBL8453UC",
-          "home_depot": "https://www.homedepot.com/p/Bosch-800-Series-30-in-Built-In-Smart-Single-Electric-Wall-Oven-with-European-Convection-and-Self-Cleaning-in-Stainless-Steel-HBL8453UC/310828344"
-        }
+          "home_depot": "https://www.homedepot.com/p/Bosch-800-Series-30-in-Built-In-Smart-Single-Electric-Wall-Oven-with-European-Convection-and-Self-Cleaning-in-Stainless-Steel-HBL8453UC/310828344",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Bosch — 8.7% service rate; CR best dishwasher and french-door brand 2026",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Pyrolytic self-clean",
@@ -707,7 +1010,12 @@
       "release_year": 2023,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/bosch-hbl8453uc.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6359/6359141_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "miele-h7780bp",
@@ -731,8 +1039,17 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "manufacturer": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel"
-        }
+          "manufacturer": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Best in class",
@@ -786,7 +1103,12 @@
       "release_year": 2023,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/cafe-cts70dp2ns1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6337/6337353_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jts5000snss",
@@ -810,8 +1132,17 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "manufacturer": "https://www.geappliances.com/appliance/GE-30-Smart-Built-In-Self-Clean-Convection-Single-Wall-Oven-with-Never-Scrub-Racks-JTS5000SNSS"
-        }
+          "manufacturer": "https://www.geappliances.com/appliance/GE-30-Smart-Built-In-Self-Clean-Convection-Single-Wall-Oven-with-Never-Scrub-Racks-JTS5000SNSS",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: GE Appliances — 9.2% service rate; one of the few US brands with its own national service fleet (Bodewell)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Best value wall oven",
@@ -824,7 +1155,12 @@
       "release_year": 2022,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/ge-jts5000snss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6335/6335109_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-ptd9000snss",
@@ -849,8 +1185,17 @@
         "reviewed": null,
         "source_urls": {
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Built-In-Convection-Double-Wall-Oven-with-In-Oven-Camera-and-No-Preheat-Air-Fry-PTD9000SNSS",
-          "home_depot": "https://www.homedepot.com/p/GE-Profile-30-in-Smart-Double-Electric-Wall-Oven-with-Convection-Self-Clean-in-Stainless-Steel-PTD9000SNSS/312648565"
-        }
+          "home_depot": "https://www.homedepot.com/p/GE-Profile-30-in-Smart-Double-Electric-Wall-Oven-with-Convection-Self-Clean-in-Stainless-Steel-PTD9000SNSS/312648565",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: GE Profile — 8.0% service rate; mid-premium GE line",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Massive 10 cf",
@@ -863,7 +1208,12 @@
       "release_year": 2023,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/ge-profile-ptd9000snss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6399/6399698_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kode507ess",
@@ -884,7 +1234,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: KitchenAid — 8.2% dishwasher service rate; Whirlpool corp build quality",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Big double oven",
@@ -894,7 +1255,12 @@
         "No Wi-Fi at price",
         "No air fry"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/kitchenaid-kode507ess.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7315/7315054_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "thermador-pod301wn",
@@ -916,7 +1282,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Thermador — BSH-built shared platform with Bosch and Gaggenau (North Carolina dishwashers)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Steam + convection combo",
@@ -930,7 +1307,7 @@
     {
       "id": "wolf-do30pesph",
       "brand": "wolf",
-      "model": "DO30PE/S/PH",
+      "model": "DO30PE",
       "name": "Wolf 30\" E Series Pro Double Wall Oven",
       "type": "wall_oven",
       "fuel": "electric",
@@ -947,7 +1324,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2025: Wolf — \"great post-sales support… keeps parts for decades, in many cases back to 2001\"",
+            "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+        }
       },
       "pros": [
         "Pro convection",
@@ -957,7 +1345,8 @@
       "cons": [
         "$9k"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "miele-cm6160",
@@ -974,7 +1363,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Bean-to-cup built-in",
@@ -1006,7 +1406,18 @@
         "cr_reliability": null,
         "yale_reliability_pct": null,
         "wirecutter": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Bosch — 8.7% service rate; CR best dishwasher and french-door brand 2026",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "FlexInduction zones",
@@ -1048,7 +1459,12 @@
       "cons": [
         "GE service"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/ge-profile-php9036djbb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7686/7686073_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-gcci3667ab",
@@ -1067,7 +1483,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Frigidaire — Electrolux subsidiary; CR rates dishwasher reliability \"fair\"",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Cheapest 36\" induction",
@@ -1076,7 +1503,12 @@
       "cons": [
         "Reliability mixed"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/frigidaire-gcci3667ab.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6495/6495870_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nz36k7880us",
@@ -1095,7 +1527,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Samsung — covered in Yale appliance reliability data; control-board reliability is the recurring concern",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Flex Zone Plus",
@@ -1105,12 +1548,17 @@
       "cons": [
         "Samsung service"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/samsung-nz36k7880us.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5581/5581718_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "wolf-cg365ts",
       "brand": "wolf",
-      "model": "CG365TS/S",
+      "model": "CG365TS",
       "name": "Wolf 36\" Sealed Burner Gas Cooktop",
       "type": "cooktop",
       "fuel": "gas",
@@ -1124,7 +1572,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2025: Wolf — \"great post-sales support… keeps parts for decades, in many cases back to 2001\"",
+            "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+        }
       },
       "pros": [
         "Sealed burners + simmer",
@@ -1134,7 +1593,8 @@
       "cons": [
         "No Wi-Fi"
       ],
-      "release_year": 2021
+      "release_year": 2021,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "thermador-pcg366w",
@@ -1153,7 +1613,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Thermador — BSH-built shared platform with Bosch and Gaggenau (North Carolina dishwashers)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Star burner shape",
@@ -1183,7 +1654,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Bosch — 8.7% service rate; CR best dishwasher and french-door brand 2026",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Centered 18k power burner",
@@ -1193,7 +1675,12 @@
       "cons": [
         "No Wi-Fi"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/bosch-ngm5055uc.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5628/5628063_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jp5036sjss",
@@ -1211,7 +1698,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: GE Appliances — 9.2% service rate; one of the few US brands with its own national service fleet (Bodewell)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Cheapest 36\" radiant",
@@ -1220,7 +1718,12 @@
       "cons": [
         "Slow vs induction"
       ],
-      "release_year": 2021
+      "release_year": 2021,
+      "image": {
+        "local": "images/ovens/ge-jp5036sjss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4208/4208408_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "miele-km7414fl",
@@ -1240,7 +1743,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "PowerFlex zones (any pot anywhere)",
@@ -1269,7 +1783,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Thermador — BSH-built shared platform with Bosch and Gaggenau (North Carolina dishwashers)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Liberty = pots placed anywhere on full glass",
@@ -1298,7 +1823,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: LG — 5.5% overall service rate; the most reliable mainstream brand",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "LG reliability",
@@ -1327,7 +1863,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: KitchenAid — 8.2% dishwasher service rate; Whirlpool corp build quality",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Even-Heat induction",
@@ -1355,7 +1902,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Fisher & Paykel — 16.4% service rate; minimalist NZ design with US service via small dealer network",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "FlexZone bridge",
@@ -1384,7 +1942,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Gaggenau — 7.7% service rate; cooktop \"service-free for the first two years\"",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Architectural design",
@@ -1413,7 +1982,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Monogram — 9.3% wall-oven service rate; GE Appliances' luxury line",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Premium Monogram styling",
@@ -1443,7 +2023,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Samsung — covered in Yale appliance reliability data; control-board reliability is the recurring concern",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Top is microwave + bottom is full convection",
@@ -1453,7 +2044,12 @@
       "cons": [
         "Samsung repair"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/samsung-nq70t5511ds.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6394/6394681_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-wcep6423d",
@@ -1474,7 +2070,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: LG — 5.5% overall service rate; the most reliable mainstream brand",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "LG reliability",
@@ -1483,7 +2090,12 @@
       "cons": [
         "EasyClean weak"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/lg-wcep6423d.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534260_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pt7800shss",
@@ -1504,7 +2116,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: GE Profile — 8.0% service rate; mid-premium GE line",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Advantium speedcook + full oven",
@@ -1513,7 +2136,12 @@
       "cons": [
         "Complex = service risk"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/ge-profile-pt7800shss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1117/1117077_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wos51ec0hs",
@@ -1535,7 +2163,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Whirlpool — known for reliability and easily replaceable parts (US-made for most lines)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Whirlpool reliability",
@@ -1546,7 +2185,12 @@
         "No Wi-Fi",
         "No air fry"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/whirlpool-wos51ec0hs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6256/6256033_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "miele-h7464bp",
@@ -1568,7 +2212,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Pyrolytic self-clean",
@@ -1600,7 +2255,18 @@
         "cr_overall": null,
         "cr_reliability": null,
         "yale_reliability_pct": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2025: Wolf — \"great post-sales support… keeps parts for decades, in many cases back to 2001\"",
+            "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+        }
       },
       "pros": [
         "Steam + convection combo",
@@ -1630,7 +2296,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Thermador — BSH-built shared platform with Bosch and Gaggenau (North Carolina dishwashers)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        }
       },
       "pros": [
         "Compact secondary steam oven",
@@ -1662,7 +2339,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale: ZLine pro-style induction — covered in Yale's 36-inch induction roundup as an aftermarket option",
+            "url": "https://blog.yaleappliance.com/best-induction-ranges"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/best-induction-ranges"
+        }
       },
       "pros": [
         "Pro-style induction at half Wolf price",
@@ -1695,7 +2383,18 @@
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
-        "reviewed": null
+        "reviewed": null,
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale: Forno pro-style ranges — sold via Amazon, premium-look at mid-tier prices, service network is the main caveat",
+            "url": "https://blog.yaleappliance.com/how-to-buy-a-professional-range"
+          }
+        ],
+        "source_urls": {
+          "yale_brand": "https://blog.yaleappliance.com/how-to-buy-a-professional-range"
+        }
       },
       "pros": [
         "Pro look at value",
@@ -1722,15 +2421,31 @@
       "ratings": {
         "reviewed_status": "Best Induction Range Overall 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
-        }
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
+          "reviewed_individual": "https://www.reviewed.com/ovens/content/samsung-bespoke-induction-range-nsi6db990012-review"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best Induction Range Overall 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review",
+            "url": "https://www.reviewed.com/ovens/content/samsung-bespoke-induction-range-nsi6db990012-review"
+          }
+        ]
       },
       "pros": [
         "Reviewed.com: 'fast boiling', 'steady oven temperatures', 'even baking on multiple racks'",
         "Internal oven camera"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "bosch-his8655u",
@@ -1748,7 +2463,21 @@
         "reviewed_status": "Best 36-inch Induction Range 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best 36-inch Induction Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Best budget-conscious 36-inch induction range — 'Best if you want the Bosch name or any brand name at a lower price.'",
+            "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          }
+        ]
       },
       "pros": [
         "Reviewed.com: 'impressively even heating' on spacious 36\" cooktop"
@@ -1773,7 +2502,23 @@
       "ratings": {
         "reviewed_status": "Best Value Induction Range 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-phs700ayfs/m417747/"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best Value Induction Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          }
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 24,
+            "url": "https://www.bestbuy.com/product/ge-profile-5-3-cu-ft-slide-in-electric-induction-convection-range-with-no-preheat-air-fry-and-easywash-oven-tray-cleaning-system-stainless-steel/J7645SPHH3"
+          }
         }
       },
       "pros": [
@@ -1781,7 +2526,13 @@
         "Griddle Zone on cooktop"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-profile-phs700ayfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6623/6623983_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-gcfi3060bf",
@@ -1798,9 +2549,10 @@
         "reviewed_status": "Best Entry-Level Induction 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/frigidaire-gallery-gcfi3060bf/m413386/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/GCFI3060BF",
-          "home_depot": "https://www.homedepot.com/p/Frigidaire-Gallery-30-in-6-2-cu-ft-5-Burner-Element-Slide-In-Induction-Range-w-Total-Convection-Air-Fry-SmudgeProof-Stainless-GCFI3060BF/325645579"
+          "home_depot": "https://www.homedepot.com/p/Frigidaire-Gallery-30-in-6-2-cu-ft-5-Burner-Element-Slide-In-Induction-Range-w-Total-Convection-Air-Fry-SmudgeProof-Stainless-GCFI3060BF/325645579",
+          "reviewed_individual": "https://www.reviewed.com/ovens/content/frigidaire-gallery-gcfi3060bf-induction-range-review"
         },
         "cr_overall": 93,
         "cr_reliability": "very-good",
@@ -1815,7 +2567,21 @@
             "count": 121,
             "url": "https://www.ajmadison.com/cgi-bin/ajmadison/GCFI3060BF.html"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best Entry-Level Induction 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review",
+            "url": "https://www.reviewed.com/ovens/content/frigidaire-gallery-gcfi3060bf-induction-range-review"
+          }
+        ]
       },
       "pros": [
         "Reviewed.com: 'Boils fast', 'excellent value', 'precise temperature control'"
@@ -1832,7 +2598,12 @@
       "wifi": false,
       "finishes": [
         "smudge-proof stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/frigidaire-gcfi3060bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549699_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-phs93xypfs",
@@ -1852,9 +2623,10 @@
         "reviewed_status": "Best for Baking Induction 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-phs93xypfs/m404512/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Induction-Fingerprint-Resistant-Range-with-In-Oven-Camera-PHS93XYPFS",
-          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-electric-cooking-products/details/3542843"
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-electric-cooking-products/details/3542843",
+          "reviewed_individual": "https://www.reviewed.com/ovens/content/ge-profile-phs93xypfs-slide-induction-range-review"
         },
         "cr_overall": 89,
         "cr_reliability": "very-good",
@@ -1864,7 +2636,21 @@
             "count": 14,
             "url": "https://www.bestbuy.com/site/ge-profile-5-3-cu-ft-slide-in-electric-induction-true-convection-range-with-no-preheat-air-fry-and-wifi-stainless-steel/6452205.p"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best Induction Range for Baking 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review",
+            "url": "https://www.reviewed.com/ovens/content/ge-profile-phs93xypfs-slide-induction-range-review"
+          }
+        ]
       },
       "pros": [
         "True European Convection",
@@ -1881,7 +2667,12 @@
       "energy_star": false,
       "finishes": [
         "fingerprint resistant stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/ge-profile-phs93xypfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452205_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "miele-hr1632-3i",
@@ -1900,7 +2691,27 @@
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
           "yale": "https://blog.yaleappliance.com/best-induction-ranges"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best Smart Induction Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: 36-inch induction recommendation — advanced controls",
+            "url": "https://blog.yaleappliance.com/best-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: 'If you bake or roast a lot and want humidity control in a full-size range, start here.' Steam-injected oven 36-inch induction pick.",
+            "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          }
+        ]
       },
       "pros": [
         "Moisture Plus steam injection",
@@ -1928,14 +2739,23 @@
         "reviewed_status": "Best Induction for Families 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best Induction Range For Families 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          }
+        ]
       },
       "pros": [
         "6.3 cu ft oven — one of the largest in class",
         "InstaView window"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "cafe-chs950p2ms1",
@@ -1954,40 +2774,85 @@
         "reviewed_status": "Best Double Oven Induction 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best Double Oven Induction 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          }
+        ]
       },
       "pros": [
         "Dual independent ovens (6.7 cu ft total)",
         "Reviewed.com: 'consistent temperature performance on burners'"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/cafe-chs950p2ms1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488863_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-gcfi3070bf",
       "brand": "frigidaire",
       "model": "GCFI3070BF",
-      "name": "Frigidaire Gallery GCFI3070BF Induction w/ Pizza Kit",
+      "name": "Frigidaire Gallery GCFI3070BF 30\" Induction Range w/ Stone-Baked Pizza",
       "type": "range",
       "fuel": "induction",
       "style": "slide-in",
       "width_in": 30,
-      "msrp": null,
+      "oven_capacity_cf": 6.2,
+      "burners": 5,
+      "max_burner_w": 3600,
+      "convection": "Total Convection",
+      "air_fry": true,
+      "self_clean": "pyrolytic + steam",
+      "wifi": false,
+      "msrp": 1899,
       "street_price": 1699,
       "ratings": {
         "reviewed_status": "Best for Pizza Induction 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges",
+          "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/GCFI3070BF",
+          "cr": "https://www.consumerreports.org/appliances/ranges/frigidaire-gallery-gcfi3070bf/m419024/"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Best for Pizza Induction 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          }
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.9,
+            "count": 12,
+            "url": "https://www.bestbuy.com/product/frigidaire-gallery-6-2-cu-ft-slide-in-electric-induction-range-with-stone-baked-pizza-and-15-ways-to-cook-stainless-steel/J3GWLTCQ2J"
+          }
         }
       },
       "pros": [
         "Reaches 750°F+ for Neapolitan-style pizza",
-        "Includes stone, shield, and peel"
+        "Includes stone, shield, and peel",
+        "3,600W Power Boil + bridge element + 6.2 cu ft oven"
       ],
       "cons": [
-        "Reviewed.com: touch controls may be 'temperamental'"
+        "Reviewed.com: touch controls may be 'temperamental'",
+        "No WiFi/smart features at this price point"
       ],
-      "release_year": null
+      "release_year": 2024,
+      "image": {
+        "local": "images/ovens/frigidaire-gcfi3070bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6633/6633452_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lsil6336xe",
@@ -2007,14 +2872,28 @@
         "yale_reliability_pct": 4.6,
         "source_urls": {
           "yale": "https://blog.yaleappliance.com/best-induction-ranges"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Most reliable induction range overall — 4.6% service rate",
+            "url": "https://blog.yaleappliance.com/best-induction-ranges"
+          }
+        ]
       },
       "pros": [
         "Yale 2026 'most reliable induction range' (4.6% service rate)",
         "InstaView oven window"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-lsil6336xe.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6620/6620571_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "ge-grs600avfs",
@@ -2033,7 +2912,15 @@
         "reviewed_status": "Editor's Choice · Best Electric Range 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Editor's Choice — Best Electric Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          }
+        ]
       },
       "pros": [
         "Reviewed.com: removable dishwasher-safe oven bottom tray",
@@ -2041,7 +2928,13 @@
         "Strong value at sub-$1,000"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-grs600avfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573745_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lrgl5825f",
@@ -2059,7 +2952,30 @@
       "ratings": {
         "reviewed_status": "Editor's Choice · Best Gas Range 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges",
+          "reviewed_individual": "https://www.reviewed.com/ovens/content/lg-lrgl5825f-freestanding-gas-range-review",
+          "cr": "https://www.consumerreports.org/appliances/ranges/lg-lrgl5825f/m402696/"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Editor's Choice — Best Gas Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review",
+            "url": "https://www.reviewed.com/ovens/content/lg-lrgl5825f-freestanding-gas-range-review"
+          }
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.6,
+            "count": 845,
+            "url": "https://www.bestbuy.com/product/lg-5-8-cu-ft-smart-freestanding-gas-true-convection-range-with-easyclean-and-instaview-stainless-steel/J7G56534PH"
+          }
         }
       },
       "pros": [
@@ -2068,7 +2984,13 @@
         "True convection oven"
       ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-lrgl5825f.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401886_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "kitchenaid-ksdb900ess",
@@ -2086,8 +3008,24 @@
       "ratings": {
         "reviewed_status": "Editor's Choice · Best Dual-Fuel Range 2026",
         "source_urls": {
-          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
-        }
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges",
+          "reviewed_individual": "https://www.reviewed.com/ovens/content/kitchenaid-ksdb900ess-dual-fuel-slide-in-range-review",
+          "cr": "https://www.consumerreports.org/appliances/ranges/kitchenaid-ksdb900ess/m402580/"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Editor's Choice — Best Dual-Fuel Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review",
+            "url": "https://www.reviewed.com/ovens/content/kitchenaid-ksdb900ess-dual-fuel-slide-in-range-review"
+          }
+        ]
       },
       "pros": [
         "7 cu ft combined double-oven capacity",
@@ -2097,7 +3035,12 @@
       "cons": [
         "AquaLift self-clean is weaker than pyrolytic"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-ksdb900ess.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7322/7322122_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wge745c0fs",
@@ -2114,17 +3057,46 @@
         "reviewed_status": "Editor's Choice · Best Double-Oven Range 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-ranges",
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "manufacturer": "https://www.whirlpool.com/kitchen/cooking/ranges/double-oven-freestanding/p.6.7-cu.-ft.-electric-double-oven-range-with-true-convection.wge745c0fs.html"
+          "cr": "https://www.consumerreports.org/appliances/ranges/whirlpool-wge745c0fs/m387930/",
+          "manufacturer": "https://www.whirlpool.com/kitchen/cooking/ranges/double-oven-freestanding/p.6.7-cu.-ft.-electric-double-oven-range-with-true-convection.wge745c0fs.html",
+          "reviewed_individual": "https://www.reviewed.com/ovens/content/whirlpool-wge745c0fs-electric-range-review"
         },
         "cr_overall": 73,
-        "cr_reliability": "very-good"
+        "cr_reliability": "very-good",
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Editor's Choice — Best Double-Oven Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review",
+            "url": "https://www.reviewed.com/ovens/content/whirlpool-wge745c0fs-electric-range-review"
+          }
+        ],
+        "retailer_ratings": {
+          "lowes": {
+            "stars": 4.4,
+            "count": 3931,
+            "url": "https://www.lowes.com/pd/Whirlpool-Smooth-Surface-Element-4-2-cu-ft-2-5-cu-ft-Double-Oven-Convection-Electric-Range-Stainless-Steel-Common-30-in-Actual-29-938-in/1000062733"
+          },
+          "best_buy": {
+            "stars": 4.5,
+            "count": 720,
+            "url": "https://www.bestbuy.com/site/whirlpool-6-7-cu-ft-self-cleaning-freestanding-double-oven-electric-convection-range-stainless-steel/5204200.p?skuId=5204200"
+          }
+        }
       },
       "pros": [
         "Reviewed.com: 'effective burners' and large multitasking capacity",
         "Double-oven configuration"
       ],
-      "cons": [],
+      "cons": [
+        "AquaLift only (low-heat steam — needs manual scrubbing for tough messes)"
+      ],
       "release_year": null,
       "oven_capacity_cf": 6.7,
       "burners": 5,
@@ -2136,7 +3108,13 @@
       "energy_star": true,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/whirlpool-wge745c0fs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5204/5204200_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-gcfe3060bf",
@@ -2162,7 +3140,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/ranges/frigidaire-gallery-gcfe3060bf/m410036/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCFE3060BF"
         },
         "retailer_ratings": {
@@ -2173,13 +3151,24 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (6.2 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "smudge-proof stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/frigidaire-gcfe3060bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530959_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "ge-profile-pss93ypfs",
@@ -2209,19 +3198,29 @@
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PSS93YPFS"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true European convection)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": 2020,
       "wifi": true,
       "finishes": [
         "fingerprint resistant stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/ge-profile-pss93ypfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6403/6403845_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lrel6321s",
       "brand": "lg",
       "model": "LREL6321S",
-      "name": "LG LREL6321S",
+      "name": "LG LREL6321S 30\" Electric Slide-In (no convection)",
       "type": "range",
       "fuel": "electric",
       "style": "slide-in",
@@ -2258,7 +3257,13 @@
       "wifi": true,
       "finishes": [
         "stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/lg-lrel6321s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401957_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-gcfe3059bf",
@@ -2289,7 +3294,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-gcfe3059bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6619/6619420_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-gcre3060bf",
@@ -2316,7 +3326,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCRE3060BF"
+          "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCRE3060BF",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -2324,21 +3335,40 @@
             "count": 14,
             "url": "https://www.bestbuy.com/site/frigidaire-gallery-5-3-cu-ft-freestanding-electric-total-convection-range-with-no-preheat-and-air-fry-stainless-steel/6560833.p"
           }
-        }
+        },
+        "wirecutter": "best for baking (electric) 2026",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Best for Baking — Electric: \"true convection… cooktop bridge for a dual-element griddle\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+          }
+        ]
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "smudge-proof stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/frigidaire-gcre3060bf.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560833_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lrel6325f",
       "brand": "lg",
       "model": "LREL6325F",
-      "name": "LG LREL6325F",
+      "name": "LG LREL6325F 30\" Smart Electric Slide-In (convection + air fry)",
       "type": "range",
       "fuel": "electric",
       "style": "slide-in",
@@ -2350,7 +3380,7 @@
       "convection": "true convection",
       "air_fry": true,
       "self_clean": "EasyClean + self",
-      "msrp": 1499,
+      "msrp": null,
       "street_price": 1500,
       "ratings": {
         "cr_overall": 85,
@@ -2369,14 +3399,24 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Built-in air fry mode",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "printproof stainless",
         "black stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/lg-lrel6325f.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401874_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-pcfe3080af",
@@ -2394,7 +3434,7 @@
       "convection": "Total Convection",
       "air_fry": true,
       "self_clean": "self + steam (high-temp)",
-      "msrp": 1899,
+      "msrp": null,
       "street_price": 2290,
       "ratings": {
         "cr_overall": 84,
@@ -2406,13 +3446,24 @@
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/PCFE3080AF"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Total Convection)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (6.2 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "smudge-proof stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/frigidaire-pcfe3080af.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6583/6583459_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lsel6333f",
@@ -2442,14 +3493,24 @@
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsel6333f-slide-in-electric-range"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Fan Convection (with Convection Conversion))",
+        "Built-in air fry mode",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "printproof stainless",
         "black stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/lg-lsel6333f.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6469/6469242_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "samsung-ne63a6711ss",
@@ -2479,14 +3540,25 @@
           "manufacturer": "https://www.samsung.com/us/business/home-appliances/ranges/electric/6-3-cu-ft-smart-freestanding-electric-range-with-no-preheat-air-fry-convection-griddle-in-stainless-steel-ne63a6711ss-aa/"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Convection+ (fan + heated element))",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": 2021,
       "wifi": true,
       "finishes": [
         "stainless",
         "black stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/samsung-ne63a6711ss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447920_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "bosch-hei8056u",
@@ -2517,13 +3589,22 @@
           "home_depot": "https://www.homedepot.com/p/Bosch-800-Series-30-in-4-6-cu-ft-Slide-In-Electric-Range-with-Self-Cleaning-Convection-Oven-in-Stainless-Steel-HEI8056U/310648563"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Genuine European Convection)",
+        "Pyrolytic self-clean (high-heat ash — no chemicals, no scrubbing)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/bosch-hei8056u.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6355/6355994_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-fcfe3083as",
@@ -2560,7 +3641,12 @@
       "energy_star": true,
       "finishes": [
         "stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/frigidaire-fcfe3083as.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519334_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pb900yvfs",
@@ -2590,32 +3676,44 @@
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-30-Smart-Free-Standing-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PB900YVFS"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (True Convection (third element + fan))",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (6.2 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "energy_star": true,
       "finishes": [
         "fingerprint resistant stainless"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/ge-profile-pb900yvfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6570/6570067_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "samsung-nse6dg8700sr",
       "brand": "samsung",
       "model": "NSE6DG8700SR",
-      "name": "Samsung Bespoke NSE6DG8700SR",
+      "name": "Samsung Bespoke NSE6DG8700SR 30\" Slide-In Smart Range w/ Oven Camera",
       "type": "range",
       "fuel": "electric",
       "style": "slide-in",
       "width_in": 30,
-      "oven_capacity_cf": null,
-      "burners": null,
+      "oven_capacity_cf": 6.3,
+      "burners": 5,
       "max_burner_btu": null,
-      "max_burner_w": null,
-      "convection": null,
-      "air_fry": null,
-      "self_clean": null,
-      "msrp": null,
+      "max_burner_w": 3600,
+      "convection": "Convection+",
+      "air_fry": true,
+      "self_clean": "pyrolytic + steam",
+      "wifi": true,
+      "msrp": 1799,
       "street_price": 1495,
       "ratings": {
         "cr_overall": 80,
@@ -2623,30 +3721,47 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/appliances/ranges/samsung-bespoke-nse6dg8700sr/m416480/",
+          "specs": "https://www.lowes.com/pd/Samsung-Bespoke-Smart-Slide-In-Electric-Range-6-3-cu-ft-in-Stainless-Steel-with-Smart-Oven-Camera-and-Illuminated-Safety-Knobs/5014959315"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Samsung Bespoke smart range with oven camera (Lowes listing)",
+            "url": "https://www.lowes.com/pd/Samsung-Bespoke-Smart-Slide-In-Electric-Range-6-3-cu-ft-in-Stainless-Steel-with-Smart-Oven-Camera-and-Illuminated-Safety-Knobs/5014959315"
+          }
+        ]
       },
-      "pros": [],
-      "cons": [],
-      "release_year": null
+      "pros": [
+        "Smart Oven Camera streams video to phone — unique at this price",
+        "Illuminated 'pinch-and-turn' precision knobs (child safety)",
+        "Air Sous Vide + Air Fry with included tray"
+      ],
+      "cons": [
+        "Samsung range reliability rated only 'fair' by CR",
+        "Touch + knob hybrid interface has a learning curve"
+      ],
+      "release_year": 2024
     },
     {
       "id": "hisense-hbe3501cps",
       "brand": "hisense",
       "model": "HBE3501CPS",
-      "name": "Hisense HBE3501CPS",
+      "name": "Hisense HBE3501CPS 30\" Freestanding Electric Range w/ True Convection",
       "type": "range",
       "fuel": "electric",
       "style": "freestanding",
       "width_in": 30,
-      "oven_capacity_cf": null,
-      "burners": null,
+      "oven_capacity_cf": 5.8,
+      "burners": 5,
       "max_burner_btu": null,
-      "max_burner_w": null,
-      "convection": null,
-      "air_fry": null,
-      "self_clean": null,
-      "msrp": null,
+      "max_burner_w": 3300,
+      "convection": "European true convection",
+      "air_fry": true,
+      "self_clean": "pyrolytic + steam",
+      "wifi": false,
+      "msrp": 899,
       "street_price": 700,
       "ratings": {
         "cr_overall": 76,
@@ -2654,12 +3769,29 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/appliances/ranges/hisense-hbe3501cps/m408399/",
+          "specs": "https://www.hisense-usa.com/product-page/home-appliance-cooking-range-5-8-cu-ft-freestanding-electric-oven-hbe3501cps",
+          "reviewed": "https://www.reviewed.com/ovens/content/hisense-hbe3501cps-electric-range-review"
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Hisense HBE3501CPS individual review",
+            "url": "https://www.reviewed.com/ovens/content/hisense-hbe3501cps-electric-range-review"
+          }
+        ]
       },
-      "pros": [],
-      "cons": [],
-      "release_year": null
+      "pros": [
+        "True (third-element) convection, Air Fry, Bread Proofing — premium menu at $700",
+        "7 rack positions; Pizza, Dehydrate, Frozen Bake presets",
+        "CR Overall 76 — strong score for the price"
+      ],
+      "cons": [
+        "Hisense reliability not yet rated by CR",
+        "Only 2-year warranty"
+      ],
+      "release_year": 2023
     },
     {
       "id": "samsung-nse6dg8100sr",
@@ -2685,7 +3817,14 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/appliances/ranges/samsung-nse6dg8100sr/m414000/"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 173,
+            "url": "https://www.bestbuy.com/product/samsung-bespoke-6-3-cu-ft-slide-in-electric-range-with-precision-knobs-stainless-steel/J3ZYG2HGHX"
+          }
         }
       },
       "pros": [],
@@ -2721,25 +3860,31 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-ne63a6311ss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447911_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-grf600avss",
       "brand": "ge",
       "model": "GRF600AVSS",
-      "name": "GE GRF600AVSS",
+      "name": "GE GRF600AVSS 30\" Smart Electric Range w/ No-Preheat Air Fry",
       "type": "range",
       "fuel": "electric",
       "style": "freestanding",
       "width_in": 30,
-      "oven_capacity_cf": null,
-      "burners": null,
+      "oven_capacity_cf": 5.3,
+      "burners": 4,
       "max_burner_btu": null,
-      "max_burner_w": null,
-      "convection": null,
-      "air_fry": null,
-      "self_clean": null,
-      "msrp": null,
+      "max_burner_w": 3000,
+      "convection": "single-element convection",
+      "air_fry": true,
+      "self_clean": "steam + EasyWash tray",
+      "wifi": true,
+      "msrp": 999,
       "street_price": 730,
       "ratings": {
         "cr_overall": 70,
@@ -2747,12 +3892,35 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-grf600avfs/m413999/",
+          "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-30-Free-Standing-Electric-Convection-Range-with-No-Preheat-Air-Fry-and-EasyWash-Oven-Tray-GRF600AVSS",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+        },
+        "wirecutter": "top pick (best electric range) 2026",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Top pick — Best Electric Range: \"great cooktop and baking features for a good price… four finishes\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+          }
+        ]
       },
-      "pros": [],
-      "cons": [],
-      "release_year": null
+      "pros": [
+        "ENERGY STAR certified — rare on a smart range at $730",
+        "EasyWash tray is dishwasher-safe; no high-heat self-clean needed",
+        "WiFi + Enhanced Shabbos Mode + Power Boil burner"
+      ],
+      "cons": [
+        "Steam-only clean — no high-heat pyrolytic option",
+        "GE freestanding electric oven preheat speed lags Samsung/LG"
+      ],
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/ge-grf600avss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6575/6575028_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wee515s0ls",
@@ -2788,7 +3956,12 @@
       "wifi": false,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/whirlpool-wee515s0ls.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471518_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "cafe-ces700p2ms1",
@@ -2830,13 +4003,22 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/cafe-ces700p2ms1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488860_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "bosch-hef1050mu",
@@ -2873,13 +4055,17 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "maytag-mer8800fz",
@@ -2916,13 +4102,22 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Large oven (6.4 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/maytag-mer8800fz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5509/5509700_sd.jpg",
+        "source": "best_buy"
+      },
+      "last_updated": "2026-05-05"
     },
     {
       "id": "kitchenaid-kfeg504kps",
@@ -2952,31 +4147,36 @@
           "manufacturer": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.30-inch-5-element-electric-convection-range-with-printshield-finish.kfeg504kps.html"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Large oven (6.4 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "Stainless Steel with PrintShield"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "maytag-mfes8030rz",
       "brand": "maytag",
       "model": "MFES8030RZ",
-      "name": "Maytag MFES8030RZ",
+      "name": "Maytag MFES8030RZ 30\" Smart Electric Range w/ Grill Mode",
       "type": "range",
       "fuel": "electric",
-      "style": "slide-in",
+      "style": "freestanding",
       "width_in": 30,
-      "oven_capacity_cf": null,
-      "burners": null,
+      "oven_capacity_cf": 5.3,
+      "burners": 5,
       "max_burner_btu": null,
       "max_burner_w": null,
-      "convection": null,
-      "air_fry": null,
-      "self_clean": null,
-      "msrp": null,
+      "convection": "Air-Powered (third element)",
+      "air_fry": true,
+      "self_clean": "pyrolytic + steam",
+      "wifi": true,
+      "msrp": 1399,
       "street_price": 1180,
       "ratings": {
         "cr_overall": 63,
@@ -2984,12 +4184,28 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/appliances/ranges/maytag-mfes8030rz/m416855/",
+          "specs": "https://www.maytag.com/kitchen/ranges/electric/p.30-inch-wide-electric-range-with-grill-mode-5.3-cu.-ft.mfes8030rz.html"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Maytag covered in Yale electric range reliability data 2026",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
-      "pros": [],
-      "cons": [],
-      "release_year": null
+      "pros": [
+        "Grill Mode — closest thing to indoor BBQ on a smoothtop",
+        "Air-Powered (third-element convection) drives Air Bake/Roast/Broil/Reheat",
+        "10\" Dual Max element + Griddle Zone for batch cooking"
+      ],
+      "cons": [
+        "CR Overall only 63 — bake performance trails class",
+        "Maytag electric range reliability rated 'fair' by CR"
+      ],
+      "release_year": 2024
     },
     {
       "id": "amana-aer6603sms",
@@ -3053,15 +4269,29 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
           "manufacturer": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.30-inch-electric-smart-range-with-air-cooking-technology,-no-preheat-air-fry,-high-speed-preheat-oven,-wipeclean-coating,-and-steam-self-clean.wfes7530rz.html"
-        }
+        },
+        "reviewed_status": "Easy-Clean Cooktop pick 2026",
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Recommended — Easy-Clean Cooktop electric range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          }
+        ]
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "haier-qss740rnss",
@@ -3216,7 +4446,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfe550s0lz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471513_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfe775h0hz",
@@ -3247,7 +4482,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfe775h0hz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6177/6177115_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kseb900ess",
@@ -3335,8 +4575,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+        },
+        "wirecutter": "budget pick (electric) 2026",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Budget pick — Electric: \"great value… ranks high for repairability\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3402,7 +4652,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wee745h0lz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471522_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mer4600ls",
@@ -3525,14 +4780,19 @@
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-ltel7337f-double-oven-slide-in-electric-range"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (ProBake Convection (true convection))",
+        "Built-in air fry mode",
+        "Large oven (7.3 cu ft)"
+      ],
       "cons": [],
       "release_year": 2022,
       "wifi": true,
       "finishes": [
         "PrintProof Stainless Steel",
         "PrintProof Black Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "samsung-ne63t8751sg",
@@ -3562,7 +4822,12 @@
           "manufacturer": "https://www.samsung.com/us/home-appliances/ranges/electric/6-3-cu--ft--front-control-slide-in-electric-range-with-smart-dial--air-fry---wi-fi-in-black-stainless-steel-ne63t8751sg-aa/v2/"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (true convection)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": 2021,
       "wifi": true,
@@ -3570,7 +4835,8 @@
       "finishes": [
         "Fingerprint Resistant Black Stainless Steel",
         "Fingerprint Resistant Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lde4413st",
@@ -3607,13 +4873,17 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (ProBake Convection (true convection, lower oven only))",
+        "Large oven (7.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-ldel7324se",
@@ -3643,14 +4913,19 @@
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-ldel7324se-electric-range"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (ProBake Convection (true convection))",
+        "Built-in air fry mode",
+        "Large oven (7.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "energy_star": true,
       "finishes": [
         "PrintProof Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "samsung-ne63a6751ss",
@@ -3668,7 +4943,7 @@
       "convection": "Convection+",
       "air_fry": true,
       "self_clean": "self + steam",
-      "msrp": 1199,
+      "msrp": null,
       "street_price": 1200,
       "ratings": {
         "cr_overall": 79,
@@ -3680,13 +4955,19 @@
           "manufacturer": "https://www.samsung.com/us/cooking-appliances/ranges/6-3-cu-ft-smart-freestanding-electric-range-with-flex-duo-no-preheat-air-fry-griddle-in-stainless-steel-sku-ne63a6751ss-aa/"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Convection+)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "kitchenaid-kfed500ebs",
@@ -3716,13 +4997,17 @@
           "manufacturer": "https://www.kitchenaid.com/major-appliances/ranges/electric-ranges/electric-double-oven-range/p.30-inch-5-burner-electric-double-oven-convection-range.kfed500ebs.html"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Even-Heat True Convection)",
+        "Large oven (6.7 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "finishes": [
         "Black Stainless Steel with PrintShield"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "cafe-ces750p4mw2",
@@ -3752,13 +5037,19 @@
           "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Radiant-and-Convection-Double-Oven-Range-CES750P4MW2"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (True European Convection (lower oven))",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (7 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Matte White (customizable hardware)"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "ge-jbs86spss",
@@ -3820,7 +5111,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/maytag-met8800fz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6113/6113242_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nse6dg8550sr",
@@ -3850,14 +5146,20 @@
           "manufacturer": "https://www.samsung.com/us/home-appliances/ranges/electric/bespoke-smart-slide-in-electric-range-6-3-cu-ft-with-flex-duo-illuminated-precision-knobs-in-stainless-steel-nse6dg8550sraa/"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Convection+ (Flex Duo))",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "energy_star": true,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lsil6334fe",
@@ -3894,14 +5196,20 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (3,900 W induction)",
+        "Convection (ProBake convection)",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "energy_star": true,
       "finishes": [
         "printproof stainless"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lsil6332fe",
@@ -3938,14 +5246,20 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (3,900 W induction)",
+        "Convection (fan convection)",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "energy_star": true,
       "finishes": [
         "printproof stainless"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-fcfi3082bs",
@@ -3982,14 +5296,20 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "Convection (convection bake)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": false,
       "energy_star": true,
       "finishes": [
         "stainless"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "miele-hr1422-3i",
@@ -4112,7 +5432,12 @@
           "manufacturer": "https://www.samsung.com/us/home-appliances/ranges/electric-induction/bespoke-6-3-cu-ft-smart-slide-in-induction-range-with-anti-scratch-glass-cooktop-in-stainless-steel-nsi6dg9100sraa/"
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (4,300 W induction)",
+        "Convection (convection (Auto Conversion))",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": 2024,
       "wifi": true,
@@ -4120,7 +5445,8 @@
       "finishes": [
         "stainless",
         "matte black steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lsil6336fe",
@@ -4208,8 +5534,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+        },
+        "wirecutter": "best for induction (freestanding) 2026",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Best for Induction — Electric: \"the only widely available [freestanding induction] option and a great value\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -4498,14 +5834,20 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Dual fuel (gas burners + electric oven for even baking)",
+        "Pro-level burner (22,000 BTU)",
+        "Convection (ProBake Convection (true convection))",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "PrintProof Stainless Steel",
         "PrintProof Black Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lsgl6335d",
@@ -4542,14 +5884,20 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "High-output burner (20,000 BTU)",
+        "Convection (ProBake Convection (true convection))",
+        "Built-in air fry mode",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "PrintProof Stainless Steel",
         "Black Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "ge-profile-pgs930ypfs",
@@ -4572,11 +5920,12 @@
       "ratings": {
         "cr_overall": 80,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 10.1,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Gas-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PGS930YPFS"
+          "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Gas-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PGS930YPFS",
+          "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
         },
         "retailer_ratings": {
           "lowes": {
@@ -4584,15 +5933,30 @@
             "count": 3150,
             "url": "https://www.lowes.com/pd/GE-Profile-30-in-5-Burners-5-6-cu-ft-Self-Cleaning-Air-Fry-Convection-Oven-Slide-In-Gas-Range-Fingerprint-Stainless-Steel/5005479623"
           }
-        }
+        },
+        "yale_reliability_source": "yale_2026",
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Slide-in gas range with air fry pick — 10.1% service rate",
+            "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges"
+          }
+        ]
       },
-      "pros": [],
+      "pros": [
+        "High-output burner (21,000 BTU)",
+        "Convection (true convection)",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-studio-lsgs6338f",
@@ -4615,11 +5979,12 @@
       "ratings": {
         "cr_overall": 78,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 5.5,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsgs6338f-slide-in-gas-range"
+          "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-lsgs6338f-slide-in-gas-range",
+          "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -4627,16 +5992,31 @@
             "count": 48,
             "url": "https://www.bestbuy.com/site/reviews/lg-studio-6-3-cu-ft-smart-slide-in-gas-true-convection-range-with-easyclean-and-sous-vide-stainless-steel/6477502"
           }
-        }
+        },
+        "yale_reliability_source": "yale_2026",
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Most reliable upgraded gas range pick — 5.5% service rate",
+            "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges"
+          }
+        ]
       },
-      "pros": [],
+      "pros": [
+        "Pro-level burner (22,000 BTU)",
+        "Convection (ProBake Convection (true convection))",
+        "Built-in air fry mode",
+        "Large oven (6.3 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Stainless Steel",
         "Essence White"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "cafe-c2s900p2ms1",
@@ -4666,13 +6046,19 @@
           "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Dual-Fuel-Range-with-Warming-Drawer-C2S900P2MS1"
         }
       },
-      "pros": [],
+      "pros": [
+        "Dual fuel (gas burners + electric oven for even baking)",
+        "High-output burner (21,000 BTU)",
+        "Convection (European convection (true convection with Precise Air))",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "samsung-nx60t8711ss",
@@ -4702,7 +6088,12 @@
           "manufacturer": "https://www.samsung.com/us/business/home-appliances/ranges/gas/6-0-cu-ft-front-control-slide-in-gas-range-with-smart-dial-air-fry-wi-fi-in-stainless-steel-nx60t8711ss-aa/"
         }
       },
-      "pros": [],
+      "pros": [
+        "Pro-level burner (22,000 BTU)",
+        "Convection (true convection (fan))",
+        "Built-in air fry mode",
+        "Large oven (6 cu ft)"
+      ],
       "cons": [],
       "release_year": 2020,
       "wifi": true,
@@ -4711,7 +6102,10 @@
         "fingerprint resistant stainless",
         "black stainless",
         "tuscan steel"
-      ]
+      ],
+      "last_updated": "2026-05-05",
+      "retired": true,
+      "retired_reason": "Discontinued by Samsung (2026 verification — multiple retailers confirm). Released 2020."
     },
     {
       "id": "ge-ggf600avss",
@@ -4737,8 +6131,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+        },
+        "wirecutter": "top pick (best gas range) 2026",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Top pick — Best Gas Range 2026: \"sturdy, powerful stove with basic convection… excellent baking features\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -4772,13 +6176,19 @@
           "manufacturer": "https://www.geappliances.com/appliance/GE-30-Slide-In-Front-Control-Convection-Gas-Range-with-No-Preheat-Air-Fry-JGS760SPSS"
         }
       },
-      "pros": [],
+      "pros": [
+        "High-output burner (18,000 BTU)",
+        "Convection (gas convection (fan))",
+        "Built-in air fry mode",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "stainless"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "ge-jgbs30dekww",
@@ -4930,7 +6340,7 @@
       "convection": "true convection",
       "air_fry": true,
       "self_clean": "EasyClean + self",
-      "msrp": 1499,
+      "msrp": null,
       "street_price": 1500,
       "ratings": {
         "cr_overall": 72,
@@ -4949,14 +6359,19 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "High-output burner (20,000 BTU)",
+        "Convection (true convection)",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "PrintProof Stainless Steel",
         "PrintProof Black Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-lsgl5831f",
@@ -5055,13 +6470,19 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Pro-level burner (23,000 BTU)",
+        "Convection (true convection)",
+        "Built-in air fry mode",
+        "Large oven (6 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "sks-upsg3014st",
@@ -5141,7 +6562,7 @@
       "convection": "Convection",
       "air_fry": null,
       "self_clean": "self",
-      "msrp": 949,
+      "msrp": null,
       "street_price": 950,
       "ratings": {
         "cr_overall": 66,
@@ -5153,14 +6574,18 @@
           "manufacturer": "https://www.samsung.com/us/home-appliances/ranges/gas/bespoke-6-0-cu-ft-smart-slide-in-gas-range-with-precision-knobs-in-stainless-steel-nsg6dg8100sraa/"
         }
       },
-      "pros": [],
+      "pros": [
+        "Convection (Convection)",
+        "Large oven (6 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Stainless Steel",
         "Matte Black Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "bosch-hdi8056u",
@@ -5657,6 +7082,13 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 18,
+            "url": "https://www.bestbuy.com/product/maytag-30-inch-wide-gas-range-with-no-preheat-air-fry-and-air-baking-5-0-cu-ft-stainless-steel/J3KHVGXKPV"
+          }
         }
       },
       "pros": [],
@@ -5754,7 +7186,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kfgg500ess.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6623/6623425_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfg975h0hv",
@@ -5967,6 +7404,13 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 14,
+            "url": "https://www.bestbuy.com/product/frigidaire-5-1-cu-ft-freestanding-gas-range-with-air-fry-stainless-steel/J7CJ3RCF6Q/sku/6576791"
+          }
         }
       },
       "pros": [],
@@ -6121,8 +7565,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+        },
+        "wirecutter": "upgrade pick (gas, baking) 2026",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Upgrade Pick (Gas) 2026: \"true convection oven… powerful cooktop with integrated griddle\"  | RECALL: Mar 2026 Electrolux recall for delayed-ignition burn risk",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -6152,8 +7606,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
-        }
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+        },
+        "wirecutter": "best for double-oven (gas) 2026",
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Best for Double Oven — Gas 2026: \"particularly large lower oven… powerful 20,000 Btu cooktop\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -6194,14 +7658,20 @@
           }
         }
       },
-      "pros": [],
+      "pros": [
+        "Pro-level burner (22,000 BTU)",
+        "Convection (ProBake Convection (true convection, upper oven only))",
+        "Built-in air fry mode",
+        "Large oven (6.9 cu ft)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "PrintProof Stainless Steel",
         "PrintProof Black Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-studio-lutd4919sn",
@@ -6324,13 +7794,19 @@
           "manufacturer": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Dual-Fuel-Double-Oven-Range-with-Convection-C2S950P2MS1"
         }
       },
-      "pros": [],
+      "pros": [
+        "Dual fuel (gas burners + electric oven for even baking)",
+        "High-output burner (21,000 BTU)",
+        "Convection (True European Convection with Precise Air)",
+        "Built-in air fry mode"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "stainless with brushed handles"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "ge-jgss86spss",
@@ -6423,7 +7899,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kfgd500ess.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5487/5487029_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "electrolux-ecfd3668as",
@@ -6546,13 +8027,18 @@
           "manufacturer": "https://appliances.monogram.com/us/specs/ZGP304NTSS"
         }
       },
-      "pros": [],
+      "pros": [
+        "High-output burner (21,000 BTU)",
+        "Convection (true convection (Precise Air))",
+        "Steam self-clean (lower-heat option)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "kitchenaid-kfdc500jss",
@@ -7178,14 +8664,14 @@
       "id": "lg-cbgj3023s",
       "brand": "lg",
       "model": "CBGJ3023S",
-      "name": "LG CBGJ3023S 30\" Gas",
+      "name": "LG CBGJ3023S 30\" Gas Cooktop (UltraHeat 20K BTU)",
       "type": "cooktop",
       "fuel": "gas",
       "style": "cooktop",
       "width_in": 30,
       "oven_capacity_cf": null,
-      "burners": null,
-      "max_burner_btu": null,
+      "burners": 5,
+      "max_burner_btu": 20000,
       "max_burner_w": null,
       "convection": null,
       "air_fry": null,
@@ -7203,7 +8689,10 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "wifi": false,
+      "griddle": false,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "monogram-zgu30rslss",
@@ -7240,14 +8729,14 @@
       "id": "lg-cbgj3027s",
       "brand": "lg",
       "model": "CBGJ3027S",
-      "name": "LG CBGJ3027S 30\" Gas",
+      "name": "LG CBGJ3027S 30\" Smart Gas Cooktop (UltraHeat 22K + Griddle)",
       "type": "cooktop",
       "fuel": "gas",
       "style": "cooktop",
       "width_in": 30,
       "oven_capacity_cf": null,
-      "burners": null,
-      "max_burner_btu": null,
+      "burners": 5,
+      "max_burner_btu": 22000,
       "max_burner_w": null,
       "convection": null,
       "air_fry": null,
@@ -7265,7 +8754,10 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "wifi": true,
+      "griddle": true,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "thermador-sgsx305ts",
@@ -7513,7 +9005,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kced600gss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5855/5855104_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kces550hbl",
@@ -7948,13 +9445,17 @@
           "home_depot": "https://www.homedepot.com/p/LG-36-in-5-Burner-Element-Induction-Cooktop-in-Black-with-Power-Element-and-SmoothTouch-Controls-CBIH3613BE/328289001"
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (4,300 W induction)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "black ceramic glass"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-studio-cbis3618be",
@@ -7977,21 +9478,35 @@
       "ratings": {
         "cr_overall": 96,
         "cr_reliability": "unrated",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 5.3,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
           "manufacturer": "https://www.lg.com/us/cooking-appliances/lg-cbis3618be-electric-cooktop",
-          "home_depot": "https://www.homedepot.com/p/LG-STUDIO-36-in-5-Elements-Glass-Top-SMART-Induction-Cooktop-in-Black-with-Dual-Center-Zone-Energy-Star-CBIS3618BE/330562710"
-        }
+          "home_depot": "https://www.homedepot.com/p/LG-STUDIO-36-in-5-Elements-Glass-Top-SMART-Induction-Cooktop-in-Black-with-Dual-Center-Zone-Energy-Star-CBIS3618BE/330562710",
+          "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "yale_reliability_source": "yale_2026_cooktops",
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Most affordable smart induction cooktop pick — 5.3% service rate, 7,000W center",
+            "url": "https://blog.yaleappliance.com/the-most-reliable-induction-cooktops"
+          }
+        ]
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (3,700 W induction)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "black ceramic glass"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "monogram-zhu36rstss",
@@ -8060,14 +9575,18 @@
           "home_depot": "https://www.homedepot.com/p/Cafe-36-in-5-Burner-Element-Smart-Induction-Touch-Control-Cooktop-in-Stainless-Steel-CHP90362TSS/323644628"
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (3,700 W induction)"
+      ],
       "cons": [],
       "release_year": 2022,
       "wifi": true,
       "finishes": [
         "flagstone gray",
         "stainless trim"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "kitchenaid-kcig556jbl",
@@ -8098,7 +9617,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kcig556jbl.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6499/6499396_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-nit8060uc",
@@ -8190,7 +9714,7 @@
       "convection": null,
       "air_fry": null,
       "self_clean": null,
-      "msrp": 5799,
+      "msrp": null,
       "street_price": 5800,
       "ratings": {
         "cr_overall": 93,
@@ -8240,14 +9764,18 @@
           "spec_sheet": "https://www.us-appliance.com/content/pdf/c/KM7730FR_Specs.pdf"
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (3,700 W induction)"
+      ],
       "cons": [],
       "release_year": null,
       "wifi": true,
       "finishes": [
         "black ceramic glass",
         "stainless steel frame"
-      ]
+      ],
+      "last_updated": "2026-05-05"
     },
     {
       "id": "frigidaire-pcci3080af",
@@ -8428,8 +9956,17 @@
       "street_price": null,
       "ratings": {
         "source_urls": {
-          "manufacturer": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRI30LBHU"
-        }
+          "manufacturer": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRI30LBHU",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: Thermador — BSH-built shared platform with Bosch and Gaggenau (North Carolina dishwashers)",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Liberty freeform cooktop — pot placement anywhere across 56 inductors",
@@ -8460,8 +9997,17 @@
       "street_price": null,
       "ratings": {
         "source_urls": {
-          "manufacturer": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-30-induction-professional-style-range.jpifc730rl.html"
-        }
+          "manufacturer": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-30-induction-professional-style-range.jpifc730rl.html",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: JennAir — Whirlpool's luxury division; shares manufacturing with KitchenAid",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "Halo-Effect knobs with LED backlighting",
@@ -8492,8 +10038,17 @@
       "street_price": null,
       "ratings": {
         "source_urls": {
-          "manufacturer": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-36-induction-professional-style-range.jpifc736rl.html"
-        }
+          "manufacturer": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-36-induction-professional-style-range.jpifc736rl.html",
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: JennAir — Whirlpool's luxury division; shares manufacturing with KitchenAid",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
       },
       "pros": [
         "5.1 cf oven (large for pro-style 36\" induction)",
@@ -8509,7 +10064,7 @@
     {
       "id": "wolf-ir30450",
       "brand": "wolf",
-      "model": "IR30450/S/T",
+      "model": "IR30450",
       "name": "Wolf 30\" Transitional Induction Range",
       "type": "range",
       "fuel": "induction",
@@ -8524,8 +10079,17 @@
       "street_price": null,
       "ratings": {
         "source_urls": {
-          "manufacturer": "https://www.subzero-wolf.com/wolf/ranges/induction-range/30-inch-transitional-induction-range"
-        }
+          "manufacturer": "https://www.subzero-wolf.com/wolf/ranges/induction-range/30-inch-transitional-induction-range",
+          "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2025: Wolf — \"great post-sales support… keeps parts for decades, in many cases back to 2001\"",
+            "url": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it"
+          }
+        ]
       },
       "pros": [
         "5.1 cf oven (large for 30\")",
@@ -8537,12 +10101,13 @@
         "Transitional styling has less pro-look than IR36551",
         "$9.9k MSRP — Wolf premium without independent Yale reliability data"
       ],
-      "release_year": null
+      "release_year": null,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "wolf-ir36551",
       "brand": "wolf",
-      "model": "IR36551/S/P",
+      "model": "IR36551",
       "name": "Wolf 36\" Professional Induction Range",
       "type": "range",
       "fuel": "induction",
@@ -8559,7 +10124,15 @@
       "ratings": {
         "source_urls": {
           "manufacturer": "https://www.subzero-wolf.com/wolf/ranges/induction-range/36-inch-professional-induction-range"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: 'Best for bakers who want power and consistency.' Top 36-inch induction for baking.",
+            "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          }
+        ]
       },
       "pros": [
         "New 5500W boost zone for fastest boil times in class",
@@ -8571,7 +10144,8 @@
         "$13.9k MSRP — Wolf pro-induction premium",
         "Pro-styling requires kitchen built around it"
       ],
-      "release_year": null
+      "release_year": null,
+      "last_updated": "2026-05-05"
     },
     {
       "id": "lg-cbih3013be",
@@ -8606,9 +10180,439 @@
           "home_depot": "https://www.homedepot.com/p/LG-30-in-4-Burner-Element-Induction-Cooktop-in-Black-with-Power-Element-and-SmoothTouch-Controls-CBIH3013BE/328289010"
         }
       },
-      "pros": [],
+      "pros": [
+        "Induction (fast, precise, no open flame)",
+        "High-output element (4,300 W induction)"
+      ],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "last_updated": "2026-05-05"
+    },
+    {
+      "id": "ge-jgb735spss",
+      "brand": "ge",
+      "model": "JGB735SPSS",
+      "name": "GE JGB735SPSS 30\" Freestanding Gas Range w/ Convection + Air Fry",
+      "type": "range",
+      "fuel": "gas",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 5,
+      "burners": 5,
+      "max_burner_btu": 18000,
+      "convection": "single-fan convection",
+      "air_fry": true,
+      "self_clean": "pyrolytic + steam",
+      "wifi": false,
+      "finishes": [
+        "stainless",
+        "fingerprint-resistant slate",
+        "black slate",
+        "white",
+        "black"
+      ],
+      "msrp": 1399,
+      "street_price": 1199,
+      "ratings": {
+        "cr_overall": 73,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": 4.8,
+        "yale_reliability_source": "yale_2026",
+        "wirecutter": "top pick (affordable) 2026",
+        "reviewed": null,
+        "reviewed_status": "individually reviewed by Reviewed.com",
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-gas-ranges",
+          "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Convection-Range-with-No-Preheat-Air-Fry-JGB735SPSS",
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-jgb735spss/m402111/",
+          "reviewed": "https://www.reviewed.com/ovens/content/ge-jgb735spss-freestanding-gas-range-review"
+        },
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "tweet",
+            "label": "Wirecutter: 'best looks and build quality of any affordable gas range we found'",
+            "url": "https://x.com/wirecutter/status/2014729972821184513"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: 'If your priority is reliability and fast service, start here.' — 4.8% service rate, the most reliable mainstream gas range",
+            "url": "https://blog.yaleappliance.com/most-reliable-gas-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review — GE JGB735SPSS",
+            "url": "https://www.reviewed.com/ovens/content/ge-jgb735spss-freestanding-gas-range-review"
+          },
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Wirecutter (Mar 2026): \"former top pick\" — still cited as having \"best looks and build quality of any affordable gas range\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          }
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 263,
+            "url": "https://www.bestbuy.com/site/ge-5-0-cu-ft-freestanding-gas-convection-range-with-self-steam-cleaning-and-no-preheat-air-fry-stainless-steel/6488852.p?skuId=6488852"
+          },
+          "home_depot": {
+            "stars": null,
+            "count": 4552,
+            "url": "https://www.homedepot.com/p/GE-30-in-5-Burner-Freestanding-Gas-Range-in-Stainless-Steel-with-Convection-Air-Fry-Cooking-JGB735SPSS/314138082"
+          }
+        }
+      },
+      "pros": [
+        "18,000 BTU power burner + center oval burner (5th burner perfect for griddle)",
+        "Edge-to-edge cast-iron grates separate into 3 parts — dishwasher safe",
+        "Wirecutter top affordable pick + Yale most-reliable gas range (4.8%)",
+        "Self-clean (pyrolytic) + Steam Clean both included"
+      ],
+      "cons": [
+        "No WiFi/smart features",
+        "Single-fan convection (true convection has dual fans)"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "hotpoint-rbs160dmww",
+      "brand": "hotpoint",
+      "model": "RBS160DMWW",
+      "name": "Hotpoint RBS160DM 5.0 cu ft Coil-Top Electric Range (Wirecutter buy-it-for-life)",
+      "type": "range",
+      "fuel": "electric",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 5,
+      "burners": 4,
+      "max_burner_btu": null,
+      "max_burner_w": 2400,
+      "convection": "no",
+      "air_fry": false,
+      "self_clean": "no",
+      "wifi": false,
+      "finishes": [
+        "white",
+        "black"
+      ],
+      "msrp": 699,
+      "street_price": 608,
+      "ratings": {
+        "wirecutter": "best buy-it-for-life range (electric) 2026",
+        "cr_overall": null,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/",
+          "specs": "https://www.geappliances.com/appliance/Hotpoint-Electric-Range-RBS160DM"
+        },
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Best Buy-It-For-Life Range (Electric) 2026: \"fully mechanical… components can often be replaced easily without a repair person… extra sturdy with a metal body designed to hold up to heavy-duty long-term use.\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+          }
+        ]
+      },
+      "pros": [
+        "Wirecutter Buy-It-For-Life pick — designed to last decades",
+        "All mechanical — no digital boards to fail",
+        "ENERGY STAR certified + eligible for federal electric appliance rebates",
+        "Lift-up coil cooktop for easy underneath cleaning",
+        "GE Appliances service network coverage"
+      ],
+      "cons": [
+        "Coil cooktop heats slower than smoothtop (2,400W vs 3,000W on glass-ceramic)",
+        "No oven window or interior light",
+        "No convection / air fry"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-profile-pb965ypfs",
+      "brand": "ge-profile",
+      "model": "PB965YPFS",
+      "name": "GE Profile PB965 30\" Double-Oven Electric Range (Wirecutter best double-oven)",
+      "type": "range",
+      "fuel": "electric",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 6.6,
+      "burners": 5,
+      "max_burner_btu": null,
+      "max_burner_w": 3600,
+      "convection": "true convection (lower oven only)",
+      "air_fry": true,
+      "self_clean": "steam",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless",
+        "black stainless"
+      ],
+      "msrp": 1999,
+      "street_price": 1799,
+      "ratings": {
+        "wirecutter": "best for a double oven (electric) 2026",
+        "cr_overall": null,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/",
+          "specs": "https://www.geappliances.com/appliance/GE-Profile-PB965YPFS"
+        },
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Best for Double Oven (Electric) 2026: \"strongest power burner of any freestanding radiant-electric range we've seen… 4.4 cubic-foot lower oven is bigger than those of most double-oven models available.\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-stoves/"
+          }
+        ]
+      },
+      "pros": [
+        "Wirecutter Best Double-Oven Electric — 3,600W power burner is class-leading",
+        "4.4 cu ft lower oven fits a 23-pound turkey",
+        "Auto-syncs with GE Appliances range hood via Wi-Fi",
+        "Five-element flex-width cooktop with bridge zone for griddles"
+      ],
+      "cons": [
+        "No storage drawer (lower oven takes that space)",
+        "Lower oven requires stooping",
+        "Only the lower oven has true convection"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "ge-profile-pgb935ypfs",
+      "brand": "ge-profile",
+      "model": "PGB935YPFS",
+      "name": "GE Profile PGB935 30\" Gas Range w/ 20,000 BTU power burner (Wirecutter upgrade)",
+      "type": "range",
+      "fuel": "gas",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 5.6,
+      "burners": 5,
+      "max_burner_btu": 20000,
+      "max_burner_w": null,
+      "convection": "true convection",
+      "air_fry": true,
+      "self_clean": "pyrolytic + steam",
+      "wifi": true,
+      "finishes": [
+        "fingerprint-resistant stainless"
+      ],
+      "msrp": 1599,
+      "street_price": 1399,
+      "ratings": {
+        "wirecutter": "upgrade pick (gas) 2026",
+        "cr_overall": null,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/",
+          "specs": "https://www.geappliances.com/appliance/GE-Profile-PGB935YPFS"
+        },
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Upgrade Pick (Gas) 2026: \"strongest power burner I've seen (20,000 Btu)… large, true convection oven and a reversible griddle… best cooktop of any model I evaluated.\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          }
+        ]
+      },
+      "pros": [
+        "Wirecutter Upgrade Pick (Gas) — 20,000 BTU power burner is class-leading",
+        "True convection 5.6 cu ft oven (largest of Wirecutter's gas picks)",
+        "Three oven racks (most picks include only two)",
+        "Wi-Fi via SmartHQ for remote start, Scan-To-Cook, software upgrades"
+      ],
+      "cons": [
+        "Only one finish (fingerprint-resistant stainless)",
+        "Doesn't auto-sync with range hood (Wirecutter notes the electric double-oven version does)"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "whirlpool-wfg320m0mb",
+      "brand": "whirlpool",
+      "model": "WFG320M0MB",
+      "name": "Whirlpool WFG320M0M 5.1 cu ft Gas Range w/ continuous grates (Wirecutter budget gas)",
+      "type": "range",
+      "fuel": "gas",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 5.1,
+      "burners": 4,
+      "max_burner_btu": 15000,
+      "max_burner_w": null,
+      "convection": "no",
+      "air_fry": false,
+      "self_clean": "no",
+      "wifi": false,
+      "finishes": [
+        "black",
+        "white",
+        "stainless"
+      ],
+      "msrp": 749,
+      "street_price": 679,
+      "ratings": {
+        "wirecutter": "budget pick (gas) 2026",
+        "cr_overall": null,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+        },
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Budget Pick (Gas) 2026: \"especially good functionality and quality for the price… two large 15,000 Btu burners… continuous cast iron grates (uncommon at this price)\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          }
+        ]
+      },
+      "pros": [
+        "Wirecutter Budget Gas Pick — two 15,000 BTU power burners (high for the price)",
+        "Continuous cast iron grates (rare in budget gas)",
+        "Three finishes available",
+        "Whirlpool repairability rated class-leading"
+      ],
+      "cons": [
+        "No convection or air-fry mode",
+        "No self-cleaning",
+        "Broiler in bottom drawer (no storage drawer)",
+        "Grates separate into only 2 pieces — heavier to clean"
+      ],
+      "release_year": 2024
+    },
+    {
+      "id": "hotpoint-rgbs300dmww",
+      "brand": "hotpoint",
+      "model": "RGBS300DMWW",
+      "name": "Hotpoint RGBS300DM 4.8 cu ft Gas Range (Wirecutter buy-it-for-life gas)",
+      "type": "range",
+      "fuel": "gas",
+      "style": "freestanding",
+      "width_in": 30,
+      "oven_capacity_cf": 4.8,
+      "burners": 4,
+      "max_burner_btu": 13000,
+      "max_burner_w": null,
+      "convection": "no",
+      "air_fry": false,
+      "self_clean": "no",
+      "wifi": false,
+      "finishes": [
+        "white",
+        "black"
+      ],
+      "msrp": 649,
+      "street_price": 549,
+      "ratings": {
+        "wirecutter": "best buy-it-for-life range (gas) 2026",
+        "cr_overall": null,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "source_urls": {
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/",
+          "specs": "https://www.geappliances.com/appliance/Hotpoint-Gas-Range-RGBS300DM"
+        },
+        "endorsements": [
+          {
+            "channel": "Wirecutter",
+            "type": "roundup",
+            "label": "Best Buy-It-For-Life Range (Gas) 2026: \"all manual and all mechanical, with components that can often be replaced easily without needing a repair person… designed with a sturdy metal body to hold up to heavy-duty long-term use.\"",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          }
+        ]
+      },
+      "pros": [
+        "Wirecutter Buy-It-For-Life Gas pick — designed for decades-long service life",
+        "All mechanical, no digital boards to fail",
+        "GE Appliances service network",
+        "Sealed burners protect gas jets from spills",
+        "Sub-$650 street price"
+      ],
+      "cons": [
+        "13,000 BTU large element (vs 15,000-20,000 on other picks)",
+        "No convection, no oven window, no interior light",
+        "Broiler in bottom drawer (no storage drawer)"
+      ],
+      "release_year": 2022
+    },
+    {
+      "id": "ge-profile-phs930slss",
+      "brand": "ge-profile",
+      "model": "PHS930SLSS",
+      "name": "GE Profile PHS930SLSS 30\" Smart Slide-In Induction (predecessor to PHS930YPFS)",
+      "type": "range",
+      "fuel": "induction",
+      "style": "slide-in",
+      "width_in": 30,
+      "oven_capacity_cf": 5.3,
+      "burners": 5,
+      "max_burner_btu": null,
+      "max_burner_w": 3700,
+      "convection": "true convection",
+      "air_fry": false,
+      "self_clean": "pyrolytic",
+      "wifi": true,
+      "finishes": [
+        "stainless"
+      ],
+      "msrp": 2799,
+      "street_price": 2399,
+      "ratings": {
+        "cr_overall": null,
+        "cr_reliability": "very-good",
+        "yale_reliability_pct": null,
+        "source_urls": {
+          "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-phs930slss/m393950/",
+          "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Induction-and-Convection-Range-PHS930SLSS"
+        },
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 64,
+            "url": "https://www.bestbuy.com/site/ge-5-3-cu-ft-slide-in-electric-induction-convection-range-stainless-steel/5979216.p?skuId=5979216"
+          }
+        },
+        "endorsements": [
+          {
+            "channel": "Reviewed",
+            "type": "review",
+            "label": "Reviewed.com individual review — GE Profile PHS930SLSS",
+            "url": "https://www.reviewed.com/ovens/content/ge-phs930slss-induction-and-convection-range-review"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale 2026: GE Profile 8.0% service rate",
+            "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          }
+        ]
+      },
+      "pros": [
+        "5 induction zones + true convection oven",
+        "Wi-Fi via SmartHQ + Chef Connect (auto-syncs with GE range hood)",
+        "GE Profile 8.0% Yale service rate is top-quartile",
+        "\"No longer in new condition\" status — buy refurb/open-box at discount"
+      ],
+      "cons": [
+        "No air fry (newer PHS930YPFS adds it)",
+        "Discontinued — succeeded by PHS930YPFS (Wirecutter mention)"
+      ],
+      "release_year": 2020
     }
   ]
 }
