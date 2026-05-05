@@ -30,7 +30,8 @@
     "popular_missing_pass_2026_05": "Round 25: added 3 popular missing models (Bosch SHEM63W55N, GE GNE25JSKSS, etc.) sourced from retailer-rating searches.",
     "cr_url_upgrade_2_2026_05": "Round 28: 4 more CR model-specific review URLs (existing in-DB models, not new entries).",
     "cr_url_upgrade_3_2026_05": "Round 29: 4 more CR model-specific review URLs (existing in-DB models only).",
-    "cr_url_upgrade_4_2026_05": "Round 32: 4 more CR model-specific review URLs."
+    "cr_url_upgrade_4_2026_05": "Round 32: 4 more CR model-specific review URLs.",
+    "dw_round33_2026_05": "Round 33: 1 CR URL upgrades + 3 retailer ratings."
   },
   "models": [
     {
@@ -1619,7 +1620,14 @@
             "label": "Yale 2026: 'Best drying with CrystalDry. Solid racks. Great for families with plastics.' — 7.7% service rate",
             "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
           }
-        ]
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.5,
+            "count": 369,
+            "url": "https://www.bestbuy.com/site/bosch-800-series-24-top-control-smart-built-in-tub-dishwasher-with-flexible-3rd-rack-42-dba-stainless-steel/6542978.p?skuId=6542978"
+          }
+        }
       },
       "pros": [
         "CrystalDry",
@@ -2705,7 +2713,14 @@
             "label": "\"Former top pick\" — Wirecutter no longer features Bosch but says \"we still like the 300 Series SHE53C85N… better dishwashers available for the price\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
           }
-        ]
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.3,
+            "count": 321,
+            "url": "https://www.bestbuy.com/site/bosch-300-series-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46dba-stainless-steel/6542986.p?skuId=6542986"
+          }
+        }
       },
       "pros": [
         "Reviewed.com: 'Great balance between price and performance'",
@@ -2751,7 +2766,14 @@
             "label": "Recommended — Best Drying (500 Series) 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
           }
-        ]
+        ],
+        "retailer_ratings": {
+          "best_buy": {
+            "stars": 4.4,
+            "count": 721,
+            "url": "https://www.bestbuy.com/product/bosch-500-series-24-top-control-smart-built-in-tub-dishwasher-with-3rd-rack-and-autoair-44-dba-stainless-steel/J3P322SZY3"
+          }
+        }
       },
       "pros": [
         "AutoAir door-pop for condensation drying",
@@ -3407,7 +3429,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldfc353ls-lowe-s/m413861/",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfc353ls-front-control-dishwasher",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/3360716",
           "lowes": "https://www.lowes.com/pd/LG-LoDecibel-Built-In-Dishwasher/5014911909"

@@ -5759,7 +5759,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/ge-profile-pgd29bytfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572175_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pge29bytfs",
@@ -5791,7 +5796,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/ge-profile-pge29bytfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6546/6546681_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-studio-srfb27w3",
@@ -5908,7 +5918,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrfoc2606s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511565_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-krfc704fbs",
@@ -6020,7 +6035,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrflc2716s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617562_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lrfxs3106s",
@@ -6072,7 +6092,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lrfxs3106s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553176_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "viking-rvffr336ss",
@@ -6180,7 +6205,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lf25g8330s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573590_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kucht-kr900x",
@@ -6244,7 +6274,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/ge-gwe22jymfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582112_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wrx735sdhz",
@@ -6519,7 +6554,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lf25h6330s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593130_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lf25h6200s",
@@ -6562,7 +6602,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lf25h6200s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593126_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lf21g6200s",
@@ -6605,7 +6650,12 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lf21g6200s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553178_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "dacor-drf485300ap",
@@ -7034,7 +7084,12 @@
         ]
       },
       "pros": [],
-      "cons": []
+      "cons": [],
+      "image": {
+        "local": "images/refrigerators/whirlpool-wrb322dmbm.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3928/3928039_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mrff4136rz",
@@ -7072,7 +7127,12 @@
       "pros": [],
       "cons": [],
       "water_filter_model": "EDR3RXD1",
-      "water_filter_cost_yr": 110
+      "water_filter_cost_yr": 110,
+      "image": {
+        "local": "images/refrigerators/maytag-mrff4136rz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617970_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mrff4236rz",
@@ -7151,7 +7211,12 @@
       "cons": [],
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/bosch-b36cl80sns.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354067_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-b36fd10ens",
