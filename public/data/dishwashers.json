@@ -33,7 +33,13 @@
     "cr_url_upgrade_4_2026_05": "Round 32: 4 more CR model-specific review URLs.",
     "dw_round33_2026_05": "Round 33: 1 CR URL upgrades + 3 retailer ratings.",
     "tier_upgrade_dw_2026_05": "Round 38 tier upgrade: 0 CR URL upgrades + 0 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier).",
-    "batch_round41_2026_05": "Round 41: 3 Yale Miele G7000 series article endorsements (exact SKU matches only)."
+    "batch_round41_2026_05": "Round 41: 3 Yale Miele G7000 series article endorsements (exact SKU matches only).",
+    "batch_round42_yale6_dw_2026_05": "Round 42: 3 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round43_yale7_dw_2026_05": "Round 43: 3 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round44_reviewed3_dw_2026_05": "Round 44: 5 Reviewed category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round45_reviewed4_dw_2026_05": "Round 45: 6 more Reviewed category endorsements.",
+    "batch_round46_mixed_dw_2026_05": "Round 46: 10 more Reviewed/Yale category endorsements.",
+    "batch_round47_mixed_dw_2026_05": "Round 47: 12 more Yale/Reviewed dishwasher endorsements."
   },
   "models": [
     {
@@ -96,6 +102,30 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/bosch-800-series-shp78cm5n-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice / Best Overall\" — \"It cleans even stubborn stains completely.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best Overall\" — \"It cleans even stubborn stains completely\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice / Best Overall\" — \"It cleans even stubborn stains completely\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Best Overall Dishwasher\" — \"operation levels are a very quiet 42 dBA\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
         ]
       },
@@ -150,6 +180,12 @@
             "type": "article",
             "label": "Yale 2026: Bosch — 8.7% service rate; CR best dishwasher and french-door brand 2026",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch Dishwasher Series Differences): cited — Bosch 100 Series 24\" stainless steel built-in",
+            "url": "https://blog.yaleappliance.com/differences-between-bosch-dishwashers"
           }
         ],
         "source_urls": {
@@ -355,6 +391,12 @@
             "type": "roundup",
             "label": "Top pick — Best Overall 2026: \"powerful, durable cleaner… highest owner-satisfaction rate\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Miele Dishwashers): \"Lowest Price\" — \"Think of this one as the intro course in Miele.\" ($1,299)",
+            "url": "https://blog.yaleappliance.com/best-miele-dishwashers"
           }
         ]
       },
@@ -874,6 +916,12 @@
             "type": "roundup",
             "label": "Recommended — Best Drying 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Recommended\" — third rack with dedicated jets",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
           }
         ]
       },
@@ -1621,6 +1669,30 @@
             "type": "article",
             "label": "Yale 2026: 'Best drying with CrystalDry. Solid racks. Great for families with plastics.' — 7.7% service rate",
             "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Dishwashers 2026): \"Best Overall / Best drying with CrystalDry\" — \"The best dishwasher for drying plastics, and one of the best-balanced machines you can buy under $1,500.\" (~$1,399)",
+            "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch Dishwasher Series Differences): cited — Bosch 800 Series 24\" stainless top-control",
+            "url": "https://blog.yaleappliance.com/differences-between-bosch-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Bosch 800 Series 24\" stainless top-control ($1,549)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs KitchenAid vs Miele Dishwashers 2026): cited — \"7 cycles, 7 options | Sound Level: 42 dB | CrystalDry & AutoAir | Third Rack: Yes\"",
+            "url": "https://blog.yaleappliance.com/kitchenaid-vs-bosch-vs-miele-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -1963,6 +2035,24 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/products/bosch-benchmark-shp9pcm5n-dishwasher"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice\" — \"PowerControl-driven cleaning performance\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Bosch Benchmark 24\" stainless top-control ($1,799)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs KitchenAid vs Miele Dishwashers 2026): cited — \"9 cycles, 8 options | Sound Level: 39 dB | CrystalDry | Third Rack: Yes, adjustable\"",
+            "url": "https://blog.yaleappliance.com/kitchenaid-vs-bosch-vs-miele-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2399,6 +2489,30 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/lg-ldth7972s-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice\" — \"Effective Heavy Duty cycle.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best Steam Dishwasher\" — \"Effective Heavy Duty cycle\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice\" — \"Effective Heavy Duty cycle\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Editors' Choice\" — \"at just 42 dBA, this quiet dishwasher certainly won't disrupt your dinner\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
         ],
         "retailer_ratings": {
@@ -2714,6 +2828,12 @@
             "type": "roundup",
             "label": "\"Former top pick\" — Wirecutter no longer features Bosch but says \"we still like the 300 Series SHE53C85N… better dishwashers available for the price\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice\" — \"Great cleaning quality.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2767,6 +2887,12 @@
             "type": "roundup",
             "label": "Recommended — Best Drying (500 Series) 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): tested — \"Good cleaning power\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
           }
         ],
         "retailer_ratings": {
@@ -2836,6 +2962,24 @@
             "type": "article",
             "label": "Yale 2026: Miele 5.6% dishwasher service rate — most reliable",
             "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best for Drying Plastics\" — \"Impressive cleaning power\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice / Best Upgrade\" — \"Impressive cleaning power\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Miele 24\" built-in ($1,899)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
           }
         ]
       },
@@ -2881,6 +3025,18 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/maytag-mdb4949skz-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice / Best Value\" — \"Auto and Normal cycles scrub out most stains.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best Basic No-Frills\" — \"Auto and Normal cycles scrub out most stains\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2936,6 +3092,18 @@
             "type": "roundup",
             "label": "Best Dishwasher for Open Kitchens 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best for Open Kitchens\" — \"Auto-open door\" with \"Quiet operation\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Editor's Choice / Lowest dBA\" — \"operating at a mere 38 dBA\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
         ]
       },
@@ -2959,7 +3127,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/samsung-dw90f89p0usr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617108_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pdp755syvfs",
@@ -2991,6 +3164,18 @@
             "type": "article",
             "label": "Yale 2026: 'Best for service. Hard-food disposer. Quiet American-style loading.' — 10.3% service rate",
             "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Quietest Dishwashers 2026): 42 dB — \"quiet, and you don't have to clean a filter\"",
+            "url": "https://blog.yaleappliance.com/quietest-dishwasher-by-decibel-rating"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Best for Large Families\" — \"3rd rack with dedicated jets\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
           }
         ],
         "yale_reliability_pct": 10.3,
@@ -3191,7 +3376,15 @@
           "best_buy": {
             "url": "https://www.bestbuy.com/site/bosch-100-series-premium-24-top-control-smart-built-in-hybrid-stainless-steel-tub-dishwasher-with-3rd-rack-46-dba-stainless-steel/6543005.p"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Bosch Dishwashers): \"Best Budget Pick\" — \"If you want Bosch's reliability without paying a premium price, the 100 Series is your best option.\" ($799-$899)",
+            "url": "https://blog.yaleappliance.com/the-best-bosch-dishwashers-ratings-reviews-prices"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3243,6 +3436,12 @@
             "type": "article",
             "label": "Yale (Miele G7000 series review): G 7196 SCVi — \"mid-range stainless steel model with top controls\" ($2,149)",
             "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Miele Dishwashers): \"Most Popular\" — \"This is the sweet spot in Miele's G7000 lineup. You get many of the same cleaning and drying features as the top-end model for about $1,500 less.\" ($2,149)",
+            "url": "https://blog.yaleappliance.com/best-miele-dishwashers"
           }
         ]
       },
@@ -3613,6 +3812,30 @@
             "type": "article",
             "label": "Yale (Miele G7000 series review): G 7186 SCVi — \"panel-ready configuration with top controls\" ($1,949)",
             "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Dishwashers 2026): G 7186 SCVi family — \"Best racking, washing, and cleanest dishes\" — \"The best dishwasher for racking, washing performance, and the cleanest results on fully loaded cycles.\" (~$2,399)",
+            "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Panel-Ready Dishwashers): \"Best Washing System\" — \"If you want the most complete wash system, Miele is still the standard.\" ($1,999)",
+            "url": "https://blog.yaleappliance.com/best-paneled-dishwasher-reviews"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): G 7186 SCVi family — Miele 24\" stainless top-control built-in ($2,199)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs KitchenAid vs Miele Dishwashers 2026): G 7186 SCVi SF — \"9 cycles | Sound Level: 42 dB | SensorDry | Third Rack: Yes\"",
+            "url": "https://blog.yaleappliance.com/kitchenaid-vs-bosch-vs-miele-dishwashers"
           }
         ]
       },
@@ -4131,7 +4354,15 @@
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508391"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Panel-Ready Dishwashers): budget panel-ready pick — \"You lose AutoDos and some rack flexibility, but it has the same core wash and dry system.\" ($1,449)",
+            "url": "https://blog.yaleappliance.com/best-paneled-dishwasher-reviews"
+          }
+        ]
       },
       "pros": [
         "Quiet (44 dB)",
@@ -4237,7 +4468,15 @@
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.mieleusa.com/product/11695330/fully-integrated-dishwashers-in-standard-size-g-5056-scvi-sf-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508393"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Miele 24\" built-in ($1,599)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          }
+        ]
       },
       "pros": [
         "Quiet (44 dB)",
@@ -4381,7 +4620,12 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "height_in": 33.8,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "image": {
+        "local": "images/dishwashers/insignia-ns-dwr3ss1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6403/6403040_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wdt550sapz",
@@ -4708,7 +4952,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/insignia-ns-dwrf2ss3.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477035_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "sharp-sdw6767hs",
@@ -5482,6 +5731,18 @@
             "type": "roundup",
             "label": "Best for Customizable Design 2026: \"stylish dishwasher offers multiple exterior and hardware finishes… excellent, quiet cleaner… 39 decibels.\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice / Best Upgrade\" — \"Extremely quiet.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Recommended\" — \"impressively quiet 39 dBA\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
         ]
       },
