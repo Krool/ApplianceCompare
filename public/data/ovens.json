@@ -381,7 +381,12 @@
         "Black",
         "White"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-df36450c.jpg",
+        "source_url": "https://www.subzero-wolf.com/wolf/ranges/dual-fuel/36-inch-dual-fuel-range-4-burners-infrared-charbroiler",
+        "source": "wolf"
+      }
     },
     {
       "id": "wolf-ir36450",
@@ -477,7 +482,12 @@
       "release_year": 2023,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/thermador-pgr486gdg.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/ranges/48-ranges/PRG486WDG",
+        "source": "thermador"
+      }
     },
     {
       "id": "viking-vgr5366bss",
@@ -573,7 +583,12 @@
         "No self-clean",
         "Weak fridge sibling reputation"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/bluestar-rnb364gv2.jpg",
+        "source_url": "https://www.bluestarcooking.com/cooking/ranges/36-rnb-series-range-with-12-griddle/",
+        "source": "bluestar"
+      }
     },
     {
       "id": "miele-hr1934-3df",
@@ -630,7 +645,12 @@
       "release_year": 2023,
       "finishes": [
         "Clean Touch Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/miele-hr1934-3df.png",
+        "source_url": "https://www.mieleusa.com/product/11791570/36-range-hr-1934-3-g-df-clean-touch-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "ge-jbs60dkbb",
@@ -1125,7 +1145,12 @@
       "release_year": 2023,
       "finishes": [
         "Clean Touch Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/miele-h7780bp.png",
+        "source_url": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "cafe-cts70dp2ns1",
@@ -1409,7 +1434,12 @@
         "$9k"
       ],
       "release_year": 2022,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-do30pesph.jpg",
+        "source_url": "https://www.subzero-wolf.com/wolf/ovens/e-series/30-inch-e-series-professional-built-in-double-oven-legacy",
+        "source": "wolf"
+      }
     },
     {
       "id": "miele-cm6160",
@@ -1448,7 +1478,12 @@
         "Niche",
         "$3k+"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/miele-cm6160.png",
+        "source_url": "https://www.mieleusa.com/product/11648170/countertop-coffee-machine-cm-6160-milkperfection-lotus-white",
+        "source": "miele"
+      }
     },
     {
       "id": "bosch-net8669uc",
@@ -1490,7 +1525,12 @@
       "cons": [
         "Glass scratches"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/bosch-net8669uc.jpg",
+        "source_url": "https://www.bosch-home.com/us/en/product/cooking-baking/induction-electric-cooktops/electric-cooktops/NET8669UC",
+        "source": "bosch"
+      }
     },
     {
       "id": "ge-profile-php9036djbb",
@@ -1674,7 +1714,12 @@
         "No Wi-Fi"
       ],
       "release_year": 2021,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-cg365ts.png",
+        "source_url": "https://www.subzero-wolf.com/products/wolf/cooktops-and-rangetops/gas-stovetop/cg365t/36-inch-transitional-gas-cooktop-5-burners",
+        "source": "wolf"
+      }
     },
     {
       "id": "thermador-pcg366w",
@@ -1714,7 +1759,12 @@
       "cons": [
         "$4k"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/thermador-pcg366w.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/rangetops/PCG366W",
+        "source": "thermador"
+      }
     },
     {
       "id": "bosch-ngm5055uc",
@@ -2002,7 +2052,12 @@
       "cons": [
         "Niche brand"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/fp-ci365dtb4.png",
+        "source_url": "https://www.fisherpaykel.com/us/cooking/cooktops/minimal-cooktops/36in-series-7-5-zone-induction-cooktop-2-smart-zones-ci365dtb4-81972.html",
+        "source": "fisher_paykel"
+      }
     },
     {
       "id": "gaggenau-vi492614",
@@ -2082,7 +2137,12 @@
       "cons": [
         "GE service"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/monogram-zhu36rspss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZHU36RSPSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "samsung-nq70t5511ds",
@@ -2355,7 +2415,12 @@
       "cons": [
         "$6.5k single"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/subzero-builtin-iw30.png",
+        "source_url": "https://www.subzero-wolf.com/wolf/ovens/steam-oven/30-inch-m-series-transitional-convection-steam-oven",
+        "source": "wolf"
+      }
     },
     {
       "id": "thermador-mes301hs",
@@ -2396,7 +2461,12 @@
       "cons": [
         "Small interior"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/thermador-mes301hs.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/MES301HS",
+        "source": "thermador"
+      }
     },
     {
       "id": "zline-rai-36",
@@ -2870,7 +2940,12 @@
       "cons": [
         "Premium pricing ($13,699)"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/miele-hr1632-3i.png",
+        "source_url": "https://www.mieleusa.com/product/12535260/36-range-hr-1632-3-i",
+        "source": "miele"
+      }
     },
     {
       "id": "lg-studio-lsis6338fe",
@@ -2911,7 +2986,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-studio-lsis6338fe.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-lsis6338fe",
+        "source": "lg"
+      }
     },
     {
       "id": "cafe-chs950p2ms1",
@@ -4051,7 +4131,12 @@
         "Hisense reliability not yet rated by CR",
         "Only 2-year warranty"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/hisense-hbe3501cps.jpg",
+        "source_url": "https://www.hisense-usa.com/product-page/home-appliance-cooking-range-5-8-cu-ft-freestanding-electric-oven-hbe3501cps",
+        "source": "hisense"
+      }
     },
     {
       "id": "samsung-nse6dg8100sr",
@@ -4434,7 +4519,12 @@
       "finishes": [
         "Stainless Steel with PrintShield"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/kitchenaid-kfeg504kps.jpg",
+        "source_url": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.30-inch-5-element-electric-convection-range-with-printshield-finish.kfeg504kps.html",
+        "source": "kitchenaid"
+      }
     },
     {
       "id": "maytag-mfes8030rz",
@@ -4482,7 +4572,12 @@
         "CR Overall only 63 — bake performance trails class",
         "Maytag electric range reliability rated 'fair' by CR"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/ovens/maytag-mfes8030rz.jpg",
+        "source_url": "https://www.maytag.com/kitchen/ranges/electric/p.30-inch-wide-electric-range-with-grill-mode-5.3-cu.-ft.mfes8030rz.html",
+        "source": "maytag"
+      }
     },
     {
       "id": "amana-aer6603sms",
@@ -4518,7 +4613,12 @@
       "wifi": false,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/amana-aer6603sms.png",
+        "source_url": "https://www.amana.com/cooking/ranges/p.30-inch-amana-electric-range-with-extra-large-oven-window.aer6603sms.html",
+        "source": "amana"
+      }
     },
     {
       "id": "whirlpool-wfes7530rz",
@@ -5052,7 +5152,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jes1450ml.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.2022-30-electric-slide-in-range.jes1450ml.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "whirlpool-wfe535s0lz",
@@ -5083,7 +5188,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfe535s0lz.jpg",
+        "source_url": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.5.3-cu.-ft.-whirlpool-electric-5-in-1-air-fry-oven.wfe535s0lz.html",
+        "source": "whirlpool"
+      }
     },
     {
       "id": "lg-ltel7337f",
@@ -5749,7 +5859,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/miele-hr1422-3i.png",
+        "source_url": "https://www.mieleusa.com/product/12298850/30-range-hr-1422-3-i",
+        "source": "miele"
+      }
     },
     {
       "id": "dacor-dop30t940is",
@@ -5780,7 +5895,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/dacor-dop30t940is.jpg",
+        "source_url": "https://www.dacor.com/us/products/cooking/ranges/30-inch-induction-range-transitional-silver-stainless-electric-dop30t940is/",
+        "source": "dacor"
+      }
     },
     {
       "id": "frigidaire-pcfi3080af",
@@ -5978,7 +6098,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ikea-tvarsaker.jpg",
+        "source_url": "https://www.ikea.com/us/en/p/tvaersaeker-range-with-induction-cooktop-stainless-steel-40466006/",
+        "source": "ikea"
+      }
     },
     {
       "id": "samsung-nsi6dg9500sr",
@@ -6124,7 +6249,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/zline-rainds-sn-30.jpg",
+        "source_url": "https://zlinekitchen.com/products/zline-30-induction-range-satin-stainless-steel-rainds-sn-30",
+        "source": "zline"
+      }
     },
     {
       "id": "kenmore-2296853",
@@ -6222,7 +6352,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jis1450ml.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.rise-induction-slide-in-range.jis1450ml.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "kitchenaid-ksis730pss",
@@ -6492,7 +6627,12 @@
         "Stainless Steel",
         "Essence White"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-studio-lsgs6338f.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-lsgs6338f-slide-in-gas-range",
+        "source": "lg-studio"
+      }
     },
     {
       "id": "cafe-c2s900p2ms1",
@@ -7054,7 +7194,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sks-upsg3014st.jpg",
+        "source_url": "https://www.signaturekitchensuite.com/us/products/ranges/30-inch-gas-slide-oven-range",
+        "source": "sks"
+      }
     },
     {
       "id": "samsung-nx60a6111ss",
@@ -7388,7 +7533,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sharp-ssg3065js.jpg",
+        "source_url": "https://shop.sharpusa.com/30-in-gas-convection-slide-in-range-with-air-fry-ssg3065js/",
+        "source": "sharp"
+      }
     },
     {
       "id": "whirlpool-wfg775h0hv",
@@ -7455,7 +7605,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/electrolux-ecfd3068as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/kitchen/ranges/dual-fuel-ranges/ECFD3068AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "hisense-hbg3601cps",
@@ -7486,7 +7641,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/hisense-hbg3601cps.jpg",
+        "source_url": "https://www.hisense-usa.com/product-page/home-appliance-cooking-range-58-cuft-oven-6-burners-range-hbg3601cps",
+        "source": "hisense"
+      }
     },
     {
       "id": "frigidaire-pcfg3080af",
@@ -7910,7 +8070,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/electrolux-ecfg3068as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/kitchen/ranges/gas-ranges/ECFG3068AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "thor-kitchen-lrg3001u",
@@ -7941,7 +8106,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thor-kitchen-lrg3001u.png",
+        "source_url": "https://www.thorkitchen.com/products/thor-kitchen-30-inch-gas-range-lrg3001u-lrg3001ulp",
+        "source": "thor_kitchen"
+      }
     },
     {
       "id": "whirlpool-wfg525s0jz",
@@ -8087,7 +8257,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-fcrg3051bs.png",
+        "source_url": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/FCRG3051BS",
+        "source": "frigidaire"
+      }
     },
     {
       "id": "whirlpool-weg515s0ls",
@@ -8381,7 +8556,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-studio-lutd4919sn.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-lutd4919sn-dual-fuel-double-oven-range",
+        "source": "lg"
+      }
     },
     {
       "id": "ge-jgbs86spss",
@@ -8649,7 +8829,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/electrolux-ecfd3668as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/Kitchen/Ranges/Dual-Fuel-Ranges/ECFD3668AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "jennair-jgrp436hl",
@@ -8680,7 +8865,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jgrp436hl.jpg",
+        "source_url": "https://www.jennair.com/ranges/all-ranges/pdp.JGRP436HL.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "thor-kitchen-lrg3601u",
@@ -8711,7 +8901,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thor-kitchen-lrg3601u.png",
+        "source_url": "https://www.thorkitchen.com/products/thor-kitchen-36-inch-gas-range-lrg3601u",
+        "source": "thor_kitchen"
+      }
     },
     {
       "id": "monogram-zgp304ntss",
@@ -8752,7 +8947,12 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/monogram-zgp304ntss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZGP304NTSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "kitchenaid-kfdc500jss",
@@ -8819,7 +9019,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/dacor-dop30t840gs.png",
+        "source_url": "https://www.dacor.com/us/products/cooking/ranges/30-inch-gas-range-transitional-silver-stainless-natural-gas-liquid-propane-dop30t840gs/",
+        "source": "dacor"
+      }
     },
     {
       "id": "thermador-prg305wh",
@@ -8850,7 +9055,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-prg305wh.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRG305WH",
+        "source": "thermador"
+      }
     },
     {
       "id": "kitchenaid-kfgc500jpa",
@@ -8989,7 +9199,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-studio-cbgs3628s.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-cbgs3628s-gas-cooktop",
+        "source": "lg"
+      }
     },
     {
       "id": "lg-cbgj3623s",
@@ -9056,7 +9271,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/monogram-zgu36rslss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZGU36RSLSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "thermador-sgsx365ts",
@@ -9109,7 +9329,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-sgsx365ts.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/gas-cooktops/SGSX365TS",
+        "source": "thermador"
+      }
     },
     {
       "id": "sks-upcg3654st",
@@ -9140,7 +9365,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sks-upcg3654st.jpg",
+        "source_url": "https://www.signaturekitchensuite.com/en-us/products/cooking/cooktops/36-inch-gas-cooktop/",
+        "source": "sks"
+      }
     },
     {
       "id": "ge-profile-pgp7036slss",
@@ -9231,7 +9461,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/viking-vgsu53616bss.jpg",
+        "source_url": "https://vikingrange.com/products/cook/cooktops/model/VGSU5361/sku/VGSU53616BSS",
+        "source": "viking"
+      }
     },
     {
       "id": "ge-jgp5036slss",
@@ -9553,7 +9788,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/monogram-zgu30rslss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZGU30RSLSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "lg-cbgj3027s",
@@ -9623,7 +9863,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-sgsx305ts.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/gas-cooktops/SGSX305TS",
+        "source": "thermador"
+      }
     },
     {
       "id": "bosch-benchmark-ngmp059uc",
@@ -10059,7 +10304,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sharp-scr3041gb.jpg",
+        "source_url": "https://shop.sharpusa.com/30-in-drop-in-radiant-cooktop-scr3041gb/",
+        "source": "sharp"
+      }
     },
     {
       "id": "thermador-cet305yb",
@@ -10090,7 +10340,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-cet305yb.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/electric-cooktops/CET305YB",
+        "source": "thermador"
+      }
     },
     {
       "id": "miele-km5624",
@@ -10121,7 +10376,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/miele-km5624.png",
+        "source_url": "https://www.mieleusa.com/product/7821680/30-inch-electric-cooktop-operated-with-its-own-controls-km-5624-240v-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "whirlpool-wce77us0hb",
@@ -10449,7 +10709,12 @@
       "finishes": [
         "black ceramic glass"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-studio-cbis3618be.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-cbis3618be-electric-cooktop",
+        "source": "lg-studio"
+      }
     },
     {
       "id": "monogram-zhu36rstss",
@@ -10486,7 +10751,12 @@
       "wifi": true,
       "finishes": [
         "stainless steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/monogram-zhu36rstss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZHU36RSTSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "cafe-chp90362tss",
@@ -10663,7 +10933,12 @@
       "release_year": null,
       "finishes": [
         "stainless steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/electrolux-ecci3068as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/Kitchen/Cooktops/Induction-Cooktops/ECCI3068AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "thermador-cit30ywbb",
@@ -10708,7 +10983,12 @@
       "wifi": true,
       "finishes": [
         "dark gray glass"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/thermador-cit30ywbb.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/induction-cooktops/CIT30YWBB",
+        "source": "thermador"
+      }
     },
     {
       "id": "miele-km7730fr",
@@ -10750,7 +11030,12 @@
         "black ceramic glass",
         "stainless steel frame"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/miele-km7730fr.png",
+        "source_url": "https://www.mieleusa.com/product/12074200/30-inch-induction-cooktop-operated-with-its-own-controls-km-7730-fr",
+        "source": "miele"
+      }
     },
     {
       "id": "frigidaire-pcci3080af",
@@ -10809,7 +11094,12 @@
       "release_year": null,
       "finishes": [
         "smudge-proof stainless steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/frigidaire-pcci3080af.png",
+        "source_url": "https://www.frigidaire.com/en/p/kitchen/cooktops/induction-cooktops/PCCI3080AF",
+        "source": "frigidaire"
+      }
     },
     {
       "id": "dacor-dti30p876bb",
@@ -10840,7 +11130,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/dacor-dti30p876bb.jpg",
+        "source_url": "https://www.dacor.com/us/products/cooking/cooktops-and-rangetops/30-inch-induction-cooktop-frameless-transitional-black-glass-dti30p876bb/",
+        "source": "dacor"
+      }
     },
     {
       "id": "samsung-nz30a3060uk",
@@ -10907,7 +11202,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/viking-rvic3304bbg.jpg",
+        "source_url": "https://vikingrange.com/products/cook/cooktops/model/RVIC330/sku/RVIC3304BBG",
+        "source": "viking"
+      }
     },
     {
       "id": "whirlpool-wci55us0jb",
@@ -10986,7 +11286,12 @@
         "$9k MSRP — premium pricing without independent reliability data in our DB",
         "4.4 cf oven smaller than mainstream 30\" induction (LG 6.3 cf, Samsung 6.3 cf)"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-pri30lbhu.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRI30LBHU",
+        "source": "thermador"
+      }
     },
     {
       "id": "jennair-jpifc730rl",
@@ -11027,7 +11332,12 @@
         "4.1 cf oven typical of pro-style (smaller than slide-in equivalents)",
         "Two-year limited warranty short for the tier"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jpifc730rl.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-30-induction-professional-style-range.jpifc730rl.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "jennair-jpifc736rl",
@@ -11067,7 +11377,12 @@
       "cons": [
         "$15k MSRP enters Wolf/Miele territory without their reliability track record"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jpifc736rl.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-36-induction-professional-style-range.jpifc736rl.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "wolf-ir30450",
@@ -11110,7 +11425,12 @@
         "$9.9k MSRP — Wolf premium without independent Yale reliability data"
       ],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-ir30450.png",
+        "source_url": "https://www.subzero-wolf.com/wolf/ranges/induction-range/30-inch-transitional-induction-range",
+        "source": "wolf"
+      }
     },
     {
       "id": "wolf-ir36551",
@@ -11159,7 +11479,12 @@
         "Pro-styling requires kitchen built around it"
       ],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-ir36551.png",
+        "source_url": "https://www.subzero-wolf.com/wolf/ranges/induction-range/36-inch-professional-induction-range",
+        "source": "wolf"
+      }
     },
     {
       "id": "lg-cbih3013be",

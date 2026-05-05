@@ -45,7 +45,7 @@
     "batch_round45_reviewed4_fridge_2026_05": "Round 45: 15 more Reviewed category endorsements.",
     "batch_round48_yale9_fridge_2026_05": "Round 48: 3 more Yale category endorsements.",
     "batch_round51_reviewed6_fridge_2026_05": "Round 51: 6 more Reviewed category endorsements.",
-    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 6 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
     "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models.",
     "batch_round54_2026_05": "Round 54: 8 fridges gained rtings field (RTINGS Tested status). NEW signal slot — expected to upgrade some limited→solid."
   },
@@ -1500,7 +1500,12 @@
       ],
       "release_year": 2021,
       "water_filter_model": "7012333",
-      "water_filter_cost_yr": 130
+      "water_filter_cost_yr": 130,
+      "image": {
+        "local": "images/refrigerators/subzero-pro-48.jpg",
+        "source_url": "https://www.subzero-wolf.com/products/sub-zero/full-size-refrigeration/refrigeration/pro-48/pro-48",
+        "source": "sub_zero"
+      }
     },
     {
       "id": "thermador-t36bb915ss",
@@ -1552,7 +1557,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "BORPLFTR10",
-      "water_filter_cost_yr": 90
+      "water_filter_cost_yr": 90,
+      "image": {
+        "local": "images/refrigerators/thermador-t36bb915ss.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/T36BB915SS",
+        "source": "thermador"
+      }
     },
     {
       "id": "thermador-t36ft820ns",
@@ -1599,7 +1609,12 @@
         "Premium price",
         "No water dispenser"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/refrigerators/thermador-t36ft820ns.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36FT820NS",
+        "source": "thermador"
+      }
     },
     {
       "id": "miele-kf2982vi",
@@ -1657,7 +1672,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "KWF1000",
-      "water_filter_cost_yr": 130
+      "water_filter_cost_yr": 130,
+      "image": {
+        "local": "images/refrigerators/miele-kf2982vi.png",
+        "source_url": "https://www.mieleusa.com/product/11503020/mastercool-frenchdoor-kf-2982-vi",
+        "source": "miele"
+      }
     },
     {
       "id": "miele-k2802vi",
@@ -1705,7 +1725,12 @@
         "No ice/water",
         "Pair with freezer = $20k+"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/refrigerators/miele-k2802vi.png",
+        "source_url": "https://www.mieleusa.com/product/11502590/mastercool-refrigerator-k-2802-vi",
+        "source": "miele"
+      }
     },
     {
       "id": "jennair-jffcc72efs",
@@ -1763,7 +1788,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "EDR4RXD1",
-      "water_filter_cost_yr": 110
+      "water_filter_cost_yr": 110,
+      "image": {
+        "local": "images/refrigerators/jennair-jffcc72efs.jpg",
+        "source_url": "https://www.whirlpool.com/accessories.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "sks-srpnb3042ss",
@@ -1812,7 +1842,12 @@
         "Niche brand, fewer installers",
         "Premium pricing"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/refrigerators/sks-srpnb3042ss.jpg",
+        "source_url": "https://www.signaturekitchensuite.com/us/products/column-refrigerators/30-inch-integrated-column-refrigerator",
+        "source": "sks"
+      }
     },
     {
       "id": "fp-rf201acjsx1",
@@ -1865,7 +1900,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "847200P",
-      "water_filter_cost_yr": 110
+      "water_filter_cost_yr": 110,
+      "image": {
+        "local": "images/refrigerators/fp-rf201acjsx1.png",
+        "source_url": "https://www.fisherpaykel.com/us/cooling/refrigeration/professional-refrigeration/freestanding-french-door-refrigerator-freezer-36in-20.1-cu-ft-ice-rf201acjsx1_n-26304.html",
+        "source": "fisher_paykel"
+      }
     },
     {
       "id": "frigidaire-frqg1721av",
@@ -2038,7 +2078,12 @@
       ],
       "release_year": 2022,
       "water_filter_model": "EPTWFU01",
-      "water_filter_cost_yr": 110
+      "water_filter_cost_yr": 110,
+      "image": {
+        "local": "images/refrigerators/electrolux-ercc1732as.jpg",
+        "source_url": "https://www.frigidaire.com/en/p/accessories/refrigerator-accessories/refrigerator-accessories-and-consumables/water-filters/EPTWFU012PAK",
+        "source": "electrolux"
+      }
     },
     {
       "id": "maytag-mfi2570fez",
@@ -2373,7 +2418,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "XWFE",
-      "water_filter_cost_yr": 115
+      "water_filter_cost_yr": 115,
+      "image": {
+        "local": "images/refrigerators/cafe-cye22tp4mw2.jpg",
+        "source_url": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
+        "source": "cafe"
+      }
     },
     {
       "id": "subzero-uc-24r",
@@ -2678,7 +2728,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "XWFE",
-      "water_filter_cost_yr": 115
+      "water_filter_cost_yr": 115,
+      "image": {
+        "local": "images/refrigerators/monogram-zwe23esnss.jpg",
+        "source_url": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
+        "source": "monogram"
+      }
     },
     {
       "id": "samsung-rf65a967fsr",
@@ -2728,7 +2783,12 @@
       ],
       "release_year": 2023,
       "water_filter_model": "HAF-QIN",
-      "water_filter_cost_yr": 95
+      "water_filter_cost_yr": 95,
+      "image": {
+        "local": "images/refrigerators/samsung-rf65a967fsr.jpg",
+        "source_url": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/",
+        "source": "samsung"
+      }
     },
     {
       "id": "fp-rs3684wruvk1",
@@ -2775,7 +2835,12 @@
         "No ice/water",
         "Pair with freezer = $14k+"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/refrigerators/fp-rs3684wruvk1.png",
+        "source_url": "https://www.fisherpaykel.com/us/cooling/refrigeration/integrated-refrigeration/36in-series-11-integrated-refrigerator-freezer-ice-and-water-rs3684wruve1-26756.html",
+        "source": "fisher_paykel"
+      }
     },
     {
       "id": "ge-gts18gtnrww",
@@ -3592,7 +3657,12 @@
       "height_in": 70.3,
       "depth_in": 33.3,
       "depth_with_handle_in": 33.3,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "image": {
+        "local": "images/refrigerators/hisense-hrm260n6tse.jpg",
+        "source_url": "https://www.frigidaire.com/en/p/accessories/refrigerator-accessories/refrigerator-accessories-and-consumables/water-filters/EPTWFU012PAK",
+        "source": "hisense"
+      }
     },
     {
       "id": "samsung-rf90f29aecr",
@@ -3656,7 +3726,12 @@
       "water_filter_cost_yr": 95,
       "height_in": 70.25,
       "depth_in": 34.25,
-      "depth_with_handle_in": 34.25
+      "depth_with_handle_in": 34.25,
+      "image": {
+        "local": "images/refrigerators/samsung-rf90f29aecr.jpg",
+        "source_url": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-29-cu-ft-4-door-french-door-refrigerator-with-ai-family-hub-ai-vision-inside-in-charcoal-glass-and-stainless-steel-rf90f29aecraa/",
+        "source": "samsung"
+      }
     },
     {
       "id": "cafe-cae28dm5ts5",
@@ -4373,7 +4448,12 @@
       "height_in": 66.5,
       "depth_in": 31.5,
       "depth_with_handle_in": 31.5,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "image": {
+        "local": "images/refrigerators/hisense-hrt180n6abe.jpg",
+        "source_url": "https://www.hisense-usa.com/product-page/home-appliance-refrigerators-18-cu-ft-top-mount-garage-ready-refrigerator-energy-star-hrt180n6abe",
+        "source": "hisense"
+      }
     },
     {
       "id": "samsung-rt70f18lrsr",
@@ -4781,7 +4861,12 @@
       "height_in": 66.31,
       "depth_in": 28.38,
       "depth_with_handle_in": 28.38,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "image": {
+        "local": "images/refrigerators/whirlpool-wrt313czlz.jpg",
+        "source_url": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/top-freezer/p.WRT313CZLZ.html",
+        "source": "whirlpool"
+      }
     },
     {
       "id": "summit-ff1142pllhd",
@@ -4827,7 +4912,12 @@
       "height_in": 66.75,
       "depth_in": 25,
       "depth_with_handle_in": 25,
-      "hinge": "left"
+      "hinge": "left",
+      "image": {
+        "local": "images/refrigerators/summit-ff1142pllhd.jpg",
+        "source_url": "https://www.summitappliance.com/catalog/model/FF1142PLLHD",
+        "source": "summit"
+      }
     },
     {
       "id": "lg-lrdcs2603s",
@@ -4951,7 +5041,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/miele-kfn4776ed.png",
+        "source_url": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel",
+        "source": "miele"
+      }
     },
     {
       "id": "miele-kfn4799dde",
@@ -4983,7 +5078,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/miele-kfn4799dde.png",
+        "source_url": "https://www.mieleusa.com/product/11951210/freestanding-fridge-freezer-kfn-4799-dde-na-stainless-steel-cleansteel",
+        "source": "miele"
+      }
     },
     {
       "id": "ge-gde21eykfs",
@@ -5062,7 +5162,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/ikea-valgrundad.jpg",
+        "source_url": "https://www.ikea.com/us/en/p/vaelgrundad-bottom-freezer-refrigerator-stainless-steel-70462158/",
+        "source": "ikea"
+      }
     },
     {
       "id": "amana-abb1924brm",
@@ -6231,7 +6336,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/dacor-drf36c500sr.png",
+        "source_url": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-counter-depth-french-door-with-reveal-tm-door-silver-stainless-drf36c500sr/",
+        "source": "dacor"
+      }
     },
     {
       "id": "lg-lrfoc2606s",
@@ -6513,7 +6623,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/viking-rvffr336ss.jpg",
+        "source_url": "https://vikingrange.com/products/chill/refrigeration/model/RVFFR336/sku/RVFFR336SS",
+        "source": "viking"
+      }
     },
     {
       "id": "ikea-overskadlig",
@@ -6893,7 +7008,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/zline-rfm-w-36.jpg",
+        "source_url": "https://zlinekitchen.com/products/zline-36-counter-depth-refrigerator-stainless-steel-rfm-w-36",
+        "source": "zline"
+      }
     },
     {
       "id": "lg-lf25h6330s",
@@ -7082,7 +7202,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/dacor-drf485300ap.png",
+        "source_url": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/48-inch-french-door-refrigerator-panel-ready-drf485300ap/",
+        "source": "dacor"
+      }
     },
     {
       "id": "dacor-drf367500ap",
@@ -7168,7 +7293,12 @@
       "release_year": 2024,
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/thermador-t36it100np.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
+        "source": "thermador"
+      }
     },
     {
       "id": "sks-sksfd4826p",
@@ -7217,7 +7347,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/sks-sksfd4826p.jpg",
+        "source_url": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator",
+        "source": "sks"
+      }
     },
     {
       "id": "thermador-t30ib905sp",
@@ -7257,7 +7392,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/thermador-t30ib905sp.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T30IB905SP",
+        "source": "thermador"
+      }
     },
     {
       "id": "zline-rbiv-304-30",
@@ -7289,7 +7429,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/zline-rbiv-304-30.jpg",
+        "source_url": "https://zlinekitchen.com/products/zline-30-built-in-refrigerator-stainless-steel-rbiv-304-30",
+        "source": "zline"
+      }
     },
     {
       "id": "sub-zero-det3050ciid",
@@ -7321,7 +7466,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/refrigerators/sub-zero-det3050ciid.png",
+        "source_url": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/integrated-fridges/30-inch-integrated-over-under-refrigerator-freezer-ice-maker-internal-dispenser-panel-ready",
+        "source": "sub_zero"
+      }
     },
     {
       "id": "kitchenaid-kbbr306ess",
@@ -7431,7 +7581,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/bosch-benchmark-b30ib905sp.jpg",
+        "source_url": "https://www.bosch-home.com/us/en/product/B30IB905SP",
+        "source": "bosch-benchmark"
+      }
     },
     {
       "id": "whirlpool-wrb322dmbm",
@@ -7592,7 +7747,12 @@
       "pros": [],
       "cons": [],
       "water_filter_model": "EDR3RXD1",
-      "water_filter_cost_yr": 110
+      "water_filter_cost_yr": 110,
+      "image": {
+        "local": "images/refrigerators/maytag-mrff4236rz.jpg",
+        "source_url": "https://www.maytag.com/kitchen/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4236rz.html",
+        "source": "maytag"
+      }
     },
     {
       "id": "bosch-b36cl80sns",
@@ -8045,7 +8205,12 @@
       ],
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/refrigerators/lg-lhsxs2706s.jpg",
+        "source_url": "https://www.lg.com/us/refrigerators/lg-lhsxs2706s-side-by-side-refrigerator",
+        "source": "lg"
+      }
     },
     {
       "id": "lg-lrsds2706s",
@@ -8579,7 +8744,12 @@
         "Home Depot exclusive — limited dealer pool",
         "No water dispenser"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/refrigerators/lg-lhtns2403s.jpg",
+        "source_url": "https://www.lg.com/us/refrigerators/lg-lhtns2403s-top-freezer-refrigerator",
+        "source": "lg"
+      }
     },
     {
       "id": "ge-gbe17hyrfs",
@@ -8691,7 +8861,12 @@
         "Smaller F&P service network — confirm local coverage before buying",
         "$3,799 — pricier than 36\" standard-depth french-doors"
       ],
-      "release_year": 2025
+      "release_year": 2025,
+      "image": {
+        "local": "images/refrigerators/fp-rf201adjsx5.png",
+        "source_url": "https://www.fisherpaykel.com/us/cooling/refrigeration/contemporary-refrigeration/20.1-cu-ft-series-7-french-door-refrigerator-freezer-ice-rf201adjsx5-26306.html",
+        "source": "fisher_paykel"
+      }
     },
     {
       "id": "maytag-mfc2062fez",

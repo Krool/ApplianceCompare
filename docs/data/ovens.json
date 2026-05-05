@@ -41,7 +41,16 @@
     "range_retailer_round35_2026_05": "Round 35: 2 retailer ratings on GE 600-series ranges.",
     "reviewed_batch_round36_2026_05": "Round 36: 5 Reviewed.com category-roundup endorsements (best induction cooktops, best 36in gas cooktops, best 36in dual-fuel, best fridges under $1k).",
     "reviewed_batch_round37_2026_05": "Round 37: 5 more Reviewed.com category endorsements (under-$2k stainless, side-by-side, under-$800 ranges, double-oven).",
-    "tier_upgrade_oven_2026_05": "Round 38 tier upgrade: 2 CR URL upgrades + 2 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier)."
+    "tier_upgrade_oven_2026_05": "Round 38 tier upgrade: 2 CR URL upgrades + 2 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier).",
+    "batch_round42_yale6_oven_2026_05": "Round 42: 4 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round43_yale7_oven_2026_05": "Round 43: 4 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round44_reviewed3_oven_2026_05": "Round 44: 15 Reviewed category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round46_mixed_oven_2026_05": "Round 46: 6 more Reviewed/Yale category endorsements.",
+    "batch_round48_yale9_oven_2026_05": "Round 48: 2 more Yale category endorsements.",
+    "batch_round50_2026_05": "Round 50: 2 Yale reliability-article model citations.",
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models.",
+    "batch_round55_2026_05": "Round 55: 7 more Reviewed oven-category endorsements."
   },
   "models": [
     {
@@ -372,7 +381,12 @@
         "Black",
         "White"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-df36450c.jpg",
+        "source_url": "https://www.subzero-wolf.com/wolf/ranges/dual-fuel/36-inch-dual-fuel-range-4-burners-infrared-charbroiler",
+        "source": "wolf"
+      }
     },
     {
       "id": "wolf-ir36450",
@@ -447,6 +461,12 @@
             "type": "article",
             "label": "Yale 2026: Thermador — BSH-built shared platform with Bosch and Gaggenau (North Carolina dishwashers)",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 48-inch Pro Ranges): PRG486WDG — recommended all-gas pro range with 6 burners + griddle and convection oven",
+            "url": "https://blog.yaleappliance.com/best-48-inch-professional-ranges"
           }
         ]
       },
@@ -462,7 +482,12 @@
       "release_year": 2023,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/thermador-pgr486gdg.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/ranges/48-ranges/PRG486WDG",
+        "source": "thermador"
+      }
     },
     {
       "id": "viking-vgr5366bss",
@@ -493,6 +518,12 @@
             "type": "article",
             "label": "Yale: Viking VGR pro range — covered in Yale's pro-range buying guide (\"Viking is a heritage pro-range brand\")",
             "url": "https://blog.yaleappliance.com/how-to-buy-a-professional-range"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 36-inch Pro Ranges): reference model — \"built to perform without getting too fancy\" with \"strong burners, solid construction\" ($7,999)",
+            "url": "https://blog.yaleappliance.com/best-36-inch-pro-ranges"
           }
         ],
         "source_urls": {
@@ -552,7 +583,12 @@
         "No self-clean",
         "Weak fridge sibling reputation"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/bluestar-rnb364gv2.jpg",
+        "source_url": "https://www.bluestarcooking.com/cooking/ranges/36-rnb-series-range-with-12-griddle/",
+        "source": "bluestar"
+      }
     },
     {
       "id": "miele-hr1934-3df",
@@ -588,6 +624,12 @@
             "type": "article",
             "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 36-inch Pro Ranges): \"steam with Moisture Plus, keeping bread light and crusty and roasts juicy and golden\" — twin convection fans, MasterChef guided cooking ($10,499)",
+            "url": "https://blog.yaleappliance.com/best-36-inch-pro-ranges"
           }
         ]
       },
@@ -603,7 +645,12 @@
       "release_year": 2023,
       "finishes": [
         "Clean Touch Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/miele-hr1934-3df.png",
+        "source_url": "https://www.mieleusa.com/product/11791570/36-range-hr-1934-3-g-df-clean-touch-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "ge-jbs60dkbb",
@@ -642,7 +689,8 @@
           }
         ],
         "source_urls": {
-          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -650,7 +698,8 @@
             "count": 467,
             "url": "https://www.bestbuy.com/site/ge-5-3-cu-ft-freestanding-electric-range-with-power-boil-and-ceramic-glass-cooktop-white/4955900.p?skuId=4955900"
           }
-        }
+        },
+        "reviewed_status": "Best Ranges Under $800)"
       },
       "pros": [
         "Cheapest reliable electric",
@@ -718,7 +767,12 @@
       "cons": [
         "AquaLift mediocre"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/whirlpool-wfg775h0hz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6177/6177122_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nx60bb871112",
@@ -869,6 +923,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/ovens/content/cafe-chs900p2ms1-induction-range-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Upgrade\" — \"This attractive induction range boasts even baking, fast cooktop heating, and intuitive app compatibility.\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ]
       },
@@ -1065,6 +1125,12 @@
             "type": "article",
             "label": "Yale 2026: Miele — 7.4% overall service rate; tested to 20 years of use; 5.6% dishwasher service rate (lowest in category)",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Wall Ovens 2026): \"Best Steam Assist Oven\" — \"Plumbed steam bursts. Large recipe library. Wireless probe\"",
+            "url": "https://blog.yaleappliance.com/best-double-wall-ovens"
           }
         ]
       },
@@ -1079,7 +1145,12 @@
       "release_year": 2023,
       "finishes": [
         "Clean Touch Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/miele-h7780bp.png",
+        "source_url": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "cafe-cts70dp2ns1",
@@ -1363,7 +1434,12 @@
         "$9k"
       ],
       "release_year": 2022,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-do30pesph.jpg",
+        "source_url": "https://www.subzero-wolf.com/wolf/ovens/e-series/30-inch-e-series-professional-built-in-double-oven-legacy",
+        "source": "wolf"
+      }
     },
     {
       "id": "miele-cm6160",
@@ -1402,7 +1478,12 @@
         "Niche",
         "$3k+"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/miele-cm6160.png",
+        "source_url": "https://www.mieleusa.com/product/11648170/countertop-coffee-machine-cm-6160-milkperfection-lotus-white",
+        "source": "miele"
+      }
     },
     {
       "id": "bosch-net8669uc",
@@ -1444,7 +1525,12 @@
       "cons": [
         "Glass scratches"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/bosch-net8669uc.jpg",
+        "source_url": "https://www.bosch-home.com/us/en/product/cooking-baking/induction-electric-cooktops/electric-cooktops/NET8669UC",
+        "source": "bosch"
+      }
     },
     {
       "id": "ge-profile-php9036djbb",
@@ -1465,7 +1551,8 @@
         "cr_reliability": "fair",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/products/cooktops-28977/electric-induction-cooktops-200764/ge-profile-php9036djbb-406513/"
+          "cr": "https://www.consumerreports.org/products/cooktops-28977/electric-induction-cooktops-200764/ge-profile-php9036djbb-406513/",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -1481,7 +1568,8 @@
             "label": "Reviewed (Best Electric Induction Cooktops): \"Best 36-inch Induction Cooktop\" (PHP9036 family) — \"5-burner with SyncBurner technology and built-in Wi-Fi\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Best Electric Induction Cooktops)"
       },
       "pros": [
         "SyncBurner",
@@ -1626,7 +1714,12 @@
         "No Wi-Fi"
       ],
       "release_year": 2021,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-cg365ts.png",
+        "source_url": "https://www.subzero-wolf.com/products/wolf/cooktops-and-rangetops/gas-stovetop/cg365t/36-inch-transitional-gas-cooktop-5-burners",
+        "source": "wolf"
+      }
     },
     {
       "id": "thermador-pcg366w",
@@ -1666,7 +1759,12 @@
       "cons": [
         "$4k"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/thermador-pcg366w.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/rangetops/PCG366W",
+        "source": "thermador"
+      }
     },
     {
       "id": "bosch-ngm5055uc",
@@ -1954,7 +2052,12 @@
       "cons": [
         "Niche brand"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/fp-ci365dtb4.png",
+        "source_url": "https://www.fisherpaykel.com/us/cooking/cooktops/minimal-cooktops/36in-series-7-5-zone-induction-cooktop-2-smart-zones-ci365dtb4-81972.html",
+        "source": "fisher_paykel"
+      }
     },
     {
       "id": "gaggenau-vi492614",
@@ -2034,7 +2137,12 @@
       "cons": [
         "GE service"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/monogram-zhu36rspss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZHU36RSPSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "samsung-nq70t5511ds",
@@ -2307,7 +2415,12 @@
       "cons": [
         "$6.5k single"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/subzero-builtin-iw30.png",
+        "source_url": "https://www.subzero-wolf.com/wolf/ovens/steam-oven/30-inch-m-series-transitional-convection-steam-oven",
+        "source": "wolf"
+      }
     },
     {
       "id": "thermador-mes301hs",
@@ -2348,7 +2461,12 @@
       "cons": [
         "Small interior"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/thermador-mes301hs.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/MES301HS",
+        "source": "thermador"
+      }
     },
     {
       "id": "zline-rai-36",
@@ -2468,6 +2586,18 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/ovens/content/samsung-bespoke-induction-range-nsi6db990012-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Induction Range Overall\" — \"This smart induction range boasts speedy results, intuitive features, and a modern design that sets it apart from other models.\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"smart induction range boasts speedy results, intuitive features, and a modern design\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
           }
         ]
       },
@@ -2477,7 +2607,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/samsung-nsi6db990012aa.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569007_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-his8655u",
@@ -2508,6 +2643,24 @@
             "type": "article",
             "label": "Yale 2026: Best budget-conscious 36-inch induction range — 'Best if you want the Bosch name or any brand name at a lower price.'",
             "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 36-inch Induction Ranges 2026): \"Best Budget option\" — \"At first glance, the Bosch looks good. The commercial style pegs at the bottom and the clean design fit nicely in a modern kitchen.\" ($6,799)",
+            "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best 36-Inch Induction Range\" — \"This high-end induction range is feature-rich and aced all of our tests. Its intuitive controls make it a delight to use.\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"high-end induction range is feature-rich and aced all of our tests\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
           }
         ]
       },
@@ -2517,7 +2670,12 @@
       "cons": [
         "Reviewed.com noted intense initial off-gassing"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/bosch-his8655u.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506089_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-phs700ayfs",
@@ -2542,6 +2700,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Best Value Induction Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Value\" — \"This reasonably priced induction range features built-in Wi-Fi plus GE's latest EasyWash oven tray.\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ],
@@ -2612,6 +2776,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/ovens/content/frigidaire-gallery-gcfi3060bf-induction-range-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Entry-Level Model\" — \"This Frigidaire range offers a great entry point into induction cooking—the price is low, and the functionality is high.\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ]
       },
@@ -2681,6 +2851,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/ovens/content/ge-profile-phs93xypfs-slide-induction-range-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Induction Range for Baking\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ]
       },
@@ -2742,6 +2918,18 @@
             "type": "article",
             "label": "Yale 2026: 'If you bake or roast a lot and want humidity control in a full-size range, start here.' Steam-injected oven 36-inch induction pick.",
             "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 36-inch Induction Ranges 2026): HR 1632-3 family — \"Best Steam cooking\" — \"Moisture Plus injects steam during cooking so bread rises better and roasts don't dry out.\" ($13,699)",
+            "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Smart Induction Range\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ]
       },
@@ -2752,7 +2940,12 @@
       "cons": [
         "Premium pricing ($13,699)"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/miele-hr1632-3i.png",
+        "source_url": "https://www.mieleusa.com/product/12535260/36-range-hr-1632-3-i",
+        "source": "miele"
+      }
     },
     {
       "id": "lg-studio-lsis6338fe",
@@ -2778,6 +2971,12 @@
             "type": "roundup",
             "label": "Best Induction Range For Families 2026",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Induction Range For Families\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ]
       },
@@ -2787,7 +2986,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-studio-lsis6338fe.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-lsis6338fe",
+        "source": "lg"
+      }
     },
     {
       "id": "cafe-chs950p2ms1",
@@ -2812,6 +3016,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Best Double Oven Induction 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Double Oven Induction Range\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ]
@@ -2859,6 +3069,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Best for Pizza Induction 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Induction Ranges): \"Best Induction Range for Pizza Lovers\" — \"No other range on this list can match the GCFI3070BF's oven temperature of 750°F-plus, the threshold for authentic Neapolitan-style pizza.\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-induction-ranges"
           }
         ],
@@ -2911,6 +3127,12 @@
             "type": "article",
             "label": "Yale 2026: Most reliable induction range overall — 4.6% service rate",
             "url": "https://blog.yaleappliance.com/best-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Most Reliable Induction Ranges 2025): LSIL6336XE — cited representative model in LG's 4.6% category service rate ($3,299)",
+            "url": "https://blog.yaleappliance.com/most-reliable-induction-ranges"
           }
         ]
       },
@@ -2950,6 +3172,18 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Editor's Choice — Best Electric Range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"slide-in electric convection range, with its Energy Star rating and removable Easy-wash Oven Tray\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Ranges): \"Editor's Choice / Best Electric Range\" — \"slide-in electric convection range, with its Energy Star rating and removable Easy-wash Oven Tray\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
           }
         ],
@@ -3007,6 +3241,18 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/ovens/content/lg-lrgl5825f-freestanding-gas-range-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Gas Ranges): \"Editor's Choice\" — \"This LG range bakes like a pro and succeeds at its Air Fry mode, unlike some of its competition.\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"This LG range bakes like a pro and succeeds at its Air Fry mode\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
           }
         ],
         "retailer_ratings": {
@@ -3069,6 +3315,18 @@
             "type": "roundup",
             "label": "Reviewed (Best 36-inch Dual-Fuel Ranges): Best 36-inch Dual-Fuel — \"fine control for your burners, mostly even baking\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/the-best-36-inch-dual-fuel-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"If you need fine control for your burners and mostly even baking in the oven, look no further\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best 36-inch Dual-Fuel Ranges): \"Editor's Choice\" — \"the best dual-fuel range we've tested\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/the-best-36-inch-dual-fuel-ranges"
           }
         ]
       },
@@ -3126,6 +3384,24 @@
             "type": "roundup",
             "label": "Reviewed (Best Double Oven Ranges): \"Best Double Oven Range\" — \"effective burners, spacious ovens that evenly bake food\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Ranges main guide): \"Editor's Choice\" — \"the best double-oven electric range we've tested\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Ranges): \"Editor's Choice / Best Double-Oven Electric Range\" — \"knockout across the board\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Double Oven Ranges 2): \"Editor's Choice / Best Double Oven Range\" — \"the best we've tested because of its effective burners, spacious ovens that evenly bake food, and sleek look\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges-bwamp"
           }
         ],
         "retailer_ratings": {
@@ -3725,7 +4001,15 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/ranges/ge-profile-pb900yvfs/m413387/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-30-Smart-Free-Standing-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PB900YVFS"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Most Reliable Electric Ranges 2025): PB900YVFS — recommended model from GE Profile (8.5% brand service rate)",
+            "url": "https://blog.yaleappliance.com/most-reliable-electric-ranges"
+          }
+        ]
       },
       "pros": [
         "Convection (True Convection (third element + fan))",
@@ -3847,7 +4131,12 @@
         "Hisense reliability not yet rated by CR",
         "Only 2-year warranty"
       ],
-      "release_year": 2023
+      "release_year": 2023,
+      "image": {
+        "local": "images/ovens/hisense-hbe3501cps.jpg",
+        "source_url": "https://www.hisense-usa.com/product-page/home-appliance-cooking-range-5-8-cu-ft-freestanding-electric-oven-hbe3501cps",
+        "source": "hisense"
+      }
     },
     {
       "id": "samsung-nse6dg8100sr",
@@ -4230,7 +4519,12 @@
       "finishes": [
         "Stainless Steel with PrintShield"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/kitchenaid-kfeg504kps.jpg",
+        "source_url": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.30-inch-5-element-electric-convection-range-with-printshield-finish.kfeg504kps.html",
+        "source": "kitchenaid"
+      }
     },
     {
       "id": "maytag-mfes8030rz",
@@ -4278,7 +4572,12 @@
         "CR Overall only 63 — bake performance trails class",
         "Maytag electric range reliability rated 'fair' by CR"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/ovens/maytag-mfes8030rz.jpg",
+        "source_url": "https://www.maytag.com/kitchen/ranges/electric/p.30-inch-wide-electric-range-with-grill-mode-5.3-cu.-ft.mfes8030rz.html",
+        "source": "maytag"
+      }
     },
     {
       "id": "amana-aer6603sms",
@@ -4314,7 +4613,12 @@
       "wifi": false,
       "finishes": [
         "Stainless Steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/amana-aer6603sms.png",
+        "source_url": "https://www.amana.com/cooking/ranges/p.30-inch-amana-electric-range-with-extra-large-oven-window.aer6603sms.html",
+        "source": "amana"
+      }
     },
     {
       "id": "whirlpool-wfes7530rz",
@@ -4349,6 +4653,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Recommended — Easy-Clean Cooktop electric range 2026",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Ranges): \"Easy-Clean Cooktop\" — \"Whirlpool combines several advanced features in this range, with Wi-Fi and a proprietary coating that makes the glasstop surface even easier to clean\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-ranges"
           }
         ]
@@ -4400,7 +4710,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/haier-qss740rnss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6413/6413301_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mfes6030rz",
@@ -4467,7 +4782,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/amana-aer6303mms.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6514/6514410_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-fcfe3062as",
@@ -4642,7 +4962,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfes3330rz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576318_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfes3030rs",
@@ -4683,7 +5008,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfes3030rs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6576/6576320_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jb480dtbb",
@@ -4714,7 +5044,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-jb480dtbb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529897_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wee745h0lz",
@@ -4817,7 +5152,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jes1450ml.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.2022-30-electric-slide-in-range.jes1450ml.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "whirlpool-wfe535s0lz",
@@ -4848,7 +5188,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfe535s0lz.jpg",
+        "source_url": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.5.3-cu.-ft.-whirlpool-electric-5-in-1-air-fry-oven.wfe535s0lz.html",
+        "source": "whirlpool"
+      }
     },
     {
       "id": "lg-ltel7337f",
@@ -5244,7 +5589,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
         },
         "endorsements": [
           {
@@ -5252,8 +5598,15 @@
             "type": "roundup",
             "label": "Reviewed (Best Double Oven Ranges): tested — \"powerful stove-top elements, True Convection, 10-year limited parts warranty\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Double Oven Ranges 2): tested — \"powerful stove-top elements, True Convection heating, and a 10-year limited parts warranty\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges-bwamp"
           }
-        ]
+        ],
+        "reviewed_status": "Best Double Oven Ranges)"
       },
       "pros": [],
       "cons": [],
@@ -5506,7 +5859,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/miele-hr1422-3i.png",
+        "source_url": "https://www.mieleusa.com/product/12298850/30-range-hr-1422-3-i",
+        "source": "miele"
+      }
     },
     {
       "id": "dacor-dop30t940is",
@@ -5537,7 +5895,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/dacor-dop30t940is.jpg",
+        "source_url": "https://www.dacor.com/us/products/cooking/ranges/30-inch-induction-range-transitional-silver-stainless-electric-dop30t940is/",
+        "source": "dacor"
+      }
     },
     {
       "id": "frigidaire-pcfi3080af",
@@ -5568,7 +5931,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-pcfi3080af.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6583/6583469_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nsi6dg9100sr",
@@ -5730,7 +6098,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ikea-tvarsaker.jpg",
+        "source_url": "https://www.ikea.com/us/en/p/tvaersaeker-range-with-induction-cooktop-stainless-steel-40466006/",
+        "source": "ikea"
+      }
     },
     {
       "id": "samsung-nsi6dg9500sr",
@@ -5876,7 +6249,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/zline-rainds-sn-30.jpg",
+        "source_url": "https://zlinekitchen.com/products/zline-30-induction-range-satin-stainless-steel-rainds-sn-30",
+        "source": "zline"
+      }
     },
     {
       "id": "kenmore-2296853",
@@ -5974,7 +6352,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jis1450ml.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.rise-induction-slide-in-range.jis1450ml.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "kitchenaid-ksis730pss",
@@ -6244,7 +6627,12 @@
         "Stainless Steel",
         "Essence White"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-studio-lsgs6338f.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-lsgs6338f-slide-in-gas-range",
+        "source": "lg-studio"
+      }
     },
     {
       "id": "cafe-c2s900p2ms1",
@@ -6535,7 +6923,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "manufacturer": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS66REKSS"
+          "manufacturer": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS66REKSS",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
         },
         "endorsements": [
           {
@@ -6544,7 +6933,8 @@
             "label": "Reviewed (Best Ranges Under $800): tested — \"center-mounted griddle is a nifty addition\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-electric-ranges-under-800"
           }
-        ]
+        ],
+        "reviewed_status": "Best Ranges Under $800)"
       },
       "pros": [],
       "cons": [],
@@ -6768,7 +7158,12 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/samsung-nsg6dg8700sr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568989_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "sks-upsg3014st",
@@ -6799,7 +7194,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sks-upsg3014st.jpg",
+        "source_url": "https://www.signaturekitchensuite.com/us/products/ranges/30-inch-gas-slide-oven-range",
+        "source": "sks"
+      }
     },
     {
       "id": "samsung-nx60a6111ss",
@@ -7133,7 +7533,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sharp-ssg3065js.jpg",
+        "source_url": "https://shop.sharpusa.com/30-in-gas-convection-slide-in-range-with-air-fry-ssg3065js/",
+        "source": "sharp"
+      }
     },
     {
       "id": "whirlpool-wfg775h0hv",
@@ -7164,7 +7569,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfg775h0hv.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6177/6177117_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "electrolux-ecfd3068as",
@@ -7195,7 +7605,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/electrolux-ecfd3068as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/kitchen/ranges/dual-fuel-ranges/ECFD3068AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "hisense-hbg3601cps",
@@ -7226,7 +7641,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/hisense-hbg3601cps.jpg",
+        "source_url": "https://www.hisense-usa.com/product-page/home-appliance-cooking-range-58-cuft-oven-6-burners-range-hbg3601cps",
+        "source": "hisense"
+      }
     },
     {
       "id": "frigidaire-pcfg3080af",
@@ -7360,7 +7780,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wfgs7530rz.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6614/6614320_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfg505m0ms",
@@ -7645,7 +8070,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/electrolux-ecfg3068as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/kitchen/ranges/gas-ranges/ECFG3068AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "thor-kitchen-lrg3001u",
@@ -7676,7 +8106,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thor-kitchen-lrg3001u.png",
+        "source_url": "https://www.thorkitchen.com/products/thor-kitchen-30-inch-gas-range-lrg3001u-lrg3001ulp",
+        "source": "thor_kitchen"
+      }
     },
     {
       "id": "whirlpool-wfg525s0jz",
@@ -7822,7 +8257,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-fcrg3051bs.png",
+        "source_url": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/FCRG3051BS",
+        "source": "frigidaire"
+      }
     },
     {
       "id": "whirlpool-weg515s0ls",
@@ -7889,7 +8329,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-fcfg3083as.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519350_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-gcfg3059bf",
@@ -7952,7 +8397,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
-          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
         },
         "wirecutter": "upgrade pick (gas, baking) 2026",
         "endorsements": [
@@ -7961,8 +8407,15 @@
             "type": "roundup",
             "label": "Upgrade Pick (Gas) 2026: \"true convection oven… powerful cooktop with integrated griddle\"  | RECALL: Mar 2026 Electrolux recall for delayed-ignition burn risk",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Gas Ranges): tested",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
           }
-        ]
+        ],
+        "reviewed_status": "Best Gas Ranges)"
       },
       "pros": [],
       "cons": [],
@@ -8012,7 +8465,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-profile-pgb965ypfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488944_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-ltgl6937f",
@@ -8062,7 +8520,12 @@
         "PrintProof Stainless Steel",
         "PrintProof Black Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-ltgl6937f.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511371_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-studio-lutd4919sn",
@@ -8093,7 +8556,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-studio-lutd4919sn.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-lutd4919sn-dual-fuel-double-oven-range",
+        "source": "lg"
+      }
     },
     {
       "id": "ge-jgbs86spss",
@@ -8124,7 +8592,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-jgbs86spss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488962_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "cafe-cgs750p4mw2",
@@ -8155,7 +8628,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/cafe-cgs750p4mw2.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488857_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "cafe-c2s950p2ms1",
@@ -8197,7 +8675,12 @@
       "finishes": [
         "stainless with brushed handles"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/cafe-c2s950p2ms1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488905_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jgss86spss",
@@ -8228,7 +8711,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-jgss86spss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488950_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-ldgl6924s",
@@ -8259,7 +8747,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-ldgl6924s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6574/6574920_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kfgd500ess",
@@ -8285,7 +8778,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/ovens/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
         },
         "endorsements": [
           {
@@ -8294,7 +8788,8 @@
             "label": "Reviewed (Best Double Oven Ranges): KFGD500 family tested — \"Even-Heat True Convection allows your oven to heat up evenly\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-double-oven-ranges"
           }
-        ]
+        ],
+        "reviewed_status": "Best Double Oven Ranges)"
       },
       "pros": [],
       "cons": [],
@@ -8334,7 +8829,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/electrolux-ecfd3668as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/Kitchen/Ranges/Dual-Fuel-Ranges/ECFD3668AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "jennair-jgrp436hl",
@@ -8365,7 +8865,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jgrp436hl.jpg",
+        "source_url": "https://www.jennair.com/ranges/all-ranges/pdp.JGRP436HL.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "thor-kitchen-lrg3601u",
@@ -8396,7 +8901,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thor-kitchen-lrg3601u.png",
+        "source_url": "https://www.thorkitchen.com/products/thor-kitchen-36-inch-gas-range-lrg3601u",
+        "source": "thor_kitchen"
+      }
     },
     {
       "id": "monogram-zgp304ntss",
@@ -8437,7 +8947,12 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/monogram-zgp304ntss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZGP304NTSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "kitchenaid-kfdc500jss",
@@ -8468,7 +8983,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kfdc500jss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6383/6383058_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "dacor-dop30t840gs",
@@ -8499,7 +9019,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/dacor-dop30t840gs.png",
+        "source_url": "https://www.dacor.com/us/products/cooking/ranges/30-inch-gas-range-transitional-silver-stainless-natural-gas-liquid-propane-dop30t840gs/",
+        "source": "dacor"
+      }
     },
     {
       "id": "thermador-prg305wh",
@@ -8530,7 +9055,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-prg305wh.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRG305WH",
+        "source": "thermador"
+      }
     },
     {
       "id": "kitchenaid-kfgc500jpa",
@@ -8561,7 +9091,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kfgc500jpa.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6383/6383090_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-hgs8055uc",
@@ -8592,7 +9127,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/bosch-hgs8055uc.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418359_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-na36n7755tg",
@@ -8623,7 +9163,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-na36n7755tg.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6261/6261807_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-studio-cbgs3628s",
@@ -8654,7 +9199,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-studio-cbgs3628s.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-cbgs3628s-gas-cooktop",
+        "source": "lg"
+      }
     },
     {
       "id": "lg-cbgj3623s",
@@ -8685,7 +9235,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-cbgj3623s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534253_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "monogram-zgu36rslss",
@@ -8716,7 +9271,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/monogram-zgu36rslss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZGU36RSLSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "thermador-sgsx365ts",
@@ -8742,7 +9302,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
         },
         "endorsements": [
           {
@@ -8750,12 +9311,30 @@
             "type": "roundup",
             "label": "Reviewed (Best 36-inch Gas Cooktops): Best Gas Cooktop — \"five-burner cooktop delivers high temperatures, even cooking, and a stylish look\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best 36-inch High-End Gas Cooktops): \"Best Gas Cooktop\" / Editor's Choice — \"This five-burner cooktop delivers high temperatures, even cooking, and a stylish look for your kitchen.\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Wolf vs Thermador vs Viking Gas Cooktops): SGSX365TS — \"two intermittent simmers with 16,000 BTU center burner\" ($2,099)",
+            "url": "https://blog.yaleappliance.com/wolf-vs-thermador-vs-viking-gas-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Editors Choice · Best 36-inch High-End Gas Cooktops)"
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-sgsx365ts.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/gas-cooktops/SGSX365TS",
+        "source": "thermador"
+      }
     },
     {
       "id": "sks-upcg3654st",
@@ -8786,7 +9365,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sks-upcg3654st.jpg",
+        "source_url": "https://www.signaturekitchensuite.com/en-us/products/cooking/cooktops/36-inch-gas-cooktop/",
+        "source": "sks"
+      }
     },
     {
       "id": "ge-profile-pgp7036slss",
@@ -8812,7 +9396,8 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
         },
         "endorsements": [
           {
@@ -8820,12 +9405,24 @@
             "type": "roundup",
             "label": "Reviewed (Best 36-inch Gas Cooktops): tested — \"sleek construction, continuous steel grating\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best 36-inch High-End Gas Cooktops): \"This GE Profile cooktop offers sleek construction, continuous steel grating, and nice features.\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/the-best-high-end-36-inch-gas-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Best 36-inch Gas Cooktops)"
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-profile-pgp7036slss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5958/5958633_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "viking-vgsu53616bss",
@@ -8852,11 +9449,24 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Wolf vs Thermador vs Viking Gas Cooktops): VGSU5361-6B — \"six more durable brass burners with 66,000 total BTU output\" ($2,649)",
+            "url": "https://blog.yaleappliance.com/wolf-vs-thermador-vs-viking-gas-cooktops"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/viking-vgsu53616bss.jpg",
+        "source_url": "https://vikingrange.com/products/cook/cooktops/model/VGSU5361/sku/VGSU53616BSS",
+        "source": "viking"
+      }
     },
     {
       "id": "ge-jgp5036slss",
@@ -8887,7 +9497,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-jgp5036slss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5958/5958630_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "cafe-cgp70362ns1",
@@ -8918,7 +9533,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/cafe-cgp70362ns1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6333/6333928_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pgp9036slss",
@@ -8949,7 +9569,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-profile-pgp9036slss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5958/5958623_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "bosch-ngm8659uc",
@@ -8980,7 +9605,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/bosch-ngm8659uc.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572462_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mgc9536ds",
@@ -9011,7 +9641,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/maytag-mgc9536ds.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7694/7694414_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-na30n7755tg",
@@ -9042,7 +9677,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-na30n7755tg.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6261/6261811_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-na30n6555ts",
@@ -9073,7 +9713,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-na30n6555ts.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6261/6261809_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-cbgj3023s",
@@ -9107,7 +9752,12 @@
       "release_year": null,
       "wifi": false,
       "griddle": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-cbgj3023s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534247_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "monogram-zgu30rslss",
@@ -9138,7 +9788,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/monogram-zgu30rslss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZGU30RSLSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "lg-cbgj3027s",
@@ -9172,7 +9827,12 @@
       "release_year": null,
       "wifi": true,
       "griddle": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-cbgj3027s.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534258_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "thermador-sgsx305ts",
@@ -9203,7 +9863,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-sgsx305ts.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/gas-cooktops/SGSX305TS",
+        "source": "thermador"
+      }
     },
     {
       "id": "bosch-benchmark-ngmp059uc",
@@ -9272,7 +9937,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-na30r5310fs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6372/6372681_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pgp7030slss",
@@ -9303,7 +9973,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-profile-pgp7030slss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5958/5958620_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kced606gbl",
@@ -9341,7 +10016,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kced606gbl.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5855/5855118_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wce55us6hb",
@@ -9372,7 +10052,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wce55us6hb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6229/6229629_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-pcce3680af",
@@ -9403,7 +10088,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-pcce3680af.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617367_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kced600gss",
@@ -9470,7 +10160,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/kitchenaid-kces550hbl.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6303/6303952_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-lce3010sb",
@@ -9501,7 +10196,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/lg-lce3010sb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4790/4790126_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "maytag-mec8830hb",
@@ -9532,7 +10232,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/maytag-mec8830hb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6288/6288010_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jep5030dtbb",
@@ -9563,7 +10268,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-jep5030dtbb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6527/6527520_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "sharp-scr3041gb",
@@ -9594,7 +10304,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/sharp-scr3041gb.jpg",
+        "source_url": "https://shop.sharpusa.com/30-in-drop-in-radiant-cooktop-scr3041gb/",
+        "source": "sharp"
+      }
     },
     {
       "id": "thermador-cet305yb",
@@ -9625,7 +10340,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-cet305yb.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/electric-cooktops/CET305YB",
+        "source": "thermador"
+      }
     },
     {
       "id": "miele-km5624",
@@ -9656,7 +10376,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/miele-km5624.png",
+        "source_url": "https://www.mieleusa.com/product/7821680/30-inch-electric-cooktop-operated-with-its-own-controls-km-5624-240v-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "whirlpool-wce77us0hb",
@@ -9687,7 +10412,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wce77us0hb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6233/6233103_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "frigidaire-ffec3025ub",
@@ -9718,7 +10448,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/frigidaire-ffec3025ub.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323674_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nz30fg5332rkaa",
@@ -9749,7 +10484,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-nz30fg5332rkaa.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6618/6618131_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jp3030dwbb",
@@ -9780,7 +10520,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/ge-jp3030dwbb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6570/6570100_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wce55us0hb",
@@ -9811,7 +10556,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wce55us0hb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6229/6229628_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "samsung-nz30r5330rk",
@@ -9842,7 +10592,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-nz30r5330rk.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6372/6372672_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-cbih3613be",
@@ -9891,7 +10646,12 @@
       "finishes": [
         "black ceramic glass"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-cbih3613be.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6574/6574917_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "lg-studio-cbis3618be",
@@ -9949,7 +10709,12 @@
       "finishes": [
         "black ceramic glass"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-studio-cbis3618be.jpg",
+        "source_url": "https://www.lg.com/us/cooking-appliances/lg-cbis3618be-electric-cooktop",
+        "source": "lg-studio"
+      }
     },
     {
       "id": "monogram-zhu36rstss",
@@ -9986,7 +10751,12 @@
       "wifi": true,
       "finishes": [
         "stainless steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/monogram-zhu36rstss.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZHU36RSTSS",
+        "source": "monogram"
+      }
     },
     {
       "id": "cafe-chp90362tss",
@@ -10036,7 +10806,12 @@
         "flagstone gray",
         "stainless trim"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/cafe-chp90362tss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6527/6527328_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "kitchenaid-kcig556jbl",
@@ -10118,7 +10893,12 @@
       "wifi": true,
       "finishes": [
         "black ceramic glass"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/bosch-nit8060uc.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6496/6496114_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "electrolux-ecci3068as",
@@ -10153,7 +10933,12 @@
       "release_year": null,
       "finishes": [
         "stainless steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/electrolux-ecci3068as.jpg",
+        "source_url": "https://www.electrolux.com/en/p/Kitchen/Cooktops/Induction-Cooktops/ECCI3068AS",
+        "source": "electrolux"
+      }
     },
     {
       "id": "thermador-cit30ywbb",
@@ -10182,7 +10967,15 @@
           "cr": "https://www.consumerreports.org/cro/cooktops/buying-guide/index.htm",
           "manufacturer": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/induction-cooktops/CIT30YWBB",
           "best_buy": "https://www.bestbuy.com/site/thermador-freedom-series-30-built-in-electric-induction-cooktop-with-5-elements-wifi-and-frameless-design-dark-gray/6493203.p?skuId=6493203"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 30-inch Induction Cooktops 2025): \"still the most featured, with 48 sensors\" ($5,299)",
+            "url": "https://blog.yaleappliance.com/best-30-inch-induction-cooktops"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -10190,7 +10983,12 @@
       "wifi": true,
       "finishes": [
         "dark gray glass"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/thermador-cit30ywbb.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/induction-cooktops/CIT30YWBB",
+        "source": "thermador"
+      }
     },
     {
       "id": "miele-km7730fr",
@@ -10232,7 +11030,12 @@
         "black ceramic glass",
         "stainless steel frame"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/miele-km7730fr.png",
+        "source_url": "https://www.mieleusa.com/product/12074200/30-inch-induction-cooktop-operated-with-its-own-controls-km-7730-fr",
+        "source": "miele"
+      }
     },
     {
       "id": "frigidaire-pcci3080af",
@@ -10260,7 +11063,8 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/cooktops/frigidaire-professional-pcci3080af/m416949/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/cooktops/induction-cooktops/PCCI3080AF",
-          "home_depot": "https://www.homedepot.com/p/Frigidaire-Professional-30-in-4-Elements-Induction-Cooktop-in-Stainless-Steel-PCCI3080AF/333346150"
+          "home_depot": "https://www.homedepot.com/p/Frigidaire-Professional-30-in-4-Elements-Induction-Cooktop-in-Stainless-Steel-PCCI3080AF/333346150",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -10275,15 +11079,27 @@
             "type": "roundup",
             "label": "Reviewed (Best Electric Induction Cooktops): \"powerful 5,200-watt 11-inch PowerPlus burner, plus a bridge burner\"",
             "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Electric Induction Cooktops): tested — \"features a powerful 11-inch, 5,200-watt PowerPlus burner\"",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-electric-induction-cooktops"
           }
-        ]
+        ],
+        "reviewed_status": "Best Electric Induction Cooktops)"
       },
       "pros": [],
       "cons": [],
       "release_year": null,
       "finishes": [
         "smudge-proof stainless steel"
-      ]
+      ],
+      "image": {
+        "local": "images/ovens/frigidaire-pcci3080af.png",
+        "source_url": "https://www.frigidaire.com/en/p/kitchen/cooktops/induction-cooktops/PCCI3080AF",
+        "source": "frigidaire"
+      }
     },
     {
       "id": "dacor-dti30p876bb",
@@ -10314,7 +11130,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/dacor-dti30p876bb.jpg",
+        "source_url": "https://www.dacor.com/us/products/cooking/cooktops-and-rangetops/30-inch-induction-cooktop-frameless-transitional-black-glass-dti30p876bb/",
+        "source": "dacor"
+      }
     },
     {
       "id": "samsung-nz30a3060uk",
@@ -10345,7 +11166,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/samsung-nz30a3060uk.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6473/6473423_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "viking-rvic3304bbg",
@@ -10376,7 +11202,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/viking-rvic3304bbg.jpg",
+        "source_url": "https://vikingrange.com/products/cook/cooktops/model/RVIC330/sku/RVIC3304BBG",
+        "source": "viking"
+      }
     },
     {
       "id": "whirlpool-wci55us0jb",
@@ -10407,7 +11238,12 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/whirlpool-wci55us0jb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6448/6448600_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "thermador-pri30lbhu",
@@ -10450,7 +11286,12 @@
         "$9k MSRP — premium pricing without independent reliability data in our DB",
         "4.4 cf oven smaller than mainstream 30\" induction (LG 6.3 cf, Samsung 6.3 cf)"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/thermador-pri30lbhu.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRI30LBHU",
+        "source": "thermador"
+      }
     },
     {
       "id": "jennair-jpifc730rl",
@@ -10491,7 +11332,12 @@
         "4.1 cf oven typical of pro-style (smaller than slide-in equivalents)",
         "Two-year limited warranty short for the tier"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jpifc730rl.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-30-induction-professional-style-range.jpifc730rl.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "jennair-jpifc736rl",
@@ -10531,7 +11377,12 @@
       "cons": [
         "$15k MSRP enters Wolf/Miele territory without their reliability track record"
       ],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/jennair-jpifc736rl.jpg",
+        "source_url": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-36-induction-professional-style-range.jpifc736rl.html",
+        "source": "jennair"
+      }
     },
     {
       "id": "wolf-ir30450",
@@ -10574,7 +11425,12 @@
         "$9.9k MSRP — Wolf premium without independent Yale reliability data"
       ],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-ir30450.png",
+        "source_url": "https://www.subzero-wolf.com/wolf/ranges/induction-range/30-inch-transitional-induction-range",
+        "source": "wolf"
+      }
     },
     {
       "id": "wolf-ir36551",
@@ -10603,6 +11459,12 @@
             "type": "article",
             "label": "Yale 2026: 'Best for bakers who want power and consistency.' Top 36-inch induction for baking.",
             "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best 36-inch Induction Ranges 2026): IR36551/S/P family — \"Best Baking performance\" — \"At 6.3 cubic feet, it's one of the largest ovens in its class. And it uses Wolf's Dual VertiFlow convection system.\" ($14,070)",
+            "url": "https://blog.yaleappliance.com/best-36-inch-induction-ranges"
           }
         ]
       },
@@ -10617,7 +11479,12 @@
         "Pro-styling requires kitchen built around it"
       ],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/wolf-ir36551.png",
+        "source_url": "https://www.subzero-wolf.com/wolf/ranges/induction-range/36-inch-professional-induction-range",
+        "source": "wolf"
+      }
     },
     {
       "id": "lg-cbih3013be",
@@ -10665,7 +11532,12 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/ovens/lg-cbih3013be.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6574/6574919_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-jgb735spss",
@@ -10756,7 +11628,12 @@
         "No WiFi/smart features",
         "Single-fan convection (true convection has dual fans)"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/ge-jgb735spss.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488852_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "hotpoint-rbs160dmww",
@@ -10811,7 +11688,12 @@
         "No oven window or interior light",
         "No convection / air fry"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/hotpoint-rbs160dmww.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488930_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pb965ypfs",
@@ -10865,7 +11747,12 @@
         "Lower oven requires stooping",
         "Only the lower oven has true convection"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/ovens/ge-profile-pb965ypfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6444/6444795_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pgb935ypfs",
@@ -10896,7 +11783,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/",
-          "specs": "https://www.geappliances.com/appliance/GE-Profile-PGB935YPFS"
+          "specs": "https://www.geappliances.com/appliance/GE-Profile-PGB935YPFS",
+          "reviewed": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
         },
         "endorsements": [
           {
@@ -10904,8 +11792,15 @@
             "type": "roundup",
             "label": "Upgrade Pick (Gas) 2026: \"strongest power burner I've seen (20,000 Btu)… large, true convection oven and a reversible griddle… best cooktop of any model I evaluated.\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-gas-ranges/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Gas Ranges): tested",
+            "url": "https://www.reviewed.com/ovens/best-right-now/best-gas-ranges"
           }
-        ]
+        ],
+        "reviewed_status": "Best Gas Ranges)"
       },
       "pros": [
         "Wirecutter Upgrade Pick (Gas) — 20,000 BTU power burner is class-leading",
@@ -10917,7 +11812,12 @@
         "Only one finish (fingerprint-resistant stainless)",
         "Doesn't auto-sync with range hood (Wirecutter notes the electric double-oven version does)"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/ovens/ge-profile-pgb935ypfs.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6488/6488952_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wfg320m0mb",
@@ -10972,7 +11872,12 @@
         "Broiler in bottom drawer (no storage drawer)",
         "Grates separate into only 2 pieces — heavier to clean"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/ovens/whirlpool-wfg320m0mb.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6514/6514401_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "hotpoint-rgbs300dmww",
@@ -11027,7 +11932,12 @@
         "No convection, no oven window, no interior light",
         "Broiler in bottom drawer (no storage drawer)"
       ],
-      "release_year": 2022
+      "release_year": 2022,
+      "image": {
+        "local": "images/ovens/hotpoint-rgbs300dmww.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6273/6273921_sd.jpg",
+        "source": "best_buy"
+      }
     }
   ]
 }

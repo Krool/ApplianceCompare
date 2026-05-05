@@ -43,7 +43,7 @@
     "batch_round48_yale9_dw_2026_05": "Round 48: 2 more Yale category endorsements.",
     "batch_round49_2026_05": "Round 49: 4 per-model yale_reliability_pct values for LG dishwashers from Yale Most Reliable 2026 article (NEW signal type — expected to upgrade several limited → solid).",
     "batch_round51_reviewed6_dw_2026_05": "Round 51: 5 more Reviewed category endorsements.",
-    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 1 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
     "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 3 models."
   },
   "models": [
@@ -420,7 +420,12 @@
       "cycle_time_min": 165,
       "filter_type": "manual",
       "leak_protection": "WaterProof",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/miele-g5008scu.png",
+        "source_url": "https://www.mieleusa.com/product/11966810/built-under-dishwashers-g-5008-scu-active-clean-touch-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "kitchenaid-kdtm604kps",
@@ -598,7 +603,12 @@
       "cycle_time_min": 130,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": false
+      "interior_light": false,
+      "image": {
+        "local": "images/dishwashers/ge-gdt665synfs.png",
+        "source_url": "https://products.geappliances.com/appliance/gea-specs/GDT665SYNFS",
+        "source": "ge"
+      }
     },
     {
       "id": "whirlpool-wdt970sahz",
@@ -1150,7 +1160,12 @@
       "cycle_time_min": 165,
       "filter_type": "manual",
       "leak_protection": "WaterProof",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/miele-g7156scvi.png",
+        "source_url": "https://www.mieleusa.com/product/12055090/fully-integrated-dishwashers-in-standard-size-g-7156-scvi-xxl-sf-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "bosch-shv9pcm53n",
@@ -2157,7 +2172,12 @@
       "cycle_time_min": 150,
       "filter_type": "manual",
       "leak_protection": "AquaStop",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/thermador-dwhd560cfp.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/DWHD560CFP",
+        "source": "thermador"
+      }
     },
     {
       "id": "sks-sdwb24s3",
@@ -2289,7 +2309,12 @@
       "cycle_time_min": 165,
       "filter_type": "manual",
       "leak_protection": "AquaStop",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/gaggenau-df481700f.jpg",
+        "source_url": "https://www.gaggenau.com/us/en/mkt-product/DF481700F",
+        "source": "gaggenau"
+      }
     },
     {
       "id": "ge-gdf550psnss",
@@ -2381,7 +2406,12 @@
       "cycle_time_min": 140,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/monogram-zdt985sinii.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZDT985SINII",
+        "source": "monogram"
+      }
     },
     {
       "id": "bosch-shv88pz63n-ada",
@@ -2427,7 +2457,12 @@
       "cycle_time_min": 145,
       "filter_type": "manual",
       "leak_protection": "AquaStop",
-      "interior_light": false
+      "interior_light": false,
+      "image": {
+        "local": "images/dishwashers/bosch-shv88pz63n-ada.png",
+        "source_url": "https://www.bosch-home.com/us/productslist/home-appliances/SHV9PT53UC",
+        "source": "bosch"
+      }
     },
     {
       "id": "miele-g7316scuautodos",
@@ -3034,7 +3069,12 @@
       "leak_protection": "WaterProof",
       "interior_light": true,
       "last_updated": "2026-05-05",
-      "decibels": 42
+      "decibels": 42,
+      "image": {
+        "local": "images/dishwashers/miele-g5266scvi-sfp.png",
+        "source_url": "https://www.mieleusa.com/product/11695340/fully-integrated-dishwashers-in-standard-size-g-5266-scvi-sfp-active-plus-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "maytag-mdb4949skz",
@@ -3525,7 +3565,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g7196scvisf.png",
+        "source_url": "https://www.mieleusa.com/product/12496710/fully-integrated-dishwashers-in-standard-size-g-7196-scvi-sf-autodos-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "miele-g7176scvi",
@@ -3576,7 +3621,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g7176scvi.png",
+        "source_url": "https://www.mieleusa.com/e/fully-integrated-dishwasher-xxl-g-7176-scvi-xxl-sf-autodos-stainless-steel-12021290-p",
+        "source": "miele"
+      }
     },
     {
       "id": "thermador-dwhd661efp",
@@ -3622,7 +3672,12 @@
       "filter_type": "manual",
       "leak_protection": "AquaStop",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/thermador-dwhd661efp.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP",
+        "source": "thermador"
+      }
     },
     {
       "id": "lg-adfd5448at",
@@ -3727,7 +3782,12 @@
       "cycle_time_min": 135,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": false
+      "interior_light": false,
+      "image": {
+        "local": "images/dishwashers/lg-ldfc353ls.jpg",
+        "source_url": "https://www.lg.com/us/dishwashers/lg-ldfc353ls-front-control-dishwasher",
+        "source": "lg"
+      }
     },
     {
       "id": "kitchenaid-kdfe204kps",
@@ -3937,7 +3997,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g7186scvi.png",
+        "source_url": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "kitchenaid-kdtf924pps",
@@ -4034,7 +4099,12 @@
       "cycle_time_min": 135,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/midea-mdt24p3cst.jpg",
+        "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-24--top-control-dishwasher-with-3-stage-total-drying.mdt24p3cst",
+        "source": "midea"
+      }
     },
     {
       "id": "lg-ldfc2423v",
@@ -4135,7 +4205,12 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "height_in": 33.6,
-      "depth_in": 24.6
+      "depth_in": 24.6,
+      "image": {
+        "local": "images/dishwashers/lg-ldpn454ht.jpg",
+        "source_url": "https://www.lg.com/us/dishwashers/lg-ldpn454ht-top-control-dishwasher",
+        "source": "lg"
+      }
     },
     {
       "id": "lg-ldph5554s",
@@ -4243,7 +4318,12 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "height_in": 33.875,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "image": {
+        "local": "images/dishwashers/midea-mdf24p2bww.jpg",
+        "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-52-dba-front-control-dishwasher-with-interior-light.mdf24p2bww",
+        "source": "midea"
+      }
     },
     {
       "id": "midea-mdt24p5ast",
@@ -4279,7 +4359,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/midea-mdt24p5ast.jpg",
+        "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/24-dishwasher-with-targeted-wash-zones-wi-fi-and-45-dba-mdt24p5ast",
+        "source": "midea"
+      }
     },
     {
       "id": "bosch-she43c75n",
@@ -4381,7 +4466,12 @@
       "filter_type": "manual",
       "leak_protection": "AquaStop",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/thermador-dwhd640efm.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM",
+        "source": "thermador"
+      }
     },
     {
       "id": "whirlpool-wdp730hamz",
@@ -4480,7 +4570,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g5051scvi.png",
+        "source_url": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "bosch-she41cm5n",
@@ -4595,7 +4690,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g5056scvisf.png",
+        "source_url": "https://www.mieleusa.com/product/11695330/fully-integrated-dishwashers-in-standard-size-g-5056-scvi-sf-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "unique-appliances-ugp-24crdw",
@@ -4972,7 +5072,12 @@
       "cycle_time_min": 130,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6506js.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/",
+        "source": "sharp"
+      }
     },
     {
       "id": "asko-dbi564ixxls",
@@ -5017,7 +5122,12 @@
       "filter_type": "manual",
       "leak_protection": "AquaSafe",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/asko-dbi564ixxls.png",
+        "source_url": "https://us.asko.com/products/kitchen/dishwashers/touchproof-stainless-steel/DISHWASH-DW60-2-DBI564IXXLS-U-ASK/p/000000000000740106",
+        "source": "asko"
+      }
     },
     {
       "id": "insignia-ns-dwrf2ss3",
@@ -5094,7 +5204,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6767hs.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-smart-45-db-dishwasher-sdw6767hs/",
+        "source": "sharp"
+      }
     },
     {
       "id": "kitchenaid-kdtm704kps",
@@ -5198,7 +5313,12 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "height_in": 33.5,
-      "depth_in": 24
+      "depth_in": 24,
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6757es.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-45-db-dishwasher-sdw6757es/",
+        "source": "sharp"
+      }
     },
     {
       "id": "samsung-dw80r9950ug",
@@ -5283,7 +5403,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/frigidaire-gdsp471taf.png",
+        "source_url": "https://www.frigidaire.com/en/p/kitchen/dishwashers/GDSP471TAF",
+        "source": "frigidaire"
+      }
     },
     {
       "id": "frigidaire-fdsh4501as",
@@ -5368,7 +5493,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/whirlpool-wdps7024rz.jpg",
+        "source_url": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/comparison-chart.html",
+        "source": "whirlpool"
+      }
     },
     {
       "id": "samsung-dw80cg5451sr",
@@ -5453,7 +5583,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6888js.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/",
+        "source": "sharp"
+      }
     },
     {
       "id": "whirlpool-wdf341papm",
@@ -5571,7 +5706,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/cafe-cdp888m5vs5.jpg",
+        "source_url": "https://www.cafeappliances.com/appliance/Cafe-CustomFit-ENERGY-STAR-Stainless-Interior-Smart-Dishwasher-with-Ultra-Wash-Top-Rack-and-LED-Lights-39-dBA-in-Platinum-Glass-CDP888M5VS5",
+        "source": "cafe"
+      }
     },
     {
       "id": "whirlpool-wdp540hamz",
@@ -5648,7 +5788,12 @@
       "filter_type": "manual",
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/kitchenaid-kdte104kps.jpg",
+        "source_url": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.47-dba-two-rack-dishwasher-in-printshield-finish-with-prowash-cycle.kdte104kps.html",
+        "source": "kitchenaid"
+      }
     },
     {
       "id": "fisher-paykel-dd24dtx6hi1",
@@ -5693,7 +5838,12 @@
       "filter_type": "manual",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1.png",
+        "source_url": "https://www.fisherpaykel.com/us/dishwashing/integrated-dishwashers/series-11-integrated-tall-double-dishdrawer-dishwasher-dd24dtx6hi1-82163.html",
+        "source": "fisher-paykel"
+      }
     },
     {
       "id": "bertazzoni-dw24s3ipv",
@@ -5733,7 +5883,12 @@
       "finishes": [
         "Panel Ready"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/bertazzoni-dw24s3ipv.jpg",
+        "source_url": "https://us.bertazzoni.com/products/professional-series/dishwashers/24-inch-dishwasher-standard-tube-panel-ready",
+        "source": "bertazzoni"
+      }
     },
     {
       "id": "miele-g7216scu",
@@ -5793,7 +5948,12 @@
         "Miele service techs scarce in some regions",
         "$2,000 street price — premium territory"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/dishwashers/miele-g7216scu.png",
+        "source_url": "https://www.mieleusa.com/product/12497130/built-under-dishwashers-g-7216-scu-cleansteel-front",
+        "source": "miele"
+      }
     },
     {
       "id": "cafe-cdt888p2vs1",

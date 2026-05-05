@@ -362,7 +362,10 @@ body[data-density="compact"] .filter-item { padding: 3px 8px; font-size: 12.5px;
 body[data-density="compact"] .filter-group { margin-bottom: 16px; }
 body[data-density="compact"] .score-bar .num { font-size: 13px; }
 .cell-name {
-  display: flex; flex-direction: column; gap: 2px;
+  display: flex; flex-direction: column; gap: 2px; min-width: 0;
+}
+.cell-name-row {
+  display: flex; align-items: center; gap: 10px; min-width: 0;
 }
 .cell-name .name {
   font-weight: 500; color: var(--ink); font-variant-numeric: normal;
@@ -371,6 +374,49 @@ body[data-density="compact"] .score-bar .num { font-size: 13px; }
   font-size: 11.5px; color: var(--ink-3);
   font-family: var(--mono); font-variant-numeric: normal;
 }
+
+/* Product image — three sizes share the same placeholder treatment.
+   Real photos are 1:1 on a white field (manufacturer/retailer convention)
+   so contain-fit + bg-elev keeps them clean against the warm page bg. */
+.product-image {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.product-image-thumb { width: 40px; height: 40px; }
+.product-image-compare { width: 96px; height: 96px; margin: 0 auto 8px; display: flex; }
+.product-image-hero {
+  width: 100%; max-width: 360px; height: 240px;
+  display: flex; margin: 0 auto;
+  background: var(--bg-elev);
+  border-radius: 10px;
+}
+.product-image.is-placeholder {
+  background: var(--bg-sunk);
+  border-color: var(--line);
+}
+.product-image-monogram {
+  font-family: var(--serif); font-weight: 500;
+  color: var(--ink-3);
+  font-size: 16px; line-height: 1;
+}
+.product-image-thumb .product-image-monogram { font-size: 16px; }
+.product-image-compare .product-image-monogram { font-size: 36px; }
+.product-image-hero .product-image-monogram { font-size: 72px; }
+
+.drawer-hero-block {
+  margin-bottom: 24px;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+}
+.drawer-hero-credit {
+  font-size: 10.5px; color: var(--ink-3);
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.compare-table th .product-image-compare { margin-bottom: 6px; }
 .cell-brand { color: var(--ink-2); white-space: nowrap; }
 .cell-price { font-weight: 600; color: var(--ink); }
 .cell-price .msrp {
@@ -957,6 +1003,9 @@ body.has-compare { padding-bottom: 72px; }
   .appliance-table td.cell-brand { font-size: 11.5px; color: var(--ink-3); }
   .cell-name .name { font-size: 13px; line-height: 1.35; }
   .cell-name .sub { font-size: 10.5px; }
+  .cell-name-row { gap: 8px; }
+  .product-image-thumb { width: 32px; height: 32px; }
+  .product-image-hero { height: 180px; }
   .score-bar .num { font-size: 14px; }
   .score-bar .bar { display: none; }  /* keep the number, drop the bar on mobile */
 

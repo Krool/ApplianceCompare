@@ -33,7 +33,18 @@
     "cr_url_upgrade_4_2026_05": "Round 32: 4 more CR model-specific review URLs.",
     "dw_round33_2026_05": "Round 33: 1 CR URL upgrades + 3 retailer ratings.",
     "tier_upgrade_dw_2026_05": "Round 38 tier upgrade: 0 CR URL upgrades + 0 retailer ratings (each retailer add = new signal slot, pushes \"limited\" → \"solid\" in score-confidence tier).",
-    "batch_round41_2026_05": "Round 41: 3 Yale Miele G7000 series article endorsements (exact SKU matches only)."
+    "batch_round41_2026_05": "Round 41: 3 Yale Miele G7000 series article endorsements (exact SKU matches only).",
+    "batch_round42_yale6_dw_2026_05": "Round 42: 3 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round43_yale7_dw_2026_05": "Round 43: 3 Yale category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round44_reviewed3_dw_2026_05": "Round 44: 5 Reviewed category-roundup endorsements (only exact-SKU in-DB matches).",
+    "batch_round45_reviewed4_dw_2026_05": "Round 45: 6 more Reviewed category endorsements.",
+    "batch_round46_mixed_dw_2026_05": "Round 46: 10 more Reviewed/Yale category endorsements.",
+    "batch_round47_mixed_dw_2026_05": "Round 47: 12 more Yale/Reviewed dishwasher endorsements.",
+    "batch_round48_yale9_dw_2026_05": "Round 48: 2 more Yale category endorsements.",
+    "batch_round49_2026_05": "Round 49: 4 per-model yale_reliability_pct values for LG dishwashers from Yale Most Reliable 2026 article (NEW signal type — expected to upgrade several limited → solid).",
+    "batch_round51_reviewed6_dw_2026_05": "Round 51: 5 more Reviewed category endorsements.",
+    "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
+    "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 3 models."
   },
   "models": [
     {
@@ -96,6 +107,30 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/bosch-800-series-shp78cm5n-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice / Best Overall\" — \"It cleans even stubborn stains completely.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best Overall\" — \"It cleans even stubborn stains completely\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice / Best Overall\" — \"It cleans even stubborn stains completely\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Best Overall Dishwasher\" — \"operation levels are a very quiet 42 dBA\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
         ]
       },
@@ -150,6 +185,12 @@
             "type": "article",
             "label": "Yale 2026: Bosch — 8.7% service rate; CR best dishwasher and french-door brand 2026",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch Dishwasher Series Differences): cited — Bosch 100 Series 24\" stainless steel built-in",
+            "url": "https://blog.yaleappliance.com/differences-between-bosch-dishwashers"
           }
         ],
         "source_urls": {
@@ -355,6 +396,12 @@
             "type": "roundup",
             "label": "Top pick — Best Overall 2026: \"powerful, durable cleaner… highest owner-satisfaction rate\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Miele Dishwashers): \"Lowest Price\" — \"Think of this one as the intro course in Miele.\" ($1,299)",
+            "url": "https://blog.yaleappliance.com/best-miele-dishwashers"
           }
         ]
       },
@@ -373,7 +420,12 @@
       "cycle_time_min": 165,
       "filter_type": "manual",
       "leak_protection": "WaterProof",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/miele-g5008scu.png",
+        "source_url": "https://www.mieleusa.com/product/11966810/built-under-dishwashers-g-5008-scu-active-clean-touch-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "kitchenaid-kdtm604kps",
@@ -551,7 +603,12 @@
       "cycle_time_min": 130,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": false
+      "interior_light": false,
+      "image": {
+        "local": "images/dishwashers/ge-gdt665synfs.png",
+        "source_url": "https://products.geappliances.com/appliance/gea-specs/GDT665SYNFS",
+        "source": "ge"
+      }
     },
     {
       "id": "whirlpool-wdt970sahz",
@@ -752,6 +809,12 @@
             "type": "article",
             "label": "Yale 2026: LG — 5.5% overall service rate; the most reliable mainstream brand",
             "url": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 3.6% (n=309)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
           }
         ]
       },
@@ -874,6 +937,12 @@
             "type": "roundup",
             "label": "Recommended — Best Drying 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Recommended\" — third rack with dedicated jets",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
           }
         ]
       },
@@ -1091,7 +1160,12 @@
       "cycle_time_min": 165,
       "filter_type": "manual",
       "leak_protection": "WaterProof",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/miele-g7156scvi.png",
+        "source_url": "https://www.mieleusa.com/product/12055090/fully-integrated-dishwashers-in-standard-size-g-7156-scvi-xxl-sf-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "bosch-shv9pcm53n",
@@ -1517,7 +1591,15 @@
         },
         "source_urls": {
           "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.third-level-utensil-rack-dishwasher-with-30+-total-wash-jets,-39-dba.kdte204kps.html"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Fastest Dishwasher Cycles 2025): KDTE204KPS — \"Express Wash Cycle: 60 mins\" ($999)",
+            "url": "https://blog.yaleappliance.com/fastest-dishwasher-cycle-times"
+          }
+        ]
       },
       "pros": [
         "PrintShield finish",
@@ -1621,6 +1703,30 @@
             "type": "article",
             "label": "Yale 2026: 'Best drying with CrystalDry. Solid racks. Great for families with plastics.' — 7.7% service rate",
             "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Dishwashers 2026): \"Best Overall / Best drying with CrystalDry\" — \"The best dishwasher for drying plastics, and one of the best-balanced machines you can buy under $1,500.\" (~$1,399)",
+            "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch Dishwasher Series Differences): cited — Bosch 800 Series 24\" stainless top-control",
+            "url": "https://blog.yaleappliance.com/differences-between-bosch-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Bosch 800 Series 24\" stainless top-control ($1,549)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs KitchenAid vs Miele Dishwashers 2026): cited — \"7 cycles, 7 options | Sound Level: 42 dB | CrystalDry & AutoAir | Third Rack: Yes\"",
+            "url": "https://blog.yaleappliance.com/kitchenaid-vs-bosch-vs-miele-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -1963,6 +2069,30 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/products/bosch-benchmark-shp9pcm5n-dishwasher"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice\" — \"PowerControl-driven cleaning performance\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Bosch Benchmark 24\" stainless top-control ($1,799)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs KitchenAid vs Miele Dishwashers 2026): cited — \"9 cycles, 8 options | Sound Level: 39 dB | CrystalDry | Third Rack: Yes, adjustable\"",
+            "url": "https://blog.yaleappliance.com/kitchenaid-vs-bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Miele vs Bosch Benchmark): SHP9PCM5N — \"Pocket handle, 38 dB\" (~$2,000)",
+            "url": "https://blog.yaleappliance.com/miele-vs-bosch-benchmark-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2042,7 +2172,12 @@
       "cycle_time_min": 150,
       "filter_type": "manual",
       "leak_protection": "AquaStop",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/thermador-dwhd560cfp.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/DWHD560CFP",
+        "source": "thermador"
+      }
     },
     {
       "id": "sks-sdwb24s3",
@@ -2174,7 +2309,12 @@
       "cycle_time_min": 165,
       "filter_type": "manual",
       "leak_protection": "AquaStop",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/gaggenau-df481700f.jpg",
+        "source_url": "https://www.gaggenau.com/us/en/mkt-product/DF481700F",
+        "source": "gaggenau"
+      }
     },
     {
       "id": "ge-gdf550psnss",
@@ -2266,7 +2406,12 @@
       "cycle_time_min": 140,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/monogram-zdt985sinii.jpg",
+        "source_url": "https://appliances.monogram.com/us/specs/ZDT985SINII",
+        "source": "monogram"
+      }
     },
     {
       "id": "bosch-shv88pz63n-ada",
@@ -2312,7 +2457,12 @@
       "cycle_time_min": 145,
       "filter_type": "manual",
       "leak_protection": "AquaStop",
-      "interior_light": false
+      "interior_light": false,
+      "image": {
+        "local": "images/dishwashers/bosch-shv88pz63n-ada.png",
+        "source_url": "https://www.bosch-home.com/us/productslist/home-appliances/SHV9PT53UC",
+        "source": "bosch"
+      }
     },
     {
       "id": "miele-g7316scuautodos",
@@ -2399,6 +2549,36 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/lg-ldth7972s-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice\" — \"Effective Heavy Duty cycle.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best Steam Dishwasher\" — \"Effective Heavy Duty cycle\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice\" — \"Effective Heavy Duty cycle\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Editors' Choice\" — \"at just 42 dBA, this quiet dishwasher certainly won't disrupt your dinner\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 6.3% (small sample n=16)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2654,6 +2834,12 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/bosch-she3aem2n-100-series-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): tested — \"Its good cleaning and drying performance make it a good value.\" ($999)",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2698,7 +2884,8 @@
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
           "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-300-series-she53c85n/m410627/",
-          "manufacturer": "https://www.bestbuy.com/product/bosch-300-series-24-front-control-smart-built-in-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46-dba-stainless-steel/J3P3229752"
+          "manufacturer": "https://www.bestbuy.com/product/bosch-300-series-24-front-control-smart-built-in-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46-dba-stainless-steel/J3P3229752",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
         },
         "cr_overall": 80,
         "cr_reliability": "very-good",
@@ -2714,6 +2901,12 @@
             "type": "roundup",
             "label": "\"Former top pick\" — Wirecutter no longer features Bosch but says \"we still like the 300 Series SHE53C85N… better dishwashers available for the price\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice\" — \"Great cleaning quality.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2722,7 +2915,8 @@
             "count": 321,
             "url": "https://www.bestbuy.com/site/bosch-300-series-24-front-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46dba-stainless-steel/6542986.p?skuId=6542986"
           }
-        }
+        },
+        "wirecutter": "top pick"
       },
       "pros": [
         "Reviewed.com: 'Great balance between price and performance'",
@@ -2767,6 +2961,12 @@
             "type": "roundup",
             "label": "Recommended — Best Drying (500 Series) 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): tested — \"Good cleaning power\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
           }
         ],
         "retailer_ratings": {
@@ -2836,6 +3036,24 @@
             "type": "article",
             "label": "Yale 2026: Miele 5.6% dishwasher service rate — most reliable",
             "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best for Drying Plastics\" — \"Impressive cleaning power\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers That Dry): \"Editor's Choice / Best Upgrade\" — \"Impressive cleaning power\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Miele 24\" built-in ($1,899)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
           }
         ]
       },
@@ -2851,7 +3069,12 @@
       "leak_protection": "WaterProof",
       "interior_light": true,
       "last_updated": "2026-05-05",
-      "decibels": 42
+      "decibels": 42,
+      "image": {
+        "local": "images/dishwashers/miele-g5266scvi-sfp.png",
+        "source_url": "https://www.mieleusa.com/product/11695340/fully-integrated-dishwashers-in-standard-size-g-5266-scvi-sfp-active-plus-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "maytag-mdb4949skz",
@@ -2881,6 +3104,24 @@
             "type": "review",
             "label": "Reviewed.com individual review",
             "url": "https://www.reviewed.com/dishwashers/content/maytag-mdb4949skz-dishwasher-review"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice / Best Value\" — \"Auto and Normal cycles scrub out most stains.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best Basic No-Frills\" — \"Auto and Normal cycles scrub out most stains\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): \"Editor's Choice / Best Affordable Dishwasher\" — \"Auto and Normal cycles scrub out most stains\" ($599)",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ],
         "retailer_ratings": {
@@ -2936,6 +3177,18 @@
             "type": "roundup",
             "label": "Best Dishwasher for Open Kitchens 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Editor's Choice / Best for Open Kitchens\" — \"Auto-open door\" with \"Quiet operation\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Editor's Choice / Lowest dBA\" — \"operating at a mere 38 dBA\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
         ]
       },
@@ -2959,7 +3212,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/samsung-dw90f89p0usr.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617108_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "ge-profile-pdp755syvfs",
@@ -2991,6 +3249,18 @@
             "type": "article",
             "label": "Yale 2026: 'Best for service. Hard-food disposer. Quiet American-style loading.' — 10.3% service rate",
             "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Quietest Dishwashers 2026): 42 dB — \"quiet, and you don't have to clean a filter\"",
+            "url": "https://blog.yaleappliance.com/quietest-dishwasher-by-decibel-rating"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Dishwashers main guide): \"Best for Large Families\" — \"3rd rack with dedicated jets\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers"
           }
         ],
         "yale_reliability_pct": 10.3,
@@ -3036,6 +3306,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Recommended — Affordable Dishwasher 2026",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): \"Recommended\" — \"PowerBlast cycle offers intense cleaning\" ($579)",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ],
@@ -3089,6 +3365,12 @@
             "type": "roundup",
             "label": "Affordable pick 2026",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): tested — \"Dries dishes decently\" ($679)",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ]
       },
@@ -3133,6 +3415,12 @@
             "channel": "Reviewed",
             "type": "roundup",
             "label": "Best Under $500 2026",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Affordable Dishwashers): \"Best Dishwasher Under $500\" — \"Multiple wash cycles and options\" ($399)",
             "url": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers"
           }
         ]
@@ -3191,7 +3479,15 @@
           "best_buy": {
             "url": "https://www.bestbuy.com/site/bosch-100-series-premium-24-top-control-smart-built-in-hybrid-stainless-steel-tub-dishwasher-with-3rd-rack-46-dba-stainless-steel/6543005.p"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Bosch Dishwashers): \"Best Budget Pick\" — \"If you want Bosch's reliability without paying a premium price, the 100 Series is your best option.\" ($799-$899)",
+            "url": "https://blog.yaleappliance.com/the-best-bosch-dishwashers-ratings-reviews-prices"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3243,6 +3539,12 @@
             "type": "article",
             "label": "Yale (Miele G7000 series review): G 7196 SCVi — \"mid-range stainless steel model with top controls\" ($2,149)",
             "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Miele Dishwashers): \"Most Popular\" — \"This is the sweet spot in Miele's G7000 lineup. You get many of the same cleaning and drying features as the top-end model for about $1,500 less.\" ($2,149)",
+            "url": "https://blog.yaleappliance.com/best-miele-dishwashers"
           }
         ]
       },
@@ -3263,7 +3565,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g7196scvisf.png",
+        "source_url": "https://www.mieleusa.com/product/12496710/fully-integrated-dishwashers-in-standard-size-g-7196-scvi-sf-autodos-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "miele-g7176scvi",
@@ -3314,7 +3621,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g7176scvi.png",
+        "source_url": "https://www.mieleusa.com/e/fully-integrated-dishwasher-xxl-g-7176-scvi-xxl-sf-autodos-stainless-steel-12021290-p",
+        "source": "miele"
+      }
     },
     {
       "id": "thermador-dwhd661efp",
@@ -3360,7 +3672,12 @@
       "filter_type": "manual",
       "leak_protection": "AquaStop",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/thermador-dwhd661efp.jpg",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP",
+        "source": "thermador"
+      }
     },
     {
       "id": "lg-adfd5448at",
@@ -3381,12 +3698,13 @@
       "ratings": {
         "cr_overall": 78,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-adfd5448at/m414655/",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-adfd5448at-front-control-dishwasher",
-          "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
+          "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -3397,7 +3715,15 @@
           "home_depot": {
             "url": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 0% (small sample n=9)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3456,7 +3782,12 @@
       "cycle_time_min": 135,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": false
+      "interior_light": false,
+      "image": {
+        "local": "images/dishwashers/lg-ldfc353ls.jpg",
+        "source_url": "https://www.lg.com/us/dishwashers/lg-ldfc353ls-front-control-dishwasher",
+        "source": "lg"
+      }
     },
     {
       "id": "kitchenaid-kdfe204kps",
@@ -3539,12 +3870,13 @@
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldth555ns-top-control-dishwasher",
-          "home_depot": "https://www.homedepot.com/p/LG-24-in-Top-Control-Smart-Wi-Fi-Enabled-Dishwasher-QuadWash-Pro-Dynamic-Heat-Dry-3rd-Rack-in-PrintProof-Stainless-Steel-LDTH555NS/333439434"
+          "home_depot": "https://www.homedepot.com/p/LG-24-in-Top-Control-Smart-Wi-Fi-Enabled-Dishwasher-QuadWash-Pro-Dynamic-Heat-Dry-3rd-Rack-in-PrintProof-Stainless-Steel-LDTH555NS/333439434",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -3552,7 +3884,15 @@
             "count": 207,
             "url": "https://www.bestbuy.com/product/lg-24-top-control-smart-built-in-tub-dishwasher-with-3rd-rack-quadwash-pro-and-46db-stainless-steel/J7G56588H4"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 0% (small sample n=2)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3613,6 +3953,30 @@
             "type": "article",
             "label": "Yale (Miele G7000 series review): G 7186 SCVi — \"panel-ready configuration with top controls\" ($1,949)",
             "url": "https://blog.yaleappliance.com/are-the-miele-g-7000-dishwashers-any-good"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Dishwashers 2026): G 7186 SCVi family — \"Best racking, washing, and cleanest dishes\" — \"The best dishwasher for racking, washing performance, and the cleanest results on fully loaded cycles.\" (~$2,399)",
+            "url": "https://blog.yaleappliance.com/best-dishwasher-deals"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Panel-Ready Dishwashers): \"Best Washing System\" — \"If you want the most complete wash system, Miele is still the standard.\" ($1,999)",
+            "url": "https://blog.yaleappliance.com/best-paneled-dishwasher-reviews"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): G 7186 SCVi family — Miele 24\" stainless top-control built-in ($2,199)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          },
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs KitchenAid vs Miele Dishwashers 2026): G 7186 SCVi SF — \"9 cycles | Sound Level: 42 dB | SensorDry | Third Rack: Yes\"",
+            "url": "https://blog.yaleappliance.com/kitchenaid-vs-bosch-vs-miele-dishwashers"
           }
         ]
       },
@@ -3633,7 +3997,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g7186scvi.png",
+        "source_url": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "kitchenaid-kdtf924pps",
@@ -3730,7 +4099,12 @@
       "cycle_time_min": 135,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/midea-mdt24p3cst.jpg",
+        "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-24--top-control-dishwasher-with-3-stage-total-drying.mdt24p3cst",
+        "source": "midea"
+      }
     },
     {
       "id": "lg-ldfc2423v",
@@ -3751,13 +4125,22 @@
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfc2423v-front-control-dishwasher",
-          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2406462"
-        }
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2406462",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 0% (small sample n=17)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3822,7 +4205,12 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "height_in": 33.6,
-      "depth_in": 24.6
+      "depth_in": 24.6,
+      "image": {
+        "local": "images/dishwashers/lg-ldpn454ht.jpg",
+        "source_url": "https://www.lg.com/us/dishwashers/lg-ldpn454ht-top-control-dishwasher",
+        "source": "lg"
+      }
     },
     {
       "id": "lg-ldph5554s",
@@ -3843,12 +4231,13 @@
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
-        "yale_reliability_pct": null,
+        "yale_reliability_pct": 14.3,
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher",
-          "spec_sheet": "https://static.pcrichard.com/docs/LDPH5554S_Specifications-Sheet_01.pdf"
+          "spec_sheet": "https://static.pcrichard.com/docs/LDPH5554S_Specifications-Sheet_01.pdf",
+          "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -3856,7 +4245,15 @@
             "count": 197,
             "url": "https://www.bestbuy.com/site/lg-24-top-control-smart-built-in-stainless-steel-tub-dishwasher-with-3rd-rack-quadwash-pro-and-46db-stainless-steel/6570943.p"
           }
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "data",
+            "label": "Yale (Most Reliable Dishwashers 2026): per-model service rate 14.3% (small sample n=7)",
+            "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
+          }
+        ]
       },
       "pros": [],
       "cons": [],
@@ -3921,7 +4318,12 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "height_in": 33.875,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "image": {
+        "local": "images/dishwashers/midea-mdf24p2bww.jpg",
+        "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-52-dba-front-control-dishwasher-with-interior-light.mdf24p2bww",
+        "source": "midea"
+      }
     },
     {
       "id": "midea-mdt24p5ast",
@@ -3957,7 +4359,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/midea-mdt24p5ast.jpg",
+        "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/24-dishwasher-with-targeted-wash-zones-wi-fi-and-45-dba-mdt24p5ast",
+        "source": "midea"
+      }
     },
     {
       "id": "bosch-she43c75n",
@@ -4059,7 +4466,12 @@
       "filter_type": "manual",
       "leak_protection": "AquaStop",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/thermador-dwhd640efm.png",
+        "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM",
+        "source": "thermador"
+      }
     },
     {
       "id": "whirlpool-wdp730hamz",
@@ -4131,7 +4543,15 @@
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508391"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Best Panel-Ready Dishwashers): budget panel-ready pick — \"You lose AutoDos and some rack flexibility, but it has the same core wash and dry system.\" ($1,449)",
+            "url": "https://blog.yaleappliance.com/best-paneled-dishwasher-reviews"
+          }
+        ]
       },
       "pros": [
         "Quiet (44 dB)",
@@ -4150,7 +4570,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g5051scvi.png",
+        "source_url": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "bosch-she41cm5n",
@@ -4176,7 +4601,8 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N",
-          "spec_sheet": "https://media3.bosch-home.com/Documents/24579307_SHE41CM5N_Spec_Sheet.pdf"
+          "spec_sheet": "https://media3.bosch-home.com/Documents/24579307_SHE41CM5N_Spec_Sheet.pdf",
+          "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -4192,7 +4618,8 @@
             "label": "Wirecutter notes the new cheaper SHE41CM5N: \"no third rack… not yet tested\" (Feb 2026)",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
           }
-        ]
+        ],
+        "wirecutter": "Wirecutter pick"
       },
       "pros": [],
       "cons": [],
@@ -4237,7 +4664,15 @@
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.mieleusa.com/product/11695330/fully-integrated-dishwashers-in-standard-size-g-5056-scvi-sf-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508393"
-        }
+        },
+        "endorsements": [
+          {
+            "channel": "Yale Appliance",
+            "type": "article",
+            "label": "Yale (Bosch vs Miele Dishwashers): cited — Miele 24\" built-in ($1,599)",
+            "url": "https://blog.yaleappliance.com/bosch-vs-miele-dishwashers"
+          }
+        ]
       },
       "pros": [
         "Quiet (44 dB)",
@@ -4255,7 +4690,12 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/miele-g5056scvisf.png",
+        "source_url": "https://www.mieleusa.com/product/11695330/fully-integrated-dishwashers-in-standard-size-g-5056-scvi-sf-stainless-steel",
+        "source": "miele"
+      }
     },
     {
       "id": "unique-appliances-ugp-24crdw",
@@ -4381,7 +4821,12 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "height_in": 33.8,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "image": {
+        "local": "images/dishwashers/insignia-ns-dwr3ss1.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6403/6403040_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "whirlpool-wdt550sapz",
@@ -4627,7 +5072,12 @@
       "cycle_time_min": 130,
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
-      "interior_light": true
+      "interior_light": true,
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6506js.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/",
+        "source": "sharp"
+      }
     },
     {
       "id": "asko-dbi564ixxls",
@@ -4672,7 +5122,12 @@
       "filter_type": "manual",
       "leak_protection": "AquaSafe",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/asko-dbi564ixxls.png",
+        "source_url": "https://us.asko.com/products/kitchen/dishwashers/touchproof-stainless-steel/DISHWASH-DW60-2-DBI564IXXLS-U-ASK/p/000000000000740106",
+        "source": "asko"
+      }
     },
     {
       "id": "insignia-ns-dwrf2ss3",
@@ -4708,7 +5163,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/insignia-ns-dwrf2ss3.jpg",
+        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477035_sd.jpg",
+        "source": "best_buy"
+      }
     },
     {
       "id": "sharp-sdw6767hs",
@@ -4744,7 +5204,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6767hs.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-smart-45-db-dishwasher-sdw6767hs/",
+        "source": "sharp"
+      }
     },
     {
       "id": "kitchenaid-kdtm704kps",
@@ -4848,7 +5313,12 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "height_in": 33.5,
-      "depth_in": 24
+      "depth_in": 24,
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6757es.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-45-db-dishwasher-sdw6757es/",
+        "source": "sharp"
+      }
     },
     {
       "id": "samsung-dw80r9950ug",
@@ -4933,7 +5403,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/frigidaire-gdsp471taf.png",
+        "source_url": "https://www.frigidaire.com/en/p/kitchen/dishwashers/GDSP471TAF",
+        "source": "frigidaire"
+      }
     },
     {
       "id": "frigidaire-fdsh4501as",
@@ -5018,7 +5493,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/whirlpool-wdps7024rz.jpg",
+        "source_url": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/comparison-chart.html",
+        "source": "whirlpool"
+      }
     },
     {
       "id": "samsung-dw80cg5451sr",
@@ -5103,7 +5583,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/sharp-sdw6888js.jpg",
+        "source_url": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/",
+        "source": "sharp"
+      }
     },
     {
       "id": "whirlpool-wdf341papm",
@@ -5221,7 +5706,12 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/cafe-cdp888m5vs5.jpg",
+        "source_url": "https://www.cafeappliances.com/appliance/Cafe-CustomFit-ENERGY-STAR-Stainless-Interior-Smart-Dishwasher-with-Ultra-Wash-Top-Rack-and-LED-Lights-39-dBA-in-Platinum-Glass-CDP888M5VS5",
+        "source": "cafe"
+      }
     },
     {
       "id": "whirlpool-wdp540hamz",
@@ -5298,7 +5788,12 @@
       "filter_type": "manual",
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/kitchenaid-kdte104kps.jpg",
+        "source_url": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.47-dba-two-rack-dishwasher-in-printshield-finish-with-prowash-cycle.kdte104kps.html",
+        "source": "kitchenaid"
+      }
     },
     {
       "id": "fisher-paykel-dd24dtx6hi1",
@@ -5343,7 +5838,12 @@
       "filter_type": "manual",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1.png",
+        "source_url": "https://www.fisherpaykel.com/us/dishwashing/integrated-dishwashers/series-11-integrated-tall-double-dishdrawer-dishwasher-dd24dtx6hi1-82163.html",
+        "source": "fisher-paykel"
+      }
     },
     {
       "id": "bertazzoni-dw24s3ipv",
@@ -5383,7 +5883,12 @@
       "finishes": [
         "Panel Ready"
       ],
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "image": {
+        "local": "images/dishwashers/bertazzoni-dw24s3ipv.jpg",
+        "source_url": "https://us.bertazzoni.com/products/professional-series/dishwashers/24-inch-dishwasher-standard-tube-panel-ready",
+        "source": "bertazzoni"
+      }
     },
     {
       "id": "miele-g7216scu",
@@ -5443,7 +5948,12 @@
         "Miele service techs scarce in some regions",
         "$2,000 street price — premium territory"
       ],
-      "release_year": 2024
+      "release_year": 2024,
+      "image": {
+        "local": "images/dishwashers/miele-g7216scu.png",
+        "source_url": "https://www.mieleusa.com/product/12497130/built-under-dishwashers-g-7216-scu-cleansteel-front",
+        "source": "miele"
+      }
     },
     {
       "id": "cafe-cdt888p2vs1",
@@ -5474,7 +5984,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/",
-          "specs": "https://www.cafeappliances.com/appliance/CAFE-Dishwasher-CDT888P2VS1"
+          "specs": "https://www.cafeappliances.com/appliance/CAFE-Dishwasher-CDT888P2VS1",
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
         },
         "endorsements": [
           {
@@ -5482,8 +5993,21 @@
             "type": "roundup",
             "label": "Best for Customizable Design 2026: \"stylish dishwasher offers multiple exterior and hardware finishes… excellent, quiet cleaner… 39 decibels.\"",
             "url": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Stainless Steel Dishwashers): \"Editor's Choice / Best Upgrade\" — \"Extremely quiet.\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          },
+          {
+            "channel": "Reviewed",
+            "type": "roundup",
+            "label": "Reviewed (Best Quiet Dishwashers): \"Recommended\" — \"impressively quiet 39 dBA\"",
+            "url": "https://www.reviewed.com/dishwashers/best-right-now/best-quiet-dishwashers-2"
           }
-        ]
+        ],
+        "reviewed_status": "Editors Choice / Best Upgrade · Best Stainless Steel Dishwashers)"
       },
       "pros": [
         "Wirecutter Best-For-Design pick — 4 finishes × 6 hardware options",
@@ -5710,7 +6234,8 @@
             "label": "Yale 2026: KitchenAid 8.2% dishwasher service rate; M-Series build quality",
             "url": "https://blog.yaleappliance.com/most-reliable-dishwashers"
           }
-        ]
+        ],
+        "wirecutter": "Wirecutter pick"
       },
       "pros": [
         "44 dBA + FreeFlex 3rd rack + interior LED at $1,500 street",

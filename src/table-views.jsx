@@ -1,11 +1,40 @@
 // Table, Drawer, Compare bar/modal
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
   relClass, tierClass,
   computeScore, getScoreConfidence, getSourceDisagreement,
   getRatingSources, aggregateRetailerStars, totalRetailerReviewCount,
 } from './helpers.jsx';
+
+// Product hero / thumbnail. Falls back to a brand-initial monogram when the
+// model has no image, or when the file fails to load (catches typo'd paths
+// or partially-populated data without a runtime crash). Local-only by design
+// — the page CSP blocks third-party img-src.
+function ProductImage({ model, brand, size = 'thumb' }) {
+  const [failed, setFailed] = useState(false);
+  const path = model.image?.local;
+  const showImage = path && !failed;
+  const initial = (brand?.name || model.brand || '?').trim().charAt(0).toUpperCase();
+  const className = 'product-image product-image-' + size;
+  if (showImage) {
+    return (
+      <img
+        className={className}
+        src={'./data/' + path}
+        alt={model.name + ' product photo'}
+        loading="lazy"
+        decoding="async"
+        onError={() => setFailed(true)}
+      />
+    );
+  }
+  return (
+    <span className={className + ' is-placeholder'} role="img" aria-label={`${model.name} (no image available)`}>
+      <span className="product-image-monogram">{initial}</span>
+    </span>
+  );
+}
 
 // Shared: closes a surface when Escape is pressed, traps Tab focus inside the
 // surface so keyboard users can't tab out of an open modal, and restores focus
@@ -175,9 +204,12 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
                 </td>
                 <td><ScoreBar value={score} confidence={confidence} disagreement={disagreement} /></td>
                 <td>
-                  <div className="cell-name">
-                    <span className="name">{m.name}</span>
-                    <span className="sub">{m.model}</span>
+                  <div className="cell-name-row">
+                    <ProductImage model={m} brand={b} size="thumb" />
+                    <div className="cell-name">
+                      <span className="name">{m.name}</span>
+                      <span className="sub">{m.model}</span>
+                    </div>
                   </div>
                 </td>
                 <td className="cell-brand">{b?.name || m.brand}</td>
@@ -284,6 +316,18 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
         </div>
 
         <div className="drawer-body">
+          <div className="drawer-hero-block">
+            <ProductImage model={model} brand={brand} size="hero" />
+            {model.image?.source_url && (
+              <a className="drawer-hero-credit"
+                 href={model.image.source_url}
+                 target="_blank" rel="noopener noreferrer"
+                 title="Image source">
+                Photo: {model.image.source === 'manufacturer' ? (brand?.name || 'manufacturer') : (model.image.source || 'source').replace(/_/g, ' ')}
+              </a>
+            )}
+          </div>
+
           <div className="drawer-section">
             <h3>Composite score</h3>
             <div className="score-grid">
@@ -505,6 +549,7 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
                 <th></th>
                 {items.map(m => (
                   <th key={m.id}>
+                    <ProductImage model={m} brand={brandsById[m.brand]} size="compare" />
                     {m.name}
                     <span className="sub">{m.model}</span>
                   </th>
