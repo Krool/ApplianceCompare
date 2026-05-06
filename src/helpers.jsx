@@ -52,10 +52,11 @@ function totalRetailerReviewCount(ratings) {
   ].reduce((s, c) => s + (c || 0), 0);
 }
 
-// Score: composite 0-100 based on user weights.
-// Quality is the mean of available quality sources (CR, Reviewed, Rtings, CNET, GH-numeric,
-// retailer-star-avg), so adding sources improves robustness without double-counting.
-function computeScore(item, brand, weights) {
+// Per-axis sub-scores that feed the composite. Returns one record per axis,
+// with the 0-100 sub-score (or null if missing) and a one-line input summary
+// suitable for the UI breakdown. computeScore is built directly on top of this
+// so the drawer's explanation can never disagree with the headline number.
+function getScoreBreakdown(item, brand) {
   const r = item.ratings || {};
 
   // --- Quality (all normalized to 0–100) ---
@@ -69,27 +70,42 @@ function computeScore(item, brand, weights) {
     typeof r.toms_guide === 'number' ? r.toms_guide * 20 : null,
     retailerAvg != null ? retailerAvg * 20 : null,
   ];
+  const qualityCount = qualitySources.filter(v => v != null && !Number.isNaN(v)).length;
   const qualityScore = meanOfAvail(qualitySources);
+  const qualityWhy = qualityCount === 0
+    ? 'no review sources'
+    : `mean of ${qualityCount} review source${qualityCount === 1 ? '' : 's'}`;
 
   // --- Reliability (Yale service rate, lower better; brand fallback) ---
-  const yale = r.yale_reliability_pct ?? brand?.service_rate_overall ?? null;
-  const yaleScore = yale == null ? null : Math.max(0, Math.min(100, 100 - (yale - 5) * 5));
+  const yaleVal = r.yale_reliability_pct ?? brand?.service_rate_overall ?? null;
+  const yaleFromModel = r.yale_reliability_pct != null;
+  const yaleScore = yaleVal == null ? null : Math.max(0, Math.min(100, 100 - (yaleVal - 5) * 5));
+  const yaleWhy = yaleVal == null
+    ? 'no Yale data'
+    : `Yale ${yaleVal}% service rate${yaleFromModel ? '' : ' (brand fallback)'}`;
 
   // --- Repairability (0–100, higher = easier to fix; model overrides brand) ---
-  const repair = r.repairability_score ?? brand?.repairability_score ?? null;
-  const repairScore = repair == null ? null : Math.max(0, Math.min(100, repair));
+  const repairVal = r.repairability_score ?? brand?.repairability_score ?? null;
+  const repairFromModel = r.repairability_score != null;
+  const repairScore = repairVal == null ? null : Math.max(0, Math.min(100, repairVal));
+  const repairWhy = repairVal == null
+    ? 'no data'
+    : `${repairVal}/100${repairFromModel ? '' : ' (brand fallback)'}`;
 
-  // --- Price (cheaper = better, log curve; rough cap at $15k) ---
+  // --- Price (cheaper = better, log curve) ---
   const priceVal = item.street_price ?? item.msrp;
   const priceScore = priceVal == null ? null : Math.max(0, 100 - Math.log10(priceVal / 500) * 35);
+  const priceWhy = priceVal == null ? 'no price' : '$' + priceVal.toLocaleString();
 
-  // --- Energy (only applies to fridges / dishwashers — kWh/yr lower better) ---
+  // --- Energy (kWh/yr — lower better; fridges/DW only) ---
   const kwh = item.energy_kwh_yr;
   const energyScore = kwh == null ? null : Math.max(0, 100 - (kwh - 200) / 8);
+  const energyWhy = kwh == null ? 'n/a for category' : `${kwh} kWh/yr`;
 
-  // --- Quietness (decibels — DW primarily; fridges via noise_db) ---
+  // --- Quietness (decibels) ---
   const db = item.decibels ?? item.noise_db;
   const quietScore = db == null ? null : Math.max(0, 100 - (db - 38) * 5);
+  const quietWhy = db == null ? 'n/a for category' : `${db} dB`;
 
   // --- Endorsements (qualitative editorial coverage) ---
   // Counts entries in r.endorsements plus a Wirecutter pick. We deliberately
@@ -97,21 +113,31 @@ function computeScore(item, brand, weights) {
   // Reviewed entry inside the endorsements array — counting both double-dips.
   // Curve: 0 → 0, 1 → 50, 2 → 75, 3 → 87.5, 4 → 93.75, 5+ → ~100. Zero scores
   // zero (not null) so the lack of editorial coverage is a penalty — the goal
-  // of this axis is to surface models that reviewers consistently endorse.
+  // of this axis is to surface models reviewers consistently endorse.
   const endorsementCount = (Array.isArray(r.endorsements) ? r.endorsements.length : 0)
     + (r.wirecutter != null ? 1 : 0);
   const endorsementScore = 100 * (1 - Math.pow(0.5, endorsementCount));
+  const endorsementWhy = endorsementCount === 0
+    ? 'no editorial picks'
+    : `${endorsementCount} editorial pick${endorsementCount === 1 ? '' : 's'}`;
 
-  // Compose, skipping null components and zero-weight components
-  const components = [
-    { v: qualityScore,      w: weights.quality },
-    { v: yaleScore,         w: weights.reliability },
-    { v: priceScore,        w: weights.price },
-    { v: repairScore,       w: weights.repairability },
-    { v: energyScore,       w: weights.energy },
-    { v: quietScore,        w: weights.quiet },
-    { v: endorsementScore,  w: weights.endorsements },
-  ].filter(c => c.v != null && c.w > 0);
+  return [
+    { key: 'quality',       label: 'Quality',       value: qualityScore,     why: qualityWhy },
+    { key: 'endorsements',  label: 'Endorsements',  value: endorsementScore, why: endorsementWhy },
+    { key: 'reliability',   label: 'Reliability',   value: yaleScore,        why: yaleWhy },
+    { key: 'price',         label: 'Price',         value: priceScore,       why: priceWhy },
+    { key: 'repairability', label: 'Repairability', value: repairScore,      why: repairWhy },
+    { key: 'energy',        label: 'Energy',        value: energyScore,      why: energyWhy },
+    { key: 'quiet',         label: 'Quietness',     value: quietScore,       why: quietWhy },
+  ];
+}
+
+// Score: composite 0-100 based on user weights, computed by reducing the
+// per-axis breakdown. Skips axes that are null (no data) or zero-weighted.
+function computeScore(item, brand, weights) {
+  const components = getScoreBreakdown(item, brand)
+    .map(b => ({ v: b.value, w: weights[b.key] }))
+    .filter(c => c.v != null && c.w > 0);
 
   if (!components.length) return null;
   const totalW = components.reduce((s, c) => s + c.w, 0);
@@ -296,5 +322,5 @@ export {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
   relClass, tierClass, safeUrl,
   meanOfAvail, aggregateRetailerStars, totalRetailerReviewCount,
-  computeScore, getScoreConfidence, getSourceDisagreement, getRatingSources, enrichModel,
+  computeScore, getScoreBreakdown, getScoreConfidence, getSourceDisagreement, getRatingSources, enrichModel,
 };

@@ -690,6 +690,59 @@ body[data-density="compact"] .score-bar .num { font-size: 13px; }
   margin-top: 2px;
 }
 
+/* Score breakdown — per-axis sub-scores feeding the composite. The "lost"
+   column tells the reader at a glance which axis is dragging a model down. */
+.breakdown-grid {
+  display: flex; flex-direction: column;
+  border-top: 1px solid var(--line);
+}
+.breakdown-row {
+  display: grid;
+  grid-template-columns: minmax(110px, 0.9fr) 48px minmax(78px, auto) 56px 1fr;
+  column-gap: 14px; row-gap: 2px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: baseline;
+  font-variant-numeric: tabular-nums;
+}
+.breakdown-row:last-child { border-bottom: 0; }
+.breakdown-label { font-size: 13px; color: var(--ink-2); font-weight: 500; }
+.breakdown-score {
+  font-family: var(--serif); font-size: 16px; font-weight: 500;
+  color: var(--ink); text-align: right;
+}
+.breakdown-share {
+  font-size: 11px; color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+.breakdown-cost {
+  font-size: 12px; color: var(--bad); text-align: right;
+  font-weight: 500;
+}
+.breakdown-why {
+  font-size: 12px; color: var(--ink-3);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.breakdown-row.breakdown-muted .breakdown-label,
+.breakdown-row.breakdown-muted .breakdown-score,
+.breakdown-row.breakdown-muted .breakdown-why {
+  color: var(--ink-3); opacity: 0.7;
+}
+@media (max-width: 700px) {
+  .breakdown-row {
+    grid-template-columns: 1fr 44px 56px;
+    grid-template-areas:
+      'label score cost'
+      'why   why   share';
+    row-gap: 4px;
+  }
+  .breakdown-label { grid-area: label; }
+  .breakdown-score { grid-area: score; }
+  .breakdown-cost  { grid-area: cost; }
+  .breakdown-why   { grid-area: why; white-space: normal; }
+  .breakdown-share { grid-area: share; text-align: right; }
+}
+
 /* === Compare bar === */
 /* When the compare bar is mounted, body gets `has-compare` so content reserves
    space and the last row isn't hidden behind the fixed bar. */

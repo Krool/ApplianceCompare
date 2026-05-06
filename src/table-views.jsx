@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
   relClass, tierClass,
-  computeScore, getScoreConfidence, getSourceDisagreement,
+  computeScore, getScoreBreakdown, getScoreConfidence, getSourceDisagreement,
   getRatingSources, aggregateRetailerStars, totalRetailerReviewCount,
 } from './helpers.jsx';
 
@@ -368,6 +368,49 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
               })()}
             </div>
           </div>
+
+          {(() => {
+            const breakdown = getScoreBreakdown(model, brand);
+            const active = breakdown.filter(b => b.value != null && weights[b.key] > 0);
+            if (!active.length) return null;
+            const totalW = active.reduce((s, b) => s + weights[b.key], 0);
+            return (
+              <div className="drawer-section">
+                <h3>Score breakdown</h3>
+                <div className="breakdown-grid">
+                  {breakdown.map(b => {
+                    const w = weights[b.key] ?? 0;
+                    const hasValue = b.value != null;
+                    const inComposite = hasValue && w > 0;
+                    const effective = inComposite ? (w / totalW) * 100 : 0;
+                    const lostPoints = inComposite ? ((100 - b.value) * w) / totalW : null;
+                    let tagText, tagTitle;
+                    if (!hasValue) {
+                      tagText = 'no data';
+                      tagTitle = 'No input data; this axis is excluded from the composite.';
+                    } else if (w === 0) {
+                      tagText = 'weight 0';
+                      tagTitle = 'You have this axis weighted at zero, so it does not affect the composite.';
+                    } else {
+                      tagText = `${effective.toFixed(0)}% of score`;
+                      tagTitle = `Weight ${w} of ${totalW} active = ${effective.toFixed(1)}% of the composite`;
+                    }
+                    return (
+                      <div key={b.key} className={"breakdown-row" + (inComposite ? '' : ' breakdown-muted')}>
+                        <span className="breakdown-label">{b.label}</span>
+                        <span className="breakdown-score">{hasValue ? Math.round(b.value) : '—'}</span>
+                        <span className="breakdown-share" title={tagTitle}>{tagText}</span>
+                        <span className="breakdown-cost" title="Points lost to this axis on the final composite">
+                          {lostPoints != null && lostPoints > 0.05 ? `−${lostPoints.toFixed(1)}` : ''}
+                        </span>
+                        <span className="breakdown-why">{b.why}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })()}
 
           {(() => {
             const sources = getRatingSources(model);
