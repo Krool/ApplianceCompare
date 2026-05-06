@@ -11,7 +11,7 @@ A public research tool for comparing kitchen appliances — refrigerators, dishw
 - **~200 models across 3 categories** with full specs, pricing, and ratings from multiple review sources (Consumer Reports, Wirecutter, Reviewed, Yale Appliance, Rtings). The schema also carries slots for CNET, Good Housekeeping, retailer stars, and Reddit sentiment — populated as future data passes land.
 - **30 brands** profiled with reliability data (Yale 2026 service rates, CR 2026 predicted reliability) and tier classification.
 - **Filterable / sortable table** with a detail drawer and side-by-side compare (2–4 models).
-- **Weighted composite scoring** across five axes — quality, reliability, price, energy, quietness — which the reader can retune live from the Tweaks panel.
+- **Weighted composite scoring** across seven axes — quality, endorsements, reliability, price, repairability, energy, quietness — which the reader can retune live from the Tweaks panel.
 - **Buying guide** with per-category decision trees, red flags, and pro recommendations.
 - **Market trends doc** covering 2020–2026 shifts: induction adoption, inverter compressors, smart-home standards, gas-stove policy, heat-pump tech, and rebate programs.
 
@@ -73,9 +73,10 @@ The score shown in the table is a weighted blend of:
 | Axis | Default weight | What it pulls from |
 | --- | --- | --- |
 | Quality | 30 | Mean of available 0–100-normalized sources: CR overall, Reviewed, Rtings, CNET, GH (numeric), Tom's Guide, and retailer star averages |
-| Reliability | 30 | Yale service rate (model-specific, falls back to brand rate) |
-| Price | 25 | Log curve on street price, anchored around $500 |
-| Repairability | 15 | 0–100 ease-of-repair score (model-specific, falls back to brand) — sourced from Yale tech notes, parts-availability, and design factors (modular vs. board-driven) |
+| Endorsements | 30 | Count of editorial picks/roundups in `ratings.endorsements`, plus Wirecutter pick. Diminishing-returns curve `100·(1 − 0.5^count)` — 0 → 0, 1 → 50, 2 → 75, 3 → 88, 4 → 94, 5+ → ~100. Zero endorsements scores zero (not excluded), so models with no editorial backing are docked — the axis exists to surface consistently-endorsed picks. |
+| Reliability | 15 | Yale service rate (model-specific, falls back to brand rate) |
+| Price | 5 | Log curve on street price, anchored around $500 |
+| Repairability | 5 | 0–100 ease-of-repair score (model-specific, falls back to brand) — sourced from Yale tech notes, parts-availability, and design factors (modular vs. board-driven) |
 | Energy | 5 | kWh/yr — treated as ongoing-cost contributor (fridges, DW); neutral for cooking |
 | Quietness | 10 | Noise dB (fridges, DW) — neutral for cooking |
 

@@ -91,14 +91,26 @@ function computeScore(item, brand, weights) {
   const db = item.decibels ?? item.noise_db;
   const quietScore = db == null ? null : Math.max(0, 100 - (db - 38) * 5);
 
+  // --- Endorsements (qualitative editorial coverage) ---
+  // Counts entries in r.endorsements plus a Wirecutter pick. We deliberately
+  // don't count r.reviewed_status because in our data it's mirrored as a
+  // Reviewed entry inside the endorsements array — counting both double-dips.
+  // Curve: 0 → 0, 1 → 50, 2 → 75, 3 → 87.5, 4 → 93.75, 5+ → ~100. Zero scores
+  // zero (not null) so the lack of editorial coverage is a penalty — the goal
+  // of this axis is to surface models that reviewers consistently endorse.
+  const endorsementCount = (Array.isArray(r.endorsements) ? r.endorsements.length : 0)
+    + (r.wirecutter != null ? 1 : 0);
+  const endorsementScore = 100 * (1 - Math.pow(0.5, endorsementCount));
+
   // Compose, skipping null components and zero-weight components
   const components = [
-    { v: qualityScore, w: weights.quality },
-    { v: yaleScore,    w: weights.reliability },
-    { v: priceScore,   w: weights.price },
-    { v: repairScore,  w: weights.repairability },
-    { v: energyScore,  w: weights.energy },
-    { v: quietScore,   w: weights.quiet },
+    { v: qualityScore,      w: weights.quality },
+    { v: yaleScore,         w: weights.reliability },
+    { v: priceScore,        w: weights.price },
+    { v: repairScore,       w: weights.repairability },
+    { v: energyScore,       w: weights.energy },
+    { v: quietScore,        w: weights.quiet },
+    { v: endorsementScore,  w: weights.endorsements },
   ].filter(c => c.v != null && c.w > 0);
 
   if (!components.length) return null;

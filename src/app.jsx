@@ -10,11 +10,12 @@ import {
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "weight_quality": 30,
-  "weight_reliability": 30,
-  "weight_price": 25,
-  "weight_repairability": 15,
+  "weight_reliability": 15,
+  "weight_price": 5,
+  "weight_repairability": 5,
   "weight_energy": 5,
   "weight_quiet": 10,
+  "weight_endorsements": 30,
   "density": "comfortable",
   "showRetiredScores": true,
   "hideThinConfidence": false
@@ -37,6 +38,7 @@ function App({ data }) {
     repairability: tweaks.weight_repairability,
     energy: tweaks.weight_energy,
     quiet: tweaks.weight_quiet,
+    endorsements: tweaks.weight_endorsements,
   };
 
   const isGuide = tab === 'guide';
@@ -237,6 +239,7 @@ function App({ data }) {
       <TweaksPanel title="Tweaks">
         <TweakSection label="Score weights">
           <TweakSlider label="Quality (review aggregate)" value={tweaks.weight_quality} onChange={v => setTweaks('weight_quality', v)} min={0} max={50} step={5} />
+          <TweakSlider label="Endorsements (editorial picks)" value={tweaks.weight_endorsements} onChange={v => setTweaks('weight_endorsements', v)} min={0} max={50} step={5} />
           <TweakSlider label="Reliability (Yale service rate)" value={tweaks.weight_reliability} onChange={v => setTweaks('weight_reliability', v)} min={0} max={50} step={5} />
           <TweakSlider label="Price" value={tweaks.weight_price} onChange={v => setTweaks('weight_price', v)} min={0} max={50} step={5} />
           <TweakSlider label="Repairability" value={tweaks.weight_repairability} onChange={v => setTweaks('weight_repairability', v)} min={0} max={50} step={5} />
