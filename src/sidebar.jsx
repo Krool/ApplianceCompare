@@ -23,6 +23,7 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
   const tubs = {};
   const widths = {}; // numeric keys; filter values stored as numbers to match m.width_in
   let hasEnergyStar = false, hasWifi = false, hasPanelReady = false, hasAirFry = false;
+  let hasNoiseDb = false, hasCapacity = false;
   models.forEach(m => {
     brandCounts[m.brand] = (brandCounts[m.brand] || 0) + 1;
     const t = brandTier[m.brand];
@@ -39,6 +40,8 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
     if (m.wifi === true) hasWifi = true;
     if (m.panel_ready === true) hasPanelReady = true;
     if (m.air_fry === true) hasAirFry = true;
+    if (typeof m.decibels === 'number' || typeof m.noise_db === 'number') hasNoiseDb = true;
+    if (typeof m.capacity_cf === 'number' || typeof m.oven_capacity_cf === 'number') hasCapacity = true;
   });
   const visibleBrands = brands.filter(b => brandCounts[b.id]);
 
@@ -143,7 +146,19 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
       {category === 'ranges_ovens_cooktops' && facetSection("Style", "style", styles)}
       {category === 'ranges_ovens_cooktops' && facetSection("Fuel", "fuel", fuels, ["induction", "gas", "electric", "dual_fuel"])}
       {category === 'dishwashers' && facetSection("Tub", "tub", tubs, ["stainless", "plastic"])}
-      {category === 'dishwashers' && (
+      {hasCapacity && (
+        <div className="filter-group">
+          <GroupHeading keys={['capacityMin', 'capacityMax']}>Capacity (cu ft)</GroupHeading>
+          <div className="range-group">
+            <div className="range-row">
+              <input type="number" step="0.1" placeholder="Min" value={filters.capacityMin ?? ''} onChange={e => setF('capacityMin', e.target.value ? +e.target.value : null)} />
+              <span>to</span>
+              <input type="number" step="0.1" placeholder="Max" value={filters.capacityMax ?? ''} onChange={e => setF('capacityMax', e.target.value ? +e.target.value : null)} />
+            </div>
+          </div>
+        </div>
+      )}
+      {hasNoiseDb && (
         <div className="filter-group">
           <GroupHeading keys="dbMax">Quietness</GroupHeading>
           <div className="range-group">

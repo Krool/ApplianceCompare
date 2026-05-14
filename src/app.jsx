@@ -82,6 +82,12 @@ function App({ data }) {
         // since we can't verify they meet it.
         if (db == null || db > filters.dbMax) return false;
       }
+      if (filters.capacityMin != null || filters.capacityMax != null) {
+        const cap = m.capacity_cf ?? m.oven_capacity_cf;
+        if (cap == null) return false;
+        if (filters.capacityMin != null && cap < filters.capacityMin) return false;
+        if (filters.capacityMax != null && cap > filters.capacityMax) return false;
+      }
       if (search) {
         const q = search.toLowerCase();
         if (!(m.name + ' ' + m.model + ' ' + (b?.name || '')).toLowerCase().includes(q)) return false;

@@ -32,3 +32,6 @@ build/
 
 # Claude Code session state (user-local)
 .claude/
+
+# Local image-audit scratch (absolute paths, regenerated on demand)
+.image-audit/
