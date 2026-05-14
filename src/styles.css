@@ -131,10 +131,33 @@ tr:focus-visible { outline-offset: -2px; }
   padding-right: 24px;
 }
 .filter-group { margin-bottom: 24px; }
-.filter-group h3 {
+.filter-group.is-collapsed { margin-bottom: 8px; }
+.filter-group-toggle {
+  display: flex; align-items: center; gap: 8px;
+  width: 100%; padding: 4px 0;
+  background: none; border: 0; cursor: pointer;
+  font: inherit; color: var(--ink-3);
   font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em;
-  color: var(--ink-3); margin: 0 0 10px; font-weight: 600;
+  font-weight: 600; text-align: left;
 }
+.filter-group-toggle:hover { color: var(--ink); }
+.filter-group-toggle:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px;
+}
+.filter-group-toggle .filter-count { margin-left: 0; }
+.filter-group-chevron {
+  margin-left: auto; flex-shrink: 0;
+  width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 0.15s ease;
+  opacity: 0.6;
+}
+.filter-group.is-collapsed .filter-group-chevron {
+  transform: rotate(-45deg) translateY(0);
+}
+.filter-group-body { margin-top: 10px; }
 .filter-list {
   display: flex; flex-direction: column; gap: 4px;
 }

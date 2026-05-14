@@ -1,11 +1,12 @@
 // Sidebar — filters. Fully controlled by parent state.
 
-function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) {
+function Sidebar({ category, models, brands, filters, setFilters, collapsed, setCollapsed, onClearAll }) {
   const setF = (k, v) => setFilters({ ...filters, [k]: v });
   const toggle = (k, val) => {
     const cur = filters[k] || [];
     setF(k, cur.includes(val) ? cur.filter(x => x !== val) : [...cur, val]);
   };
+  const toggleCollapsed = (id) => setCollapsed({ ...collapsed, [id]: !collapsed[id] });
 
   // Single-pass aggregation across the unfiltered category. Row counts are
   // intentionally pre-filter — users want to see "French Door (42)" even
@@ -23,7 +24,7 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
   const tubs = {};
   const widths = {}; // numeric keys; filter values stored as numbers to match m.width_in
   let hasEnergyStar = false, hasWifi = false, hasPanelReady = false, hasAirFry = false;
-  let hasNoiseDb = false, hasCapacity = false;
+  let hasNoiseDb = false, hasCapacity = false, hasHeight = false;
   models.forEach(m => {
     brandCounts[m.brand] = (brandCounts[m.brand] || 0) + 1;
     const t = brandTier[m.brand];
@@ -42,6 +43,7 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
     if (m.air_fry === true) hasAirFry = true;
     if (typeof m.decibels === 'number' || typeof m.noise_db === 'number') hasNoiseDb = true;
     if (typeof m.capacity_cf === 'number' || typeof m.oven_capacity_cf === 'number') hasCapacity = true;
+    if (typeof m.height_in === 'number') hasHeight = true;
   });
   const visibleBrands = brands.filter(b => brandCounts[b.id]);
 
@@ -56,55 +58,68 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
     if (typeof v === 'boolean') return v ? 1 : 0;
     return v != null && v !== '' ? 1 : 0;
   };
-  const GroupHeading = ({ children, keys }) => {
+
+  // Collapsible group wrapper. `id` is the collapse-state key; `keys` is the
+  // filter key(s) used to compute the active-count badge.
+  const group = (id, label, keys, body) => {
     const n = (Array.isArray(keys) ? keys : [keys]).reduce((s, k) => s + filterCount(k), 0);
-    return <h3>{children}{n > 0 && <span className="filter-count">{n}</span>}</h3>;
+    const isOpen = !collapsed[id];
+    return (
+      <div key={id} className={"filter-group" + (isOpen ? '' : ' is-collapsed')}>
+        <button
+          type="button"
+          className="filter-group-toggle"
+          aria-expanded={isOpen}
+          aria-controls={`filter-body-${id}`}
+          onClick={() => toggleCollapsed(id)}
+        >
+          <span className="filter-group-label">{label}</span>
+          {n > 0 && <span className="filter-count">{n}</span>}
+          <span className="filter-group-chevron" aria-hidden="true" />
+        </button>
+        {isOpen && <div id={`filter-body-${id}`} className="filter-group-body">{body}</div>}
+      </div>
+    );
   };
 
   // Width facet — numeric values, sorted ascending, formatted as `30"`.
-  // Kept separate from facetSection so filter values stay as numbers (matching m.width_in).
-  const widthSection = () => {
+  // Kept separate from facetGroup so filter values stay as numbers (matching m.width_in).
+  const widthGroup = () => {
     const entries = Object.keys(widths)
       .map(k => [Number(k), widths[k]])
       .sort((a, b) => a[0] - b[0]);
     // A single-option facet offers no narrowing — hide it.
     if (entries.length < 2) return null;
-    return (
-      <div className="filter-group">
-        <GroupHeading keys="width">Width</GroupHeading>
-        <div className="filter-list">
-          {entries.map(([val, n]) => (
-            <label key={val} className="filter-item">
-              <input type="checkbox" checked={(filters.width || []).includes(val)} onChange={() => toggle('width', val)} />
-              <span>{val}&Prime;</span>
-              <span className="count">{n}</span>
-            </label>
-          ))}
-        </div>
+    return group('width', 'Width', 'width', (
+      <div className="filter-list">
+        {entries.map(([val, n]) => (
+          <label key={val} className="filter-item">
+            <input type="checkbox" checked={(filters.width || []).includes(val)} onChange={() => toggle('width', val)} />
+            <span>{val}&Prime;</span>
+            <span className="count">{n}</span>
+          </label>
+        ))}
       </div>
-    );
+    ));
   };
 
-  const facetSection = (label, key, dict, order) => {
+  const facetGroup = (id, label, key, dict, order) => {
     const entries = order
       ? order.filter(k => dict[k]).map(k => [k, dict[k]])
       : Object.entries(dict).sort((a,b) => b[1] - a[1]);
     // A single-option facet offers no narrowing — hide it.
     if (entries.length < 2) return null;
-    return (
-      <div className="filter-group">
-        <GroupHeading keys={key}>{label}</GroupHeading>
-        <div className="filter-list">
-          {entries.map(([val, n]) => (
-            <label key={val} className="filter-item">
-              <input type="checkbox" checked={(filters[key] || []).includes(val)} onChange={() => toggle(key, val)} />
-              <span style={{textTransform: 'capitalize'}}>{val.replace(/[_-]/g, ' ')}</span>
-              <span className="count">{n}</span>
-            </label>
-          ))}
-        </div>
+    return group(id, label, key, (
+      <div className="filter-list">
+        {entries.map(([val, n]) => (
+          <label key={val} className="filter-item">
+            <input type="checkbox" checked={(filters[key] || []).includes(val)} onChange={() => toggle(key, val)} />
+            <span style={{textTransform: 'capitalize'}}>{val.replace(/[_-]/g, ' ')}</span>
+            <span className="count">{n}</span>
+          </label>
+        ))}
       </div>
-    );
+    ));
   };
 
   const featureRow = (key, label) => (
@@ -128,8 +143,7 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
 
   return (
     <aside className="sidebar">
-      <div className="filter-group">
-        <GroupHeading keys={['priceMin', 'priceMax']}>Price (street)</GroupHeading>
+      {group('price', 'Price (street)', ['priceMin', 'priceMax'], (
         <div className="range-group">
           <div className="range-row">
             <input type="number" placeholder="Min" value={filters.priceMin ?? ''} onChange={e => setF('priceMin', e.target.value ? +e.target.value : null)} />
@@ -138,42 +152,44 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
           </div>
           {priceInverted && <div className="range-hint">Min is greater than max — no models will match.</div>}
         </div>
-      </div>
+      ))}
 
-      {category === 'refrigerators' && facetSection("Style", "style", styles)}
-      {category === 'refrigerators' && facetSection("Depth", "depth", depths, ["standard", "counter", "built_in"])}
-      {category === 'ranges_ovens_cooktops' && facetSection("Type", "type", types)}
-      {category === 'ranges_ovens_cooktops' && facetSection("Style", "style", styles)}
-      {category === 'ranges_ovens_cooktops' && facetSection("Fuel", "fuel", fuels, ["induction", "gas", "electric", "dual_fuel"])}
-      {category === 'dishwashers' && facetSection("Tub", "tub", tubs, ["stainless", "plastic"])}
-      {hasCapacity && (
-        <div className="filter-group">
-          <GroupHeading keys={['capacityMin', 'capacityMax']}>Capacity (cu ft)</GroupHeading>
-          <div className="range-group">
-            <div className="range-row">
-              <input type="number" step="0.1" placeholder="Min" value={filters.capacityMin ?? ''} onChange={e => setF('capacityMin', e.target.value ? +e.target.value : null)} />
-              <span>to</span>
-              <input type="number" step="0.1" placeholder="Max" value={filters.capacityMax ?? ''} onChange={e => setF('capacityMax', e.target.value ? +e.target.value : null)} />
-            </div>
+      {category === 'refrigerators' && facetGroup('style', "Style", "style", styles)}
+      {category === 'refrigerators' && facetGroup('depth', "Depth", "depth", depths, ["standard", "counter", "built_in"])}
+      {category === 'ranges_ovens_cooktops' && facetGroup('type', "Type", "type", types)}
+      {category === 'ranges_ovens_cooktops' && facetGroup('style', "Style", "style", styles)}
+      {category === 'ranges_ovens_cooktops' && facetGroup('fuel', "Fuel", "fuel", fuels, ["induction", "gas", "electric", "dual_fuel"])}
+      {category === 'dishwashers' && facetGroup('tub', "Tub", "tub", tubs, ["stainless", "plastic"])}
+      {hasCapacity && group('capacity', 'Capacity (cu ft)', ['capacityMin', 'capacityMax'], (
+        <div className="range-group">
+          <div className="range-row">
+            <input type="number" step="0.1" placeholder="Min" value={filters.capacityMin ?? ''} onChange={e => setF('capacityMin', e.target.value ? +e.target.value : null)} />
+            <span>to</span>
+            <input type="number" step="0.1" placeholder="Max" value={filters.capacityMax ?? ''} onChange={e => setF('capacityMax', e.target.value ? +e.target.value : null)} />
           </div>
         </div>
-      )}
-      {hasNoiseDb && (
-        <div className="filter-group">
-          <GroupHeading keys="dbMax">Quietness</GroupHeading>
-          <div className="range-group">
-            <div className="range-row">
-              <span>&le;</span>
-              <input type="number" placeholder="dB" value={filters.dbMax ?? ''} onChange={e => setF('dbMax', e.target.value ? +e.target.value : null)} />
-              <span>dB</span>
-            </div>
+      ))}
+      {hasNoiseDb && group('noise', 'Quietness', 'dbMax', (
+        <div className="range-group">
+          <div className="range-row">
+            <span>&le;</span>
+            <input type="number" placeholder="dB" value={filters.dbMax ?? ''} onChange={e => setF('dbMax', e.target.value ? +e.target.value : null)} />
+            <span>dB</span>
           </div>
         </div>
-      )}
-      {category !== 'dishwashers' && widthSection()}
+      ))}
+      {category !== 'dishwashers' && widthGroup()}
+      {hasHeight && group('height', 'Height (in)', ['heightMin', 'heightMax'], (
+        <div className="range-group">
+          <div className="range-row">
+            <input type="number" step="0.1" placeholder="Min" value={filters.heightMin ?? ''} onChange={e => setF('heightMin', e.target.value ? +e.target.value : null)} />
+            <span>to</span>
+            <input type="number" step="0.1" placeholder="Max" value={filters.heightMax ?? ''} onChange={e => setF('heightMax', e.target.value ? +e.target.value : null)} />
+          </div>
+        </div>
+      ))}
 
-      <div className="filter-group">
-        <GroupHeading keys="tier">Tier</GroupHeading>
+      {group('tier', 'Tier', 'tier', (
         <div className="filter-list">
           {tierOrder.map(t => {
             const n = tierCounts[t] || 0;
@@ -187,25 +203,21 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
             );
           })}
         </div>
-      </div>
+      ))}
 
-      {reliVisible.length > 0 && (
-        <div className="filter-group">
-          <GroupHeading keys="reliability">Reliability</GroupHeading>
-          <div className="filter-list">
-            {reliVisible.map(r => (
-              <label key={r} className="filter-item">
-                <input type="checkbox" checked={(filters.reliability || []).includes(r)} onChange={() => toggle('reliability', r)} />
-                <span style={{textTransform: 'capitalize'}}>{r.replace('-', ' ')}</span>
-                <span className="count">{reliCounts[r]}</span>
-              </label>
-            ))}
-          </div>
+      {reliVisible.length > 0 && group('reliability', 'Reliability', 'reliability', (
+        <div className="filter-list">
+          {reliVisible.map(r => (
+            <label key={r} className="filter-item">
+              <input type="checkbox" checked={(filters.reliability || []).includes(r)} onChange={() => toggle('reliability', r)} />
+              <span style={{textTransform: 'capitalize'}}>{r.replace('-', ' ')}</span>
+              <span className="count">{reliCounts[r]}</span>
+            </label>
+          ))}
         </div>
-      )}
+      ))}
 
-      <div className="filter-group">
-        <GroupHeading keys="brand">Brand</GroupHeading>
+      {group('brand', 'Brand', 'brand', (
         <div className="filter-list" style={{maxHeight: 280, overflowY: 'auto'}}>
           {[...visibleBrands].sort((a,b) => brandCounts[b.id] - brandCounts[a.id]).map(b => (
             <label key={b.id} className="filter-item">
@@ -215,14 +227,11 @@ function Sidebar({ category, models, brands, filters, setFilters, onClearAll }) 
             </label>
           ))}
         </div>
-      </div>
+      ))}
 
-      {featureRows.length > 0 && (
-        <div className="filter-group">
-          <GroupHeading keys={['energyStar', 'wifi', 'panelReady', 'airFry']}>Features</GroupHeading>
-          <div className="filter-list">{featureRows}</div>
-        </div>
-      )}
+      {featureRows.length > 0 && group('features', 'Features', ['energyStar', 'wifi', 'panelReady', 'airFry'], (
+        <div className="filter-list">{featureRows}</div>
+      ))}
 
       <button className="clear-filters" onClick={onClearAll || (() => setFilters({}))}>Clear all filters</button>
     </aside>

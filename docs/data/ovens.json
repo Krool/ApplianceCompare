@@ -8,7 +8,7 @@
       "Wirecutter Induction Range Guide",
       "DOE HEAR Rebates"
     ],
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-14",
     "spec_backfill_2026_05": "Round 1 spec backfill 2026-05-05 — oven_capacity / burners / max_burner / convection / air_fry / self_clean / wifi / msrp verified from manufacturer spec sheets. Each backfilled model gets a ratings.source_urls.specs entry citing the source. ~5 records updated this round.",
     "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls.",
     "endorsements_pass_2026_05": "Endorsements arrays added 2026-05-05 to 19 top-tier models — Reviewed.com best-of, Yale Appliance, and individual-review citations.",
@@ -50,7 +50,8 @@
     "batch_round50_2026_05": "Round 50: 2 Yale reliability-article model citations.",
     "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
     "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models.",
-    "batch_round55_2026_05": "Round 55: 7 more Reviewed oven-category endorsements."
+    "batch_round55_2026_05": "Round 55: 7 more Reviewed oven-category endorsements.",
+    "image_cleanup_2026_05_14": "Removed 13 wrong/misleading images (brand logos, water-filter accessory shots, completely-different-product photos). Punch list: .image-audit/punch-list.json."
   },
   "models": [
     {
@@ -583,12 +584,7 @@
         "No self-clean",
         "Weak fridge sibling reputation"
       ],
-      "release_year": 2023,
-      "image": {
-        "local": "images/ovens/bluestar-rnb364gv2.jpg",
-        "source_url": "https://www.bluestarcooking.com/cooking/ranges/36-rnb-series-range-with-12-griddle/",
-        "source": "bluestar"
-      }
+      "release_year": 2023
     },
     {
       "id": "miele-hr1934-3df",
@@ -767,12 +763,7 @@
       "cons": [
         "AquaLift mediocre"
       ],
-      "release_year": 2022,
-      "image": {
-        "local": "images/ovens/whirlpool-wfg775h0hz.jpg",
-        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6177/6177122_sd.jpg",
-        "source": "best_buy"
-      }
+      "release_year": 2022
     },
     {
       "id": "samsung-nx60bb871112",
@@ -1194,9 +1185,11 @@
       ],
       "image": {
         "local": "images/ovens/cafe-cts70dp2ns1.jpg",
-        "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6337/6337353_sd.jpg",
-        "source": "best_buy"
-      }
+        "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/404933-single-electric-wall-ovens-caf%C3%A9-cts70dp2ns1-10026858.png",
+        "source": "cr"
+      },
+      "_meta": {},
+      "last_updated": "2026-05-14"
     },
     {
       "id": "ge-jts5000snss",
@@ -2137,12 +2130,7 @@
       "cons": [
         "GE service"
       ],
-      "release_year": 2023,
-      "image": {
-        "local": "images/ovens/monogram-zhu36rspss.jpg",
-        "source_url": "https://appliances.monogram.com/us/specs/ZHU36RSPSS",
-        "source": "monogram"
-      }
+      "release_year": 2023
     },
     {
       "id": "samsung-nq70t5511ds",
@@ -4519,12 +4507,8 @@
       "finishes": [
         "Stainless Steel with PrintShield"
       ],
-      "last_updated": "2026-05-05",
-      "image": {
-        "local": "images/ovens/kitchenaid-kfeg504kps.jpg",
-        "source_url": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.30-inch-5-element-electric-convection-range-with-printshield-finish.kfeg504kps.html",
-        "source": "kitchenaid"
-      }
+      "last_updated": "2026-05-14",
+      "_meta": {}
     },
     {
       "id": "maytag-mfes8030rz",
@@ -4575,9 +4559,11 @@
       "release_year": 2024,
       "image": {
         "local": "images/ovens/maytag-mfes8030rz.jpg",
-        "source_url": "https://www.maytag.com/kitchen/ranges/electric/p.30-inch-wide-electric-range-with-grill-mode-5.3-cu.-ft.mfes8030rz.html",
-        "source": "maytag"
-      }
+        "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/416855-smoothtop-single-oven-30-inch-maytag-mfes8030rz-10043639.png",
+        "source": "cr"
+      },
+      "_meta": {},
+      "last_updated": "2026-05-14"
     },
     {
       "id": "amana-aer6603sms",
@@ -5152,12 +5138,7 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null,
-      "image": {
-        "local": "images/ovens/jennair-jes1450ml.jpg",
-        "source_url": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.2022-30-electric-slide-in-range.jes1450ml.html",
-        "source": "jennair"
-      }
+      "release_year": null
     },
     {
       "id": "whirlpool-wfe535s0lz",
@@ -6352,12 +6333,7 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null,
-      "image": {
-        "local": "images/ovens/jennair-jis1450ml.jpg",
-        "source_url": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.rise-induction-slide-in-range.jis1450ml.html",
-        "source": "jennair"
-      }
+      "release_year": null
     },
     {
       "id": "kitchenaid-ksis730pss",
@@ -6724,9 +6700,10 @@
         "black stainless",
         "tuscan steel"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "retired": true,
-      "retired_reason": "Discontinued by Samsung (2026 verification — multiple retailers confirm). Released 2020."
+      "retired_reason": "Discontinued by Samsung (2026 verification — multiple retailers confirm). Released 2020.",
+      "_meta": {}
     },
     {
       "id": "ge-ggf600avss",
@@ -8865,12 +8842,7 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null,
-      "image": {
-        "local": "images/ovens/jennair-jgrp436hl.jpg",
-        "source_url": "https://www.jennair.com/ranges/all-ranges/pdp.JGRP436HL.html",
-        "source": "jennair"
-      }
+      "release_year": null
     },
     {
       "id": "thor-kitchen-lrg3601u",
@@ -9272,11 +9244,8 @@
       "pros": [],
       "cons": [],
       "release_year": null,
-      "image": {
-        "local": "images/ovens/monogram-zgu36rslss.jpg",
-        "source_url": "https://appliances.monogram.com/us/specs/ZGU36RSLSS",
-        "source": "monogram"
-      }
+      "_meta": {},
+      "last_updated": "2026-05-14"
     },
     {
       "id": "thermador-sgsx365ts",
@@ -9906,7 +9875,14 @@
       },
       "pros": [],
       "cons": [],
-      "release_year": null
+      "release_year": null,
+      "image": {
+        "local": "images/ovens/bosch-benchmark-ngmp059uc.jpg",
+        "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/416254-30-inch-gas-cooktops-bosch-benchmark-ngmp059uc-10043419.png",
+        "source": "cr"
+      },
+      "_meta": {},
+      "last_updated": "2026-05-14"
     },
     {
       "id": "samsung-na30r5310fs",
@@ -10752,11 +10728,8 @@
       "finishes": [
         "stainless steel"
       ],
-      "image": {
-        "local": "images/ovens/monogram-zhu36rstss.jpg",
-        "source_url": "https://appliances.monogram.com/us/specs/ZHU36RSTSS",
-        "source": "monogram"
-      }
+      "_meta": {},
+      "last_updated": "2026-05-14"
     },
     {
       "id": "cafe-chp90362tss",
@@ -11333,11 +11306,8 @@
         "Two-year limited warranty short for the tier"
       ],
       "release_year": null,
-      "image": {
-        "local": "images/ovens/jennair-jpifc730rl.jpg",
-        "source_url": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-30-induction-professional-style-range.jpifc730rl.html",
-        "source": "jennair"
-      }
+      "_meta": {},
+      "last_updated": "2026-05-14"
     },
     {
       "id": "jennair-jpifc736rl",
@@ -11378,11 +11348,8 @@
         "$15k MSRP enters Wolf/Miele territory without their reliability track record"
       ],
       "release_year": null,
-      "image": {
-        "local": "images/ovens/jennair-jpifc736rl.jpg",
-        "source_url": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-36-induction-professional-style-range.jpifc736rl.html",
-        "source": "jennair"
-      }
+      "_meta": {},
+      "last_updated": "2026-05-14"
     },
     {
       "id": "wolf-ir30450",

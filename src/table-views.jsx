@@ -265,6 +265,7 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
   if (model.capacity_cf) specs.push(['Capacity', fmtCapacity(model.capacity_cf)]);
   if (model.oven_capacity_cf) specs.push(['Oven capacity', fmtCapacity(model.oven_capacity_cf)]);
   if (model.width_in) specs.push(['Width', model.width_in + '"']);
+  if (typeof model.height_in === 'number') specs.push(['Height', (Number.isInteger(model.height_in) ? model.height_in : model.height_in.toFixed(1)) + '"']);
   if (model.style) specs.push(['Style', String(model.style).replace(/_/g, ' ')]);
   if (model.depth) specs.push(['Depth', String(model.depth).replace(/_/g, ' ')]);
   if (model.fuel) specs.push(['Fuel', model.fuel.replace('_', ' ')]);
@@ -459,7 +460,21 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
           </div>
 
           <div className="drawer-section">
-            <h3>Specifications</h3>
+            <h3>
+              Specifications
+              {model.ratings?.source_urls?.specs && (
+                <a
+                  className="source-link"
+                  href={model.ratings.source_urls.specs}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={e => e.stopPropagation()}
+                  title="Manufacturer spec sheet"
+                  aria-label="Open manufacturer spec sheet in new tab"
+                  style={{marginLeft: 8, fontSize: '0.75em', verticalAlign: 'middle'}}
+                >↗</a>
+              )}
+            </h3>
             <div className="spec-grid">
               {specs.map(([k, v]) => (
                 <div key={k}>
@@ -560,6 +575,7 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
     { label: 'Capacity', get: m => m.capacity_cf, best: 'high', fmt: fmtCapacity, condIf: 'capacity_cf' },
     { label: 'Oven capacity', get: m => m.oven_capacity_cf, best: 'high', fmt: fmtCapacity, condIf: 'oven_capacity_cf' },
     { label: 'Width', get: m => m.width_in, fmt: v => v ? v + '"' : '—' },
+    { label: 'Height', get: m => m.height_in, fmt: v => v != null ? (Number.isInteger(v) ? v : v.toFixed(1)) + '"' : '—', condIf: 'height_in' },
     { label: 'Style / Type', get: m => (m.style || m.type || '—').replace(/_/g, ' ') },
     { label: 'Fuel', get: m => m.fuel, condIf: 'fuel' },
     { label: 'Decibels', get: m => m.decibels ?? m.noise_db, best: 'low', fmt: fmtDb },
