@@ -439,6 +439,57 @@ body[data-density="compact"] .score-bar .num { font-size: 13px; }
   font-size: 10.5px; color: var(--ink-3);
   text-transform: uppercase; letter-spacing: 0.08em;
 }
+
+.drawer-gallery {
+  width: 100%;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+}
+.drawer-gallery-main {
+  position: relative;
+  width: 100%; max-width: 360px;
+  display: flex; align-items: center; justify-content: center;
+}
+.drawer-gallery-main .product-image-hero { margin: 0; }
+/* Nav buttons sit just outside the image so they don't cover product detail */
+.gallery-nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 32px; height: 32px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--bg-elev); color: var(--ink-2);
+  border: 1px solid var(--line); border-radius: 999px;
+  font-size: 22px; line-height: 1; font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  opacity: 0.9; transition: opacity 0.12s, background 0.12s, color 0.12s;
+}
+.gallery-nav:hover { opacity: 1; background: var(--bg); color: var(--ink); }
+.gallery-nav:focus-visible { outline: 2px solid var(--ink-2); outline-offset: 2px; }
+.gallery-prev { left: -4px; }
+.gallery-next { right: -4px; }
+.gallery-counter {
+  position: absolute; bottom: 8px; right: 12px;
+  font-size: 11px; font-variant-numeric: tabular-nums;
+  background: rgba(255,255,255,0.85); color: var(--ink-2);
+  padding: 2px 8px; border-radius: 999px;
+  border: 1px solid var(--line);
+}
+
+.gallery-thumbs {
+  display: flex; gap: 6px; flex-wrap: wrap; justify-content: center;
+  max-width: 360px;
+}
+.gallery-thumb {
+  width: 48px; height: 48px; padding: 0;
+  background: var(--bg-elev);
+  border: 1px solid var(--line); border-radius: 5px;
+  cursor: pointer; overflow: hidden;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: border-color 0.12s, transform 0.08s;
+}
+.gallery-thumb img { width: 100%; height: 100%; object-fit: contain; }
+.gallery-thumb:hover { border-color: var(--ink-3); }
+.gallery-thumb.is-active { border-color: var(--ink); border-width: 2px; padding: 0; transform: scale(1.02); }
+.gallery-thumb:focus-visible { outline: 2px solid var(--ink-2); outline-offset: 1px; }
 .compare-table th .product-image-compare { margin-bottom: 6px; }
 .cell-brand { color: var(--ink-2); white-space: nowrap; }
 .cell-price { font-weight: 600; color: var(--ink); }

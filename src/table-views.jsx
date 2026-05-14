@@ -36,6 +36,109 @@ function ProductImage({ model, brand, size = 'thumb' }) {
   );
 }
 
+// Drawer-only gallery. If `model.images` is a populated array, shows the
+// main image with prev/next pagers, a counter, and a thumbnail strip.
+// Falls back to the existing single-image ProductImage when there is no
+// gallery (so list cards keep their consistent thumbnail look elsewhere).
+function DrawerGallery({ model, brand }) {
+  const gallery = useMemo(() => {
+    if (Array.isArray(model.images) && model.images.length > 0) return model.images;
+    if (model.image?.local) return [model.image];
+    return [];
+  }, [model.images, model.image]);
+
+  const [idx, setIdx] = useState(0);
+  const [failed, setFailed] = useState({});
+  useEffect(() => { setIdx(0); setFailed({}); }, [model.id]);
+
+  const many = gallery.length > 1;
+
+  // Arrow-key nav. Skips when focus is in a text field so the ranges/search
+  // box still work normally inside the drawer.
+  useEffect(() => {
+    if (!many) return;
+    const onKey = (e) => {
+      const t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      if (e.key === 'ArrowLeft') { e.preventDefault(); setIdx(i => (i - 1 + gallery.length) % gallery.length); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); setIdx(i => (i + 1) % gallery.length); }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [many, gallery.length]);
+
+  const current = gallery[idx];
+  if (!current) {
+    return (
+      <div className="drawer-hero-block">
+        <ProductImage model={model} brand={brand} size="hero" />
+      </div>
+    );
+  }
+
+  const isFailed = failed[idx];
+  const initial = (brand?.name || model.brand || '?').trim().charAt(0).toUpperCase();
+  const creditSource = current.source === 'manufacturer' ? (brand?.name || 'manufacturer') : (current.source || 'source').replace(/_/g, ' ');
+
+  return (
+    <div className="drawer-hero-block">
+      <div className={"drawer-gallery" + (many ? ' has-many' : '')}>
+        <div className="drawer-gallery-main">
+          {isFailed ? (
+            <span className="product-image product-image-hero is-placeholder" role="img" aria-label={`${model.name} (image failed to load)`}>
+              <span className="product-image-monogram">{initial}</span>
+            </span>
+          ) : (
+            <img
+              className="product-image product-image-hero"
+              src={'./data/' + current.local}
+              alt={model.name + ' product photo' + (current.view && current.view !== 'primary' ? ' — view ' + current.view : '')}
+              loading="lazy"
+              decoding="async"
+              onError={() => setFailed(f => ({ ...f, [idx]: true }))}
+            />
+          )}
+          {many && (
+            <>
+              <button type="button" className="gallery-nav gallery-prev"
+                onClick={() => setIdx(i => (i - 1 + gallery.length) % gallery.length)}
+                aria-label="Previous photo">‹</button>
+              <button type="button" className="gallery-nav gallery-next"
+                onClick={() => setIdx(i => (i + 1) % gallery.length)}
+                aria-label="Next photo">›</button>
+              <span className="gallery-counter" aria-live="polite">{idx + 1} / {gallery.length}</span>
+            </>
+          )}
+        </div>
+        {many && (
+          <div className="gallery-thumbs" role="tablist" aria-label="Product photos">
+            {gallery.map((g, i) => (
+              <button
+                key={g.local || i}
+                type="button"
+                role="tab"
+                aria-selected={i === idx}
+                className={"gallery-thumb" + (i === idx ? ' is-active' : '')}
+                onClick={() => setIdx(i)}
+                aria-label={"Show photo " + (i + 1) + ' of ' + gallery.length}>
+                <img src={'./data/' + g.local} alt="" loading="lazy" decoding="async" />
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+      {current.source_url && (
+        <a className="drawer-hero-credit"
+           href={current.source_url}
+           target="_blank" rel="noopener noreferrer"
+           title="Image source">
+          Photo: {creditSource}
+        </a>
+      )}
+    </div>
+  );
+}
+
 // Shared: closes a surface when Escape is pressed, traps Tab focus inside the
 // surface so keyboard users can't tab out of an open modal, and restores focus
 // to the previously-focused element on unmount. onClose is tracked by ref so
@@ -317,17 +420,7 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
         </div>
 
         <div className="drawer-body">
-          <div className="drawer-hero-block">
-            <ProductImage model={model} brand={brand} size="hero" />
-            {model.image?.source_url && (
-              <a className="drawer-hero-credit"
-                 href={model.image.source_url}
-                 target="_blank" rel="noopener noreferrer"
-                 title="Image source">
-                Photo: {model.image.source === 'manufacturer' ? (brand?.name || 'manufacturer') : (model.image.source || 'source').replace(/_/g, ' ')}
-              </a>
-            )}
-          </div>
+          <DrawerGallery model={model} brand={brand} />
 
           <div className="drawer-section">
             <h3>Composite score</h3>

@@ -614,7 +614,57 @@
       },
       "height_in": 84,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36it905np.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439376_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36it905np-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713157_i8775_2057213_B36IT900NP_K_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36it905np-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713158_i8776_2057214_B36IT900NP_PGA1_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36it905np-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713159_i8777_2057215_B36IT900NP_PGA2_Korr_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36it905np-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02434053_i4988_1813781_B36IT900NP_PGA3_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36it905np-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02434044_i4983_1813772_B36IT900NP_PGA4_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36it905np-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713156_i8774_2057212_B36IT900NP_PGA5_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36it905np-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713162_i8780_2057218_B36IT900NP_PGA6_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "ge-pfe28kynfs",
