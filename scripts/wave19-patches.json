@@ -1,0 +1,22 @@
+{
+  "samsung-nse6dg8700sr": {
+    "height_in": 36.25, "depth_in": 27.87, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/electric/bespoke-6-3-cu-ft-smart-slide-in-electric-range-with-smart-oven-camera-illuminated-precision-knobs-in-stainless-steel-nse6dg8700sraa/" }
+  },
+  "lg-lsgl6335d": {
+    "height_in": 37.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsgl6335d-slide-in-gas-range-with-air-fryer" }
+  },
+  "ge-profile-pgs930ypfs": {
+    "height_in": 36.25, "depth_in": 29.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Gas-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PGS930YPFS" }
+  },
+  "ge-profile-pgb965ypfs": {
+    "height_in": 47, "depth_in": 29.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Free-Standing-Gas-Double-Oven-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PGB965YPFS" }
+  },
+  "samsung-ne63a6751ss": {
+    "height_in": 46.3125, "depth_in": 28.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/electric/6-3-cu--ft--smart-freestanding-electric-range-with-flex-duo---no-preheat-air-fry---griddle-in-stainless-steel-ne63a6751ss-aa/" }
+  }
+}

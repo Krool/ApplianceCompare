@@ -1,0 +1,26 @@
+{
+  "lg-lsil6332fe": {
+    "height_in": 36.5, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsil6332fe-slide-in-induction-range" }
+  },
+  "frigidaire-fcfi3082bs": {
+    "height_in": 36.375, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/FCFI3082BS" }
+  },
+  "frigidaire-gcfe3059bf": {
+    "height_in": 35.375, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCFE3059BF" }
+  },
+  "frigidaire-gcre3060bf": {
+    "height_in": 46.75, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCRE3060BF" }
+  },
+  "lg-lrel6325f": {
+    "height_in": 47.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lrel6325f-electric-range-with-air-fryer" }
+  },
+  "lg-ldel7324se": {
+    "height_in": 46.46875, "depth_in": 26.84375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-ldel7324se-electric-range" }
+  }
+}

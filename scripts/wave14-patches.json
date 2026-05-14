@@ -1,0 +1,26 @@
+{
+  "frigidaire-gcfi3060bf": {
+    "height_in": 35.375, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/GCFI3060BF" }
+  },
+  "ge-profile-phs93xypfs": {
+    "height_in": 37.25, "depth_in": 27.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Front-Control-Induction-Range-PHS93XYPFS" }
+  },
+  "frigidaire-gcfe3060bf": {
+    "height_in": 36.375, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCFE3060BF" }
+  },
+  "ge-profile-pss93ypfs": {
+    "height_in": 37.25, "depth_in": 25.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PSS93YPFS" }
+  },
+  "lg-lsil6334fe": {
+    "height_in": 36.5, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsil6334fe-slide-in-induction-range" }
+  },
+  "lg-lrel6321s": {
+    "height_in": 46.5, "depth_in": 26.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lrel6321s-electric-range" }
+  }
+}

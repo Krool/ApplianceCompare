@@ -1,0 +1,45 @@
+{
+  "lg-lrdcs2603s": {
+    "height_in": 69.88,
+    "depth_in": 29,
+    "depth_with_handle_in": 35,
+    "hinge": "reversible",
+    "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://www.lg.com/us/refrigerators/lg-lrdcs2603s-bottom-freezer-refrigerator"
+    }
+  },
+  "lg-lbnc15231v": {
+    "height_in": 67.75,
+    "depth_in": 23.38,
+    "depth_with_handle_in": 27.38,
+    "hinge": "reversible",
+    "compressor": "Linear",
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://www.lg.com/us/refrigerators/lg-lbnc15231v-bottom-freezer-refrigerator"
+    }
+  },
+  "lg-lrmxs2806s": {
+    "height_in": 68.5,
+    "depth_in": 29.88,
+    "depth_with_handle_in": 36.25,
+    "compressor": "Inverter Linear",
+    "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://www.lg.com/us/refrigerators/lg-lrmxs2806s-french-4-door-refrigerator"
+    }
+  },
+  "lg-lrtls2403s": {
+    "height_in": 68,
+    "depth_in": 33.75,
+    "compressor": "Inverter",
+    "water_filter_model": "LT500P",
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://www.lg.com/us/refrigerators/lg-lrtls2403s-top-freezer-refrigerator"
+    }
+  }
+}

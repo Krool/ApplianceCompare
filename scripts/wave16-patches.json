@@ -1,0 +1,22 @@
+{
+  "dacor-dop30t940is": {
+    "height_in": 36.375, "depth_in": 27.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.dacor.com/us/products/cooking/ranges/30-inch-induction-range-transitional-silver-stainless-electric-dop30t940is/" }
+  },
+  "frigidaire-pcfi3080af": {
+    "height_in": 35.375, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/PCFI3080AF" }
+  },
+  "samsung-nsi6dg9100sr": {
+    "height_in": 36.625, "depth_in": 27.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.homedepot.com/p/Samsung-Bespoke-30-in-6-3-cu-ft-4-Burner-Element-Smart-Slide-In-Induction-Range-in-Stainless-Steel-with-Anti-Scratch-Glass-NSI6DG9100SR/328467802" }
+  },
+  "lg-lsdl6336f": {
+    "height_in": 37.125, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsdl6336f-dual-fuel-slide-in-range-with-air-fryer" }
+  },
+  "frigidaire-pcfe3080af": {
+    "height_in": 35.625, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/PCFE3080AF" }
+  }
+}

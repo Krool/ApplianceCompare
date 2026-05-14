@@ -1,0 +1,26 @@
+{
+  "ge-profile-pb900yvfs": {
+    "height_in": 48.5, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Free-Standing-Electric-Convection-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PB900YVFS" }
+  },
+  "lg-ltel7337f": {
+    "height_in": 36, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-ltel7337f-double-oven-slide-in-electric-range" }
+  },
+  "samsung-ne63t8751sg": {
+    "height_in": 36, "depth_in": 28.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/electric/6-3-cu--ft--front-control-slide-in-electric-range-with-smart-dial--air-fry---wi-fi-in-black-stainless-steel-ne63t8751sg-aa/" }
+  },
+  "lg-lde4413st": {
+    "height_in": 47.28125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lde4413st-double-oven-electric-range" }
+  },
+  "samsung-nsi6dg9500sr": {
+    "height_in": 37, "depth_in": 27.88, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/electric-induction/bespoke-6-3-cu-ft-smart-slide-in-induction-range-with-ambient-edge-lighting-air-sous-vide-in-stainless-steel-nsi6dg9500sraa/" }
+  },
+  "frigidaire-fcfi3083as": {
+    "height_in": 36.38, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/FCFI3083AS" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kitchenaid-kfed500ebs": {
+    "height_in": 47.375, "depth_in": 26.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/electric-ranges/electric-double-oven-range/p.30-inch-5-burner-electric-double-oven-convection-range.kfed500ess.html" }
+  },
+  "lg-ltgl6937f": {
+    "height_in": 36, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-ltgl6937f-double-oven-slide-in-gas-range" }
+  },
+  "lg-studio-lsgs6338f": {
+    "height_in": 37.25, "depth_in": 27, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsgs6338f-slide-in-gas-range" }
+  },
+  "monogram-zgp304ntss": {
+    "height_in": 35.25, "depth_in": 28.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://appliances.monogram.com/us/specs/ZGP304NTSS" }
+  },
+  "cafe-chs950p2ms1": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Induction-and-Convection-Double-Oven-Range-CHS950P2MS1" }
+  }
+}

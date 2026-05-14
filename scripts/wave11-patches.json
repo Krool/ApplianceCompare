@@ -1,0 +1,46 @@
+{
+  "miele-g5008scu": {
+    "height_in": 33.75, "depth_in": 21.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11966810/built-under-dishwashers-g-5008-scu-active-clean-touch-steel" }
+  },
+  "miele-g7156scvi": {
+    "height_in": 33.375, "depth_in": 22.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://us.mieleusa.com/MieleMedia/docs/products/specs/pdf/dishwashers/G7156SCVi_SF_Spec.pdf" }
+  },
+  "whirlpool-wdta50sakz": {
+    "height_in": 33.625, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.24-stainless-steel-dishwasher-with-ai-intelligent-wash-47-dba.wdta50sakz.html" }
+  },
+  "whirlpool-wdt740salz": {
+    "height_in": 33.625, "depth_in": 26.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.WDT740SALZ.html" }
+  },
+  "whirlpool-wdt750sakz": {
+    "height_in": 33.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.large-capacity-dishwasher-with-3rd-rack.wdt750sakz.html" }
+  },
+  "kitchenaid-kdte204kps": {
+    "height_in": 33.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.third-level-utensil-rack-dishwasher-with-30+-total-wash-jets,-39-dba.kdte204kps.html" }
+  },
+  "frigidaire-fgid2479sf": {
+    "height_in": 33.75, "depth_in": 24.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.ca/Owner-Centre/Product-Support/FGID2479SF" }
+  },
+  "thermador-dwhd770cfp": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD770CFP" }
+  },
+  "maytag-mdb4949skz": {
+    "height_in": 33.625, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/dishwashers-and-compactors/dishwashers/front-control-dishwashers/p.stainless-steel-tub-dishwasher-with-dual-power-filtration.mdb4949skz.html" }
+  },
+  "samsung-dw80cg4051ss": {
+    "height_in": 33.8, "depth_in": 24.8, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/05082024/DW80CG4051_V4.pdf" }
+  },
+  "samsung-dw80cg5451ss": {
+    "height_in": 33.875, "depth_in": 27.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/smart-46-dba-dishwasher-with-stormwash-in-stainless-steel-dw80cg5450sraa/" }
+  }
+}

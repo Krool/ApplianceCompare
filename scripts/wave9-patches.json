@@ -1,0 +1,174 @@
+{
+  "bosch-b36bt935ns": {
+    "height_in": 83.75, "depth_with_handle_in": 24.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/refrigerators/bottom-freezer/built-in/B36BT935NS" }
+  },
+  "bosch-b36it905np": {
+    "height_in": 84, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media3.bosch-home.com/Documents/16233197_B36IT905NP_Spec_Sheet.pdf" }
+  },
+  "bosch-b36fd50sns": {
+    "height_in": 70, "depth_with_handle_in": 35.44, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD50SNS" }
+  },
+  "bosch-b36cl81enw": {
+    "height_in": 72, "depth_with_handle_in": 29, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL81ENW" }
+  },
+  "bosch-b36cd52sns": {
+    "height_in": 70, "depth_in": 25, "depth_with_handle_in": 31.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/B36CD52SNS" }
+  },
+  "bosch-b36cl80sns": {
+    "height_in": 72, "depth_in": 28.75, "depth_with_handle_in": 30.906, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL80SNS" }
+  },
+  "bosch-b36fd10ens": {
+    "height_in": 70, "depth_in": 28.375, "depth_with_handle_in": 33.12, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD10ENS" }
+  },
+  "bosch-b36fd50snb": {
+    "height_in": 70, "depth_with_handle_in": 35.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/B36FD50SNB" }
+  },
+  "bosch-b24cb50ess": {
+    "height_in": 79.9375, "depth_in": 26.2, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/B24CB50ESS" }
+  },
+  "ge-pfe28kynfs": {
+    "height_in": 69.875, "depth_with_handle_in": 36.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-27-7-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-with-Hands-Free-AutoFill-PFE28KYNFS" }
+  },
+  "ge-pye22kynfs": {
+    "height_in": 69.875, "depth_in": 24.375, "depth_with_handle_in": 31.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-22-1-Cu-Ft-Counter-Depth-Fingerprint-Resistant-French-Door-Refrigerator-with-Hands-Free-AutoFill-PYE22KYNFS" }
+  },
+  "ge-profile-pvd28bynfs": {
+    "height_in": 69.875, "depth_in": 29.5, "depth_with_handle_in": 36.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-27-9-Cu-Ft-Smart-Fingerprint-Resistant-4-Door-French-Door-Refrigerator-with-Door-In-Door-PVD28BYNFS" }
+  },
+  "subzero-bi-36u": {
+    "height_in": 84, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/builtin-refrigerators/36-inch-built-in-over-under-refrigerator-freezer-legacy" }
+  },
+  "subzero-pro-48": {
+    "height_in": 84, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/refrigeration/pro4850" }
+  },
+  "subzero-uc-24r": {
+    "height_in": 34, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/sub-zero/counter-refrigerator/24-inch-undercounter-refrigerator-panel-ready-legacy" }
+  },
+  "thermador-t36bb915ss": {
+    "height_in": 83.75, "depth_with_handle_in": 24.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/T36BB915SS" }
+  },
+  "thermador-t36it100np": {
+    "height_in": 83.5625, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP" }
+  },
+  "thermador-t36ft820ns": {
+    "height_in": 72, "depth_with_handle_in": 27.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36FT820NS" }
+  },
+  "thermador-t30ib905sp": {
+    "height_in": 83.75, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/T30IB905SP" }
+  },
+  "miele-kfn4776ed": {
+    "height_in": 73.125, "depth_with_handle_in": 26.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel" }
+  },
+  "miele-kfn4799dde": {
+    "height_in": 79.375, "depth_with_handle_in": 26.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11951210/freestanding-fridge-freezer-kfn-4799-dde-na-stainless-steel-cleansteel" }
+  },
+  "miele-kf2982vi": {
+    "height_in": 83.75, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11503020/mastercool-frenchdoor-kf-2982-vi" }
+  },
+  "miele-k2802vi": {
+    "height_in": 83.75, "depth_with_handle_in": 24.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11502590/mastercool-refrigerator-k-2802-vi" }
+  },
+  "viking-rvffr336ss": {
+    "height_in": 69.5, "depth_with_handle_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://vikingrange.com/products/chill/refrigeration/model/RVFFR336/sku/RVFFR336SS" }
+  },
+  "viking-fdbb5364l": {
+    "height_in": 82.75, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://vikingrange.com/products/chill/refrigeration/model/FDBB5364/sku/FDBB5364L" }
+  },
+  "dacor-drf485300ap": {
+    "height_in": 83.375, "depth_with_handle_in": 23.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/48-inch-french-door-refrigerator-panel-ready-drf485300ap/" }
+  },
+  "dacor-drf367500ap": {
+    "height_in": 83.375, "depth_with_handle_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-built-in-french-door-with-steelcool-panel-ready-drf367500ap/" }
+  },
+  "dacor-drf36c500sr": {
+    "height_in": 70, "depth_with_handle_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-counter-depth-french-door-with-reveal-tm-door-silver-stainless-drf36c500sr/" }
+  },
+  "sks-sksfd4826p": {
+    "height_in": 84, "depth_with_handle_in": 23.87, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator" }
+  },
+  "maytag-mfi2570fez": {
+    "height_in": 70.125, "depth_in": 32.875, "depth_with_handle_in": 35.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/refrigerators/french-door/p.36-inch-wide-french-door-refrigerator-with-powercold-feature-25-cu.-ft.mfi2570fez.html" }
+  },
+  "maytag-mrff4136rz": {
+    "height_in": 70.12, "depth_in": 32.87, "depth_with_handle_in": 35.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/refrigeration/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4136rz.html" }
+  },
+  "maytag-mrff4236rz": {
+    "height_in": 70.13, "depth_with_handle_in": 35.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4236rz.html" }
+  },
+  "cafe-cye22tp4mw2": {
+    "height_in": 69.875, "depth_with_handle_in": 31.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-ENERGY-STAR-22-1-Cu-Ft-Smart-Counter-Depth-French-Door-Refrigerator-with-Hot-Water-Dispenser-CYE22TP4MW2" }
+  },
+  "ge-cafe-cvetc28d": {
+    "height_in": 69.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-ENERGY-STAR-27-8-Cu-Ft-Smart-4-Door-French-Door-Refrigerator-CVE28DP4NW2" }
+  },
+  "monogram-zwe23esnss": {
+    "height_in": 70.5, "depth_with_handle_in": 31.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/zwe23esnss.html" }
+  },
+  "haier-hrb15n3bgs": {
+    "height_in": 67.875, "depth_with_handle_in": 26.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.haierappliances.com/appliance/Haier-ENERGY-STAR-15-Cu-Ft-Bottom-Freezer-Refrigerator-HRB15N3BGS" }
+  },
+  "gaggenau-rb472704": {
+    "height_in": 84, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.gaggenau.com/us/en/mkt-product/RB472704" }
+  },
+  "bosch-benchmark-b30ib905sp": {
+    "height_in": 84, "depth_with_handle_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media3.bosch-home.com/Documents/16233242_B30IB905SP_Spec_Sheet.pdf" }
+  },
+  "jennair-jffcc72efs": {
+    "height_in": 72, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.jennair.com/refrigeration/french-door-refrigerators/p.noir-36-french-door-freestanding-refrigerator.jffcf72dkm.html" }
+  },
+  "amana-abb1924brm": {
+    "height_in": 66.94, "depth_with_handle_in": 33.38, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.amana.com/refrigerators/bottom-freezer/p.29-inch-wide-bottom-freezer-refrigerator-with-easyfreezer-pull-out-drawer-18-cu.-ft.-capacity.abb1924brm.html" }
+  },
+  "zline-rbiv-304-30": {
+    "height_in": 83.56, "depth_with_handle_in": 24.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://zlinekitchen.com/products/zline-30-built-in-refrigerator-stainless-steel-rbiv-304-30" }
+  },
+  "zline-rfm-w-36": {
+    "height_in": 69.69, "depth_with_handle_in": 29.13, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://zlinekitchen.com/products/zline-36-counter-depth-refrigerator-stainless-steel-rfm-w-36" }
+  },
+  "lg-studio-srfb27w3": {
+    "height_in": 70.25, "depth_in": 24.875, "depth_with_handle_in": 29.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-srfb27s3-french-3-door-refrigerator" }
+  }
+}

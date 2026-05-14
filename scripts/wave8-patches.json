@@ -1,0 +1,156 @@
+{
+  "ge-gne27jymfs": {
+    "height_in": 69.875, "depth_with_handle_in": 35.875,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-27-0-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-GNE27JYMFS" }
+  },
+  "ge-gde21eykfs": {
+    "height_in": 69.875, "depth_with_handle_in": 36.625,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-21-0-Cu-Ft-Bottom-Freezer-Refrigerator-GDE21EYKFS" }
+  },
+  "ge-gye22gynfs": {
+    "height_in": 70.5, "depth_with_handle_in": 31.25,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-22-1-Cu-Ft-Counter-Depth-Fingerprint-Resistant-French-Door-Refrigerator-GYE22GYNFS" }
+  },
+  "ge-gye21jymfs": {
+    "height_in": 69.875, "depth_with_handle_in": 30.9375,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-20-6-Cu-Ft-Fingerprint-Resistant-Counter-Depth-French-Door-Refrigerator-GYE21JYMFS" }
+  },
+  "ge-gts17dtnrww": {
+    "height_in": 64.75, "depth_with_handle_in": 32.625,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-16-6-Cu-Ft-Top-Freezer-Refrigerator-GTS17DTNRWW" }
+  },
+  "ge-gse25gypfs": {
+    "height_in": 69.625, "depth_with_handle_in": 34.75,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-25-3-Cu-Ft-Side-By-Side-Refrigerator-GSE25GYPFS" }
+  },
+  "ge-gts22kynrs": {
+    "height_in": 66.375, "depth_with_handle_in": 34.5, "garage_ready": true,
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://www.geappliances.com/appliance/GE-21-9-Cu-Ft-Garage-Ready-Top-Freezer-Refrigerator-GTS22KYNRFS",
+      "garage_ready": "https://www.geappliances.com/appliance/GE-21-9-Cu-Ft-Garage-Ready-Top-Freezer-Refrigerator-GTS22KYNRFS"
+    }
+  },
+  "ge-gfe28gynfs": {
+    "height_in": 70.5, "depth_with_handle_in": 36.25,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-27-7-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-GFE28GYNFS" }
+  },
+  "ge-gts18gtnrww": {
+    "height_in": 67.38, "depth_with_handle_in": 32.63,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-17-5-Cu-Ft-Top-Freezer-Refrigerator-GTS18GTNRWW" }
+  },
+  "ge-gwe22jymfs": {
+    "height_in": 69.875, "depth_with_handle_in": 30.9375,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-21-9-Cu-Ft-Fingerprint-Resistant-Counter-Depth-French-Door-Refrigerator-GWE22JYMFS" }
+  },
+
+  "whirlpool-wrf555sdfz": {
+    "height_in": 70.25, "depth_with_handle_in": 35.25,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/french-door/p.36-inch-wide-french-door-refrigerator-25-cu.-ft.wrf555sdfz.html" }
+  },
+  "whirlpool-wrt311fzdm": {
+    "height_in": 66.25, "depth_in": 30.625, "depth_with_handle_in": 32.875,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/top-freezer/p.33-inch-wide-top-freezer-refrigerator-20-cu.-ft.wrt311fzdm.html" }
+  },
+  "whirlpool-wrs588fihz": {
+    "height_in": 69, "depth_in": 29.625, "depth_with_handle_in": 34.875,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/side-by-side/p.36-inch-wide-side-by-side-refrigerator-28-cu.-ft.wrs588fihz.html" }
+  },
+  "whirlpool-wrb329dmbm": {
+    "height_in": 67, "depth_in": 30.875, "depth_with_handle_in": 33.38,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/bottom-freezer/p.30-inches-wide-bottom-freezer-refrigerator-with-spillguard-glass-shelves-18.7-cu.-ft.wrb329dmbm.html" }
+  },
+  "whirlpool-wrb322dmbm": {
+    "height_in": 70, "depth_with_handle_in": 33.375,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/bottom-freezer/p.33-inches-wide-bottom-freezer-refrigerator-with-spillguard-glass-shelves-22-cu.-ft.wrb322dmbm.html" }
+  },
+  "whirlpool-wrfa32smhz": {
+    "height_in": 70.125, "depth_in": 28.125, "depth_with_handle_in": 34.5,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/owners-center-pdp.WRFA32SMHZ.html" }
+  },
+  "whirlpool-wrf767sdhz": {
+    "height_in": 69.875, "depth_in": 28.875, "depth_with_handle_in": 35.625,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/french-door/p.36-inch-wide-french-door-refrigerator-27-cu.-ft.wrf767sdhz.html" }
+  },
+  "whirlpool-wrs315snhm": {
+    "height_in": 66.625, "depth_in": 28, "depth_with_handle_in": 33.625,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/side-by-side/p.36-inch-wide-side-by-side-refrigerator-25-cu.-ft.wrs315snhm.html" }
+  },
+
+  "kitchenaid-krff507hps": {
+    "height_in": 70.75, "depth_with_handle_in": 36.625,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/refrigerators/french-door-refrigerators/p.26.8-cu.-ft.-36-inch-width-standard-depth-french-door-refrigerator-with-exterior-ice-and-water-and-printshield-finish.krff507hps.html" }
+  },
+  "kitchenaid-krbr109ess": {
+    "height_in": 67, "depth_with_handle_in": 33.375,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/freestanding-refrigerators/freestanding-bottom-freezer/p.19-cu.-ft.-30-inch-width-full-depth-non-dispense-bottom-mount-refrigerator.krbr109ess.html" }
+  },
+  "kitchenaid-krfc704fbs": {
+    "height_in": 71.875, "depth_in": 24.375, "depth_with_handle_in": 31.5,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/freestanding-refrigerators/freestanding-french-door/p.23.8-cu.-ft.-36-counter-depth-french-door-platinum-interior-refrigerator-with-printshield-finish.krfc704fbs.html" }
+  },
+  "kitchenaid-krqc506mps": {
+    "height_in": 69, "depth_in": 24.875, "depth_with_handle_in": 28.375,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/refrigerators/french-door-refrigerators/p.19.4-cu.-ft.-36-inch-wide-counter-depth-4-door-refrigerator-with-printshield-finish.krqc506mps.html" }
+  },
+  "kitchenaid-krmf536rps": {
+    "height_in": 70.125, "depth_in": 33.75, "depth_with_handle_in": 36.375,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/freestanding-refrigerators/freestanding-french-door/p.26.2-cu.-ft.-multi-door-french-door-refrigerator-with-platinum-interior.krmf536rps.html" }
+  },
+  "kitchenaid-kbbr306ess": {
+    "height_in": 83.375, "depth_in": 27.75, "hinge": "right",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/built-in-refrigerators/built-in-bottom-freezer/p.20.9-cu.-ft.-36-width-built-in-stainless-bottom-mount-refrigerator-with-platinum-interior-design.kbbr306ess.html" }
+  },
+
+  "frigidaire-frqg1721av": {
+    "height_in": 70, "depth_with_handle_in": 25.75,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/french-door-refrigerators/FRQG1721AV" }
+  },
+  "frigidaire-frss2623as": {
+    "height_in": 69.875, "depth_in": 32.5, "depth_with_handle_in": 35,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/side-by-side-refrigerators/FRSS2623AS" }
+  },
+  "frigidaire-grbn2012af": {
+    "height_in": 68.7, "depth_with_handle_in": 31,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/bottom-freezer-refrigerators/GRBN2012AF" }
+  },
+  "frigidaire-frfg1723av": {
+    "height_in": 68, "depth_with_handle_in": 29,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/french-door-refrigerators/FRFG1723AV" }
+  },
+  "frigidaire-fftr1835vs": {
+    "height_in": 65.875, "depth_with_handle_in": 30.375, "garage_ready": true,
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/top-freezer-refrigerators/FFTR1835VS",
+      "garage_ready": "https://www.frigidaire.com/en/p/kitchen/refrigerators/top-freezer-refrigerators/FFTR1835VS"
+    }
+  }
+}

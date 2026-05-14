@@ -1,0 +1,62 @@
+{
+  "bosch-shp78cm5n": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP78CM5N" }
+  },
+  "bosch-shxm4ay55n": {
+    "height_in": 33.875, "depth_in": 22.5625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/SHXM4AY55N" }
+  },
+  "bosch-sge78c55uc": {
+    "height_in": 32.0625, "depth_in": 22.5625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SGE78C55UC" }
+  },
+  "bosch-shx78cm5n": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHX78CM5N" }
+  },
+  "bosch-shp65cm5n": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/SHP65CM5N" }
+  },
+  "bosch-shp9pcm5n": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N" }
+  },
+  "bosch-shv9pcm53n": {
+    "height_in": 33.875, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHV9PCM3N" }
+  },
+  "bosch-she53c85n": {
+    "height_in": 35, "depth_in": 23.7, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE53C85N" }
+  },
+  "miele-g7366scvi": {
+    "height_in": 33.6875, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://us.mieleusa.com/MieleMedia/docs/products/specs/pdf/dishwashers/G7366SCVi_SF_Spec_Final.pdf" }
+  },
+  "samsung-dw80r9950us": {
+    "height_in": 33.875, "depth_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/dishwashers/rotary/pd/dw80r9950ug-aa/newspecsheet/DW80R9950US_V6.pdf" }
+  },
+  "samsung-dw80b7070us": {
+    "height_in": 33.875, "depth_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/dishwasher/DW80B7070US_V8.pdf" }
+  },
+  "lg-ldfn4542s": {
+    "height_in": 33.625, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher" }
+  },
+  "lg-ldts5552s": {
+    "height_in": 33.6, "depth_in": 24.6, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher" }
+  },
+  "kitchenaid-kdtm604kps": {
+    "height_in": 33.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.360%C2%B0-max-jets-third-rack-dishwasher-with-fan-enabled-prodry-system,-44-dba.kdtm604kps.html" }
+  },
+  "ge-profile-pdt785synfs": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Fingerprint-Resistant-Top-Control-with-Stainless-Steel-Interior-Dishwasher-with-Sanitize-Cycle-Twin-Turbo-Dry-Boost-PDT785SYNFS" }
+  }
+}

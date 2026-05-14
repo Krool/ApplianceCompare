@@ -1,0 +1,152 @@
+{
+  "lg-ltcs20020s": {
+    "height_in": 65.5, "depth_in": 29.5, "depth_with_handle_in": 33.75, "hinge": "reversible",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-ltcs20020s-top-freezer-refrigerator" }
+  },
+  "lg-lt11c2000v": {
+    "height_in": 64.625, "depth_in": 24.62, "depth_with_handle_in": 28,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lt11c2000v-top-freezer-refrigerator" }
+  },
+  "lg-lrfs28xbs": {
+    "height_in": 69.75, "depth_in": 25.38, "depth_with_handle_in": 36.25, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfs28xbs" }
+  },
+  "lg-lrfws2906s": {
+    "height_in": 69.75, "depth_in": 25.38, "depth_with_handle_in": 36.25, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfws2906s-french-3-door-refrigerator" }
+  },
+  "lg-lrfls3206s": {
+    "height_in": 70.25, "depth_in": 23.18, "depth_with_handle_in": 36.87, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfls3206s-french-door-refrigerator" }
+  },
+  "lg-lrmds3006s": {
+    "height_in": 70.25, "depth_in": 23.75, "depth_with_handle_in": 38.13, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrmds3006s-french-4-door-refrigerator" }
+  },
+  "lg-lrfcs29d6s": {
+    "height_in": 69.75, "depth_in": 29.88, "depth_with_handle_in": 36.25, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfcs29d6s-french-3-door-refrigerator" }
+  },
+  "lg-lf30s8210s": {
+    "height_in": 70.38, "depth_in": 30, "depth_with_handle_in": 34.38, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lf30s8210s-french-4-door-refrigerator" }
+  },
+  "lg-lmxs28626s": {
+    "height_in": 69.75, "depth_in": 29.88, "depth_with_handle_in": 36.25, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lmxs28626s-french-4-door-refrigerator" }
+  },
+  "lg-lrfws2906v": {
+    "height_in": 69.75, "depth_in": 29.88, "depth_with_handle_in": 36.25, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfws2906v-french-3-door-refrigerator" }
+  },
+  "lg-lrfls3216s": {
+    "height_in": 70.25, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfls3216s-french-3-door-refrigerator" }
+  },
+  "lg-lryks3106s": {
+    "height_in": 70.25, "depth_in": 23.18, "depth_with_handle_in": 34.25, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lryks3106s-french-4-door-refrigerator" }
+  },
+  "lg-lf29h8330s": {
+    "height_in": 70.375, "depth_in": 30, "depth_with_handle_in": 34.375, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lf29h8330s-french-4-door-refrigerator" }
+  },
+  "lg-lrmdc2306s": {
+    "height_in": 70.25, "depth_in": 24.12, "depth_with_handle_in": 31.25, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrmdc2306s-french-4-door-refrigerator" }
+  },
+  "lg-lrfoc2606s": {
+    "height_in": 70.25, "depth_in": 24.75, "depth_with_handle_in": 31.63, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfoc2606s-french-3-door-refrigerator" }
+  },
+  "lg-lrflc2716s": {
+    "height_in": 70.25, "depth_with_handle_in": 29.12, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrflc2716s-french-3-door-refrigerator" }
+  },
+  "lg-lrfxs3106s": {
+    "height_in": 70.25, "depth_in": 23.18, "depth_with_handle_in": 36.87, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfxs3106s-french-door-refrigerator" }
+  },
+  "lg-lf25g8330s": {
+    "height_in": 70.25, "depth_in": 25.37, "depth_with_handle_in": 32.25, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lf25g8330s-french-4-door-refrigerator" }
+  },
+  "lg-lf25h6330s": {
+    "height_in": 69.9375, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lf25h6330s-french-3-door-refrigerator" }
+  },
+  "lg-lf25h6200s": {
+    "height_in": 69.9375, "depth_in": 29.5, "depth_with_handle_in": 35.9375, "hinge": "reversible", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lf25h6200s-french-3-door-refrigerator" }
+  },
+  "lg-lf21g6200s": {
+    "height_in": 69.9375, "hinge": "right", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lf21g6200s-french-3-door-refrigerator" }
+  },
+  "lg-lhsxs2706s": {
+    "height_in": 70.5, "depth_in": 22.625, "depth_with_handle_in": 33.5, "hinge": "right", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lhsxs2706s-side-by-side-refrigerator" }
+  },
+  "lg-lrsds2706s": {
+    "height_in": 68.88, "depth_in": 22.63, "depth_with_handle_in": 33.5, "hinge": "right", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrsds2706s-side-by-side-refrigerator" }
+  },
+  "lg-lrsos2706s": {
+    "height_in": 70.5, "depth_in": 22.63, "depth_with_handle_in": 33.5, "hinge": "right", "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrsos2706s-side-by-side-refrigerator" }
+  },
+  "lg-lrsws2806s": {
+    "height_in": 74.625, "hinge": "right",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrsws2806s-side-by-side-refrigerator" }
+  },
+  "lg-lsxs26366d": {
+    "height_in": 70.25, "depth_in": 29.12, "depth_with_handle_in": 36.38, "water_filter_model": "LT800P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lsxs26366d-side-by-side-refrigerator" }
+  },
+  "lg-lrfds3016s": {
+    "height_in": 70.25, "depth_in": 29.88, "depth_with_handle_in": 36.63, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfds3016s-french-3-door-refrigerator" }
+  },
+  "lg-lrflc2706s": {
+    "height_in": 70.25, "depth_in": 24.75, "depth_with_handle_in": 31.63, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrflc2706s-french-3-door-refrigerator" }
+  },
+  "lg-lf29s8330d": {
+    "height_in": 70.38, "depth_in": 30, "depth_with_handle_in": 34.38, "water_filter_model": "LT1000P",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lf29s8330d-french-4-door-refrigerator" }
+  },
+  "lg-lhtns2403s": {
+    "height_in": 69, "depth_in": 26.12, "depth_with_handle_in": 34, "hinge": "reversible",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lhtns2403s-top-freezer-refrigerator" }
+  }
+}

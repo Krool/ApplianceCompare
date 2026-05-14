@@ -1,0 +1,26 @@
+{
+  "miele-g7106scube": {
+    "height_in": 33.6875, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://apps.yaleappliance.com/product-management/ContentFiles/products/536820568_G7106SCU_Spec_Final.pdf" }
+  },
+  "miele-g7196scvisf": {
+    "height_in": 33.75, "depth_in": 22.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media.miele.com/downloads/n-/us/FS_12496710_USE_US-en-US.pdf" }
+  },
+  "bosch-shx5aem5n": {
+    "height_in": 33.875, "depth_in": 22.5625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/SHX5AEM5N" }
+  },
+  "bosch-shv88pz63n-ada": {
+    "height_in": 34.125, "depth_in": 21.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/SHV9PT53UC" }
+  },
+  "thermador-dwhd560cfp": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD560CFP" }
+  },
+  "thermador-dwhd661efp": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP" }
+  }
+}

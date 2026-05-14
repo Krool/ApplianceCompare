@@ -20,7 +20,12 @@ const TOP_LEVEL_FIELDS = new Set([
   'finishes','release_year','capacity_cf','noise_db','icemaker','water_dispenser',
   'compressor','garage_ready','oven_capacity_cf','burners','max_burner_btu',
   'max_burner_w','convection','air_fry','self_clean','width_in','depth','style',
-  'fuel','type','pros','cons','name'
+  'fuel','type','pros','cons','name',
+  'height_in','depth_in','depth_with_handle_in','hinge',
+  'water_filter_model','water_filter_cost_yr','last_updated',
+  'cycle_time_min','filter_type','leak_protection','dry_method','interior_light',
+  'preheat_min','warming_drawer','sabbath_mode','double_oven','lp_convertible',
+  'oven_capacity_secondary_cf','griddle'
 ]);
 
 let applied = 0, missed = 0, fieldsSet = 0;
@@ -71,7 +76,7 @@ for (const [id, patch] of Object.entries(patches)) {
 }
 
 files.forEach(f => {
-  if (datasets[f]._meta) datasets[f]._meta.last_updated = '2026-04-25';
+  if (datasets[f]._meta) datasets[f]._meta.last_updated = '2026-05-14';
   fs.writeFileSync(path.join(ROOT, 'public', 'data', f + '.json'), JSON.stringify(datasets[f], null, 2) + '\n');
 });
 console.log('Models patched: ' + applied + '   Fields populated: ' + fieldsSet + '   Misses: ' + missed);

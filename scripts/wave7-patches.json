@@ -1,0 +1,73 @@
+{
+  "samsung-rf29bb8600ap": {
+    "height_in": 70, "depth_in": 29.375, "depth_with_handle_in": 34.25,
+    "compressor": "digital inverter", "water_filter_model": "HAF-QIN",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/RF29BB8600_V9.pdf" }
+  },
+  "samsung-rs27t5200sr": {
+    "height_in": 70.06, "depth_in": 28.94, "depth_with_handle_in": 33.5,
+    "hinge": "reversible", "compressor": "digital inverter", "water_filter_model": "HAF-QIN",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/27-4-cu-ft-side-by-side-refrigerator-with-large-capacity-in-stainless-steel-rs27t5200sr-aa/v2/" }
+  },
+  "samsung-rf23a9071sr": {
+    "height_in": 71.875, "depth_in": 24, "depth_with_handle_in": 28.5,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/pdf/RF23A9071SR_v4.pdf" }
+  },
+  "samsung-rf18a5101sr": {
+    "height_in": 70, "depth_in": 24.5, "depth_with_handle_in": 28.125,
+    "compressor": "digital inverter",
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/RF18A5101SR_V9.pdf" }
+  },
+  "samsung-rf65a967fsr": {
+    "height_in": 71.85, "depth_with_handle_in": 28.46, "noise_db": 37,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://images.samsung.com/is/content/samsung/p6/common/energylabel/common-energylabel-rf65a967fsr-ef-productfiche.pdf" }
+  },
+  "samsung-rt70f18lrsr": {
+    "height_in": 66.875, "depth_with_handle_in": 31.875,
+    "hinge": "reversible", "compressor": "digital inverter", "garage_ready": true,
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/RT70F18LRSR_V4.pdf",
+      "garage_ready": "https://image-us.samsung.com/SamsungUS/home/pdf/RT70F18LRSR_V4.pdf"
+    }
+  },
+  "samsung-rt16a6195sr": {
+    "height_in": 66.875, "depth_with_handle_in": 29.25,
+    "hinge": "reversible", "compressor": "digital inverter", "garage_ready": true,
+    "last_updated": "2026-05-14",
+    "source_urls": {
+      "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/top-freezer/rt16a6195sr-aa/pdf/RT16A6195SR_V3.pdf",
+      "garage_ready": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/top-freezer/rt16a6195sr-aa/pdf/RT16A6195SR_V3.pdf"
+    }
+  },
+  "samsung-rf23bb8900aw": {
+    "height_in": 70, "depth_with_handle_in": 28.75,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/RF23BB8900_V9.pdf" }
+  },
+  "samsung-rs23cb7600qlaa": {
+    "height_in": 70.125, "depth_with_handle_in": 28.8125,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/bespoke/rs23cb760012aa/pdf/2023_RS23CB7600_V8.pdf" }
+  },
+  "samsung-rs27t5561sr": {
+    "height_in": 70.0625, "depth_with_handle_in": 33.5,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/RS27T5561SR_V6.pdf" }
+  },
+  "samsung-rf25c5551sr": {
+    "height_in": 70, "depth_in": 29.8125, "depth_with_handle_in": 33.3125,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/2023_RF25C5551_V9.pdf" }
+  },
+  "samsung-rs22t5561sr": {
+    "height_in": 70.125, "depth_with_handle_in": 28.625,
+    "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/side-by-side/pdp/rs22t5561sr-aa/RS22T5561SR_V6.pdf" }
+  }
+}

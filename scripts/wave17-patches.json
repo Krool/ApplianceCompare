@@ -1,0 +1,26 @@
+{
+  "lg-lsil6336fe": {
+    "height_in": 36.5, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsil6336fe-slide-in-electric-range" }
+  },
+  "samsung-nsi6dg9900sraa": {
+    "height_in": 37, "depth_in": 26.44, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/ranges/pdp/nsi6db990012aa/NSI6D9900_Induction_V6.pdf" }
+  },
+  "lg-lsel6333f": {
+    "height_in": 37.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsel6333f-slide-in-electric-range" }
+  },
+  "samsung-ne63a6711ss": {
+    "height_in": 46.3125, "depth_in": 28.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/cooking-appliances/ranges/6-3-cu-ft-smart-freestanding-electric-range-with-no-preheat-air-fry-convection-in-stainless-steel-sku-ne63a6511ss-aa/" }
+  },
+  "bosch-hei8056u": {
+    "height_in": 36.5, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/electric-slide-in-ranges/HEI8056U" }
+  },
+  "frigidaire-fcfe3083as": {
+    "height_in": 35.625, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/FCFE3083AS" }
+  }
+}

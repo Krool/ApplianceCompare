@@ -1,0 +1,14 @@
+{
+  "lg-ldth7972s": {
+    "height_in": 33.625, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/dishwashers/lg-ldth7972s-top-control-dishwasher" }
+  },
+  "kitchenaid-kdfe204kps": {
+    "height_in": 33.625, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/front-controls/p.39-dba-dishwasher-in-printshield-finish-with-third-level-utensil-rack.kdfe204kps.html" }
+  },
+  "kitchenaid-kdpm804kbs": {
+    "height_in": 33.625, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.KDPM804KBS.html" }
+  }
+}
