@@ -1,0 +1,14 @@
+{
+  "whirlpool-wdp730hamz": {
+    "depth_in": 24.5,
+    "source_urls": { "specs": "https://www.abt.com/Whirlpool-24-Fingerprint-Resistant-Stainless-Steel-Dishwasher-With-3rd-Rack-And-Pocket-Handle-WDP730HAMZ/p/182690.html" }
+  },
+  "insignia-ns-dwrf2ss3": {
+    "height_in": 33.8125, "depth_in": 25.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bestbuy.com/site/insignia-24-front-control-built-in-dishwasher-with-sensor-wash-stainless-steel-tub-51-dba-stainless-steel/6477035.p?skuId=6477035" }
+  },
+  "unique-appliances-ugp-24crdw": {
+    "height_in": 33.8, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.amazon.com/Unique-Appliances-UGP-24CR-DW-Dishwasher/dp/B0C9LCS9VZ" }
+  }
+}

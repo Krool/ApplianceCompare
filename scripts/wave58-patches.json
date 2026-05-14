@@ -1,0 +1,22 @@
+{
+  "wolf-cg365ts": {
+    "height_in": 4, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/products/wolf/cooktops-and-rangetops/gas-stovetop/cg365t/36-inch-transitional-gas-cooktop-5-burners" }
+  },
+  "thermador-pcg366w": {
+    "height_in": 10.5625, "depth_in": 25.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/rangetops/PCG366W" }
+  },
+  "bosch-ngm5055uc": {
+    "height_in": 3.8125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/productslist/NGM5055UC" }
+  },
+  "ge-jp5036sjss": {
+    "height_in": 5.5625, "depth_in": 20.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-36-Built-In-Touch-Control-Electric-Cooktop-JP5036SJSS" }
+  },
+  "thermador-cit365ybb": {
+    "height_in": 4.25, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/CIT365YB" }
+  }
+}

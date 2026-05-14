@@ -1,0 +1,12 @@
+{
+  "cafe-cts70dp2ns1": {
+    "height_in": 53, "depth_in": 26.75, "last_updated": "2026-05-14"
+  },
+  "sks-srpf3640s": {
+    "height_in": 38.125, "depth_in": 26.75, "last_updated": "2026-05-14"
+  },
+  "miele-cm6160": {
+    "height_in": 14.25, "depth_in": 16.87, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media.miele.com/downloads/n-/us/FS_11648180_USE_US-en-US.pdf" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ge-profile-pgp7030slss": {
+    "height_in": 5.5, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Built-In-Gas-Cooktop-with-5-Burners-PGP7030SLSS" }
+  },
+  "viking-vgsu53616bss": {
+    "height_in": 4.5, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/vgsu53616bss.html" }
+  },
+  "ge-jgp5036slss": {
+    "height_in": 5.5, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-36-Built-In-Gas-Cooktop-with-5-Burners-and-Dishwasher-Safe-Grates-JGP5036SLSS" }
+  },
+  "cafe-cgp70362ns1": {
+    "height_in": 5.5, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-36-Gas-Cooktop-CGP70362NS1" }
+  },
+  "ge-profile-pgp9036slss": {
+    "height_in": 5.5, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-36-Built-In-Tri-Ring-Gas-Cooktop-with-5-Burners-and-Included-Extra-Large-Integrated-Griddle-PGP9036SLSS" }
+  },
+  "bosch-ngm8659uc": {
+    "height_in": 3.8125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/gas-cooktops/gas-36-inch-cooktops/NGM8659UC" }
+  }
+}

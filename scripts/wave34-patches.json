@@ -1,0 +1,26 @@
+{
+  "frigidaire-pcfg3080af": {
+    "height_in": 36.375, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/PCFG3080AF" }
+  },
+  "frigidaire-gcfg3060bf": {
+    "height_in": 36.38, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/GCFG3060BF" }
+  },
+  "whirlpool-wfgs7530rz": {
+    "height_in": 47.875, "depth_in": 28, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/gas/p.WFGS7530RZ.html" }
+  },
+  "whirlpool-wfg505m0ms": {
+    "height_in": 46.25, "depth_in": 27, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/gas/p.5.1-cu.-ft.-freestanding-gas-range-with-edge-to-edge-cooktop.wfg505m0ms.html" }
+  },
+  "maytag-mfgs6030rz": {
+    "height_in": 36.67, "depth_in": 27.91, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/cooking/ranges/gas/p.30-inch-wide-gas-range-with-no-preheat-air-fry-and-air-baking-5.0-cu.-ft.mfgs6030rz.html" }
+  },
+  "whirlpool-weg745h0lz": {
+    "height_in": 36, "depth_in": 28.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/gas/p.5.8-cu.-ft.-whirlpool-gas-7-in-1-air-fry-oven.weg745h0lz.html" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "samsung-nsg6dg8700sr": {
+    "height_in": 36.75, "depth_in": 26.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/ranges/gas/nsg6db870012aa/pdf/NSG6D_8700_Gas_V6.pdf" }
+  },
+  "cafe-ces700p2ms1": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Radiant-and-Convection-Range-CES700P2MS1" }
+  },
+  "bosch-his8055u": {
+    "height_in": 36, "depth_in": 24.9375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/induction-slide-in-ranges/HIS8055U" }
+  },
+  "kitchenaid-kfdc500jss": {
+    "height_in": 36, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/commercial-ranges/p.kitchenaid-30-smart-commercial-style-dual-fuel-range-with-4-burners.kfdc500jss.html" }
+  },
+  "samsung-nx60a6111ss": {
+    "height_in": 47.0625, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/cooking-appliances/ranges/6-0-cu-ft-smart-freestanding-gas-range-with-integrated-griddle-in-stainless-steel-sku-nx60a6111ss-aa/" }
+  },
+  "samsung-nsg6dg8100sr": {
+    "height_in": 36.25, "depth_in": 27.88, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/gas/bespoke-6-0-cu-ft-smart-slide-in-gas-range-with-precision-knobs-in-stainless-steel-nsg6dg8100sraa/" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "monogram-zgu36rslss": {
+    "height_in": 7.88, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://appliances.monogram.com/us/specs/ZGU36RSLSS" }
+  },
+  "monogram-zgu30rslss": {
+    "height_in": 3.25, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://appliances.monogram.com/us/specs/ZGU30RSLSS" }
+  },
+  "frigidaire-pcce3680af": {
+    "height_in": 2.625, "depth_in": 21.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/cooktops/electric-cooktops/PCCE3680AF" }
+  },
+  "miele-km5624": {
+    "height_in": 2.125, "depth_in": 21.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/e/30-inch-electric-cooktop-operated-with-its-own-controls-km-5624-240v-stainless-steel-7821680-p" }
+  },
+  "whirlpool-wce77us0hb": {
+    "height_in": 5.25, "depth_in": 21.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/cooktops/4-burner-elements/p.30-inch-electric-ceramic-glass-cooktop-with-two-dual-radiant-elements.wce77us0hb.html" }
+  },
+  "lg-cbgj3027s": {
+    "height_in": 3.75, "depth_in": 21.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbgj3027s-gas-cooktop" }
+  }
+}

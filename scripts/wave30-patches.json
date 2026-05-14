@@ -1,0 +1,18 @@
+{
+  "amana-aer6303mms": {
+    "height_in": 46.87, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.amana.com/cooking/ranges/p.30-inch-amana-electric-range-with-extra-large-oven-window.aer6303mms.html" }
+  },
+  "frigidaire-fcfe3062as": {
+    "height_in": 35.62, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/FCFE3062AS" }
+  },
+  "whirlpool-wfe550s0lz": {
+    "height_in": 46.875, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/single-oven-freestanding/p.5.3-cu.-ft.-whirlpool-electric-5-in-1-air-fry-oven.wfe550s0lz.html" }
+  },
+  "kitchenaid-ksis730pss": {
+    "height_in": 36.75, "depth_in": 26.31, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/slide-in-ranges/p.30-inch-4-element-induction-slide-in-convection-range-with-air-fry.ksis730pss.html" }
+  }
+}

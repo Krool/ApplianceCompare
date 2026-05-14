@@ -1,0 +1,26 @@
+{
+  "wolf-df36450c": {
+    "height_in": 36.5, "depth_in": 29.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/wolf/ranges/dual-fuel/36-inch-dual-fuel-range-4-burners-infrared-charbroiler" }
+  },
+  "thermador-pgr486gdg": {
+    "height_in": 35.875, "depth_in": 27.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/ranges/48-ranges/PRG486WDG" }
+  },
+  "viking-vgr5366bss": {
+    "height_in": 37, "depth_in": 28.69, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://vikingrange.com/products/cook/ranges/model/VGR536/sku/VGR5366BSS" }
+  },
+  "bluestar-rnb364gv2": {
+    "height_in": 36.75, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bluestarcooking.com/cooking/ranges/36-rnb-series-range-with-12-griddle/" }
+  },
+  "miele-hr1934-3df": {
+    "height_in": 37, "depth_in": 26.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://us.mieleusa.com/MieleMedia/docs/products/specs/pdf/Ranges/HR_1934_DF_Range_Spec_FINAL.pdf" }
+  },
+  "ge-jbs60dkbb": {
+    "height_in": 47, "depth_in": 28, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Electric-Range-JBS60DKBB" }
+  }
+}

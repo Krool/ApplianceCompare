@@ -1,0 +1,26 @@
+{
+  "kitchenaid-kode507ess": {
+    "height_in": 51.25, "depth_in": 27.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/wall-ovens/double-wall-ovens/p.pdpv5.KODE507ESS.html" }
+  },
+  "thermador-pod301wn": {
+    "height_in": 29, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/ovens/wall-ovens/POD301W" }
+  },
+  "wolf-do30pesph": {
+    "height_in": 50.375, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/products/wolf/ovens/e-series/do30/30-inch-e-series-professional-built-in-double-oven-legacy" }
+  },
+  "samsung-nq70t5511ds": {
+    "height_in": 43.25, "depth_in": 26.63, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/wall-ovens/microwave-combination-oven/30-microwave-combination-wall-oven-in-stainless-steel-nq70t5511ds-aa/" }
+  },
+  "whirlpool-wfe775h0hz": {
+    "height_in": 46.5, "depth_in": 25.31, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/whirlpool-wfe775h0hz.html" }
+  },
+  "whirlpool-wfes3330rz": {
+    "height_in": 47.875, "depth_in": 25.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.30-inch-electric-range-with-steam-clean.wfes3330rz.html" }
+  }
+}

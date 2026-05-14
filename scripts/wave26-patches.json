@@ -1,0 +1,22 @@
+{
+  "samsung-ne63a6311ss": {
+    "height_in": 46.3125, "depth_in": 28.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/electric/6-3-cu-ft-smart-freestanding-electric-range-with-rapid-boil-self-clean-in-stainless-steel-ne63a6311ss-aa/" }
+  },
+  "lg-lsgl5831f": {
+    "height_in": 37.25, "depth_in": 29.21875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsgl5831f-slide-in-gas-range" }
+  },
+  "cafe-cgs700m2ns5": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/cgs700m2ns5.html" }
+  },
+  "whirlpool-wee515s0ls": {
+    "height_in": 36, "depth_in": 28.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.4.8-cu.-ft.-whirlpool-electric-range-with-frozen-bake-technology.wee515s0ls.html" }
+  },
+  "samsung-nse6dg8550sr": {
+    "height_in": 36, "depth_in": 28, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/electric/bespoke-smart-slide-in-electric-range-6-3-cu-ft-with-flex-duo-illuminated-precision-knobs-in-stainless-steel-nse6dg8550sraa/" }
+  }
+}

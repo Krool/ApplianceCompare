@@ -1,0 +1,46 @@
+{
+  "miele-g7316scuautodos": {
+    "height_in": 33.6875, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://us.mieleusa.com/MieleMedia/docs/products/specs/pdf/dishwashers/G7316SCU_Spec_Final.pdf" }
+  },
+  "miele-g7176scvi": {
+    "height_in": 33.75, "depth_in": 22.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lowes.com/pd/Miele-Top-Control-24-in-Built-In-Dishwasher-Stainless-Steel-ENERGY-STAR-43-Decibel/5013768997" }
+  },
+  "miele-g7186scvi": {
+    "height_in": 33.75, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel" }
+  },
+  "miele-g7216scu": {
+    "height_in": 33.75, "depth_in": 22.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://assets.ajmadison.com/ajmadison/itemdocs/G7216SCU_Miele_Specification_Sheet.pdf" }
+  },
+  "miele-g5051scvi": {
+    "height_in": 32.125, "depth_in": 21.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel" }
+  },
+  "miele-g5892scuss": {
+    "height_in": 34.25, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11636790/fully-integrated-dishwasher-g-5892-scvi-sl-stainless-steel" }
+  },
+  "miele-g5266scvi-sfp": {
+    "height_in": 33.6875, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11695340/fully-integrated-dishwashers-in-standard-size-g-5266-scvi-sfp-active-plus-stainless-steel" }
+  },
+  "miele-g5056scvisf": {
+    "height_in": 33.6875, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/miele-g5056scvisf.html" }
+  },
+  "cafe-cdt858p4pw2": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-CustomFit-ENERGY-STAR-Stainless-Interior-Smart-Dishwasher-with-Ultra-Wash-Top-Rack-and-Dual-Convection-Ultra-Dry-44-dBA-CDT858P4VW2" }
+  },
+  "cafe-cdp888m5vs5": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.ajmadison.com/cgi-bin/ajmadison/CDP888M5VS5.html" }
+  },
+  "cafe-cdt888p2vs1": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.ca/appliances/cdt888p2vs1/specs" }
+  }
+}

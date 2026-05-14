@@ -1,0 +1,18 @@
+{
+  "lg-cbis3618s": {
+    "height_in": 3.5625, "depth_in": 21.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbis3618be-electric-cooktop" }
+  },
+  "fp-ci365dtb4": {
+    "height_in": 3.375, "depth_in": 20.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.fisherpaykel.com/us/cooking/cooktops/minimal-cooktops/induction-cooktop-36in-5-zones-with-smartzone-ci365dtb4-81972.html" }
+  },
+  "monogram-zhu36rspss": {
+    "height_in": 4.625, "depth_in": 20.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://appliances.monogram.com/us/specs/ZHU36RSPSS" }
+  },
+  "sharp-scr3041gb": {
+    "height_in": 2.3125, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://shop.sharpusa.com/30-in-drop-in-radiant-cooktop-scr3041gb/" }
+  }
+}

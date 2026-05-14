@@ -1,0 +1,26 @@
+{
+  "zline-rai-36": {
+    "height_in": 36, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://therangehoodstore.com/products/zline-36-induction-range-stainless-steel-raind-36" }
+  },
+  "forno-fffsgs9337-36": {
+    "height_in": 38, "depth_in": 28, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.amazon.com/Galiano-Freestanding-Sealed-Burners-Cooktop/dp/B08KPLTQJD" }
+  },
+  "samsung-nsi6db990012aa": {
+    "height_in": 36.75, "depth_in": 26.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/ranges/pdp/nsi6db990012aa/NSI6D9900_Induction_V6.pdf" }
+  },
+  "bosch-his8655u": {
+    "height_in": 36, "depth_in": 26.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/induction-slide-in-ranges/HIS8655U" }
+  },
+  "ge-profile-phs700ayfs": {
+    "height_in": 37.12, "depth_in": 26.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-30-Smart-Slide-In-Induction-and-Convection-Range-with-No-Preheat-Air-Fry-and-EasyWash-Oven-Tray-PHS700AYFS" }
+  },
+  "miele-hr1632-3i": {
+    "height_in": 37.13, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/12535260/36-range-hr-1632-3-i" }
+  }
+}

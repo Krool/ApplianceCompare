@@ -1,0 +1,26 @@
+{
+  "miele-km7730fr": {
+    "height_in": 3.125, "depth_in": 21.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/12074200/30-inch-induction-cooktop-operated-with-its-own-controls-km-7730-fr" }
+  },
+  "kitchenaid-kced600gss": {
+    "height_in": 3.625, "depth_in": 22.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-downdraft-cooktops/p.30-electric-downdraft-cooktop-with-4-elements.kced600gss.html" }
+  },
+  "maytag-mec8830hb": {
+    "height_in": 5.25, "depth_in": 21.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/cooking/cooktops/p.MEC8830HB.html" }
+  },
+  "ge-jep5030dtbb": {
+    "height_in": 3.25, "depth_in": 21.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Built-In-knob-Control-Electric-Cooktop-JEP5030DTBB" }
+  },
+  "whirlpool-wce55us6hb": {
+    "height_in": 5.25, "depth_in": 21.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/cooktops/5-burner-elements/p.36-inch-electric-ceramic-glass-cooktop-with-dual-radiant-element.wce55us6hb.html" }
+  },
+  "lg-cbgj3623s": {
+    "height_in": 3.75, "depth_in": 21.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbgj3623s-gas-cooktop" }
+  }
+}

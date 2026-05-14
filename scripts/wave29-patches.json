@@ -1,0 +1,26 @@
+{
+  "bosch-hdi8056u": {
+    "height_in": 36.5, "depth_in": 28.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/dual-fuel-slide-in-ranges/HDI8056U" }
+  },
+  "ge-jgbs60dekww": {
+    "height_in": 46.25, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS60DEKWW" }
+  },
+  "maytag-mfes8030rz": {
+    "height_in": 47.88, "depth_in": 28, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/ranges/electric/p.30-inch-wide-electric-range-with-grill-mode-5.3-cu.-ft.mfes8030rz.html" }
+  },
+  "amana-aer6603sms": {
+    "height_in": 46.88, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.amana.com/cooking/ranges/p.30-inch-amana-electric-range-with-extra-large-oven-window.aer6603sms.html" }
+  },
+  "whirlpool-wfes7530rz": {
+    "height_in": 47.88, "depth_in": 28, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.pdpv5.30-inch-electric-smart-range-with-air-cooking-technology,-no-preheat-air-fry,-high-speed-preheat-oven,-wipeclean-coating,-and-steam-self-clean.wfes7530rz.html" }
+  },
+  "haier-qss740rnss": {
+    "height_in": 37.38, "depth_in": 29.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.haierappliances.com/appliance/30-Smart-Slide-In-Electric-Range-with-Convection-QSS740RNSS" }
+  }
+}

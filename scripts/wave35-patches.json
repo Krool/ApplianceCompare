@@ -1,0 +1,26 @@
+{
+  "midea-mgr30s2ast": {
+    "height_in": 46.25, "depth_in": 26.94, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.midea.com/us/ranges/freestanding-ranges-electric/midea-6-1-cu-ft-freestanding-gas-range.mgr30s2ast" }
+  },
+  "thor-kitchen-lrg3601u": {
+    "height_in": 37.3125, "depth_in": 28.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thorkitchen.com/products/thor-kitchen-36-inch-gas-range-lrg3601u" }
+  },
+  "thermador-prg305wh": {
+    "height_in": 35.875, "depth_in": 24.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRG305WH" }
+  },
+  "hotpoint-rgbs330drww": {
+    "height_in": 46.25, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://products.geappliances.com/appliance/hotpoint-specs/RGBS330DRWW" }
+  },
+  "kitchenaid-kfgc500jpa": {
+    "height_in": 35.75, "depth_in": 29.56, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/freestanding-ranges/p.KFGC500JPA.html" }
+  },
+  "jennair-jgrp436hl": {
+    "height_in": 38.75, "depth_in": 29.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.jennair.com/ranges/dual-stacked-burner-ranges/p.36-rise-gas-professional-style-range.jgrp436hl.html" }
+  }
+}

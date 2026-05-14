@@ -1,0 +1,22 @@
+{
+  "hotpoint-rbs160dmww": {
+    "height_in": 46.75, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://products.geappliances.com/appliance/hotpoint-specs/RBS160DMWW" }
+  },
+  "ge-profile-pb965ypfs": {
+    "height_in": 47, "depth_in": 28.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/pb965ypfs.html" }
+  },
+  "ge-profile-pgb935ypfs": {
+    "height_in": 47.25, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-Smart-30-Free-Standing-Self-Clean-Gas-Fingerprint-Resistant-Range-with-No-Preheat-Air-Fry-PGB935YPFS" }
+  },
+  "whirlpool-wfg320m0mb": {
+    "height_in": 46.25, "depth_in": 27.2, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/gas/p.pdpv5.5.1-cu.-ft.-freestanding-gas-range-with-broiler-drawer.wfg320m0mb.html" }
+  },
+  "hotpoint-rgbs300dmww": {
+    "height_in": 44.75, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://products.geappliances.com/appliance/hotpoint-specs/RGBS300DMWW" }
+  }
+}

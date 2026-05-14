@@ -1,0 +1,26 @@
+{
+  "lg-studio-lsis6338fe": {
+    "height_in": 37.25, "depth_in": 29.37, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsis6338fe" }
+  },
+  "frigidaire-gcfi3070bf": {
+    "height_in": 36.375, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/induction-ranges/GCFI3070BF" }
+  },
+  "lg-lsil6336xe": {
+    "height_in": 36.5, "depth_in": 29.31, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsil6336xe-slide-in-induction-range" }
+  },
+  "ge-grs600avfs": {
+    "height_in": 37.125, "depth_in": 28.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-30-Slide-In-Electric-Convection-Range-with-No-Preheat-Air-Fry-and-EasyWash-Oven-Tray-GRS600AVFS" }
+  },
+  "lg-lrgl5825f": {
+    "height_in": 46.5, "depth_in": 28.9375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lrgl5825f-gas-range-with-air-fryer" }
+  },
+  "kitchenaid-ksdb900ess": {
+    "height_in": 36, "depth_in": 28.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/dual-fuel-ranges/p.30-inch-5-burner-dual-fuel-convection-slide-in-range-with-baking-drawer.ksdb900ess.html" }
+  }
+}

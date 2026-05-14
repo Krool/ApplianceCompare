@@ -1,0 +1,22 @@
+{
+  "lg-wcep6423d": {
+    "height_in": 43.8125, "depth_in": 23.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-wcep6423d-combo-wall-oven" }
+  },
+  "ge-profile-pt7800shss": {
+    "height_in": 43.375, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Built-In-Combination-Convection-Microwave-Convection-Wall-Oven-PT7800SHSS" }
+  },
+  "whirlpool-wos51ec0hs": {
+    "height_in": 28.75, "depth_in": 26.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/wall-ovens/single-oven/p.5.0-cu.-ft.-smart-single-wall-oven-with-touchscreen.wos51ec0hs.html" }
+  },
+  "subzero-builtin-iw30": {
+    "height_in": 29, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/wolf/ovens/m-series/30-inch-m-series-professional-built-in-single-oven" }
+  },
+  "thermador-mes301hs": {
+    "height_in": 17.875, "depth_in": 21.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/MES301HS" }
+  }
+}

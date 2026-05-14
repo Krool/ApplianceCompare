@@ -1,0 +1,26 @@
+{
+  "lg-studio-lutd4919sn": {
+    "height_in": 37.875, "depth_in": 28.9375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lutd4919sn-dual-fuel-double-oven-range" }
+  },
+  "ge-jgbs66rekss": {
+    "height_in": 47.25, "depth_in": 26.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS66REKSS" }
+  },
+  "ge-jgss86spss": {
+    "height_in": 36.25, "depth_in": 29.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Slide-In-Front-Control-Gas-Double-Oven-Range-JGSS86SPSS" }
+  },
+  "whirlpool-wge745c0fs": {
+    "height_in": 47.125, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/double-oven-freestanding/p.6.7-cu.-ft.-electric-double-oven-range-with-true-convection.wge745c0fs.html" }
+  },
+  "ge-jgbs61rpss": {
+    "height_in": 46.25, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS61RPSS" }
+  },
+  "ge-jgb735spss": {
+    "height_in": 47, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Convection-Range-with-No-Preheat-Air-Fry-JGB735SPSS" }
+  }
+}

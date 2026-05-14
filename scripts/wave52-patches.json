@@ -1,0 +1,22 @@
+{
+  "kitchenaid-kces550hbl": {
+    "height_in": 5.25, "depth_in": 22.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.30-electric-cooktop-with-5-elements-and-knob-controls.kces550hbl.html" }
+  },
+  "samsung-na30n6555ts": {
+    "height_in": 5.57, "depth_in": 22.33, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/cooktops-and-hoods/gas/pd/na30n6555tg/NA30N6555TS_V4.pdf" }
+  },
+  "thermador-cet305yb": {
+    "height_in": 4.375, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/electric-cooktops/CET305YB" }
+  },
+  "viking-rvic3304bbg": {
+    "height_in": 2.25, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://vikingrange.com/products/cook/cooktops/model/RVIC330/sku/RVIC3304BBG" }
+  },
+  "lg-cbgj3023s": {
+    "height_in": 3.75, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbgj3023s-gas-cooktop" }
+  }
+}

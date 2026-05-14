@@ -1,0 +1,58 @@
+{
+  "bosch-she43c75n": {
+    "height_in": 33.875, "depth_in": 23.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media3.bosch-home.com/Documents/25331514_SHE43C75N_Spec_Sheet.pdf" }
+  },
+  "bosch-she41cm5n": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N" }
+  },
+  "bosch-shem63w55n": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media3.bosch-home.com/Documents/MCDOC01977236_SHEM63W55N.pdf" }
+  },
+  "whirlpool-wdt750sakv": {
+    "height_in": 33.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/whirlpool-wdt750sakv.html" }
+  },
+  "whirlpool-wdp730hamz": {
+    "height_in": 33.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.ajmadison.com/cgi-bin/ajmadison/WDP730HAMZ.html" }
+  },
+  "whirlpool-wdt550sapz": {
+    "height_in": 32.3125, "depth_in": 22.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.44-dba-ada-compliant-dishwasher-flush-with-cabinets-with-3rd-rack.wdt550sapz.html" }
+  },
+  "whirlpool-wdps7024rz": {
+    "height_in": 33.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.homedepot.com/p/Whirlpool-24-in-Built-In-Tall-Tub-41-dBA-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-with-Washing-3rd-Rack-WDPS7024RZ/330817229" }
+  },
+  "whirlpool-wdf341papm": {
+    "height_in": 33.5, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-visible-front-console/p.WDF341PAPM.html" }
+  },
+  "whirlpool-wdp540hamz": {
+    "height_in": 33.5, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.24-dishwasher-with-boost-cycle-and-triple-filtration-wash-55dba.wdp540hamz.html" }
+  },
+  "kitchenaid-kdtm704kps": {
+    "height_in": 33.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/kdtm704kps.html" }
+  },
+  "kitchenaid-kdte104kps": {
+    "height_in": 34.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.47-dba-two-rack-dishwasher-in-printshield-finish-with-prowash-cycle.kdte104kps.html" }
+  },
+  "kitchenaid-kdpm704kps": {
+    "height_in": 33.5, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/kdpm704kps.html" }
+  },
+  "samsung-dw90f89p0usr": {
+    "height_in": 33.875, "depth_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/DW90F89P0USR_V3.pdf" }
+  },
+  "samsung-dw80cg4021sr": {
+    "height_in": 33.75, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/fingerprint-resistant-53-dba-dishwasher-with-height-adjustable-rack-in-stainless-steel-dw80cg4021sraa/" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kitchenaid-kfgg500ess": {
+    "height_in": 47.125, "depth_in": 25.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/gas-ranges/gas-freestanding-range/p.30-inch-5-burner-gas-convection-range.kfgg500ess.html" }
+  },
+  "whirlpool-wfg975h0hv": {
+    "height_in": 46.5, "depth_in": 27.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/single-oven-freestanding/p.5.8-cu.-ft.-smart-freestanding-gas-range-with-ez-2-lift-grates.wfg975h0hv.html" }
+  },
+  "whirlpool-wfg550s0lz": {
+    "height_in": 46.875, "depth_in": 25.44, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/single-oven-freestanding/p.5.0-cu.-ft.-whirlpool-gas-5-in-1-air-fry-oven.wfg550s0lz.html" }
+  },
+  "electrolux-ecfg3068as": {
+    "height_in": 36.63, "depth_in": 25.88, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.electrolux.com/en/product/ECFG3068AS" }
+  },
+  "bosch-hgs8055uc": {
+    "height_in": 36, "depth_in": 26.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/gas-slide-in-ranges/HGS8055UC" }
+  },
+  "frigidaire-fcfg3062as": {
+    "height_in": 35.625, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/FCFG3062AS" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cafe-ces750p4mw2": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Radiant-and-Convection-Double-Oven-Range-CES750P4MW2" }
+  },
+  "ge-jbs86spss": {
+    "height_in": 47, "depth_in": 28.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Electric-Double-Oven-Convection-Range-JBS86SPSS" }
+  },
+  "cafe-c2s900p2ms1": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Dual-Fuel-Range-with-Warming-Drawer-C2S900P2MS1" }
+  },
+  "hisense-hbe3501cps": {
+    "height_in": 47, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.hisense-usa.com/product-page/home-appliance-cooking-range-5-8-cu-ft-freestanding-electric-oven-hbe3501cps" }
+  },
+  "cafe-chs90xp2ms1": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/chs90xp2ms1.html" }
+  },
+  "ge-ggf600avss": {
+    "height_in": 47.25, "depth_in": 27.88, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Convection-Range-with-No-Preheat-Air-Fry-and-EasyWash-Oven-Tray-GGF600AVSS" }
+  }
+}

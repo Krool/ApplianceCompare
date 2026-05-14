@@ -1,0 +1,18 @@
+{
+  "cafe-c2s950p2ms1": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/c2s950p2ms1.html" }
+  },
+  "ge-jgss61spss": {
+    "height_in": 36.25, "depth_in": 29.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Slide-In-Front-Control-Gas-Range-JGSS61SPSS" }
+  },
+  "whirlpool-wfg525s0jz": {
+    "height_in": 46.87, "depth_in": 25.44, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/single-oven-freestanding/p.5.0-cu.-ft.-gas-range-with-center-oval-burner.wfg525s0jz.html" }
+  },
+  "whirlpool-wee745h0lz": {
+    "height_in": 39.96, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/slide-in/p.6.4-cu.-ft.-whirlpool-electric-7-in-1-air-fry-oven.wee745h0lz.html" }
+  }
+}

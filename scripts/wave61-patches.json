@@ -1,0 +1,22 @@
+{
+  "ge-grf600avss": {
+    "height_in": 47.25, "depth_in": 27.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-30-Free-Standing-Electric-Convection-Range-with-No-Preheat-Air-Fry-and-EasyWash-Oven-Tray-GRF600AVSS" }
+  },
+  "kitchenaid-kfeg504kps": {
+    "height_in": 47.125, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.30-inch-5-element-electric-convection-range-with-printshield-finish.kfeg504kps.html" }
+  },
+  "miele-hr1422-3i": {
+    "height_in": 37.13, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/12298850/30-range-hr-1422-3-i" }
+  },
+  "jennair-jis1450ml": {
+    "height_in": 36.75, "depth_in": 28.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.30%E2%80%9D-induction-slide-in-range.jis1450ml.html" }
+  },
+  "hisense-hbg3601cps": {
+    "height_in": 47, "depth_in": 26.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.hisense-usa.com/product-page/home-appliance-cooking-range-58-cuft-oven-6-burners-range-hbg3601cps" }
+  }
+}

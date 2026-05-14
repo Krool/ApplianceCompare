@@ -1,0 +1,22 @@
+{
+  "bosch-hef1050mu": {
+    "height_in": 36, "depth_in": 26.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/electric-slide-in-ranges/HEF1050MU" }
+  },
+  "maytag-mer8800fz": {
+    "height_in": 47.88, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/cooking/ranges/electric/p.30-inch-wide-electric-range-with-true-convection-and-power-preheat-6.4-cu.-ft.mer8800fz.html" }
+  },
+  "sks-upsg3014st": {
+    "height_in": 37.875, "depth_in": 26.5625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/PDF/SKS/spec-sheet/UPSG3014ST_30-In_Gas_Slide-In_Range-Spec_Sheet.pdf" }
+  },
+  "electrolux-ecfd3668as": {
+    "height_in": 36.5625, "depth_in": 25.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.electrolux.com/en/p/Kitchen/Ranges/Dual-Fuel-Ranges/ECFD3668AS" }
+  },
+  "zline-rainds-sn-30": {
+    "height_in": 36, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://zlinekitchen.com/products/zline-30-induction-range-satin-stainless-steel-rainds-sn-30" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "frigidaire-gcrg3060bf": {
+    "height_in": 46.75, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/GCRG3060BF" }
+  },
+  "lg-lsel6337f": {
+    "height_in": 36.5, "depth_in": 29.28125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lsel6337f-slide-in-electric-range" }
+  },
+  "ge-profile-phs930ypfs": {
+    "height_in": 37.25, "depth_in": 28.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Slide-In-Fingerprint-Resistant-Front-Control-Induction-and-Convection-Range-with-No-Preheat-Air-Fry-PHS930YPFS" }
+  },
+  "bosch-hii8057u": {
+    "height_in": 36.5, "depth_in": 28.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/induction-slide-in-ranges/HII8057U" }
+  },
+  "kitchenaid-kfid500ess": {
+    "height_in": 47.38, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/double-oven-ranges/p.30-inch-4-element-induction-double-oven-convection-range.kfid500ess.html" }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sks-srpf3640s": {
+    "depth_in": 28.9375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/PDF/SKS/spec-sheet/SKSRT360S_36-In_Rangetop-6_Burners-Spec_Sheet.pdf" }
+  },
+  "bosch-hbl8453uc": {
+    "height_in": 29, "depth_in": 23.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/HBL8453UC" }
+  },
+  "miele-h7780bp": {
+    "height_in": 28.625, "depth_in": 24.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel" }
+  },
+  "ge-jts5000snss": {
+    "height_in": 28.625, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Smart-Built-In-Self-Clean-Convection-Single-Wall-Oven-with-Never-Scrub-Racks-JTS5000SNSS" }
+  },
+  "ge-profile-ptd9000snss": {
+    "height_in": 53, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-30-Smart-Built-In-Convection-Double-Wall-Oven-with-In-Oven-Camera-and-No-Preheat-Air-Fry-PTD9000SNSS" }
+  }
+}

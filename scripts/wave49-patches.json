@@ -1,0 +1,22 @@
+{
+  "monogram-zhu36rstss": {
+    "height_in": 3.25, "depth_in": 21.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://appliances.monogram.com/us/specs/ZHU36RSTSS" }
+  },
+  "cafe-chp90362tss": {
+    "height_in": 4.625, "depth_in": 20.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-Series-ENERGY-STAR-36-Built-In-Touch-Control-Induction-Cooktop-CHP90362TSS" }
+  },
+  "thermador-cit30ywbb": {
+    "height_in": 4.125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/induction-cooktops/CIT30YWBB" }
+  },
+  "frigidaire-pcci3080af": {
+    "height_in": 2.875, "depth_in": 21.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/cooktops/induction-cooktops/PCCI3080AF" }
+  },
+  "kitchenaid-kced606gbl": {
+    "height_in": 18.75, "depth_in": 22.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-downdraft-cooktops/p.36-electric-downdraft-cooktop-with-5-elements.kced606gbl.html" }
+  }
+}

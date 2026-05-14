@@ -1,0 +1,26 @@
+{
+  "frigidaire-ffec3025ub": {
+    "height_in": 2.625, "depth_in": 21.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/cooktops/electric-cooktops/FFEC3025UB" }
+  },
+  "kitchenaid-kcig556jbl": {
+    "height_in": 2.3125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/cooktops/electric-cooktops/electric-5-burner-cooktops/p.KITCHENAID-36-INCH-5-ELEMENT-INDUCTION-COOKTOP.html" }
+  },
+  "thermador-sgsx365ts": {
+    "height_in": 3.8125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/gas-cooktops/SGSX365TS" }
+  },
+  "thermador-sgsx305ts": {
+    "height_in": 3.8125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/cooktops-rangetops/gas-cooktops/SGSX305TS" }
+  },
+  "samsung-nz30fg5332rkaa": {
+    "height_in": 5.125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/cooking-appliances/cooktops/electric-30-energy-star-certified-cooktop-with-4-elements-in-black-sku-nz30fg5332rkaa/" }
+  },
+  "whirlpool-wci55us0jb": {
+    "height_in": 3.6875, "depth_in": 21.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/cooktops/induction-cooktops/p.30-inch-induction-cooktop.wci55us0jb.html" }
+  }
+}

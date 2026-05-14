@@ -1,0 +1,26 @@
+{
+  "maytag-mgc9536ds": {
+    "height_in": 4, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/cooking/cooktops/gas/p.36-inch-wide-gas-cooktop-with-duraguard-protective-finish.mgc9536ds.html" }
+  },
+  "samsung-nz30r5330rk": {
+    "height_in": 5, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/cooktops-and-hoods/electric/pdf/NZ30R5330R_V3.pdf" }
+  },
+  "wolf-ir36450": {
+    "height_in": 4, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/wolf/cooktops-and-rangetops/gas-stovetop/36-inch-transitional-gas-cooktop-5-burners" }
+  },
+  "bosch-net8669uc": {
+    "height_in": 4.25, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/induction-electric-cooktops/electric-cooktops/NET8669UC" }
+  },
+  "frigidaire-gcci3667ab": {
+    "height_in": 2.875, "depth_in": 21.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/cooktops/induction-cooktops/GCCI3667AB" }
+  },
+  "samsung-nz36k7880us": {
+    "height_in": 4, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/cooktops-and-hoods/induction-cooktops/36--built-in-induction-cooktop-with-flex-cookzone--nz36k7880us-aa/" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dacor-dti30p876bb": {
+    "height_in": 4, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.dacor.com/us/products/cooking/cooktops-and-rangetops/30-inch-induction-cooktop-frameless-transitional-black-glass-dti30p876bb/" }
+  },
+  "samsung-nz30a3060uk": {
+    "height_in": 4.25, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/cooktops-and-hoods/induction-cooktops/30--smart-induction-cooktop-with-wi-fi-in-black-nz30a3060uk-aa/" }
+  },
+  "samsung-na36n7755tg": {
+    "height_in": 5.57, "depth_in": 22.33, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/cooktops-and-hoods/gas-cooktops/36-gas-cooktop-with-22k-btu-true-dual-power-burner-2018-na36n7755tg-aa/" }
+  },
+  "samsung-na30n7755tg": {
+    "height_in": 5.57, "depth_in": 22.33, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/cooktops-and-hoods/gas-cooktops/30-gas-cooktop-with-22k-btu-true-dual-power-burner-2018-na30n7755tg-aa/" }
+  },
+  "lg-studio-cbgs3628s": {
+    "height_in": 3.75, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbgs3628s-gas-cooktop" }
+  },
+  "lg-lce3010sb": {
+    "height_in": 4, "depth_in": 21.47, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lce3010sb-electric-cooktop" }
+  }
+}

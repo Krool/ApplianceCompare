@@ -1,0 +1,26 @@
+{
+  "ge-jgs760spss": {
+    "height_in": 36.25, "depth_in": 29.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Slide-In-Front-Control-Convection-Gas-Range-with-No-Preheat-Air-Fry-JGS760SPSS" }
+  },
+  "samsung-nse6dg8100sr": {
+    "height_in": 36.25, "depth_in": 27.87, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/electric/bespoke-6-3-cu-ft-smart-slide-in-electric-range-with-precision-knobs-in-stainless-steel-nse6dg8100sraa/" }
+  },
+  "ge-jgbs30dekww": {
+    "height_in": 46.25, "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Range-JGBS30DEKWW" }
+  },
+  "ge-jgbs86spss": {
+    "height_in": 47.25, "depth_in": 26.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Free-Standing-Gas-Double-Oven-Convection-Range-JGBS86SPSS" }
+  },
+  "cafe-cgs750p4mw2": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/cgs750p4mw2.html" }
+  },
+  "maytag-met8800fz": {
+    "height_in": 47.125, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/ranges/double-oven-freestanding/p.30-inch-wide-double-oven-electric-range-with-true-convection-6.7-cu.-ft.met8800fz.html" }
+  }
+}

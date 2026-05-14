@@ -1,0 +1,26 @@
+{
+  "frigidaire-fcrg3083as": {
+    "height_in": 46.75, "depth_in": 28.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/fcrg3083as-frigidaire-30-5-1-cu-ft-freestanding-gas-range-with-5-sealed-burners-and-air-fry-stainless-steel.html" }
+  },
+  "frigidaire-fcrg3051bs": {
+    "height_in": 47.75, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/FCRG3051BS" }
+  },
+  "whirlpool-weg515s0ls": {
+    "height_in": 36, "depth_in": 28.9375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/gas/p.WEG515S0LS.html" }
+  },
+  "frigidaire-fcfg3083as": {
+    "height_in": 35.625, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/FCFG3083AS" }
+  },
+  "frigidaire-gcfg3059bf": {
+    "height_in": 35.625, "depth_in": 26, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/gas-ranges/GCFG3059BF" }
+  },
+  "thor-kitchen-lrg3001u": {
+    "height_in": 37.29, "depth_in": 28.3, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thorkitchen.com/products/thor-kitchen-30-inch-gas-range-lrg3001u-lrg3001ulp" }
+  }
+}

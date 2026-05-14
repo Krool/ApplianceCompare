@@ -1,0 +1,70 @@
+{
+  "frigidaire-gdsp471taf": {
+    "height_in": 33.75, "depth_in": 24.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://na2.electroluxmedia.com/Original/Electrolux/Electrolux%20Assets/Document/Product%20Specifications%20Sheet/English/GDSP471TA_EN.pdf" }
+  },
+  "frigidaire-fdsh4501as": {
+    "height_in": 33.75, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/dishwashers/FDSH4501AS" }
+  },
+  "frigidaire-pdsh4816af": {
+    "height_in": 33.75, "depth_in": 24.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/dishwashers/PDSH4816AF" }
+  },
+  "maytag-mdfs3924rz": {
+    "height_in": 33.625, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/dishwashers/front-control-dishwashers/p.MDFS3924RZ.html" }
+  },
+  "sharp-sdw6506js": {
+    "height_in": 33.625, "depth_in": 22.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/" }
+  },
+  "sharp-sdw6888js": {
+    "height_in": 34.46875, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/" }
+  },
+  "sharp-sdw6767hs": {
+    "height_in": 33.88, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://simplybetterliving.sharpusa.com/products/sharp-24-in-slide-in-smart-dishwasher-sdw6767hs" }
+  },
+  "midea-mdt24p3cst": {
+    "height_in": 33.8, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-24--top-control-dishwasher-with-3-stage-total-drying.mdt24p3cst" }
+  },
+  "midea-mdt24p5ast": {
+    "height_in": 33.75, "depth_in": 24.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.midea.com/us/dishwashers/built-in-dishwashers/24-dishwasher-with-targeted-wash-zones" }
+  },
+  "fisher-paykel-dd24dtx6hi1": {
+    "height_in": 34, "depth_in": 22.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dwf2352830/DesignPlanning-FisherPaykelCA/FP-SpecGuide-DD24DTX6I1-DD24DTX6HI1-DishDrawer-0-US-CA-592735A.pdf" }
+  },
+  "beko-ddfn38530x": {
+    "height_in": 33.875, "depth_in": 22.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.beko.com/us-en/24-inch-dishwasher-with-16-place-settings-built-in-ddt38530x" }
+  },
+  "bertazzoni-dw24s3ipv": {
+    "height_in": 32.25, "depth_in": 21.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://us.bertazzoni.com/products/professional-series/dishwashers/24-inch-dishwasher-standard-tube-panel-ready" }
+  },
+  "gaggenau-df481700f": {
+    "height_in": 34.125, "depth_in": 21.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.gaggenau.com/us/en/mkt-product/DF481700F" }
+  },
+  "monogram-zdt985sinii": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/monogram-zdt985sinii.html" }
+  },
+  "thermador-dwhd640efm": {
+    "height_in": 33.875, "depth_in": 23.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM" }
+  },
+  "asko-dbi564ixxls": {
+    "height_in": 34.3125, "depth_in": 21.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://us.asko.com/products/kitchen/dishwashers/touchproof-stainless-steel/DISHWASH-DW60-2-DBI564IXXLS-U-ASK/p/000000000000740106" }
+  },
+  "sks-sdwb24s3": {
+    "height_in": 33.625, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/dishwashers/lg-sdwb24s3-top-control-dishwasher" }
+  }
+}

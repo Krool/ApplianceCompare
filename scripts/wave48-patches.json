@@ -1,0 +1,26 @@
+{
+  "bosch-nit8060uc": {
+    "height_in": 4, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/induction-electric-cooktops/induction-cooktops/NIT8060UC" }
+  },
+  "lg-cbih3613be": {
+    "height_in": 3.6875, "depth_in": 21.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbih3613be" }
+  },
+  "lg-studio-cbis3618be": {
+    "height_in": 3.5625, "depth_in": 21.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbis3618be-electric-cooktop" }
+  },
+  "lg-cbih3013be": {
+    "height_in": 3.6875, "depth_in": 21.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-cbih3013be" }
+  },
+  "electrolux-ecci3068as": {
+    "height_in": 2.875, "depth_in": 21.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.electrolux.com/en/p/Kitchen/Cooktops/Induction-Cooktops/ECCI3068AS" }
+  },
+  "ge-profile-php9036djbb": {
+    "height_in": 4.625, "depth_in": 20.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-36-Built-In-Touch-Control-Induction-Cooktop-PHP9036DJBB" }
+  }
+}

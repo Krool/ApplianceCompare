@@ -1,0 +1,26 @@
+{
+  "ge-jp3030dwbb": {
+    "height_in": 4, "depth_in": 20.87, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-30-Built-In-Knob-Control-Electric-Cooktop-JP3030DWBB" }
+  },
+  "whirlpool-wce55us0hb": {
+    "height_in": 5.25, "depth_in": 22.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/cooktops/4-burner-elements/p.30-inch-electric-ceramic-glass-cooktop-with-dual-radiant-element.wce55us0hb.html" }
+  },
+  "bosch-benchmark-ngmp059uc": {
+    "height_in": 3.8125, "depth_in": 21.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/gas-cooktops/gashobsgas30cooktops/NGMP059UC" }
+  },
+  "sks-upcg3654st": {
+    "height_in": 4.125, "depth_in": 21.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/PDF/SKS/spec-sheet/UPCG3654ST_36-In_Gas_Cooktop-Spec_Sheet.pdf" }
+  },
+  "ge-profile-pgp7036slss": {
+    "height_in": 5.5, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-36-Built-In-Gas-Cooktop-with-Five-Burners-PGP7036SLSS" }
+  },
+  "samsung-na30r5310fs": {
+    "height_in": 5.8125, "depth_in": 21, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/cooktops-and-hoods/gas-cooktops/30-gas-cooktop-na30r5310fs-aa/" }
+  }
+}

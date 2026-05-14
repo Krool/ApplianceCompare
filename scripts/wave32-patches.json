@@ -1,0 +1,26 @@
+{
+  "lg-lrgl5821s": {
+    "height_in": 46.5, "depth_in": 28.88, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/cooking-appliances/lg-lrgl5821s-gas-range" }
+  },
+  "kitchenaid-ksgg700ess": {
+    "height_in": 36, "depth_in": 28.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/slide-in-ranges/p.30-inch-5-burner-gas-slide-in-convection-range.ksgg700ess.html" }
+  },
+  "maytag-mer4600ls": {
+    "height_in": 47.875, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/maytag-mer4600ls.html" }
+  },
+  "jennair-jes1450ml": {
+    "height_in": 36, "depth_in": 27.8125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.jennair.com/ranges/electric/slide-in-electric-ranges/p.30-rise-electric-slide-in-range.jes1450ml.html" }
+  },
+  "whirlpool-wfe535s0lz": {
+    "height_in": 46.875, "depth_in": 27.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/electric/p.5.3-cu.-ft.-whirlpool-electric-5-in-1-air-fry-oven.wfe535s0lz.html" }
+  },
+  "bosch-hgi8056uc": {
+    "height_in": 36.5, "depth_in": 29.1875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bosch-home.com/us/en/product/cooking-baking/slide-in-ranges/gas-slide-in-ranges/HGI8056UC" }
+  }
+}

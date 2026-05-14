@@ -1,0 +1,58 @@
+{
+  "samsung-dw80bb707012": {
+    "height_in": 33.875, "depth_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/dishwasher/DW80B7070US_V8.pdf" }
+  },
+  "samsung-dw80r9950ug": {
+    "height_in": 33.875, "depth_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/dishwashers/rotary/pd/dw80r9950ug-aa/newspecsheet/DW80R9950US_V6.pdf" }
+  },
+  "samsung-dw80cg5451sr": {
+    "height_in": 33.875, "depth_in": 27.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lowes.com/pd/Samsung-StormWash-Top-Control-24-in-Built-In-Dishwasher/5014401215" }
+  },
+  "samsung-dw80b6060us": {
+    "height_in": 33.875, "depth_in": 25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/DW80B6060_V4.pdf" }
+  },
+  "lg-ldfc353ls": {
+    "height_in": 33.625, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/dishwashers/lg-ldfc353ls-front-control-dishwasher" }
+  },
+  "lg-ldth555ns": {
+    "height_in": 33.625, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/support/products/documents/LDTH555NS_spec_sheet.pdf" }
+  },
+  "lg-ldph5554s": {
+    "height_in": 33.625, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher" }
+  },
+  "lg-adfd5448at": {
+    "height_in": 32.0625, "depth_in": 22.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/business/download/resources/CT00021979/ADFD5448AT%20LG%20Builder%20Spec%20Sheet%5B20220107_115226%5D.pdf" }
+  },
+  "lg-ldfc2423v": {
+    "height_in": 33.625, "depth_in": 24.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media.us.lg.com/m/5581dfd45b099b68/original/LDFC2423_-LG-Builder-Spec-Sheet.pdf" }
+  },
+  "ge-gdt665synfs": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/ge-gdt665ssnss.html" }
+  },
+  "ge-gdp665synfs": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/ge-gdp665synfs.html" }
+  },
+  "ge-profile-pdt715synfs": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/ge-profile-pdt715synfs.html" }
+  },
+  "ge-profile-pdp755syvfs": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/ge-pdp755syvfs.html" }
+  },
+  "ge-gdf550psnss": {
+    "height_in": 34, "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/ge-gdf550psrss.html" }
+  }
+}

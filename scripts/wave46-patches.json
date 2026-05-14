@@ -1,0 +1,26 @@
+{
+  "thermador-pri30lbhu": {
+    "height_in": 35.875, "depth_in": 24.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/ranges/30-ranges/PRI30LBHU" }
+  },
+  "jennair-jpifc730rl": {
+    "height_in": 36, "depth_in": 27.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-30-induction-professional-style-range.jpifc730rl.html" }
+  },
+  "jennair-jpifc736rl": {
+    "height_in": 36, "depth_in": 27.6875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.jennair.com/ranges/electric/induction-ranges/p.rise-36-induction-professional-style-range.jpifc736rl.html" }
+  },
+  "wolf-ir30450": {
+    "height_in": 35.5, "depth_in": 28.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/wolf/ranges/induction-range/30-inch-transitional-induction-range" }
+  },
+  "wolf-ir36551": {
+    "height_in": 36.5, "depth_in": 29.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/products/wolf/ranges/induction-range/ir36551sp/36-inch-professional-induction-range" }
+  },
+  "samsung-nx60a6311ss": {
+    "height_in": 46.3125, "depth_in": 26.44, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/ranges/gas-ranges/nx60a6311s/NX60A6311SS_V4.pdf" }
+  }
+}

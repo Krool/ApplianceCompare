@@ -1,0 +1,22 @@
+{
+  "whirlpool-wfg775h0hz": {
+    "height_in": 46.5, "depth_in": 25.3125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/single-oven-freestanding/p.5.8-cu.-ft.-freestanding-gas-range-with-frozen-bake-technology.wfg775h0hz.html" }
+  },
+  "samsung-nx60bb871112": {
+    "height_in": 37, "depth_in": 28.69, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/ranges/gas/6-0-cu--ft--smart-bespoke-slide-in-gas-range-with-smart-dial--air-fry---wi-fi-in-white-glass-nx60bb871112aa/" }
+  },
+  "cafe-chs900p2ms1": {
+    "height_in": 37.375, "depth_in": 26.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.cafeappliances.com/appliance/CAFE-30-Smart-Slide-In-Front-Control-Induction-and-Convection-Range-with-Warming-Drawer-CHS900P2MS1" }
+  },
+  "frigidaire-gcre3060af": {
+    "height_in": 36, "depth_in": 25.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/ranges/electric-ranges/GCRE3060AF" }
+  },
+  "maytag-mfes6030rz": {
+    "height_in": 47.875, "depth_in": 28, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.maytag.com/kitchen/ranges/electric/p.30-inch-wide-electric-range-with-no-preheat-air-fry-and-air-baking-5.3-cu.-ft.mfes6030rz.html" }
+  }
+}

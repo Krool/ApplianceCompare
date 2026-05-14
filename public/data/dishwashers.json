@@ -1367,6 +1367,8 @@
       "brand": "fisher-paykel",
       "model": "DD24DCX9N",
       "name": "Fisher & Paykel DishDrawer Double",
+      "retired": true,
+      "retired_reason": "Model number DD24DCX9N not findable in F&P US lineup; likely typo of DD24DCTX9N (Contemporary Tall double drawer). Removed from listings; deep link preserved.",
       "tub": "stainless",
       "decibels": 43,
       "place_settings": 14,
@@ -1858,6 +1860,8 @@
       "brand": "bosch",
       "model": "SHA9PT55UC",
       "name": "Bosch 800 Series SHA9PT55UC ADA",
+      "retired": true,
+      "retired_reason": "Model number SHA9PT55UC not findable in Bosch US lineup; likely typo of SHE9PT55UC (Benchmark front-control). Removed from listings; deep link preserved.",
       "tub": "stainless",
       "decibels": 42,
       "place_settings": 15,
@@ -1905,6 +1909,8 @@
       "brand": "sks",
       "model": "SDWB24ST",
       "name": "Signature Kitchen Suite SDWB24ST",
+      "retired": true,
+      "retired_reason": "Model number SDWB24ST not findable; SDWB prefix belongs to LG Studio, not SKS. Possibly nonexistent or alias of SDWB24S3. Removed from listings; deep link preserved.",
       "tub": "stainless",
       "decibels": 40,
       "place_settings": 16,
@@ -1953,6 +1959,8 @@
       "brand": "lg",
       "model": "LDFS4542S",
       "name": "LG LDFS4542S TrueSteam",
+      "retired": true,
+      "retired_reason": "Model number LDFS4542S not findable in LG US lineup; likely typo of LDFN4542S (front-control QuadWash). Removed from listings; deep link preserved.",
       "tub": "stainless",
       "decibels": 44,
       "place_settings": 15,
@@ -2934,6 +2942,8 @@
       "brand": "fisher-paykel",
       "model": "DW60UC6I1",
       "name": "Fisher & Paykel DW60UC6I1 Series 7",
+      "retired": true,
+      "retired_reason": "F&P AU/NZ-market model — not sold in US (CLAUDE.md: US-market only). Removed from listings; deep link preserved.",
       "tub": "stainless",
       "decibels": 43,
       "place_settings": 15,
@@ -6007,7 +6017,7 @@
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
           "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.quiet-dishwasher-with-3rd-rack-and-pocket-handle.wdp730hamz.html",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2448382",
-          "specs": "https://www.ajmadison.com/cgi-bin/ajmadison/WDP730HAMZ.html"
+          "specs": "https://www.abt.com/Whirlpool-24-Fingerprint-Resistant-Stainless-Steel-Dishwasher-With-3rd-Rack-And-Pocket-Handle-WDP730HAMZ/p/182690.html"
         }
       },
       "pros": [],
@@ -6078,7 +6088,8 @@
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "depth_in": 24.5
     },
     {
       "id": "miele-g5051scvi",
@@ -6354,14 +6365,17 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
-          "manufacturer": "https://www.amazon.com/Unique-Appliances-UGP-24CR-DW-Marshmallow/dp/B0C9MPKT3W"
+          "manufacturer": "https://www.amazon.com/Unique-Appliances-UGP-24CR-DW-Marshmallow/dp/B0C9MPKT3W",
+          "specs": "https://www.amazon.com/Unique-Appliances-UGP-24CR-DW-Dishwasher/dp/B0C9LCS9VZ"
         }
       },
       "pros": [],
       "cons": [],
       "release_year": null,
       "last_updated": "2026-05-14",
-      "_meta": {}
+      "_meta": {},
+      "height_in": 33.8,
+      "depth_in": 24.5
     },
     {
       "id": "frigidaire-gdsh4715af",
@@ -6926,7 +6940,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
-          "manufacturer": "https://www.bestbuy.com/site/insignia-24-front-control-built-in-dishwasher-with-sensor-wash-stainless-steel-tub-51-dba-stainless-steel/6477035.p?skuId=6477035"
+          "manufacturer": "https://www.bestbuy.com/site/insignia-24-front-control-built-in-dishwasher-with-sensor-wash-stainless-steel-tub-51-dba-stainless-steel/6477035.p?skuId=6477035",
+          "specs": "https://www.bestbuy.com/site/insignia-24-front-control-built-in-dishwasher-with-sensor-wash-stainless-steel-tub-51-dba-stainless-steel/6477035.p?skuId=6477035"
         }
       },
       "pros": [],
@@ -6942,7 +6957,9 @@
         "local": "images/dishwashers/insignia-ns-dwrf2ss3.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477035_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "height_in": 33.8125,
+      "depth_in": 25.25
     },
     {
       "id": "sharp-sdw6767hs",

@@ -1,0 +1,22 @@
+{
+  "kitchenaid-kfgd500ess": {
+    "height_in": 47.375, "depth_in": 26.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.kitchenaid.com/major-appliances/ranges/gas-ranges/gas-double-oven-range/p.30-inch-5-burner-gas-double-oven-convection-range.kfgd500ess.html" }
+  },
+  "dacor-dop30t840gs": {
+    "height_in": 36.0625, "depth_in": 27.0625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.dacor.com/us/products/cooking/ranges/30-inch-gas-range-transitional-silver-stainless-natural-gas-liquid-propane-dop30t840gs/" }
+  },
+  "sharp-ssg3065js": {
+    "height_in": 35.5, "depth_in": 26.5625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://shop.sharpusa.com/30-in-gas-convection-slide-in-range-with-air-fry-ssg3065js/" }
+  },
+  "whirlpool-wfg775h0hv": {
+    "height_in": 46.5, "depth_in": 27.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.whirlpool.com/kitchen/cooking/ranges/single-oven-freestanding/p.WFG775H0HV.html" }
+  },
+  "electrolux-ecfd3068as": {
+    "height_in": 36.625, "depth_in": 25.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.electrolux.com/en/p/Kitchen/Ranges/Dual-Fuel-Ranges/ECFD3068AS" }
+  }
+}
