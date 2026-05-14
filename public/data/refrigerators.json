@@ -1156,7 +1156,57 @@
       },
       "height_in": 70.25,
       "depth_with_handle_in": 35.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5812/5812015_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160265/hero-p160265-65z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160265/open-propped-p160265-25z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160265/open-propped-p160265-22z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz-g4.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160265/additional-p160265-28z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz-g5.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170116/set-p170116-62z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz-g6.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160732/additional-p160732-56z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf555sdfz-g7.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170079/additional-p170079-26.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "whirlpool-wrt311fzdm",
@@ -1250,7 +1300,45 @@
       "height_in": 66.25,
       "depth_in": 30.625,
       "depth_with_handle_in": 32.875,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrt311fzdm.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9536/9536227_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt311fzdm-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160743/hero-p160743-4z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt311fzdm-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2014/p140469/open-propped-p140469-79z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt311fzdm-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2014/p140469/open-p140469-48z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt311fzdm-g4.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160629/additional-p160629-1z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt311fzdm-g5.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2018/p180282wx/dimension-p180282wx-241.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "whirlpool-wrs588fihz",
@@ -1301,7 +1389,51 @@
       "height_in": 69,
       "depth_in": 29.625,
       "depth_with_handle_in": 34.875,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrs588fihz.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5811/5811900_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs588fihz-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160743/hero-p160743-225z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs588fihz-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170117/open-propped-p170117-4z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs588fihz-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170117/open-p170117-2z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs588fihz-g4.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170411/additional-p170411-7z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs588fihz-g5.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170117/set-p170117-17z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs588fihz-g6.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170117/additional-p170117-20.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "kitchenaid-krff507hps",
@@ -2488,7 +2620,69 @@
       "height_in": 70.125,
       "depth_in": 32.875,
       "depth_with_handle_in": 35.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5495/5495101_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g1.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/business-unit/maytag/es-mx/assets/product/refrigeration/french-door/mfi2570fez/MFI2570FEZ%2000.png?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g2.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2016/p160119/open-propped-p160119-14z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g3.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2019/p190361mx/feature-p190361mx-003z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g4.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2016/p160119/open-p160119-8z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g5.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2016/p160338/additional-p160338-16z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g6.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2016/p160338/additional-p160338-13z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g7.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2016/p160338/feature-p160338-21z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g8.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2016/p160338/open-p160338-19z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/maytag-mfi2570fez-g9.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2019/p190166mx/additional-p190166mx-001z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "hisense-rf18a3fse",
@@ -2979,7 +3173,45 @@
       "height_in": 67,
       "depth_in": 30.875,
       "depth_with_handle_in": 33.38,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrb329dmbm.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3928/3928057_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrb329dmbm-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2013/p130729/hero-p130729-32z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrb329dmbm-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2013/p130729/open-propped-p130729-54z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrb329dmbm-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2013/p130729/open-p130729-33z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrb329dmbm-g4.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2013/p130729/additional-p130729-38z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrb329dmbm-g5.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2018/p180282wx/dimension-p180282wx-260.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "ge-pye22kynfs",
@@ -5260,7 +5492,58 @@
         "local": "images/refrigerators/whirlpool-wrt112czjz.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6391/6391374_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6391/6391374_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2019/p190699wr/hero-p190699wr-001z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2019/p190699wr/open-propped-p190699wr-002z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2019/p190699wr/open-p190699wr-004z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz-g4.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2019/p190699wr/additional-p190699wr-006z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz-g5.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2019/p190699wr/additional-p190699wr-007z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz-g6.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2019/p191092wr/set-p191092wr-018z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt112czjz-g7.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2021/p210189wx/dimension-p210189wx-075z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ],
+      "last_updated": "2026-05-14"
     },
     {
       "id": "frigidaire-ffht1425vv",
@@ -5483,7 +5766,33 @@
         "source": "cr"
       },
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrt313czlz.jpg",
+          "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/406160-28-inch-and-narrower-widths-whirlpool-wrt313czlz-10028276.png",
+          "source": "cr",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt313czlz-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/whirlpool/refrigeration/refrigerator/images/hero-WRT313CZLZ.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt313czlz-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2021/p210327wr/additional-p210327wr-004z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrt313czlz-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2021/p210327wr/additional-p210327wr-007z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        }
+      ]
     },
     {
       "id": "summit-ff1142pllhd",
@@ -8757,7 +9066,21 @@
       },
       "height_in": 70,
       "depth_with_handle_in": 33.375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrb322dmbm.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3928/3928039_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrb322dmbm-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2018/p180282wx/dimension-p180282wx-263.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        }
+      ]
     },
     {
       "id": "maytag-mrff4136rz",
@@ -8805,7 +9128,69 @@
       "height_in": 70.12,
       "depth_in": 32.87,
       "depth_with_handle_in": 35.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617970_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g1.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/maytag/refrigeration/freestanding-refrigerator/images/hero-MRFF4136RZ.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g2.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/open-propped-230699mrp01-017_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g3.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/feature-230699mrp01-025_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g4.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/feature-230699mrp01-014_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g5.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/feature-230699mrp01-004_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g6.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/feature-230699mrp01-009_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g7.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrg01/open-230699mrg01-008_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g8.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/set-230699mrp01-023_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4136rz-g9.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrg01/dimension-230699mrg01-014_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "maytag-mrff4236rz",
@@ -8857,7 +9242,39 @@
       "_meta": {},
       "last_updated": "2026-05-14",
       "height_in": 70.13,
-      "depth_with_handle_in": 35.5
+      "depth_with_handle_in": 35.5,
+      "images": [
+        {
+          "local": "images/refrigerators/maytag-mrff4236rz-g1.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/open-propped-230699mrp01-019_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4236rz-g2.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/feature-talent-230699mrp01-001_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4236rz-g3.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrg01/open-230699mrg01-009_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4236rz-g4.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrp01/set-230699mrp01-022_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/maytag-mrff4236rz-g5.webp",
+          "source_url": "https://www.maytag.com/is/image/content/dam/global/shot-lists/2023/230699mrg01/additional-230699mrg01-013.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "bosch-b36cl80sns",
@@ -9669,7 +10086,57 @@
       "height_in": 69.875,
       "depth_in": 28.875,
       "depth_with_handle_in": 35.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6292/6292010_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170802/hero-p170802-1cz.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170216/open-propped-p170216-5z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170216/open-p170216-3z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz-g4.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170216/additional-p170216-7z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz-g5.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170652/set-p170652-12z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz-g6.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170216/open-propped-p170216-13z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrf767sdhz-g7.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170216/additional-p170216-18.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "frigidaire-frfg1723av",
@@ -9884,7 +10351,51 @@
       "height_in": 66.625,
       "depth_in": 28,
       "depth_with_handle_in": 33.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/whirlpool-wrs315snhm.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6211/6211525_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs315snhm-g1.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2016/p160743/hero-p160743-181z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs315snhm-g2.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2020/p200954wr/open-propped-p200954wr-004z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs315snhm-g3.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2020/p200954wr/open-p200954wr-001z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs315snhm-g4.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170306/additional-p170306-21z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs315snhm-g5.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2017/p170306/set-p170306-35z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/whirlpool-wrs315snhm-g6.webp",
+          "source_url": "https://www.whirlpool.com/is/image/content/dam/global/shot-lists/2018/p180282wx/dimension-p180282wx-13.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "ge-gts17dtnrww",
