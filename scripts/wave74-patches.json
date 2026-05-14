@@ -1,0 +1,14 @@
+{
+  "sks-sksfd4826p": {
+    "depth_in": 23.87, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.signaturekitchensuite.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator" }
+  },
+  "zline-rbiv-304-30": {
+    "depth_in": 24.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://zlinekitchen.com/products/zline-30-built-in-refrigerator-stainless-steel-rbiv-304-30" }
+  },
+  "viking-rvffr336ss": {
+    "depth_in": 26.75, "depth_with_handle_in": 29, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/viking-rvffr336ss.html" }
+  }
+}

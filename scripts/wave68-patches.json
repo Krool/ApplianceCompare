@@ -1,0 +1,50 @@
+{
+  "ge-pfe28kynfs": {
+    "depth_in": 34.75, "depth_with_handle_in": 36.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-27-7-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-with-Hands-Free-AutoFill-PFE28KYNFS" }
+  },
+  "ge-gne27jymfs": {
+    "depth_in": 33.375, "depth_with_handle_in": 36.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-27-0-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-GNE27JYMFS" }
+  },
+  "ge-gts22kynrs": {
+    "depth_in": 34.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-21-9-Cu-Ft-Garage-Ready-Top-Freezer-Refrigerator-GTS22KYNRFS" }
+  },
+  "ge-gfe28gynfs": {
+    "depth_in": 34.75, "depth_with_handle_in": 36.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-27-7-Cu-Ft-Fingerprint-Resistant-French-Door-Refrigerator-GFE28GYNFS" }
+  },
+  "ge-gts18gtnrww": {
+    "depth_in": 30.5, "depth_with_handle_in": 32.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.ajmadison.com/cgi-bin/ajmadison/GTS18GTNRWW.html" }
+  },
+  "ge-gye22gynfs": {
+    "depth_in": 29.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-22-1-Cu-Ft-Counter-Depth-Fingerprint-Resistant-French-Door-Refrigerator-GYE22GYNFS" }
+  },
+  "ge-profile-pgd29bytfs": {
+    "depth_in": 34.25, "depth_with_handle_in": 36.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-29-Cu-Ft-Smart-Fingerprint-Resistant-4-Door-French-Door-Refrigerator-with-Door-In-Door-PGD29BYTFS" }
+  },
+  "ge-profile-pge29bytfs": {
+    "depth_in": 34.25, "depth_with_handle_in": 36.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-28-7-Cu-Ft-Smart-Fingerprint-Resistant-4-Door-French-Door-Refrigerator-With-Dual-Dispense-AutoFill-Pitcher-PGE29BYTFS" }
+  },
+  "ge-gwe22jymfs": {
+    "depth_in": 29, "depth_with_handle_in": 30.9375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-21-9-Cu-Ft-Fingerprint-Resistant-Counter-Depth-French-Door-Refrigerator-GWE22JYMFS" }
+  },
+  "ge-gye21jymfs": {
+    "depth_in": 29, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.us-appliance.com/content/pdf/usa/GYE21JYMFS_Specs.pdf" }
+  },
+  "ge-gse25gypfs": {
+    "depth_in": 32.75, "depth_with_handle_in": 34.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.homedepot.com/p/GE-25-3-cu-ft-Side-by-Side-Refrigerator-in-Fingerprint-Resistant-Stainless-Steel-Standard-Depth-ENERGY-STAR-GSE25GYPFS/318454840" }
+  },
+  "ge-gts17dtnrww": {
+    "depth_in": 32.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.geappliances.com/appliance/GE-16-6-Cu-Ft-Top-Freezer-Refrigerator-GTS17DTNRWW" }
+  }
+}

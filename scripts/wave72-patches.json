@@ -1,0 +1,34 @@
+{
+  "subzero-bi-36u": {
+    "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/builtin-refrigerators/36-inch-built-in-over-under-refrigerator-freezer-legacy" }
+  },
+  "subzero-pro-48": {
+    "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/builtin-refrigerators/48-inch-built-in-side-by-side-refrigerator-freezer" }
+  },
+  "subzero-uc-24r": {
+    "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.subzero-wolf.com/sub-zero/counter-refrigerator/24-inch-undercounter-refrigerator-panel-ready-legacy" }
+  },
+  "sub-zero-det3050ciid": {
+    "depth_in": 24.02, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/sub-zero-det3050ciidl.html" }
+  },
+  "thermador-t36bb915ss": {
+    "depth_in": 24.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.designerappliances.com/thermador-t36bb915ss.html" }
+  },
+  "thermador-t36ft820ns": {
+    "depth_in": 27.8125, "depth_with_handle_in": 31.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media3.bsh-group.com/Documents/16934582_T36FT820NS-36-INCH-STAINLESS-STEEL-FREESTANDING-FRENCH-DOOR-BOTTOM-FREEZER-PROFESSIONAL-HANDLES.pdf" }
+  },
+  "thermador-t36it100np": {
+    "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP" }
+  },
+  "thermador-t30ib905sp": {
+    "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.thermador.com/us/en/mkt-product/T30IB905SP" }
+  }
+}

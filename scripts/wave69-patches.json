@@ -1,0 +1,34 @@
+{
+  "lg-lrmvs2806s": {
+    "depth_in": 33.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrmvs2806s-french-4-door-refrigerator" }
+  },
+  "lg-lrmxs2806s": {
+    "depth_in": 33.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrmxs2806s-french-4-door-refrigerator" }
+  },
+  "lg-lf29s8365s": {
+    "depth_in": 34.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.bestbuy.com/site/lg-standard-depth-max-28-6-cu-ft-4-door-french-door-in-door-smart-refrigerator-with-instaview-mycolor-stainless-steel/6573589.p?skuId=6573589" }
+  },
+  "lg-lrfls3216s": {
+    "depth_in": 34.4375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrfls3216s-french-3-door-refrigerator" }
+  },
+  "lg-lrflc2716s": {
+    "depth_in": 29.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrflc2716s-french-3-door-refrigerator" }
+  },
+  "lg-lf25h6330s": {
+    "depth_in": 33.25, "depth_with_handle_in": 35.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/business/download/resources/CT00021979/LF25H6330_LG_Pro_Builder_Spec_Sheet%5B20240821_225700%5D.pdf" }
+  },
+  "lg-lf21g6200s": {
+    "depth_in": 28.75, "depth_with_handle_in": 31.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/support/products/documents/LF21G6200S_spec_sheet.pdf" }
+  },
+  "lg-lrsws2806s": {
+    "depth_in": 33.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.lg.com/us/refrigerators/lg-lrsws2806s-side-by-side-refrigerator" }
+  }
+}

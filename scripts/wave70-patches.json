@@ -1,0 +1,30 @@
+{
+  "samsung-rt16a6195sr": {
+    "depth_in": 29.25, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/top-freezer/rt16a6195sr-aa/pdf/RT16A6195SR_V3.pdf" }
+  },
+  "samsung-rf23bb8900aw": {
+    "depth_in": 28.75, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/RF23BB8900_V9.pdf" }
+  },
+  "samsung-rs23cb7600qlaa": {
+    "depth_in": 28.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-counter-depth-side-by-side-23-cu-ft-refrigerator-with-beverage-center-in-stainless-steel-rs23cb7600qlaa/" }
+  },
+  "samsung-rs27t5561sr": {
+    "depth_in": 33.5, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/26-7-cu-ft-large-capacity-side-by-side-refrigerator-with-touch-screen-family-hub--in-stainless-steel-rs27t5561sr-aa/" }
+  },
+  "samsung-rs22t5561sr": {
+    "depth_in": 28.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/side-by-side/pdp/rs22t5561sr-aa/RS22T5561SR_V6.pdf" }
+  },
+  "samsung-rt70f18lrsr": {
+    "depth_in": 31.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/RT70F18LRSR_V4.pdf" }
+  },
+  "bosch-b36cl80sns": {
+    "depth_in": 28.75, "depth_with_handle_in": 31.125, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://media3.bosch-home.com/Documents/MCDOC03224077_B36CL80SNS.pdf" }
+  }
+}

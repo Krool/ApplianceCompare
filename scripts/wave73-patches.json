@@ -1,0 +1,34 @@
+{
+  "miele-kf2982vi": {
+    "depth_in": 24, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11503020/mastercool-frenchdoor-kf-2982-vi" }
+  },
+  "miele-k2802vi": {
+    "depth_in": 23.875, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://assets.coastappliances.com/product-assets/miele/refrigerators-and-freezers/K2802VI/K2802VI-spec.pdf" }
+  },
+  "miele-kfn4776ed": {
+    "depth_in": 26.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://static.pcrichard.com/docs/KFN4776ED_Specifications-Sheet_01.pdf" }
+  },
+  "miele-kfn4799dde": {
+    "depth_in": 26.625, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.mieleusa.com/product/11951210/freestanding-fridge-freezer-kfn-4799-dde-na-stainless-steel-cleansteel" }
+  },
+  "frigidaire-frqg1721av": {
+    "depth_in": 25.75, "depth_with_handle_in": 29.2, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/french-door-refrigerators/FRQG1721AV" }
+  },
+  "frigidaire-grbn2012af": {
+    "depth_in": 31, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/bottom-freezer-refrigerators/GRBN2012AF" }
+  },
+  "frigidaire-frfg1723av": {
+    "depth_in": 29.1, "depth_with_handle_in": 31, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/french-door-refrigerators/FRFG1723AV" }
+  },
+  "frigidaire-fftr1835vs": {
+    "depth_in": 30.375, "last_updated": "2026-05-14",
+    "source_urls": { "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/top-freezer-refrigerators/FFTR1835VS" }
+  }
+}
