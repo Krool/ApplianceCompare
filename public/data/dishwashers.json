@@ -1262,7 +1262,63 @@
       },
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506635_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21071263_DWHD770CFP-Thermador-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21071256_DWHD770CFP-Thermador-Dish-Front-Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21071254_DWHD770CFP-Thermador-Dish-Door-Open-and-Racks-pushed-in-with-Styling_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23056809_DWHD770CFM-Thermador-Dish-open-styled-third-rack_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23229697_Thermador-DWHD770CFP-dishwasher-open-door-styled_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23229704_Thermador-DWHD770CFP-dishwasher-vignette-3rd-rack-styled_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23229707_Thermador-DWHD770CFP-green-cabinetry-transitional-kitchen_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd770cfp-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02933412_Thermador-Home-Connect-Carousel_Image_2_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        }
+      ]
     },
     {
       "id": "cafe-cdt875p4nw2",
@@ -2640,7 +2696,51 @@
       },
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/thermador-dwhd560cfp.jpg",
+          "source_url": "https://www.thermador.com/us/en/mkt-product/DWHD560CFP",
+          "source": "thermador",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd560cfp-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21071185_DWHD560CFP-Thermador-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd560cfp-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21071179_DWHD560CFP-Thermador-Dish-Front-Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd560cfp-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21071177_DWHD560CFP-Thermador-Dish-Door-Open-and-Racks-pushed-in-with-Styling_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd560cfp-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23229669_Thermador-DWHD560CFP-dishwasher-transitional-hunter-green-kitchen_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd560cfp-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23229664_Thermador-DWHD560CFP-dishwasher-open-door-styled_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd560cfp-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23229666_Thermador-DWHD560CFP-Dishwasher-3rd-rack-styled_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "sks-sdwb24s3",
@@ -4521,7 +4621,63 @@
       "last_updated": "2026-05-14",
       "_meta": {},
       "height_in": 33.875,
-      "depth_in": 23.75
+      "depth_in": 23.75,
+      "images": [
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25223659_Thermador_Dishwasher-Star-Sapphire-Zone-Control-Home-Connect-Phone-Talent_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24399162_DWHD661EFP-Thermador-StarSapphire-Dishwasher-Front_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24399161_DWHD661EFP-Thermador-StarSapphire-Dishwasher-Open-Styled_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24399160_DWHD661EFP-Thermador-StarSapphire-Dishwasher-Slightly-Open-Control-Panel_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24582374_DWHD661EFP-Thermador-Star_Sapphire-Dishwasher-Open_Styled.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24584482_DWHD661EFP-Thermador-Star_Sapphire-Dishwasher-3rd_Rack_Lifestyle.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24747583_DWHD661EFP-Thermador-Star_Sapphire-Dishwasher-Closed_Styled_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25190896_DWHD661EFP_Thermador-Dishwasher-Star-Sapphire-Middle-Rack-Wine.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd661efp-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25190894_DWHD661EFP_Thermador-Dishwasher-Star-Sapphire-Bottom-rack-styled.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "lg-adfd5448at",
@@ -5376,12 +5532,74 @@
       "filter_type": "manual",
       "leak_protection": "AquaStop",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/dishwashers/thermador-dwhd640efm.png",
         "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM",
         "source": "thermador"
-      }
+      },
+      "images": [
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm.png",
+          "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM",
+          "source": "thermador",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23502256_DWHD640EFM-Thermador-Emerald-Dishwasher-Slightly-Open-Control-Panel_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23502328_DWHD640EFM-Thermador-Emerald-Dishwasher-Front_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23502327_DWHD640EFM-Thermador-Emerald-Dishwasher-Open-Styled_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24718985_thermador-home-connect-app-mobile-phone-device-talent_960x640_2.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25178860_DWHD640EFM_Thermador-Dishwasher-Emerald-Open-Styled_Bottom_Rack.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24596173_DWHD640EFM-Thermador-Emerald-Dishwasher-3rd_Rack_Lifestyle.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24747570_DWHD640EFM-Thermador-Emerald-Dishwasher-Closed_Styled_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25178871_DWHD640EFM_Thermador-Dishwasher-Emerald-Open-Styled_Vertical.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/thermador-dwhd640efm-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25178878_DWHD640EFM-Thermador-Dishwasher-Emerald-Middle-Rack.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "whirlpool-wdp730hamz",

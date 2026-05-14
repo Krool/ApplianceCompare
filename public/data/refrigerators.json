@@ -1803,7 +1803,45 @@
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/thermador-t36bb915ss.jpg",
+          "source_url": "https://www.thermador.com/us/en/mkt-product/T36BB915SS",
+          "source": "thermador",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36bb915ss-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16606217_T30IR905SP-Thermador-refrigeration-styled-interior-2_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36bb915ss-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/13175548_T36BB915SS_STP_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36bb915ss-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA01025318_H1773_T36BB910SS_647483_cmyk_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36bb915ss-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16588392_Thermador_0555_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36bb915ss-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16588394_Thermador_0585_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "thermador-t36ft820ns",
@@ -1859,7 +1897,51 @@
       },
       "height_in": 72,
       "depth_with_handle_in": 27.8125,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/thermador-t36ft820ns.jpg",
+          "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36FT820NS",
+          "source": "thermador",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36ft820ns-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28607467_T36FT814NS-Thermador-Refrigeration-lifestyle-interior-touch-display-2_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36ft820ns-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16936134_T36FT820NS_3_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36ft820ns-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16936136_T36FT820NS_PGA3_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36ft820ns-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28607485_T36FT814NS-Thermador-Refrigeration-product-styled-interior-door-1_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36ft820ns-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28607483_T36FT814NS-Thermador-Refrigeration-lifestyle-interior-water-dispenser-2_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36ft820ns-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28607481_T36FT814NS-Thermador-Refrigeration-product-styled-interior_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "miele-kf2982vi",
@@ -8130,14 +8212,76 @@
       "release_year": 2024,
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/thermador-t36it100np.png",
         "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
         "source": "thermador"
       },
       "height_in": 83.5625,
-      "depth_with_handle_in": 24
+      "depth_with_handle_in": 24,
+      "images": [
+        {
+          "local": "images/refrigerators/thermador-t36it100np.png",
+          "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
+          "source": "thermador",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22537323_T36IT100NP-Thermador-Refrigeration-Top-Doors-Open_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21999541_T36IT100NP-Thermador-Refrigeration-Front_Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24543479_T36IT100NP-Thermador-Refrigeration-BottomFreezer-doors-open-styled-knockout.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24543563_T36IT100NP-Thermador-Refrigeration-BottomFreezer-doors-open-styled-tight.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23036558_T36IT100NP-Thermador-Refrigeration-BottomFreezer-closed-custom-panel-vignette.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24401010_Thermador-T36IT100NP-Refrigeration-Open-Styled-Close-Up_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23036492_T36BT120NS-Thermador-Refrigeration-BottomFreezer-thermafresh-drawers-styled-closeup_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23036542_T36BT120NS-Thermador-Refrigeration-BottomFreezer-controls-closeup_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/thermador-t36it100np-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24401017_Thermador-T36IT100NP-Refrigeration-BottomFreezer-drawers-open-styled-closeup_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "sks-sksfd4826p",
@@ -8243,7 +8387,45 @@
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/thermador-t30ib905sp.jpg",
+          "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T30IB905SP",
+          "source": "thermador",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/thermador-t30ib905sp-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/13175417_T30BB925SS_STP_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/thermador-t30ib905sp-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16589640_Thermador_1267_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/thermador-t30ib905sp-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/13175411_T30BB915SS_STP_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/thermador-t30ib905sp-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA01965980_H1770_T30BB920SS_1369904_cmyk_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/thermador-t30ib905sp-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA01965979_H1769_T30BB910SS_1369903_cmyk_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "zline-rbiv-304-30",
