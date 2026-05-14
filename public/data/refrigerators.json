@@ -486,7 +486,70 @@
         "local": "images/refrigerators/bosch-b36ct80sns.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354070_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354070_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16812985_Bosch-RNA-B36CT80SNS-Consumer-Review-Banner-Final_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02714469_i8483_2058246_B36CT80SNS_PAA_straight_front_closed_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03216720_3_Straight_On_Doors_Closed_Fridge_B36CT80SNS_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03216716_2_Straight_On_Doors_Open_Fridge_B36CT80SNS_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412683_VitaFresh-drawers-2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412624_ENERGY-STAR-2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412682_Ultra-ClarityPro-2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412627_LED-Lighting-2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36ct80sns-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/9203760_Bosch-refrigerator-B36CT80SNS-SS-from-right-door-open_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ],
+      "last_updated": "2026-05-14"
     },
     {
       "id": "bosch-b36bt935ns",
@@ -552,7 +615,51 @@
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36bt935ns.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439379_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36bt935ns-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02434048_i4986_1813778_B36IT900NP_PGA1_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36bt935ns-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02434051_i3104_1813780_B36IT900NP_cmyk_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36bt935ns-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02434045_i4984_1813774_B36IT900NP_PGA2_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36bt935ns-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713163_i8781_2057219_B36BT930NS_PGA6_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36bt935ns-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02434049_i4987_1813779_B36IT900NP_PGA5_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36bt935ns-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03347145_B36BT930NS_S01_R01_C01_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "bosch-b36it905np",
@@ -3293,7 +3400,69 @@
       },
       "height_in": 70,
       "depth_with_handle_in": 35.4375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6495/6495114_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17192976_B36FD50SNB-Bosch-Refrigerator-Front-Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17192973_B36FD50SNB-Bosch-Refrigerator-Side-Angle-Right_STP_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204153_B36FD50SNB_Left_Side_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204155_B36FD50SNB_Front_Facing_Door_Open_without_food_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204157_B36FD50SNB_PGA_2_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204159_B36FD50SNB_PGA_3_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204161_B36FD50SNB_Product_Detail_Ice_water_dispenser_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204163_B36FD50SNB_Right_Side_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50snb-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204166_B36FD50SNB_Side_Angle_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "ge-profile-pvd28bynfs",
@@ -3418,7 +3587,69 @@
       },
       "height_in": 79.9375,
       "depth_in": 26.2,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542111_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22745031_B24CB50ESS_PGA1_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22738033_B24CB50ESS-Bosch-Refrigeration-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890188_B24CB50ESS_PGA2_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21523338_B24CB50ESS_PGA3_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890264_B24CB50ESS_PGA4_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890219_B24CB50ESS_PGA5_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890244_B24CB50ESS_PGA6_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22718208_B24CB50ESS_PGA7_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb50ess-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27820139_B24CB50ESS_PGA14_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "viking-vcff7360ss",
@@ -4173,9 +4404,71 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461076_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "height_in": 70,
-      "depth_with_handle_in": 35.44
+      "depth_with_handle_in": 35.44,
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461076_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17192993_B36FD50SNS_-Bosch-Refrigerator-Front-Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17192992_B36FD50SNS_-Bosch-Refrigerator-Side-Angle-Right_STP_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204193_B36FD50SNS_Side_Angle_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204197_B36FD50SNS_Special_Feature_1_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204187_B36FD50SNS_Product_Detail_Ice_water_dispenser_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204185_B36FD50SNS_PGA_2_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204183_B36FD50SNS_PGA_3_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204179_B36FD50SNS_Front_Facing_Door_Open_without_food_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd50sns-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17204191_B36FD50SNS_Product_Detail_Open_freezer_door_drawer_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "hisense-hrb171n6ase",
@@ -6292,14 +6585,76 @@
       "release_year": null,
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/bosch-b36cl81enw.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6565/6565614_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 72,
-      "depth_with_handle_in": 29
+      "depth_with_handle_in": 29,
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6565/6565614_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23051808_B36CL81ENW-Bosch-Refrigeration-Angled-Left_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23051850_B36CL81ENW-Bosch-Refrigeration-Front-Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23193942_B36CL81ENW-Bosch-Blue-Kitchen-Fridge-Doors-Closed_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23193944_B36CL81ENW-Bosch-Blue-Kitchen-Fridge-Doors-Open_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23193947_B36CL81ENW-Bosch-VEX-hero-kitchen-Fridge-Doors-Closed_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23193948_B36CL81ENW-Bosch-VEX-hero-kitchen-Fridge-Doors-Open_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23193946_B36CL81ENW_Beverage_Center_02_Beverages_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23051840_B36CL81ENW-Bosch-Refrigeration-Angled-Right_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl81enw-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23051848_B36CL81ENW-Bosch-Refrigeration-Door-Open-Styled_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-b36cd52sns",
@@ -6348,7 +6703,69 @@
       "height_in": 70,
       "depth_in": 25,
       "depth_with_handle_in": 31.125,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6608/6608176_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412626_Humidity-Control-2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26209140_B36CD52SNS_basic_image_12_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412623_Fridge_3_Feature_2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412629_QuickIce-Pro-12lb_-2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412625_Anti-fingerprint-2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26343987_B36CD52SNS_BasicLifestyle_C_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26344150_B36CD52SNS_BasicLifestyle_A_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26343986_B36CD52SNS_BasicLifestyle_D_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cd52sns-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26343988_B36CD52SNS_BasicLifestyle_B_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "lg-lryks3106s",
@@ -8021,14 +8438,70 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/bosch-benchmark-b30ib905sp.jpg",
         "source_url": "https://www.bosch-home.com/us/en/product/B30IB905SP",
         "source": "bosch-benchmark"
       },
       "height_in": 84,
-      "depth_with_handle_in": 24
+      "depth_with_handle_in": 24,
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp.jpg",
+          "source_url": "https://www.bosch-home.com/us/en/product/B30IB905SP",
+          "source": "bosch-benchmark",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713149_i8771_2057205_B30IB900SP_PGA1_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713147_i8770_2057202_B30IB900SP_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713154_i8772_2057210_B30IB900SP_PGA2_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02433805_i4967_1813514_B30IB900SP_PGA3_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713155_i8773_2057211_B30IB900SP_PGA5_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02433816_i4976_1813525_B30IB900SP_PGA4_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02713160_i8778_2057216_B30IB900SP_PGA6_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03346939_B30IB900SP_S01_R01_C01_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        }
+      ]
     },
     {
       "id": "whirlpool-wrb322dmbm",
@@ -8244,7 +8717,7 @@
       "cons": [],
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/bosch-b36cl80sns.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354067_sd.jpg",
@@ -8252,7 +8725,69 @@
       },
       "height_in": 72,
       "depth_in": 28.75,
-      "depth_with_handle_in": 30.906
+      "depth_with_handle_in": 30.906,
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354067_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26989524_B36CL80SNS_PGA14_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20145349_B36CL80SNS_Front_Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03347659_B36CL80SNS_S01_R01_C01_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/16812986_Bosch-RNA-B36CL80SNS-Consumer-Review-Banner-Final_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03271848_Bosch-refrigerator-B36CL80SNS-SS-closeup-from-left-door-open_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03221066_4_Straight_On_Doors_Closed_B36CL80SNS_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03221065_3_Straight_On__Open_Fridge___Dish_B36CL80SNS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03271852_Bosch-refrigerator-B36CL80SNS-SS-open-empty_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36cl80sns-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03271851_Bosch-refrigerator-B36CL80SNS-SS-freshness-drawers_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-b36fd10ens",
@@ -8303,7 +8838,69 @@
       "height_in": 70,
       "depth_in": 28.375,
       "depth_with_handle_in": 33.12,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6590/6590343_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412681_QuickIce-Pro-8-lb_--2000x2000_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25187285_B36FD10ENS_Bosch-Refrigerator-Side-Angle-Right_STP_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25187283_B36FD10ENS_Bosch-Refrigerator-Front-Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25187099_B36FD10ENS_Side_Angle_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25187281_B36FD10ENS_Special_Feature_1_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25187293_B36FD10ENS_Product_Detail_Ice_water_dispenser_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25396544_B36FD10ENS_Front_Facing_Door_Open_with_food_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25396550_B36FD10ENS_Product_Detail_Door_Open_Food_Close_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b36fd10ens-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25396546_B36FD10ENS_Angle-Right_Door_Open_with_food_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "samsung-rf23bb8900aw",
@@ -9580,7 +10177,70 @@
         "local": "images/refrigerators/bosch-b24cb80ess.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542109_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "images": [
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542109_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22745033_B24CB80ESS_PGA1_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22738070_B24CB80ESS-Bosch-Refrigeration-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890190_B24CB80ESS_PGA2_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21523372_B24CB80ESS_PGA3_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890266_B24CB80ESS_PGA4_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890221_B24CB80ESS_PGA5_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20890246_B24CB80ESS_PGA6_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22718210_B24CB80ESS_PGA7_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/bosch-b24cb80ess-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/21523371_B24CB80ESS_PGA12_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ],
+      "last_updated": "2026-05-14"
     }
   ]
 }

@@ -162,7 +162,69 @@
       "_meta": {},
       "last_updated": "2026-05-14",
       "height_in": 33.875,
-      "depth_in": 23.75
+      "depth_in": 23.75,
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n.jpg",
+          "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/412472-24-inch-bosch-800-series-shp78cm5n-10037311.png",
+          "source": "cr",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28257417_SHP78CM5N_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22719667_SHP78CM5N_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999482_Bosch_SHP78CM5N_CR_Badge_Front_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999483_Bosch-800-Series-SHP78CM5N_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27683696_Bosch-Dish-Power-Control-Spray-Arm_Master_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22857471_SHP78CM5N-Bosch-Dish-Control-Panel-Detail-Top-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22857491_SHP78CM5N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22857481_SHP78CM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp78cm5n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22857479_SHP78CM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-shxm4ay55n",
@@ -226,7 +288,57 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 22.5625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6247/6247260_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02490860_i4060_1862812_SHXM4AY55N_CMYK_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02490936_i4067_1862934_SHXM4AY55N_CMYK_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03292553_Kichen_Suite_Bar_Handle_-_Steel_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA03292557_Straight_On_Closed_Fridge___Dish_B36CL80SNS_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/15750363_SHSM63W55N-Bosch-Dishwasher-Rackmatic-Standard3rdRack.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17806022_Bosch_DISH_Cutlery_Basket_Single_Empty_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-shxm4ay55n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17806026_Bosch_DISH_Cutlery_Basket_Single_Styled_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "bosch-shv88pz63n",
@@ -332,7 +444,69 @@
       "interior_light": false,
       "height_in": 32.0625,
       "depth_in": 22.5625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559622_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23225256_WorldsNo1_Dishwashers_Euromonitor_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25773897_SGE78C55UC-Bosch-Dish-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25774010_SGE78C55UC-Bosch-Dish-45-Degree-Angle-Door-Closed-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065459_SGE78B55UC_Panel_according_to_Product_exterior_panel_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065463_SGE78B55UC_Product_Detail_Control_Panel_FRONT_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065465_SGE78B55UC_Product_Detail_with_3rd_rack_pulled_out_slightly_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25773895_SGE78C55UC-Bosch-Dish-Door-Open-and-Racks-pushed-in-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25774040_SGX78C55UC-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-sge78c55uc-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065473_SGE78B55UC_Utensil_Basket_against_white_background_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "miele-g7366scvi",
@@ -1284,7 +1458,63 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922890_SHV9PCM3N-Bosch-Dish-Front-Facing-Panel_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28258035_SHV9PCM3N_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922874_SHV9PCM3N-Bosch-Dish-Control-Panel-Detail-Top-Panel_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922894_SHV9PCM3N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-Panel_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922887_SHV9PCM3N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-Panel_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922880_SHV9PCM3N-Bosch-Dish-Door-Open-and-Racks-pushed-in-Panel_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922892_SHV9PCM3N-Bosch-Dish-Middle-Basket-with-Styling_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922886_SHV9PCM3N-Bosch-Dish-Middle-Basket-Empty_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv9pcm53n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22922899_SHV9PCM3N-Bosch-Dish-Stemware-Detail_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "frigidaire-fgid2479sf",
@@ -1849,7 +2079,69 @@
       },
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542978_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28258001_SHX78CM5N_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22883991_SHX78CM5N-Bosch-Dish-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999487_Bosch_SHX78CM5N_CR_Badge_Front_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999485_C141242_Bosch800Series_SHX78CM5N_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28384349_Bosch_TopChef_Badge_SHX78CM5N-Bosch-Dish-Front-Facing-SS_master_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27685171_CrystalDry_side_byside-01_master_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22883981_SHX78CM5N-Bosch-Dish-Control-Panel-Detail-Top-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22883999_SHX78CM5N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx78cm5n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22883987_SHX78CM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "cafe-cdt845p2ns1",
@@ -2231,7 +2523,69 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543003_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412851_BOSCH_PDP_Dishwasher_Carousel_Marcel_SHP9PCM5N_3000x3000_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/20558652_Pocket-SS-Front_Facing_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28412846_BOSCH_PDP_Dishwasher_Carousel_Pod_SHP9PCM5N_3000x3000_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28637952_SHP9PCM5N-Bosch-Dish-Bottom-Basket-with-Styling_master_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28637950_SHP9PCM5N-Bosch-Dish-Bottom-Basket-Empty_master_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999563_Bosch_SHP9PCM5N_CR_Badge_Front_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999486_C141242_BoschBenchmark_SHP9PCM5N_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22927782_SHP9PCM5N-Bosch-Dish-Control-Panel-Detail-Top-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp9pcm5n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22927797_SHP9PCM5N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "thermador-dwhd560cfp",
@@ -2572,7 +2926,51 @@
       },
       "height_in": 34.125,
       "depth_in": 21.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shv88pz63n-ada.png",
+          "source_url": "https://www.bosch-home.com/us/productslist/home-appliances/SHV9PT53UC",
+          "source": "bosch",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv88pz63n-ada-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA00553087_D7199_SHV9PT53UC_181669_korr_15_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv88pz63n-ada-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA029715_SHV45M03UC_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv88pz63n-ada-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA00564922_D7462_SHV9PT53UC_199090_korr_15_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv88pz63n-ada-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA00684952_A4_SHV9PT53UC_In_Cabinet_Vignette_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv88pz63n-ada-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA00684951_A5_SHV9PT53UC_Control_Panel_Zoom_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shv88pz63n-ada-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA00711144_A7_SHV9PT53UC_Third_Rack_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "miele-g7316scuautodos",
@@ -2922,7 +3320,69 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559624_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559624_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25774037_SGX78C55UC-Bosch-Dish-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25774035_SGX78C55UC-Bosch-Dish-45-Degree-Angle-Door-Closed-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065671_SGX78B55UC_Panel_according_to_Product_interior_panel_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065669_SGX78B55UC_Product_Detail_Control_Panel_TOP_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25774033_SGX78C55UC-Bosch-Dish-Door-Open-and-Racks-pushed-in-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065675_SGX78B55UC_Straight_Facing_with_racks_out_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25774013_SGE78C55UC-Bosch-Dish-Third-Basket-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/15941074_SGX78B55UC_UR6550_PGA4_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-sgx78c55uc-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17065661_SGX78B55UC_Detergent_Tray_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-she3aem2n",
@@ -2986,8 +3446,70 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542972_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
-      "decibels": 50
+      "last_updated": "2026-05-14",
+      "decibels": 50,
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-she3aem2n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542972_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26724627_SHE2ADF2N-Bosch-Dish-Bottom-Basket-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22866563_SHE3AEM2N-Bosch-Dish-Front-Facing-White_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26724626_SHE2ADF2N-Bosch-Dish-Bottom-Basket-Empty-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26724629_SHE2ADF2NBosch-Utensil-Basket-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26724628_SHE2ADF2N-Bosch-Utensil-Basket-without-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22866548_SHE3AEM2N-Bosch-Dish-Control-Panel-Detail-Front-White_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22866566_SHE3AEM2N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-White_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22866554_SHE3AEM2N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-White_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-she3aem2n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22866550_SHE3AEM2N-Bosch-Dish-Detail_Shot_of_Rack_Glides_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-she53c85n",
@@ -3053,10 +3575,72 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542986_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "decibels": 46,
       "height_in": 35,
-      "depth_in": 23.7
+      "depth_in": 23.7,
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-she53c85n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542986_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28257323_SHE53C85N_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22533717_SHE53C85N-Bosch-Dish-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999319_Bosch_SHE53C85N_CR_Badge_Front_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27999484_C141242_Bosch300Series_SHE53C85N_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22533711_SHE53C85N-Bosch-Dish-Control-Panel-Detail-Front-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22533736_SHE53C85N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22533714_SHE53C85N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22533712_SHE53C85N-Bosch-Dish-Door-Open-and-Racks-pushed-in-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-she53c85n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22533741_SHE53C85N-Bosch-Dish-Standard-3rd-Rack-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-shp65cm5n",
@@ -3129,9 +3713,71 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542974_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "height_in": 33.875,
-      "depth_in": 23.75
+      "depth_in": 23.75,
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542974_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22509961_SHP65CM5N-Bosch-Dish-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23247406_Bosch-SHP65CM5N-Dish-Detail-Top-Rack_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23156652_SHP65CM5N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22543146_SHP65CM5N-Bosch-Dish-Control-Panel-Detail-Top-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22543150_SHP65CM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22543148_SHP65CM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22543158_SHP65CM5N-Bosch-Dish-Middle-Basket-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22543156_SHP65CM5N-Bosch-Dish-Middle-Basket-Empty-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-shp65cm5n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22543163_SHP65CM5N-Bosch-Dish-Stemware-Detail-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "miele-g5266scvi-sfp",
@@ -3639,7 +4285,69 @@
       },
       "height_in": 33.875,
       "depth_in": 22.5625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543005_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22940888_SHX5AEM5N-Bosch-Dish-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23010447_100Premium_Bar_SS_StandingWomanTea_1109e_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/23010448_100Premium_Bar_SS_WomanSitCounterTea_1140b_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22940874_SHX5AEM5N-Bosch-Dish-Control-Panel-Detail-Top-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22940894_SHX5AEM5N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22940880_SHX5AEM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22940882_SHX5AEM5N-Bosch-Dish-Detail-Shot-of-Rack-Glides_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22940884_SHX5AEM5N-Bosch-Dish-Middle-Basket-Empty_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-shx5aem5n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/22940896_SHX5AEM5N-Bosch-Dish-Stemware-Detail_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "miele-g7196scvisf",
@@ -4554,7 +5262,70 @@
         "local": "images/dishwashers/bosch-she43c75n.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6602/6602423_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-she43c75n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6602/6602423_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25580322_SHE43C75N_Bosch-Dish-Control_Panel_Detail_Front-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25580331_SHE43C75N_Bosch-Dish-Front_Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24689441_SHE43CM5N-Straight-On-Door-Open_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25580328_SHE43C75N_Bosch-Dish-Slightly_Open_with_3rd_Rack_Pulled_Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25580320_SHE43C75N_Bosch-Dish-Door_Open_and_Racks_pushed_in_with_Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25580324_SHE43C75N_Bosch-Dish-Door_Open_and_Racks_pushed_in-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25580332_SHE43C75N_Bosch-Dish-Middle_Basket_with_Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25580326_SHE43C75N_Bosch-Dish-Middle_Basket_Empty-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-she43c75n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/25695137_SHE43C75N-Bosch-Detail-shot-of-Rack-Glides-SS_master_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ],
+      "last_updated": "2026-05-14"
     },
     {
       "id": "thermador-dwhd640efm",
@@ -4776,7 +5547,70 @@
         "local": "images/dishwashers/bosch-she41cm5n.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582505_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-she41cm5n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582505_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27062697_SHE41DM5N-Bosch-Dish-Left-Side-View-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24701566_SHE41CM5N-Bosch-Dish-Front-Facing-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/27062710_SHE41DM5N-Bosch-Dish-Right-Side-View-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/26113831_Bosch-Dishwasher_zone_wash-spray-arm_def_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24701578_SHE41CM5N-Bosch-Dish-Slightly-Open-with-3rd-Rack-Pulled-Out-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24701560_SHE41CM5N-Bosch-Dish-Control-Panel-Detail-Front-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g7.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28685109_SHE41CM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-with-Styling-SS_master_def.webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g8.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/28685111_SHE41CM5N-Bosch-Dish-Door-Open-and-Racks-pushed-in-White_master_def.webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/bosch-she41cm5n-g9.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/24701570_SHE41CM5N-Bosch-Dish-Middle-Basket-with-Styling-SS_def.webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ],
+      "last_updated": "2026-05-14"
     },
     {
       "id": "miele-g5056scvisf",
@@ -6240,7 +7074,52 @@
         "local": "images/dishwashers/bosch-shem63w55n.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5710/5710286_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "images": [
+        {
+          "local": "images/dishwashers/bosch-shem63w55n.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5710/5710286_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/bosch-shem63w55n-g1.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA01823342_G8183_SHEM63W55N_1249113_cmyk_korr_def.webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/bosch-shem63w55n-g2.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA01749959_G5942_SHEM63W55N_1187673_def.webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/bosch-shem63w55n-g3.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA01823343_G8190_SHEM63W55N_1249114_cmyk_korr_def.webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/bosch-shem63w55n-g4.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02578127_Bosch_Kichen_Suite_Recessed_300_-_Steel_def.webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/bosch-shem63w55n-g5.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17806024_Bosch_DISH_Cutlery_Basket_Double_Empty_def.webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/bosch-shem63w55n-g6.webp",
+          "source_url": "https://media3.bsh-group.com/Product_Shots/17806025_Bosch_DISH_Cutlery_Basket_Double_Styled_def.webp",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ],
+      "last_updated": "2026-05-14"
     },
     {
       "id": "samsung-dw80b6060us",
