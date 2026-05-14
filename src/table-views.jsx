@@ -49,23 +49,38 @@ function DrawerGallery({ model, brand }) {
 
   const [idx, setIdx] = useState(0);
   const [failed, setFailed] = useState({});
-  useEffect(() => { setIdx(0); setFailed({}); }, [model.id]);
+  const [zoomed, setZoomed] = useState(false);
+  useEffect(() => { setIdx(0); setFailed({}); setZoomed(false); }, [model.id]);
 
   const many = gallery.length > 1;
 
-  // Arrow-key nav. Skips when focus is in a text field so the ranges/search
-  // box still work normally inside the drawer.
+  // Arrow-key nav (gallery or lightbox). Skips when focus is in a text field
+  // so the ranges/search box still work normally inside the drawer.
+  // When the lightbox is open, Escape closes it instead of the drawer — the
+  // drawer's own dismiss handler is on `keydown` too, but we stopPropagation
+  // here so it doesn't fire.
   useEffect(() => {
-    if (!many) return;
+    if (!many && !zoomed) return;
     const onKey = (e) => {
       const t = e.target;
       if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      if (zoomed && e.key === 'Escape') { e.stopPropagation(); e.preventDefault(); setZoomed(false); return; }
+      if (!many) return;
       if (e.key === 'ArrowLeft') { e.preventDefault(); setIdx(i => (i - 1 + gallery.length) % gallery.length); }
       else if (e.key === 'ArrowRight') { e.preventDefault(); setIdx(i => (i + 1) % gallery.length); }
     };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [many, gallery.length]);
+    // Capture phase so we beat useDismissableSurface's bubble-phase Escape
+    window.addEventListener('keydown', onKey, true);
+    return () => window.removeEventListener('keydown', onKey, true);
+  }, [many, gallery.length, zoomed]);
+
+  // Lock background scroll while the lightbox is open
+  useEffect(() => {
+    if (!zoomed) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = prev; };
+  }, [zoomed]);
 
   const current = gallery[idx];
   if (!current) {
@@ -89,14 +104,21 @@ function DrawerGallery({ model, brand }) {
               <span className="product-image-monogram">{initial}</span>
             </span>
           ) : (
-            <img
-              className="product-image product-image-hero"
-              src={'./data/' + current.local}
-              alt={model.name + ' product photo' + (current.view && current.view !== 'primary' ? ' — view ' + current.view : '')}
-              loading="lazy"
-              decoding="async"
-              onError={() => setFailed(f => ({ ...f, [idx]: true }))}
-            />
+            <button
+              type="button"
+              className="product-image-zoom-btn"
+              onClick={() => setZoomed(true)}
+              aria-label="Open photo at full size"
+            >
+              <img
+                className="product-image product-image-hero"
+                src={'./data/' + current.local}
+                alt={model.name + ' product photo' + (current.view && current.view !== 'primary' ? ' — view ' + current.view : '')}
+                loading="lazy"
+                decoding="async"
+                onError={() => setFailed(f => ({ ...f, [idx]: true }))}
+              />
+            </button>
           )}
           {many && (
             <>
@@ -134,6 +156,41 @@ function DrawerGallery({ model, brand }) {
            title="Image source">
           Photo: {creditSource}
         </a>
+      )}
+      {zoomed && !isFailed && (
+        <div
+          className="lightbox-backdrop"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${model.name} photo ${idx + 1} of ${gallery.length}`}
+          onClick={() => setZoomed(false)}
+        >
+          <img
+            className="lightbox-image"
+            src={'./data/' + current.local}
+            alt={model.name + ' product photo'}
+            onClick={(e) => e.stopPropagation()}
+          />
+          {many && (
+            <>
+              <button type="button"
+                className="lightbox-nav lightbox-prev"
+                onClick={(e) => { e.stopPropagation(); setIdx(i => (i - 1 + gallery.length) % gallery.length); }}
+                aria-label="Previous photo">‹</button>
+              <button type="button"
+                className="lightbox-nav lightbox-next"
+                onClick={(e) => { e.stopPropagation(); setIdx(i => (i + 1) % gallery.length); }}
+                aria-label="Next photo">›</button>
+              <span className="lightbox-counter">{idx + 1} / {gallery.length}</span>
+            </>
+          )}
+          <button
+            type="button"
+            className="lightbox-close"
+            onClick={(e) => { e.stopPropagation(); setZoomed(false); }}
+            aria-label="Close full-size view"
+          >×</button>
+        </div>
       )}
     </div>
   );
