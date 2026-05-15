@@ -1728,7 +1728,69 @@
       "height_in": 70,
       "depth_in": 29.375,
       "depth_with_handle_in": 34.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6493/6493490_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019964?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551020357?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019914?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019916?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019917?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g6.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019926?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g7.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019918?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g8.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019930?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g9.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019932?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "samsung-rf23a9071sr",
@@ -4601,7 +4663,51 @@
       "depth_in": 34.25,
       "depth_with_handle_in": 34.25,
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rf90f29aecr-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059753?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf90f29aecr-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059755?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf90f29aecr-g3.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059763?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf90f29aecr-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059771?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf90f29aecr-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059773?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf90f29aecr-g6.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059775?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf90f29aecr-g7.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059777?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "cafe-cae28dm5ts5",
@@ -5049,7 +5155,27 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529233_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rs28cb760012.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529233_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs28cb760012-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs28cb760012aa/gallery/us-side-by-side-rs28cb760012aa-bespoke-side-by-side-white-glass-551271722?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs28cb760012-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs28cb760012aa/gallery/us-side-by-side-rs28cb760012aa-bespoke-side-by-side-white-glass-551271734?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        }
+      ]
     },
     {
       "id": "hotpoint-hps16btnrww",
@@ -5447,7 +5573,33 @@
       "depth_with_handle_in": 31.875,
       "hinge": "reversible",
       "last_updated": "2026-05-14",
-      "depth_in": 31.875
+      "depth_in": 31.875,
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rt70f18lrsr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6610/6610982_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rt70f18lrsr-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt70f18lrsraa/gallery/us-rt6300-top-mount-freezer-ai-energy-mode-569468-rt70f18lrsraa-549705820?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rt70f18lrsr-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt70f18lrsraa/gallery/us-rt6300-top-mount-freezer-ai-energy-mode-569468-rt70f18lrsraa-549705819?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/samsung-rt70f18lrsr-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt70f18lrsraa/gallery/us-rt6300-top-mount-freezer-ai-energy-mode-569468-rt70f18lrsraa-549705818?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        }
+      ]
     },
     {
       "id": "samsung-rt16a6195sr",
@@ -5505,7 +5657,21 @@
       "height_in": 66.875,
       "depth_with_handle_in": 29.25,
       "hinge": "reversible",
-      "depth_in": 29.25
+      "depth_in": 29.25,
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rt16a6195sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471975_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rt16a6195sr-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt16a6195sr-aa/gallery/us-flat-door-design-rt6300a-rt16a6195sr-aa-549707948?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        }
+      ]
     },
     {
       "id": "lg-lt11c2000v",
@@ -9914,7 +10080,33 @@
       },
       "height_in": 70.125,
       "depth_with_handle_in": 28.8125,
-      "depth_in": 28.875
+      "depth_in": 28.875,
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529229_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs23cb7600qlaa/gallery/us-side-by-side-rs23cb7600qlaa-rs----cc-side-by-side-refrigerators-with-bespoke-stainless-steel-551271377?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs23cb7600qlaa/gallery/us-side-by-side-rs23cb7600qlaa-rs----cc-side-by-side-refrigerators-with-bespoke-stainless-steel-551271391?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs23cb7600qlaa/gallery/us-side-by-side-rs23cb7600qlaa-rs----cc-side-by-side-refrigerators-with-bespoke-stainless-steel-551271393?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        }
+      ]
     },
     {
       "id": "samsung-rs27t5200sr",
@@ -9984,7 +10176,27 @@
       "height_in": 70.06,
       "depth_in": 28.94,
       "depth_with_handle_in": 33.5,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rs27t5200sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397576_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5200sr-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5200sr-aa/gallery/us-ref-sbs-rs5300-569370-rs27t5200sr-aa-549692444?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5200sr-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5200sr-aa/gallery/us-ref-sbs-rs5300-569370-rs27t5200sr-aa-549692461?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        }
+      ]
     },
     {
       "id": "samsung-rs27t5561sr",
@@ -10035,7 +10247,57 @@
       "height_in": 70.0625,
       "depth_with_handle_in": 33.5,
       "last_updated": "2026-05-14",
-      "depth_in": 33.5
+      "depth_in": 33.5,
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397590_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707595?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549708299?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707564?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707560?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707561?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr-g6.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707563?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs27t5561sr-g7.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707570?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "samsung-rf25c5551sr",
@@ -10092,7 +10354,21 @@
       },
       "height_in": 70,
       "depth_in": 29.8125,
-      "depth_with_handle_in": 33.3125
+      "depth_with_handle_in": 33.3125,
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rf25c5551sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529227_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rf25c5551sr-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf25c5551sr-aa/gallery/us-french-door-beverage-center-rf25c5551sr-aa-549714667?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        }
+      ]
     },
     {
       "id": "samsung-rs22t5561sr",
@@ -10149,7 +10425,45 @@
       },
       "height_in": 70.125,
       "depth_with_handle_in": 28.625,
-      "depth_in": 28.625
+      "depth_in": 28.625,
+      "images": [
+        {
+          "local": "images/refrigerators/samsung-rs22t5561sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397592_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs22t5561sr-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690752?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs22t5561sr-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-rs22t5561sr-aa-549691020?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs22t5561sr-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690732?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs22t5561sr-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690731?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/samsung-rs22t5561sr-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690723?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "lg-lhsxs2706s",
