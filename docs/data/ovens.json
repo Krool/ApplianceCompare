@@ -1037,7 +1037,21 @@
       },
       "height_in": 37,
       "depth_in": 28.69,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-nx60bb871112.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491827_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nx60bb871112-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsg6db870012aa/gallery/us-nx9100d-nsg6db870012aa-549586248?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        }
+      ]
     },
     {
       "id": "lg-lreg6033st",
@@ -2795,7 +2809,21 @@
       },
       "height_in": 43.25,
       "depth_in": 26.63,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-nq70t5511ds.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6394/6394681_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nq70t5511ds-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nq70t5511ds-aa/gallery/us-nq5300r-nq70t5511ds-aa-549630652?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        }
+      ]
     },
     {
       "id": "lg-wcep6423d",
@@ -7574,7 +7602,39 @@
         "source": "best_buy"
       },
       "height_in": 36,
-      "depth_in": 28
+      "depth_in": 28,
+      "images": [
+        {
+          "local": "images/ovens/samsung-nse6dg8550sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6585/6585159_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nse6dg8550sr-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nse6dg8550sraa/gallery/us-ne9100d-nse6dg8550sraa-nse6dg8550sraa-549598817?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-nse6dg8550sr-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nse6dg8550sraa/gallery/us-ne9100d-nse6dg8550sraa-nse6dg8550sraa-549598821?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-nse6dg8550sr-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nse6dg8550sraa/gallery/us-ne9100d-nse6dg8550sraa-nse6dg8550sraa-549598815?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-nse6dg8550sr-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nse6dg8550sraa/gallery/us-ne9100d-nse6dg8550sraa-nse6dg8550sraa-549598824?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        }
+      ]
     },
     {
       "id": "lg-lsil6334fe",
@@ -7920,7 +7980,27 @@
         "source": "best_buy"
       },
       "height_in": 36.625,
-      "depth_in": 27.875
+      "depth_in": 27.875,
+      "images": [
+        {
+          "local": "images/ovens/samsung-nsi6dg9100sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569010_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nsi6dg9100sr-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsi6dg9100sraa/gallery/us-nsi6dg9500sraa-568547-nsi6dg9100sraa-549605081?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-nsi6dg9100sr-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsi6dg9100sraa/gallery/us-nsi6dg9500sraa-568547-nsi6dg9100sraa-549605082?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        }
+      ]
     },
     {
       "id": "lg-lsil6336fe",
@@ -8095,7 +8175,39 @@
       },
       "height_in": 37,
       "depth_in": 27.88,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-nsi6dg9500sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569005_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nsi6dg9500sr-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsi6dg9500sraa/gallery/us-bespoke-6-3-cu--ft--smart-slide-in-induction-range-with-ambient-edge-lighting™--air-sous-vide-in-matte-black-steel--561607-nsi6dg9500sraa-548629433?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-nsi6dg9500sr-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsi6dg9500sraa/gallery/us-bespoke-6-3-cu--ft--smart-slide-in-induction-range-with-ambient-edge-lighting™--air-sous-vide-in-matte-black-steel--561607-nsi6dg9500sraa-548629452?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-nsi6dg9500sr-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsi6dg9500sraa/gallery/us-bespoke-6-3-cu--ft--smart-slide-in-induction-range-with-ambient-edge-lighting™--air-sous-vide-in-matte-black-steel--561607-nsi6dg9500sraa-548629435?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-nsi6dg9500sr-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsi6dg9500sraa/gallery/us-bespoke-6-3-cu--ft--smart-slide-in-induction-range-with-ambient-edge-lighting™--air-sous-vide-in-matte-black-steel--561607-nsi6dg9500sraa-548629440?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        }
+      ]
     },
     {
       "id": "frigidaire-fcfi3083as",
@@ -9309,7 +9421,45 @@
         "source": "best_buy"
       },
       "height_in": 36.75,
-      "depth_in": 26.4375
+      "depth_in": 26.4375,
+      "images": [
+        {
+          "local": "images/ovens/samsung-nsg6dg8700sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568989_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nsg6dg8700sr-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsg6dg8700sraa/gallery/us-nx9100d-nsg6dg8700sraa-549586367?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-nsg6dg8700sr-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsg6dg8700sraa/gallery/us-nx9100d-nsg6dg8700sraa-549586351?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-nsg6dg8700sr-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsg6dg8700sraa/gallery/us-nx9100d-nsg6dg8700sraa-549586348?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-nsg6dg8700sr-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsg6dg8700sraa/gallery/us-nx9100d-nsg6dg8700sraa-549586353?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/samsung-nsg6dg8700sr-g5.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsg6dg8700sraa/gallery/us-nx9100d-nsg6dg8700sraa-550535963?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "sks-upsg3014st",
@@ -9389,7 +9539,63 @@
       },
       "height_in": 47.0625,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-nx60a6111ss.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447914_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567179?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567168?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567165?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567167?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567166?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g6.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567160?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g7.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567164?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/ovens/samsung-nx60a6111ss-g8.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nx60a6111ss-aa/gallery/us-nx5000anx60a6111ss-nx60a6111ss-aa-549567162?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g8"
+        }
+      ]
     },
     {
       "id": "samsung-nsg6dg8100sr",
@@ -9438,7 +9644,21 @@
         "source": "best_buy"
       },
       "height_in": 36.25,
-      "depth_in": 27.88
+      "depth_in": 27.88,
+      "images": [
+        {
+          "local": "images/ovens/samsung-nsg6dg8100sr.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568976_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nsg6dg8100sr-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nsg6dg8100sraa/gallery/us-nsg6db830012aa-568488-nsg6dg8100sraa-549619387?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        }
+      ]
     },
     {
       "id": "bosch-hdi8056u",
@@ -12368,7 +12588,27 @@
       },
       "height_in": 5.57,
       "depth_in": 22.33,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-na36n7755tg.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6261/6261807_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-na36n7755tg-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na36n7755tg-aa/gallery/us-na9300k-gas-cooktop-with-22k-btu-dual-burner-na36n7755tg-aa-550480188?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-na36n7755tg-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na36n7755tg-aa/gallery/us-na9300k-gas-cooktop-with-22k-btu-dual-burner-na36n7755tg-aa-550480219?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        }
+      ]
     },
     {
       "id": "lg-studio-cbgs3628s",
@@ -13110,7 +13350,45 @@
       },
       "height_in": 5.57,
       "depth_in": 22.33,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-na30n7755tg.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6261/6261811_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-na30n7755tg-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30n7755tg-aa/gallery/us-na9300k-gas-cooktop-with-22k-btu-dual-burner-561991-na30n7755tg-aa-550523102?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-na30n7755tg-g2.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30n7755tg-aa/gallery/us-na9300k-gas-cooktop-with-22k-btu-dual-burner-561991-na30n7755tg-aa-550523110?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-na30n7755tg-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30n7755tg-aa/gallery/us-na9300k-gas-cooktop-with-22k-btu-dual-burner-561991-na30n7755tg-aa-550523137?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-na30n7755tg-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30n7755tg-aa/gallery/us-na9300k-gas-cooktop-with-22k-btu-dual-burner-561991-na30n7755tg-aa-550523144?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/samsung-na30n7755tg-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30n7755tg-aa/gallery/us-na9300k-gas-cooktop-with-22k-btu-dual-burner-561991-na30n7755tg-aa-550523151?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "samsung-na30n6555ts",
@@ -13484,7 +13762,51 @@
       },
       "height_in": 5.8125,
       "depth_in": 21,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-na30r5310fs.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6372/6372681_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-na30r5310fs-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30r5310fs-aa/gallery/us-na5300r-572586-na30r5310fs-aa-550284112?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-na30r5310fs-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30r5310fs-aa/gallery/us--na30r5310fs-aa-550284752?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-na30r5310fs-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30r5310fs-aa/gallery/us-na5300r-572586-na30r5310fs-aa-550284103?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-na30r5310fs-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30r5310fs-aa/gallery/us-na5300r-572586-na30r5310fs-aa-550284105?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/samsung-na30r5310fs-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30r5310fs-aa/gallery/us-na5300r-572586-na30r5310fs-aa-550284106?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/samsung-na30r5310fs-g6.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/na30r5310fs-aa/gallery/us-na5300r-572586-na30r5310fs-aa-550284104?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "ge-profile-pgp7030slss",
@@ -14429,7 +14751,45 @@
       },
       "height_in": 5.125,
       "depth_in": 21.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-nz30fg5332rkaa.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6618/6618131_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nz30fg5332rkaa-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nz30fg5332rkaa/gallery/us-nz5300r-nz30fg5332rkaa-nz30fg5332rkaa-549576096?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-nz30fg5332rkaa-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nz30fg5332rkaa/gallery/us-nz5300r-nz30fg5332rkaa-nz30fg5332rkaa-549576104?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-nz30fg5332rkaa-g3.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nz30fg5332rkaa/gallery/us-nz5300r-nz30fg5332rkaa-nz30fg5332rkaa-549576109?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-nz30fg5332rkaa-g4.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nz30fg5332rkaa/gallery/us-nz5300r-nz30fg5332rkaa-nz30fg5332rkaa-549576113?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/samsung-nz30fg5332rkaa-g5.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/nz30fg5332rkaa/gallery/us-nz5300r-nz30fg5332rkaa-nz30fg5332rkaa-549576115?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "ge-jp3030dwbb",
@@ -15375,7 +15735,39 @@
       },
       "height_in": 4.25,
       "depth_in": 21.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/samsung-nz30a3060uk.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6473/6473423_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/samsung-nz30a3060uk-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/cc70f30s2daa/gallery/us--cc70f30s2daa-550412311?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/samsung-nz30a3060uk-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/cc70f30s2daa/gallery/us--cc70f30s2daa-550412317?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/samsung-nz30a3060uk-g3.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/cc70f30s2daa/gallery/us--cc70f30s2daa-550412329?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/samsung-nz30a3060uk-g4.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/cc70f30s2daa/gallery/us--cc70f30s2daa-550412337?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        }
+      ]
     },
     {
       "id": "viking-rvic3304bbg",

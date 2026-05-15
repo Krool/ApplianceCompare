@@ -1056,7 +1056,39 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/samsung-dw80b7070us.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491913_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80b7070us-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us-autorelease-smart-42dba-dishwasher-with-stormwash-™-and-smart-dry-572737-dw80b7070us-aa-550305408?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80b7070us-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us--dw80b7070us-aa-550317117?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80b7070us-g3.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us--dw80b7070us-aa-550317126?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80b7070us-g4.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us--dw80b7070us-aa-550317133?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        }
+      ]
     },
     {
       "id": "lg-ldfn4542s",
@@ -3559,7 +3591,57 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 27.3125,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g1.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557202?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-552550326?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g3.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557187?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g4.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557188?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g5.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557189?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g6.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557190?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g7.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557191?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g8.png",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557183?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g8"
+        }
+      ]
     },
     {
       "id": "whirlpool-wdt750sakv",
@@ -7044,7 +7126,45 @@
       },
       "last_updated": "2026-05-14",
       "height_in": 33.875,
-      "depth_in": 25
+      "depth_in": 25,
+      "images": [
+        {
+          "local": "images/dishwashers/samsung-dw80bb707012.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511736_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80bb707012-g1.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550434117?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80bb707012-g2.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550434191?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80bb707012-g3.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550480302?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80bb707012-g4.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550480304?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/samsung-dw80bb707012-g5.jpg",
+          "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550480306?wid=1200&fmt=webp",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "sharp-sdw6506js",
