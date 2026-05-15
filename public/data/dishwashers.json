@@ -689,7 +689,63 @@
       "interior_light": false,
       "height_in": 33.625,
       "depth_in": 26.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398729_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cleaning/dishwasher/images/hero-KDTM604KPS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180299kd/open-p180299kd-035.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2024/240083kdd01/240083KDD01-003_Intrographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2024/240083kdd01/240083KDD01-012_KDTM604KPS_Infographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191699kd/additional-p191699kd-015z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2024/240083kdp01/240083KDP01-021_KDTM404KPS_Set_sRGB.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2024/240083kdd01/240083KDD01-004_KDTM404KPS_Infographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm604kps-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180299kd/console-p180299kd-079.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        }
+      ]
     },
     {
       "id": "ge-profile-pdt785synfs",
@@ -2072,7 +2128,69 @@
       },
       "height_in": 33.625,
       "depth_in": 26.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423224_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cleaning/dishwasher/images/hero-KDTE204KPS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/open-propped-p191402kd-071.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/open-p191402kd-022.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/console-p191402kd-124.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/console-p191402kd-119.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/feature-p191402kd-039.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/set-p191402kd-060.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2021/p210063kd/feature-talent-p210063kd-015z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdte204kps-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191699kd/additional-p191699kd-137z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "miele-g7106scube",
@@ -5213,9 +5331,59 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420936_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "height_in": 33.625,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "images": [
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420936_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cleaning/dishwasher/images/hero-KDFE204KPS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/open-propped-p191402kd-067.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/open-p191402kd-018.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180299kd/console-p180299kd-141.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180299kd/console-p180299kd-064.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191402kd/set-p191402kd-056.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdfe204kps-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p191699kd/dimension-p191699kd-159z1.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "lg-ldth555ns",
@@ -5425,7 +5593,70 @@
         "local": "images/dishwashers/kitchenaid-kdtf924pps.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578908_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "images": [
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578908_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cleaning/dishwasher/images/hero-KDTF924PPS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdg02/open-propped-231053kdg02-003.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdg01/open-231053kdg01-005.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdg01/additional-231053kdg01-007.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdg01/additional-231053kdg01-010.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdg01/console-231053kdg01-016.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdg02/open-propped-231053kdg02-001.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdg01/open-231053kdg01-013.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtf924pps-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/231053kdp01/set-231053kdp01-015_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ],
+      "last_updated": "2026-05-14"
     },
     {
       "id": "midea-mdt24p3cst",
@@ -6811,7 +7042,7 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511736_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "height_in": 33.875,
       "depth_in": 25
     },
@@ -7054,9 +7285,41 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398227_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "height_in": 33.625,
-      "depth_in": 26.75
+      "depth_in": 26.75,
+      "images": [
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm704kps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398227_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm704kps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180299kd/open-p180299kd-036.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm704kps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2024/240083kdd01/240083KDD01-014_KDTM704KPS_Infographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm704kps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2024/240083kdp01/240083KDP01-063_KDTM804KBS_Set.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/dishwashers/kitchenaid-kdtm704kps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180299kd/console-p180299kd-147.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        }
+      ]
     },
     {
       "id": "sharp-sdw6757es",

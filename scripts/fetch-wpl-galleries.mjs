@@ -25,8 +25,11 @@ const BRAND = opt('--brand', 'whirlpool');
 const CATS = ['refrigerators', 'ovens', 'dishwashers'];
 
 const BRAND_CFG = {
-  whirlpool: { host: 'www.whirlpool.com', match: (m) => m.brand === 'whirlpool' || /^whirlpool-/i.test(m.id), idPrefix: /^whirlpool-/i },
-  maytag:    { host: 'www.maytag.com',    match: (m) => m.brand === 'maytag' || /^maytag-/i.test(m.id), idPrefix: /^maytag-/i },
+  whirlpool:  { host: 'www.whirlpool.com',  match: (m) => m.brand === 'whirlpool' || /^whirlpool-/i.test(m.id), idPrefix: /^whirlpool-/i },
+  maytag:     { host: 'www.maytag.com',     match: (m) => m.brand === 'maytag' || /^maytag-/i.test(m.id), idPrefix: /^maytag-/i },
+  kitchenaid: { host: 'www.kitchenaid.com', match: (m) => m.brand === 'kitchenaid' || /^kitchenaid-/i.test(m.id), idPrefix: /^kitchenaid-/i },
+  jennair:    { host: 'www.jennair.com',    match: (m) => m.brand === 'jennair' || /^jennair-/i.test(m.id), idPrefix: /^jennair-/i },
+  amana:      { host: 'www.amana.com',      match: (m) => m.brand === 'amana' || /^amana-/i.test(m.id), idPrefix: /^amana-/i },
 };
 const cfg = BRAND_CFG[BRAND];
 if (!cfg) { console.error('Unknown brand: ' + BRAND); process.exit(1); }
@@ -93,8 +96,13 @@ for (const cat of Object.keys(byCat)) {
       continue;
     }
 
-    // Extract data-asset value(s) — find one that references "image-set"
-    const assetMatches = [...html.matchAll(/data-asset=["']([^"']+)["']/g)].map(m => m[1]);
+    // Extract any asset reference to an image-set. Whirlpool/Maytag use
+    // data-asset="...", KitchenAid uses asset="..."; both eventually
+    // resolve to /content/dam/.../image-set/<model>.
+    const assetMatches = [
+      ...[...html.matchAll(/data-asset=["']([^"']+)["']/g)].map(m => m[1]),
+      ...[...html.matchAll(/(?<!data-)asset=["']([^"']+)["']/g)].map(m => m[1]),
+    ];
     const imageSetPath = assetMatches.find(a => /\/image-set\//i.test(a));
     if (!imageSetPath) {
       console.log('  no image-set data-asset found');

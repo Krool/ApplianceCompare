@@ -661,8 +661,7 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ],
-      "depth_in": 24.75
+      ]
     },
     {
       "id": "bosch-b36it905np",
@@ -694,7 +693,7 @@
           "manufacturer": "https://www.bosch-home.com/us/en/product/B36IT905NP",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2365294",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
-          "specs": "https://www.bosch-home.com/us/en/product/refrigerators/bottom-freezer/built-in/B36IT905NP"
+          "specs": "https://media3.bosch-home.com/Documents/16233197_B36IT905NP_Spec_Sheet.pdf"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -774,8 +773,7 @@
           "source": "manufacturer",
           "view": "g7"
         }
-      ],
-      "depth_in": 24
+      ]
     },
     {
       "id": "ge-pfe28kynfs",
@@ -1502,7 +1500,69 @@
       },
       "height_in": 70.75,
       "depth_with_handle_in": 36.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6260/6260435_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/refrigeration/refrigerator/images/hero-KRFF507HPS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180013/open-propped-p180013-3z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180013/open-p180013-2z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180013/open-propped-p180013-5z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180013/additional-p180013-4z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180013/feature-p180013-18z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180013/set-p180013-19z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180013/feature-p180013-20z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krff507hps-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-033z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "kitchenaid-krbr109ess",
@@ -1559,7 +1619,45 @@
       },
       "height_in": 67,
       "depth_with_handle_in": 33.375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/kitchenaid-krbr109ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7405/7405084_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krbr109ess-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/refrigeration/refrigerator/images/hero-KRBR109ESS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krbr109ess-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2015/p150412/open-propped-p150412-3z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krbr109ess-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2015/p150412/open-p150412-2z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krbr109ess-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/open-propped-p160253-71z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krbr109ess-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-060z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "samsung-rf29bb8600ap",
@@ -1821,8 +1919,7 @@
       "water_filter_cost_yr": 130,
       "last_updated": "2026-05-05",
       "height_in": 84,
-      "depth_with_handle_in": 24,
-      "depth_in": 24
+      "depth_with_handle_in": 24
     },
     {
       "id": "subzero-pro-48",
@@ -1851,7 +1948,7 @@
         "source_urls": {
           "water_filter": "https://www.subzero-wolf.com/parts",
           "yale_brand": "https://blog.yaleappliance.com/is-a-sub-zero-refrigerator-worth-it-prices",
-          "specs": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/builtin-refrigerators/48-inch-built-in-side-by-side-refrigerator-freezer"
+          "specs": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/refrigeration/pro4850"
         },
         "endorsements": [
           {
@@ -1882,8 +1979,7 @@
       },
       "height_in": 84,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14",
-      "depth_in": 24
+      "last_updated": "2026-05-14"
     },
     {
       "id": "thermador-t36bb915ss",
@@ -1914,7 +2010,7 @@
         "source_urls": {
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.designerappliances.com/thermador-t36bb915ss.html"
+          "specs": "https://www.thermador.com/us/en/mkt-product/T36BB915SS"
         },
         "endorsements": [
           {
@@ -1982,8 +2078,7 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ],
-      "depth_in": 24.75
+      ]
     },
     {
       "id": "thermador-t36ft820ns",
@@ -2019,7 +2114,7 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://media3.bsh-group.com/Documents/16934582_T36FT820NS-36-INCH-STAINLESS-STEEL-FREESTANDING-FRENCH-DOOR-BOTTOM-FREEZER-PROFESSIONAL-HANDLES.pdf"
+          "specs": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36FT820NS"
         }
       },
       "pros": [
@@ -2083,8 +2178,7 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ],
-      "depth_in": 27.8125
+      ]
     },
     {
       "id": "miele-kf2982vi",
@@ -2151,8 +2245,7 @@
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14",
-      "depth_in": 24
+      "last_updated": "2026-05-14"
     },
     {
       "id": "miele-k2802vi",
@@ -2188,7 +2281,7 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://assets.coastappliances.com/product-assets/miele/refrigerators-and-freezers/K2802VI/K2802VI-spec.pdf"
+          "specs": "https://www.mieleusa.com/product/11502590/mastercool-refrigerator-k-2802-vi"
         }
       },
       "pros": [
@@ -2209,8 +2302,7 @@
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24.75,
-      "last_updated": "2026-05-14",
-      "depth_in": 23.875
+      "last_updated": "2026-05-14"
     },
     {
       "id": "jennair-jffcc72efs",
@@ -2437,8 +2529,7 @@
       "water_filter_cost_yr": 110,
       "height_in": 70,
       "depth_with_handle_in": 25.75,
-      "last_updated": "2026-05-14",
-      "depth_in": 25.75
+      "last_updated": "2026-05-14"
     },
     {
       "id": "frigidaire-frss2623as",
@@ -3034,8 +3125,7 @@
       "release_year": 2022,
       "height_in": 34,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14",
-      "depth_in": 24
+      "last_updated": "2026-05-14"
     },
     {
       "id": "forno-ffffd1948-36sb",
@@ -3702,7 +3792,7 @@
         "source_urls": {
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://media3.bosch-home.com/Documents/17197307_B36FD50SNS_Spec_Sheet.pdf"
+          "specs": "https://www.bosch-home.com/us/en/product/B36FD50SNB"
         },
         "endorsements": [
           {
@@ -3793,8 +3883,7 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ],
-      "depth_in": 32.125
+      ]
     },
     {
       "id": "ge-profile-pvd28bynfs",
@@ -4680,7 +4769,7 @@
           "spec_sheet": "https://media3.bosch-home.com/Documents/17197307_B36FD50SNS_Spec_Sheet.pdf",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
           "reviewed_individual": "https://www.reviewed.com/refrigerators/content/bosch-b36fd50sns-french-door-refrigerator-review",
-          "specs": "https://media3.bosch-home.com/Documents/17197307_B36FD50SNS_Spec_Sheet.pdf"
+          "specs": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD50SNS"
         },
         "cr_overall": 75,
         "cr_reliability": "very-good",
@@ -4800,8 +4889,7 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ],
-      "depth_in": 32.125
+      ]
     },
     {
       "id": "hisense-hrb171n6ase",
@@ -4960,7 +5048,8 @@
         "local": "images/refrigerators/samsung-rs28cb760012.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529233_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-05-14"
     },
     {
       "id": "hotpoint-hps16btnrww",
@@ -5412,7 +5501,7 @@
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471975_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "height_in": 66.875,
       "depth_with_handle_in": 29.25,
       "hinge": "reversible",
@@ -5975,7 +6064,7 @@
           "manufacturer": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3387631",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-counter-depth-refrigerators/",
-          "specs": "https://static.pcrichard.com/docs/KFN4776ED_Specifications-Sheet_01.pdf"
+          "specs": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel"
         },
         "wirecutter": "upgrade pick (premium CD bottom-freezer) 2026",
         "endorsements": [
@@ -6004,8 +6093,7 @@
       },
       "height_in": 73.125,
       "depth_with_handle_in": 26.625,
-      "last_updated": "2026-05-14",
-      "depth_in": 26.625
+      "last_updated": "2026-05-14"
     },
     {
       "id": "miele-kfn4799dde",
@@ -6046,8 +6134,7 @@
       },
       "height_in": 79.375,
       "depth_with_handle_in": 26.625,
-      "last_updated": "2026-05-14",
-      "depth_in": 26.625
+      "last_updated": "2026-05-14"
     },
     {
       "id": "ge-gde21eykfs",
@@ -6220,8 +6307,7 @@
       },
       "height_in": 68.7,
       "depth_with_handle_in": 31,
-      "last_updated": "2026-05-14",
-      "depth_in": 31
+      "last_updated": "2026-05-14"
     },
     {
       "id": "ge-gye22gynfs",
@@ -6984,7 +7070,7 @@
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details-plus/2371892",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-counter-depth-fridges-refrigerators",
-          "specs": "https://www.homedepot.com/p/Bosch-800-Series-36-in-20-5-cu-ft-French-Door-Bottom-Mount-Counter-Depth-Refrigerator-with-Refreshment-Center-B36CL81ENW/328591026"
+          "specs": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL81ENW"
         },
         "endorsements": [
           {
@@ -7074,8 +7160,7 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ],
-      "depth_in": 24
+      ]
     },
     {
       "id": "bosch-b36cd52sns",
@@ -7830,7 +7915,7 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
-          "specs": "https://www.designerappliances.com/viking-rvffr336ss.html"
+          "specs": "https://vikingrange.com/products/chill/refrigeration/model/RVFFR336/sku/RVFFR336SS"
         }
       },
       "pros": [],
@@ -7843,8 +7928,7 @@
       },
       "height_in": 69.5,
       "depth_with_handle_in": 25,
-      "last_updated": "2026-05-14",
-      "depth_in": 26.75
+      "last_updated": "2026-05-14"
     },
     {
       "id": "ikea-overskadlig",
@@ -8113,7 +8197,69 @@
       "height_in": 69,
       "depth_in": 24.875,
       "depth_with_handle_in": 28.375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534852_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/refrigeration/refrigerator/images/hero-KRQC506MPS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220455ko/open-propped-i220455ko-017z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/p220525kr/open-p220525kr-002.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/p220525kr/additional-p220525kr-005.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/p220525kr/additional-p220525kr-004.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/p220525kr/console-p220525kr-008.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/p220525kr/console-p220525kr-009.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220455ko/set-talent-i220455ko-030z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krqc506mps-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220455ko/set-i220455ko-026z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "kitchenaid-krmf706ebs",
@@ -8222,7 +8368,69 @@
       "height_in": 70.125,
       "depth_in": 33.75,
       "depth_with_handle_in": 36.375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6575/6575128_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krg01/hero-230626krg01-001.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krp01/open-propped-230626krp01-001_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krg01/open-230626krg01-002.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krg01/additional-230626krg01-003.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krg01/additional-230626krg01-004.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krg01/additional-230626krg01-006.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krp01/set-230626krp01-010_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krp01/set-230626krp01-021_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-krmf536rps-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2023/230626krp01/set-230626krp01-009_srgb.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "zline-rfm-w-36",
@@ -8635,8 +8843,7 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ],
-      "depth_in": 24
+      ]
     },
     {
       "id": "sks-sksfd4826p",
@@ -8667,7 +8874,7 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "manufacturer": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator",
-          "specs": "https://www.signaturekitchensuite.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator"
+          "specs": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator"
         },
         "endorsements": [
           {
@@ -8693,8 +8900,7 @@
         "source": "sks"
       },
       "height_in": 84,
-      "depth_with_handle_in": 23.87,
-      "depth_in": 23.87
+      "depth_with_handle_in": 23.87
     },
     {
       "id": "thermador-t30ib905sp",
@@ -8781,8 +8987,7 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ],
-      "depth_in": 24
+      ]
     },
     {
       "id": "zline-rbiv-304-30",
@@ -8819,8 +9024,7 @@
       "_meta": {},
       "last_updated": "2026-05-14",
       "height_in": 83.56,
-      "depth_with_handle_in": 24.25,
-      "depth_in": 24.25
+      "depth_with_handle_in": 24.25
     },
     {
       "id": "sub-zero-det3050ciid",
@@ -8847,8 +9051,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
-          "specs": "https://www.designerappliances.com/sub-zero-det3050ciidl.html"
+          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
         }
       },
       "pros": [],
@@ -8858,9 +9061,7 @@
         "local": "images/refrigerators/sub-zero-det3050ciid.png",
         "source_url": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/integrated-fridges/30-inch-integrated-over-under-refrigerator-freezer-ice-maker-internal-dispenser-panel-ready",
         "source": "sub_zero"
-      },
-      "depth_in": 24.02,
-      "last_updated": "2026-05-14"
+      }
     },
     {
       "id": "kitchenaid-kbbr306ess",
@@ -8902,7 +9103,57 @@
       "height_in": 83.375,
       "depth_in": 27.75,
       "hinge": "right",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7138/7138081_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/refrigeration/refrigerator/images/hero-KBBR306ESS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2015/p150076/open-propped-p150076-23z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2015/p150076/open-p150076-22z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2015/p150412/feature-p150412-7z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2014/p140206/feature-p140206-13z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190303kc/set-p190303kc-013z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/refrigerators/kitchenaid-kbbr306ess-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-021z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "viking-fdbb5364l",
@@ -8972,7 +9223,7 @@
           "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
           "manufacturer": "https://www.bosch-home.com/us/en/product/B30IB905SP",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2365289",
-          "specs": "https://www.bosch-home.com/us/en/product/B30IB905SP"
+          "specs": "https://media3.bosch-home.com/Documents/16233242_B30IB905SP_Spec_Sheet.pdf"
         }
       },
       "pros": [
@@ -9044,8 +9295,7 @@
           "source": "manufacturer",
           "view": "g8"
         }
-      ],
-      "depth_in": 24
+      ]
     },
     {
       "id": "whirlpool-wrb322dmbm",
@@ -9656,7 +9906,7 @@
       "cons": [],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/samsung-rs23cb7600qlaa.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529229_sd.jpg",
@@ -9725,7 +9975,7 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/samsung-rs27t5200sr.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397576_sd.jpg",
@@ -9834,7 +10084,7 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/samsung-rf25c5551sr.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529227_sd.jpg",
@@ -9891,7 +10141,7 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/refrigerators/samsung-rs22t5561sr.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397592_sd.jpg",
@@ -10246,8 +10496,7 @@
         "source": "best_buy"
       },
       "height_in": 68,
-      "depth_with_handle_in": 29,
-      "depth_in": 29.1
+      "depth_with_handle_in": 29
     },
     {
       "id": "ge-gye21jymfs",
@@ -10572,8 +10821,7 @@
       "height_in": 65.875,
       "depth_with_handle_in": 30.375,
       "garage_ready": true,
-      "last_updated": "2026-05-14",
-      "depth_in": 30.375
+      "last_updated": "2026-05-14"
     },
     {
       "id": "lg-lhtns2403s",

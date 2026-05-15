@@ -4143,7 +4143,69 @@
       },
       "height_in": 36,
       "depth_in": 28.3125,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7322/7322122_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KSDB900ESS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2020/p200294kc/feature-p200294kc-001z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/open-propped-p170930-3z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/open-p170930-2z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/console-p170930-4z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2014/p140343/set-p140343-7z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190303kc/feature-p190303kc-012z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/additional-p170930-10z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksdb900ess-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-101z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "whirlpool-wge745c0fs",
@@ -6396,7 +6458,45 @@
       },
       "height_in": 36,
       "depth_in": 28.88,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kseb900ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7500/7500436_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kseb900ess-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KSEB900ESS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kseb900ess-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/set-p160253-36z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kseb900ess-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2015/p150330/open-p150330-6z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kseb900ess-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/feature-p160253-37z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kseb900ess-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-105z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "whirlpool-wfes3330rz",
@@ -7110,7 +7210,7 @@
       "finishes": [
         "Fingerprint Resistant Stainless Steel"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/ovens/samsung-ne63a6751ss.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468307_sd.jpg",
@@ -7158,14 +7258,64 @@
       "finishes": [
         "Black Stainless Steel with PrintShield"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/ovens/kitchenaid-kfed500ebs.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5732/5732346_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 47.375,
-      "depth_in": 26.125
+      "depth_in": 26.125,
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5732/5732346_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KFED500EBS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/feature-p170679-108z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/open-propped-p170679-103z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/open-p170679-102z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/feature-p170679-104z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/set-p170679-105z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfed500ebs-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/additional-p170679-109z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "cafe-ces750p4mw2",
@@ -7417,7 +7567,7 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/ovens/samsung-nse6dg8550sr.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6585/6585159_sd.jpg",
@@ -7763,7 +7913,7 @@
         "stainless",
         "matte black steel"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/ovens/samsung-nsi6dg9100sr.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569010_sd.jpg",
@@ -8275,7 +8425,69 @@
       },
       "height_in": 36.75,
       "depth_in": 26.31,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549509_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KSIS730PSS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/feature-i220882kc-024z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/open-propped-i220882kc-002z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/open-i220882kc-003z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/additional-i220882kc-004z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/additional-i220882kc-005z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/console-i220882kc-006z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/set-i220882kc-037z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksis730pss-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2022/i220882kc/set-i220882kc-038z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "lg-lsdl6336f",
@@ -9090,7 +9302,7 @@
       "finishes": [
         "Stainless Steel"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/ovens/samsung-nsg6dg8700sr.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568989_sd.jpg",
@@ -9219,7 +9431,7 @@
         "Stainless Steel",
         "Matte Black Steel"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-05-14",
       "image": {
         "local": "images/ovens/samsung-nsg6dg8100sr.jpg",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6568/6568976_sd.jpg",
@@ -9493,7 +9705,57 @@
       },
       "height_in": 36,
       "depth_in": 28.3125,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5489/5489036_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KSGG700ESS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/open-p160253-27z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/open-p160253-150z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170310/set-p170310-6z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170310/set-p170310-4z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170310/set-p170310-3z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-ksgg700ess-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-103z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "bosch-hgi8056uc",
@@ -10336,7 +10598,69 @@
       },
       "height_in": 47.125,
       "depth_in": 25.4375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6623/6623425_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KFGG500ESS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/additional-p170679-9z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/open-propped-p170679-3z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/open-p170679-2z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/console-p170679-4z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/set-p170679-5z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/set-p170679-6z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/feature-p170679-22z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgg500ess-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170679/additional-p170679-10z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "whirlpool-wfg975h0hv",
@@ -11422,7 +11746,51 @@
       },
       "height_in": 47.375,
       "depth_in": 26.125,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kfgd500ess.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5487/5487029_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgd500ess-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KFGD500ESS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgd500ess-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/additional-p160253-42z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgd500ess-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/set-p160253-7z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgd500ess-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2015/p150330/open-p150330-2z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgd500ess-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160253/set-p160253-8z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgd500ess-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-112z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        }
+      ]
     },
     {
       "id": "electrolux-ecfd3668as",
@@ -11796,7 +12164,69 @@
       },
       "height_in": 35.75,
       "depth_in": 29.56,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6383/6383090_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KFGC500JPA.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190287kc/feature-p190287kc-015z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190287kc/open-propped-p190287kc-005z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190287kc/open-p190287kc-003z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190287kc/feature-p190287kc-019z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2020/p200939kc/set-p200939kc-042z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190940kc/feature-p190940kc-004z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/brand/kitchenaid/en-us/feature/images/feature-p190288kc-231z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kfgc500jpa-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2019/p190287kc/additional-p190287kc-007z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-hgs8055uc",
@@ -13141,7 +13571,57 @@
       },
       "height_in": 18.75,
       "depth_in": 22.0625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5855/5855118_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/cooktop/images/hero-KCED606GBL.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/feature-p170930-51z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160587/additional-p160587-10z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/set-p170930-52z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/set-talent-p170930-53z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170005/feature-p170005-6z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced606gbl-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-139z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "whirlpool-wce55us6hb",
@@ -13311,7 +13791,45 @@
       },
       "height_in": 3.625,
       "depth_in": 22.0625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kced600gss.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5855/5855104_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced600gss-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/cooktop/images/hero-KCED600GSS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced600gss-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/feature-p170930-40z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced600gss-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2016/p160587/additional-p160587-8z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced600gss-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2017/p170930/feature-p170930-41z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kced600gss-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-136z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        }
+      ]
     },
     {
       "id": "kitchenaid-kces550hbl",
@@ -13351,7 +13869,57 @@
       },
       "height_in": 5.25,
       "depth_in": 22.8125,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6303/6303952_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/cooktop/images/hero-KCES550HBL.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180320/additional-p180320-4z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180320/additional-p180320-3z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180320/set-p180320-11z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180320/set-p180320-13z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180320/feature-p180320-7z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kces550hbl-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2018/p180288kx/dimension-p180288kx-141z.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        }
+      ]
     },
     {
       "id": "lg-lce3010sb",
@@ -14288,7 +14856,69 @@
       },
       "height_in": 2.3125,
       "depth_in": 21.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "images": [
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl.jpg",
+          "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6499/6499396_sd.jpg",
+          "source": "best_buy",
+          "view": "primary"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g1.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/kitchenaid/cooking/range/images/hero-KFIS936SSS.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g1"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g2.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2025/250150kcp01/250150KCP01-111_KFIS936SSS_Open-Propped_sRGB.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g2"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g3.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2025/250150kcg02/250150KCG02-257_KFIS936SSS_Dimension_sRGB.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g3"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g4.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2025/250150kcd01/250150KCD01-045_Multi-SKU_Infographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g4"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g5.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2025/250150kcd01/250150KCD01-108_Multi-SKU_Infographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g5"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g6.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2024/240898kxd01/240898KXD01-001_Multi-SKU_Infographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g6"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g7.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2025/250150kcd01/250150KCD01-130_KFIS936SSS_Infographic.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g7"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g8.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2025/250150kcg02/250150KCG02-139_KFIS936SSS_Additional.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g8"
+        },
+        {
+          "local": "images/ovens/kitchenaid-kcig556jbl-g9.webp",
+          "source_url": "https://www.kitchenaid.com/is/image/content/dam/global/shot-lists/2025/250150kcg02/250150KCG02-111_KFIS936SSS_Additional.tif?fmt=webp&wid=1200",
+          "source": "manufacturer",
+          "view": "g9"
+        }
+      ]
     },
     {
       "id": "bosch-nit8060uc",
