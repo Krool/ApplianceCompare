@@ -282,9 +282,12 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
     const toggle = () => setSort({ key, dir: isSorted && sort.dir === 'desc' ? 'asc' : 'desc' });
     return (
       <th className={isSorted ? 'sorted ' + sort.dir : ''}
+          scope="col"
           aria-sort={ariaSort}
           tabIndex={0}
           role="columnheader"
+          aria-label={`${label}, sortable column`}
+          title={`Sort by ${label}`}
           onClick={toggle}
           onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } }}>
         <span className="th-label">{label}</span>
@@ -295,7 +298,7 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
 
   // Static (non-sortable) header with the same tooltip affordance.
   const plainHead = (label, tip, props = {}) => (
-    <th tabIndex={tip ? 0 : -1} {...props}>
+    <th scope="col" tabIndex={tip ? 0 : -1} {...props}>
       <span className="th-label">{label}</span>
       {tip && <span className="th-tip" role="tooltip">{tip}</span>}
     </th>
@@ -360,7 +363,7 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
                   onClick={() => onOpen(m)}
                   onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpen(m); } }}>
                 <td className="compare-cell" onClick={e => e.stopPropagation()}>
-                  <input type="checkbox" checked={isSel} onChange={() => toggleCompare(m.id)} />
+                  <input type="checkbox" checked={isSel} onChange={() => toggleCompare(m.id)} aria-label={`Add ${m.name} to comparison`} />
                 </td>
                 <td><ScoreBar value={score} confidence={confidence} disagreement={disagreement} /></td>
                 <td>
@@ -755,9 +758,9 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
           <table className="compare-table">
             <thead>
               <tr>
-                <th></th>
+                <th scope="col"><span className="sr-only">Specification</span></th>
                 {items.map(m => (
-                  <th key={m.id}>
+                  <th key={m.id} scope="col">
                     <ProductImage model={m} brand={brandsById[m.brand]} size="compare" />
                     {m.name}
                     <span className="sub">{m.model}</span>
@@ -775,13 +778,14 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
                 }
                 return (
                   <tr key={row.label}>
-                    <th>{row.label}</th>
+                    <th scope="row">{row.label}</th>
                     {items.map((m, i) => {
                       const v = vals[i];
                       const isBest = bestVal != null && v === bestVal;
                       return (
                         <td key={m.id} className={isBest ? 'best' : ''}>
                           {row.fmt ? row.fmt(v) : (v ?? '—')}
+                          {isBest && <span className="sr-only"> (best)</span>}
                         </td>
                       );
                     })}

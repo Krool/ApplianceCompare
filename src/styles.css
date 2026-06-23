@@ -48,6 +48,17 @@ button { font-family: inherit; cursor: pointer; }
 }
 tr:focus-visible { outline-offset: -2px; }
 
+/* Visually-hidden but screen-reader-accessible content */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Skip link — visible only when focused, jumps past the sticky header */
 .skip-link {
   position: absolute; left: 8px; top: -48px;

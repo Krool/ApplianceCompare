@@ -289,6 +289,7 @@ function TweakSlider({ label, value, min = 0, max = 100, step = 1, unit = '', on
   return (
     <TweakRow label={label} value={`${value}${unit}`}>
       <input type="range" className="twk-slider" min={min} max={max} step={step}
+             aria-label={label}
              value={value} onChange={(e) => onChange(Number(e.target.value))} />
     </TweakRow>
   );
@@ -299,7 +300,7 @@ function TweakToggle({ label, value, onChange }) {
     <div className="twk-row twk-row-h">
       <div className="twk-lbl"><span>{label}</span></div>
       <button type="button" className="twk-toggle" data-on={value ? '1' : '0'}
-              role="switch" aria-checked={!!value}
+              role="switch" aria-checked={!!value} aria-label={label}
               onClick={() => onChange(!value)}><i /></button>
     </div>
   );
@@ -342,15 +343,31 @@ function TweakRadio({ label, value, options, onChange }) {
     window.addEventListener('pointerup', up);
   };
 
+  // Keyboard support for the segmented radio group: arrows move selection,
+  // Home/End jump to ends. Roving tabindex so only the checked radio is in
+  // the tab order, matching the WAI-ARIA radiogroup pattern.
+  const onKeyDown = (e) => {
+    let next = null;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = (idx + 1) % n;
+    else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') next = (idx - 1 + n) % n;
+    else if (e.key === 'Home') next = 0;
+    else if (e.key === 'End') next = n - 1;
+    if (next == null) return;
+    e.preventDefault();
+    onChange(opts[next].value);
+  };
+
   return (
     <TweakRow label={label}>
-      <div ref={trackRef} role="radiogroup" onPointerDown={onPointerDown}
+      <div ref={trackRef} role="radiogroup" aria-label={label} onPointerDown={onPointerDown}
            className={dragging ? 'twk-seg dragging' : 'twk-seg'}>
         <div className="twk-seg-thumb"
              style={{ left: `calc(2px + ${idx} * (100% - 4px) / ${n})`,
                       width: `calc((100% - 4px) / ${n})` }} />
         {opts.map((o) => (
-          <button key={o.value} type="button" role="radio" aria-checked={o.value === value}>
+          <button key={o.value} type="button" role="radio" aria-checked={o.value === value}
+                  tabIndex={o.value === value ? 0 : -1} onKeyDown={onKeyDown}
+                  onClick={() => onChange(o.value)}>
             {o.label}
           </button>
         ))}

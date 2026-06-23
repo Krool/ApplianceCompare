@@ -142,13 +142,13 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
   const priceInverted = priceMin != null && priceMax != null && priceMin > priceMax;
 
   return (
-    <aside className="sidebar">
+    <aside className="sidebar" aria-label="Filters">
       {group('price', 'Price (street)', ['priceMin', 'priceMax'], (
         <div className="range-group">
           <div className="range-row">
-            <input type="number" placeholder="Min" value={filters.priceMin ?? ''} onChange={e => setF('priceMin', e.target.value ? +e.target.value : null)} />
+            <input type="number" aria-label="Minimum price (street), dollars" placeholder="Min" value={filters.priceMin ?? ''} onChange={e => setF('priceMin', e.target.value ? +e.target.value : null)} />
             <span>to</span>
-            <input type="number" placeholder="Max" value={filters.priceMax ?? ''} onChange={e => setF('priceMax', e.target.value ? +e.target.value : null)} />
+            <input type="number" aria-label="Maximum price (street), dollars" placeholder="Max" value={filters.priceMax ?? ''} onChange={e => setF('priceMax', e.target.value ? +e.target.value : null)} />
           </div>
           {priceInverted && <div className="range-hint">Min is greater than max — no models will match.</div>}
         </div>
@@ -163,9 +163,9 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
       {hasCapacity && group('capacity', 'Capacity (cu ft)', ['capacityMin', 'capacityMax'], (
         <div className="range-group">
           <div className="range-row">
-            <input type="number" step="0.1" placeholder="Min" value={filters.capacityMin ?? ''} onChange={e => setF('capacityMin', e.target.value ? +e.target.value : null)} />
+            <input type="number" step="0.1" aria-label="Minimum capacity, cubic feet" placeholder="Min" value={filters.capacityMin ?? ''} onChange={e => setF('capacityMin', e.target.value ? +e.target.value : null)} />
             <span>to</span>
-            <input type="number" step="0.1" placeholder="Max" value={filters.capacityMax ?? ''} onChange={e => setF('capacityMax', e.target.value ? +e.target.value : null)} />
+            <input type="number" step="0.1" aria-label="Maximum capacity, cubic feet" placeholder="Max" value={filters.capacityMax ?? ''} onChange={e => setF('capacityMax', e.target.value ? +e.target.value : null)} />
           </div>
         </div>
       ))}
@@ -173,7 +173,7 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
         <div className="range-group">
           <div className="range-row">
             <span>&le;</span>
-            <input type="number" placeholder="dB" value={filters.dbMax ?? ''} onChange={e => setF('dbMax', e.target.value ? +e.target.value : null)} />
+            <input type="number" aria-label="Maximum noise level, decibels" placeholder="dB" value={filters.dbMax ?? ''} onChange={e => setF('dbMax', e.target.value ? +e.target.value : null)} />
             <span>dB</span>
           </div>
         </div>
@@ -182,9 +182,9 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
       {hasHeight && group('height', 'Height (in)', ['heightMin', 'heightMax'], (
         <div className="range-group">
           <div className="range-row">
-            <input type="number" step="0.1" placeholder="Min" value={filters.heightMin ?? ''} onChange={e => setF('heightMin', e.target.value ? +e.target.value : null)} />
+            <input type="number" step="0.1" aria-label="Minimum height, inches" placeholder="Min" value={filters.heightMin ?? ''} onChange={e => setF('heightMin', e.target.value ? +e.target.value : null)} />
             <span>to</span>
-            <input type="number" step="0.1" placeholder="Max" value={filters.heightMax ?? ''} onChange={e => setF('heightMax', e.target.value ? +e.target.value : null)} />
+            <input type="number" step="0.1" aria-label="Maximum height, inches" placeholder="Max" value={filters.heightMax ?? ''} onChange={e => setF('heightMax', e.target.value ? +e.target.value : null)} />
           </div>
         </div>
       ))}

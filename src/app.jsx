@@ -311,11 +311,11 @@ function App({ data }) {
       </header>
 
       {isGuide ? (
-        <div className="guide-wrap" id="main" tabIndex={-1}>
+        <main className="guide-wrap" id="main" tabIndex={-1}>
           <GuideTabbed guide={data.guide} brandsById={brandsById} />
-        </div>
+        </main>
       ) : (
-        <div className="app" id="main" tabIndex={-1}>
+        <main className="app" id="main" tabIndex={-1}>
           <Sidebar
             category={category}
             models={allModels}
@@ -327,9 +327,10 @@ function App({ data }) {
             onClearAll={() => { setFilters({}); setSearch(''); }}
           />
           <div className="main">
+            <h1 className="sr-only">Chef's Choice — {tabs.find(t => t.id === tab)?.label || 'kitchen appliance'} research</h1>
             <div className="toolbar">
               <div className="search-box">
-                <input value={search} onChange={e => setSearch(e.target.value)} placeholder={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}…`} />
+                <input value={search} onChange={e => setSearch(e.target.value)} aria-label={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}`} placeholder={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}…`} />
                 {search && (
                   <button type="button" className="search-clear" aria-label="Clear search" onClick={() => setSearch('')}>✕</button>
                 )}
@@ -342,7 +343,7 @@ function App({ data }) {
               )}
             </div>
             <div className="results-meta">
-              <span>Showing <strong>{filteredModels.length}</strong> of {allModels.length} models</span>
+              <span aria-live="polite" aria-atomic="true">Showing <strong>{filteredModels.length}</strong> of {allModels.length} models</span>
               <span>Click a column header to sort. Click any row for full specs.</span>
             </div>
             <ApplianceTable
@@ -358,7 +359,7 @@ function App({ data }) {
               onClearFilters={() => { setFilters({}); setSearch(''); }}
             />
           </div>
-        </div>
+        </main>
       )}
 
       {openModel && (
@@ -421,6 +422,15 @@ function LocationToggle({ value, onChange }) {
     { id: 'kitchen', label: 'Kitchen', tip: 'Indoor-only fridges. Hides garage-rated models — those are tuned for wider ambient temps and aren\'t really designed for indoors.' },
     { id: 'garage',  label: 'Garage',  tip: 'Only models the manufacturer rates as Garage Ready (wider ambient temp range, typically 38–110°F).' },
   ];
+  const onKeyDown = (e) => {
+    const i = opts.findIndex(o => o.id === value);
+    let next = null;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = (i + 1) % opts.length;
+    else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') next = (i - 1 + opts.length) % opts.length;
+    if (next == null) return;
+    e.preventDefault();
+    onChange(opts[next].id);
+  };
   return (
     <div className="loc-toggle" role="radiogroup" aria-label="Refrigerator location">
       <span className="loc-toggle-label" aria-hidden="true">Location</span>
@@ -430,8 +440,10 @@ function LocationToggle({ value, onChange }) {
           role="radio"
           type="button"
           aria-checked={value === o.id}
+          tabIndex={value === o.id ? 0 : -1}
           className={value === o.id ? 'active' : ''}
           onClick={() => onChange(o.id)}
+          onKeyDown={onKeyDown}
         >
           <span className="th-label">{o.label}</span>
           <span className="th-tip" role="tooltip">{o.tip}</span>
