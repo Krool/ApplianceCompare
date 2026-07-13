@@ -1,4 +1,4 @@
-# Chef's Choice
+# Kitchen Appliance Compare
 
 A public research tool for comparing kitchen appliances — refrigerators, dishwashers, and ranges/ovens/cooktops — with aggregated ratings and a transparent, tweakable composite score.
 
@@ -105,7 +105,7 @@ GitHub Pages serves the built output from the `docs/` folder on `main`.
    npm run build                 # produces docs/
    git init
    git add .
-   git commit -m "Initial commit: Chef's Choice appliance comparison site"
+   git commit -m "Initial commit: Kitchen Appliance Compare appliance comparison site"
    git branch -M main
    git remote add origin https://github.com/<your-username>/<repo>.git
    git push -u origin main

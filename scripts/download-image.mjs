@@ -25,7 +25,7 @@ const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..
 async function fetchImage(url) {
   try {
     const res = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (Chefs-Choice/data-pipeline)' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (Kitchen-Appliance-Compare/data-pipeline)' },
       redirect: 'follow',
     });
     if (!res.ok) return { ok: false, error: `HTTP ${res.status}` };

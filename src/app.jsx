@@ -1,4 +1,4 @@
-// Main app — Chef's Choice
+// Main app — Kitchen Appliance Compare
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { Sidebar } from './sidebar.jsx';
 import { ApplianceTable, Drawer, CompareBar, CompareModal } from './table-views.jsx';
@@ -287,8 +287,8 @@ function App({ data }) {
       <header className="site-header">
         <div className="header-inner">
           <div className="brand">
-            <span className="brand-mark">Chef's <em>Choice</em></span>
-            <span className="brand-tag">Kitchen appliance research · 2026</span>
+            <span className="brand-mark">Kitchen Appliance <em>Compare</em></span>
+            <span className="brand-tag">Aggregated ratings research · 2026</span>
           </div>
           <nav className="tabs" aria-label="Section">
             {tabs.map(t => (
@@ -327,7 +327,7 @@ function App({ data }) {
             onClearAll={() => { setFilters({}); setSearch(''); }}
           />
           <div className="main">
-            <h1 className="sr-only">Chef's Choice — {tabs.find(t => t.id === tab)?.label || 'kitchen appliance'} research</h1>
+            <h1 className="sr-only">Kitchen Appliance Compare — {tabs.find(t => t.id === tab)?.label || 'kitchen appliance'} research</h1>
             <div className="toolbar">
               <div className="search-box">
                 <input value={search} onChange={e => setSearch(e.target.value)} aria-label={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}`} placeholder={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}…`} />

@@ -1,4 +1,4 @@
-# Chef's Choice — contributor notes for Claude
+# Kitchen Appliance Compare — contributor notes for Claude
 
 Public research site comparing kitchen appliances. Vite + React static build
 deployed via GitHub Pages from `/docs`. Read `README.md` for orientation and

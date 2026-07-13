@@ -1,4 +1,4 @@
-// Generates public/og.png — the 1200x630 social-share card for Chef's Choice.
+// Generates public/og.png — the 1200x630 social-share card for Kitchen Appliance Compare.
 // Uses sharp (already a dep) to rasterize an on-brand SVG. No browser needed.
 // Run: node scripts/make-og.mjs   (then rebuild so Vite copies public/ -> docs/)
 import sharp from 'sharp';
@@ -21,14 +21,10 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
   <rect x="40" y="54" width="1120" height="522" fill="none" stroke="${PAPER_DEEP}" stroke-width="2" rx="14"/>
 
   <text x="90" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="${MUTED}"
-        letter-spacing="6" text-transform="uppercase">KITCHEN APPLIANCE RESEARCH</text>
+        letter-spacing="6" text-transform="uppercase">AGGREGATED RATINGS RESEARCH</text>
 
-  <text x="86" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="132" font-weight="700" fill="${INK}">
-    Chef’s <tspan font-style="italic" fill="${ACCENT}">Choice</tspan>
-  </text>
-
-  <text x="90" y="380" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="${INK}">
-    Aggregated ratings from the sources you trust
+  <text x="86" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="${INK}">
+    Kitchen Appliance <tspan x="86" dy="104" font-style="italic" fill="${ACCENT}">Compare</tspan>
   </text>
 
   <text x="90" y="446" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="${MUTED}">

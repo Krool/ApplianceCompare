@@ -1,4 +1,4 @@
-// Helpers and shared logic for Chef's Choice.
+// Helpers and shared logic for Kitchen Appliance Compare.
 // Pure helpers — no React hooks used here, so no React import required.
 
 // Format

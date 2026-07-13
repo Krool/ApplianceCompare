@@ -1,8 +1,8 @@
 {
-  "name": "chefs-choice",
+  "name": "kitchen-appliance-compare",
   "private": true,
   "version": "0.1.0",
-  "description": "Chef's Choice — kitchen appliance research site",
+  "description": "Kitchen Appliance Compare — kitchen appliance research site",
   "type": "module",
   "scripts": {
     "dev": "vite",
