@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "description": "Kitchen Appliance Compare — kitchen appliance research site",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "validate": "node scripts/validate-data.mjs",
