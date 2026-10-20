@@ -98,23 +98,20 @@ brand-logo og:images and Best Buy's "Image Unavailable" placeholder
 
 ## Repo size impact
 
-Image budget at ~40MB pre-session ⇒ ~190MB post-session. GitHub Pages
-soft cap is 1GB per repo, 100MB per file, 100GB/month bandwidth — well
-under all of these.
+Fetched originals reached ~345MB (median 1600px, some 9MB PNGs). The
+2026-10 review re-encoded everything with `scripts/optimize-images.mjs`
+(<=1200px webp + 240px thumb): 328MB -> 68MB. The fetchers below still
+save full-size originals, so run the optimizer after any fetch and
+`git rm` the originals it lists.
 
-## Scripts left in `scripts/` (kept for future expansion)
+## Scripts left in `scripts/`
 
-Fetchers: `fetch-bsh-galleries.mjs` (Bosch+Thermador), `fetch-bosch-
-galleries.mjs` (original one-shot), `fetch-wpl-galleries.mjs`
-(Whirlpool/Maytag/KitchenAid/JennAir/Amana), `fetch-samsung-galleries-
-v2.mjs`, `fetch-fp-galleries.mjs`, `fetch-gallery-demo.mjs`.
+Fetchers: `fetch-bsh-galleries.mjs` (Bosch+Thermador),
+`fetch-wpl-galleries.mjs` (Whirlpool/Maytag/KitchenAid/JennAir/Amana),
+`fetch-samsung-galleries-v2.mjs`, `fetch-fp-galleries.mjs`.
 
-Probes: `probe-bb-page.mjs`, `probe-bb-samsung-alts.mjs`, `probe-mfg-
-page.mjs`, `probe-aem-imageset.mjs`, `probe-whirlpool-deep.mjs`, `probe-
-kitchenaid-deep.mjs`, `probe-lg-ge-samsung.mjs`, `probe-lg-nextdata.mjs`,
-`probe-samsung-nextdata.mjs`, `probe-maytag-and-fp.mjs`,
-`probe-brand-galleries.mjs`. These document the per-brand investigations
-so the next person doesn't have to redo them.
-
-Rollback: `rollback-samsung-galleries.mjs` (used once during the v1→v2
-pivot; kept as a template for future per-brand rollbacks).
+The per-brand probe scripts, the original Bosch fetcher, the demo fetcher
+and the Samsung v1 rollback script were removed in the 2026-10 cleanup;
+the findings they produced are in the brand table above, and the files
+are in git history (before commit "Remove replaced images and one-shot
+scripts").

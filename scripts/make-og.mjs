@@ -1,6 +1,6 @@
 // Generates public/og.png — the 1200x630 social-share card for Kitchen Appliance Compare.
 // Uses sharp (already a dep) to rasterize an on-brand SVG. No browser needed.
-// Run: node scripts/make-og.mjs   (then rebuild so Vite copies public/ -> docs/)
+// Run: node scripts/make-og.mjs   (writes public/og.png; the next deploy picks it up)
 import sharp from 'sharp';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';

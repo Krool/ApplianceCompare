@@ -1,7 +1,7 @@
 # Kitchen Appliance Compare — contributor notes for Claude
 
 Public research site comparing kitchen appliances. Vite + React static build
-deployed via GitHub Pages from `/docs`. Read `README.md` for orientation and
+deployed to GitHub Pages by GitHub Actions (`.github/workflows/pages.yml`). Read `README.md` for orientation and
 `public/data/README.md` for the data schema before touching JSON.
 
 ## Data integrity (non-negotiable)
@@ -30,17 +30,16 @@ deployed via GitHub Pages from `/docs`. Read `README.md` for orientation and
 
 ## Build and deploy
 
-- `npm run dev` for local. `npm run build` writes to `docs/`.
-- `docs/` IS committed — GitHub Pages serves from `main` / `/docs`.
-- When you change source, rebuild and commit `docs/` in the same commit so
-  the live site stays in sync with source.
+- `npm run dev` for local. `npm run build` validates data and writes `dist/`.
+- Build output is NOT committed (changed 2026-10-20; `docs/` used to be).
+  Every push to `main` runs `pages.yml`, which validates, builds and deploys.
+  A data error fails the deploy, so run `npm run validate` before pushing.
 - Data tooling has its own `scripts/package.json` (sharp, playwright) so the
   site build and CI stay light: `npm install --prefix scripts`. After adding
   images run `node scripts/optimize-images.mjs`; never ship a full-size original.
 - One-shot backfill scripts don't get committed; keep them in a scratch dir.
-- Vite copies everything in `public/` into `docs/` on build, so
-  `public/MARKET_TRENDS.md` → `docs/MARKET_TRENDS.md` is automatic; don't
-  hand-edit the `docs/` copy.
+- Vite copies everything in `public/` into the build, so `public/` is the only
+  copy of `MARKET_TRENDS.md`, the data, and the images.
 
 ## Scoring model
 

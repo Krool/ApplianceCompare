@@ -1,14 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Vite config — builds a static site to /docs so GitHub Pages can serve from /docs.
+// Vite config — builds a static site to dist/, which .github/workflows/pages.yml
+// uploads to GitHub Pages (dist/ is not committed).
 // `base: './'` makes all asset URLs relative, which works under any repo path
 // (<user>.github.io/<repo>/) without editing this file per-project.
 export default defineConfig({
   plugins: [react()],
   base: './',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
     emptyOutDir: true,
     sourcemap: false,
     // Keep everything inline-friendly for GH Pages; no code-splitting magic needed

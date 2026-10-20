@@ -30,7 +30,7 @@ npm run dev
 # open http://localhost:5173
 ```
 
-Production build (outputs to `docs/`):
+Production build (validates the data, then outputs to `dist/`):
 
 ```bash
 npm run build
@@ -59,7 +59,7 @@ src/
 public/
   data/               JSON database — served at /data/ (see public/data/README.md)
   MARKET_TRENDS.md    editorial doc linked from the buying guide
-docs/                 Vite build output — committed; GitHub Pages serves from here
+.github/workflows/    pages.yml builds + deploys on push to main; ci.yml builds PRs
 scripts/              data tooling: validate-data, optimize-images, download-image, gallery fetchers
                       (own package.json; `npm install --prefix scripts` for sharp/playwright)
 ```
@@ -99,22 +99,11 @@ A "review signal" is any of: a quality source (CR / Reviewed / Rtings / CNET / G
 
 ## Deployment
 
-GitHub Pages serves the built output from the `docs/` folder on `main`.
+GitHub Actions builds and deploys the site; the build output is not committed.
 
-1. Create a public GitHub repo (e.g. `<your-username>/appliance-compare`).
-2. From the repo root, build and push:
-   ```bash
-   npm run build                 # produces docs/
-   git init
-   git add .
-   git commit -m "Initial commit: Kitchen Appliance Compare appliance comparison site"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo>.git
-   git push -u origin main
-   ```
-3. In GitHub, go to **Settings → Pages**, set **Source** to "Deploy from a branch", pick `main` / `/docs`. Site goes live at `https://<your-username>.github.io/<repo>/` within a minute or two.
-4. After each change, re-run `npm run build` and commit the updated `docs/`.
-5. Optional: add a `public/CNAME` file with a custom domain if you own one — it will be copied into `docs/CNAME` at build.
+1. In GitHub, go to **Settings → Pages** and set **Source** to "GitHub Actions".
+2. Push to `main`. `.github/workflows/pages.yml` runs `npm ci`, `npm run build` (which validates the data first) and publishes `dist/`. A data validation error stops the deploy and the live site stays as it was.
+3. Optional: add a `public/CNAME` file with a custom domain if you own one; it is copied into the build.
 
 ## Contributing data
 

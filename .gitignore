@@ -25,9 +25,10 @@ __pycache__/
 .env.local
 .cache/
 
-# Build outputs — dist/ is Vite's default, we use docs/ for GH Pages
-# so docs/ IS committed. dist/ stays out if anyone uses it locally.
+# Build output. GitHub Actions (pages.yml) builds and deploys dist/; it is
+# never committed. docs/ was the old committed output; keep it out too.
 dist/
+docs/
 build/
 
 # Claude Code session state (user-local)
