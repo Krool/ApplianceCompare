@@ -1609,7 +1609,7 @@
       "id": "kitchenaid-krbr109ess",
       "brand": "kitchenaid",
       "model": "KRBR109ESS",
-      "name": "KitchenAid 19 cu ft Bottom-Freezer Counter-Depth",
+      "name": "KitchenAid 19 cu ft Bottom-Freezer Full-Depth",
       "style": "bottom_freezer",
       "depth": "counter",
       "width_in": 30,
@@ -1660,7 +1660,7 @@
       },
       "height_in": 67,
       "depth_with_handle_in": 33.375,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
           "local": "images/refrigerators/kitchenaid-krbr109ess.webp",
@@ -3645,8 +3645,10 @@
       "water_filter_cost_yr": 95,
       "height_in": 71.85,
       "depth_with_handle_in": 28.46,
-      "last_updated": "2026-05-14",
-      "price_as_of": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "retired": true,
+      "retired_reason": "Not a US-market model. Its only spec source is an EU energy-label fiche, and no US retailer or samsung.com/us lists it."
     },
     {
       "id": "fp-rs3684wruvk1",
@@ -4136,7 +4138,7 @@
       "id": "bosch-b24cb50ess",
       "brand": "bosch",
       "model": "B24CB50ESS",
-      "name": "Bosch 500 Series 24\" Integrated Column Fridge",
+      "name": "Bosch 500 Series 24\" Counter-Depth Bottom-Freezer",
       "style": "column",
       "depth": "built_in",
       "width_in": 24,

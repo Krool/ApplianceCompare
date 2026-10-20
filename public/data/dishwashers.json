@@ -3736,7 +3736,9 @@
         }
       ],
       "price_as_of": "2026-10-20",
-      "availability": "current"
+      "availability": "current",
+      "retired": true,
+      "retired_reason": "Duplicate of samsung-dw80cg5451sr. Samsung sells no DW80CG5451SS; retailer searches for it resolve to the DW80CG5451SR listing."
     },
     {
       "id": "whirlpool-wdt750sakv",

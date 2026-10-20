@@ -1,4 +1,4 @@
-// Generates public/og.png — the 1200x630 social-share card for Kitchen Appliance Compare.
+// Generates public/og.png â€” the 1200x630 social-share card for Kitchen Appliance Compare.
 // Uses sharp (already a dep) to rasterize an on-brand SVG. No browser needed.
 // Run: node scripts/make-og.mjs   (writes public/og.png; the next deploy picks it up)
 import sharp from 'sharp';
@@ -34,7 +34,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
   <line x1="90" y1="486" x2="1110" y2="486" stroke="${PAPER_DEEP}" stroke-width="2"/>
 
   <text x="90" y="540" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="${INK}">
-    ~200 fridges, dishwashers &amp; ranges, scored and ranked
+    500+ fridges, dishwashers &amp; ranges, scored and ranked
   </text>
   <text x="1110" y="540" text-anchor="end" font-family="Georgia, serif" font-size="30" fill="${ACCENT}">krool.github.io</text>
 </svg>`;

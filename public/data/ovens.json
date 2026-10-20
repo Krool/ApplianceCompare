@@ -494,7 +494,7 @@
     {
       "id": "wolf-ir36450",
       "brand": "wolf",
-      "model": "IR365TF",
+      "model": "SRT366",
       "name": "Wolf 36\" Sealed Burner Gas Rangetop",
       "type": "cooktop",
       "fuel": "gas",
@@ -519,7 +519,7 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it",
-          "specs": "https://www.subzero-wolf.com/wolf/cooktops-and-rangetops/gas-stovetop/36-inch-transitional-gas-cooktop-5-burners"
+          "specs": "https://www.abt.com/Wolf-36-Stainless-Steel-Gas-Rangetop-SRT366/p/62615.html"
         }
       },
       "pros": [
@@ -530,7 +530,7 @@
         "$6k+"
       ],
       "release_year": 2021,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "height_in": 4,
       "depth_in": 21,
       "price_as_of": "2026-05-05"
@@ -1451,8 +1451,8 @@
       "air_fry": false,
       "self_clean": "pyrolytic",
       "wifi": true,
-      "msrp": 4999,
-      "street_price": 4499,
+      "msrp": 9299,
+      "street_price": 9299,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -1461,7 +1461,9 @@
         "source_urls": {
           "manufacturer": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel",
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel"
+          "specs": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel",
+          "msrp": "https://www.mieleusa.com/product/11805560/30-inch-convection-oven-h-7780-bp-clean-touch-steel",
+          "price": "https://www.abt.com/resources/pages/search.php?keywords=H7780BP"
         },
         "endorsements": [
           {
@@ -1497,8 +1499,8 @@
       },
       "height_in": 28.625,
       "depth_in": 24.75,
-      "last_updated": "2026-05-14",
-      "price_as_of": "2026-05-14",
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
       "availability": "current"
     },
     {
@@ -1759,7 +1761,7 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.thermador.com/us/en/mkt-product/ovens/wall-ovens/POD301W"
+          "specs": "https://www.thermador.com/us/en/mkt-product/ovens/wall-ovens/PODS301W"
         }
       },
       "pros": [
@@ -1889,7 +1891,7 @@
       "id": "miele-cm6160",
       "brand": "miele",
       "model": "CM 6160 MilkPerfection",
-      "name": "Miele CM 6160 Built-in Coffee Maker",
+      "name": "Miele CM 6160 MilkPerfection Countertop Coffee Machine",
       "type": "specialty",
       "fuel": "electric",
       "style": "coffee_built_in",
@@ -1934,7 +1936,9 @@
       "depth_in": 16.87,
       "last_updated": "2026-10-20",
       "price_as_of": "2026-10-20",
-      "availability": "current"
+      "availability": "current",
+      "retired": true,
+      "retired_reason": "Countertop coffee machine, not a built-in appliance; outside the site's scope."
     },
     {
       "id": "bosch-net8669uc",
@@ -3186,7 +3190,7 @@
     {
       "id": "subzero-builtin-iw30",
       "brand": "wolf",
-      "model": "M Series IW-30",
+      "model": "CSO3050PM/S/P",
       "name": "Wolf M Series Convection Steam 30\" Wall Oven",
       "type": "wall_oven",
       "fuel": "electric",
@@ -3214,7 +3218,7 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/are-wolf-professional-ranges-worth-it",
-          "specs": "https://www.subzero-wolf.com/wolf/ovens/m-series/30-inch-m-series-professional-built-in-single-oven"
+          "specs": "https://www.abt.com/Wolf-M-Series-Professional-30-Stainless-Steel-Convection-Steam-Oven-CSO3050PMSP/p/181612.html"
         }
       },
       "pros": [
@@ -3232,7 +3236,7 @@
       },
       "height_in": 29,
       "depth_in": 24,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "price_as_of": "2026-05-14"
     },
     {
@@ -12181,7 +12185,7 @@
     },
     {
       "id": "lg-studio-lutd4919sn",
-      "brand": "lg-studio",
+      "brand": "lg",
       "model": "LUTD4919SN",
       "name": "LG Signature LUTD4919SN Dual Fuel Double Oven",
       "type": "range",
