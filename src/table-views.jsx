@@ -1,11 +1,13 @@
 // Table, Drawer, Compare bar/modal
 import { useEffect, useMemo, useRef, useState } from 'react';
 import {
-  fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
-  relClass, tierClass,
+  fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtCount,
+  relClass, tierClass, imageSrc, thumbSrc, isRetired, crScore, crBand,
   computeScore, getScoreBreakdown, getScoreConfidence, getSourceDisagreement,
-  getRatingSources, aggregateRetailerStars, totalRetailerReviewCount,
+  getRatingSources, getRetailerLinks, aggregateRetailerStars, totalRetailerReviewCount,
 } from './helpers.jsx';
+
+const fmtInches = (v) => v == null ? '—' : (Number.isInteger(v) ? v : v.toFixed(1)) + '"';
 
 // Product hero / thumbnail. Falls back to a brand-initial monogram when the
 // model has no image, or when the file fails to load (catches typo'd paths
@@ -21,7 +23,7 @@ function ProductImage({ model, brand, size = 'thumb' }) {
     return (
       <img
         className={className}
-        src={'./data/' + path}
+        src={size === 'hero' ? imageSrc(path) : thumbSrc(path)}
         alt={model.name + ' product photo'}
         loading="lazy"
         decoding="async"
@@ -112,7 +114,7 @@ function DrawerGallery({ model, brand }) {
             >
               <img
                 className="product-image product-image-hero"
-                src={'./data/' + current.local}
+                src={imageSrc(current.local)}
                 alt={model.name + ' product photo' + (current.view && current.view !== 'primary' ? ' — view ' + current.view : '')}
                 loading="lazy"
                 decoding="async"
@@ -143,7 +145,7 @@ function DrawerGallery({ model, brand }) {
                 className={"gallery-thumb" + (i === idx ? ' is-active' : '')}
                 onClick={() => setIdx(i)}
                 aria-label={"Show photo " + (i + 1) + ' of ' + gallery.length}>
-                <img src={'./data/' + g.local} alt="" loading="lazy" decoding="async" />
+                <img src={thumbSrc(g.local)} alt="" loading="lazy" decoding="async" />
               </button>
             ))}
           </div>
@@ -167,7 +169,7 @@ function DrawerGallery({ model, brand }) {
         >
           <img
             className="lightbox-image"
-            src={'./data/' + current.local}
+            src={imageSrc(current.local)}
             alt={model.name + ' product photo'}
             onClick={(e) => e.stopPropagation()}
           />
@@ -235,63 +237,82 @@ function useDismissableSurface(onClose) {
 function ScoreBar({ value, confidence, disagreement }) {
   if (value == null) return <span className="score-bar muted"><span className="num">—</span></span>;
   const tier = confidence?.tier;
-  const label = confidence
+  // The tier word is visible text (not a hover-only title) so touch users see it.
+  const detail = confidence
     ? (confidence.signals === 0
-        ? (tier === 'limited' ? 'spec only' : 'no sources')
-        : confidence.signals + ' src')
+        ? (tier === 'limited' ? 'spec sheet + brand data only' : 'no rating sources')
+        : `${confidence.signals} rating signal${confidence.signals === 1 ? '' : 's'}`)
     : null;
   return (
     <span className={"score-bar conf-" + (tier || 'unknown')}>
       <span className="num">{value}</span>
       <span className="bar"><div style={{width: value + '%'}} /></span>
-      {label && <span className="conf" title={`Confidence: ${tier}`}>{label}</span>}
+      {tier && <span className="conf" title={detail}>{tier}<span className="sr-only"> confidence, {detail}</span></span>}
       {disagreement?.contested && (
-        <span className="contested" title={`Reviewers disagree by ${Math.round(disagreement.spread)} points across ${disagreement.sourceCount} sources`}>⚠</span>
+        <span className="contested" title={`Reviewers disagree by ${Math.round(disagreement.spread)} points across ${disagreement.sourceCount} sources`}>
+          ⚠<span className="sr-only"> reviewers disagree</span>
+        </span>
       )}
     </span>
   );
 }
 
+// Sort accessors, shared by the table and the mobile sort menu.
+const SORT_KEYS = {
+  name: (m) => m.name,
+  price: (m) => m.street_price ?? m.msrp,
+  capacity: (m) => m.capacity_cf ?? m.oven_capacity_cf,
+  cr: (m) => crScore(m.ratings),
+  reliability: (m) => m.ratings?.yale_reliability_pct,
+  energy: (m) => m.energy_kwh_yr,
+  db: (m) => m.decibels ?? m.noise_db,
+};
+
 function ApplianceTable({ category, models, brandsById, weights, sort, setSort, selected, toggleCompare, onOpen, onClearFilters }) {
+  // Score, confidence and disagreement once per model per weight change, not
+  // once per comparator call plus once per row.
+  const derived = useMemo(() => {
+    const out = new Map();
+    for (const m of models) {
+      const b = brandsById[m.brand];
+      out.set(m.id, {
+        score: computeScore(m, b, weights),
+        confidence: getScoreConfidence(m, b),
+        disagreement: getSourceDisagreement(m),
+      });
+    }
+    return out;
+  }, [models, brandsById, weights]);
+
   const sorted = useMemo(() => {
-    const arr = [...models];
-    arr.sort((a, b) => {
-      const dir = sort.dir === 'asc' ? 1 : -1;
-      let av, bv;
-      if (sort.key === 'score') { av = computeScore(a, brandsById[a.brand], weights); bv = computeScore(b, brandsById[b.brand], weights); }
-      else if (sort.key === 'name') { av = a.name; bv = b.name; }
-      else if (sort.key === 'brand') { av = brandsById[a.brand]?.name || ''; bv = brandsById[b.brand]?.name || ''; }
-      else if (sort.key === 'price') { av = a.street_price ?? a.msrp; bv = b.street_price ?? b.msrp; }
-      else if (sort.key === 'capacity') { av = a.capacity_cf ?? a.oven_capacity_cf; bv = b.capacity_cf ?? b.oven_capacity_cf; }
-      else if (sort.key === 'cr') { av = a.ratings?.cr_overall; bv = b.ratings?.cr_overall; }
-      else if (sort.key === 'reliability') { av = a.ratings?.yale_reliability_pct; bv = b.ratings?.yale_reliability_pct; }
-      else if (sort.key === 'energy') { av = a.energy_kwh_yr; bv = b.energy_kwh_yr; }
-      else if (sort.key === 'db') { av = a.decibels ?? a.noise_db; bv = b.decibels ?? b.noise_db; }
+    const get = sort.key === 'score' ? (m) => derived.get(m.id).score
+      : sort.key === 'brand' ? (m) => brandsById[m.brand]?.name || ''
+      : SORT_KEYS[sort.key] || (() => null);
+    const dir = sort.dir === 'asc' ? 1 : -1;
+    return [...models].sort((a, b) => {
+      const av = get(a), bv = get(b);
       if (av == null && bv == null) return 0;
       if (av == null) return 1;
       if (bv == null) return -1;
       if (typeof av === 'string') return av.localeCompare(bv) * dir;
       return (av - bv) * dir;
     });
-    return arr;
-  }, [models, sort, weights, brandsById]);
+  }, [models, sort, derived, brandsById]);
 
-  const sortHead = (key, label, tip) => {
+  const atCompareLimit = selected.length >= 4;
+
+  // Sortable header: a real <button> inside the <th> so keyboard and screen
+  // reader users get native button semantics; aria-sort stays on the <th>.
+  const sortHead = (key, label, tip, className = '') => {
     const isSorted = sort.key === key;
     const ariaSort = isSorted ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none';
     const toggle = () => setSort({ key, dir: isSorted && sort.dir === 'desc' ? 'asc' : 'desc' });
     return (
-      <th className={isSorted ? 'sorted ' + sort.dir : ''}
-          scope="col"
-          aria-sort={ariaSort}
-          tabIndex={0}
-          role="columnheader"
-          aria-label={`${label}, sortable column`}
-          title={`Sort by ${label}`}
-          onClick={toggle}
-          onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } }}>
-        <span className="th-label">{label}</span>
-        {tip && <span className="th-tip" role="tooltip">{tip}</span>}
+      <th className={(isSorted ? 'sorted ' + sort.dir + ' ' : '') + className} scope="col" aria-sort={ariaSort}>
+        <button type="button" className="th-sort" onClick={toggle}>
+          <span className="th-label">{label}</span>
+          {tip && <span className="th-tip" role="tooltip">{tip}</span>}
+        </button>
       </th>
     );
   };
@@ -305,14 +326,14 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
   );
 
   const TIPS = {
-    score: 'Composite 0–100 weighted across quality, reliability, price, repairability, energy, and quietness. Adjust weights from the Tweaks panel. The small caption next to each score shows how many independent rating sources back it — "no sources" or "spec only" means the score is essentially a price/spec read.',
+    score: 'Composite 0–100 weighted across review quality, editorial picks, reliability, price, repairability, energy, and quietness. Change the weighting with "Rank by" above the table. The word under each score is its confidence: thin, limited, solid, or strong, depending on how many independent rating sources back it.',
     model: 'Manufacturer name and SKU. Click any row for full specs.',
     brand: 'Manufacturer.',
     capacity: 'Total interior volume in cubic feet (fresh food + freezer).',
     db: 'Decibels at the normal cycle. Lower is quieter — under 44 dB is luxury territory.',
     typeFuel: 'Range / cooktop / wall oven, plus fuel type.',
     price: 'Typical street price. MSRP shown below in light grey if higher.',
-    cr: 'Consumer Reports overall test score, 0–100. Blank when CR has not tested or the score is paywalled.',
+    cr: 'Consumer Reports overall test score, shown as a band (Excellent 80+, Very good 70+, Good 60+, Fair 45+, Poor). Blank when CR has not tested the model, or when we have not yet linked the score to CR\'s page for that model.',
     yale: 'Yale Appliance first-year service-call rate. Lower is better. Falls back to brand-level rate when model-specific data is missing.',
     energy: 'Annual electricity use per the federal Energy Guide label. Lower is better.',
     tier: 'Brand price/positioning tier — budget, mainstream, premium, or ultra-premium.',
@@ -332,10 +353,10 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
             {category === 'dishwashers' && sortHead('db', 'Quietness', TIPS.db)}
             {category === 'ranges_ovens_cooktops' && plainHead('Type / Fuel', TIPS.typeFuel)}
             {sortHead('price', 'Price', TIPS.price)}
-            {sortHead('cr', 'CR', TIPS.cr)}
-            {sortHead('reliability', 'Yale Svc%', TIPS.yale)}
-            {(category !== 'ranges_ovens_cooktops') && sortHead('energy', 'Energy', TIPS.energy)}
-            {plainHead('Tier', TIPS.tier)}
+            {sortHead('cr', 'CR', TIPS.cr, 'col-opt')}
+            {sortHead('reliability', 'Yale Svc%', TIPS.yale, 'col-opt')}
+            {(category !== 'ranges_ovens_cooktops') && sortHead('energy', 'Energy', TIPS.energy, 'col-opt')}
+            {plainHead('Tier', TIPS.tier, { className: 'col-opt' })}
           </tr>
         </thead>
         <tbody>
@@ -351,42 +372,50 @@ function ApplianceTable({ category, models, brandsById, weights, sort, setSort, 
           )}
           {sorted.map(m => {
             const b = brandsById[m.brand];
-            const score = computeScore(m, b, weights);
-            const confidence = getScoreConfidence(m, b);
-            const disagreement = getSourceDisagreement(m);
+            const { score, confidence, disagreement } = derived.get(m.id);
             const isSel = selected.includes(m.id);
+            const compareBlocked = !isSel && atCompareLimit;
+            const retired = isRetired(m);
             return (
-              <tr key={m.id} className={isSel ? 'selected' : ''}
-                  tabIndex={0}
-                  role="button"
-                  aria-label={`Open details for ${m.name}`}
-                  onClick={() => onOpen(m)}
-                  onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpen(m); } }}>
+              // Mouse users can click anywhere on the row; keyboard and screen
+              // reader users get the model-name button (a row can't be a button
+              // without hiding its cells and nesting the checkbox).
+              <tr key={m.id} className={(isSel ? 'selected' : '') + (retired ? ' is-retired' : '')}
+                  onClick={() => onOpen(m)}>
                 <td className="compare-cell" onClick={e => e.stopPropagation()}>
-                  <input type="checkbox" checked={isSel} onChange={() => toggleCompare(m.id)} aria-label={`Add ${m.name} to comparison`} />
+                  <input type="checkbox" checked={isSel} disabled={compareBlocked}
+                    onChange={() => toggleCompare(m.id)}
+                    title={compareBlocked ? 'Comparison holds 4 models. Remove one to add another.' : undefined}
+                    aria-label={`Add ${m.name} to comparison`} />
                 </td>
                 <td><ScoreBar value={score} confidence={confidence} disagreement={disagreement} /></td>
                 <td>
                   <div className="cell-name-row">
                     <ProductImage model={m} brand={b} size="thumb" />
                     <div className="cell-name">
-                      <span className="name">{m.name}</span>
-                      <span className="sub">{m.model}</span>
+                      <button type="button" className="name name-btn" onClick={e => { e.stopPropagation(); onOpen(m); }}>
+                        {m.name}
+                      </button>
+                      <span className="sub">
+                        {m.model}
+                        {retired && <span className="retired-tag">Retired</span>}
+                        {!retired && m.availability === 'discontinued' && <span className="retired-tag" title="The manufacturer has stopped making it; remaining stock may still be on sale.">Discontinued</span>}
+                      </span>
                     </div>
                   </div>
                 </td>
                 <td className="cell-brand">{b?.name || m.brand}</td>
                 {category === 'refrigerators' && <td>{fmtCapacity(m.capacity_cf)}</td>}
                 {category === 'dishwashers' && <td>{fmtDb(m.decibels)}</td>}
-                {category === 'ranges_ovens_cooktops' && <td style={{textTransform: 'capitalize', fontSize: 12, color: 'var(--ink-2)'}}>{(m.type || '').replace('_',' ')}<br/><span style={{color: 'var(--ink-3)'}}>{m.fuel}</span></td>}
+                {category === 'ranges_ovens_cooktops' && <td style={{textTransform: 'capitalize', fontSize: 12, color: 'var(--ink-2)'}}>{(m.type || '').replace('_',' ')}<br/><span style={{color: 'var(--ink-3)'}}>{(m.fuel || '').replace('_', ' ')}</span></td>}
                 <td className="cell-price">
                   {fmtPrice(m.street_price ?? m.msrp)}
                   {m.street_price && m.msrp && m.msrp > m.street_price && <span className="msrp">{fmtPrice(m.msrp)}</span>}
                 </td>
-                <td>{m.ratings?.cr_overall ?? '—'}</td>
-                <td>{fmtPct(m.ratings?.yale_reliability_pct ?? b?.service_rate_overall)}</td>
-                {(category !== 'ranges_ovens_cooktops') && <td>{fmtKwh(m.energy_kwh_yr)}</td>}
-                <td>{b?.tier
+                <td className="col-opt">{crBand(crScore(m.ratings)) ?? '—'}</td>
+                <td className="col-opt">{fmtPct(m.ratings?.yale_reliability_pct ?? b?.service_rate_overall)}</td>
+                {(category !== 'ranges_ovens_cooktops') && <td className="col-opt">{fmtKwh(m.energy_kwh_yr)}</td>}
+                <td className="col-opt">{b?.tier
                   ? <span className={"pill " + tierClass(b.tier)}>{b.tier.replace('-', ' ')}</span>
                   : <span className="dim">—</span>}</td>
               </tr>
@@ -406,8 +435,10 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
   const disagreement = getSourceDisagreement(model);
   const yaleRate = model.ratings?.yale_reliability_pct ?? brand?.service_rate_overall;
   const reviewed = model.ratings?.reviewed;
+  const cr = crScore(model.ratings);
+  const retailerLinks = getRetailerLinks(model);
   const confSubtitle = (() => {
-    if (!score) return 'no data';
+    if (score == null) return 'no data';
     if (confidence.signals === 0) {
       const fallbacks = [];
       if (confidence.hasReliabilityFallback) fallbacks.push('brand reliability');
@@ -428,9 +459,11 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
   if (model.capacity_cf) specs.push(['Capacity', fmtCapacity(model.capacity_cf)]);
   if (model.oven_capacity_cf) specs.push(['Oven capacity', fmtCapacity(model.oven_capacity_cf)]);
   if (model.width_in) specs.push(['Width', model.width_in + '"']);
-  if (typeof model.height_in === 'number') specs.push(['Height', (Number.isInteger(model.height_in) ? model.height_in : model.height_in.toFixed(1)) + '"']);
+  if (typeof model.height_in === 'number') specs.push(['Height', fmtInches(model.height_in)]);
+  if (typeof model.depth_in === 'number') specs.push(['Depth (body)', fmtInches(model.depth_in)]);
+  if (typeof model.depth_with_handle_in === 'number') specs.push(['Depth (with handle)', fmtInches(model.depth_with_handle_in)]);
   if (model.style) specs.push(['Style', String(model.style).replace(/_/g, ' ')]);
-  if (model.depth) specs.push(['Depth', String(model.depth).replace(/_/g, ' ')]);
+  if (model.depth) specs.push(['Depth class', String(model.depth).replace(/_/g, ' ')]);
   if (model.fuel) specs.push(['Fuel', model.fuel.replace('_', ' ')]);
   if (model.burners) specs.push(['Burners', model.burners]);
   if (model.max_burner_btu) specs.push(['Max burner', model.max_burner_btu.toLocaleString() + ' BTU']);
@@ -454,6 +487,8 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
   if (model.panel_ready) specs.push(['Panel-ready', 'Yes']);
   if (model.finishes) specs.push(['Finishes', model.finishes.join(', ')]);
   if (model.release_year) specs.push(['Released', model.release_year]);
+  if (model.warranty_parts_yr != null) specs.push(['Warranty (parts)', model.warranty_parts_yr + ' yr']);
+  if (model.warranty_labor_yr != null) specs.push(['Warranty (labor)', model.warranty_labor_yr + ' yr']);
 
   return (
     <>
@@ -470,16 +505,22 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
               {model.ratings?.cr_reliability && model.ratings.cr_reliability !== 'unrated' && (
                 <span className={"pill " + relClass(model.ratings.cr_reliability)}>{model.ratings.cr_reliability.replace('-', ' ')}</span>
               )}
+              {model.availability === 'discontinued' && <span className="pill rel-fair" title="The manufacturer has stopped making it; remaining stock may still be on sale.">Discontinued</span>}
               {model.energy_star && <span className="pill rel-very-good">Energy Star</span>}
               {model.wifi && <span className="pill rel-good">Wi-Fi</span>}
               {model.panel_ready && <span className="pill rel-good">Panel-ready</span>}
               {model.garage_ready && <span className="pill rel-good" title="Manufacturer-rated for garage temperature range">Garage-rated</span>}
             </div>
           </div>
-          <button className="drawer-close" onClick={onClose}>✕</button>
+          <button className="drawer-close" onClick={onClose} aria-label="Close details">✕</button>
         </div>
 
         <div className="drawer-body">
+          {isRetired(model) && (
+            <div className="retired-note" role="note">
+              <strong>Retired from active comparison.</strong> {model.retired_reason}
+            </div>
+          )}
           <DrawerGallery model={model} brand={brand} />
 
           <div className="drawer-section">
@@ -500,14 +541,20 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
               </div>
               <div className="score-card">
                 <div className="lbl">Consumer Reports</div>
-                <div className={"val" + (model.ratings?.cr_overall == null ? " muted" : "")}>{model.ratings?.cr_overall ?? '—'}</div>
-                <div className="src">overall test score</div>
+                <div className={"val val-word" + (cr == null ? " muted" : "")}>{crBand(cr) ?? '—'}</div>
+                <div className="src">
+                  {cr != null ? 'overall test score band'
+                    : model.ratings?.cr_overall != null ? 'score not yet linked to CR\'s model page'
+                    : 'not tested by CR'}
+                </div>
               </div>
-              <div className="score-card">
-                <div className="lbl">Reviewed.com</div>
-                <div className={"val" + (reviewed == null ? " muted" : "")}>{reviewed != null ? reviewed.toFixed(1) : '—'}</div>
-                <div className="src">out of 10</div>
-              </div>
+              {reviewed != null && (
+                <div className="score-card">
+                  <div className="lbl">Reviewed.com</div>
+                  <div className="val">{reviewed.toFixed(1)}</div>
+                  <div className="src">out of 10</div>
+                </div>
+              )}
               {(() => {
                 const retailerAvg = aggregateRetailerStars(model.ratings);
                 const retailerCount = totalRetailerReviewCount(model.ratings);
@@ -607,9 +654,22 @@ function Drawer({ model, brand, weights, onClose, onAddCompare, isCompared }) {
             <div style={{display: 'flex', gap: 18, alignItems: 'baseline'}}>
               <div style={{fontFamily: 'var(--serif)', fontSize: 32, fontWeight: 500, color: 'var(--ink)'}}>{fmtPrice(model.street_price ?? model.msrp)}</div>
               {model.msrp && model.street_price && model.msrp > model.street_price && (
-                <div style={{color: 'var(--ink-3)'}}>MSRP {fmtPrice(model.msrp)} <span style={{color: 'var(--good)', fontWeight: 600}}>· save ${model.msrp - model.street_price}</span></div>
+                <div style={{color: 'var(--ink-3)'}}>MSRP {fmtPrice(model.msrp)} <span style={{color: 'var(--good)', fontWeight: 600}}>· save {fmtPrice(model.msrp - model.street_price)}</span></div>
               )}
             </div>
+            <div className="price-meta">
+              {model.price_as_of
+                ? <>Price last checked {model.price_as_of}. Appliance prices move often; confirm at the retailer.</>
+                : <>Price date not recorded. Confirm at the retailer.</>}
+            </div>
+            {retailerLinks.length > 0 && (
+              <div className="retailer-links">
+                <span>Check price at</span>
+                {retailerLinks.map(l => (
+                  <a key={l.label} href={l.url} target="_blank" rel="noopener noreferrer">{l.label} ↗</a>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className="drawer-section">
@@ -702,8 +762,13 @@ function CompareBar({ ids, models, brandsById, onRemove, onClear, onOpen }) {
 
 function CompareModal({ ids, models, brandsById, weights, onClose }) {
   const surfaceRef = useDismissableSurface(onClose);
+  const [diffOnly, setDiffOnly] = useState(false);
+  const [copied, setCopied] = useState(false);
   if (!ids.length) return null;
   const items = ids.map(id => models.find(m => m.id === id)).filter(Boolean);
+  const copyLink = () => {
+    navigator.clipboard?.writeText(window.location.href).then(() => setCopied(true), () => {});
+  };
 
   // Rows: dynamic based on what's present
   const allKeys = new Set();
@@ -716,7 +781,7 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
     { label: 'Confidence', get: m => getScoreConfidence(m, brandsById[m.brand]).tier, fmt: v => v || '—' },
     { label: 'Street price', get: m => m.street_price ?? m.msrp, best: 'low', fmt: fmtPrice },
     { label: 'MSRP', get: m => m.msrp, fmt: fmtPrice },
-    { label: 'CR overall', get: m => m.ratings?.cr_overall, best: 'high', fmt: v => v ?? '—' },
+    { label: 'CR test score', get: m => crScore(m.ratings), best: 'high', fmt: v => crBand(v) ?? '—' },
     { label: 'CR reliability', get: m => m.ratings?.cr_reliability },
     { label: 'Yale service %', get: m => m.ratings?.yale_reliability_pct ?? brandsById[m.brand]?.service_rate_overall, best: 'low', fmt: fmtPct },
     { label: 'Wirecutter', get: m => m.ratings?.wirecutter, condFn: m => m.ratings?.wirecutter != null },
@@ -728,7 +793,8 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
     { label: 'Capacity', get: m => m.capacity_cf, best: 'high', fmt: fmtCapacity, condIf: 'capacity_cf' },
     { label: 'Oven capacity', get: m => m.oven_capacity_cf, best: 'high', fmt: fmtCapacity, condIf: 'oven_capacity_cf' },
     { label: 'Width', get: m => m.width_in, fmt: v => v ? v + '"' : '—' },
-    { label: 'Height', get: m => m.height_in, fmt: v => v != null ? (Number.isInteger(v) ? v : v.toFixed(1)) + '"' : '—', condIf: 'height_in' },
+    { label: 'Height', get: m => m.height_in, fmt: fmtInches, condIf: 'height_in' },
+    { label: 'Depth (with handle)', get: m => m.depth_with_handle_in ?? m.depth_in, fmt: fmtInches, condIf: 'depth_in' },
     { label: 'Style / Type', get: m => (m.style || m.type || '—').replace(/_/g, ' ') },
     { label: 'Fuel', get: m => m.fuel, condIf: 'fuel' },
     { label: 'Decibels', get: m => m.decibels ?? m.noise_db, best: 'low', fmt: fmtDb },
@@ -745,6 +811,10 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
     if (r.condFn) return items.some(r.condFn);
     if (r.condIf) return items.some(m => m[r.condIf] != null);
     return true;
+  }).filter(r => {
+    if (!diffOnly) return true;
+    const shown = items.map(m => { const v = r.get(m); return r.fmt ? String(r.fmt(v)) : String(v ?? '—'); });
+    return new Set(shown).size > 1;
   });
 
   return (
@@ -752,7 +822,15 @@ function CompareModal({ ids, models, brandsById, weights, onClose }) {
       <div className="compare-modal" ref={surfaceRef} role="dialog" aria-modal="true" aria-label="Side-by-side comparison" onClick={e => e.stopPropagation()}>
         <div className="compare-modal-header">
           <h2>Side-by-side comparison</h2>
-          <button className="drawer-close" onClick={onClose}>✕</button>
+          <div className="compare-actions">
+            <label className="compare-diff">
+              <input type="checkbox" checked={diffOnly} onChange={e => setDiffOnly(e.target.checked)} />
+              Differences only
+            </label>
+            <button type="button" className="compare-action" onClick={copyLink}>{copied ? 'Link copied' : 'Copy link'}</button>
+            <button type="button" className="compare-action" onClick={() => window.print()}>Print</button>
+          </div>
+          <button className="drawer-close" onClick={onClose} aria-label="Close comparison">✕</button>
         </div>
         <div style={{overflowX: 'auto'}}>
           <table className="compare-table">

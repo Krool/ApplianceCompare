@@ -24,6 +24,32 @@ const tierClass = (t) => "tier-" + (t || "mainstream").replace(/[ _]/g, "-");
 // or untrusted source. Returns null for anything else so callers can fall back.
 const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//i.test(u.trim()) ? u : null);
 
+// Image variants. scripts/optimize-images.mjs writes every image as a <=1200px
+// webp plus a <=240px `.thumb.webp` sibling; small renders use the thumb.
+const imageSrc = (local) => './data/' + local;
+const thumbSrc = (local) => './data/' + (/\.webp$/.test(local) ? local.replace(/\.webp$/, '.thumb.webp') : local);
+
+const isRetired = (m) => m?.retired === true;
+
+// A CR score only counts when its source link is CR's page for that model
+// (current /m123456/ URLs or legacy /products/...-123456/ URLs). A link to a
+// category buying guide shows CR covers the category, not where the number
+// came from, so per the no-source-no-number rule the score is held back from
+// the composite and the UI until a model page is found.
+const CR_MODEL_URL = /consumerreports\.org\/.*(\/m\d+\/?$|-\d{5,}\/(overview\/?)?$|-\d{5,}$)/i;
+const hasCrModelSource = (r) => CR_MODEL_URL.test(r?.source_urls?.cr || '');
+const crScore = (r) => (r?.cr_overall != null && hasCrModelSource(r) ? r.cr_overall : null);
+
+// CR's 0-100 numbers are proprietary; the UI shows a band, never the number.
+function crBand(score) {
+  if (score == null) return null;
+  if (score >= 80) return 'Excellent';
+  if (score >= 70) return 'Very good';
+  if (score >= 60) return 'Good';
+  if (score >= 45) return 'Fair';
+  return 'Poor';
+}
+
 // Mean of available (non-null) numbers; null if none
 function meanOfAvail(vals) {
   const xs = vals.filter(v => v != null && !Number.isNaN(v));
@@ -52,6 +78,38 @@ function totalRetailerReviewCount(ratings) {
   ].reduce((s, c) => s + (c || 0), 0);
 }
 
+// Every numeric quality source, normalized to 0-100. Single definition shared
+// by the composite, the confidence tier and the disagreement check (these used
+// to keep three copies and had drifted). Non-numeric values (verdict strings
+// such as a Good Housekeeping "top tested") are skipped here.
+const QUALITY_SOURCES = [
+  { name: 'Consumer Reports', get: r => crScore(r) },
+  { name: 'Reviewed',         get: r => r.reviewed,          scale: 10 },
+  { name: 'Rtings',           get: r => r.rtings,            scale: 10 },
+  { name: 'CNET',             get: r => r.cnet,              scale: 10 },
+  { name: 'Good Housekeeping', get: r => r.good_housekeeping, scale: 10 },
+  { name: "Tom's Guide",      get: r => r.toms_guide,        scale: 20 },
+  { name: 'Retailer stars',   get: r => aggregateRetailerStars(r), scale: 20 },
+];
+function qualityValues(r) {
+  return QUALITY_SOURCES
+    .map(s => { const v = s.get(r); return typeof v === 'number' && !Number.isNaN(v) ? v * (s.scale || 1) : null; })
+    .filter(v => v != null);
+}
+
+// Distinct outlets behind a model's editorial endorsements. Five roundups
+// from one outlet are one opinion, so the axis counts outlets, not entries.
+function endorsementOutlets(r) {
+  const out = new Set();
+  for (const e of Array.isArray(r.endorsements) ? r.endorsements : []) {
+    let key = (e.channel || e.source || '').trim().toLowerCase();
+    if (!key && e.url) { try { key = new URL(e.url).hostname.replace(/^www\./, ''); } catch {} }
+    if (key) out.add(key);
+  }
+  if (r.wirecutter != null) out.add('wirecutter');
+  return out;
+}
+
 // Per-axis sub-scores that feed the composite. Returns one record per axis,
 // with the 0-100 sub-score (or null if missing) and a one-line input summary
 // suitable for the UI breakdown. computeScore is built directly on top of this
@@ -60,17 +118,8 @@ function getScoreBreakdown(item, brand) {
   const r = item.ratings || {};
 
   // --- Quality (all normalized to 0–100) ---
-  const retailerAvg = aggregateRetailerStars(r);
-  const qualitySources = [
-    r.cr_overall,
-    r.reviewed != null ? r.reviewed * 10 : null,
-    r.rtings != null ? r.rtings * 10 : null,
-    r.cnet != null ? r.cnet * 10 : null,
-    typeof r.good_housekeeping === 'number' ? r.good_housekeeping * 10 : null,
-    typeof r.toms_guide === 'number' ? r.toms_guide * 20 : null,
-    retailerAvg != null ? retailerAvg * 20 : null,
-  ];
-  const qualityCount = qualitySources.filter(v => v != null && !Number.isNaN(v)).length;
+  const qualitySources = qualityValues(r);
+  const qualityCount = qualitySources.length;
   const qualityScore = meanOfAvail(qualitySources);
   const qualityWhy = qualityCount === 0
     ? 'no review sources'
@@ -108,18 +157,17 @@ function getScoreBreakdown(item, brand) {
   const quietWhy = db == null ? 'n/a for category' : `${db} dB`;
 
   // --- Endorsements (qualitative editorial coverage) ---
-  // Counts entries in r.endorsements plus a Wirecutter pick. We deliberately
-  // don't count r.reviewed_status because in our data it's mirrored as a
-  // Reviewed entry inside the endorsements array — counting both double-dips.
+  // Counts distinct outlets (endorsements array + a Wirecutter pick). We
+  // deliberately don't count r.reviewed_status because in our data it's
+  // mirrored as a Reviewed entry inside the endorsements array.
   // Curve: 0 → 0, 1 → 50, 2 → 75, 3 → 87.5, 4 → 93.75, 5+ → ~100. Zero scores
   // zero (not null) so the lack of editorial coverage is a penalty — the goal
-  // of this axis is to surface models reviewers consistently endorse.
-  const endorsementCount = (Array.isArray(r.endorsements) ? r.endorsements.length : 0)
-    + (r.wirecutter != null ? 1 : 0);
+  // of this axis is to surface models several outlets endorse.
+  const endorsementCount = endorsementOutlets(r).size;
   const endorsementScore = 100 * (1 - Math.pow(0.5, endorsementCount));
   const endorsementWhy = endorsementCount === 0
     ? 'no editorial picks'
-    : `${endorsementCount} editorial pick${endorsementCount === 1 ? '' : 's'}`;
+    : `picked by ${endorsementCount} outlet${endorsementCount === 1 ? '' : 's'}`;
 
   return [
     { key: 'quality',       label: 'Quality',       value: qualityScore,     why: qualityWhy },
@@ -164,7 +212,7 @@ function getScoreConfidence(item, brand) {
   const rr = r.retailer_ratings || {};
 
   let qualitySources = 0;
-  if (r.cr_overall != null) qualitySources++;
+  if (crScore(r) != null) qualitySources++;
   // Reviewed contributes one signal whether it's a numeric score or an
   // editorial pick label ("Best Overall 2026"); avoid double-counting when both.
   if (r.reviewed != null || r.reviewed_status != null) qualitySources++;
@@ -183,10 +231,13 @@ function getScoreConfidence(item, brand) {
   const hasRepairabilityDirect = r.repairability_score != null;
   const hasRepairabilityFallback = !hasRepairabilityDirect && brand?.repairability_score != null;
   const hasEditorialPick = r.wirecutter != null;
-  // Endorsements (YouTube, Reddit, etc.) — qualitative only, never a number.
-  // Presence of one or more counts as a single signal regardless of count, so
-  // ten YT mentions don't outweigh one Yale lab test.
-  const hasEndorsements = Array.isArray(r.endorsements) && r.endorsements.length > 0;
+  // Endorsements — qualitative only, never a number. Presence counts as a
+  // single signal regardless of count, and outlets already counted above
+  // (Reviewed via reviewed_status, Wirecutter via its pick) don't count again.
+  const outlets = endorsementOutlets(r);
+  if (r.reviewed != null || r.reviewed_status != null) outlets.delete('reviewed');
+  outlets.delete('wirecutter');
+  const hasEndorsements = outlets.size > 0;
 
   const signals = qualitySources
     + (hasReliabilityDirect ? 1 : 0)
@@ -221,16 +272,7 @@ function getScoreConfidence(item, brand) {
 //   - contested: spread > 15 with 2+ sources — a meaningful editorial dispute
 //   - sourceCount: number of populated quality sources
 function getSourceDisagreement(item) {
-  const r = item.ratings || {};
-  const retailerAvg = aggregateRetailerStars(r);
-  const normalized = [
-    r.cr_overall,
-    r.reviewed != null ? r.reviewed * 10 : null,
-    r.rtings != null ? r.rtings * 10 : null,
-    r.cnet != null ? r.cnet * 10 : null,
-    typeof r.good_housekeeping === 'number' ? r.good_housekeeping * 10 : null,
-    retailerAvg != null ? retailerAvg * 20 : null,
-  ].filter(v => v != null && !Number.isNaN(v));
+  const normalized = qualityValues(item.ratings || {});
 
   if (normalized.length < 2) {
     return { spread: null, contested: false, sourceCount: normalized.length };
@@ -251,12 +293,10 @@ function getRatingSources(item) {
   const push = (obj) => out.push(obj);
 
   // CR scores are proprietary; we use them as input to our composite but do not
-  // republish the raw 0-100 number in the UI. Show only a status pill that
-  // reflects the recommendation tier with attribution + link to CR for readers
-  // who subscribe.
-  if (r.cr_overall != null) {
-    const status = r.cr_overall >= 75 ? 'Recommended' : r.cr_overall >= 50 ? 'Tested' : 'Less dependable';
-    push({ name: "Consumer Reports", status, url: safeUrl(r.source_urls?.cr) });
+  // republish the raw 0-100 number in the UI. Show a coarse band with
+  // attribution + link to CR for readers who subscribe.
+  if (crScore(r) != null) {
+    push({ name: "Consumer Reports", status: crBand(crScore(r)) + ' (test score band)', url: safeUrl(r.source_urls?.cr) });
   }
   if (r.cr_reliability && r.cr_reliability !== 'unrated') push({ name: "CR predicted reliability", status: r.cr_reliability, url: safeUrl(r.source_urls?.cr) });
   if (r.wirecutter != null) push({ name: "Wirecutter", status: r.wirecutter, url: safeUrl(r.source_urls?.wirecutter) });
@@ -313,14 +353,23 @@ function getRatingSources(item) {
   return out;
 }
 
-// Get full data for an item
-function enrichModel(model, brandsById) {
-  return { ...model, _brand: brandsById[model.brand] };
+// Retailer product pages we hold a link for, as "check price" destinations.
+const RETAILER_LABELS = { home_depot: 'Home Depot', lowes: "Lowe's", best_buy: 'Best Buy', aj_madison: 'AJ Madison' };
+function getRetailerLinks(item) {
+  const rr = item.ratings?.retailer_ratings || {};
+  const su = item.ratings?.source_urls || {};
+  return Object.entries(RETAILER_LABELS)
+    .map(([k, label]) => ({ label, url: safeUrl(rr[k]?.url || su[k]) }))
+    .filter(l => l.url);
 }
+
+// Model-number search that ignores spacing/punctuation: "shp78 cm5n" finds SHP78CM5N.
+const searchKey = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 
 export {
   fmtPrice, fmtCapacity, fmtKwh, fmtDb, fmtPct, fmtStars, fmtCount,
-  relClass, tierClass, safeUrl,
-  meanOfAvail, aggregateRetailerStars, totalRetailerReviewCount,
-  computeScore, getScoreBreakdown, getScoreConfidence, getSourceDisagreement, getRatingSources, enrichModel,
+  relClass, tierClass, imageSrc, thumbSrc, isRetired, crScore, crBand, hasCrModelSource,
+  aggregateRetailerStars, totalRetailerReviewCount,
+  computeScore, getScoreBreakdown, getScoreConfidence, getSourceDisagreement, getRatingSources,
+  getRetailerLinks, searchKey,
 };

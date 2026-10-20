@@ -22,6 +22,7 @@ Every file here is a seed database consumed by the site at runtime via `fetch()`
   "name": "Bosch 800 Series SHP78CM5N Panel-Ready",  // display name
   "msrp": 1599,                         // USD, no cents
   "street_price": 1299,                 // USD typical transaction price
+  "price_as_of": "2026-10-20",          // date the price was last checked (shown in the UI)
   "wifi": true,
   "release_year": 2023,
   "ratings": {
@@ -69,6 +70,16 @@ node scripts/download-image.mjs <category> <model-id> <image-url> [source]
 The script downloads the file, validates that the response is an `image/*`, places it on disk, and patches the model's `image` field plus `_meta.last_updated`. Source-attribution is preserved in `image.source_url` for the same audit trail used by ratings.
 
 Best Buy's `pisces.bbystatic.com` CDN (URL pattern `…/products/{4-digit prefix}/{SKU}_sd.jpg`) is the most consistent free source for mainstream brands; manufacturer media kits are preferred for ultra-premium / niche models that Best Buy doesn't carry. When neither path produces a usable image, omit the field — the UI renders a clean placeholder rather than fabricated artwork, matching the no-fake-data rule for ratings.
+
+After adding or re-fetching any image, run `node scripts/optimize-images.mjs` (needs `npm install --prefix scripts` once). It re-encodes every referenced image to a <=1200px `.webp` plus a <=240px `.thumb.webp`, repoints `local`, and lists the now-unreferenced originals in `scripts/.optimize-orphans.txt` for a reviewed `git rm`. The table, compare view and gallery strip load the thumb; the drawer and lightbox load the full file. `images` (array of the same shape plus `view`) holds the drawer gallery; `image` is the primary.
+
+### Source and freshness rules (enforced by `npm run validate`)
+
+- Each rating needs its own link: `cr_overall` -> `source_urls.cr` (consumerreports.org), `reviewed` -> `reviewed`/`reviewed_individual`, `rtings`, `cnet`, `toms_guide`, `yale_reliability_pct` -> `yale`/`yale_reliability` (yaleappliance.com), `repairability_score` -> `repairability`, `wirecutter` -> `wirecutter` (nytimes.com). Missing or off-domain is a build error. Retailer stars and endorsements need a valid `url`.
+- `source_urls.cr` must be CR's page for the model (`.../m123456/` or legacy `.../<model>-123456/`). A CR category or buying-guide link is reported as a warning and the site hides that CR score until a model page is linked. CR's product sitemaps (`consumerreports.org/sitemaps/products.xml`) list every model page.
+- `price_as_of` (`YYYY-MM-DD`) is the date the price was last checked; the drawer shows it. Cite refreshed prices in `source_urls.price` (street) and `source_urls.msrp`. `last_updated` is the record-edit date and is not shown as a price date.
+- `availability: "discontinued"` only when a manufacturer or retailer page says so; the UI badges it. `retired: true` + `retired_reason` hides a model from the list but keeps its deep link working.
+- Numeric fields are range-checked (scores, dB, kWh, prices, dimensions), and brand + model number must be unique per file.
 
 ### Aspirational ratings fields (schema-supported, not yet populated)
 

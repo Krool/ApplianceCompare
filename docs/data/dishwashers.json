@@ -8,7 +8,7 @@
       "Reviewed 2026",
       "Wirecutter"
     ],
-    "last_updated": "2026-05-14",
+    "last_updated": "2026-10-20",
     "spec_backfill_2026_05": "Round 1 spec backfill 2026-05-05 — tub / decibels / place_settings / 3rd rack / wash_cycles / energy / wifi / msrp verified from manufacturer spec sheets and retailer listings. Each backfilled model gets a ratings.source_urls.specs entry citing the source. ~7 records updated this round.",
     "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls.",
     "endorsements_pass_2026_05": "Endorsements arrays added 2026-05-05 to 16 top-tier models — Reviewed.com best-of, Yale Appliance, and individual-review citations.",
@@ -45,7 +45,9 @@
     "batch_round51_reviewed6_dw_2026_05": "Round 51: 5 more Reviewed category endorsements.",
     "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
     "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 3 models.",
-    "image_cleanup_2026_05_14": "Removed 6 wrong/misleading images (brand logos, water-filter accessory shots, completely-different-product photos). Punch list: .image-audit/punch-list.json."
+    "image_cleanup_2026_05_14": "Removed 6 wrong/misleading images (brand logos, water-filter accessory shots, completely-different-product photos). Punch list: .image-audit/punch-list.json.",
+    "cr_source_pass_2026_10": "CR source pass 2026-10-20: cr_overall scores that cited only a CR category buying guide were re-linked to the model's own CR page, matched via CR's product sitemap and confirmed by page title. Scores still without a model page are hidden by the site. price_as_of added (copied from the prior last_updated) so record edits no longer look like price checks.",
+    "price_pass_2026_10": "Price pass 2026-10-20: street prices re-checked on retailer/manufacturer pages (Abt, PC Richard, manufacturer stores); each refreshed price cites ratings.source_urls.price (and .msrp) and sets price_as_of. availability=discontinued only where a page said so. Home Depot, Lowe's, Best Buy and AJ Madison block automated checks, so models sold mainly there kept their May 2026 price."
   },
   "models": [
     {
@@ -63,8 +65,8 @@
       "energy_star": true,
       "wifi": true,
       "panel_ready": true,
-      "msrp": 1599,
-      "street_price": 1299,
+      "msrp": 1499,
+      "street_price": 1349,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -88,7 +90,9 @@
           "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-800-series-shp78cm5n/m412472/",
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
           "reviewed_individual": "https://www.reviewed.com/dishwashers/content/bosch-800-series-shp78cm5n-dishwasher-review",
-          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP78CM5N"
+          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP78CM5N",
+          "price": "https://www.pcrichard.com/bosch-800-series-24-in-top-control-smart-dishwasher-with-42-dba-sound-level-3rd-rack-crystaldry-and-pocket-stainless-steel/SHP78CM5N.html",
+          "msrp": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP78CM5N"
         },
         "reviewed_status": "Editor's Choice · Best Overall 2026",
         "endorsements": [
@@ -155,17 +159,17 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-shp78cm5n.jpg",
+        "local": "images/dishwashers/bosch-shp78cm5n.webp",
         "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/412472-24-inch-bosch-800-series-shp78cm5n-10037311.png",
         "source": "cr"
       },
       "_meta": {},
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.875,
       "depth_in": 23.75,
       "images": [
         {
-          "local": "images/dishwashers/bosch-shp78cm5n.jpg",
+          "local": "images/dishwashers/bosch-shp78cm5n.webp",
           "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/412472-24-inch-bosch-800-series-shp78cm5n-10037311.png",
           "source": "cr",
           "view": "primary"
@@ -224,7 +228,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "bosch-shxm4ay55n",
@@ -277,7 +283,7 @@
       ],
       "release_year": 2022,
       "image": {
-        "local": "images/dishwashers/bosch-shxm4ay55n.jpg",
+        "local": "images/dishwashers/bosch-shxm4ay55n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6247/6247260_sd.jpg",
         "source": "best_buy"
       },
@@ -288,10 +294,10 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 22.5625,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/bosch-shxm4ay55n.jpg",
+          "local": "images/dishwashers/bosch-shxm4ay55n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6247/6247260_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -338,7 +344,9 @@
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "bosch-shv88pz63n",
@@ -383,12 +391,13 @@
         "panel-ready"
       ],
       "image": {
-        "local": "images/dishwashers/bosch-shv88pz63n.jpg",
+        "local": "images/dishwashers/bosch-shv88pz63n.webp",
         "source_url": "https://media3.bsh-group.com/Product_Shots/MCSA02975048_J1781_2289012_SHV88PZ63N_PGA2_def.png",
         "source": "manufacturer"
       },
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-sge78c55uc",
@@ -433,7 +442,7 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/dishwashers/bosch-sge78c55uc.jpg",
+        "local": "images/dishwashers/bosch-sge78c55uc.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559622_sd.jpg",
         "source": "best_buy"
       },
@@ -444,10 +453,10 @@
       "interior_light": false,
       "height_in": 32.0625,
       "depth_in": 22.5625,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/bosch-sge78c55uc.jpg",
+          "local": "images/dishwashers/bosch-sge78c55uc.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559622_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -506,7 +515,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "miele-g7366scvi",
@@ -553,7 +564,7 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/dishwashers/miele-g7366scvi.jpg",
+        "local": "images/dishwashers/miele-g7366scvi.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6481/6481148_sd.jpg",
         "source": "best_buy"
       },
@@ -564,7 +575,9 @@
       "interior_light": true,
       "height_in": 33.6875,
       "depth_in": 22.4375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "miele-g5008scu",
@@ -580,7 +593,7 @@
       "energy_star": true,
       "wifi": false,
       "msrp": 1699,
-      "street_price": 1499,
+      "street_price": 1599,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -588,7 +601,8 @@
         "wirecutter": "top pick",
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwasher/",
-          "specs": "https://www.mieleusa.com/product/11966810/built-under-dishwashers-g-5008-scu-active-clean-touch-steel"
+          "specs": "https://www.mieleusa.com/product/11966810/built-under-dishwashers-g-5008-scu-active-clean-touch-steel",
+          "price": "https://www.abt.com/Miele-Dishwasher-G-5008-SCU-Active-Touch-Controls-24-Inch-in-Clean-Touch-Steel-11966810/p/204862.html"
         },
         "endorsements": [
           {
@@ -622,13 +636,15 @@
       "leak_protection": "WaterProof",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/miele-g5008scu.png",
+        "local": "images/dishwashers/miele-g5008scu.webp",
         "source_url": "https://www.mieleusa.com/product/11966810/built-under-dishwashers-g-5008-scu-active-clean-touch-steel",
         "source": "miele"
       },
       "height_in": 33.75,
       "depth_in": 21.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "kitchenaid-kdtm604kps",
@@ -678,7 +694,7 @@
         "Black Stainless with PrintShield"
       ],
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdtm604kps.jpg",
+        "local": "images/dishwashers/kitchenaid-kdtm604kps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398729_sd.jpg",
         "source": "best_buy"
       },
@@ -689,10 +705,10 @@
       "interior_light": false,
       "height_in": 33.625,
       "depth_in": 26.75,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/kitchenaid-kdtm604kps.jpg",
+          "local": "images/dishwashers/kitchenaid-kdtm604kps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398729_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -745,7 +761,9 @@
           "source": "manufacturer",
           "view": "g8"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "ge-profile-pdt785synfs",
@@ -760,8 +778,8 @@
       "water_gal_cycle": 3.5,
       "energy_star": true,
       "wifi": true,
-      "msrp": 1299,
-      "street_price": 999,
+      "msrp": 1549,
+      "street_price": 1450,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -771,7 +789,9 @@
         "source_urls": {
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Fingerprint-Resistant-Top-Control-with-Stainless-Steel-Interior-Dishwasher-with-Sanitize-Cycle-Twin-Turbo-Dry-Boost-PDT785SYNFS",
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Fingerprint-Resistant-Top-Control-with-Stainless-Steel-Interior-Dishwasher-with-Sanitize-Cycle-Twin-Turbo-Dry-Boost-PDT785SYNFS"
+          "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Fingerprint-Resistant-Top-Control-with-Stainless-Steel-Interior-Dishwasher-with-Sanitize-Cycle-Twin-Turbo-Dry-Boost-PDT785SYNFS",
+          "price": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Fingerprint-Resistant-Top-Control-with-Stainless-Steel-Interior-Dishwasher-with-Sanitize-Cycle-Twin-Turbo-Dry-Boost-PDT785SYNFS",
+          "msrp": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Fingerprint-Resistant-Top-Control-with-Stainless-Steel-Interior-Dishwasher-with-Sanitize-Cycle-Twin-Turbo-Dry-Boost-PDT785SYNFS"
         },
         "endorsements": [
           {
@@ -806,7 +826,7 @@
         "Black Stainless Steel"
       ],
       "image": {
-        "local": "images/dishwashers/ge-profile-pdt785synfs.jpg",
+        "local": "images/dishwashers/ge-profile-pdt785synfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6365/6365773_sd.jpg",
         "source": "best_buy"
       },
@@ -817,7 +837,9 @@
       "interior_light": true,
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "discontinued"
     },
     {
       "id": "ge-gdt665synfs",
@@ -874,7 +896,8 @@
       "interior_light": false,
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wdt970sahz",
@@ -924,12 +947,13 @@
         "Fingerprint Resistant Stainless Steel"
       ],
       "image": {
-        "local": "images/dishwashers/whirlpool-wdt970sahz.jpg",
+        "local": "images/dishwashers/whirlpool-wdt970sahz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5796/5796528_sd.jpg",
         "source": "best_buy"
       },
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-dw80r9950us",
@@ -951,7 +975,7 @@
         "cr_reliability": "fair",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/samsung-dw80r9950us/m398944/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/linear-wash-39dba-dishwasher-in-stainless-steel-dw80r9950us-aa/",
           "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/dishwashers/rotary/pd/dw80r9950ug-aa/newspecsheet/DW80R9950US_V6.pdf"
         },
@@ -980,7 +1004,7 @@
         "Black Stainless"
       ],
       "image": {
-        "local": "images/dishwashers/samsung-dw80r9950us.jpg",
+        "local": "images/dishwashers/samsung-dw80r9950us.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6329/6329899_sd.jpg",
         "source": "best_buy"
       },
@@ -991,7 +1015,9 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "samsung-dw80b7070us",
@@ -1007,7 +1033,7 @@
       "energy_star": true,
       "wifi": true,
       "msrp": 1199,
-      "street_price": 899,
+      "street_price": 799,
       "ratings": {
         "cr_overall": 74,
         "cr_reliability": "fair",
@@ -1015,7 +1041,8 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/samsung-dw80b7070us/m406581/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/smart-42dba-dishwasher-with-stormwash-and-smart-dry-in-stainless-steel-dw80b7070us-aa/",
-          "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/dishwasher/DW80B7070US_V8.pdf"
+          "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/dishwasher/DW80B7070US_V8.pdf",
+          "price": "https://www.pcrichard.com/x/DW80B7070US.html"
         },
         "retailer_ratings": {
           "lowes": {
@@ -1045,7 +1072,7 @@
         "Fingerprint Resistant Stainless Steel"
       ],
       "image": {
-        "local": "images/dishwashers/samsung-dw80b7070us.jpg",
+        "local": "images/dishwashers/samsung-dw80b7070us.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491913_sd.jpg",
         "source": "best_buy"
       },
@@ -1056,39 +1083,41 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 25,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/samsung-dw80b7070us.jpg",
+          "local": "images/dishwashers/samsung-dw80b7070us.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491913_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/dishwashers/samsung-dw80b7070us-g1.png",
+          "local": "images/dishwashers/samsung-dw80b7070us-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us-autorelease-smart-42dba-dishwasher-with-stormwash-™-and-smart-dry-572737-dw80b7070us-aa-550305408?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/dishwashers/samsung-dw80b7070us-g2.jpg",
+          "local": "images/dishwashers/samsung-dw80b7070us-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us--dw80b7070us-aa-550317117?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/dishwashers/samsung-dw80b7070us-g3.jpg",
+          "local": "images/dishwashers/samsung-dw80b7070us-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us--dw80b7070us-aa-550317126?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/dishwashers/samsung-dw80b7070us-g4.jpg",
+          "local": "images/dishwashers/samsung-dw80b7070us-g4.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80b7070us-aa/gallery/us--dw80b7070us-aa-550317133?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g4"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "lg-ldfn4542s",
@@ -1103,8 +1132,8 @@
       "water_gal_cycle": 3.5,
       "energy_star": true,
       "wifi": true,
-      "msrp": 899,
-      "street_price": 699,
+      "msrp": 1049,
+      "street_price": 749,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -1115,7 +1144,9 @@
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher",
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
           "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldfn4542s/m403609/",
-          "specs": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher"
+          "specs": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher",
+          "price": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher",
+          "msrp": "https://www.lg.com/us/dishwashers/lg-ldfn4542s-front-control-dishwasher"
         },
         "endorsements": [
           {
@@ -1155,13 +1186,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-ldfn4542s.jpg",
+        "local": "images/dishwashers/lg-ldfn4542s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6448/6448637_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 24.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "lg-ldts5552s",
@@ -1176,8 +1209,8 @@
       "water_gal_cycle": 3.1,
       "energy_star": true,
       "wifi": true,
-      "msrp": 1299,
-      "street_price": 999,
+      "msrp": 1149,
+      "street_price": 679,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -1187,7 +1220,9 @@
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher",
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
           "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldts5552s/m404462/",
-          "specs": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher"
+          "specs": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher",
+          "price": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher",
+          "msrp": "https://www.lg.com/us/dishwashers/lg-ldts5552s-top-control-dishwasher"
         },
         "endorsements": [
           {
@@ -1219,13 +1254,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-ldts5552s.jpg",
+        "local": "images/dishwashers/lg-ldts5552s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6469/6469461_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.6,
       "depth_in": 24.6,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "kitchenaid-kdpm804kbs",
@@ -1287,13 +1324,15 @@
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdpm804kbs.jpg",
+        "local": "images/dishwashers/kitchenaid-kdpm804kbs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398255_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 24.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "thermador-dwhd770cfp",
@@ -1348,16 +1387,16 @@
       "leak_protection": "AquaStop",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/thermador-dwhd770cfp.jpg",
+        "local": "images/dishwashers/thermador-dwhd770cfp.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506635_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/thermador-dwhd770cfp.jpg",
+          "local": "images/dishwashers/thermador-dwhd770cfp.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506635_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -1410,7 +1449,9 @@
           "source": "manufacturer",
           "view": "g8"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "cafe-cdt875p4nw2",
@@ -1445,7 +1486,7 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/dishwashers/cafe-cdt875p4nw2.jpg",
+        "local": "images/dishwashers/cafe-cdt875p4nw2.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6365/6365241_sd.jpg",
         "source": "best_buy"
       }
@@ -1550,13 +1591,15 @@
       "leak_protection": "WaterProof",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/miele-g7156scvi.png",
+        "local": "images/dishwashers/miele-g7156scvi.webp",
         "source_url": "https://www.mieleusa.com/product/12055090/fully-integrated-dishwashers-in-standard-size-g-7156-scvi-xxl-sf-stainless-steel",
         "source": "miele"
       },
       "height_in": 33.375,
       "depth_in": 22.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "bosch-shv9pcm53n",
@@ -1664,7 +1707,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "frigidaire-fgid2479sf",
@@ -1713,13 +1757,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/frigidaire-fgid2479sf.jpg",
+        "local": "images/dishwashers/frigidaire-fgid2479sf.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5760/5760404_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.75,
       "depth_in": 24.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "whirlpool-wdta50sakz",
@@ -1735,16 +1781,17 @@
       "energy_star": true,
       "wifi": false,
       "msrp": 849,
-      "street_price": 649,
+      "street_price": 678,
       "ratings": {
         "cr_overall": 69,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/whirlpool-wdta50sakz/m401893/",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/",
-          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.24-stainless-steel-dishwasher-with-ai-intelligent-wash-47-dba.wdta50sakz.html"
+          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.24-stainless-steel-dishwasher-with-ai-intelligent-wash-47-dba.wdta50sakz.html",
+          "price": "https://www.abt.com/Whirlpool-24-Fingerprint-Resistant-Stainless-Steel-Large-Capacity-Dishwasher-With-3rd-Rack-WDTA50SAKZ/p/150837.html"
         },
         "wirecutter": "budget pick 2026",
         "endorsements": [
@@ -1771,16 +1818,16 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/whirlpool-wdta50sakz.jpg",
+        "local": "images/dishwashers/whirlpool-wdta50sakz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420931_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 24.5,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/whirlpool-wdta50sakz.jpg",
+          "local": "images/dishwashers/whirlpool-wdta50sakz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420931_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -1839,7 +1886,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "maytag-mdb8959skz",
@@ -1864,7 +1913,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/maytag-mdb8959skz/m401169/",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/"
         },
         "wirecutter": "runner-up 2026",
@@ -1886,7 +1935,8 @@
       ],
       "release_year": 2022,
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gdp665synfs",
@@ -1935,13 +1985,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/ge-gdp665synfs.jpg",
+        "local": "images/dishwashers/ge-gdp665synfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6365/6365237_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "bosch-sha9pt55uc",
@@ -2154,16 +2206,16 @@
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdte204kps.jpg",
+        "local": "images/dishwashers/kitchenaid-kdte204kps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423224_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 26.75,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/kitchenaid-kdte204kps.jpg",
+          "local": "images/dishwashers/kitchenaid-kdte204kps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423224_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -2222,7 +2274,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "miele-g7106scube",
@@ -2272,7 +2326,9 @@
       "interior_light": true,
       "height_in": 33.6875,
       "depth_in": 22.4375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "bosch-shx78cm5n",
@@ -2287,8 +2343,8 @@
       "water_gal_cycle": 3.2,
       "energy_star": true,
       "wifi": true,
-      "msrp": 1399,
-      "street_price": 1099,
+      "msrp": 1549,
+      "street_price": 1399,
       "ratings": {
         "cr_overall": 84,
         "cr_reliability": "excellent",
@@ -2298,7 +2354,9 @@
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-800-series-shx78cm5n/m410625/",
           "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHX78CM5N"
+          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHX78CM5N",
+          "price": "https://www.abt.com/Bosch-800-Series-24-Inch-Dishwasher-in-Anti-Fingerprint-Stainless-Steel-SHX78CM5N/p/181768.html",
+          "msrp": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHX78CM5N"
         },
         "yale_reliability_source": "yale_2026_dw",
         "endorsements": [
@@ -2357,16 +2415,16 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-shx78cm5n.jpg",
+        "local": "images/dishwashers/bosch-shx78cm5n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542978_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/bosch-shx78cm5n.jpg",
+          "local": "images/dishwashers/bosch-shx78cm5n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542978_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -2425,7 +2483,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "cafe-cdt845p2ns1",
@@ -2506,13 +2566,15 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/ge-profile-pdt715synfs.jpg",
+        "local": "images/dishwashers/ge-profile-pdt715synfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6365/6365261_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "whirlpool-wdt740salz",
@@ -2527,8 +2589,8 @@
       "water_gal_cycle": 3.5,
       "energy_star": true,
       "wifi": false,
-      "msrp": 749,
-      "street_price": 599,
+      "msrp": null,
+      "street_price": 810,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -2542,7 +2604,8 @@
         },
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/whirlpool-wdt740salz/m405616/",
-          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.WDT740SALZ.html"
+          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.WDT740SALZ.html",
+          "price": "https://www.pcrichard.com/x/WDT740SALZ.html"
         }
       },
       "pros": [
@@ -2559,16 +2622,16 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/whirlpool-wdt740salz.jpg",
+        "local": "images/dishwashers/whirlpool-wdt740salz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6473/6473473_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 26.5,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/whirlpool-wdt740salz.jpg",
+          "local": "images/dishwashers/whirlpool-wdt740salz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6473/6473473_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -2627,7 +2690,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "samsung-dw80cg4051ss",
@@ -2643,7 +2708,7 @@
       "energy_star": true,
       "wifi": false,
       "msrp": 599,
-      "street_price": 449,
+      "street_price": 499,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -2658,7 +2723,8 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/05082024/DW80CG4051_V4.pdf"
+          "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/05082024/DW80CG4051_V4.pdf",
+          "price": "https://www.abt.com/Samsung-51-dBA-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-DW80CG4051SRAA/p/193789.html"
         }
       },
       "pros": [
@@ -2676,7 +2742,9 @@
       "interior_light": false,
       "height_in": 33.8,
       "depth_in": 24.8,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "beko-ddfn38530x",
@@ -2726,7 +2794,8 @@
       "interior_light": true,
       "height_in": 33.875,
       "depth_in": 22.4375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "miele-g5892scuss",
@@ -2777,7 +2846,8 @@
       "interior_light": true,
       "height_in": 34.25,
       "depth_in": 22.4375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-shp9pcm5n",
@@ -2793,8 +2863,8 @@
       "energy_star": true,
       "wifi": true,
       "panel_ready": true,
-      "msrp": 1799,
-      "street_price": 1499,
+      "msrp": 1999,
+      "street_price": 1799,
       "ratings": {
         "cr_overall": 85,
         "cr_reliability": "very-good",
@@ -2807,7 +2877,9 @@
           "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2407874",
           "reviewed_individual": "https://www.reviewed.com/products/bosch-benchmark-shp9pcm5n-dishwasher",
-          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N"
+          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N",
+          "price": "https://www.abt.com/Bosch-Benchmark-Series-24-Inch-Dishwasher-in-Anti-Fingerprint-Stainless-Steel-SHP9PCM5N/p/181779.html",
+          "msrp": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP9PCM5N"
         },
         "endorsements": [
           {
@@ -2870,7 +2942,7 @@
         "stainless"
       ],
       "image": {
-        "local": "images/dishwashers/bosch-shp9pcm5n.jpg",
+        "local": "images/dishwashers/bosch-shp9pcm5n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543003_sd.jpg",
         "source": "best_buy"
       },
@@ -2881,10 +2953,10 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/bosch-shp9pcm5n.jpg",
+          "local": "images/dishwashers/bosch-shp9pcm5n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543003_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -2943,7 +3015,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "thermador-dwhd560cfp",
@@ -2992,16 +3066,16 @@
       "leak_protection": "AquaStop",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/thermador-dwhd560cfp.jpg",
+        "local": "images/dishwashers/thermador-dwhd560cfp.webp",
         "source_url": "https://www.thermador.com/us/en/mkt-product/DWHD560CFP",
         "source": "thermador"
       },
       "height_in": 33.875,
       "depth_in": 23.75,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/thermador-dwhd560cfp.jpg",
+          "local": "images/dishwashers/thermador-dwhd560cfp.webp",
           "source_url": "https://www.thermador.com/us/en/mkt-product/DWHD560CFP",
           "source": "thermador",
           "view": "primary"
@@ -3042,13 +3116,15 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "sks-sdwb24s3",
-      "brand": "sks",
+      "brand": "lg-studio",
       "model": "SDWB24S3",
-      "name": "SKS SDWB24S3 TopControl",
+      "name": "LG Studio SDWB24S3 TopControl",
       "tub": "stainless",
       "decibels": 42,
       "place_settings": 16,
@@ -3057,15 +3133,17 @@
       "water_gal_cycle": 2.8,
       "energy_star": true,
       "wifi": true,
-      "msrp": 1999,
-      "street_price": 1799,
+      "msrp": 1499,
+      "street_price": 1199,
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
-          "specs": "https://www.lg.com/us/dishwashers/lg-sdwb24s3-top-control-dishwasher"
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-studio-sdwb24s3/m412383/",
+          "specs": "https://www.lg.com/us/dishwashers/lg-sdwb24s3-top-control-dishwasher",
+          "price": "https://www.lg.com/us/dishwashers/lg-sdwb24s3-top-control-dishwasher",
+          "msrp": "https://www.lg.com/us/dishwashers/lg-sdwb24s3-top-control-dishwasher"
         }
       },
       "pros": [
@@ -3083,9 +3161,11 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "_meta": {},
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.625,
-      "depth_in": 24.625
+      "depth_in": 24.625,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "fp-dw60uc6i1",
@@ -3184,13 +3264,15 @@
       "leak_protection": "AquaStop",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/gaggenau-df481700f.jpg",
+        "local": "images/dishwashers/gaggenau-df481700f.webp",
         "source_url": "https://www.gaggenau.com/us/en/mkt-product/DF481700F",
         "source": "gaggenau"
       },
       "height_in": 34.125,
       "depth_in": 21.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "ge-gdf550psnss",
@@ -3239,7 +3321,8 @@
       "interior_light": false,
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "monogram-zdt985sinii",
@@ -3290,7 +3373,9 @@
       "interior_light": true,
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "bosch-shv88pz63n-ada",
@@ -3339,16 +3424,16 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-shv88pz63n-ada.png",
+        "local": "images/dishwashers/bosch-shv88pz63n-ada.webp",
         "source_url": "https://www.bosch-home.com/us/productslist/home-appliances/SHV9PT53UC",
         "source": "bosch"
       },
       "height_in": 34.125,
       "depth_in": 21.625,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/bosch-shv88pz63n-ada.png",
+          "local": "images/dishwashers/bosch-shv88pz63n-ada.webp",
           "source_url": "https://www.bosch-home.com/us/productslist/home-appliances/SHV9PT53UC",
           "source": "bosch",
           "view": "primary"
@@ -3389,7 +3474,9 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "miele-g7316scuautodos",
@@ -3439,7 +3526,9 @@
       "interior_light": true,
       "height_in": 33.6875,
       "depth_in": 22.4375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "lg-ldth7972s",
@@ -3454,7 +3543,7 @@
       "water_gal_cycle": 2.8,
       "energy_star": true,
       "wifi": true,
-      "msrp": 1699,
+      "msrp": 1499,
       "street_price": 1399,
       "ratings": {
         "cr_overall": 75,
@@ -3464,9 +3553,10 @@
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes",
           "yale": "https://blog.yaleappliance.com/most-reliable-dishwashers",
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldth7972s/m408413/",
           "reviewed_individual": "https://www.reviewed.com/dishwashers/content/lg-ldth7972s-dishwasher-review",
-          "specs": "https://www.lg.com/us/dishwashers/lg-ldth7972s-top-control-dishwasher"
+          "specs": "https://www.lg.com/us/dishwashers/lg-ldth7972s-top-control-dishwasher",
+          "msrp": "https://www.lg.com/us/dishwashers/lg-ldth7972s-top-control-dishwasher"
         },
         "yale_reliability_pct": 6.3,
         "endorsements": [
@@ -3536,13 +3626,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-ldth7972s.jpg",
+        "local": "images/dishwashers/lg-ldth7972s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509869_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 24.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "samsung-dw80cg5451ss",
@@ -3558,7 +3650,7 @@
       "energy_star": true,
       "wifi": true,
       "msrp": 1099,
-      "street_price": 849,
+      "street_price": 599,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -3573,7 +3665,8 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/smart-46-dba-dishwasher-with-stormwash-in-stainless-steel-dw80cg5450sraa/"
+          "specs": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/smart-46-dba-dishwasher-with-stormwash-in-stainless-steel-dw80cg5450sraa/",
+          "price": "https://www.abt.com/Samsung-46-dBA-Smart-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-DW80CG5451SRAA/p/193787.html"
         }
       },
       "pros": [
@@ -3591,57 +3684,59 @@
       "interior_light": false,
       "height_in": 33.875,
       "depth_in": 27.3125,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g1.png",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557202?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g2.jpg",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-552550326?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g3.png",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557187?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g4.png",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g4.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557188?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g4"
         },
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g5.png",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g5.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557189?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g5"
         },
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g6.png",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g6.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557190?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g6"
         },
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g7.png",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g7.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557191?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g7"
         },
         {
-          "local": "images/dishwashers/samsung-dw80cg5451ss-g8.png",
+          "local": "images/dishwashers/samsung-dw80cg5451ss-g8.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80cg5450sraa/gallery/us-dw5000c-568155-dw80cg5450sraa-549557183?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g8"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "whirlpool-wdt750sakv",
@@ -3657,7 +3752,7 @@
       "energy_star": true,
       "wifi": false,
       "msrp": 949,
-      "street_price": 749,
+      "street_price": 944,
       "ratings": {
         "cr_overall": null,
         "cr_reliability": null,
@@ -3672,7 +3767,8 @@
         ],
         "source_urls": {
           "yale_brand": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.designerappliances.com/whirlpool-wdt750sakv.html"
+          "specs": "https://www.designerappliances.com/whirlpool-wdt750sakv.html",
+          "price": "https://www.abt.com/Whirlpool-24-Black-Stainless-Steel-Large-Capacity-Dishwasher-With-3rd-Rack-WDT750SAKV/p/150839.html"
         }
       },
       "pros": [
@@ -3689,13 +3785,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/whirlpool-wdt750sakv.jpg",
+        "local": "images/dishwashers/whirlpool-wdt750sakv.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420930_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 26.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "cafe-cdt858p4pw2",
@@ -3744,7 +3842,8 @@
       "interior_light": true,
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-sgx78c55uc",
@@ -3752,14 +3851,16 @@
       "model": "SGX78C55UC",
       "name": "Bosch 800 Series SGX78C55UC ADA-Compliant",
       "tub": "stainless",
-      "msrp": 1449,
+      "msrp": 1399,
       "street_price": 1399,
       "ratings": {
         "reviewed_status": "Editor's Choice · Best ADA 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-bosch-dishwashers",
           "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SGX78C55UC",
-          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2624394"
+          "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2624394",
+          "price": "https://www.abt.com/Bosch-800-Series-ADA-24-Inch-Dishwasher-in-Stainless-Steel-SGX78C55UC/p/194875.html",
+          "msrp": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SGX78C55UC"
         },
         "endorsements": [
           {
@@ -3797,14 +3898,14 @@
       "height_in": 32,
       "depth_in": 24.5,
       "image": {
-        "local": "images/dishwashers/bosch-sgx78c55uc.jpg",
+        "local": "images/dishwashers/bosch-sgx78c55uc.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559624_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/bosch-sgx78c55uc.jpg",
+          "local": "images/dishwashers/bosch-sgx78c55uc.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559624_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -3863,7 +3964,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "bosch-she3aem2n",
@@ -3923,15 +4026,15 @@
       "height_in": 33.875,
       "depth_in": 23.875,
       "image": {
-        "local": "images/dishwashers/bosch-she3aem2n.jpg",
+        "local": "images/dishwashers/bosch-she3aem2n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542972_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "decibels": 50,
       "images": [
         {
-          "local": "images/dishwashers/bosch-she3aem2n.jpg",
+          "local": "images/dishwashers/bosch-she3aem2n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542972_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -3990,7 +4093,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "bosch-she53c85n",
@@ -3998,7 +4103,7 @@
       "model": "SHE53C85N",
       "name": "Bosch 300 Series SHE53C85N",
       "tub": "stainless",
-      "msrp": null,
+      "msrp": 1099,
       "street_price": 1099,
       "ratings": {
         "reviewed_status": "Editor's Choice 2026",
@@ -4007,7 +4112,9 @@
           "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-300-series-she53c85n/m410627/",
           "manufacturer": "https://www.bestbuy.com/product/bosch-300-series-24-front-control-smart-built-in-tub-dishwasher-with-3rd-rack-and-aquastop-plus-46-dba-stainless-steel/J3P3229752",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/",
-          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE53C85N"
+          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE53C85N",
+          "price": "https://www.abt.com/Bosch-300-Series-24-Inch-Recessed-Handle-Dishwasher-in-Stainless-Steel-SHE53C85N/p/192641.html",
+          "msrp": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE53C85N"
         },
         "cr_overall": 80,
         "cr_reliability": "very-good",
@@ -4052,17 +4159,17 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-she53c85n.jpg",
+        "local": "images/dishwashers/bosch-she53c85n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542986_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "decibels": 46,
       "height_in": 35,
       "depth_in": 23.7,
       "images": [
         {
-          "local": "images/dishwashers/bosch-she53c85n.jpg",
+          "local": "images/dishwashers/bosch-she53c85n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542986_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4121,7 +4228,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "bosch-shp65cm5n",
@@ -4190,16 +4299,16 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-shp65cm5n.jpg",
+        "local": "images/dishwashers/bosch-shp65cm5n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542974_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.875,
       "depth_in": 23.75,
       "images": [
         {
-          "local": "images/dishwashers/bosch-shp65cm5n.jpg",
+          "local": "images/dishwashers/bosch-shp65cm5n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542974_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4258,7 +4367,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "miele-g5266scvi-sfp",
@@ -4268,13 +4379,14 @@
       "tub": "stainless",
       "panel_ready": true,
       "msrp": null,
-      "street_price": 1779,
+      "street_price": 2099,
       "ratings": {
         "reviewed_status": "Editor's Choice · Best Upgrade Drying 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/the-best-dishwashers-that-dry-your-dishes",
           "manufacturer": "https://www.mieleusa.com/product/11695340/fully-integrated-dishwashers-in-standard-size-g-5266-scvi-sfp-active-plus-stainless-steel",
-          "specs": "https://www.mieleusa.com/product/11695340/fully-integrated-dishwashers-in-standard-size-g-5266-scvi-sfp-active-plus-stainless-steel"
+          "specs": "https://www.mieleusa.com/product/11695340/fully-integrated-dishwashers-in-standard-size-g-5266-scvi-sfp-active-plus-stainless-steel",
+          "price": "https://www.abt.com/Miele-G-5266-SCVi-SFP-24-Stainless-Steel-Fully-Integrated-Dishwasher-w-Pocket-Handle-11695340/p/162760.html"
         },
         "endorsements": [
           {
@@ -4320,15 +4432,17 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "decibels": 42,
       "image": {
-        "local": "images/dishwashers/miele-g5266scvi-sfp.png",
+        "local": "images/dishwashers/miele-g5266scvi-sfp.webp",
         "source_url": "https://www.mieleusa.com/product/11695340/fully-integrated-dishwashers-in-standard-size-g-5266-scvi-sfp-active-plus-stainless-steel",
         "source": "miele"
       },
       "height_in": 33.6875,
-      "depth_in": 22.4375
+      "depth_in": 22.4375,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "maytag-mdb4949skz",
@@ -4337,7 +4451,7 @@
       "name": "Maytag MDB4949SKZ Dishwasher",
       "tub": "stainless",
       "msrp": null,
-      "street_price": 569,
+      "street_price": 598,
       "ratings": {
         "reviewed_status": "Editor's Choice · Budget Pick 2026",
         "source_urls": {
@@ -4345,7 +4459,8 @@
           "reviewed_individual": "https://www.reviewed.com/dishwashers/content/maytag-mdb4949skz-dishwasher-review",
           "cr": "https://www.consumerreports.org/appliances/dishwashers/maytag-mdb4949skz/m401892/",
           "manufacturer": "https://www.maytag.com/kitchen/dishwashers-and-compactors/dishwashers/front-control-dishwashers/p.stainless-steel-tub-dishwasher-with-dual-power-filtration.mdb4949skz.html",
-          "specs": "https://www.maytag.com/kitchen/dishwashers-and-compactors/dishwashers/front-control-dishwashers/p.stainless-steel-tub-dishwasher-with-dual-power-filtration.mdb4949skz.html"
+          "specs": "https://www.maytag.com/kitchen/dishwashers-and-compactors/dishwashers/front-control-dishwashers/p.stainless-steel-tub-dishwasher-with-dual-power-filtration.mdb4949skz.html",
+          "price": "https://www.abt.com/Maytag-24-Fingerprint-Resistant-Stainless-Steel-Dishwasher-With-Stainless-Steel-Tub-And-Dual-Power-Filtration-MDB4949SKZ/p/150832.html"
         },
         "endorsements": [
           {
@@ -4402,17 +4517,17 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/maytag-mdb4949skz.jpg",
+        "local": "images/dishwashers/maytag-mdb4949skz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420940_sd.jpg",
         "source": "best_buy"
       },
       "decibels": 50,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.625,
       "depth_in": 24.5,
       "images": [
         {
-          "local": "images/dishwashers/maytag-mdb4949skz.jpg",
+          "local": "images/dishwashers/maytag-mdb4949skz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420940_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4471,7 +4586,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "samsung-dw90f89p0usr",
@@ -4489,7 +4606,8 @@
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers",
           "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/38-dba-bespoke-smart-dishwasher-with-3rd-rack-washing-system-in-fingerprint-resistant-stainless-steel-dw90f89p0usraa/",
-          "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/DW90F89P0USR_V3.pdf"
+          "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/DW90F89P0USR_V3.pdf",
+          "price": "https://www.abt.com/Samsung-Bespoke-38dBA-Auto-Open-Door-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-DW90F89P0USRAA/p/217251.html"
         },
         "endorsements": [
           {
@@ -4532,14 +4650,16 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/samsung-dw90f89p0usr.jpg",
+        "local": "images/dishwashers/samsung-dw90f89p0usr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617108_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.875,
-      "depth_in": 25
+      "depth_in": 25,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "ge-profile-pdp755syvfs",
@@ -4551,14 +4671,15 @@
       "third_rack": "dedicated third-rack jets",
       "wifi": true,
       "msrp": null,
-      "street_price": 879,
+      "street_price": 899,
       "ratings": {
         "reviewed_status": "Best for Large Families 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-dishwashers",
           "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
           "manufacturer": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-Smart-UltraFresh-System-Dishwasher-with-Microban-Antimicrobial-Technology-with-Deep-Clean-Washing-3rd-Rack-42-dBA-PDP755SYVFS",
-          "specs": "https://www.designerappliances.com/ge-pdp755syvfs.html"
+          "specs": "https://www.designerappliances.com/ge-pdp755syvfs.html",
+          "price": "https://www.abt.com/GE-Profile-Smart-UltraFresh-Dishwasher-24-Inch-in-Stainless-Steel-PDP755SYVFS/p/211175.html"
         },
         "endorsements": [
           {
@@ -4602,14 +4723,16 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/ge-profile-pdp755syvfs.jpg",
+        "local": "images/dishwashers/ge-profile-pdp755syvfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6571/6571831_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "decibels": 42,
       "height_in": 34,
-      "depth_in": 24
+      "depth_in": 24,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "maytag-mdfs3924rz",
@@ -4618,14 +4741,15 @@
       "name": "Maytag MDFS3924RZ Eco Series",
       "tub": "stainless",
       "msrp": null,
-      "street_price": 549,
+      "street_price": 579,
       "ratings": {
         "reviewed_status": "Recommended · Affordable 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers",
           "cr": "https://www.consumerreports.org/appliances/dishwashers/maytag-mdfs3924rz/m416162/",
           "manufacturer": "https://www.maytag.com/kitchen/dishwashers/front-control-dishwashers/p.MDFS3924RZ.html",
-          "specs": "https://www.maytag.com/kitchen/dishwashers/front-control-dishwashers/p.MDFS3924RZ.html"
+          "specs": "https://www.maytag.com/kitchen/dishwashers/front-control-dishwashers/p.MDFS3924RZ.html",
+          "price": "https://www.abt.com/Maytag-Front-Control-Dishwasher-with-PowerBlast-Cycle-in-Stainless-Steel-MDFS3924RZ/p/212778.html"
         },
         "endorsements": [
           {
@@ -4661,17 +4785,17 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/maytag-mdfs3924rz.jpg",
+        "local": "images/dishwashers/maytag-mdfs3924rz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593016_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "decibels": 50,
       "height_in": 33.625,
       "depth_in": 24.5,
       "images": [
         {
-          "local": "images/dishwashers/maytag-mdfs3924rz.jpg",
+          "local": "images/dishwashers/maytag-mdfs3924rz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593016_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4730,7 +4854,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "whirlpool-wdt750sakz",
@@ -4777,7 +4903,7 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/whirlpool-wdt750sakz.jpg",
+        "local": "images/dishwashers/whirlpool-wdt750sakz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420935_sd.jpg",
         "source": "best_buy"
       },
@@ -4787,7 +4913,7 @@
       "depth_in": 26.75,
       "images": [
         {
-          "local": "images/dishwashers/whirlpool-wdt750sakz.jpg",
+          "local": "images/dishwashers/whirlpool-wdt750sakz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420935_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4816,7 +4942,9 @@
           "source": "manufacturer",
           "view": "g4"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "current"
     },
     {
       "id": "samsung-dw80cg4021sr",
@@ -4833,7 +4961,8 @@
           "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-affordable-dishwashers",
           "cr": "https://www.consumerreports.org/cro/most-reliable-products/index.htm",
           "manufacturer": "https://www.samsung.com/ca/dishwashers/built-in/dw3000mm-dw80cg4021sr-53-dba-fingerprint-resistant-dishwasher-with-adjustable-rack-14-place-settings-silver-dw80cg4021sraa/",
-          "specs": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/fingerprint-resistant-53-dba-dishwasher-with-height-adjustable-rack-in-stainless-steel-dw80cg4021sraa/"
+          "specs": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/fingerprint-resistant-53-dba-dishwasher-with-height-adjustable-rack-in-stainless-steel-dw80cg4021sraa/",
+          "price": "https://www.abt.com/Samsung-53-dBA-Dishwasher-with-Adjustable-Rack-in-Fingerprint-Resistant-Stainless-Steel-DW80CG4021SRAA/p/193626.html"
         },
         "cr_reliability": "fair",
         "endorsements": [
@@ -4865,14 +4994,16 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/samsung-dw80cg4021sr.jpg",
+        "local": "images/dishwashers/samsung-dw80cg4021sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549883_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "decibels": 53,
       "height_in": 33.75,
-      "depth_in": 24.625
+      "depth_in": 24.625,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "bosch-shx5aem5n",
@@ -4931,16 +5062,16 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-shx5aem5n.jpg",
+        "local": "images/dishwashers/bosch-shx5aem5n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543005_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.875,
       "depth_in": 22.5625,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/bosch-shx5aem5n.jpg",
+          "local": "images/dishwashers/bosch-shx5aem5n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543005_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4999,7 +5130,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "miele-g7196scvisf",
@@ -5016,17 +5149,18 @@
       "wifi": true,
       "panel_ready": false,
       "msrp": 2399,
-      "street_price": 2174,
+      "street_price": 2399,
       "ratings": {
         "cr_overall": 80,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/miele-g7196scvisf/m417316/",
           "manufacturer": "https://www.mieleusa.com/product/12496710/fully-integrated-dishwashers-in-standard-size-g-7196-scvi-sf-autodos-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2679743",
-          "specs": "https://media.miele.com/downloads/n-/us/FS_12496710_USE_US-en-US.pdf"
+          "specs": "https://media.miele.com/downloads/n-/us/FS_12496710_USE_US-en-US.pdf",
+          "price": "https://www.abt.com/Miele-G-7196-SCViSF-Fully-Integrated-Pre-Finished-Dishwasher-24-Inch-in-Clean-Touch-Steel-12496710/p/209961.html"
         },
         "endorsements": [
           {
@@ -5060,14 +5194,16 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/miele-g7196scvisf.png",
+        "local": "images/dishwashers/miele-g7196scvisf.webp",
         "source_url": "https://www.mieleusa.com/product/12496710/fully-integrated-dishwashers-in-standard-size-g-7196-scvi-sf-autodos-stainless-steel",
         "source": "miele"
       },
       "height_in": 33.75,
-      "depth_in": 22.5
+      "depth_in": 22.5,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "miele-g7176scvi",
@@ -5121,12 +5257,13 @@
       "interior_light": true,
       "last_updated": "2026-05-05",
       "image": {
-        "local": "images/dishwashers/miele-g7176scvi.png",
+        "local": "images/dishwashers/miele-g7176scvi.webp",
         "source_url": "https://www.mieleusa.com/e/fully-integrated-dishwasher-xxl-g-7176-scvi-xxl-sf-autodos-stainless-steel-12021290-p",
         "source": "miele"
       },
       "height_in": 33.75,
-      "depth_in": 22.5
+      "depth_in": 22.5,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "thermador-dwhd661efp",
@@ -5150,10 +5287,11 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/thermador-star-sapphire-dwhd661efp/m416397/",
           "manufacturer": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/3398257",
-          "specs": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP"
+          "specs": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP",
+          "msrp": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD661EFP"
         }
       },
       "pros": [
@@ -5173,7 +5311,7 @@
       "filter_type": "manual",
       "leak_protection": "AquaStop",
       "interior_light": true,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "_meta": {},
       "height_in": 33.875,
       "depth_in": 23.75,
@@ -5232,7 +5370,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "current"
     },
     {
       "id": "lg-adfd5448at",
@@ -5249,7 +5389,7 @@
       "wifi": true,
       "panel_ready": false,
       "msrp": 1049,
-      "street_price": 749,
+      "street_price": 799,
       "ratings": {
         "cr_overall": 78,
         "cr_reliability": "very-good",
@@ -5260,7 +5400,8 @@
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-adfd5448at-front-control-dishwasher",
           "home_depot": "https://www.homedepot.com/p/LG-24-in-Stainless-Steel-Front-Control-Built-In-Dishwasher-with-Stainless-Steel-Tub-Quadwash-Dynamic-Dry-ADA-48-dBA-ADFD5448AT/314963579",
           "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers",
-          "specs": "https://www.lg.com/us/business/download/resources/CT00021979/ADFD5448AT%20LG%20Builder%20Spec%20Sheet%5B20220107_115226%5D.pdf"
+          "specs": "https://www.lg.com/us/business/download/resources/CT00021979/ADFD5448AT%20LG%20Builder%20Spec%20Sheet%5B20220107_115226%5D.pdf",
+          "price": "https://www.abt.com/LG-Stainless-Steel-Front-Control-Smart-Wi-Fi-Enabled-Dishwasher-with-QuadWash-ADFD5448AT/p/160925.html"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -5294,13 +5435,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-adfd5448at.jpg",
+        "local": "images/dishwashers/lg-adfd5448at.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6432/6432240_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 32.0625,
       "depth_in": 22.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "lg-ldfc353ls",
@@ -5344,13 +5487,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-ldfc353ls.jpg",
+        "local": "images/dishwashers/lg-ldfc353ls.webp",
         "source_url": "https://www.lg.com/us/dishwashers/lg-ldfc353ls-front-control-dishwasher",
         "source": "lg"
       },
       "height_in": 33.625,
       "depth_in": 24.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "kitchenaid-kdfe204kps",
@@ -5374,7 +5519,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/kitchenaid-kdfe204kps/m403233/",
           "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/front-controls/p.39-dba-dishwasher-in-printshield-finish-with-third-level-utensil-rack.kdfe204kps.html",
           "home_depot": "https://www.homedepot.com/p/KitchenAid-24-in-PrintShield-Stainless-Steel-Front-Control-Tall-Tub-Dishwasher-with-Stainless-Steel-Tub-39-DBA-KDFE204KPS/313572055",
           "lowes": "https://www.lowes.com/pd/KitchenAid-39-Decibel-Front-Control-24-in-Built-In-Dishwasher-Fingerprint-Resistant-Stainless-Steel-ENERGY-STAR/5000001255",
@@ -5409,16 +5554,16 @@
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdfe204kps.jpg",
+        "local": "images/dishwashers/kitchenaid-kdfe204kps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420936_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.625,
       "depth_in": 24.5,
       "images": [
         {
-          "local": "images/dishwashers/kitchenaid-kdfe204kps.jpg",
+          "local": "images/dishwashers/kitchenaid-kdfe204kps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420936_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -5465,7 +5610,9 @@
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "lg-ldth555ns",
@@ -5482,18 +5629,20 @@
       "wifi": true,
       "panel_ready": false,
       "msrp": 1199,
-      "street_price": 974,
+      "street_price": 699,
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
         "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldth555ns/m416740/",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldth555ns-top-control-dishwasher",
           "home_depot": "https://www.homedepot.com/p/LG-24-in-Top-Control-Smart-Wi-Fi-Enabled-Dishwasher-QuadWash-Pro-Dynamic-Heat-Dry-3rd-Rack-in-PrintProof-Stainless-Steel-LDTH555NS/333439434",
           "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers",
-          "specs": "https://www.lg.com/us/support/products/documents/LDTH555NS_spec_sheet.pdf"
+          "specs": "https://www.lg.com/us/support/products/documents/LDTH555NS_spec_sheet.pdf",
+          "price": "https://www.lg.com/us/dishwashers/lg-ldth555ns-top-control-dishwasher",
+          "msrp": "https://www.lg.com/us/dishwashers/lg-ldth555ns-top-control-dishwasher"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -5525,13 +5674,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-ldth555ns.jpg",
+        "local": "images/dishwashers/lg-ldth555ns.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593464_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 24.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "miele-g7186scvi",
@@ -5548,7 +5699,7 @@
       "wifi": true,
       "panel_ready": true,
       "msrp": 2199,
-      "street_price": 1949,
+      "street_price": 2199,
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
@@ -5559,7 +5710,8 @@
           "manufacturer": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2679740",
           "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel"
+          "specs": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel",
+          "price": "https://www.abt.com/Miele-G-7186-SCVi-Fully-Integrated-Dishwasher-24-Inch-in-Panel-Ready-12496990/p/209960.html"
         },
         "yale_reliability_source": "yale_2026_dw",
         "endorsements": [
@@ -5618,14 +5770,16 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/miele-g7186scvi.png",
+        "local": "images/dishwashers/miele-g7186scvi.webp",
         "source_url": "https://www.mieleusa.com/product/12496990/fully-integrated-dishwashers-in-standard-size-g-7186-scvi-autodos-stainless-steel",
         "source": "miele"
       },
       "height_in": 33.75,
-      "depth_in": 22.4375
+      "depth_in": 22.4375,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "kitchenaid-kdtf924pps",
@@ -5643,7 +5797,7 @@
       "wifi": false,
       "panel_ready": true,
       "msrp": 1949,
-      "street_price": 1798,
+      "street_price": 1890,
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "fair",
@@ -5651,7 +5805,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/kitchenaid-kdtf924pps/m413250/",
-          "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/front-controls/p.39-dba-printshield-finish-flush-to-cabinet-dishwasher-with-freeflex-fit-third-level-rack.kdtf924pps.html"
+          "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/front-controls/p.39-dba-printshield-finish-flush-to-cabinet-dishwasher-with-freeflex-fit-third-level-rack.kdtf924pps.html",
+          "price": "https://www.pcrichard.com/x/KDTF924PPS.html"
         }
       },
       "pros": [
@@ -5672,13 +5827,13 @@
       "height_in": 33.875,
       "depth_in": 24.5,
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdtf924pps.jpg",
+        "local": "images/dishwashers/kitchenaid-kdtf924pps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578908_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/dishwashers/kitchenaid-kdtf924pps.jpg",
+          "local": "images/dishwashers/kitchenaid-kdtf924pps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578908_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -5738,7 +5893,9 @@
           "view": "g9"
         }
       ],
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "midea-mdt24p3cst",
@@ -5762,7 +5919,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/midea-mdt24p3cst/m417185/",
           "manufacturer": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-24--top-control-dishwasher-with-3-stage-total-drying.mdt24p3cst",
           "lowes": "https://www.lowes.com/pd/Midea-24-built-in-dishwasher-47dBA-SS/5015622687",
           "specs": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-24--top-control-dishwasher-with-3-stage-total-drying.mdt24p3cst"
@@ -5788,13 +5945,14 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/midea-mdt24p3cst.jpg",
+        "local": "images/dishwashers/midea-mdt24p3cst.webp",
         "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-24--top-control-dishwasher-with-3-stage-total-drying.mdt24p3cst",
         "source": "midea"
       },
       "height_in": 33.8,
       "depth_in": 24.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-ldfc2423v",
@@ -5818,7 +5976,7 @@
         "yale_reliability_pct": 0,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldfc2423v/m409760/",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldfc2423v-front-control-dishwasher",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2406462",
           "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers",
@@ -5848,13 +6006,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-ldfc2423v.jpg",
+        "local": "images/dishwashers/lg-ldfc2423v.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531029_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 24.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "lg-ldpn454ht",
@@ -5901,7 +6061,7 @@
       "height_in": 33.6,
       "depth_in": 24.6,
       "image": {
-        "local": "images/dishwashers/lg-ldpn454ht.jpg",
+        "local": "images/dishwashers/lg-ldpn454ht.webp",
         "source_url": "https://www.lg.com/us/dishwashers/lg-ldpn454ht-top-control-dishwasher",
         "source": "lg"
       }
@@ -5921,18 +6081,20 @@
       "wifi": true,
       "panel_ready": false,
       "msrp": 1199,
-      "street_price": 749,
+      "street_price": 649,
       "ratings": {
         "cr_overall": 76,
         "cr_reliability": "very-good",
         "yale_reliability_pct": 14.3,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/lg-ldph5554s/m414122/",
           "manufacturer": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher",
           "spec_sheet": "https://static.pcrichard.com/docs/LDPH5554S_Specifications-Sheet_01.pdf",
           "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers",
-          "specs": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher"
+          "specs": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher",
+          "price": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher",
+          "msrp": "https://www.lg.com/us/dishwashers/lg-ldph5554s-top-control-dishwasher"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -5964,13 +6126,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/lg-ldph5554s.jpg",
+        "local": "images/dishwashers/lg-ldph5554s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6570/6570943_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.625,
       "depth_in": 24.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "midea-mdf24p2bww",
@@ -5995,7 +6159,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/midea-mdf24p2bww-lowe-s/m415333/",
           "specs": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-52-dba-front-control-dishwasher-with-interior-light.mdf24p2bww"
         }
       },
@@ -6018,10 +6182,11 @@
       "height_in": 33.875,
       "depth_in": 24.5,
       "image": {
-        "local": "images/dishwashers/midea-mdf24p2bww.jpg",
+        "local": "images/dishwashers/midea-mdf24p2bww.webp",
         "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/midea-52-dba-front-control-dishwasher-with-interior-light.mdf24p2bww",
         "source": "midea"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "midea-mdt24p5ast",
@@ -6045,7 +6210,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/midea-mdt24p5ast/m415936/",
           "manufacturer": "https://www.midea.com/us/dishwashers/built-in-dishwashers/24-dishwasher-with-targeted-wash-zones-wi-fi-and-45-dba-mdt24p5ast",
           "specs": "https://www.midea.com/us/dishwashers/built-in-dishwashers/24-dishwasher-with-targeted-wash-zones"
         }
@@ -6058,14 +6223,16 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/midea-mdt24p5ast.jpg",
+        "local": "images/dishwashers/midea-mdt24p5ast.webp",
         "source_url": "https://www.midea.com/us/dishwashers/built-in-dishwashers/24-dishwasher-with-targeted-wash-zones-wi-fi-and-45-dba-mdt24p5ast",
         "source": "midea"
       },
       "height_in": 33.75,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "price_as_of": "2026-05-05",
+      "availability": "discontinued"
     },
     {
       "id": "bosch-she43c75n",
@@ -6114,13 +6281,13 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-she43c75n.jpg",
+        "local": "images/dishwashers/bosch-she43c75n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6602/6602423_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/dishwashers/bosch-she43c75n.jpg",
+          "local": "images/dishwashers/bosch-she43c75n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6602/6602423_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -6180,9 +6347,11 @@
           "view": "g9"
         }
       ],
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.875,
-      "depth_in": 23.6875
+      "depth_in": 23.6875,
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "thermador-dwhd640efm",
@@ -6206,7 +6375,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/thermador-emerald-series-dwhd640efm/m416527/",
           "manufacturer": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM",
           "specs": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM"
         },
@@ -6234,15 +6403,15 @@
       "filter_type": "manual",
       "leak_protection": "AquaStop",
       "interior_light": true,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/thermador-dwhd640efm.png",
+        "local": "images/dishwashers/thermador-dwhd640efm.webp",
         "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM",
         "source": "thermador"
       },
       "images": [
         {
-          "local": "images/dishwashers/thermador-dwhd640efm.png",
+          "local": "images/dishwashers/thermador-dwhd640efm.webp",
           "source_url": "https://www.thermador.com/us/en/mkt-product/dishwashers/stainless-steel/DWHD640EFM",
           "source": "thermador",
           "view": "primary"
@@ -6303,7 +6472,9 @@
         }
       ],
       "height_in": 33.875,
-      "depth_in": 23.75
+      "depth_in": 23.75,
+      "price_as_of": "2026-05-14",
+      "availability": "current"
     },
     {
       "id": "whirlpool-wdp730hamz",
@@ -6320,17 +6491,18 @@
       "wifi": false,
       "panel_ready": false,
       "msrp": 829,
-      "street_price": 738,
+      "street_price": 746,
       "ratings": {
         "cr_overall": 74,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/whirlpool-wdp730hamz/m409763/",
           "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.quiet-dishwasher-with-3rd-rack-and-pocket-handle.wdp730hamz.html",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2448382",
-          "specs": "https://www.abt.com/Whirlpool-24-Fingerprint-Resistant-Stainless-Steel-Dishwasher-With-3rd-Rack-And-Pocket-Handle-WDP730HAMZ/p/182690.html"
+          "specs": "https://www.abt.com/Whirlpool-24-Fingerprint-Resistant-Stainless-Steel-Dishwasher-With-3rd-Rack-And-Pocket-Handle-WDP730HAMZ/p/182690.html",
+          "price": "https://www.abt.com/Whirlpool-24-Fingerprint-Resistant-Stainless-Steel-Dishwasher-With-3rd-Rack-And-Pocket-Handle-WDP730HAMZ/p/182690.html"
         }
       },
       "pros": [],
@@ -6346,15 +6518,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/whirlpool-wdp730hamz.jpg",
+        "local": "images/dishwashers/whirlpool-wdp730hamz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528642_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.5,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/whirlpool-wdp730hamz.jpg",
+          "local": "images/dishwashers/whirlpool-wdp730hamz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528642_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -6402,7 +6574,9 @@
           "view": "g7"
         }
       ],
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "miele-g5051scvi",
@@ -6418,18 +6592,19 @@
       "energy_star": true,
       "wifi": false,
       "panel_ready": true,
-      "msrp": 1349,
-      "street_price": 1299,
+      "msrp": null,
+      "street_price": 1599,
       "ratings": {
         "cr_overall": 74,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/miele-g5051scvi/m417633/",
           "manufacturer": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508391",
-          "specs": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel"
+          "specs": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
+          "price": "https://www.abt.com/Miele-G-5051-SCVi-ADA-24-Panel-Ready-Fully-Integrated-Dishwasher-11636710/p/161881.html"
         },
         "endorsements": [
           {
@@ -6457,20 +6632,22 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/miele-g5051scvi.png",
+        "local": "images/dishwashers/miele-g5051scvi.webp",
         "source_url": "https://www.mieleusa.com/product/11636710/fully-integrated-ada-dishwasher-g-5051-scvi-active-stainless-steel",
         "source": "miele"
       },
       "height_in": 32.125,
-      "depth_in": 21.75
+      "depth_in": 21.75,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "bosch-she41cm5n",
       "brand": "bosch",
       "model": "SHE41CM5N",
-      "name": "Bosch 300 Series SHE41CM5N",
+      "name": "Bosch 100 Series SHE41CM5N",
       "tub": "stainless",
       "decibels": 48,
       "place_settings": 12,
@@ -6480,19 +6657,21 @@
       "energy_star": false,
       "wifi": true,
       "panel_ready": false,
-      "msrp": 849,
-      "street_price": 699,
+      "msrp": 729,
+      "street_price": 729,
       "ratings": {
         "cr_overall": 74,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bosch-100-series-she41cm5n/m415552/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N",
           "spec_sheet": "https://media3.bosch-home.com/Documents/24579307_SHE41CM5N_Spec_Sheet.pdf",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/",
-          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N"
+          "specs": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N",
+          "price": "https://www.abt.com/Bosch-100-Series-Dishwasher-Recessed-Handle-24-Inch-in-FingerPrint-Resistant-Stainless-Steel-SHE41CM5N/p/206637.html",
+          "msrp": "https://www.bosch-home.com/us/en/product/dishwashers/front-controls/SHE41CM5N"
         },
         "retailer_ratings": {
           "best_buy": {
@@ -6524,13 +6703,13 @@
       "leak_protection": "AquaStop",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/bosch-she41cm5n.jpg",
+        "local": "images/dishwashers/bosch-she41cm5n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582505_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/dishwashers/bosch-she41cm5n.jpg",
+          "local": "images/dishwashers/bosch-she41cm5n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582505_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -6590,9 +6769,11 @@
           "view": "g9"
         }
       ],
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.875,
-      "depth_in": 23.75
+      "depth_in": 23.75,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "miele-g5056scvisf",
@@ -6609,17 +6790,18 @@
       "wifi": false,
       "panel_ready": false,
       "msrp": null,
-      "street_price": 1499,
+      "street_price": 1749,
       "ratings": {
         "cr_overall": 73,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/miele-g5056scvisf/m406584/",
           "manufacturer": "https://www.mieleusa.com/product/11695330/fully-integrated-dishwashers-in-standard-size-g-5056-scvi-sf-stainless-steel",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2508393",
-          "specs": "https://www.designerappliances.com/miele-g5056scvisf.html"
+          "specs": "https://www.designerappliances.com/miele-g5056scvisf.html",
+          "price": "https://www.abt.com/Miele-G-5056-SCVi-SF-24-Stainless-Steel-Fully-Integrated-Dishwasher-With-PureLine-Handle-11695330/p/162723.html"
         },
         "endorsements": [
           {
@@ -6646,14 +6828,16 @@
       "filter_type": "manual",
       "leak_protection": "WaterProof",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/miele-g5056scvisf.png",
+        "local": "images/dishwashers/miele-g5056scvisf.webp",
         "source_url": "https://www.mieleusa.com/product/11695330/fully-integrated-dishwashers-in-standard-size-g-5056-scvi-sf-stainless-steel",
         "source": "miele"
       },
       "height_in": 33.6875,
-      "depth_in": 22.4375
+      "depth_in": 22.4375,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "unique-appliances-ugp-24crdw",
@@ -6677,7 +6861,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/unique-appliances-ugp-24cr-dw/m417824/",
           "manufacturer": "https://www.amazon.com/Unique-Appliances-UGP-24CR-DW-Marshmallow/dp/B0C9MPKT3W",
           "specs": "https://www.amazon.com/Unique-Appliances-UGP-24CR-DW-Dishwasher/dp/B0C9LCS9VZ"
         }
@@ -6685,10 +6869,11 @@
       "pros": [],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "_meta": {},
       "height_in": 33.8,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "frigidaire-gdsh4715af",
@@ -6706,7 +6891,7 @@
       "wifi": false,
       "panel_ready": false,
       "msrp": 949,
-      "street_price": 748,
+      "street_price": 849,
       "ratings": {
         "cr_overall": 71,
         "cr_reliability": "fair",
@@ -6714,7 +6899,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/frigidaire-gdsh4715af/m411975/",
-          "specs": "https://www.frigidaire.com/en/p/kitchen/dishwashers/GDSH4715AF"
+          "specs": "https://www.frigidaire.com/en/p/kitchen/dishwashers/GDSH4715AF",
+          "price": "https://www.abt.com/Frigidaire-Gallery-24-Inch-Built-In-Dishwasher-with-CleanBoost-in-Stainless-Steel-GDSH4715AF/p/194791.html"
         }
       },
       "pros": [
@@ -6734,10 +6920,13 @@
       "height_in": 33.875,
       "depth_in": 24.5,
       "image": {
-        "local": "images/dishwashers/frigidaire-gdsh4715af.jpg",
+        "local": "images/dishwashers/frigidaire-gdsh4715af.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6550/6550548_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "price_as_of": "2026-10-20",
+      "availability": "current",
+      "last_updated": "2026-10-20"
     },
     {
       "id": "insignia-ns-dwr3ss1",
@@ -6762,7 +6951,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/insignia-ns-dwr3ss1/m404243/",
           "specs": "https://www.bestbuy.com/site/insignia-24-top-control-built-in-dishwasher-with-3rd-rack-sensor-wash-stainless-steel-tub-49-dba-energy-star-certification-stainless-steel/6403040.p",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2485661"
         }
@@ -6785,10 +6974,11 @@
       "height_in": 33.8,
       "depth_in": 24.5,
       "image": {
-        "local": "images/dishwashers/insignia-ns-dwr3ss1.jpg",
+        "local": "images/dishwashers/insignia-ns-dwr3ss1.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6403/6403040_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "whirlpool-wdt550sapz",
@@ -6805,17 +6995,18 @@
       "wifi": false,
       "panel_ready": false,
       "msrp": 1049,
-      "street_price": 938,
+      "street_price": 945,
       "ratings": {
         "cr_overall": 71,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/whirlpool-wdt550sapz/m413378/",
           "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.44-dba-ada-compliant-dishwasher-flush-with-cabinets-with-3rd-rack.wdt550sapz.html",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2635759",
-          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.44-dba-ada-compliant-dishwasher-flush-with-cabinets-with-3rd-rack.wdt550sapz.html"
+          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.44-dba-ada-compliant-dishwasher-flush-with-cabinets-with-3rd-rack.wdt550sapz.html",
+          "price": "https://www.pcrichard.com/x/WDT550SAPZ.html"
         },
         "retailer_ratings": {
           "lowes": {
@@ -6840,16 +7031,16 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/whirlpool-wdt550sapz.jpg",
+        "local": "images/dishwashers/whirlpool-wdt550sapz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578898_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 32.3125,
       "depth_in": 22.625,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/dishwashers/whirlpool-wdt550sapz.jpg",
+          "local": "images/dishwashers/whirlpool-wdt550sapz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578898_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -6908,7 +7099,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "maytag-mdts4224pz",
@@ -6926,7 +7119,7 @@
       "wifi": false,
       "panel_ready": false,
       "msrp": 849,
-      "street_price": 698,
+      "street_price": 719,
       "ratings": {
         "cr_overall": 71,
         "cr_reliability": "very-good",
@@ -6934,7 +7127,8 @@
         "reviewed": null,
         "source_urls": {
           "cr": "https://www.consumerreports.org/appliances/dishwashers/maytag-mdts4224pz/m412975/",
-          "specs": "https://www.maytag.com/kitchen/dishwashers-and-compactors/dishwashers/top-control-dishwashers/p.hybrid-tub-dishwasher-with-heated-dry.mdts4224pz.html"
+          "specs": "https://www.maytag.com/kitchen/dishwashers-and-compactors/dishwashers/top-control-dishwashers/p.hybrid-tub-dishwasher-with-heated-dry.mdts4224pz.html",
+          "price": "https://www.abt.com/Maytag-Dishwasher-Hybrid-Tub-24-Inch-in-Fingerprint-Resistant-Stainless-Steel-MDTS4224PZ/p/201337.html"
         }
       },
       "pros": [
@@ -6956,13 +7150,13 @@
       "height_in": 33.875,
       "depth_in": 24.5,
       "image": {
-        "local": "images/dishwashers/maytag-mdts4224pz.jpg",
+        "local": "images/dishwashers/maytag-mdts4224pz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6567/6567546_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/dishwashers/maytag-mdts4224pz.jpg",
+          "local": "images/dishwashers/maytag-mdts4224pz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6567/6567546_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -7022,7 +7216,9 @@
           "view": "g9"
         }
       ],
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "kitchenaid-kdpm604kps",
@@ -7046,7 +7242,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/kitchenaid-kdpm604kps/m401167/",
           "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.44-dba-dishwasher-in-printshield-finish-with-freeflex-third-rack.kdpm604kps.html"
         }
       },
@@ -7068,13 +7264,14 @@
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdpm604kps.jpg",
+        "local": "images/dishwashers/kitchenaid-kdpm604kps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398209_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "retired": true,
-      "retired_reason": "Discontinued by KitchenAid (2026 verification — multiple retailers including US Appliance, Plessers, Town Appliance confirm). Released 2020."
+      "retired_reason": "Discontinued by KitchenAid (2026 verification — multiple retailers including US Appliance, Plessers, Town Appliance confirm). Released 2020.",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "samsung-dw80bb707012",
@@ -7091,16 +7288,17 @@
       "wifi": true,
       "panel_ready": false,
       "msrp": 929,
-      "street_price": 749,
+      "street_price": 899,
       "ratings": {
         "cr_overall": 70,
         "cr_reliability": "fair",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/samsung-bespoke-dw80bb707012/m409416/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/rotary/bespoke-smart-42dba-dishwasher-with-stormwash-and-smart-dry-in-white-glass-dw80bb707012aa/",
-          "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/dishwasher/DW80B7070US_V8.pdf"
+          "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/dishwasher/DW80B7070US_V8.pdf",
+          "price": "https://www.abt.com/Samsung-24-White-Glass-BESPOKE-Smart-Dishwasher-With-StormWash-42dBA-With-Smart-Dry-DW80BB707012AA/p/179553.html"
         }
       },
       "pros": [
@@ -7120,51 +7318,53 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/samsung-dw80bb707012.jpg",
+        "local": "images/dishwashers/samsung-dw80bb707012.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511736_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.875,
       "depth_in": 25,
       "images": [
         {
-          "local": "images/dishwashers/samsung-dw80bb707012.jpg",
+          "local": "images/dishwashers/samsung-dw80bb707012.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511736_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/dishwashers/samsung-dw80bb707012-g1.jpg",
+          "local": "images/dishwashers/samsung-dw80bb707012-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550434117?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/dishwashers/samsung-dw80bb707012-g2.jpg",
+          "local": "images/dishwashers/samsung-dw80bb707012-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550434191?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/dishwashers/samsung-dw80bb707012-g3.jpg",
+          "local": "images/dishwashers/samsung-dw80bb707012-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550480302?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/dishwashers/samsung-dw80bb707012-g4.jpg",
+          "local": "images/dishwashers/samsung-dw80bb707012-g4.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550480304?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g4"
         },
         {
-          "local": "images/dishwashers/samsung-dw80bb707012-g5.jpg",
+          "local": "images/dishwashers/samsung-dw80bb707012-g5.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/dw80bb707012aa/gallery/us-dw7000bdw80b7070ap-dw80bb707012aa-550480306?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "sharp-sdw6506js",
@@ -7180,18 +7380,20 @@
       "energy_star": true,
       "wifi": false,
       "panel_ready": false,
-      "msrp": 899,
-      "street_price": 700,
+      "msrp": 900,
+      "street_price": 500,
       "ratings": {
         "cr_overall": 70,
         "cr_reliability": "unrated",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/sharp-sdw6506js/m414656/",
           "manufacturer": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2485662",
-          "specs": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/"
+          "specs": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/",
+          "price": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/",
+          "msrp": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/"
         }
       },
       "pros": [],
@@ -7207,13 +7409,15 @@
       "leak_protection": "leak sensor",
       "interior_light": true,
       "image": {
-        "local": "images/dishwashers/sharp-sdw6506js.jpg",
+        "local": "images/dishwashers/sharp-sdw6506js.webp",
         "source_url": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-hybrid-49-db-dishwasher-sdw6506js/",
         "source": "sharp"
       },
       "height_in": 33.625,
       "depth_in": 22.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "asko-dbi564ixxls",
@@ -7237,7 +7441,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/asko-dbi564ixxls/m417825/",
           "manufacturer": "https://us.asko.com/products/kitchen/dishwashers/touchproof-stainless-steel/DISHWASH-DW60-2-DBI564IXXLS-U-ASK/p/000000000000740106",
           "specs": "https://us.asko.com/products/kitchen/dishwashers/touchproof-stainless-steel/DISHWASH-DW60-2-DBI564IXXLS-U-ASK/p/000000000000740106"
         }
@@ -7259,14 +7463,15 @@
       "filter_type": "manual",
       "leak_protection": "AquaSafe",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/asko-dbi564ixxls.png",
+        "local": "images/dishwashers/asko-dbi564ixxls.webp",
         "source_url": "https://us.asko.com/products/kitchen/dishwashers/touchproof-stainless-steel/DISHWASH-DW60-2-DBI564IXXLS-U-ASK/p/000000000000740106",
         "source": "asko"
       },
       "height_in": 34.3125,
-      "depth_in": 21.8125
+      "depth_in": 21.8125,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "insignia-ns-dwrf2ss3",
@@ -7290,7 +7495,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/insignia-ns-dwrf2ss3/m415937/",
           "manufacturer": "https://www.bestbuy.com/site/insignia-24-front-control-built-in-dishwasher-with-sensor-wash-stainless-steel-tub-51-dba-stainless-steel/6477035.p?skuId=6477035",
           "specs": "https://www.bestbuy.com/site/insignia-24-front-control-built-in-dishwasher-with-sensor-wash-stainless-steel-tub-51-dba-stainless-steel/6477035.p?skuId=6477035"
         }
@@ -7303,14 +7508,15 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/insignia-ns-dwrf2ss3.jpg",
+        "local": "images/dishwashers/insignia-ns-dwrf2ss3.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477035_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.8125,
-      "depth_in": 25.25
+      "depth_in": 25.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "sharp-sdw6767hs",
@@ -7326,17 +7532,19 @@
       "energy_star": null,
       "wifi": null,
       "panel_ready": null,
-      "msrp": null,
-      "street_price": 729,
+      "msrp": 1150,
+      "street_price": 900,
       "ratings": {
         "cr_overall": 69,
         "cr_reliability": "unrated",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/sharp-sdw6767hs/m414657/",
           "manufacturer": "https://shop.sharpusa.com/24-in-slide-in-smart-45-db-dishwasher-sdw6767hs/",
-          "specs": "https://simplybetterliving.sharpusa.com/products/sharp-24-in-slide-in-smart-dishwasher-sdw6767hs"
+          "specs": "https://simplybetterliving.sharpusa.com/products/sharp-24-in-slide-in-smart-dishwasher-sdw6767hs",
+          "price": "https://simplybetterliving.sharpusa.com/products/sharp-24-in-slide-in-smart-dishwasher-sdw6767hs",
+          "msrp": "https://simplybetterliving.sharpusa.com/products/sharp-24-in-slide-in-smart-dishwasher-sdw6767hs"
         }
       },
       "pros": [],
@@ -7347,14 +7555,16 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/sharp-sdw6767hs.jpg",
+        "local": "images/dishwashers/sharp-sdw6767hs.webp",
         "source_url": "https://shop.sharpusa.com/24-in-slide-in-smart-45-db-dishwasher-sdw6767hs/",
         "source": "sharp"
       },
       "height_in": 33.88,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "kitchenaid-kdtm704kps",
@@ -7378,7 +7588,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/kitchenaid-kdtm704kps/m404461/",
           "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.360%C2%B0-max-jets-third-rack-dishwasher-with-ultra-bright-led-lighting,-44-dba.kdtm704kps.html",
           "specs": "https://www.us-appliance.com/kdtm704kps.html"
         }
@@ -7401,16 +7611,16 @@
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdtm704kps.jpg",
+        "local": "images/dishwashers/kitchenaid-kdtm704kps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398227_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.625,
       "depth_in": 26.75,
       "images": [
         {
-          "local": "images/dishwashers/kitchenaid-kdtm704kps.jpg",
+          "local": "images/dishwashers/kitchenaid-kdtm704kps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398227_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -7439,7 +7649,9 @@
           "source": "manufacturer",
           "view": "g4"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "sharp-sdw6757es",
@@ -7456,8 +7668,8 @@
       "energy_star": true,
       "wifi": false,
       "panel_ready": false,
-      "msrp": 749,
-      "street_price": 679,
+      "msrp": 1000,
+      "street_price": 800,
       "ratings": {
         "cr_overall": 68,
         "cr_reliability": "unrated",
@@ -7465,9 +7677,11 @@
         "yale_reliability_source": "yale_2026",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/sharp-sdw6757es/m415332/",
           "specs": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-45-db-dishwasher-sdw6757es/",
-          "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands"
+          "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
+          "price": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-45-db-dishwasher-sdw6757es/",
+          "msrp": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-45-db-dishwasher-sdw6757es/"
         },
         "endorsements": [
           {
@@ -7495,10 +7709,13 @@
       "height_in": 33.5,
       "depth_in": 24,
       "image": {
-        "local": "images/dishwashers/sharp-sdw6757es.jpg",
+        "local": "images/dishwashers/sharp-sdw6757es.webp",
         "source_url": "https://shop.sharpusa.com/24-in-slide-in-stainless-steel-45-db-dishwasher-sdw6757es/",
         "source": "sharp"
-      }
+      },
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "samsung-dw80r9950ug",
@@ -7522,7 +7739,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/samsung-dw80r9950ug/m409759/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/linear-wash/linear-wash-39dba-dishwasher-in-black-stainless-steel-dw80r9950ug-aa/",
           "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/dishwashers/rotary/pd/dw80r9950ug-aa/newspecsheet/DW80R9950US_V6.pdf"
         }
@@ -7544,13 +7761,15 @@
       "leak_protection": "leak sensor",
       "interior_light": false,
       "image": {
-        "local": "images/dishwashers/samsung-dw80r9950ug.jpg",
+        "local": "images/dishwashers/samsung-dw80r9950ug.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6329/6329951_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "height_in": 33.875,
-      "depth_in": 25
+      "depth_in": 25,
+      "price_as_of": "2026-05-05",
+      "availability": "discontinued"
     },
     {
       "id": "frigidaire-gdsp471taf",
@@ -7589,12 +7808,13 @@
       "interior_light": false,
       "last_updated": "2026-05-05",
       "image": {
-        "local": "images/dishwashers/frigidaire-gdsp471taf.png",
+        "local": "images/dishwashers/frigidaire-gdsp471taf.webp",
         "source_url": "https://www.frigidaire.com/en/p/kitchen/dishwashers/GDSP471TAF",
         "source": "frigidaire"
       },
       "height_in": 33.75,
-      "depth_in": 24.25
+      "depth_in": 24.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "frigidaire-fdsh4501as",
@@ -7618,7 +7838,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/frigidaire-fdsh4501as/m401713/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/dishwashers/FDSH4501AS",
           "specs": "https://www.frigidaire.com/en/p/kitchen/dishwashers/FDSH4501AS"
         }
@@ -7631,14 +7851,15 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/frigidaire-fdsh4501as.jpg",
+        "local": "images/dishwashers/frigidaire-fdsh4501as.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6406/6406750_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.75,
-      "depth_in": 24
+      "depth_in": 24,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "whirlpool-wdps7024rz",
@@ -7686,7 +7907,8 @@
       "last_updated": "2026-05-14",
       "_meta": {},
       "height_in": 33.625,
-      "depth_in": 26.75
+      "depth_in": 26.75,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-dw80cg5451sr",
@@ -7710,10 +7932,11 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/samsung-dw80cg5451sr/m411972/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/dishwashers/all-dishwashers/24-built-in-dishwasher-with-stormwash-in-fingerprint-resistant-stainless-steel-dw80cg5451sr-aa/",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-dishwashers/details/2453103",
-          "specs": "https://www.lowes.com/pd/Samsung-StormWash-Top-Control-24-in-Built-In-Dishwasher/5014401215"
+          "specs": "https://www.lowes.com/pd/Samsung-StormWash-Top-Control-24-in-Built-In-Dishwasher/5014401215",
+          "price": "https://www.abt.com/Samsung-46-dBA-Smart-Dishwasher-in-Fingerprint-Resistant-Stainless-Steel-DW80CG5451SRAA/p/193787.html"
         }
       },
       "pros": [
@@ -7731,14 +7954,16 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/samsung-dw80cg5451sr.jpg",
+        "local": "images/dishwashers/samsung-dw80cg5451sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549884_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.875,
-      "depth_in": 27.3125
+      "depth_in": 27.3125,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "sharp-sdw6888js",
@@ -7754,17 +7979,19 @@
       "energy_star": null,
       "wifi": null,
       "panel_ready": null,
-      "msrp": null,
-      "street_price": 799,
+      "msrp": 1300,
+      "street_price": 1000,
       "ratings": {
         "cr_overall": 66,
         "cr_reliability": "unrated",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/sharp-sdw6888js/m414123/",
           "manufacturer": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/",
-          "specs": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/"
+          "specs": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/",
+          "price": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/",
+          "msrp": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/"
         }
       },
       "pros": [],
@@ -7775,14 +8002,16 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/sharp-sdw6888js.jpg",
+        "local": "images/dishwashers/sharp-sdw6888js.webp",
         "source_url": "https://shop.sharpusa.com/24-in-slide-in-smart-42-db-dishwasher-sdw6888js/",
         "source": "sharp"
       },
       "height_in": 34.46875,
-      "depth_in": 24.5
+      "depth_in": 24.5,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "whirlpool-wdf341papm",
@@ -7799,16 +8028,17 @@
       "wifi": null,
       "panel_ready": null,
       "msrp": null,
-      "street_price": 399,
+      "street_price": 429,
       "ratings": {
         "cr_overall": 66,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/whirlpool-wdf341papm/m412382/",
           "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-visible-front-console/p.quiet-dishwasher-with-boost-cycle.wdf341papm.html",
-          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-visible-front-console/p.WDF341PAPM.html"
+          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-visible-front-console/p.WDF341PAPM.html",
+          "price": "https://www.pcrichard.com/x/WDF341PAPM.html"
         }
       },
       "pros": [],
@@ -7819,9 +8049,9 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/whirlpool-wdf341papm.jpg",
+        "local": "images/dishwashers/whirlpool-wdf341papm.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6564/6564302_sd.jpg",
         "source": "best_buy"
       },
@@ -7829,7 +8059,7 @@
       "depth_in": 24.5,
       "images": [
         {
-          "local": "images/dishwashers/whirlpool-wdf341papm.jpg",
+          "local": "images/dishwashers/whirlpool-wdf341papm.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6564/6564302_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -7888,7 +8118,9 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "frigidaire-pdsh4816af",
@@ -7912,7 +8144,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/frigidaire-professional-pdsh4816af/m412387/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/dishwashers/PDSH4816AF",
           "specs": "https://www.frigidaire.com/en/p/kitchen/dishwashers/PDSH4816AF"
         }
@@ -7925,14 +8157,15 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/frigidaire-pdsh4816af.jpg",
+        "local": "images/dishwashers/frigidaire-pdsh4816af.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6551/6551710_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.75,
-      "depth_in": 24.25
+      "depth_in": 24.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "cafe-cdp888m5vs5",
@@ -7949,16 +8182,17 @@
       "wifi": null,
       "panel_ready": null,
       "msrp": null,
-      "street_price": 1715,
+      "street_price": 1754,
       "ratings": {
         "cr_overall": 65,
         "cr_reliability": "fair",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/cafe-cdp888m5vs5/m416163/",
           "manufacturer": "https://www.cafeappliances.com/appliance/Cafe-CustomFit-ENERGY-STAR-Stainless-Interior-Smart-Dishwasher-with-Ultra-Wash-Top-Rack-and-LED-Lights-39-dBA-in-Platinum-Glass-CDP888M5VS5",
-          "specs": "https://www.ajmadison.com/cgi-bin/ajmadison/CDP888M5VS5.html"
+          "specs": "https://www.ajmadison.com/cgi-bin/ajmadison/CDP888M5VS5.html",
+          "price": "https://www.abt.com/Cafe-CustomFit-Dishwasher-with-Hidden-Controls-24-Inch-in-Platinum-Glass-CDP888M5VS5/p/210655.html"
         }
       },
       "pros": [],
@@ -7969,14 +8203,16 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": true,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/cafe-cdp888m5vs5.jpg",
+        "local": "images/dishwashers/cafe-cdp888m5vs5.webp",
         "source_url": "https://www.cafeappliances.com/appliance/Cafe-CustomFit-ENERGY-STAR-Stainless-Interior-Smart-Dishwasher-with-Ultra-Wash-Top-Rack-and-LED-Lights-39-dBA-in-Platinum-Glass-CDP888M5VS5",
         "source": "cafe"
       },
       "height_in": 34,
-      "depth_in": 24
+      "depth_in": 24,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "whirlpool-wdp540hamz",
@@ -7993,16 +8229,17 @@
       "wifi": null,
       "panel_ready": null,
       "msrp": null,
-      "street_price": 479,
+      "street_price": 458,
       "ratings": {
         "cr_overall": 65,
         "cr_reliability": "very-good",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/whirlpool-wdp540hamz/m408875/",
           "manufacturer": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.quiet-dishwasher-with-boost-cycle-and-pocket-handle.wdp540hamz.html",
-          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.24-dishwasher-with-boost-cycle-and-triple-filtration-wash-55dba.wdp540hamz.html"
+          "specs": "https://www.whirlpool.com/kitchen/dishwasher-and-cleaning/dishwashers/built-in-hidden-control-console/p.24-dishwasher-with-boost-cycle-and-triple-filtration-wash-55dba.wdp540hamz.html",
+          "price": "https://www.abt.com/Whirlpool-24-Fingerprint-Resistant-Stainless-Steel-Dishwasher-With-Boost-Cycle-And-Pocket-Handle-WDP540HAMZ/p/182684.html"
         }
       },
       "pros": [],
@@ -8013,9 +8250,9 @@
       "filter_type": "self_cleaning",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/whirlpool-wdp540hamz.jpg",
+        "local": "images/dishwashers/whirlpool-wdp540hamz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6515/6515793_sd.jpg",
         "source": "best_buy"
       },
@@ -8023,7 +8260,7 @@
       "depth_in": 24.5,
       "images": [
         {
-          "local": "images/dishwashers/whirlpool-wdp540hamz.jpg",
+          "local": "images/dishwashers/whirlpool-wdp540hamz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6515/6515793_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -8064,7 +8301,9 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ]
+      ],
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "kitchenaid-kdte104kps",
@@ -8088,7 +8327,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/kitchenaid-kdte104kps/m404616/",
           "manufacturer": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.47-dba-two-rack-dishwasher-in-printshield-finish-with-prowash-cycle.kdte104kps.html",
           "specs": "https://www.kitchenaid.com/major-appliances/dishwashers/integrated-control/p.47-dba-two-rack-dishwasher-in-printshield-finish-with-prowash-cycle.kdte104kps.html"
         }
@@ -8101,10 +8340,11 @@
       "filter_type": "manual",
       "leak_protection": "overflow + leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "_meta": {},
       "height_in": 34.625,
-      "depth_in": 26.75
+      "depth_in": 26.75,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "fisher-paykel-dd24dtx6hi1",
@@ -8121,16 +8361,17 @@
       "wifi": true,
       "panel_ready": true,
       "msrp": 3099,
-      "street_price": 2599,
+      "street_price": 3099,
       "ratings": {
         "cr_overall": 65,
         "cr_reliability": "fair",
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/fisher-paykel-dd24dtx6hi1/m409229/",
           "manufacturer": "https://www.fisherpaykel.com/us/dishwashing/integrated-dishwashers/series-11-integrated-tall-double-dishdrawer-dishwasher-dd24dtx6hi1-82163.html",
-          "specs": "https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dwf2352830/DesignPlanning-FisherPaykelCA/FP-SpecGuide-DD24DTX6I1-DD24DTX6HI1-DishDrawer-0-US-CA-592735A.pdf"
+          "specs": "https://www.fisherpaykel.com/on/demandware.static/-/Sites-fpa-master-catalog/default/dwf2352830/DesignPlanning-FisherPaykelCA/FP-SpecGuide-DD24DTX6I1-DD24DTX6HI1-DishDrawer-0-US-CA-592735A.pdf",
+          "price": "https://www.abt.com/Fisher-Paykel-Series-11-24-Panel-Ready-Integrated-Double-DishDrawer-x2122-Dishwasher-Tall-Sanitize-DD24DTX6HI1/p/172135.html"
         }
       },
       "pros": [
@@ -8150,58 +8391,60 @@
       "filter_type": "manual",
       "leak_protection": "leak sensor",
       "interior_light": false,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1.png",
+        "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1.webp",
         "source_url": "https://www.fisherpaykel.com/us/dishwashing/integrated-dishwashers/series-11-integrated-tall-double-dishdrawer-dishwasher-dd24dtx6hi1-82163.html",
         "source": "fisher-paykel"
       },
       "images": [
         {
-          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1.png",
+          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1.webp",
           "source_url": "https://www.fisherpaykel.com/us/dishwashing/integrated-dishwashers/series-11-integrated-tall-double-dishdrawer-dishwasher-dd24dtx6hi1-82163.html",
           "source": "fisher-paykel",
           "view": "primary"
         },
         {
-          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g1.png",
+          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g1.webp",
           "source_url": "https://dam.fisherpaykel.com/KZ3PKN00/at/74j323t6768sg5svkxcvxj6/fp_02_DD24DTX6HI1_10_mug_dp_pr.png",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g2.jpg",
+          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g2.webp",
           "source_url": "https://dam.fisherpaykel.com/KZ3PKN00/at/8xw5stfw9f6bpr37j36mnmwn/fp-02-DD24DTX6I1-DD24DTX6HI1-34-insitu-glo-hero-desktop.jpg",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g3.jpg",
+          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g3.webp",
           "source_url": "https://dam.fisherpaykel.com/KZ3PKN00/at/4tnxvkqrnjxtwn5tgsj78h28/fp-02-DD24DTX6I1-DD24DTX6HI1-34-insitu-glo-hero-tablet.jpg",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g4.jpg",
+          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g4.webp",
           "source_url": "https://dam.fisherpaykel.com/KZ3PKN00/at/237hcjfq4rkp4p65h66ft5mz/fp-02-DD24DTX6I1-DD24DTX6HI1-34-insitu-glo-hero-mobile.jpg",
           "source": "manufacturer",
           "view": "g4"
         },
         {
-          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g5.jpg",
+          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g5.webp",
           "source_url": "https://dam.fisherpaykel.com/KZ3PKN00/at/rwhwjppn2kqc2nsqn8s8r5r/fp-04-dd24dtx6hi1-35-insitu-cp-15-gal.jpg",
           "source": "manufacturer",
           "view": "g5"
         },
         {
-          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g6.jpg",
+          "local": "images/dishwashers/fisher-paykel-dd24dtx6hi1-g6.webp",
           "source_url": "https://dam.fisherpaykel.com/KZ3PKN00/at/jgxpg73zgphth3wz85pfx7h/fp-04-dd24dtx6hi1-34-insitu-cp-15-gal.jpg",
           "source": "manufacturer",
           "view": "g6"
         }
       ],
       "height_in": 34,
-      "depth_in": 22.5
+      "depth_in": 22.5,
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "bertazzoni-dw24s3ipv",
@@ -8225,7 +8468,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/dishwashers/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/bertazzoni-professional-series-dw24s3ipv/m414450/",
           "manufacturer": "https://us.bertazzoni.com/products/professional-series/dishwashers/24-inch-dishwasher-standard-tube-panel-ready",
           "specs": "https://us.bertazzoni.com/products/professional-series/dishwashers/24-inch-dishwasher-standard-tube-panel-ready"
         }
@@ -8242,14 +8485,15 @@
       "finishes": [
         "Panel Ready"
       ],
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/dishwashers/bertazzoni-dw24s3ipv.jpg",
+        "local": "images/dishwashers/bertazzoni-dw24s3ipv.webp",
         "source_url": "https://us.bertazzoni.com/products/professional-series/dishwashers/24-inch-dishwasher-standard-tube-panel-ready",
         "source": "bertazzoni"
       },
       "height_in": 32.25,
-      "depth_in": 21.625
+      "depth_in": 21.625,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "miele-g7216scu",
@@ -8282,7 +8526,8 @@
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/",
           "yale_reliability": "https://blog.yaleappliance.com/most-reliable-dishwashers",
-          "specs": "https://assets.ajmadison.com/ajmadison/itemdocs/G7216SCU_Miele_Specification_Sheet.pdf"
+          "specs": "https://assets.ajmadison.com/ajmadison/itemdocs/G7216SCU_Miele_Specification_Sheet.pdf",
+          "price": "https://www.abt.com/Miele-G-7216-SCU-Pre-Finished-Dishwasher-24-Inch-in-Clean-Touch-Steel-12497130/p/209956.html"
         },
         "endorsements": [
           {
@@ -8312,13 +8557,15 @@
       ],
       "release_year": 2024,
       "image": {
-        "local": "images/dishwashers/miele-g7216scu.png",
+        "local": "images/dishwashers/miele-g7216scu.webp",
         "source_url": "https://www.mieleusa.com/product/12497130/built-under-dishwashers-g-7216-scu-cleansteel-front",
         "source": "miele"
       },
       "height_in": 33.75,
       "depth_in": 22.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-10-20",
+      "availability": "current"
     },
     {
       "id": "cafe-cdt888p2vs1",
@@ -8350,7 +8597,8 @@
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-dishwashers/",
           "specs": "https://www.cafeappliances.ca/appliances/cdt888p2vs1/specs",
-          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers"
+          "reviewed": "https://www.reviewed.com/dishwashers/best-right-now/best-stainless-steel-dishwashers",
+          "cr": "https://www.consumerreports.org/appliances/dishwashers/cafe-cdt888p2vs1/m414120/"
         },
         "endorsements": [
           {
@@ -8388,13 +8636,15 @@
       ],
       "release_year": 2024,
       "image": {
-        "local": "images/dishwashers/cafe-cdt888p2vs1.jpg",
+        "local": "images/dishwashers/cafe-cdt888p2vs1.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572544_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 34,
       "depth_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "current"
     },
     {
       "id": "bosch-shem63w55n",
@@ -8473,13 +8723,13 @@
       ],
       "release_year": 2017,
       "image": {
-        "local": "images/dishwashers/bosch-shem63w55n.jpg",
+        "local": "images/dishwashers/bosch-shem63w55n.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5710/5710286_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/dishwashers/bosch-shem63w55n.jpg",
+          "local": "images/dishwashers/bosch-shem63w55n.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5710/5710286_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -8521,9 +8771,11 @@
           "view": "g6"
         }
       ],
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 33.875,
-      "depth_in": 23.75
+      "depth_in": 23.75,
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     },
     {
       "id": "samsung-dw80b6060us",
@@ -8549,7 +8801,7 @@
       "street_price": 949,
       "ratings": {
         "cr_overall": null,
-        "cr_reliability": "fair",
+        "cr_reliability": null,
         "yale_reliability_pct": null,
         "source_urls": {
           "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/pdf/DW80B6060_V4.pdf"
@@ -8583,13 +8835,14 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/dishwashers/samsung-dw80b6060us.jpg",
+        "local": "images/dishwashers/samsung-dw80b6060us.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6491/6491920_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.875,
       "depth_in": 25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "kitchenaid-kdpm704kps",
@@ -8668,13 +8921,15 @@
       ],
       "release_year": 2022,
       "image": {
-        "local": "images/dishwashers/kitchenaid-kdpm704kps.jpg",
+        "local": "images/dishwashers/kitchenaid-kdpm704kps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6398/6398229_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 33.5,
       "depth_in": 24.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14",
+      "availability": "discontinued"
     }
   ]
 }

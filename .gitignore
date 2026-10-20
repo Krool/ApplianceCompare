@@ -35,3 +35,6 @@ build/
 
 # Local image-audit scratch (absolute paths, regenerated on demand)
 .image-audit/
+
+# optimize-images.mjs output: originals it replaced, pending a reviewed git rm
+scripts/.optimize-orphans.txt

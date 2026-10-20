@@ -1,6 +1,27 @@
-// Sidebar — filters. Fully controlled by parent state.
+// Sidebar — filters. Fully controlled by parent state. On phones it becomes a
+// full-screen sheet opened from the toolbar's Filters button (`open`).
 
-function Sidebar({ category, models, brands, filters, setFilters, collapsed, setCollapsed, onClearAll }) {
+// Min/max (or max-only) number inputs for one numeric filter.
+function RangeFilter({ label, unit, step, minKey, maxKey, filters, setF }) {
+  const input = (key, which) => (
+    <input type="number" step={step} aria-label={`${which === 'min' ? 'Minimum' : 'Maximum'} ${label}`}
+      placeholder={minKey ? (which === 'min' ? 'Min' : 'Max') : unit}
+      value={filters[key] ?? ''} onChange={e => setF(key, e.target.value ? +e.target.value : null)} />
+  );
+  const inverted = minKey && filters[minKey] != null && filters[maxKey] != null && filters[minKey] > filters[maxKey];
+  return (
+    <div className="range-group">
+      <div className="range-row">
+        {minKey ? <>{input(minKey, 'min')}<span>to</span></> : <span>&le;</span>}
+        {input(maxKey, 'max')}
+        {!minKey && unit && <span>{unit}</span>}
+      </div>
+      {inverted && <div className="range-hint">Min is greater than max — no models will match.</div>}
+    </div>
+  );
+}
+
+function Sidebar({ category, models, brands, filters, setFilters, collapsed, setCollapsed, onClearAll, open, onClose, resultCount }) {
   const setF = (k, v) => setFilters({ ...filters, [k]: v });
   const toggle = (k, val) => {
     const cur = filters[k] || [];
@@ -24,7 +45,7 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
   const tubs = {};
   const widths = {}; // numeric keys; filter values stored as numbers to match m.width_in
   let hasEnergyStar = false, hasWifi = false, hasPanelReady = false, hasAirFry = false;
-  let hasNoiseDb = false, hasCapacity = false, hasHeight = false;
+  let hasNoiseDb = false, hasCapacity = false, hasHeight = false, hasDepth = false;
   models.forEach(m => {
     brandCounts[m.brand] = (brandCounts[m.brand] || 0) + 1;
     const t = brandTier[m.brand];
@@ -44,6 +65,7 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
     if (typeof m.decibels === 'number' || typeof m.noise_db === 'number') hasNoiseDb = true;
     if (typeof m.capacity_cf === 'number' || typeof m.oven_capacity_cf === 'number') hasCapacity = true;
     if (typeof m.height_in === 'number') hasHeight = true;
+    if (typeof m.depth_in === 'number' || typeof m.depth_with_handle_in === 'number') hasDepth = true;
   });
   const visibleBrands = brands.filter(b => brandCounts[b.id]);
 
@@ -135,24 +157,18 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
   if (hasWifi) featureRows.push(featureRow('wifi', 'Wi-Fi / Smart'));
   if (hasPanelReady) featureRows.push(featureRow('panelReady', 'Panel-ready'));
   if (hasAirFry) featureRows.push(featureRow('airFry', 'Air fry'));
+  if (models.some(m => m.availability === 'discontinued')) featureRows.push(featureRow('inProduction', 'Hide discontinued'));
 
-  // Inline hint when min > max so the user understands why results vanished.
-  const priceMin = filters.priceMin;
-  const priceMax = filters.priceMax;
-  const priceInverted = priceMin != null && priceMax != null && priceMin > priceMax;
+  const range = (props) => <RangeFilter {...props} filters={filters} setF={setF} />;
 
   return (
-    <aside className="sidebar" aria-label="Filters">
-      {group('price', 'Price (street)', ['priceMin', 'priceMax'], (
-        <div className="range-group">
-          <div className="range-row">
-            <input type="number" aria-label="Minimum price (street), dollars" placeholder="Min" value={filters.priceMin ?? ''} onChange={e => setF('priceMin', e.target.value ? +e.target.value : null)} />
-            <span>to</span>
-            <input type="number" aria-label="Maximum price (street), dollars" placeholder="Max" value={filters.priceMax ?? ''} onChange={e => setF('priceMax', e.target.value ? +e.target.value : null)} />
-          </div>
-          {priceInverted && <div className="range-hint">Min is greater than max — no models will match.</div>}
-        </div>
-      ))}
+    <aside className={"sidebar" + (open ? ' is-open' : '')} aria-label="Filters">
+      <div className="sidebar-sheet-head">
+        <span>Filters</span>
+        <button type="button" className="drawer-close" onClick={onClose} aria-label="Close filters">✕</button>
+      </div>
+      {group('price', 'Price (street)', ['priceMin', 'priceMax'],
+        range({ label: 'price (street), dollars', minKey: 'priceMin', maxKey: 'priceMax' }))}
 
       {category === 'refrigerators' && facetGroup('style', "Style", "style", styles)}
       {category === 'refrigerators' && facetGroup('depth', "Depth", "depth", depths, ["standard", "counter", "built_in"])}
@@ -160,33 +176,18 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
       {category === 'ranges_ovens_cooktops' && facetGroup('style', "Style", "style", styles)}
       {category === 'ranges_ovens_cooktops' && facetGroup('fuel', "Fuel", "fuel", fuels, ["induction", "gas", "electric", "dual_fuel"])}
       {category === 'dishwashers' && facetGroup('tub', "Tub", "tub", tubs, ["stainless", "plastic"])}
-      {hasCapacity && group('capacity', 'Capacity (cu ft)', ['capacityMin', 'capacityMax'], (
-        <div className="range-group">
-          <div className="range-row">
-            <input type="number" step="0.1" aria-label="Minimum capacity, cubic feet" placeholder="Min" value={filters.capacityMin ?? ''} onChange={e => setF('capacityMin', e.target.value ? +e.target.value : null)} />
-            <span>to</span>
-            <input type="number" step="0.1" aria-label="Maximum capacity, cubic feet" placeholder="Max" value={filters.capacityMax ?? ''} onChange={e => setF('capacityMax', e.target.value ? +e.target.value : null)} />
-          </div>
-        </div>
-      ))}
-      {hasNoiseDb && group('noise', 'Quietness', 'dbMax', (
-        <div className="range-group">
-          <div className="range-row">
-            <span>&le;</span>
-            <input type="number" aria-label="Maximum noise level, decibels" placeholder="dB" value={filters.dbMax ?? ''} onChange={e => setF('dbMax', e.target.value ? +e.target.value : null)} />
-            <span>dB</span>
-          </div>
-        </div>
-      ))}
+      {hasCapacity && group('capacity', 'Capacity (cu ft)', ['capacityMin', 'capacityMax'],
+        range({ label: 'capacity, cubic feet', step: 0.1, minKey: 'capacityMin', maxKey: 'capacityMax' }))}
+      {hasNoiseDb && group('noise', 'Quietness', 'dbMax',
+        range({ label: 'noise level, decibels', unit: 'dB', maxKey: 'dbMax' }))}
       {category !== 'dishwashers' && widthGroup()}
-      {hasHeight && group('height', 'Height (in)', ['heightMin', 'heightMax'], (
-        <div className="range-group">
-          <div className="range-row">
-            <input type="number" step="0.1" aria-label="Minimum height, inches" placeholder="Min" value={filters.heightMin ?? ''} onChange={e => setF('heightMin', e.target.value ? +e.target.value : null)} />
-            <span>to</span>
-            <input type="number" step="0.1" aria-label="Maximum height, inches" placeholder="Max" value={filters.heightMax ?? ''} onChange={e => setF('heightMax', e.target.value ? +e.target.value : null)} />
-          </div>
-        </div>
+      {hasHeight && group('height', 'Height (in)', ['heightMin', 'heightMax'],
+        range({ label: 'height, inches', step: 0.1, minKey: 'heightMin', maxKey: 'heightMax' }))}
+      {hasDepth && group('depthMax', 'Max depth (in)', 'depthMax', (
+        <>
+          {range({ label: 'depth, inches', unit: 'in', step: 0.1, maxKey: 'depthMax' })}
+          <div className="range-note">Includes the handle when the spec sheet lists it. Hides models with no depth data.</div>
+        </>
       ))}
 
       {group('tier', 'Tier', 'tier', (
@@ -229,11 +230,14 @@ function Sidebar({ category, models, brands, filters, setFilters, collapsed, set
         </div>
       ))}
 
-      {featureRows.length > 0 && group('features', 'Features', ['energyStar', 'wifi', 'panelReady', 'airFry'], (
+      {featureRows.length > 0 && group('features', 'Features', ['energyStar', 'wifi', 'panelReady', 'airFry', 'inProduction'], (
         <div className="filter-list">{featureRows}</div>
       ))}
 
       <button className="clear-filters" onClick={onClearAll || (() => setFilters({}))}>Clear all filters</button>
+      <div className="sidebar-sheet-foot">
+        <button type="button" className="btn-primary" onClick={onClose}>Show {resultCount} result{resultCount === 1 ? '' : 's'}</button>
+      </div>
     </aside>
   );
 }

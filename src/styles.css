@@ -305,6 +305,49 @@ tr:focus-visible { outline-offset: -2px; }
   margin-bottom: 12px; font-size: 12px; color: var(--ink-3);
 }
 .results-meta strong { color: var(--ink); font-weight: 600; }
+.link-btn {
+  background: none; border: 0; padding: 0; margin-left: 10px;
+  color: var(--accent); font-size: inherit; text-decoration: underline;
+  text-decoration-color: rgba(184, 67, 31, 0.35); text-underline-offset: 2px;
+}
+.range-note { margin-top: 6px; font-size: 11.5px; color: var(--ink-3); line-height: 1.35; }
+.load-note { padding: 40px 0; color: var(--ink-2); }
+
+/* Phone-only controls; the desktop layout has a visible sidebar and sortable headers. */
+.filters-toggle, .sort-select-wrap, .sidebar-sheet-head, .sidebar-sheet-foot { display: none; }
+
+/* "Rank by" weight presets + Customize popover */
+.rank-by { position: relative; display: inline-flex; align-items: center; gap: 8px; }
+.rank-by-label {
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--ink-3); font-weight: 500;
+}
+.rank-by-select, .sort-select {
+  padding: 7px 10px; border: 1px solid var(--line-2); border-radius: 7px;
+  background: var(--bg-elev); font: inherit; font-size: 13px; color: var(--ink);
+}
+.rank-by-custom {
+  background: none; border: 1px solid var(--line-2); border-radius: 7px;
+  padding: 7px 10px; font-size: 12.5px; color: var(--ink-2);
+}
+.rank-by-custom:hover, .rank-by-custom[aria-expanded="true"] { background: var(--bg-sunk); color: var(--ink); }
+.rank-by-panel {
+  position: absolute; top: calc(100% + 8px); left: 0; z-index: 60;
+  width: 300px; padding: 14px 16px;
+  background: var(--bg-elev); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);
+  display: flex; flex-direction: column; gap: 12px;
+}
+.rank-by-help { margin: 0; font-size: 12px; color: var(--ink-3); line-height: 1.4; }
+.rank-by-row { display: flex; flex-direction: column; gap: 2px; font-size: 13px; }
+.rank-by-row-head { display: flex; justify-content: space-between; color: var(--ink); }
+.rank-by-share { color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.rank-by-row input[type="range"] { width: 100%; accent-color: var(--accent); margin: 2px 0; }
+.rank-by-hint { font-size: 11px; color: var(--ink-3); }
+.rank-by-reset {
+  align-self: flex-start; background: none; border: 1px solid var(--line-2);
+  border-radius: 5px; padding: 5px 10px; font-size: 12px; color: var(--ink-2);
+}
 
 /* === Table === */
 .table-wrap {
@@ -369,7 +412,14 @@ table.appliance-table {
   border: 5px solid transparent;
   border-bottom-color: var(--ink);
 }
+/* Sort control is a real button; strip its chrome so the header looks the same. */
+.th-sort {
+  all: unset; cursor: pointer;
+  font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit;
+}
+.th-sort:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
 .appliance-table thead th:hover .th-tip,
+.appliance-table thead th:focus-within .th-tip,
 .appliance-table thead th:focus-visible .th-tip,
 .appliance-table thead th:focus .th-tip {
   opacity: 1; transform: translateY(0);
@@ -403,6 +453,21 @@ body[data-density="compact"] .score-bar .num { font-size: 13px; }
 }
 .cell-name .name {
   font-weight: 500; color: var(--ink); font-variant-numeric: normal;
+}
+.name-btn {
+  all: unset; cursor: pointer; font: inherit; font-weight: 500;
+}
+.name-btn:hover { text-decoration: underline; text-decoration-color: var(--line-2); }
+.name-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.appliance-table tbody tr.is-retired { opacity: 0.6; }
+.retired-tag {
+  margin-left: 8px; padding: 1px 6px; border-radius: 4px;
+  background: var(--bg-sunk); color: var(--ink-2);
+  font-family: var(--sans); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em;
+}
+.retired-note {
+  margin-bottom: 16px; padding: 10px 14px; border-radius: var(--radius);
+  background: #f4ebd6; color: #6b5618; font-size: 13px;
 }
 .cell-name .sub {
   font-size: 11.5px; color: var(--ink-3);
@@ -751,6 +816,13 @@ body[data-density="compact"] .score-bar .num { font-size: 13px; }
   color: var(--ink); margin: 4px 0; font-variant-numeric: tabular-nums;
 }
 .score-card .val.muted { color: var(--ink-3); }
+.score-card .val.val-word { font-size: 22px; line-height: 38px; }
+.price-meta { margin-top: 6px; font-size: 12px; color: var(--ink-3); }
+.retailer-links {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px;
+  margin-top: 10px; font-size: 13px;
+}
+.retailer-links span { color: var(--ink-3); font-size: 12px; }
 .score-card .src { font-size: 10.5px; color: var(--ink-3); }
 
 .proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -939,7 +1011,18 @@ body.has-compare { padding-bottom: 72px; }
 .compare-modal-header h2 {
   font-family: var(--serif); margin: 0; font-size: 22px; font-weight: 500;
 }
-.compare-modal-header .drawer-close { margin-left: auto; }
+.compare-modal-header .drawer-close { margin-left: 16px; }
+.compare-actions {
+  margin-left: auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  font-size: 12.5px; color: var(--ink-2);
+}
+.compare-diff { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.compare-diff input { accent-color: var(--accent); margin: 0; }
+.compare-action {
+  background: none; border: 1px solid var(--line-2); border-radius: 5px;
+  padding: 5px 10px; font-size: 12px; color: var(--ink-2);
+}
+.compare-action:hover { background: var(--bg-sunk); color: var(--ink); }
 .compare-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 .compare-table th, .compare-table td {
   padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--line);
@@ -957,7 +1040,6 @@ body.has-compare { padding-bottom: 72px; }
 }
 .compare-table thead th .sub { display: block; font-family: var(--mono); font-size: 11px; color: var(--ink-3); margin-top: 2px; }
 .compare-table .best { color: var(--good); font-weight: 600; }
-.compare-table .worst { color: var(--ink-3); }
 
 /* === Guide page === */
 .guide-wrap { max-width: 1600px; margin: 0 auto; padding: 0 24px; }
@@ -1036,7 +1118,6 @@ body.has-compare { padding-bottom: 72px; }
 }
 
 /* Tweaks panel customization */
-.tweak-section { padding: 8px 0; }
 
 /* === Installation definition list === */
 .install-dl {
@@ -1150,21 +1231,50 @@ body.has-compare { padding-bottom: 72px; }
   .tab-btn { white-space: nowrap; }
   .header-stats { display: none; }
 
-  .sidebar {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-    padding: 12px 14px 6px;
-    max-height: 38vh;
-    overflow-y: auto;
+  /* Filters: a full-screen sheet opened from the toolbar, so results start
+     at the top of the page instead of under a scroll-trapping tray. */
+  .sidebar { display: none; }
+  .sidebar.is-open {
+    display: block;
+    position: fixed; inset: 0; z-index: 120;
+    background: var(--bg); border: 0;
+    padding: 0 16px 88px; overflow-y: auto;
   }
+  .sidebar-sheet-head {
+    display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0; z-index: 1; background: var(--bg);
+    padding: 12px 0; margin-bottom: 8px; border-bottom: 1px solid var(--line);
+    font-weight: 600; font-size: 15px;
+  }
+  .sidebar-sheet-foot {
+    display: block; position: fixed; left: 0; right: 0; bottom: 0;
+    padding: 12px 16px; background: var(--bg-elev); border-top: 1px solid var(--line);
+  }
+  .sidebar-sheet-foot .btn-primary { width: 100%; padding: 12px; }
   .filter-group { margin-bottom: 14px; }
-  .filter-list { max-height: 180px; overflow-y: auto; }
+  .filter-item { padding: 9px 8px; }
+  .filter-item input { width: 18px; height: 18px; }
+  .range-row input[type="number"] { padding: 9px 8px; font-size: 16px; }
 
   .main { padding: 16px 0; }
 
   .toolbar { flex-wrap: wrap; gap: 10px; padding: 0 14px; margin-bottom: 12px; }
-  .search-box { max-width: none; width: 100%; }
-  .sort-select { width: 100%; }
+  .search-box { max-width: none; flex: 1 1 100%; }
+  .search-box input { font-size: 16px; }  /* below 16px iOS zooms the page on focus */
+  .results-meta { padding: 0 14px; }
+  .filters-toggle {
+    display: inline-block; flex: 1;
+    padding: 9px 12px; border: 1px solid var(--line-2); border-radius: 7px;
+    background: var(--bg-elev); font-size: 14px; color: var(--ink);
+  }
+  .sort-select-wrap { display: block; flex: 1; }
+  .sort-select { width: 100%; padding: 9px 10px; font-size: 14px; }
+  .rank-by { width: 100%; }
+  .rank-by-select { flex: 1; padding: 9px 10px; font-size: 14px; }
+  .rank-by-panel { width: auto; left: 0; right: 0; }
+  .loc-toggle { margin-left: 0; }
+  .results-hint { display: none; }
+  .compare-cell input { width: 22px; height: 22px; }
 
   /* Table: edge-to-edge horizontal scroll, hide low-priority columns */
   .table-wrap {
@@ -1182,15 +1292,9 @@ body.has-compare { padding-bottom: 72px; }
   }
   .appliance-table { font-size: 12.5px; }
   .appliance-table th, .appliance-table td { padding: 10px 8px; }
-  /* Hide category column (5), CR column (7), Energy (9), Tier (10) — keep Compare/Score/Model/Brand/Price/Yale */
-  .appliance-table th:nth-child(5),
-  .appliance-table td:nth-child(5),
-  .appliance-table th:nth-child(7),
-  .appliance-table td:nth-child(7),
-  .appliance-table th:nth-child(9),
-  .appliance-table td:nth-child(9),
-  .appliance-table th:nth-child(10),
-  .appliance-table td:nth-child(10) { display: none; }
+  /* Keep Compare / Score / Model / Brand / key spec / Price; CR, Yale, Energy
+     and Tier still show in the drawer. Class-based so column order can change. */
+  .appliance-table .col-opt { display: none; }
   .appliance-table td.cell-brand { font-size: 11.5px; color: var(--ink-3); }
   .cell-name .name { font-size: 13px; line-height: 1.35; }
   .cell-name .sub { font-size: 10.5px; }
@@ -1260,23 +1364,27 @@ body.has-compare { padding-bottom: 72px; }
   .brand-cards { grid-template-columns: 1fr; }
   .pitfall-row { padding: 12px 14px; }
 
-  /* Filters panel toggle hint */
-  .sidebar::before {
-    content: "Filters";
-    display: block;
-    font-size: 11px; font-weight: 600;
-    text-transform: uppercase; letter-spacing: 0.12em;
-    color: var(--ink-3); margin-bottom: 10px;
-  }
 }
 
 @media (max-width: 479px) {
   .brand-mark { font-size: 16px; }
   .drawer-title { font-size: 19px; }
-  /* Drop one more table column (Brand col 4) on very small screens */
+  /* Drop one more table column (Brand col 4) on very small screens; the
+     model name already carries the brand. */
   .appliance-table th:nth-child(4),
-  .appliance-table td:nth-child(4) { display: none; }
+  .appliance-table td.cell-brand { display: none; }
   .score-grid { grid-template-columns: 1fr; }
   .guide-page h1 { font-size: 24px; }
   .guide-page h2 { font-size: 20px; }
+}
+
+/* Print: the compare modal prints as a plain table; everything else is hidden. */
+@media print {
+  body.has-compare { padding-bottom: 0; }
+  .site-header, .app, .guide-wrap, .compare-bar, .drawer, .drawer-overlay, .skip-link,
+  .compare-actions, .compare-modal-header .drawer-close { display: none !important; }
+  .compare-modal-overlay { position: static; background: none; padding: 0; overflow: visible; }
+  .compare-modal { box-shadow: none; max-width: none; width: auto; height: auto; max-height: none; }
+  .compare-modal > div { overflow: visible !important; }
+  .compare-table { font-size: 11px; }
 }

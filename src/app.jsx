@@ -3,7 +3,8 @@ import { useState, useEffect, useMemo, useRef } from 'react';
 import { Sidebar } from './sidebar.jsx';
 import { ApplianceTable, Drawer, CompareBar, CompareModal } from './table-views.jsx';
 import { GuidePage } from './guide-page.jsx';
-import { getScoreConfidence } from './helpers.jsx';
+import { RankBy, WEIGHT_AXES } from './rank-by.jsx';
+import { getScoreConfidence, isRetired, searchKey } from './helpers.jsx';
 import {
   useTweaks, TweaksPanel, TweakSection, TweakSlider, TweakRadio, TweakToggle,
 } from './tweaks-panel.jsx';
@@ -11,9 +12,12 @@ import {
 // Persisted state — filters/search/collapsed-groups survive reload via
 // localStorage and ride along in the URL hash so links are shareable. URL
 // wins over localStorage on initial load when the hash has any data params.
+// The open model, compare set, sort and score weights are URL-only, so a
+// shared link reproduces exactly what the sender saw.
 const LS_KEY = 'cc:state:v1';
 const TABS = new Set(['refrigerators', 'dishwashers', 'ranges_ovens_cooktops', 'guide']);
 const DEFAULT_TAB = 'refrigerators';
+const DEFAULT_SORT = { key: 'score', dir: 'desc' };
 
 // Filter keys we serialize. Type drives encode/decode.
 const FILTER_SCHEMA = {
@@ -22,8 +26,9 @@ const FILTER_SCHEMA = {
   width: 'array-num',
   priceMin: 'num', priceMax: 'num',
   dbMax: 'num', capacityMin: 'num', capacityMax: 'num',
-  heightMin: 'num', heightMax: 'num',
+  heightMin: 'num', heightMax: 'num', depthMax: 'num',
   energyStar: 'bool', wifi: 'bool', panelReady: 'bool', airFry: 'bool',
+  inProduction: 'bool', retired: 'bool',
   location: 'str',
 };
 
@@ -51,12 +56,22 @@ function decodeFilters(params) {
   return f;
 }
 
+// Weights travel as `w=30,30,15,5,5,5,10` in WEIGHT_AXES order.
+const encodeWeights = (w) => WEIGHT_AXES.map(([k]) => w[k] ?? 0).join(',');
+function decodeWeights(s) {
+  if (!s) return null;
+  const nums = s.split(',').map(Number);
+  if (nums.length !== WEIGHT_AXES.length || nums.some(n => Number.isNaN(n) || n < 0)) return null;
+  return Object.fromEntries(WEIGHT_AXES.map(([k], i) => [k, nums[i]]));
+}
+
 function readUrlState() {
   const raw = window.location.hash.replace(/^#/, '');
   if (!raw) return null;
   const p = new URLSearchParams(raw);
   const tab = p.get('tab');
   const c = p.get('c');
+  const s = (p.get('s') || '').split(':');
   return {
     tab: TABS.has(tab) ? tab : null,
     search: p.get('q') || '',
@@ -65,23 +80,38 @@ function readUrlState() {
       ? Object.fromEntries(c.split(',').filter(Boolean).map(k => [k, true]))
       : null,
     filters: decodeFilters(p),
+    openId: p.get('m') || null,
+    compareIds: (p.get('cmp') || '').split(',').filter(Boolean).slice(0, 4),
+    sort: s[0] ? { key: s[0], dir: s[1] === 'asc' ? 'asc' : 'desc' } : null,
+    weights: decodeWeights(p.get('w')),
   };
 }
 
-function writeUrlState({ tab, filters, search, collapsed }) {
+function buildHash({ tab, filters, search, collapsed, openId, compareIds, sort, weights, defaultWeights }) {
   const p = new URLSearchParams();
   if (tab && tab !== DEFAULT_TAB) p.set('tab', tab);
   if (tab !== 'guide') {
     encodeFiltersInto(p, filters);
     if (search) p.set('q', search);
+    if (sort.key !== DEFAULT_SORT.key || sort.dir !== DEFAULT_SORT.dir) p.set('s', sort.key + ':' + sort.dir);
+    if (compareIds.length) p.set('cmp', compareIds.join(','));
+    if (openId) p.set('m', openId);
   }
+  const w = encodeWeights(weights);
+  if (w !== encodeWeights(defaultWeights)) p.set('w', w);
   const ck = Object.keys(collapsed).filter(k => collapsed[k]);
   if (ck.length) p.set('c', ck.join(','));
   const str = p.toString();
-  const desired = str ? '#' + str : '';
-  if (window.location.hash === desired) return;
-  const newUrl = window.location.pathname + window.location.search + desired;
-  window.history.replaceState(null, '', newUrl || window.location.pathname);
+  return str ? '#' + str : '';
+}
+
+// Filter edits replace the history entry; switching tabs or opening a model
+// pushes one, so Back closes the drawer or returns to the previous tab
+// instead of leaving the site.
+function writeUrl(hash, push) {
+  if (window.location.hash === hash) return;
+  const newUrl = window.location.pathname + window.location.search + hash;
+  window.history[push ? 'pushState' : 'replaceState'](null, '', newUrl || window.location.pathname);
 }
 
 function loadStorage() {
@@ -101,9 +131,25 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "weight_quiet": 10,
   "weight_endorsements": 30,
   "density": "comfortable",
-  "showRetiredScores": true,
   "hideThinConfidence": false
 }/*EDITMODE-END*/;
+
+const weightsFromTweaks = (t) => Object.fromEntries(WEIGHT_AXES.map(([k]) => [k, t['weight_' + k]]));
+const tweaksFromWeights = (w) => Object.fromEntries(WEIGHT_AXES.map(([k]) => ['weight_' + k, w[k]]));
+
+const CATEGORY_LABELS = {
+  refrigerators: 'Refrigerators',
+  dishwashers: 'Dishwashers',
+  ranges_ovens_cooktops: 'Ranges & Ovens',
+};
+
+// Mobile sort menu: the column headers are small tap targets on a phone.
+const SORT_OPTIONS = {
+  common: [['score:desc', 'Score (high to low)'], ['price:asc', 'Price (low to high)'], ['price:desc', 'Price (high to low)'], ['reliability:asc', 'Yale service rate (low first)']],
+  refrigerators: [['capacity:desc', 'Capacity (largest)'], ['energy:asc', 'Energy (lowest)']],
+  dishwashers: [['db:asc', 'Quietest'], ['energy:asc', 'Energy (lowest)']],
+  ranges_ovens_cooktops: [],
+};
 
 function App({ data }) {
   // Hydrate from URL hash first, then localStorage. Computed once.
@@ -123,36 +169,44 @@ function App({ data }) {
       // Collapsed state is global (not per-category) — same group stays
       // collapsed when you switch tabs. URL `c` overrides stored.
       collapsed: url?.collapsed != null ? url.collapsed : (stored.collapsed || {}),
+      openId: url?.openId || null,
+      compareIds: url?.compareIds || [],
+      sort: url?.sort || DEFAULT_SORT,
+      weights: url?.weights || stored.weights || null,
     };
   }, []);
 
+  const defaultWeights = weightsFromTweaks(TWEAK_DEFAULTS);
   const [tab, setTab] = useState(initialState.tab); // refrigerators | dishwashers | ranges_ovens_cooktops | guide
   const [filters, setFilters] = useState(initialState.filters);
-  const [sort, setSort] = useState({ key: 'score', dir: 'desc' });
+  const [sort, setSort] = useState(initialState.sort);
   const [search, setSearch] = useState(initialState.search);
   const [collapsed, setCollapsed] = useState(initialState.collapsed);
-  const [openId, setOpenId] = useState(null);
-  const [compareIds, setCompareIds] = useState([]);
+  const [openId, setOpenId] = useState(initialState.openId);
+  // Compare sets are per category: a fridge never sits next to a dishwasher.
+  const [compareByCat, setCompareByCat] = useState(
+    initialState.compareIds.length ? { [initialState.tab]: initialState.compareIds } : {}
+  );
   const [compareOpen, setCompareOpen] = useState(false);
-  const [tweaks, setTweaks] = useTweaks(TWEAK_DEFAULTS);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [tweaks, setTweaks] = useTweaks(
+    initialState.weights ? { ...TWEAK_DEFAULTS, ...tweaksFromWeights(initialState.weights) } : TWEAK_DEFAULTS
+  );
 
-  const weights = {
-    quality: tweaks.weight_quality,
-    reliability: tweaks.weight_reliability,
-    price: tweaks.weight_price,
-    repairability: tweaks.weight_repairability,
-    energy: tweaks.weight_energy,
-    quiet: tweaks.weight_quiet,
-    endorsements: tweaks.weight_endorsements,
-  };
+  const weights = useMemo(() => weightsFromTweaks(tweaks), [tweaks]);
+  const setWeights = (w) => setTweaks(tweaksFromWeights(w));
 
   const isGuide = tab === 'guide';
   const category = isGuide ? 'refrigerators' : tab;
+  const compareIds = compareByCat[category] || [];
+  const setCompareIds = (fn) => setCompareByCat(c => ({ ...c, [category]: fn(c[category] || []) }));
 
   const allModels = useMemo(() => {
     const cat = data.categories[category];
     return cat ? cat.models : [];
   }, [data, category]);
+
+  const retiredCount = useMemo(() => allModels.filter(isRetired).length, [allModels]);
 
   const brandsById = useMemo(() => {
     const m = {};
@@ -162,8 +216,12 @@ function App({ data }) {
 
   // Apply filters
   const filteredModels = useMemo(() => {
+    const q = searchKey(search);
     return allModels.filter(m => {
       const b = brandsById[m.brand];
+      // Retired models stay in the data so deep links work, but are hidden
+      // from the list unless the reader asks for them.
+      if (!filters.retired && isRetired(m)) return false;
       if (filters.brand?.length && !filters.brand.includes(m.brand)) return false;
       if (filters.tier?.length && !filters.tier.includes(b?.tier)) return false;
       if (filters.style?.length && !filters.style.includes(m.style)) return false;
@@ -177,6 +235,7 @@ function App({ data }) {
       if (filters.wifi && !m.wifi) return false;
       if (filters.panelReady && !m.panel_ready) return false;
       if (filters.airFry && !m.air_fry) return false;
+      if (filters.inProduction && m.availability === 'discontinued') return false;
       // Kitchen excludes models explicitly rated for garage use — those have
       // a wider ambient temp range that trades efficiency / temp stability for
       // outdoor tolerance, so they're not the right pick for an indoor kitchen.
@@ -209,22 +268,29 @@ function App({ data }) {
         if (filters.heightMin != null && h < filters.heightMin) return false;
         if (filters.heightMax != null && h > filters.heightMax) return false;
       }
-      if (search) {
-        const q = search.toLowerCase();
-        if (!(m.name + ' ' + m.model + ' ' + (b?.name || '')).toLowerCase().includes(q)) return false;
+      if (filters.depthMax != null) {
+        // Strict, and handle-inclusive when known: that's what has to clear
+        // the counter edge or the cabinet opening.
+        const d = m.depth_with_handle_in ?? m.depth_in;
+        if (d == null || d > filters.depthMax) return false;
       }
+      if (q && !searchKey(m.name + ' ' + m.model + ' ' + (b?.name || '')).includes(q)) return false;
       if (tweaks.hideThinConfidence && getScoreConfidence(m, b).tier === 'thin') return false;
       return true;
     });
   }, [allModels, filters, brandsById, search, tweaks.hideThinConfidence]);
 
-  // On tab switch (not initial mount), load that category's saved filters/search.
-  // Sort keys are category-specific so always reset sort.
+  // On tab switch (not initial mount, not Back/Forward), load that category's
+  // saved filters/search. Sort keys are category-specific so always reset sort.
   const prevTabRef = useRef(initialState.tab);
+  const fromHistoryRef = useRef(false);
   useEffect(() => {
     if (prevTabRef.current === tab) return;
     prevTabRef.current = tab;
-    setSort({ key: 'score', dir: 'desc' });
+    setFiltersOpen(false);
+    if (fromHistoryRef.current) { fromHistoryRef.current = false; return; }
+    setSort(DEFAULT_SORT);
+    setOpenId(null);
     if (tab === 'guide') return;
     const stored = loadStorage();
     const sd = (stored.byCategory && stored.byCategory[tab]) || {};
@@ -232,11 +298,35 @@ function App({ data }) {
     setSearch(sd.search || '');
   }, [tab]);
 
-  // Persist filter / search / collapsed / tab state — URL hash + localStorage.
+  // Back/Forward: restore everything the hash carries.
+  useEffect(() => {
+    const onPop = () => {
+      const url = readUrlState() || {};
+      const nextTab = url.tab || DEFAULT_TAB;
+      if (nextTab !== prevTabRef.current) fromHistoryRef.current = true;
+      // Pre-set the nav ref so the persist effect replaces rather than pushes;
+      // pushing here would wipe the Forward stack.
+      lastNavRef.current = { tab: nextTab, openId: url.openId || null };
+      drawerPushedRef.current = false;
+      setTab(nextTab);
+      setFilters(url.filters || {});
+      setSearch(url.search || '');
+      setSort(url.sort || DEFAULT_SORT);
+      setOpenId(url.openId || null);
+      if (url.compareIds) setCompareByCat(c => ({ ...c, [nextTab]: url.compareIds }));
+      if (url.weights) setTweaks(tweaksFromWeights(url.weights));
+    };
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, [setTweaks]);
+
+  // Persist filter / search / collapsed / tab / weights — URL hash + localStorage.
   // Per-category storage keeps each tab's filters separate; collapsed state is global.
+  const lastNavRef = useRef({ tab: initialState.tab, openId: initialState.openId });
+  const drawerPushedRef = useRef(false);
   useEffect(() => {
     const stored = loadStorage();
-    const next = { ...stored, tab, collapsed };
+    const next = { ...stored, tab, collapsed, weights };
     if (tab !== 'guide') {
       next.byCategory = {
         ...(stored.byCategory || {}),
@@ -244,36 +334,44 @@ function App({ data }) {
       };
     }
     saveStorage(next);
-    writeUrlState({ tab, filters, search, collapsed });
-  }, [tab, filters, search, collapsed]);
+    const last = lastNavRef.current;
+    const tabChanged = last.tab !== tab;
+    const drawerOpened = !!openId && last.openId !== openId;
+    const push = tabChanged || drawerOpened;
+    if (tabChanged || !openId) drawerPushedRef.current = false;
+    if (drawerOpened && !tabChanged) drawerPushedRef.current = true;
+    lastNavRef.current = { tab, openId };
+    writeUrl(buildHash({ tab, filters, search, collapsed, openId, compareIds, sort, weights, defaultWeights }), push);
+  }, [tab, filters, search, collapsed, openId, compareIds, sort, weights]);
 
-  const openModel = filteredModels.find(m => m.id === openId) || allModels.find(m => m.id === openId);
+  const openModel = openId ? allModels.find(m => m.id === openId) : null;
   const openBrand = openModel ? brandsById[openModel.brand] : null;
 
   const toggleCompare = (id) => {
     setCompareIds(ids => ids.includes(id) ? ids.filter(x => x !== id) : ids.length >= 4 ? ids : [...ids, id]);
   };
 
+  const activeCount = (cat) => data.categories[cat].models.filter(m => !isRetired(m)).length;
   const tabs = [
-    { id: 'refrigerators', label: 'Refrigerators', n: data.categories.refrigerators.models.length },
-    { id: 'dishwashers', label: 'Dishwashers', n: data.categories.dishwashers.models.length },
-    { id: 'ranges_ovens_cooktops', label: 'Ranges & Ovens', n: data.categories.ranges_ovens_cooktops.models.length },
+    { id: 'refrigerators', label: 'Refrigerators', n: activeCount('refrigerators') },
+    { id: 'dishwashers', label: 'Dishwashers', n: activeCount('dishwashers') },
+    { id: 'ranges_ovens_cooktops', label: 'Ranges & Ovens', n: activeCount('ranges_ovens_cooktops') },
     { id: 'guide', label: 'Buying Guide' },
   ];
+  const totalModels = tabs.reduce((s, t) => s + (t.n || 0), 0);
+  const categoryLabel = CATEGORY_LABELS[category] || 'kitchen appliance';
 
-  const totalModels = useMemo(
-    () => data.categories.refrigerators.models.length
-        + data.categories.dishwashers.models.length
-        + data.categories.ranges_ovens_cooktops.models.length,
-    [data]
-  );
+  const activeFilterCount = Object.entries(filters)
+    .filter(([k, v]) => k !== 'location' && k !== 'retired' && v != null && v !== '' && v !== false && !(Array.isArray(v) && !v.length))
+    .length;
+  const clearAll = () => { setFilters(f => (f.location ? { location: f.location } : {})); setSearch(''); };
 
   // Reserve bottom padding while the fixed Compare bar is visible
   useEffect(() => {
-    if (compareIds.length) document.body.classList.add('has-compare');
-    else document.body.classList.remove('has-compare');
+    const show = compareIds.length && !isGuide;
+    document.body.classList.toggle('has-compare', !!show);
     return () => document.body.classList.remove('has-compare');
-  }, [compareIds.length]);
+  }, [compareIds.length, isGuide]);
 
   // Sync density tweak to body so CSS can respond
   useEffect(() => {
@@ -281,9 +379,12 @@ function App({ data }) {
     return () => { delete document.body.dataset.density; };
   }, [tweaks.density]);
 
+  const sortOptions = [...SORT_OPTIONS.common, ...(SORT_OPTIONS[category] || [])];
+  const sortValue = sort.key + ':' + sort.dir;
+
   return (
     <>
-      <a className="skip-link" href="#main">Skip to main content</a>
+      <a className="skip-link" href="#main" onClick={e => { e.preventDefault(); document.getElementById('main')?.focus(); }}>Skip to main content</a>
       <header className="site-header">
         <div className="header-inner">
           <div className="brand">
@@ -318,23 +419,38 @@ function App({ data }) {
         <main className="app" id="main" tabIndex={-1}>
           <Sidebar
             category={category}
-            models={allModels}
+            models={allModels.filter(m => filters.retired || !isRetired(m))}
             brands={data.brands}
             filters={filters}
             setFilters={setFilters}
             collapsed={collapsed}
             setCollapsed={setCollapsed}
-            onClearAll={() => { setFilters({}); setSearch(''); }}
+            onClearAll={clearAll}
+            open={filtersOpen}
+            onClose={() => setFiltersOpen(false)}
+            resultCount={filteredModels.length}
           />
           <div className="main">
-            <h1 className="sr-only">Kitchen Appliance Compare — {tabs.find(t => t.id === tab)?.label || 'kitchen appliance'} research</h1>
+            <h1 className="sr-only">Kitchen Appliance Compare — {categoryLabel} research</h1>
             <div className="toolbar">
               <div className="search-box">
-                <input value={search} onChange={e => setSearch(e.target.value)} aria-label={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}`} placeholder={`Search ${tabs.find(t => t.id === tab)?.label.toLowerCase()}…`} />
+                <input value={search} onChange={e => setSearch(e.target.value)} aria-label={`Search ${categoryLabel.toLowerCase()} by name or model number`} placeholder={`Search ${categoryLabel.toLowerCase()} or model #…`} />
                 {search && (
                   <button type="button" className="search-clear" aria-label="Clear search" onClick={() => setSearch('')}>✕</button>
                 )}
               </div>
+              <button type="button" className="filters-toggle" aria-expanded={filtersOpen} onClick={() => setFiltersOpen(true)}>
+                Filters{activeFilterCount ? ` (${activeFilterCount})` : ''}
+              </button>
+              <label className="sort-select-wrap">
+                <span className="sr-only">Sort by</span>
+                <select className="sort-select" value={sortOptions.some(([v]) => v === sortValue) ? sortValue : ''}
+                  onChange={e => { const [key, dir] = e.target.value.split(':'); setSort({ key, dir }); }}>
+                  {!sortOptions.some(([v]) => v === sortValue) && <option value="">Custom sort</option>}
+                  {sortOptions.map(([v, label]) => <option key={v} value={v}>{label}</option>)}
+                </select>
+              </label>
+              <RankBy weights={weights} onChange={setWeights} />
               {category === 'refrigerators' && (
                 <LocationToggle
                   value={filters.location || 'kitchen'}
@@ -343,8 +459,15 @@ function App({ data }) {
               )}
             </div>
             <div className="results-meta">
-              <span aria-live="polite" aria-atomic="true">Showing <strong>{filteredModels.length}</strong> of {allModels.length} models</span>
-              <span>Click a column header to sort. Click any row for full specs.</span>
+              <span aria-live="polite" aria-atomic="true">
+                Showing <strong>{filteredModels.length}</strong> of {allModels.length - (filters.retired ? 0 : retiredCount)} models
+                {retiredCount > 0 && (
+                  <button type="button" className="link-btn" onClick={() => setFilters({ ...filters, retired: filters.retired ? null : true })}>
+                    {filters.retired ? 'Hide retired models' : `Show ${retiredCount} retired`}
+                  </button>
+                )}
+              </span>
+              <span className="results-hint">Click a column header to sort. Click any row for full specs.</span>
             </div>
             <ApplianceTable
               category={category}
@@ -356,36 +479,43 @@ function App({ data }) {
               selected={compareIds}
               toggleCompare={toggleCompare}
               onOpen={(m) => setOpenId(m.id)}
-              onClearFilters={() => { setFilters({}); setSearch(''); }}
+              onClearFilters={clearAll}
             />
           </div>
         </main>
       )}
 
-      {openModel && (
+      {openModel && !isGuide && (
         <Drawer
           model={openModel}
           brand={openBrand}
           weights={weights}
-          onClose={() => setOpenId(null)}
+          onClose={() => {
+            // If opening the drawer pushed a history entry, closing pops it so
+            // Back doesn't reopen what the reader just closed.
+            if (drawerPushedRef.current) window.history.back();
+            else setOpenId(null);
+          }}
           onAddCompare={(id) => toggleCompare(id)}
           isCompared={compareIds.includes(openId)}
         />
       )}
 
-      <CompareBar
-        ids={compareIds}
-        models={[...data.categories.refrigerators.models, ...data.categories.dishwashers.models, ...data.categories.ranges_ovens_cooktops.models]}
-        brandsById={brandsById}
-        onRemove={(id) => setCompareIds(ids => ids.filter(x => x !== id))}
-        onClear={() => setCompareIds([])}
-        onOpen={() => setCompareOpen(true)}
-      />
+      {!isGuide && (
+        <CompareBar
+          ids={compareIds}
+          models={allModels}
+          brandsById={brandsById}
+          onRemove={(id) => setCompareIds(ids => ids.filter(x => x !== id))}
+          onClear={() => setCompareIds(() => [])}
+          onOpen={() => setCompareOpen(true)}
+        />
+      )}
 
-      {compareOpen && (
+      {compareOpen && !isGuide && (
         <CompareModal
           ids={compareIds}
-          models={[...data.categories.refrigerators.models, ...data.categories.dishwashers.models, ...data.categories.ranges_ovens_cooktops.models]}
+          models={allModels}
           brandsById={brandsById}
           weights={weights}
           onClose={() => setCompareOpen(false)}
@@ -456,6 +586,9 @@ function LocationToggle({ value, onChange }) {
 // Guide page with internal sub-tabs
 function GuideTabbed({ guide, brandsById }) {
   const [cat, setCat] = useState('refrigerators');
+  if (!guide) {
+    return <p className="load-note">The buying guide failed to load. Reload the page to try again; the comparison tables still work.</p>;
+  }
   const catOptions = [
     ['refrigerators', 'Refrigerators'],
     ['dishwashers', 'Dishwashers'],
@@ -482,18 +615,20 @@ function GuideTabbed({ guide, brandsById }) {
 }
 
 // === Bootstrap ===
+// The model tables need brands + the three category files. The buying guide
+// is optional: if it fails, the guide tab says so and the tables still work.
 async function loadAll() {
   const fetchJson = async (path) => {
     const r = await fetch(path);
     if (!r.ok) throw new Error(`${path}: ${r.status} ${r.statusText}`);
     return r.json();
   };
-  const [brandsRes, fridges, dws, ovens, guide] = await Promise.all([
+  const guideP = fetchJson('data/buying-guide.json').catch(() => null);
+  const [brandsRes, fridges, dws, ovens] = await Promise.all([
     fetchJson('data/brands.json'),
     fetchJson('data/refrigerators.json'),
     fetchJson('data/dishwashers.json'),
     fetchJson('data/ovens.json'),
-    fetchJson('data/buying-guide.json'),
   ]);
   return {
     brands: brandsRes.brands,
@@ -502,7 +637,7 @@ async function loadAll() {
       dishwashers: { models: dws.models },
       ranges_ovens_cooktops: { models: ovens.models },
     },
-    guide,
+    guide: await guideP,
   };
 }
 

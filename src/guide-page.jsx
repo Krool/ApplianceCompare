@@ -40,7 +40,14 @@ function GuidePage({ guide, category, brandsById }) {
 
       <div className="guide-toc">
         <h4>In this guide</h4>
-        <ul>
+        {/* The URL hash carries app state (tab, filters), so in-page anchors
+            scroll instead of navigating; a plain #id href would wipe that state. */}
+        <ul onClick={e => {
+          const a = e.target.closest('a[href^="#"]');
+          if (!a) return;
+          e.preventDefault();
+          document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }}>
           <li><a href="#questions">Five questions to answer first</a></li>
           <li><a href="#tree">Decision tree by budget</a></li>
           <li><a href="#redflags">Red flags</a></li>

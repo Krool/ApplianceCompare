@@ -7,7 +7,7 @@
       "depth": "standard | counter | built_in",
       "reliability_source": "yale | cr | aggregated"
     },
-    "last_updated": "2026-05-14",
+    "last_updated": "2026-10-20",
     "honesty_pass": "Unverified rating fields nulled on 2026-04-24. Numeric scores (cr_overall, reviewed, rtings, yale_reliability_pct, etc.) will be repopulated as they are confirmed against primary sources; source URLs will be added to ratings.source_urls.",
     "garage_ready_pass": "Initial garage_ready backfill 2026-04-25 — only models with explicit manufacturer Garage Ready marketing flagged true; field omitted on unverified models rather than guessed. Cite under ratings.source_urls.garage_ready.",
     "spec_backfill_2026_05": "Round 1 spec backfill 2026-05-05 — verified width / capacity / energy / finishes / wifi / msrp from manufacturer spec sheets and Lowe's/Home Depot/AJ Madison listings for the worst-offender records. Each backfilled model gets a ratings.source_urls.specs entry citing the source. ~13 records updated this round; ~80 remain.",
@@ -48,7 +48,9 @@
     "derive_reviewed_status_2026_05": "Round 52: derived reviewed_status from existing Reviewed endorsements for 0 models. NEW signal slot — expected to upgrade many limited→solid.",
     "derive_wirecutter_2026_05": "Round 53: derived wirecutter field from existing endorsements for 0 models.",
     "batch_round54_2026_05": "Round 54: 8 fridges gained rtings field (RTINGS Tested status). NEW signal slot — expected to upgrade some limited→solid.",
-    "image_cleanup_2026_05_14": "Removed 11 wrong/misleading images (brand logos, water-filter accessory shots, completely-different-product photos). Punch list: .image-audit/punch-list.json."
+    "image_cleanup_2026_05_14": "Removed 11 wrong/misleading images (brand logos, water-filter accessory shots, completely-different-product photos). Punch list: .image-audit/punch-list.json.",
+    "cr_source_pass_2026_10": "CR source pass 2026-10-20: cr_overall scores that cited only a CR category buying guide were re-linked to the model's own CR page, matched via CR's product sitemap and confirmed by page title. Scores still without a model page are hidden by the site. price_as_of added (copied from the prior last_updated) so record edits no longer look like price checks.",
+    "cr_reliability_nulled_2026_10": "cr_reliability nulled (no CR source link found; across all model files): ge-gse25gypfs=very-good, frigidaire-fftr1835vs=very-good, ge-gbe17hyrfs=very-good, samsung-dw80b6060us=fair, ge-profile-pb965ypfs=very-good, ge-profile-pgb935ypfs=very-good, whirlpool-wfg320m0mb=very-good, hotpoint-rgbs300dmww=very-good"
   },
   "models": [
     {
@@ -132,7 +134,7 @@
       "depth_in": 28.5,
       "depth_with_handle_in": 30.625,
       "image": {
-        "local": "images/refrigerators/lg-lrfxc2606s.jpg",
+        "local": "images/refrigerators/lg-lrfxc2606s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6532/6532716_sd.jpg",
         "source": "best_buy"
       }
@@ -191,14 +193,15 @@
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/lg-lrmvs2806s.jpg",
+        "local": "images/refrigerators/lg-lrmvs2806s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452808_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 68.5,
       "depth_in": 33.75,
       "depth_with_handle_in": 36.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrfls2703s",
@@ -297,7 +300,7 @@
       "release_year": 2023,
       "compressor": "Inverter Linear",
       "image": {
-        "local": "images/refrigerators/lg-lbnc15231v.jpg",
+        "local": "images/refrigerators/lg-lbnc15231v.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360750_sd.jpg",
         "source": "best_buy"
       },
@@ -305,7 +308,8 @@
       "depth_in": 23.38,
       "depth_with_handle_in": 27.38,
       "hinge": "reversible",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-ltcs20020s",
@@ -368,7 +372,7 @@
       "release_year": 2022,
       "compressor": "Inverter",
       "image": {
-        "local": "images/refrigerators/lg-ltcs20020s.jpg",
+        "local": "images/refrigerators/lg-ltcs20020s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360748_sd.jpg",
         "source": "best_buy"
       },
@@ -376,7 +380,8 @@
       "depth_in": 29.5,
       "depth_with_handle_in": 33.75,
       "hinge": "reversible",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b36ct80sns",
@@ -485,13 +490,13 @@
       "depth_in": 25,
       "depth_with_handle_in": 31.13,
       "image": {
-        "local": "images/refrigerators/bosch-b36ct80sns.jpg",
+        "local": "images/refrigerators/bosch-b36ct80sns.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354070_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36ct80sns.jpg",
+          "local": "images/refrigerators/bosch-b36ct80sns.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354070_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -551,7 +556,8 @@
           "view": "g9"
         }
       ],
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b36bt935ns",
@@ -611,7 +617,7 @@
       "release_year": 2023,
       "compressor": "dual",
       "image": {
-        "local": "images/refrigerators/bosch-b36bt935ns.jpg",
+        "local": "images/refrigerators/bosch-b36bt935ns.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439379_sd.jpg",
         "source": "best_buy"
       },
@@ -620,7 +626,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36bt935ns.jpg",
+          "local": "images/refrigerators/bosch-b36bt935ns.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439379_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -661,7 +667,8 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b36it905np",
@@ -717,7 +724,7 @@
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
       "image": {
-        "local": "images/refrigerators/bosch-b36it905np.jpg",
+        "local": "images/refrigerators/bosch-b36it905np.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439376_sd.jpg",
         "source": "best_buy"
       },
@@ -726,7 +733,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36it905np.jpg",
+          "local": "images/refrigerators/bosch-b36it905np.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439376_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -773,7 +780,8 @@
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-pfe28kynfs",
@@ -829,14 +837,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-pfe28kynfs.jpg",
+        "local": "images/refrigerators/ge-pfe28kynfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6399/6399128_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_with_handle_in": 36.25,
       "last_updated": "2026-05-14",
-      "depth_in": 34.75
+      "depth_in": 34.75,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-cafe-cvetc28d",
@@ -892,12 +901,13 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-cafe-cvetc28d.jpg",
+        "local": "images/refrigerators/ge-cafe-cvetc28d.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6368/6368981_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gne27jymfs",
@@ -973,14 +983,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-gne27jymfs.jpg",
+        "local": "images/refrigerators/ge-gne27jymfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6498/6498111_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_with_handle_in": 35.875,
       "last_updated": "2026-05-14",
-      "depth_in": 33.375
+      "depth_in": 33.375,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gts22kynrs",
@@ -1047,7 +1058,8 @@
       "last_updated": "2026-05-14",
       "height_in": 66.375,
       "depth_with_handle_in": 34.5,
-      "depth_in": 34.5
+      "depth_in": 34.5,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-pys22mskss",
@@ -1100,7 +1112,8 @@
       "water_filter_cost_yr": 115,
       "retired": true,
       "retired_reason": "Likely typo for PZS22MSKSS (Profile counter-depth side-by-side, same specs); that real model is discontinued per multiple retailers. PYS22MSKSS itself does not appear in any 2026 product listing. Marked retired pending SKU verification.",
-      "last_updated": "2026-05-05"
+      "last_updated": "2026-05-05",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "whirlpool-wrf555sdfz",
@@ -1155,7 +1168,7 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrf555sdfz.jpg",
+        "local": "images/refrigerators/whirlpool-wrf555sdfz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5812/5812015_sd.jpg",
         "source": "best_buy"
       },
@@ -1164,7 +1177,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrf555sdfz.jpg",
+          "local": "images/refrigerators/whirlpool-wrf555sdfz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5812/5812015_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -1211,7 +1224,8 @@
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wrt311fzdm",
@@ -1298,7 +1312,7 @@
       ],
       "release_year": 2020,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrt311fzdm.jpg",
+        "local": "images/refrigerators/whirlpool-wrt311fzdm.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9536/9536227_sd.jpg",
         "source": "best_buy"
       },
@@ -1308,7 +1322,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrt311fzdm.jpg",
+          "local": "images/refrigerators/whirlpool-wrt311fzdm.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9536/9536227_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -1343,7 +1357,8 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wrs588fihz",
@@ -1370,7 +1385,7 @@
         "cr_reliability": "fair",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/whirlpool-wrs588fihz/m390616/",
           "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
           "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/side-by-side/p.36-inch-wide-side-by-side-refrigerator-28-cu.-ft.wrs588fihz.html"
         }
@@ -1387,17 +1402,17 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrs588fihz.jpg",
+        "local": "images/refrigerators/whirlpool-wrs588fihz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5811/5811900_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69,
       "depth_in": 29.625,
       "depth_with_handle_in": 34.875,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrs588fihz.jpg",
+          "local": "images/refrigerators/whirlpool-wrs588fihz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5811/5811900_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -1438,7 +1453,8 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "kitchenaid-krff507hps",
@@ -1494,7 +1510,7 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/kitchenaid-krff507hps.jpg",
+        "local": "images/refrigerators/kitchenaid-krff507hps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6260/6260435_sd.jpg",
         "source": "best_buy"
       },
@@ -1503,7 +1519,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/kitchenaid-krff507hps.jpg",
+          "local": "images/refrigerators/kitchenaid-krff507hps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6260/6260435_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -1562,7 +1578,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "kitchenaid-krbr109ess",
@@ -1613,7 +1630,7 @@
       ],
       "release_year": 2021,
       "image": {
-        "local": "images/refrigerators/kitchenaid-krbr109ess.jpg",
+        "local": "images/refrigerators/kitchenaid-krbr109ess.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7405/7405084_sd.jpg",
         "source": "best_buy"
       },
@@ -1622,7 +1639,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/kitchenaid-krbr109ess.jpg",
+          "local": "images/refrigerators/kitchenaid-krbr109ess.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7405/7405084_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -1657,7 +1674,8 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rf29bb8600ap",
@@ -1721,7 +1739,7 @@
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
       "image": {
-        "local": "images/refrigerators/samsung-rf29bb8600ap.jpg",
+        "local": "images/refrigerators/samsung-rf29bb8600ap.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6493/6493490_sd.jpg",
         "source": "best_buy"
       },
@@ -1731,66 +1749,67 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap.jpg",
+          "local": "images/refrigerators/samsung-rf29bb8600ap.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6493/6493490_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g1.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019964?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g2.jpg",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551020357?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g3.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019914?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g4.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g4.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019916?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g4"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g5.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g5.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019917?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g5"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g6.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g6.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019926?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g6"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g7.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g7.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019918?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g7"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g8.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g8.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019930?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g8"
         },
         {
-          "local": "images/refrigerators/samsung-rf29bb8600ap-g9.png",
+          "local": "images/refrigerators/samsung-rf29bb8600ap-g9.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf29bb8600qlaa/gallery/us-4-door-french-door-beverage-center-rf29bb8600qlaa-551019932?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rf23a9071sr",
@@ -1843,14 +1862,15 @@
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
       "image": {
-        "local": "images/refrigerators/samsung-rf23a9071sr.jpg",
+        "local": "images/refrigerators/samsung-rf23a9071sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6448/6448502_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 71.875,
       "depth_in": 24,
       "depth_with_handle_in": 28.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rf18a5101sr",
@@ -1913,7 +1933,7 @@
       ],
       "release_year": 2022,
       "image": {
-        "local": "images/refrigerators/samsung-rf18a5101sr.jpg",
+        "local": "images/refrigerators/samsung-rf18a5101sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6443/6443500_sd.jpg",
         "source": "best_buy"
       },
@@ -1921,7 +1941,8 @@
       "depth_in": 24.5,
       "depth_with_handle_in": 28.125,
       "compressor": "digital inverter",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "subzero-bi-36u",
@@ -1981,7 +2002,8 @@
       "water_filter_cost_yr": 130,
       "last_updated": "2026-05-05",
       "height_in": 84,
-      "depth_with_handle_in": 24
+      "depth_with_handle_in": 24,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "subzero-pro-48",
@@ -2035,13 +2057,14 @@
       "water_filter_model": "7012333",
       "water_filter_cost_yr": 130,
       "image": {
-        "local": "images/refrigerators/subzero-pro-48.jpg",
+        "local": "images/refrigerators/subzero-pro-48.webp",
         "source_url": "https://www.subzero-wolf.com/products/sub-zero/full-size-refrigeration/refrigeration/pro-48/pro-48",
         "source": "sub_zero"
       },
       "height_in": 84,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "thermador-t36bb915ss",
@@ -2096,7 +2119,7 @@
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
       "image": {
-        "local": "images/refrigerators/thermador-t36bb915ss.jpg",
+        "local": "images/refrigerators/thermador-t36bb915ss.webp",
         "source_url": "https://www.thermador.com/us/en/mkt-product/T36BB915SS",
         "source": "thermador"
       },
@@ -2105,7 +2128,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/thermador-t36bb915ss.jpg",
+          "local": "images/refrigerators/thermador-t36bb915ss.webp",
           "source_url": "https://www.thermador.com/us/en/mkt-product/T36BB915SS",
           "source": "thermador",
           "view": "primary"
@@ -2140,7 +2163,8 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "thermador-t36ft820ns",
@@ -2190,7 +2214,7 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/refrigerators/thermador-t36ft820ns.jpg",
+        "local": "images/refrigerators/thermador-t36ft820ns.webp",
         "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36FT820NS",
         "source": "thermador"
       },
@@ -2199,7 +2223,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/thermador-t36ft820ns.jpg",
+          "local": "images/refrigerators/thermador-t36ft820ns.webp",
           "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36FT820NS",
           "source": "thermador",
           "view": "primary"
@@ -2240,7 +2264,8 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "miele-kf2982vi",
@@ -2301,13 +2326,14 @@
       "water_filter_model": "KWF1000",
       "water_filter_cost_yr": 130,
       "image": {
-        "local": "images/refrigerators/miele-kf2982vi.png",
+        "local": "images/refrigerators/miele-kf2982vi.webp",
         "source_url": "https://www.mieleusa.com/product/11503020/mastercool-frenchdoor-kf-2982-vi",
         "source": "miele"
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "miele-k2802vi",
@@ -2358,13 +2384,14 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/refrigerators/miele-k2802vi.png",
+        "local": "images/refrigerators/miele-k2802vi.webp",
         "source_url": "https://www.mieleusa.com/product/11502590/mastercool-refrigerator-k-2802-vi",
         "source": "miele"
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "jennair-jffcc72efs",
@@ -2425,7 +2452,8 @@
       "water_filter_model": "EDR4RXD1",
       "water_filter_cost_yr": 110,
       "height_in": 72,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "sks-srpnb3042ss",
@@ -2476,7 +2504,7 @@
       ],
       "release_year": 2022,
       "image": {
-        "local": "images/refrigerators/sks-srpnb3042ss.jpg",
+        "local": "images/refrigerators/sks-srpnb3042ss.webp",
         "source_url": "https://www.signaturekitchensuite.com/us/products/column-refrigerators/30-inch-integrated-column-refrigerator",
         "source": "sks"
       }
@@ -2534,7 +2562,7 @@
       "water_filter_model": "847200P",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/fp-rf201acjsx1.png",
+        "local": "images/refrigerators/fp-rf201acjsx1.webp",
         "source_url": "https://www.fisherpaykel.com/us/cooling/refrigeration/professional-refrigeration/freestanding-french-door-refrigerator-freezer-36in-20.1-cu-ft-ice-rf201acjsx1_n-26304.html",
         "source": "fisher_paykel"
       }
@@ -2591,7 +2619,8 @@
       "water_filter_cost_yr": 110,
       "height_in": 70,
       "depth_with_handle_in": 25.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "frigidaire-frss2623as",
@@ -2657,14 +2686,15 @@
       "water_filter_model": "EPTWFU01",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/frigidaire-frss2623as.jpg",
+        "local": "images/refrigerators/frigidaire-frss2623as.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506246_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_in": 32.5,
       "depth_with_handle_in": 35,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "electrolux-ercc1732as",
@@ -2716,7 +2746,7 @@
       "water_filter_model": "EPTWFU01",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/electrolux-ercc1732as.jpg",
+        "local": "images/refrigerators/electrolux-ercc1732as.webp",
         "source_url": "https://www.frigidaire.com/en/p/accessories/refrigerator-accessories/refrigerator-accessories-and-consumables/water-filters/EPTWFU012PAK",
         "source": "electrolux"
       }
@@ -2780,7 +2810,7 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/maytag-mfi2570fez.jpg",
+        "local": "images/refrigerators/maytag-mfi2570fez.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5495/5495101_sd.jpg",
         "source": "best_buy"
       },
@@ -2790,7 +2820,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/maytag-mfi2570fez.jpg",
+          "local": "images/refrigerators/maytag-mfi2570fez.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5495/5495101_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -2849,7 +2879,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "hisense-rf18a3fse",
@@ -2994,14 +3025,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-gfe28gynfs.jpg",
+        "local": "images/refrigerators/ge-gfe28gynfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6399/6399114_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.5,
       "depth_with_handle_in": 36.25,
       "last_updated": "2026-05-14",
-      "depth_in": 34.75
+      "depth_in": 34.75,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrmxs2806s",
@@ -3064,14 +3096,15 @@
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/lg-lrmxs2806s.jpg",
+        "local": "images/refrigerators/lg-lrmxs2806s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452814_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 68.5,
       "depth_in": 29.88,
       "depth_with_handle_in": 36.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "cafe-cye22tp4mw2",
@@ -3135,7 +3168,8 @@
       "water_filter_cost_yr": 115,
       "height_in": 69.875,
       "depth_with_handle_in": 31.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "subzero-uc-24r",
@@ -3187,7 +3221,8 @@
       "release_year": 2022,
       "height_in": 34,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "forno-ffffd1948-36sb",
@@ -3334,7 +3369,7 @@
       ],
       "release_year": 2022,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrb329dmbm.jpg",
+        "local": "images/refrigerators/whirlpool-wrb329dmbm.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3928/3928057_sd.jpg",
         "source": "best_buy"
       },
@@ -3344,7 +3379,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrb329dmbm.jpg",
+          "local": "images/refrigerators/whirlpool-wrb329dmbm.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3928/3928057_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -3379,7 +3414,8 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-pye22kynfs",
@@ -3434,14 +3470,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-pye22kynfs.jpg",
+        "local": "images/refrigerators/ge-pye22kynfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6399/6399139_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_in": 24.375,
       "depth_with_handle_in": 31.25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "monogram-zwe23esnss",
@@ -3496,7 +3533,8 @@
       "water_filter_cost_yr": 115,
       "height_in": 70.5,
       "depth_with_handle_in": 31.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rf65a967fsr",
@@ -3550,7 +3588,8 @@
       "water_filter_cost_yr": 95,
       "height_in": 71.85,
       "depth_with_handle_in": 28.46,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "fp-rs3684wruvk1",
@@ -3599,7 +3638,7 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/refrigerators/fp-rs3684wruvk1.png",
+        "local": "images/refrigerators/fp-rs3684wruvk1.webp",
         "source_url": "https://www.fisherpaykel.com/us/cooling/refrigeration/integrated-refrigeration/36in-series-11-integrated-refrigerator-freezer-ice-and-water-rs3684wruve1-26756.html",
         "source": "fisher_paykel"
       }
@@ -3654,14 +3693,15 @@
       ],
       "release_year": 2021,
       "image": {
-        "local": "images/refrigerators/ge-gts18gtnrww.jpg",
+        "local": "images/refrigerators/ge-gts18gtnrww.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6390/6390236_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 67.38,
       "depth_with_handle_in": 32.63,
       "last_updated": "2026-05-14",
-      "depth_in": 30.5
+      "depth_in": 30.5,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "haier-hrb15n3bgs",
@@ -3688,7 +3728,7 @@
         "cr_reliability": "unrated",
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/haier-hrb15n3bgs/m387847/",
           "specs": "https://www.haierappliances.com/appliance/Haier-ENERGY-STAR-15-Cu-Ft-Bottom-Freezer-Refrigerator-HRB15N3BGS"
         }
       },
@@ -3703,13 +3743,14 @@
       ],
       "release_year": 2022,
       "image": {
-        "local": "images/refrigerators/haier-hrb15n3bgs.jpg",
+        "local": "images/refrigerators/haier-hrb15n3bgs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5711/5711945_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 67.875,
       "depth_with_handle_in": 26.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrtls2403s",
@@ -3739,7 +3780,7 @@
         "reviewed": null,
         "source_urls": {
           "garage_ready": "https://www.lowes.com/pd/LG-Garage-Ready-Internal-Water-Dispenser-23-8-cu-ft-Top-Freezer-Refrigerator-Stainless-Steel-ENERGY-STAR/5001931889",
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrtls2403s/m404467/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrtls2403s-top-freezer-refrigerator",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrtls2403s-top-freezer-refrigerator"
         }
@@ -3756,14 +3797,15 @@
       "release_year": 2022,
       "compressor": "Inverter",
       "image": {
-        "local": "images/refrigerators/lg-lrtls2403s.jpg",
+        "local": "images/refrigerators/lg-lrtls2403s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6470/6470555_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 68,
       "depth_in": 33.75,
       "water_filter_model": "LT500P",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wrfa32smhz",
@@ -3816,14 +3858,15 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrfa32smhz.jpg",
+        "local": "images/refrigerators/whirlpool-wrfa32smhz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6200/6200243_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.125,
       "depth_in": 28.125,
       "depth_with_handle_in": 34.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b36fd50snb",
@@ -3877,7 +3920,7 @@
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
       "image": {
-        "local": "images/refrigerators/bosch-b36fd50snb.jpg",
+        "local": "images/refrigerators/bosch-b36fd50snb.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6495/6495114_sd.jpg",
         "source": "best_buy"
       },
@@ -3886,7 +3929,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36fd50snb.jpg",
+          "local": "images/refrigerators/bosch-b36fd50snb.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6495/6495114_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -3945,7 +3988,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-profile-pvd28bynfs",
@@ -3973,7 +4017,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-profile-pvd28bynfs/m401715/",
           "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-french-door-fridges-2",
           "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door",
@@ -4008,14 +4052,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-profile-pvd28bynfs.jpg",
+        "local": "images/refrigerators/ge-profile-pvd28bynfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6368/6368988_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_in": 29.5,
       "depth_with_handle_in": 36.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b24cb50ess",
@@ -4064,7 +4109,7 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/refrigerators/bosch-b24cb50ess.jpg",
+        "local": "images/refrigerators/bosch-b24cb50ess.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542111_sd.jpg",
         "source": "best_buy"
       },
@@ -4073,7 +4118,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/bosch-b24cb50ess.jpg",
+          "local": "images/refrigerators/bosch-b24cb50ess.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542111_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4132,7 +4177,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "viking-vcff7360ss",
@@ -4238,7 +4284,8 @@
       "water_filter_cost_yr": 90,
       "height_in": 84,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "sks-srpnb4201",
@@ -4341,14 +4388,15 @@
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/lg-lsxs26366d.jpg",
+        "local": "images/refrigerators/lg-lsxs26366d.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4661/4661201_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 29.12,
       "depth_with_handle_in": 36.38,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrfds3016s",
@@ -4402,14 +4450,15 @@
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/lg-lrfds3016s.jpg",
+        "local": "images/refrigerators/lg-lrfds3016s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6395/6395329_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 29.88,
       "depth_with_handle_in": 36.63,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrflc2706s",
@@ -4486,14 +4535,15 @@
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/lg-lrflc2706s.jpg",
+        "local": "images/refrigerators/lg-lrflc2706s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511564_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 24.75,
       "depth_with_handle_in": 31.63,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "hisense-hrm260n6tse",
@@ -4593,12 +4643,13 @@
       "depth_with_handle_in": 33.3,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/hisense-hrm260n6tse.jpg",
+        "local": "images/refrigerators/hisense-hrm260n6tse.webp",
         "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/414038-34-inch-and-wider-widths-hisense-hrm260n6tse-10039188.png",
         "source": "cr"
       },
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rf90f29aecr",
@@ -4666,48 +4717,49 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/samsung-rf90f29aecr-g1.jpg",
+          "local": "images/refrigerators/samsung-rf90f29aecr-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059753?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rf90f29aecr-g2.png",
+          "local": "images/refrigerators/samsung-rf90f29aecr-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059755?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/refrigerators/samsung-rf90f29aecr-g3.jpg",
+          "local": "images/refrigerators/samsung-rf90f29aecr-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059763?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/refrigerators/samsung-rf90f29aecr-g4.png",
+          "local": "images/refrigerators/samsung-rf90f29aecr-g4.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059771?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g4"
         },
         {
-          "local": "images/refrigerators/samsung-rf90f29aecr-g5.png",
+          "local": "images/refrigerators/samsung-rf90f29aecr-g5.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059773?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g5"
         },
         {
-          "local": "images/refrigerators/samsung-rf90f29aecr-g6.png",
+          "local": "images/refrigerators/samsung-rf90f29aecr-g6.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059775?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g6"
         },
         {
-          "local": "images/refrigerators/samsung-rf90f29aecr-g7.png",
+          "local": "images/refrigerators/samsung-rf90f29aecr-g7.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf90f29aecraa/gallery/us-french-door-rf90f29aecraa-bespoke-ai---door-french-door-charcoal-glass-stainless-steel-551059777?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "cafe-cae28dm5ts5",
@@ -4782,7 +4834,7 @@
       "depth_in": 30.625,
       "depth_with_handle_in": 35.625,
       "image": {
-        "local": "images/refrigerators/cafe-cae28dm5ts5.jpg",
+        "local": "images/refrigerators/cafe-cae28dm5ts5.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6567/6567660_sd.jpg",
         "source": "best_buy"
       }
@@ -4848,7 +4900,7 @@
       "depth_with_handle_in": 29.75,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/lg-lt18s2100w.jpg",
+        "local": "images/refrigerators/lg-lt18s2100w.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573584_sd.jpg",
         "source": "best_buy"
       }
@@ -4927,7 +4979,7 @@
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
       "image": {
-        "local": "images/refrigerators/bosch-b36fd50sns.jpg",
+        "local": "images/refrigerators/bosch-b36fd50sns.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461076_sd.jpg",
         "source": "best_buy"
       },
@@ -4936,7 +4988,7 @@
       "depth_with_handle_in": 35.44,
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36fd50sns.jpg",
+          "local": "images/refrigerators/bosch-b36fd50sns.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461076_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -4995,7 +5047,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "hisense-hrb171n6ase",
@@ -5074,12 +5127,13 @@
       "depth_with_handle_in": 28.7,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/hisense-hrb171n6ase.jpg",
+        "local": "images/refrigerators/hisense-hrb171n6ase.webp",
         "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/404473-31-33-inch-widths-hisense-hrb171n6ase-10023334.png",
         "source": "cr"
       },
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rs28cb760012",
@@ -5151,31 +5205,32 @@
       "depth_in": 33.75,
       "depth_with_handle_in": 33.75,
       "image": {
-        "local": "images/refrigerators/samsung-rs28cb760012.jpg",
+        "local": "images/refrigerators/samsung-rs28cb760012.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529233_sd.jpg",
         "source": "best_buy"
       },
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/samsung-rs28cb760012.jpg",
+          "local": "images/refrigerators/samsung-rs28cb760012.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529233_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rs28cb760012-g1.jpg",
+          "local": "images/refrigerators/samsung-rs28cb760012-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs28cb760012aa/gallery/us-side-by-side-rs28cb760012aa-bespoke-side-by-side-white-glass-551271722?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rs28cb760012-g2.png",
+          "local": "images/refrigerators/samsung-rs28cb760012-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs28cb760012aa/gallery/us-side-by-side-rs28cb760012aa-bespoke-side-by-side-white-glass-551271734?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "hotpoint-hps16btnrww",
@@ -5198,7 +5253,7 @@
         "reviewed_status": "Editor's Choice · Best Top-Freezer 2026",
         "source_urls": {
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators",
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/hotpoint-hps16btnrww/m399861/",
           "specs": "https://products.geappliances.com/appliance/hotpoint-specs/HPS16BTNRWW"
         },
         "cr_overall": 69,
@@ -5257,10 +5312,11 @@
       "depth_with_handle_in": 29,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/hotpoint-hps16btnrww.jpg",
+        "local": "images/refrigerators/hotpoint-hps16btnrww.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6368/6368974_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "lg-ltcs20030s",
@@ -5289,7 +5345,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-ltcs20030s/m403860/",
           "specs": "https://www.lg.com/us/refrigerators/lg-ltcs20030s-top-freezer-refrigerator"
         }
       },
@@ -5304,8 +5360,9 @@
       "depth_in": 33.375,
       "depth_with_handle_in": 33.375,
       "hinge": "reversible",
-      "last_updated": "2026-05-14",
-      "_meta": {}
+      "last_updated": "2026-10-20",
+      "_meta": {},
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rt18dg6700sraa",
@@ -5352,7 +5409,7 @@
       "depth_with_handle_in": 31.875,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/samsung-rt18dg6700sraa.jpg",
+        "local": "images/refrigerators/samsung-rt18dg6700sraa.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6584/6584400_sd.jpg",
         "source": "best_buy"
       }
@@ -5403,7 +5460,7 @@
       "depth_with_handle_in": 31.75,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/frigidaire-frtd2021aw.jpg",
+        "local": "images/refrigerators/frigidaire-frtd2021aw.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6482/6482635_sd.jpg",
         "source": "best_buy"
       }
@@ -5463,7 +5520,7 @@
       "depth_with_handle_in": 32,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/frigidaire-ffht2022aw.jpg",
+        "local": "images/refrigerators/frigidaire-ffht2022aw.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6578/6578032_sd.jpg",
         "source": "best_buy"
       }
@@ -5515,7 +5572,7 @@
       "depth_with_handle_in": 31.5,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/hisense-hrt180n6abe.jpg",
+        "local": "images/refrigerators/hisense-hrt180n6abe.webp",
         "source_url": "https://www.hisense-usa.com/product-page/home-appliance-refrigerators-18-cu-ft-top-mount-garage-ready-refrigerator-energy-star-hrt180n6abe",
         "source": "hisense"
       }
@@ -5565,7 +5622,7 @@
       "release_year": null,
       "garage_ready": true,
       "image": {
-        "local": "images/refrigerators/samsung-rt70f18lrsr.jpg",
+        "local": "images/refrigerators/samsung-rt70f18lrsr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6610/6610982_sd.jpg",
         "source": "best_buy"
       },
@@ -5576,30 +5633,31 @@
       "depth_in": 31.875,
       "images": [
         {
-          "local": "images/refrigerators/samsung-rt70f18lrsr.jpg",
+          "local": "images/refrigerators/samsung-rt70f18lrsr.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6610/6610982_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rt70f18lrsr-g1.png",
+          "local": "images/refrigerators/samsung-rt70f18lrsr-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt70f18lrsraa/gallery/us-rt6300-top-mount-freezer-ai-energy-mode-569468-rt70f18lrsraa-549705820?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rt70f18lrsr-g2.png",
+          "local": "images/refrigerators/samsung-rt70f18lrsr-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt70f18lrsraa/gallery/us-rt6300-top-mount-freezer-ai-energy-mode-569468-rt70f18lrsraa-549705819?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/refrigerators/samsung-rt70f18lrsr-g3.png",
+          "local": "images/refrigerators/samsung-rt70f18lrsr-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt70f18lrsraa/gallery/us-rt6300-top-mount-freezer-ai-energy-mode-569468-rt70f18lrsraa-549705818?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rt16a6195sr",
@@ -5628,7 +5686,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/samsung-rt16a6195sr/m406827/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/top-freezer/15-6-cu-ft-top-freezer-refrigerator-with-all-around-cooling-in-stainless-steel-rt16a6195sr-aa/",
           "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/top-freezer/rt16a6195sr-aa/pdf/RT16A6195SR_V3.pdf",
           "garage_ready": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/top-freezer/rt16a6195sr-aa/pdf/RT16A6195SR_V3.pdf"
@@ -5649,29 +5707,30 @@
       "release_year": 2021,
       "garage_ready": true,
       "image": {
-        "local": "images/refrigerators/samsung-rt16a6195sr.jpg",
+        "local": "images/refrigerators/samsung-rt16a6195sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471975_sd.jpg",
         "source": "best_buy"
       },
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 66.875,
       "depth_with_handle_in": 29.25,
       "hinge": "reversible",
       "depth_in": 29.25,
       "images": [
         {
-          "local": "images/refrigerators/samsung-rt16a6195sr.jpg",
+          "local": "images/refrigerators/samsung-rt16a6195sr.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471975_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rt16a6195sr-g1.jpg",
+          "local": "images/refrigerators/samsung-rt16a6195sr-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rt16a6195sr-aa/gallery/us-flat-door-design-rt6300a-rt16a6195sr-aa-549707948?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lt11c2000v",
@@ -5701,7 +5760,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lt11c2000v/m412519/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lt11c2000v-top-freezer-refrigerator",
           "specs": "https://www.lg.com/us/refrigerators/lg-lt11c2000v-top-freezer-refrigerator"
         }
@@ -5710,14 +5769,15 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/lg-lt11c2000v.jpg",
+        "local": "images/refrigerators/lg-lt11c2000v.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553165_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 64.625,
       "depth_in": 24.62,
       "depth_with_handle_in": 28,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wrt112czjz",
@@ -5765,13 +5825,13 @@
       "depth_with_handle_in": 28.375,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/whirlpool-wrt112czjz.jpg",
+        "local": "images/refrigerators/whirlpool-wrt112czjz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6391/6391374_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrt112czjz.jpg",
+          "local": "images/refrigerators/whirlpool-wrt112czjz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6391/6391374_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -5819,7 +5879,8 @@
           "view": "g7"
         }
       ],
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "frigidaire-ffht1425vv",
@@ -5848,7 +5909,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/frigidaire-ffht1425vv/m399232/",
           "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/top-freezer-refrigerators/FFHT1425VV",
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-refrigerators-under-1000"
         },
@@ -5888,10 +5949,11 @@
       "depth_with_handle_in": 29.37,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/frigidaire-ffht1425vv.jpg",
+        "local": "images/refrigerators/frigidaire-ffht1425vv.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6365/6365351_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "insignia-ns-rtm14ss5",
@@ -5936,10 +5998,11 @@
       "hinge": "reversible",
       "last_updated": "2026-05-05",
       "image": {
-        "local": "images/refrigerators/insignia-ns-rtm14ss5.jpg",
+        "local": "images/refrigerators/insignia-ns-rtm14ss5.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562450_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "ge-gte17dtnrww",
@@ -5968,7 +6031,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gte17dtnrww/m399882/",
           "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-16-6-Cu-Ft-Top-Freezer-Refrigerator-GTE17DTNRWW"
         }
       },
@@ -5986,10 +6049,11 @@
       "depth_with_handle_in": 32.625,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/ge-gte17dtnrww.jpg",
+        "local": "images/refrigerators/ge-gte17dtnrww.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6369/6369378_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "whirlpool-wrt313czlz",
@@ -6037,7 +6101,7 @@
       "depth_with_handle_in": 28.38,
       "hinge": "reversible",
       "image": {
-        "local": "images/refrigerators/whirlpool-wrt313czlz.jpg",
+        "local": "images/refrigerators/whirlpool-wrt313czlz.webp",
         "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/406160-28-inch-and-narrower-widths-whirlpool-wrt313czlz-10028276.png",
         "source": "cr"
       },
@@ -6045,7 +6109,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrt313czlz.jpg",
+          "local": "images/refrigerators/whirlpool-wrt313czlz.webp",
           "source_url": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/406160-28-inch-and-narrower-widths-whirlpool-wrt313czlz-10028276.png",
           "source": "cr",
           "view": "primary"
@@ -6068,7 +6132,8 @@
           "source": "manufacturer",
           "view": "g3"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "summit-ff1142pllhd",
@@ -6116,7 +6181,7 @@
       "depth_with_handle_in": 25,
       "hinge": "left",
       "image": {
-        "local": "images/refrigerators/summit-ff1142pllhd.jpg",
+        "local": "images/refrigerators/summit-ff1142pllhd.webp",
         "source_url": "https://www.summitappliance.com/catalog/model/FF1142PLLHD",
         "source": "summit"
       }
@@ -6149,7 +6214,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrdcs2603s/m401161/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrdcs2603s-bottom-freezer-refrigerator",
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrdcs2603s-bottom-freezer-refrigerator"
@@ -6188,7 +6253,7 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/lg-lrdcs2603s.jpg",
+        "local": "images/refrigerators/lg-lrdcs2603s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6395/6395330_sd.jpg",
         "source": "best_buy"
       },
@@ -6197,7 +6262,8 @@
       "depth_with_handle_in": 35,
       "hinge": "reversible",
       "water_filter_model": "LT1000P",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "miele-kfn4776ed",
@@ -6253,13 +6319,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/miele-kfn4776ed.png",
+        "local": "images/refrigerators/miele-kfn4776ed.webp",
         "source_url": "https://www.mieleusa.com/product/11954030/freestanding-fridge-freezer-kfn-4776-ed-stainless-steel-cleansteel",
         "source": "miele"
       },
       "height_in": 73.125,
       "depth_with_handle_in": 26.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "miele-kfn4799dde",
@@ -6286,7 +6353,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/miele-kfn4799dde/m414757/",
           "specs": "https://www.mieleusa.com/product/11951210/freestanding-fridge-freezer-kfn-4799-dde-na-stainless-steel-cleansteel"
         }
       },
@@ -6294,13 +6361,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/miele-kfn4799dde.png",
+        "local": "images/refrigerators/miele-kfn4799dde.webp",
         "source_url": "https://www.mieleusa.com/product/11951210/freestanding-fridge-freezer-kfn-4799-dde-na-stainless-steel-cleansteel",
         "source": "miele"
       },
       "height_in": 79.375,
       "depth_with_handle_in": 26.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gde21eykfs",
@@ -6329,7 +6397,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gde21eykfs/m414245/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-21-0-Cu-Ft-Bottom-Freezer-Refrigerator-GDE21EYKFS",
           "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-21-0-Cu-Ft-Bottom-Freezer-Refrigerator-GDE21EYKFS"
         },
@@ -6345,13 +6413,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/ge-gde21eykfs.jpg",
+        "local": "images/refrigerators/ge-gde21eykfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6475/6475409_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_with_handle_in": 36.625,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ikea-valgrundad",
@@ -6385,7 +6454,7 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/ikea-valgrundad.jpg",
+        "local": "images/refrigerators/ikea-valgrundad.webp",
         "source_url": "https://www.ikea.com/us/en/p/vaelgrundad-bottom-freezer-refrigerator-stainless-steel-70462158/",
         "source": "ikea"
       }
@@ -6417,7 +6486,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/amana-abb1924brm/m248863/",
           "manufacturer": "https://www.amana.com/refrigerators/bottom-freezer/p.29-inch-wide-bottom-freezer-refrigerator-with-easyfreezer-pull-out-drawer-18-cu.-ft.-capacity.abb1924brm.html",
           "specs": "https://www.amana.com/refrigerators/bottom-freezer/p.29-inch-wide-bottom-freezer-refrigerator-with-easyfreezer-pull-out-drawer-18-cu.-ft.-capacity.abb1924brm.html"
         }
@@ -6426,13 +6495,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/amana-abb1924brm.jpg",
+        "local": "images/refrigerators/amana-abb1924brm.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5584/5584928_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 66.94,
       "depth_with_handle_in": 33.38,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "frigidaire-grbn2012af",
@@ -6459,7 +6529,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/frigidaire-grbn2012af/m415357/",
           "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/bottom-freezer-refrigerators/GRBN2012AF"
         }
       },
@@ -6467,13 +6537,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/frigidaire-grbn2012af.jpg",
+        "local": "images/refrigerators/frigidaire-grbn2012af.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6605/6605227_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 68.7,
       "depth_with_handle_in": 31,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gye22gynfs",
@@ -6503,7 +6574,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gye22gynfs/m401184/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-22-1-Cu-Ft-Counter-Depth-Fingerprint-Resistant-French-Door-Refrigerator-GYE22GYNFS",
           "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
           "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-22-1-Cu-Ft-Counter-Depth-Fingerprint-Resistant-French-Door-Refrigerator-GYE22GYNFS"
@@ -6527,14 +6598,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-gye22gynfs.jpg",
+        "local": "images/refrigerators/ge-gye22gynfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6403/6403422_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.5,
       "depth_with_handle_in": 31.25,
-      "last_updated": "2026-05-14",
-      "depth_in": 29.75
+      "last_updated": "2026-10-20",
+      "depth_in": 29.75,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lf29s8365s",
@@ -6561,7 +6633,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf29s8365s/m414255/",
           "specs": "https://www.bestbuy.com/site/lg-standard-depth-max-28-6-cu-ft-4-door-french-door-in-door-smart-refrigerator-with-instaview-mycolor-stainless-steel/6573589.p?skuId=6573589"
         }
       },
@@ -6569,12 +6641,13 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/lg-lf29s8365s.jpg",
+        "local": "images/refrigerators/lg-lf29s8365s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573589_sd.jpg",
         "source": "best_buy"
       },
       "depth_in": 34.375,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrfs28xbs",
@@ -6605,7 +6678,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrfs28xbs/m409807/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfs28xbs",
           "spec_sheet": "https://www.us-appliance.com/content/pdf/c/LRFS28XBS_Specs.pdf",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
@@ -6621,15 +6694,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrfs28xbs.jpg",
+        "local": "images/refrigerators/lg-lrfs28xbs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6532/6532722_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.75,
       "depth_in": 25.38,
-      "depth_with_handle_in": 36.25
+      "depth_with_handle_in": 36.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "ge-gwe23gends",
@@ -6660,7 +6734,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gwe23gends/m403237/",
           "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-23-1-Cu-Ft-Counter-Depth-French-Door-Refrigerator-GWE23GENDS",
           "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm"
         }
@@ -6680,10 +6754,11 @@
       "depth_in": 28,
       "depth_with_handle_in": 31,
       "image": {
-        "local": "images/refrigerators/ge-gwe23gends.jpg",
+        "local": "images/refrigerators/ge-gwe23gends.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6404/6404570_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "lg-lrfws2906s",
@@ -6713,7 +6788,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrfws2906s/m404060/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfws2906s-french-3-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrfws2906s-french-3-door-refrigerator"
@@ -6730,15 +6805,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrfws2906s.jpg",
+        "local": "images/refrigerators/lg-lrfws2906s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447111_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.75,
       "depth_in": 25.38,
-      "depth_with_handle_in": 36.25
+      "depth_with_handle_in": 36.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrfls3206s",
@@ -6767,7 +6843,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrfls3206s/m414034/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfls3206s-french-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrfls3206s-french-door-refrigerator"
@@ -6789,16 +6865,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrfls3206s.jpg",
+        "local": "images/refrigerators/lg-lrfls3206s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553174_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 23.18,
       "depth_with_handle_in": 36.87,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrmds3006s",
@@ -6828,7 +6905,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrmds3006s/m401716/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmds3006s-french-4-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrmds3006s-french-4-door-refrigerator"
@@ -6851,15 +6928,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrmds3006s.jpg",
+        "local": "images/refrigerators/lg-lrmds3006s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397184_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 23.75,
-      "depth_with_handle_in": 38.13
+      "depth_with_handle_in": 38.13,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrfcs29d6s",
@@ -6888,7 +6966,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrfcs29d6s/m408271/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfcs29d6s-french-3-door-refrigerator",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrfcs29d6s-french-3-door-refrigerator"
         },
@@ -6907,16 +6985,17 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrfcs29d6s.jpg",
+        "local": "images/refrigerators/lg-lrfcs29d6s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522323_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.75,
       "depth_in": 29.88,
       "depth_with_handle_in": 36.25,
-      "water_filter_model": "LT1000P"
+      "water_filter_model": "LT1000P",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lf30s8210s",
@@ -6945,7 +7024,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf30s8210s/m413376/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf30s8210s-french-4-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lf30s8210s-french-4-door-refrigerator"
@@ -6967,16 +7046,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lf30s8210s.jpg",
+        "local": "images/refrigerators/lg-lf30s8210s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553171_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.38,
       "depth_in": 30,
       "depth_with_handle_in": 34.38,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lf29s8330d",
@@ -7003,7 +7083,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf29s8330d/m412980/",
           "specs": "https://www.lg.com/us/refrigerators/lg-lf29s8330d-french-4-door-refrigerator"
         }
       },
@@ -7011,7 +7091,7 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/lg-lf29s8330d.jpg",
+        "local": "images/refrigerators/lg-lf29s8330d.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553169_sd.jpg",
         "source": "best_buy"
       },
@@ -7019,7 +7099,8 @@
       "depth_in": 30,
       "depth_with_handle_in": 34.38,
       "water_filter_model": "LT1000P",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lmxs28626s",
@@ -7049,7 +7130,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lmxs28626s/m393301/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lmxs28626s-french-4-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lmxs28626s-french-4-door-refrigerator"
@@ -7072,15 +7153,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lmxs28626s.jpg",
+        "local": "images/refrigerators/lg-lmxs28626s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5968/5968400_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.75,
       "depth_in": 29.88,
-      "depth_with_handle_in": 36.25
+      "depth_with_handle_in": 36.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrfws2906v",
@@ -7137,13 +7219,14 @@
       "water_filter_cost_yr": 110,
       "last_updated": "2026-05-05",
       "image": {
-        "local": "images/refrigerators/lg-lrfws2906v.jpg",
+        "local": "images/refrigerators/lg-lrfws2906v.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6494/6494792_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.75,
       "depth_in": 29.88,
-      "depth_with_handle_in": 36.25
+      "depth_with_handle_in": 36.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrfls3216s",
@@ -7172,7 +7255,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrfls3216s/m417480/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfls3216s-french-3-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrfls3216s-french-3-door-refrigerator"
@@ -7194,15 +7277,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrfls3216s.jpg",
+        "local": "images/refrigerators/lg-lrfls3216s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617561_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "hinge": "reversible",
-      "depth_in": 34.4375
+      "depth_in": 34.4375,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "bosch-b36cl81enw",
@@ -7231,7 +7315,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-b36cl81enw/m414523/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL81ENW",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details-plus/2371892",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
@@ -7257,9 +7341,9 @@
       "release_year": null,
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/bosch-b36cl81enw.jpg",
+        "local": "images/refrigerators/bosch-b36cl81enw.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6565/6565614_sd.jpg",
         "source": "best_buy"
       },
@@ -7267,7 +7351,7 @@
       "depth_with_handle_in": 29,
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36cl81enw.jpg",
+          "local": "images/refrigerators/bosch-b36cl81enw.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6565/6565614_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -7326,7 +7410,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b36cd52sns",
@@ -7355,7 +7440,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-b36cd52sns/m416824/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CD52SNS",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3627208",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
@@ -7368,17 +7453,17 @@
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
       "image": {
-        "local": "images/refrigerators/bosch-b36cd52sns.jpg",
+        "local": "images/refrigerators/bosch-b36cd52sns.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6608/6608176_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70,
       "depth_in": 25,
       "depth_with_handle_in": 31.125,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36cd52sns.jpg",
+          "local": "images/refrigerators/bosch-b36cd52sns.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6608/6608176_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -7437,7 +7522,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lryks3106s",
@@ -7467,7 +7553,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lryks3106s/m418500/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lryks3106s-french-4-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lryks3106s-french-4-door-refrigerator"
@@ -7491,15 +7577,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lryks3106s.jpg",
+        "local": "images/refrigerators/lg-lryks3106s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6540/6540881_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 23.18,
-      "depth_with_handle_in": 34.25
+      "depth_with_handle_in": 34.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lf29h8330s",
@@ -7529,7 +7616,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf29h8330s/m412515/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf29h8330s-french-4-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lf29h8330s-french-4-door-refrigerator"
@@ -7546,16 +7633,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lf29h8330s.jpg",
+        "local": "images/refrigerators/lg-lf29h8330s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553175_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.375,
       "depth_in": 30,
       "depth_with_handle_in": 34.375,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrmdc2306s",
@@ -7585,7 +7673,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrmdc2306s/m402138/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrmdc2306s-french-4-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrmdc2306s-french-4-door-refrigerator"
@@ -7607,15 +7695,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrmdc2306s.jpg",
+        "local": "images/refrigerators/lg-lrmdc2306s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397168_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 24.12,
-      "depth_with_handle_in": 31.25
+      "depth_with_handle_in": 31.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "ge-profile-pgd29bytfs",
@@ -7642,7 +7731,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-profile-pgd29bytfs/m415853/",
           "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-29-Cu-Ft-Smart-Fingerprint-Resistant-4-Door-French-Door-Refrigerator-with-Door-In-Door-PGD29BYTFS"
         }
       },
@@ -7650,13 +7739,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/ge-profile-pgd29bytfs.jpg",
+        "local": "images/refrigerators/ge-profile-pgd29bytfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572175_sd.jpg",
         "source": "best_buy"
       },
       "depth_in": 34.25,
       "depth_with_handle_in": 36.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-profile-pge29bytfs",
@@ -7683,7 +7773,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-profile-pge29bytfs/m411984/",
           "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door",
           "specs": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-28-7-Cu-Ft-Smart-Fingerprint-Resistant-4-Door-French-Door-Refrigerator-With-Dual-Dispense-AutoFill-Pitcher-PGE29BYTFS"
         },
@@ -7700,13 +7790,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/ge-profile-pge29bytfs.jpg",
+        "local": "images/refrigerators/ge-profile-pge29bytfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6546/6546681_sd.jpg",
         "source": "best_buy"
       },
       "depth_in": 34.25,
       "depth_with_handle_in": 36.75,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-studio-srfb27w3",
@@ -7733,7 +7824,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-studio-srfb27w3/m416502/",
           "specs": "https://www.lg.com/us/refrigerators/lg-srfb27s3-french-3-door-refrigerator"
         }
       },
@@ -7741,10 +7832,11 @@
       "cons": [],
       "release_year": null,
       "_meta": {},
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 70.25,
       "depth_in": 24.875,
-      "depth_with_handle_in": 29.25
+      "depth_with_handle_in": 29.25,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "dacor-drf36c500sr",
@@ -7771,7 +7863,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/dacor-drf36c500sr/m408666/",
           "specs": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-counter-depth-french-door-with-reveal-tm-door-silver-stainless-drf36c500sr/"
         }
       },
@@ -7779,13 +7871,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/dacor-drf36c500sr.png",
+        "local": "images/refrigerators/dacor-drf36c500sr.webp",
         "source_url": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-counter-depth-french-door-with-reveal-tm-door-silver-stainless-drf36c500sr/",
         "source": "dacor"
       },
       "height_in": 70,
       "depth_with_handle_in": 28.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrfoc2606s",
@@ -7814,7 +7907,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrfoc2606s/m407825/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfoc2606s-french-3-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "reviewed_individual": "https://www.reviewed.com/refrigerators/content/lg-lrfoc2606s-review",
@@ -7851,15 +7944,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrfoc2606s.jpg",
+        "local": "images/refrigerators/lg-lrfoc2606s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511565_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 24.75,
-      "depth_with_handle_in": 31.63
+      "depth_with_handle_in": 31.63,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "kitchenaid-krfc704fbs",
@@ -7888,7 +7982,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/kitchenaid-krfc704fbs/m387834/",
           "manufacturer": "https://www.kitchenaid.com/owners-center-pdp.KRFC704FBS00.html",
           "home_depot": "https://www.homedepot.com/p/KitchenAid-23-8-cu-ft-French-Door-Refrigerator-in-Black-Stainless-with-PrintShield-Counter-Depth-KRFC704FBS/300186637",
           "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
@@ -7908,14 +8002,15 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/kitchenaid-krfc704fbs.jpg",
+        "local": "images/refrigerators/kitchenaid-krfc704fbs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5461/5461000_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 71.875,
       "depth_in": 24.375,
       "depth_with_handle_in": 31.5,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lrflc2716s",
@@ -7945,7 +8040,7 @@
         "yale_reliability_pct": 10.1,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrflc2716s/m417050/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrflc2716s-french-3-door-refrigerator",
           "yale_reliability": "https://blog.yaleappliance.com/the-best-counter-depth-refrigerators",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
@@ -7983,16 +8078,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrflc2716s.jpg",
+        "local": "images/refrigerators/lg-lrflc2716s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617562_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_with_handle_in": 29.12,
       "hinge": "reversible",
-      "depth_in": 29.125
+      "depth_in": 29.125,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrfxs3106s",
@@ -8021,7 +8117,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrfxs3106s/m411978/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrfxs3106s-french-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrfxs3106s-french-door-refrigerator"
@@ -8045,15 +8141,16 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrfxs3106s.jpg",
+        "local": "images/refrigerators/lg-lrfxs3106s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553176_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 23.18,
-      "depth_with_handle_in": 36.87
+      "depth_with_handle_in": 36.87,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "viking-rvffr336ss",
@@ -8080,7 +8177,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/viking-rvffr336ss/m408272/",
           "specs": "https://vikingrange.com/products/chill/refrigeration/model/RVFFR336/sku/RVFFR336SS"
         }
       },
@@ -8088,13 +8185,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/viking-rvffr336ss.jpg",
+        "local": "images/refrigerators/viking-rvffr336ss.webp",
         "source_url": "https://vikingrange.com/products/chill/refrigeration/model/RVFFR336/sku/RVFFR336SS",
         "source": "viking"
       },
       "height_in": 69.5,
       "depth_with_handle_in": 25,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ikea-overskadlig",
@@ -8121,14 +8219,15 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ikea-overskadlig-60462154/m403862/"
         }
       },
       "pros": [],
       "cons": [],
       "release_year": null,
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lf25g8330s",
@@ -8157,7 +8256,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf25g8330s/m415366/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25g8330s-french-4-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lf25g8330s-french-4-door-refrigerator"
@@ -8173,16 +8272,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lf25g8330s.jpg",
+        "local": "images/refrigerators/lg-lf25g8330s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6573/6573590_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.25,
       "depth_in": 25.37,
       "depth_with_handle_in": 32.25,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "kucht-kr900x",
@@ -8209,14 +8309,15 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/kucht-kr900x/m417481/"
         }
       },
       "pros": [],
       "cons": [],
       "release_year": null,
       "_meta": {},
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gwe22jymfs",
@@ -8243,7 +8344,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gwe22jymfs/m416401/",
           "specs": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-21-9-Cu-Ft-Fingerprint-Resistant-Counter-Depth-French-Door-Refrigerator-GWE22JYMFS"
         }
       },
@@ -8251,14 +8352,15 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/ge-gwe22jymfs.jpg",
+        "local": "images/refrigerators/ge-gwe22jymfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582112_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_with_handle_in": 30.9375,
-      "last_updated": "2026-05-14",
-      "depth_in": 29
+      "last_updated": "2026-10-20",
+      "depth_in": 29,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wrx735sdhz",
@@ -8318,10 +8420,11 @@
       "retired_reason": "Discontinued by Whirlpool (2026 verification — multiple retailers confirm). Released 2017; product page on whirlpool.com is owners-center only.",
       "last_updated": "2026-05-05",
       "image": {
-        "local": "images/refrigerators/whirlpool-wrx735sdhz.jpg",
+        "local": "images/refrigerators/whirlpool-wrx735sdhz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5790/5790000_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "kitchenaid-krqc506mps",
@@ -8348,7 +8451,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/kitchenaid-krqc506mps/m412977/",
           "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/refrigerators/french-door-refrigerators/p.19.4-cu.-ft.-36-inch-wide-counter-depth-4-door-refrigerator-with-printshield-finish.krqc506mps.html"
         }
       },
@@ -8356,17 +8459,17 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/kitchenaid-krqc506mps.jpg",
+        "local": "images/refrigerators/kitchenaid-krqc506mps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534852_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69,
       "depth_in": 24.875,
       "depth_with_handle_in": 28.375,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/kitchenaid-krqc506mps.jpg",
+          "local": "images/refrigerators/kitchenaid-krqc506mps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534852_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -8425,7 +8528,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "kitchenaid-krmf706ebs",
@@ -8454,7 +8558,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/kitchenaid-krmf706ebs/m384045/",
           "manufacturer": "https://www.kitchenaid.com/major-appliances/refrigeration/refrigerators/french-door-refrigerators/p.25.8-cu.-ft.-36-multi-door-freestanding-refrigerator-with-platinum-interior-design-and-printshield-finish.krmf706ebs.html",
           "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html"
         },
@@ -8473,13 +8577,14 @@
       "water_filter_cost_yr": 110,
       "retired": true,
       "retired_reason": "Discontinued by KitchenAid (2026 verification — black-stainless variant). Successor / current variant is KRMF706ESS (stainless).",
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/kitchenaid-krmf706ebs.jpg",
+        "local": "images/refrigerators/kitchenaid-krmf706ebs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4956/4956326_sd.jpg",
         "source": "best_buy"
       },
-      "_meta": {}
+      "_meta": {},
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "kitchenaid-krmf536rps",
@@ -8508,7 +8613,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/kitchenaid-krmf536rps/m414036/",
           "manufacturer": "https://www.kitchenaid.com/major-appliances/refrigeration/freestanding-refrigerators/freestanding-french-door/p.26.2-cu.-ft.-multi-door-french-door-refrigerator-with-platinum-interior.krmf536rps.html",
           "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
           "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/freestanding-refrigerators/freestanding-french-door/p.26.2-cu.-ft.-multi-door-french-door-refrigerator-with-platinum-interior.krmf536rps.html"
@@ -8527,17 +8632,17 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/kitchenaid-krmf536rps.jpg",
+        "local": "images/refrigerators/kitchenaid-krmf536rps.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6575/6575128_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.125,
       "depth_in": 33.75,
       "depth_with_handle_in": 36.375,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/kitchenaid-krmf536rps.jpg",
+          "local": "images/refrigerators/kitchenaid-krmf536rps.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6575/6575128_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -8596,7 +8701,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "zline-rfm-w-36",
@@ -8623,7 +8729,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/zline-rfm-w-36/m416139/",
           "specs": "https://zlinekitchen.com/products/zline-36-counter-depth-refrigerator-stainless-steel-rfm-w-36"
         }
       },
@@ -8631,13 +8737,14 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/zline-rfm-w-36.jpg",
+        "local": "images/refrigerators/zline-rfm-w-36.webp",
         "source_url": "https://zlinekitchen.com/products/zline-36-counter-depth-refrigerator-stainless-steel-rfm-w-36",
         "source": "zline"
       },
       "height_in": 69.69,
       "depth_with_handle_in": 29.13,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lf25h6330s",
@@ -8667,7 +8774,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf25h6330s/m415676/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25h6330s-french-3-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/business/download/resources/CT00021979/LF25H6330_LG_Pro_Builder_Spec_Sheet%5B20240821_225700%5D.pdf"
@@ -8683,16 +8790,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lf25h6330s.jpg",
+        "local": "images/refrigerators/lg-lf25h6330s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593130_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.9375,
       "hinge": "reversible",
       "depth_in": 33.25,
-      "depth_with_handle_in": 35.375
+      "depth_with_handle_in": 35.375,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lf25h6200s",
@@ -8721,7 +8829,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf25h6200s/m415675/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf25h6200s-french-3-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lf25h6200s-french-3-door-refrigerator"
@@ -8736,16 +8844,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lf25h6200s.jpg",
+        "local": "images/refrigerators/lg-lf25h6200s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6593/6593126_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.9375,
       "depth_in": 29.5,
       "depth_with_handle_in": 35.9375,
-      "hinge": "reversible"
+      "hinge": "reversible",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lf21g6200s",
@@ -8774,7 +8883,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lf21g6200s/m413377/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lf21g6200s-french-3-door-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/support/products/documents/LF21G6200S_spec_sheet.pdf"
@@ -8789,16 +8898,17 @@
       "release_year": null,
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lf21g6200s.jpg",
+        "local": "images/refrigerators/lg-lf21g6200s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553178_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.9375,
       "hinge": "right",
       "depth_in": 28.75,
-      "depth_with_handle_in": 31.25
+      "depth_with_handle_in": 31.25,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "dacor-drf485300ap",
@@ -8829,7 +8939,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/dacor-drf485300ap/m410372/",
           "manufacturer": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/48-inch-french-door-refrigerator-panel-ready-drf485300ap/",
           "specs": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/48-inch-french-door-refrigerator-panel-ready-drf485300ap/"
         }
@@ -8842,14 +8952,15 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/dacor-drf485300ap.png",
+        "local": "images/refrigerators/dacor-drf485300ap.webp",
         "source_url": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/48-inch-french-door-refrigerator-panel-ready-drf485300ap/",
         "source": "dacor"
       },
       "height_in": 83.375,
-      "depth_with_handle_in": 23.8125
+      "depth_with_handle_in": 23.8125,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "dacor-drf367500ap",
@@ -8879,7 +8990,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/dacor-drf367500ap/m392783/",
           "manufacturer": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-built-in-french-door-with-steelcool-panel-ready-drf367500ap/",
           "specs": "https://www.dacor.com/us/products/refrigeration/french-door-refrigeration/36-inch-built-in-french-door-with-steelcool-panel-ready-drf367500ap/"
         }
@@ -8892,10 +9003,11 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "_meta": {},
       "height_in": 83.375,
-      "depth_with_handle_in": 25
+      "depth_with_handle_in": 25,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "thermador-t36it100np",
@@ -8924,7 +9036,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/thermador-t36it100np/m414756/",
           "manufacturer": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/3423272",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
@@ -8940,9 +9052,9 @@
       "release_year": 2024,
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/thermador-t36it100np.png",
+        "local": "images/refrigerators/thermador-t36it100np.webp",
         "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
         "source": "thermador"
       },
@@ -8950,7 +9062,7 @@
       "depth_with_handle_in": 24,
       "images": [
         {
-          "local": "images/refrigerators/thermador-t36it100np.png",
+          "local": "images/refrigerators/thermador-t36it100np.webp",
           "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T36IT100NP",
           "source": "thermador",
           "view": "primary"
@@ -9009,7 +9121,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "sks-sksfd4826p",
@@ -9038,7 +9151,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/signature-kitchen-suite-sksfd4826p/m410371/",
           "manufacturer": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator",
           "specs": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator"
         },
@@ -9059,14 +9172,15 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/sks-sksfd4826p.jpg",
+        "local": "images/refrigerators/sks-sksfd4826p.webp",
         "source_url": "https://www.sksappliances.com/us/products/french-door-refrigerators/48-inch-built-french-door-refrigerator",
         "source": "sks"
       },
       "height_in": 84,
-      "depth_with_handle_in": 23.87
+      "depth_with_handle_in": 23.87,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "thermador-t30ib905sp",
@@ -9093,7 +9207,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/thermador-freedom-collection-t30ib905sp/m405199/",
           "specs": "https://www.thermador.com/us/en/mkt-product/T30IB905SP"
         },
         "endorsements": [
@@ -9109,16 +9223,16 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/thermador-t30ib905sp.jpg",
+        "local": "images/refrigerators/thermador-t30ib905sp.webp",
         "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T30IB905SP",
         "source": "thermador"
       },
       "height_in": 83.75,
       "depth_with_handle_in": 24,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/thermador-t30ib905sp.jpg",
+          "local": "images/refrigerators/thermador-t30ib905sp.webp",
           "source_url": "https://www.thermador.com/us/en/mkt-product/refrigeration/bottom-freezer-refrigerators/T30IB905SP",
           "source": "thermador",
           "view": "primary"
@@ -9153,7 +9267,8 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "zline-rbiv-304-30",
@@ -9180,7 +9295,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/zline-rbiv-304-30/m410449/",
           "specs": "https://zlinekitchen.com/products/zline-30-built-in-refrigerator-stainless-steel-rbiv-304-30"
         }
       },
@@ -9188,9 +9303,10 @@
       "cons": [],
       "release_year": null,
       "_meta": {},
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 83.56,
-      "depth_with_handle_in": 24.25
+      "depth_with_handle_in": 24.25,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "sub-zero-det3050ciid",
@@ -9217,17 +9333,18 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm"
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/sub-zero-designer-det3050ciid/m409291/"
         }
       },
       "pros": [],
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/sub-zero-det3050ciid.png",
+        "local": "images/refrigerators/sub-zero-det3050ciid.webp",
         "source_url": "https://www.subzero-wolf.com/sub-zero/full-size-refrigeration/integrated-fridges/30-inch-integrated-over-under-refrigerator-freezer-ice-maker-internal-dispenser-panel-ready",
         "source": "sub_zero"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "kitchenaid-kbbr306ess",
@@ -9254,7 +9371,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/kitchenaid-kbbr306ess/m372990/",
           "specs": "https://www.kitchenaid.com/major-appliances/refrigeration/built-in-refrigerators/built-in-bottom-freezer/p.20.9-cu.-ft.-36-width-built-in-stainless-bottom-mount-refrigerator-with-platinum-interior-design.kbbr306ess.html"
         }
       },
@@ -9262,17 +9379,17 @@
       "cons": [],
       "release_year": null,
       "image": {
-        "local": "images/refrigerators/kitchenaid-kbbr306ess.jpg",
+        "local": "images/refrigerators/kitchenaid-kbbr306ess.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7138/7138081_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 83.375,
       "depth_in": 27.75,
       "hinge": "right",
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/kitchenaid-kbbr306ess.jpg",
+          "local": "images/refrigerators/kitchenaid-kbbr306ess.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7138/7138081_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -9319,7 +9436,8 @@
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "viking-fdbb5364l",
@@ -9346,7 +9464,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/viking-fdbb5364l/m417478/",
           "specs": "https://vikingrange.com/products/chill/refrigeration/model/FDBB5364/sku/FDBB5364L"
         }
       },
@@ -9354,9 +9472,10 @@
       "cons": [],
       "release_year": null,
       "_meta": {},
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 82.75,
-      "depth_with_handle_in": 24
+      "depth_with_handle_in": 24,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-benchmark-b30ib905sp",
@@ -9386,7 +9505,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-benchmark-b30ib905sp/m405009/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/B30IB905SP",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2365289",
           "specs": "https://media3.bosch-home.com/Documents/16233242_B30IB905SP_Spec_Sheet.pdf"
@@ -9398,9 +9517,9 @@
       ],
       "cons": [],
       "release_year": null,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/bosch-benchmark-b30ib905sp.jpg",
+        "local": "images/refrigerators/bosch-benchmark-b30ib905sp.webp",
         "source_url": "https://www.bosch-home.com/us/en/product/B30IB905SP",
         "source": "bosch-benchmark"
       },
@@ -9408,7 +9527,7 @@
       "depth_with_handle_in": 24,
       "images": [
         {
-          "local": "images/refrigerators/bosch-benchmark-b30ib905sp.jpg",
+          "local": "images/refrigerators/bosch-benchmark-b30ib905sp.webp",
           "source_url": "https://www.bosch-home.com/us/en/product/B30IB905SP",
           "source": "bosch-benchmark",
           "view": "primary"
@@ -9461,7 +9580,8 @@
           "source": "manufacturer",
           "view": "g8"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wrb322dmbm",
@@ -9499,7 +9619,7 @@
           }
         },
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/whirlpool-wrb322dmbm/m266373/",
           "manufacturer": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/bottom-freezer/p.33-inches-wide-bottom-freezer-refrigerator-with-spillguard-glass-shelves-22-cu.-ft.wrb322dmbm.html",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2208216",
           "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/bottom-freezer/p.33-inches-wide-bottom-freezer-refrigerator-with-spillguard-glass-shelves-22-cu.-ft.wrb322dmbm.html"
@@ -9529,16 +9649,16 @@
       "pros": [],
       "cons": [],
       "image": {
-        "local": "images/refrigerators/whirlpool-wrb322dmbm.jpg",
+        "local": "images/refrigerators/whirlpool-wrb322dmbm.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3928/3928039_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70,
       "depth_with_handle_in": 33.375,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrb322dmbm.jpg",
+          "local": "images/refrigerators/whirlpool-wrb322dmbm.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3928/3928039_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -9549,7 +9669,8 @@
           "source": "manufacturer",
           "view": "g1"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "maytag-mrff4136rz",
@@ -9579,7 +9700,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/maytag-mrff4136rz/m414037/",
           "manufacturer": "https://www.maytag.com/kitchen/refrigeration/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4136rz.html",
           "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
           "specs": "https://www.maytag.com/kitchen/refrigeration/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4136rz.html"
@@ -9590,17 +9711,17 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/maytag-mrff4136rz.jpg",
+        "local": "images/refrigerators/maytag-mrff4136rz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617970_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.12,
       "depth_in": 32.87,
       "depth_with_handle_in": 35.5,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/maytag-mrff4136rz.jpg",
+          "local": "images/refrigerators/maytag-mrff4136rz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6617/6617970_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -9659,7 +9780,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "maytag-mrff4236rz",
@@ -9689,7 +9811,7 @@
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/maytag-mrff4236rz/m414254/",
           "manufacturer": "https://www.maytag.com/kitchen/refrigerators/french-door/p.maytag-36-inch-wide-french-door-bottom-mount-refrigerator-with-max-cool-setting-25-cu.-ft.mrff4236rz.html",
           "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
           "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door",
@@ -9709,7 +9831,7 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "_meta": {},
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "height_in": 70.13,
       "depth_with_handle_in": 35.5,
       "images": [
@@ -9743,7 +9865,8 @@
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b36cl80sns",
@@ -9770,7 +9893,7 @@
         "cr_overall": 71,
         "cr_reliability": "very-good",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-b36cl80sns/m399342/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36CL80SNS",
           "energy_star": "https://www.energystar.gov/productfinder/product/certified-residential-refrigerators/details/2371893",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
@@ -9785,9 +9908,9 @@
       "cons": [],
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/bosch-b36cl80sns.jpg",
+        "local": "images/refrigerators/bosch-b36cl80sns.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354067_sd.jpg",
         "source": "best_buy"
       },
@@ -9796,7 +9919,7 @@
       "depth_with_handle_in": 30.906,
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36cl80sns.jpg",
+          "local": "images/refrigerators/bosch-b36cl80sns.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6354/6354067_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -9855,7 +9978,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "bosch-b36fd10ens",
@@ -9879,7 +10003,7 @@
         "cr_overall": 71,
         "cr_reliability": "very-good",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/bosch-b36fd10ens/m415852/",
           "manufacturer": "https://www.bosch-home.com/us/en/product/refrigerators/fridge-freezers/freestanding-fridge-freezers-with-freezer-at-bottom/B36FD10ENS",
           "water_filter": "https://www.bosch-home.com/us/store/parts-accessories/replfltr10-bosch-refrigerator-water-filter-740560",
           "rtings": "https://www.rtings.com/refrigerator/reviews/best/french-door",
@@ -9899,17 +10023,17 @@
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
       "image": {
-        "local": "images/refrigerators/bosch-b36fd10ens.jpg",
+        "local": "images/refrigerators/bosch-b36fd10ens.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6590/6590343_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70,
       "depth_in": 28.375,
       "depth_with_handle_in": 33.12,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/bosch-b36fd10ens.jpg",
+          "local": "images/refrigerators/bosch-b36fd10ens.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6590/6590343_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -9968,7 +10092,8 @@
           "source": "manufacturer",
           "view": "g9"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rf23bb8900aw",
@@ -10023,7 +10148,7 @@
       ],
       "cons": [],
       "image": {
-        "local": "images/refrigerators/samsung-rf23bb8900aw.jpg",
+        "local": "images/refrigerators/samsung-rf23bb8900aw.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6493/6493530_sd.jpg",
         "source": "best_buy"
       },
@@ -10032,7 +10157,8 @@
       "last_updated": "2026-05-05",
       "height_in": 70,
       "depth_with_handle_in": 28.75,
-      "depth_in": 28.75
+      "depth_in": 28.75,
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "samsung-rs23cb7600qlaa",
@@ -10059,7 +10185,7 @@
         "cr_overall": 58,
         "cr_reliability": "fair",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/samsung-bespoke-rs23cb7600qlaa/m409287/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-counter-depth-side-by-side-23-cu-ft-refrigerator-with-beverage-center-in-stainless-steel-rs23cb7600qlaa/",
           "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/",
           "specs": "https://www.samsung.com/us/home-appliances/refrigerators/bespoke/bespoke-counter-depth-side-by-side-23-cu-ft-refrigerator-with-beverage-center-in-stainless-steel-rs23cb7600qlaa/"
@@ -10072,9 +10198,9 @@
       "cons": [],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/samsung-rs23cb7600qlaa.jpg",
+        "local": "images/refrigerators/samsung-rs23cb7600qlaa.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529229_sd.jpg",
         "source": "best_buy"
       },
@@ -10083,30 +10209,31 @@
       "depth_in": 28.875,
       "images": [
         {
-          "local": "images/refrigerators/samsung-rs23cb7600qlaa.jpg",
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529229_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g1.png",
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs23cb7600qlaa/gallery/us-side-by-side-rs23cb7600qlaa-rs----cc-side-by-side-refrigerators-with-bespoke-stainless-steel-551271377?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g2.png",
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs23cb7600qlaa/gallery/us-side-by-side-rs23cb7600qlaa-rs----cc-side-by-side-refrigerators-with-bespoke-stainless-steel-551271391?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g3.png",
+          "local": "images/refrigerators/samsung-rs23cb7600qlaa-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs23cb7600qlaa/gallery/us-side-by-side-rs23cb7600qlaa-rs----cc-side-by-side-refrigerators-with-bespoke-stainless-steel-551271393?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rs27t5200sr",
@@ -10135,7 +10262,7 @@
         "cr_overall": 62,
         "cr_reliability": "fair",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/samsung-rs27t5200sr/m401413/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/27-4-cu-ft-side-by-side-refrigerator-with-large-capacity-in-stainless-steel-rs27t5200sr-aa/v2/",
           "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/",
           "reviewed": "https://www.reviewed.com/refrigerators/best-right-now/best-stainless-steel-fridges-under-2000",
@@ -10167,9 +10294,9 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/samsung-rs27t5200sr.jpg",
+        "local": "images/refrigerators/samsung-rs27t5200sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397576_sd.jpg",
         "source": "best_buy"
       },
@@ -10179,24 +10306,25 @@
       "hinge": "reversible",
       "images": [
         {
-          "local": "images/refrigerators/samsung-rs27t5200sr.jpg",
+          "local": "images/refrigerators/samsung-rs27t5200sr.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397576_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5200sr-g1.jpg",
+          "local": "images/refrigerators/samsung-rs27t5200sr-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5200sr-aa/gallery/us-ref-sbs-rs5300-569370-rs27t5200sr-aa-549692444?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5200sr-g2.jpg",
+          "local": "images/refrigerators/samsung-rs27t5200sr-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5200sr-aa/gallery/us-ref-sbs-rs5300-569370-rs27t5200sr-aa-549692461?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rs27t5561sr",
@@ -10229,7 +10357,7 @@
           }
         },
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/samsung-rs27t5561sr/m401164/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/26-7-cu-ft-large-capacity-side-by-side-refrigerator-with-touch-screen-family-hub--in-stainless-steel-rs27t5561sr-aa/",
           "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/",
           "specs": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/26-7-cu-ft-large-capacity-side-by-side-refrigerator-with-touch-screen-family-hub--in-stainless-steel-rs27t5561sr-aa/"
@@ -10240,64 +10368,65 @@
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
       "image": {
-        "local": "images/refrigerators/samsung-rs27t5561sr.jpg",
+        "local": "images/refrigerators/samsung-rs27t5561sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397590_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.0625,
       "depth_with_handle_in": 33.5,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "depth_in": 33.5,
       "images": [
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr.jpg",
+          "local": "images/refrigerators/samsung-rs27t5561sr.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397590_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr-g1.png",
+          "local": "images/refrigerators/samsung-rs27t5561sr-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707595?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr-g2.jpg",
+          "local": "images/refrigerators/samsung-rs27t5561sr-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549708299?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr-g3.png",
+          "local": "images/refrigerators/samsung-rs27t5561sr-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707564?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr-g4.png",
+          "local": "images/refrigerators/samsung-rs27t5561sr-g4.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707560?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g4"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr-g5.png",
+          "local": "images/refrigerators/samsung-rs27t5561sr-g5.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707561?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g5"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr-g6.png",
+          "local": "images/refrigerators/samsung-rs27t5561sr-g6.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707563?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g6"
         },
         {
-          "local": "images/refrigerators/samsung-rs27t5561sr-g7.png",
+          "local": "images/refrigerators/samsung-rs27t5561sr-g7.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs27t5561sr-aa/gallery/us-ref-sbs-rs5300-569486-rs27t5561sr-aa-549707570?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g7"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rf25c5551sr",
@@ -10331,7 +10460,7 @@
           }
         },
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/samsung-rf25c5551sr/m415360/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/3-door-french-door/25-cu-ft-33-3-door-french-door-refrigerator-with-beverage-center-and--autofill-water-pitcher-in-stainless-steel-rf25c5551sr-aa/",
           "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/",
           "specs": "https://image-us.samsung.com/SamsungUS/home/pdf/2023_RF25C5551_V9.pdf"
@@ -10346,9 +10475,9 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/samsung-rf25c5551sr.jpg",
+        "local": "images/refrigerators/samsung-rf25c5551sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529227_sd.jpg",
         "source": "best_buy"
       },
@@ -10357,18 +10486,19 @@
       "depth_with_handle_in": 33.3125,
       "images": [
         {
-          "local": "images/refrigerators/samsung-rf25c5551sr.jpg",
+          "local": "images/refrigerators/samsung-rf25c5551sr.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529227_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rf25c5551sr-g1.jpg",
+          "local": "images/refrigerators/samsung-rf25c5551sr-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rf25c5551sr-aa/gallery/us-french-door-beverage-center-rf25c5551sr-aa-549714667?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "samsung-rs22t5561sr",
@@ -10402,7 +10532,7 @@
           }
         },
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/samsung-rs22t5561sr/m401165/",
           "manufacturer": "https://www.samsung.com/us/home-appliances/refrigerators/side-by-side/22-cu-ft-counter-depth-side-by-side-refrigerator-with-touch-screen-family-hub-in-stainless-steel-rs22t5561sr-aa/",
           "water_filter": "https://www.samsung.com/us/home-appliances/home-appliances-accessories/refrigerators/haf-qin-refrigerator-water-filter-haf-qin-exp/",
           "specs": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/side-by-side/pdp/rs22t5561sr-aa/RS22T5561SR_V6.pdf"
@@ -10417,9 +10547,9 @@
       ],
       "water_filter_model": "HAF-QIN",
       "water_filter_cost_yr": 95,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/samsung-rs22t5561sr.jpg",
+        "local": "images/refrigerators/samsung-rs22t5561sr.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397592_sd.jpg",
         "source": "best_buy"
       },
@@ -10428,42 +10558,43 @@
       "depth_in": 28.625,
       "images": [
         {
-          "local": "images/refrigerators/samsung-rs22t5561sr.jpg",
+          "local": "images/refrigerators/samsung-rs22t5561sr.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397592_sd.jpg",
           "source": "best_buy",
           "view": "primary"
         },
         {
-          "local": "images/refrigerators/samsung-rs22t5561sr-g1.png",
+          "local": "images/refrigerators/samsung-rs22t5561sr-g1.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690752?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g1"
         },
         {
-          "local": "images/refrigerators/samsung-rs22t5561sr-g2.jpg",
+          "local": "images/refrigerators/samsung-rs22t5561sr-g2.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-rs22t5561sr-aa-549691020?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g2"
         },
         {
-          "local": "images/refrigerators/samsung-rs22t5561sr-g3.png",
+          "local": "images/refrigerators/samsung-rs22t5561sr-g3.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690732?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g3"
         },
         {
-          "local": "images/refrigerators/samsung-rs22t5561sr-g4.png",
+          "local": "images/refrigerators/samsung-rs22t5561sr-g4.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690731?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g4"
         },
         {
-          "local": "images/refrigerators/samsung-rs22t5561sr-g5.png",
+          "local": "images/refrigerators/samsung-rs22t5561sr-g5.webp",
           "source_url": "https://images.samsung.com/is/image/samsung/p6pim/us/rs22t5561sr-aa/gallery/us-ref-sbs-rs5300-569368-rs22t5561sr-aa-549690723?wid=1200&fmt=webp",
           "source": "manufacturer",
           "view": "g5"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lhsxs2706s",
@@ -10488,7 +10619,7 @@
         "cr_overall": 68,
         "cr_reliability": "fair",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lhsxs2706s/m406828/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lhsxs2706s-side-by-side-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lhsxs2706s-side-by-side-refrigerator"
@@ -10503,16 +10634,17 @@
       ],
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lhsxs2706s.jpg",
+        "local": "images/refrigerators/lg-lhsxs2706s.webp",
         "source_url": "https://www.lg.com/us/refrigerators/lg-lhsxs2706s-side-by-side-refrigerator",
         "source": "lg"
       },
       "height_in": 70.5,
       "depth_in": 22.625,
       "depth_with_handle_in": 33.5,
-      "hinge": "right"
+      "hinge": "right",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrsds2706s",
@@ -10539,7 +10671,7 @@
         "cr_overall": 71,
         "cr_reliability": "fair",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrsds2706s/m404468/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrsds2706s-side-by-side-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrsds2706s-side-by-side-refrigerator"
@@ -10552,16 +10684,17 @@
       "cons": [],
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrsds2706s.jpg",
+        "local": "images/refrigerators/lg-lrsds2706s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468481_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 68.88,
       "depth_in": 22.63,
       "depth_with_handle_in": 33.5,
-      "hinge": "right"
+      "hinge": "right",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrsos2706s",
@@ -10587,7 +10720,7 @@
         "cr_overall": 65,
         "cr_reliability": "fair",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrsos2706s/m404725/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrsos2706s-side-by-side-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrsos2706s-side-by-side-refrigerator"
@@ -10600,16 +10733,17 @@
       "cons": [],
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrsos2706s.jpg",
+        "local": "images/refrigerators/lg-lrsos2706s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468484_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 70.5,
       "depth_in": 22.63,
       "depth_with_handle_in": 33.5,
-      "hinge": "right"
+      "hinge": "right",
+      "price_as_of": "2026-05-05"
     },
     {
       "id": "lg-lrsws2806s",
@@ -10632,7 +10766,7 @@
         "cr_overall": 63,
         "cr_reliability": "fair",
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lrsws2806s/m412362/",
           "manufacturer": "https://www.lg.com/us/refrigerators/lg-lrsws2806s-side-by-side-refrigerator",
           "water_filter": "https://www.lg.com/us/appliances-accessories/lg-lt1000p-refrigerator-water-filter",
           "specs": "https://www.lg.com/us/refrigerators/lg-lrsws2806s-side-by-side-refrigerator"
@@ -10647,9 +10781,9 @@
       ],
       "water_filter_model": "LT1000P",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/lg-lrsws2806s.jpg",
+        "local": "images/refrigerators/lg-lrsws2806s.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6532/6532728_sd.jpg",
         "source": "best_buy"
       },
@@ -10701,7 +10835,7 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrf767sdhz.jpg",
+        "local": "images/refrigerators/whirlpool-wrf767sdhz.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6292/6292010_sd.jpg",
         "source": "best_buy"
       },
@@ -10711,7 +10845,7 @@
       "last_updated": "2026-05-14",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrf767sdhz.jpg",
+          "local": "images/refrigerators/whirlpool-wrf767sdhz.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6292/6292010_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -10790,7 +10924,7 @@
           }
         },
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/frigidaire-frfg1723av/m406466/",
           "manufacturer": "https://www.frigidaire.com/en/p/kitchen/refrigerators/french-door-refrigerators/FRFG1723AV",
           "water_filter": "https://www.frigidaire.com/en/p/accessories/refrigerator-accessories/refrigerator-accessories-and-consumables/water-filters/EPTWFU012PAK",
           "specs": "https://www.frigidaire.com/en/p/kitchen/refrigerators/french-door-refrigerators/FRFG1723AV"
@@ -10803,9 +10937,9 @@
       "cons": [],
       "water_filter_model": "EPTWFU01",
       "water_filter_cost_yr": 110,
-      "last_updated": "2026-05-05",
+      "last_updated": "2026-10-20",
       "image": {
-        "local": "images/refrigerators/frigidaire-frfg1723av.jpg",
+        "local": "images/refrigerators/frigidaire-frfg1723av.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6486/6486389_sd.jpg",
         "source": "best_buy"
       },
@@ -10841,7 +10975,7 @@
           }
         },
         "source_urls": {
-          "cr": "https://www.consumerreports.org/cro/refrigerators/buying-guide/index.htm",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gye21jymfs/m415672/",
           "manufacturer": "https://www.geappliances.com/appliance/GE-ENERGY-STAR-20-6-Cu-Ft-Fingerprint-Resistant-Counter-Depth-French-Door-Refrigerator-GYE21JYMFS",
           "water_filter": "https://www.geappliances.com/ge/parts/refrigerator-icemaker-replacement-filters.htm",
           "specs": "https://www.us-appliance.com/content/pdf/usa/GYE21JYMFS_Specs.pdf"
@@ -10852,14 +10986,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-gye21jymfs.jpg",
+        "local": "images/refrigerators/ge-gye21jymfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6582/6582113_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.875,
       "depth_with_handle_in": 30.9375,
-      "last_updated": "2026-05-14",
-      "depth_in": 29
+      "last_updated": "2026-10-20",
+      "depth_in": 29,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gse25gypfs",
@@ -10882,7 +11017,7 @@
       "ratings": {
         "wirecutter": "top pick (best side-by-side) 2026",
         "cr_overall": null,
-        "cr_reliability": "very-good",
+        "cr_reliability": null,
         "yale_reliability_pct": null,
         "reviewed": null,
         "source_urls": {
@@ -10912,14 +11047,15 @@
       "water_filter_model": "XWFE",
       "water_filter_cost_yr": 115,
       "image": {
-        "local": "images/refrigerators/ge-gse25gypfs.jpg",
+        "local": "images/refrigerators/ge-gse25gypfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6475/6475435_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 69.625,
       "depth_with_handle_in": 34.75,
-      "last_updated": "2026-05-14",
-      "depth_in": 32.75
+      "last_updated": "2026-10-20",
+      "depth_in": 32.75,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "whirlpool-wrs315snhm",
@@ -10946,7 +11082,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
-          "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/side-by-side/p.36-inch-wide-side-by-side-refrigerator-25-cu.-ft.wrs315snhm.html"
+          "specs": "https://www.whirlpool.com/kitchen/refrigeration/refrigerators/side-by-side/p.36-inch-wide-side-by-side-refrigerator-25-cu.-ft.wrs315snhm.html",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/whirlpool-wrs315snhm/m393939/"
         },
         "endorsements": [
           {
@@ -10968,17 +11105,17 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrs315snhm.jpg",
+        "local": "images/refrigerators/whirlpool-wrs315snhm.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6211/6211525_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 66.625,
       "depth_in": 28,
       "depth_with_handle_in": 33.625,
-      "last_updated": "2026-05-14",
+      "last_updated": "2026-10-20",
       "images": [
         {
-          "local": "images/refrigerators/whirlpool-wrs315snhm.jpg",
+          "local": "images/refrigerators/whirlpool-wrs315snhm.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6211/6211525_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -11019,7 +11156,8 @@
           "source": "manufacturer",
           "view": "g6"
         }
-      ]
+      ],
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gts17dtnrww",
@@ -11046,7 +11184,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
-          "specs": "https://www.geappliances.com/appliance/GE-16-6-Cu-Ft-Top-Freezer-Refrigerator-GTS17DTNRWW"
+          "specs": "https://www.geappliances.com/appliance/GE-16-6-Cu-Ft-Top-Freezer-Refrigerator-GTS17DTNRWW",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/ge-gts17dtnrww/m399878/"
         },
         "endorsements": [
           {
@@ -11069,14 +11208,15 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/refrigerators/ge-gts17dtnrww.jpg",
+        "local": "images/refrigerators/ge-gts17dtnrww.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6361/6361278_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 64.75,
       "depth_with_handle_in": 32.625,
-      "last_updated": "2026-05-14",
-      "depth_in": 32.625
+      "last_updated": "2026-10-20",
+      "depth_in": 32.625,
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "frigidaire-fftr1835vs",
@@ -11101,7 +11241,7 @@
       "ratings": {
         "wirecutter": "upgrade pick (top-freezer) 2026",
         "cr_overall": null,
-        "cr_reliability": "very-good",
+        "cr_reliability": null,
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
@@ -11128,14 +11268,15 @@
       ],
       "release_year": 2023,
       "image": {
-        "local": "images/refrigerators/frigidaire-fftr1835vs.jpg",
+        "local": "images/refrigerators/frigidaire-fftr1835vs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6369/6369424_sd.jpg",
         "source": "best_buy"
       },
       "height_in": 65.875,
       "depth_with_handle_in": 30.375,
       "garage_ready": true,
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "lg-lhtns2403s",
@@ -11167,7 +11308,8 @@
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-refrigerators/",
           "garage_ready": "https://www.homedepot.com/p/LG-Electronics-24-cu-ft-Top-Freezer-Refrigerator-LHTNS2403S/318467412",
           "yale_reliability": "https://blog.yaleappliance.com/the-least-serviced-most-reliable-appliance-brands",
-          "specs": "https://www.lg.com/us/refrigerators/lg-lhtns2403s-top-freezer-refrigerator"
+          "specs": "https://www.lg.com/us/refrigerators/lg-lhtns2403s-top-freezer-refrigerator",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/lg-lhtns2403s/m408275/"
         },
         "endorsements": [
           {
@@ -11189,7 +11331,7 @@
       ],
       "release_year": 2024,
       "image": {
-        "local": "images/refrigerators/lg-lhtns2403s.jpg",
+        "local": "images/refrigerators/lg-lhtns2403s.webp",
         "source_url": "https://www.lg.com/us/refrigerators/lg-lhtns2403s-top-freezer-refrigerator",
         "source": "lg"
       },
@@ -11197,7 +11339,8 @@
       "depth_in": 26.12,
       "depth_with_handle_in": 34,
       "hinge": "reversible",
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-10-20",
+      "price_as_of": "2026-05-14"
     },
     {
       "id": "ge-gbe17hyrfs",
@@ -11223,7 +11366,7 @@
       "ratings": {
         "wirecutter": "top pick (best counter-depth bottom-freezer) 2026",
         "cr_overall": null,
-        "cr_reliability": "very-good",
+        "cr_reliability": null,
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-counter-depth-refrigerators/",
@@ -11250,10 +11393,11 @@
       ],
       "release_year": 2024,
       "image": {
-        "local": "images/refrigerators/ge-gbe17hyrfs.jpg",
+        "local": "images/refrigerators/ge-gbe17hyrfs.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6475/6475364_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "fp-rf201adjsx5",
@@ -11311,7 +11455,7 @@
       ],
       "release_year": 2025,
       "image": {
-        "local": "images/refrigerators/fp-rf201adjsx5.png",
+        "local": "images/refrigerators/fp-rf201adjsx5.webp",
         "source_url": "https://www.fisherpaykel.com/us/cooling/refrigeration/contemporary-refrigeration/20.1-cu-ft-series-7-french-door-refrigerator-freezer-ice-rf201adjsx5-26306.html",
         "source": "fisher_paykel"
       }
@@ -11344,7 +11488,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-counter-depth-refrigerators/",
-          "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html"
+          "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/maytag-mfc2062fez/m390570/"
         },
         "endorsements": [
           {
@@ -11368,10 +11513,11 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/maytag-mfc2062fez.jpg",
+        "local": "images/refrigerators/maytag-mfc2062fez.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5582/5582418_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "whirlpool-wrsc5536rb",
@@ -11404,7 +11550,8 @@
         "yale_reliability_pct": null,
         "source_urls": {
           "wirecutter": "https://www.nytimes.com/wirecutter/reviews/best-counter-depth-refrigerators/",
-          "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html"
+          "water_filter": "https://www.whirlpool.com/accessories/kitchen-accessories/refrigerator/p.everydrop-refrigerator-water-filter-3-edr3rxd1-pack-of-1.edr3rxd1.html",
+          "cr": "https://www.consumerreports.org/appliances/refrigerators/whirlpool-wrsc5536rb/m419053/"
         },
         "endorsements": [
           {
@@ -11429,10 +11576,11 @@
       "water_filter_model": "EDR3RXD1",
       "water_filter_cost_yr": 110,
       "image": {
-        "local": "images/refrigerators/whirlpool-wrsc5536rb.jpg",
+        "local": "images/refrigerators/whirlpool-wrsc5536rb.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6618/6618974_sd.jpg",
         "source": "best_buy"
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "id": "bosch-b24cb80ess",
@@ -11492,13 +11640,13 @@
       "water_filter_model": "BORPLFTR10",
       "water_filter_cost_yr": 90,
       "image": {
-        "local": "images/refrigerators/bosch-b24cb80ess.jpg",
+        "local": "images/refrigerators/bosch-b24cb80ess.webp",
         "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542109_sd.jpg",
         "source": "best_buy"
       },
       "images": [
         {
-          "local": "images/refrigerators/bosch-b24cb80ess.jpg",
+          "local": "images/refrigerators/bosch-b24cb80ess.webp",
           "source_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542109_sd.jpg",
           "source": "best_buy",
           "view": "primary"
@@ -11558,7 +11706,8 @@
           "view": "g9"
         }
       ],
-      "last_updated": "2026-05-14"
+      "last_updated": "2026-05-14",
+      "price_as_of": "2026-05-14"
     }
   ]
 }
