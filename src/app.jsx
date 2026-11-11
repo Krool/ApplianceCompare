@@ -485,6 +485,19 @@ function App({ data }) {
         </main>
       )}
 
+      <footer className="site-footer">
+        <p>
+          Prices drift and ratings change; confirm both at the retailer before buying. Independent research,
+          not affiliated with or endorsed by the brands, retailers or review outlets named. Product photos
+          belong to their manufacturers and retailers and are shown for identification.
+        </p>
+        <p>
+          <a href="./privacy.html">Privacy</a>
+          <a href="https://github.com/Krool/ApplianceCompare" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+          <a href="mailto:kroolworld@proton.me">kroolworld@proton.me</a>
+        </p>
+      </footer>
+
       {openModel && !isGuide && (
         <Drawer
           model={openModel}

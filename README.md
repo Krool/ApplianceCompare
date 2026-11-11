@@ -117,7 +117,7 @@ The model database lives in `public/data/*.json`. Schema is documented in [publi
 
 ## License
 
-[MIT](LICENSE). Data is aggregated from publicly available sources and presented with attribution; individual rating values remain the property of their publishers and are used here for comparison/research.
+[MIT](LICENSE). Data is aggregated from publicly available sources and presented with attribution; individual rating values remain the property of their publishers and are used here for comparison/research. Product photos under `public/data/images/` belong to their manufacturers and retailers, are shown for identification, and are not covered by the MIT license.
 
 ## Disclaimer
 
