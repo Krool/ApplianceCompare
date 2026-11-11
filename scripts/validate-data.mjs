@@ -99,7 +99,7 @@ brandsDoc.brands.forEach((b) => {
   // parent_company should reference a real brand id when it's a kebab-case string
   // matching the brand-id pattern; else it's a holding-company name (bsh, haier, etc.)
   if (b.parent_company && ID_PATTERN.test(b.parent_company)) {
-    // It looks like a brand id â€” if so, it should exist OR be a known holding company.
+    // It looks like a brand id - if so, it should exist OR be a known holding company.
     // Holding-company string-only values are allowed; we don't enforce them here.
   }
 });
@@ -140,9 +140,9 @@ for (const cat of ['refrigerators', 'dishwashers', 'ovens']) {
       }
     }
 
-    // Pricing sanity â€” msrp must be >= street_price (street is what you pay; msrp is sticker)
+    // Pricing sanity - msrp must be >= street_price (street is what you pay; msrp is sticker)
     if (m.msrp != null && m.street_price != null && m.msrp < m.street_price) {
-      err(cat, id, `msrp (${m.msrp}) < street_price (${m.street_price}) â€” impossible`);
+      err(cat, id, `msrp (${m.msrp}) < street_price (${m.street_price}) - impossible`);
     }
     if (m.msrp != null && m.msrp <= 0) err(cat, id, `non-positive msrp: ${m.msrp}`);
     if (m.street_price != null && m.street_price <= 0) err(cat, id, `non-positive street_price: ${m.street_price}`);
@@ -195,7 +195,7 @@ for (const cat of ['refrigerators', 'dishwashers', 'ovens']) {
       const abs = path.join(DATA, img.local);
       if (!fs.existsSync(abs)) err(cat, id, `image file missing: ${img.local}`);
       else if (/\.webp$/.test(img.local) && !fs.existsSync(abs.replace(/\.webp$/, '.thumb.webp'))) {
-        warn(cat, id, `no thumbnail for ${img.local} â€” run node scripts/optimize-images.mjs`);
+        warn(cat, id, `no thumbnail for ${img.local} - run node scripts/optimize-images.mjs`);
       }
     }
 
@@ -214,7 +214,7 @@ for (const cat of ['refrigerators', 'dishwashers', 'ovens']) {
       warn(cat, id, 'retired=true but missing retired_reason');
     }
 
-    // last_updated must be a valid ISO date when present (the field is optional â€”
+    // last_updated must be a valid ISO date when present (the field is optional -
     // legacy records omit it; new/edited records SHOULD include it).
     if (m.last_updated != null) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(m.last_updated)) {

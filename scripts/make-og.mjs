@@ -1,4 +1,4 @@
-// Generates public/og.png â€” the 1200x630 social-share card for Kitchen Appliance Compare.
+// Generates public/og.png - the 1200x630 social-share card for Kitchen Appliance Compare.
 // Uses sharp (already a dep) to rasterize an on-brand SVG. No browser needed.
 // Run: node scripts/make-og.mjs   (writes public/og.png; the next deploy picks it up)
 import sharp from 'sharp';
