@@ -14,9 +14,9 @@ export default defineConfig({
     sourcemap: false,
     // Keep everything inline-friendly for GH Pages; no code-splitting magic needed
     // for a ~150KB app. This inlines small assets and produces a single JS chunk.
-    rollupOptions: {
+    rolldownOptions: {
       output: {
-        inlineDynamicImports: true,
+        codeSplitting: false,
       },
     },
   },
