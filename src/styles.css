@@ -299,6 +299,13 @@ tr:focus-visible { outline-offset: -2px; }
   opacity: 1; transform: translate(-50%, 0);
   transition-delay: 0.2s;
 }
+/* The last toggle sits at the page's right edge; a centred tip ran past the
+   viewport and gave the whole page a sideways scroll. Anchor it to the right. */
+.loc-toggle button:last-child .th-tip { left: auto; right: 0; transform: translate(0, -4px); }
+.loc-toggle button:last-child .th-tip::before { left: auto; right: 18px; transform: none; }
+.loc-toggle button:last-child:hover .th-tip,
+.loc-toggle button:last-child:focus-visible .th-tip,
+.loc-toggle button:last-child:focus .th-tip { transform: translate(0, 0); }
 
 .results-meta {
   display: flex; justify-content: space-between; align-items: baseline;
@@ -361,7 +368,10 @@ tr:focus-visible { outline-offset: -2px; }
 /* === Table === */
 .table-wrap {
   background: var(--bg-elev); border: 1px solid var(--line);
-  border-radius: var(--radius-lg); overflow: hidden;
+  /* Scroll sideways when the table is wider than the column it sits in
+     (laptop widths with the sidebar open). `overflow: hidden` cut the Price,
+     CR, Yale, Energy and Tier columns off with no way to reach them. */
+  border-radius: var(--radius-lg); overflow-x: auto; overflow-y: hidden;
   box-shadow: var(--shadow-sm);
 }
 table.appliance-table {
@@ -434,6 +444,10 @@ table.appliance-table {
   opacity: 1; transform: translateY(0);
   transition-delay: 0.15s;
 }
+/* Tips on the right-hand columns open leftwards, so they add no empty scroll
+   width past the last column. */
+.appliance-table thead th:nth-last-child(-n+3) .th-tip { left: auto; right: 8px; }
+.appliance-table thead th:nth-last-child(-n+3) .th-tip::before { left: auto; right: 14px; }
 .appliance-table tbody tr {
   border-bottom: 1px solid var(--line);
   transition: background 0.08s;
