@@ -495,6 +495,7 @@ function App({ data }) {
           <a href="./privacy.html">Privacy</a>
           <a href="https://github.com/Krool/ApplianceCompare" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
           <a href="mailto:kroolworld@proton.me">kroolworld@proton.me</a>
+          <a href="https://ko-fi.com/kroolworld" target="_blank" rel="noopener noreferrer">Ko-fi</a>
         </p>
       </footer>
 
